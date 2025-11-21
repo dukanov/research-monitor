@@ -147,6 +147,14 @@ class Settings:
     @property
     def github_search_days(self) -> int:
         return self.sources.github_new.get("search_days", 14)
+    
+    @property
+    def github_request_delay(self) -> float:
+        return self.sources.github_new.get("request_delay", 7)
+    
+    @property
+    def github_min_stars(self) -> int:
+        return self.sources.github_new.get("min_stars", 5)
 
 
 def load_config(config_path: Path = Path("config.yaml")) -> dict:

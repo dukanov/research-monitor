@@ -144,10 +144,14 @@ class MonitoringService:
             if result.is_relevant and result.relevance_score >= self.relevance_threshold:
                 relevant_results.append(result)
         
+        # Count items marked as relevant by LLM (regardless of threshold)
+        llm_relevant_count = sum(1 for r in all_filter_results if r.is_relevant)
+        
         # Print summary
         print(f"\n✓ Проверено элементов: {len(all_filter_results)}")
-        print(f"✓ Релевантных: {len(relevant_results)}")
-        print(f"✗ Нерелевантных: {len(all_filter_results) - len(relevant_results)}")
+        print(f"✓ Помечено релевантными (LLM): {llm_relevant_count}")
+        print(f"✓ Прошло порог {int(self.relevance_threshold*100)}%: {len(relevant_results)}")
+        print(f"✗ Нерелевантных: {len(all_filter_results) - llm_relevant_count}")
         if errors:
             print(f"⚠️  Ошибок при проверке: {len(errors)}")
         

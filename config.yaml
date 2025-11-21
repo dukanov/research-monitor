@@ -34,20 +34,16 @@ sources:
   github_new:
     max_items: 10
     search_days: 14  # Search for repos created within last N days
+    min_stars: 10  # Minimum stars threshold
+    request_delay: 15  # Delay between search requests (seconds) to avoid rate limits
     search_queries:
       topics:
-        - speech-synthesis
         - voice-cloning
-        - tts
+        - speech-synthesis
         - text-to-speech
-        - zero-shot-tts
-        - voice-conversion
       keywords:
-        - "zero-shot TTS"
         - "emotional speech synthesis"
-        - "voice cloning"
-        - "speech dubbing"
-        - "expressive TTS"
+        - "neural audio codec"
 
 # Prompts for LLM
 prompts:

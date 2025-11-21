@@ -74,6 +74,8 @@ async def async_run(days: int, output: Optional[Path], debug: bool) -> None:
             topics=settings.github_topics,
             keywords=settings.github_keywords,
             search_days=settings.github_search_days,
+            min_stars=settings.github_min_stars,
+            request_delay=settings.github_request_delay,
         ),
         HFPapersSource(max_items=settings.max_items_per_source),
         HFTrendingSource(
