@@ -1,73 +1,108 @@
-"""GitHub feed source for monitoring starred repositories."""
+"""GitHub source for monitoring repositories by topics and keywords."""
 
 from datetime import date, datetime, timezone
 from typing import Optional
 
 import httpx
-from bs4 import BeautifulSoup
 
 from research_monitor.core import Item, ItemSource, ItemType
 
 
 class GitHubSource(ItemSource):
-    """Fetch repositories from GitHub feed of followed users."""
+    """Search GitHub repositories by topics and keywords."""
     
     emoji = "🐙"
-    name = "GitHub"
+    name = "GitHub (новые репо)"
     
-    def __init__(self, token: Optional[str] = None, max_items: int = 50) -> None:
+    def __init__(
+        self,
+        token: Optional[str] = None,
+        max_items: int = 50,
+        topics: Optional[list[str]] = None,
+        keywords: Optional[list[str]] = None,
+        search_days: int = 14,
+    ) -> None:
         self.token = token
         self.max_items = max_items
+        self.topics = topics or []
+        self.keywords = keywords or []
+        self.search_days = search_days
         self.api_base = "https://api.github.com"
         
     async def fetch_items(self, since: date) -> list[Item]:
-        """Fetch starred repositories from followed users' feed."""
+        """Search repositories by topics and keywords."""
+        seen_urls: set[str] = set()
         items: list[Item] = []
         
-        # Get user's feed of starred repos
+        # Calculate search period (fixed search_days instead of since parameter)
+        from datetime import timedelta
+        search_since = date.today() - timedelta(days=self.search_days)
+        
         async with httpx.AsyncClient(timeout=30.0) as client:
             headers = self._get_headers()
             
-            # Fetch user's timeline events (includes stars from followed users)
-            response = await client.get(
-                f"{self.api_base}/users/USER/received_events",
-                headers=headers,
-            )
-            
-            if response.status_code == 401:
-                # Try to get current user's feed instead
-                response = await client.get(
-                    f"{self.api_base}/events",
-                    headers=headers,
+            # Search by topics
+            for topic in self.topics:
+                topic_items = await self._search_by_query(
+                    client, headers, f"topic:{topic}", search_since
                 )
+                for item in topic_items:
+                    if item.url not in seen_urls:
+                        seen_urls.add(item.url)
+                        items.append(item)
+                        
+            # Search by keywords
+            for keyword in self.keywords:
+                keyword_items = await self._search_by_query(
+                    client, headers, f"{keyword} in:description,readme", search_since
+                )
+                for item in keyword_items:
+                    if item.url not in seen_urls:
+                        seen_urls.add(item.url)
+                        items.append(item)
+        
+        # Sort by stars (metadata contains stars count) and limit to max_items
+        items.sort(key=lambda x: int(x.metadata.get("stars", 0)), reverse=True)
+        return items[:self.max_items]
+    
+    async def _search_by_query(
+        self,
+        client: httpx.AsyncClient,
+        headers: dict[str, str],
+        query: str,
+        since: date,
+    ) -> list[Item]:
+        """Execute a search query and return items."""
+        items: list[Item] = []
+        
+        try:
+            # Build search query with date filter (by creation date)
+            date_filter = f"created:{since.isoformat()}..{date.today().isoformat()}"
+            full_query = f"{query} {date_filter}"
+            
+            # Search repositories (sorted by stars descending)
+            response = await client.get(
+                f"{self.api_base}/search/repositories",
+                headers=headers,
+                params={"q": full_query, "sort": "stars", "order": "desc", "per_page": 30},
+            )
             
             if response.status_code != 200:
                 return items
             
-            events = response.json()
+            data = response.json()
             
-            for event in events[:self.max_items]:
-                if event.get("type") != "WatchEvent":
-                    continue
-                
-                created_at = datetime.fromisoformat(
-                    event["created_at"].replace("Z", "+00:00")
+            for repo in data.get("items", []):
+                # Fetch full repo details including README
+                repo_item = await self._fetch_repo_details(
+                    client, repo["full_name"], headers
                 )
-                
-                if created_at.date() < since:
-                    continue
-                
-                repo_data = event.get("repo", {})
-                repo_name = repo_data.get("name")
-                
-                if not repo_name:
-                    continue
-                
-                # Fetch repository details
-                repo_info = await self._fetch_repo_details(client, repo_name, headers)
-                if repo_info:
-                    items.append(repo_info)
-        
+                if repo_item:
+                    items.append(repo_item)
+                    
+        except Exception as e:
+            print(f"Error searching with query '{query}': {e}")
+            
         return items
     
     async def _fetch_repo_details(
@@ -108,13 +143,18 @@ README:
 {readme_content}
 """
             
+            # Parse updated_at as discovery time
+            updated_at = datetime.fromisoformat(
+                repo["updated_at"].replace("Z", "+00:00")
+            )
+            
             return Item(
                 type=ItemType.REPOSITORY,
                 title=repo["full_name"],
                 url=repo["html_url"],
                 content=content,
-                source="github",
-                discovered_at=datetime.now(timezone.utc),
+                source="github_new",
+                discovered_at=updated_at,
                 metadata={
                     "stars": str(repo.get("stargazers_count", 0)),
                     "language": repo.get("language", ""),

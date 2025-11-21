@@ -18,7 +18,7 @@ paths:
 # Monitoring settings
 monitoring:
   max_items_per_source: 30
-  relevance_threshold: 0.6
+  relevance_threshold: 0.7
   save_debug_data: false
 
 # Source-specific settings
@@ -29,10 +29,25 @@ sources:
   
   huggingface_trending:
     max_days_old: 14  # Only models updated within last N days
-    max_items: 50
+    max_items: 20
   
-  github:
-    max_items: 30
+  github_new:
+    max_items: 10
+    search_days: 14  # Search for repos created within last N days
+    search_queries:
+      topics:
+        - speech-synthesis
+        - voice-cloning
+        - tts
+        - text-to-speech
+        - zero-shot-tts
+        - voice-conversion
+      keywords:
+        - "zero-shot TTS"
+        - "emotional speech synthesis"
+        - "voice cloning"
+        - "speech dubbing"
+        - "expressive TTS"
 
 # Prompts for LLM
 prompts:

@@ -68,7 +68,13 @@ async def async_run(days: int, output: Optional[Path], debug: bool) -> None:
     
     # Initialize sources
     sources = [
-        GitHubSource(token=settings.github_token, max_items=settings.max_items_per_source),
+        GitHubSource(
+            token=settings.github_token,
+            max_items=settings.max_items_per_source,
+            topics=settings.github_topics,
+            keywords=settings.github_keywords,
+            search_days=settings.github_search_days,
+        ),
         HFPapersSource(max_items=settings.max_items_per_source),
         HFTrendingSource(
             max_items=settings.max_items_per_source,

@@ -46,7 +46,7 @@ class SourcesConfig:
         "max_days_old": 14,
         "max_items": 50,
     })
-    github: dict = field(default_factory=lambda: {
+    github_new: dict = field(default_factory=lambda: {
         "max_items": 30,
     })
 
@@ -135,6 +135,18 @@ class Settings:
     @property
     def hf_models_max_days_old(self) -> int:
         return self.sources.huggingface_trending.get("max_days_old", 14)
+    
+    @property
+    def github_topics(self) -> list[str]:
+        return self.sources.github_new.get("search_queries", {}).get("topics", [])
+    
+    @property
+    def github_keywords(self) -> list[str]:
+        return self.sources.github_new.get("search_queries", {}).get("keywords", [])
+    
+    @property
+    def github_search_days(self) -> int:
+        return self.sources.github_new.get("search_days", 14)
 
 
 def load_config(config_path: Path = Path("config.yaml")) -> dict:
