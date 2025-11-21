@@ -1,7 +1,3 @@
----
-alwaysApply: true
----
-
 Thinking: Critically evaluate requests; point out issues; propose better options; ask only blocking clarifications.
 
 Language: Chat in Russian. Code/comments/types/tests/commits/docstrings in English.

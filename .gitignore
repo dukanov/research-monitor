@@ -1,5 +1,18 @@
-.venv/
-.pytest_cache/
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
 
+# Output directories
+digests/
+debug/
