@@ -26,6 +26,7 @@ sources:
   huggingface_papers:
     filter_by_keywords: true
     max_items: 50
+    search_days: 7  # Parse papers from last N days
   
   huggingface_trending:
     max_days_old: 14  # Only models updated within last N days

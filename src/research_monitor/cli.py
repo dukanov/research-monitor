@@ -77,7 +77,10 @@ async def async_run(days: int, output: Optional[Path], debug: bool) -> None:
             min_stars=settings.github_min_stars,
             request_delay=settings.github_request_delay,
         ),
-        HFPapersSource(max_items=settings.max_items_per_source),
+        HFPapersSource(
+            max_items=settings.max_items_per_source,
+            search_days=settings.hf_papers_search_days,
+        ),
         HFTrendingSource(
             max_items=settings.max_items_per_source,
             max_days_old=settings.hf_models_max_days_old

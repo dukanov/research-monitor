@@ -137,6 +137,10 @@ class Settings:
         return self.sources.huggingface_trending.get("max_days_old", 14)
     
     @property
+    def hf_papers_search_days(self) -> int:
+        return self.sources.huggingface_papers.get("search_days", 7)
+    
+    @property
     def github_topics(self) -> list[str]:
         return self.sources.github_new.get("search_queries", {}).get("topics", [])
     

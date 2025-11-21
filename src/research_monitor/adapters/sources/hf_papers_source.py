@@ -53,84 +53,122 @@ class HFPapersSource(ItemSource):
         "speaker similarity", "voice quality",
     ]
     
-    def __init__(self, max_items: int = 50, filter_by_keywords: bool = True) -> None:
+    def __init__(
+        self,
+        max_items: int = 50,
+        filter_by_keywords: bool = True,
+        search_days: int = 7,
+    ) -> None:
         self.max_items = max_items
         self.base_url = "https://huggingface.co"
         self.filter_by_keywords = filter_by_keywords
+        self.search_days = search_days
         
     async def fetch_items(self, since: date) -> list[Item]:
-        """Fetch papers from HuggingFace daily papers."""
+        """Fetch papers from HuggingFace daily papers for last N days."""
+        from datetime import timedelta
+        
         items: list[Item] = []
+        seen_paper_ids: set[str] = set()
+        
+        # Calculate date range
+        end_date = date.today()
+        start_date = end_date - timedelta(days=self.search_days)
+        
+        print(f"  └─ Период поиска: {start_date.isoformat()} - {end_date.isoformat()} ({self.search_days} дн.)")
         
         async with httpx.AsyncClient(timeout=30.0, follow_redirects=True) as client:
             try:
-                # Fetch daily papers page
-                response = await client.get(f"{self.base_url}/papers")
-                
-                if response.status_code != 200:
-                    print(f"  └─ HTTP {response.status_code}")
-                    return items
-                
-                # Extract JSON data from HTML
-                papers_data = self._extract_papers_from_html(response.text)
-                
-                if not papers_data:
-                    print(f"  └─ Не удалось извлечь JSON данные")
-                    return items
-                
-                # Process each paper
                 filtered_count = 0
-                for paper_data in papers_data:
-                    try:
-                        paper_id = paper_data.get("paper", {}).get("id")
-                        if not paper_id:
-                            continue
-                        
-                        title = paper_data.get("title", "Unknown")
-                        summary = paper_data.get("summary", "")
-                        
-                        # Filter by keywords if enabled
-                        if self.filter_by_keywords:
-                            if not self._is_speech_related(title, summary):
-                                filtered_count += 1
+                
+                # Fetch papers for each day
+                for day_offset in range(self.search_days):
+                    current_date = end_date - timedelta(days=day_offset)
+                    
+                    # Fetch papers for this date
+                    if day_offset == 0:
+                        # Today: use default endpoint
+                        url = f"{self.base_url}/papers"
+                    else:
+                        # Archive: use date parameter
+                        url = f"{self.base_url}/papers?date={current_date.isoformat()}"
+                    
+                    response = await client.get(url)
+                    
+                    if response.status_code != 200:
+                        print(f"  └─ {current_date}: HTTP {response.status_code}")
+                        continue
+                    
+                    # Extract JSON data from HTML
+                    papers_data = self._extract_papers_from_html(response.text)
+                    
+                    if not papers_data:
+                        continue
+                    
+                    day_count = 0
+                    # Process papers from this day
+                    for paper_data in papers_data:
+                        try:
+                            paper_id = paper_data.get("paper", {}).get("id")
+                            if not paper_id or paper_id in seen_paper_ids:
                                 continue
-                        
-                        # Stop if we have enough items
-                        if len(items) >= self.max_items:
-                            break
-                        
-                        paper_url = f"{self.base_url}/papers/{paper_id}"
-                        
-                        # Build content from available data
-                        content = f"""Title: {title}
+                            
+                            seen_paper_ids.add(paper_id)
+                            
+                            title = paper_data.get("title", "Unknown")
+                            summary = paper_data.get("summary", "")
+                            
+                            # Filter by keywords if enabled
+                            if self.filter_by_keywords:
+                                if not self._is_speech_related(title, summary):
+                                    filtered_count += 1
+                                    continue
+                            
+                            # Stop if we have enough items
+                            if len(items) >= self.max_items:
+                                break
+                            
+                            paper_url = f"{self.base_url}/papers/{paper_id}"
+                            
+                            # Build content from available data
+                            content = f"""Title: {title}
 
 Summary:
 {summary}
 
 Paper ID: {paper_id}
 """
-                        
-                        # Add upvotes and other metadata
-                        upvotes = paper_data.get("paper", {}).get("upvotes", 0)
-                        
-                        items.append(Item(
-                            type=ItemType.PAPER,
-                            title=title,
-                            url=paper_url,
-                            content=content,
-                            source="huggingface_papers",
-                            discovered_at=datetime.now(timezone.utc),
-                            metadata={
-                                "upvotes": str(upvotes),
-                                "paper_id": paper_id,
-                            }
-                        ))
-                    except Exception as e:
-                        print(f"  └─ Ошибка обработки: {e}")
-                        continue
+                            
+                            # Add upvotes and other metadata
+                            upvotes = paper_data.get("paper", {}).get("upvotes", 0)
+                            
+                            items.append(Item(
+                                type=ItemType.PAPER,
+                                title=title,
+                                url=paper_url,
+                                content=content,
+                                source="huggingface_papers",
+                                discovered_at=datetime.now(timezone.utc),
+                                metadata={
+                                    "upvotes": str(upvotes),
+                                    "paper_id": paper_id,
+                                    "published_date": current_date.isoformat(),
+                                }
+                            ))
+                            day_count += 1
+                            
+                        except Exception as e:
+                            continue
+                    
+                    if day_count > 0:
+                        print(f"  └─ {current_date}: найдено {day_count} релевантных")
+                    
+                    # Stop if we have enough items
+                    if len(items) >= self.max_items:
+                        break
                 
                 if filtered_count > 0:
-                    print(f"  └─ Отфильтровано по ключевым словам: {filtered_count}")
+                    print(f"  └─ Всего отфильтровано по ключевым словам: {filtered_count}")
                         
             except Exception as e:
                 print(f"  └─ Ошибка: {e}")
