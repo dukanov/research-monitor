@@ -16,3 +16,8 @@ htmlcov/
 # Output directories
 digests/
 debug/
+
+# Artifacts (YAML files)
+artifacts/*
+!artifacts/.gitkeep
+!artifacts/README.md

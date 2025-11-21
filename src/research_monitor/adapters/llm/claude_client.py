@@ -2,6 +2,7 @@
 
 import asyncio
 import json
+import re
 from typing import Any
 
 import httpx
@@ -27,15 +28,26 @@ class ClaudeClient(LLMClient):
         
     async def check_relevance(self, item: Item, interests: str) -> FilterResult:
         """Check if item is relevant to given interests."""
-        prompt = self._build_relevance_prompt(item, interests)
+        # Use prompt from config
+        prompt_template = self.settings.prompts.relevance_check.get("user", "")
+        system_prompt = self.settings.prompts.relevance_check.get("system", "")
         
-        response = await self._call_api(
-            prompt=prompt,
-            system="You are an expert in speech synthesis research. Analyze the provided content and determine its relevance to the given interests. Respond with a JSON object containing: is_relevant (boolean), score (float 0-1), and reason (string)."
+        # Format prompt with item data
+        prompt = prompt_template.format(
+            title=item.title,
+            type=item.type,
+            url=item.url,
+            source=item.source,
+            content=item.content[:8000],
         )
         
+        response = await self._call_api(prompt=prompt, system=system_prompt)
+        
+        # Extract JSON from markdown code block if present
+        json_text = self._extract_json(response)
+        
         try:
-            result = json.loads(response)
+            result = json.loads(json_text)
             return FilterResult(
                 item=item,
                 is_relevant=result["is_relevant"],
@@ -43,89 +55,58 @@ class ClaudeClient(LLMClient):
                 reason=result["reason"]
             )
         except (json.JSONDecodeError, KeyError) as e:
+            # Log the problematic response
+            print(f"  ⚠️  Claude вернул невалидный JSON:")
+            print(f"     Ответ: {response[:200]}..." if len(response) > 200 else f"     Ответ: {response}")
+            print(f"     Ошибка: {e}")
+            
             # Fallback if LLM doesn't return proper JSON
             return FilterResult(
                 item=item,
                 is_relevant=False,
                 relevance_score=0.0,
-                reason=f"Failed to parse relevance response: {e}"
+                reason=f"Failed to parse response: {str(e)[:100]}"
             )
     
     async def generate_summary(self, item: Item) -> str:
         """Generate brief summary of the item."""
-        prompt = f"""Content to summarize:
-
-Title: {item.title}
-URL: {item.url}
-Type: {item.type}
-
-Content:
-{item.content[:8000]}
-
-Generate a brief, informative summary in Russian (2-4 sentences) focusing on key technical contributions and practical applications."""
+        prompt_template = self.settings.prompts.summary.get("user", "")
+        system_prompt = self.settings.prompts.summary.get("system", "")
         
-        return await self._call_api(
-            prompt=prompt,
-            system="You are a technical writer specializing in speech synthesis. Write concise summaries in Russian."
+        prompt = prompt_template.format(
+            title=item.title,
+            url=item.url,
+            type=item.type,
+            content=item.content[:8000],
         )
+        
+        return await self._call_api(prompt=prompt, system=system_prompt)
     
     async def extract_highlights(self, item: Item) -> list[str]:
         """Extract key highlights from the item."""
-        prompt = f"""Content to analyze:
-
-Title: {item.title}
-Type: {item.type}
-
-Content:
-{item.content[:8000]}
-
-Extract 3-5 key highlights as bullet points in Russian. Focus on:
-- Main technical innovations
-- Practical applications
-- Performance improvements
-- Novel approaches
-
-Respond with a JSON array of strings."""
+        prompt_template = self.settings.prompts.highlights.get("user", "")
+        system_prompt = self.settings.prompts.highlights.get("system", "")
         
-        response = await self._call_api(
-            prompt=prompt,
-            system="You are a research analyst. Extract key points concisely."
+        prompt = prompt_template.format(
+            title=item.title,
+            type=item.type,
+            content=item.content[:8000],
         )
         
+        response = await self._call_api(prompt=prompt, system=system_prompt)
+        
+        # Extract JSON from markdown code block if present
+        json_text = self._extract_json(response)
+        
         try:
-            highlights = json.loads(response)
+            highlights = json.loads(json_text)
             if isinstance(highlights, list):
                 return highlights[:5]
-            return [response]
+            return [json_text]
         except json.JSONDecodeError:
             # If not JSON, split by lines
-            lines = [line.strip("- ").strip() for line in response.split("\n") if line.strip()]
+            lines = [line.strip("- ").strip() for line in json_text.split("\n") if line.strip()]
             return lines[:5]
-    
-    def _build_relevance_prompt(self, item: Item, interests: str) -> str:
-        """Build prompt for relevance checking."""
-        return f"""Analyze the following item for relevance:
-
-INTERESTS:
-{interests}
-
-ITEM:
-Title: {item.title}
-Type: {item.type}
-URL: {item.url}
-Source: {item.source}
-
-Content (first 8000 chars):
-{item.content[:8000]}
-
-Determine if this item is relevant to the interests described above.
-
-Respond with JSON:
-{{
-    "is_relevant": true/false,
-    "score": 0.0-1.0,
-    "reason": "Brief explanation in Russian"
-}}"""
     
     async def _call_api(self, prompt: str, system: str) -> str:
         """Call Claude API with retry logic and rate limiting."""
@@ -216,4 +197,14 @@ Respond with JSON:
         
         # Exponential backoff
         return self.initial_retry_delay * (2 ** attempt)
+    
+    def _extract_json(self, text: str) -> str:
+        """Extract JSON from markdown code block if present."""
+        # Try to find JSON in markdown code block
+        code_block_match = re.search(r'```(?:json)?\s*\n(.*?)\n```', text, re.DOTALL)
+        if code_block_match:
+            return code_block_match.group(1).strip()
+        
+        # Otherwise return as is
+        return text.strip()
 

@@ -4,6 +4,7 @@ import asyncio
 import json
 from datetime import date, datetime
 from pathlib import Path
+from typing import Optional
 
 from research_monitor.core import (
     DigestEntry,
@@ -12,6 +13,7 @@ from research_monitor.core import (
     Item,
     ItemSource,
     LLMClient,
+    SeenItemsTracker,
 )
 
 
@@ -24,17 +26,38 @@ class MonitoringService:
         llm_client: LLMClient,
         interests: str,
         relevance_threshold: float = 0.6,
-        debug_dir: Path | None = None,
-        concurrent_requests: int = 5,
+        debug_dir: Optional[Path] = None,
+        seen_tracker: Optional[SeenItemsTracker] = None,
     ) -> None:
         self.sources = sources
         self.llm_client = llm_client
         self.interests = interests
         self.relevance_threshold = relevance_threshold
         self.debug_dir = debug_dir
-        self.concurrent_requests = concurrent_requests
+        self.seen_tracker = seen_tracker
     
-    async def collect_and_filter(self, since: date) -> list[FilterResult]:
+    def save_artifacts(self, filter_results: list[FilterResult]) -> None:
+        """Save artifacts after successful digest generation."""
+        if not self.seen_tracker or not filter_results:
+            return
+        
+        print(f"\n💾 Сохранение {len(filter_results)} проверенных артефактов...")
+        
+        # Save with relevance info
+        for result in filter_results:
+            self.seen_tracker.mark_seen_with_relevance(
+                result.item,
+                is_relevant=result.is_relevant,
+                relevance_score=result.relevance_score,
+                reason=result.reason,
+            )
+        
+        relevant_count = sum(1 for r in filter_results if r.is_relevant)
+        print(f"✓ Артефакты сохранены в {self.seen_tracker.storage_dir}")
+        print(f"  • Релевантных: {relevant_count}")
+        print(f"  • Нерелевантных: {len(filter_results) - relevant_count}")
+    
+    async def collect_and_filter(self, since: date) -> tuple[list[FilterResult], list[FilterResult]]:
         """Collect items from all sources and filter by relevance."""
         print("\n" + "=" * 70)
         print("📥 ЭТАП 1: СБОР ДАННЫХ ИЗ ИСТОЧНИКОВ")
@@ -67,17 +90,40 @@ class MonitoringService:
                 emoji = next((s.emoji for s in self.sources if getattr(s, 'name', '') == name), '•')
                 print(f"  {emoji} {name}: {len(items)}")
         
-        # Save collected items for debug
+        # Filter out already seen items
+        if self.seen_tracker:
+            print("\n" + "=" * 70)
+            print("🔍 ФИЛЬТРАЦИЯ УЖЕ ПРОСМОТРЕННЫХ")
+            print("=" * 70)
+            
+            unseen_items, seen_count = self.seen_tracker.filter_unseen(all_items)
+            
+            if seen_count > 0:
+                print(f"✓ Отфильтровано уже просмотренных: {seen_count}")
+                print(f"✓ Новых элементов: {len(unseen_items)}")
+                
+                # Show stats
+                stats = self.seen_tracker.get_stats()
+                print(f"\nВсего в истории: {stats['total_seen']} элементов")
+                if stats['by_source']:
+                    for source, count in stats['by_source'].items():
+                        print(f"  • {source}: {count}")
+            else:
+                print("✓ Все элементы новые")
+            
+            all_items = unseen_items
+        
+        # Save collected items for debug (before filtering)
         if self.debug_dir:
             self._save_collected_items(all_items)
         
-        # Filter items by relevance
+        # Filter items by relevance (sequential)
         print("\n" + "=" * 70)
         print("🔍 ЭТАП 2: ФИЛЬТРАЦИЯ РЕЛЕВАНТНОСТИ (LLM)")
         print("=" * 70)
-        print(f"Проверка {len(all_items)} элементов батчами по {self.concurrent_requests}")
+        print(f"Проверка {len(all_items)} элементов последовательно...")
         
-        filter_results = await self._filter_items_batched(all_items)
+        filter_results = await self._filter_items_sequential(all_items)
         
         # Process all filter results
         print("\n" + "=" * 70)
@@ -109,35 +155,29 @@ class MonitoringService:
         if self.debug_dir:
             self._save_filter_results(all_filter_results, relevant_results)
         
-        return relevant_results
+        return relevant_results, all_filter_results
     
-    async def _filter_items_batched(self, items: list[Item]) -> list[FilterResult | Exception]:
-        """Filter items in batches to avoid overwhelming the API."""
+    async def _filter_items_sequential(self, items: list[Item]) -> list[FilterResult | Exception]:
+        """Filter items one by one (easier to debug)."""
         results: list[FilterResult | Exception] = []
         
-        total_batches = (len(items) + self.concurrent_requests - 1) // self.concurrent_requests
-        
-        for i in range(0, len(items), self.concurrent_requests):
-            batch = items[i:i + self.concurrent_requests]
-            batch_num = i // self.concurrent_requests + 1
+        for i, item in enumerate(items, 1):
+            emoji = "📄" if item.type.value == "paper" else "🤖" if item.type.value == "model_card" else "💻"
+            print(f"\n  [{i}/{len(items)}] {emoji} {item.title[:70]}...")
+            print(f"  └─ URL: {item.url}")
             
-            print(f"\n  Батч {batch_num}/{total_batches}:")
-            for idx, item in enumerate(batch, 1):
-                emoji = "📄" if item.type.value == "paper" else "🤖" if item.type.value == "model_card" else "💻"
-                print(f"    {idx}. {emoji} {item.title[:60]}...")
-            
-            batch_tasks = [
-                self.llm_client.check_relevance(item, self.interests)
-                for item in batch
-            ]
-            
-            batch_results = await asyncio.gather(*batch_tasks, return_exceptions=True)
-            
-            # Show results for this batch
-            relevant_in_batch = sum(1 for r in batch_results if not isinstance(r, Exception) and r.is_relevant)
-            print(f"    └─ Релевантных в батче: {relevant_in_batch}/{len(batch)}")
-            
-            results.extend(batch_results)
+            try:
+                result = await self.llm_client.check_relevance(item, self.interests)
+                
+                if result.is_relevant:
+                    print(f"  ✓ Релевантен: {result.relevance_score:.0%} - {result.reason}")
+                else:
+                    print(f"  ✗ Нерелевантен: {result.relevance_score:.0%} - {result.reason}")
+                
+                results.append(result)
+            except Exception as e:
+                print(f"  ⚠️  Ошибка: {e}")
+                results.append(e)
         
         return results
     

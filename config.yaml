@@ -1,0 +1,125 @@
+# Research Monitor Configuration
+
+# Claude settings
+claude:
+  model: "claude-sonnet-4-20250514"
+  max_tokens: 4096
+  temperature: 0.7
+  max_retries: 5
+  initial_retry_delay: 2.0  # seconds
+  request_delay: 1.5  # seconds between requests
+
+# Paths
+paths:
+  output_dir: "digests"
+  debug_dir: "debug"
+  artifacts_dir: "artifacts"
+
+# Monitoring settings
+monitoring:
+  max_items_per_source: 30
+  relevance_threshold: 0.6
+  save_debug_data: false
+
+# Source-specific settings
+sources:
+  huggingface_papers:
+    filter_by_keywords: true
+    max_items: 50
+  
+  huggingface_trending:
+    max_days_old: 14  # Only models updated within last N days
+    max_items: 50
+  
+  github:
+    max_items: 30
+
+# Prompts for LLM
+prompts:
+  relevance_check:
+    system: |
+      You are an expert in speech synthesis research. 
+      Analyze the provided content and determine its relevance to the given interests.
+      Respond with a JSON object containing: is_relevant (boolean), score (float 0-1), and reason (string).
+    
+    user: |
+      Analyze the following item for relevance to my interests.
+      
+      MY INTERESTS:
+      Мне интересны статьи по синтезу речи с прицелом на задачу эмоционального синтеза, zero-shot и дубляжа.
+      
+      Ключевые темы:
+      - Эмоциональный синтез речи (emotional TTS, expressive speech synthesis)
+      - Zero-shot синтез (voice cloning, speaker adaptation)
+      - Дубляж и перевод речи (speech-to-speech, dubbing, voice conversion)
+      - Многоязычный синтез (multilingual TTS, cross-lingual synthesis)
+      - Качество и натуральность синтеза (prosody, intonation, expressiveness)
+      
+      Интересные технологии и подходы:
+      - Диффузионные модели для синтеза речи
+      - Трансформеры и attention механизмы
+      - Few-shot и zero-shot обучение
+      - Voice cloning с минимальными данными
+      - End-to-end модели синтеза
+      
+      ---
+      
+      ITEM TO ANALYZE:
+      Title: {title}
+      Type: {type}
+      URL: {url}
+      Source: {source}
+      
+      Content (first 8000 chars):
+      {content}
+      
+      ---
+      
+      Determine if this item is relevant to my interests described above.
+      
+      Respond with JSON:
+      {{
+          "is_relevant": true/false,
+          "score": 0.0-1.0,
+          "reason": "Brief explanation in Russian"
+      }}
+  
+  summary:
+    system: |
+      You are a technical writer specializing in speech synthesis. 
+      Write concise summaries in Russian.
+    
+    user: |
+      Content to summarize:
+      
+      Title: {title}
+      URL: {url}
+      Type: {type}
+      
+      Content:
+      {content}
+      
+      Generate a brief, informative summary in Russian (2-4 sentences) 
+      focusing on key technical contributions and practical applications.
+  
+  highlights:
+    system: |
+      You are a research analyst. Extract key points concisely.
+    
+    user: |
+      Content to analyze:
+      
+      Title: {title}
+      Type: {type}
+      
+      Content:
+      {content}
+      
+      Extract 3-5 key highlights as bullet points in Russian. Focus on:
+      - Main technical innovations
+      - Practical applications
+      - Performance improvements
+      - Novel approaches
+      
+      Respond with a JSON array of strings.
+
