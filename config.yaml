@@ -30,21 +30,31 @@ sources:
   
   huggingface_trending:
     max_days_old: 14  # Only models updated within last N days
-    max_items: 20
+    max_items: 30
   
   github_new:
-    max_items: 10
+    max_items: 20
     search_days: 14  # Search for repos created within last N days
     min_stars: 10  # Minimum stars threshold
-    request_delay: 15  # Delay between search requests (seconds) to avoid rate limits
+    request_delay: 1  # Delay between search requests (seconds) to avoid rate limits
     search_queries:
       topics:
-        - voice-cloning
-        - speech-synthesis
-        - text-to-speech
+        - "voice-cloning"
+        - "speech-synthesis"
+        - "text-to-speech"
+        - "zero-shot tts"
+        - "speech-to-speech"
       keywords:
         - "emotional speech synthesis"
+        - "expressive speech"
         - "neural audio codec"
+        - "audio LLM"
+        - "audio language model"
+        - "zero-shot voice cloning"
+        - "zero-shot speech synthesis"
+        - "high-quality speech synthesis"
+        - "high-quality TTS"
+
 
 # Prompts for LLM
 prompts:
