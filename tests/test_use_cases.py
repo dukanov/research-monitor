@@ -43,11 +43,12 @@ async def test_monitoring_service_collect_and_filter() -> None:
     )
     
     # Test collection and filtering
-    results = await service.collect_and_filter(date.today())
+    relevant_results, all_results = await service.collect_and_filter(date.today())
     
-    assert len(results) == 1
-    assert results[0].is_relevant
-    assert results[0].relevance_score == 0.9
+    assert len(relevant_results) == 1
+    assert len(all_results) == 1
+    assert relevant_results[0].is_relevant
+    assert relevant_results[0].relevance_score == 0.9
     mock_source.fetch_items.assert_called_once()
     mock_llm.check_relevance.assert_called_once()
 

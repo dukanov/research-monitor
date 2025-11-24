@@ -6,6 +6,7 @@ from datetime import date, datetime, timezone
 import httpx
 from bs4 import BeautifulSoup
 
+from research_monitor.adapters.sources.filters import is_speech_related
 from research_monitor.core import Item, ItemSource, ItemType
 
 
@@ -15,54 +16,18 @@ class HFPapersSource(ItemSource):
     emoji = "📄"
     name = "HuggingFace Papers"
     
-    # Keywords for speech/audio filtering
-    SPEECH_KEYWORDS = [
-        # Core speech terms
-        "speech synthesis", "text-to-speech", "tts", "vocoder", 
-        "voice cloning", "voice conversion", "speech-to-speech",
-        "speech generation", "neural speech",
-        
-        # Speech recognition
-        "speech recognition", "automatic speech recognition", "asr system",
-        
-        # Audio/voice specific
-        "audio synthesis", "acoustic model", "speaker embedding",
-        "prosody", "phoneme", "mel-spectrogram", "waveform generation",
-        
-        # Emotional/expressive speech
-        "emotional speech", "expressive speech", "speech emotion",
-        "affective speech", "emotional tts",
-        
-        # Dubbing and translation
-        "dubbing", "speech dubbing", "voice dubbing",
-        "speech translation",
-        
-        # Zero-shot and few-shot
-        "zero-shot speech", "zero-shot tts", "zero-shot voice",
-        "few-shot speech", "in-context speech",
-        
-        # Multilingual
-        "multilingual speech", "multilingual tts", "cross-lingual speech",
-        
-        # Music (related domain)
-        "music generation", "music synthesis", "singing voice",
-        "singing synthesis", "vocal synthesis",
-        
-        # Quality metrics
-        "speech quality", "naturalness", "intelligibility",
-        "speaker similarity", "voice quality",
-    ]
-    
     def __init__(
         self,
         max_items: int = 50,
         filter_by_keywords: bool = True,
         search_days: int = 7,
+        keywords: list[str] | None = None,
     ) -> None:
         self.max_items = max_items
         self.base_url = "https://huggingface.co"
         self.filter_by_keywords = filter_by_keywords
         self.search_days = search_days
+        self.keywords = keywords or []
         
     async def fetch_items(self, since: date) -> list[Item]:
         """Fetch papers from HuggingFace daily papers for last N days."""
@@ -120,7 +85,7 @@ class HFPapersSource(ItemSource):
                             
                             # Filter by keywords if enabled
                             if self.filter_by_keywords:
-                                if not self._is_speech_related(title, summary):
+                                if not is_speech_related(title, summary, self.keywords):
                                     filtered_count += 1
                                     continue
                             
@@ -206,10 +171,4 @@ Paper ID: {paper_id}
         except Exception as e:
             print(f"  └─ Ошибка парсинга JSON: {e}")
             return []
-    
-    def _is_speech_related(self, title: str, summary: str) -> bool:
-        """Check if paper is related to speech/audio based on keywords."""
-        text = f"{title} {summary}".lower()
-        
-        return any(keyword.lower() in text for keyword in self.SPEECH_KEYWORDS)
 

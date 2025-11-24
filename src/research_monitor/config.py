@@ -36,8 +36,20 @@ class MonitoringConfig:
 
 
 @dataclass
+class FilteringConfig:
+    """Keyword filtering settings."""
+    speech_keywords: list[str] = field(default_factory=list)
+
+
+@dataclass
 class SourcesConfig:
     """Source-specific settings."""
+    arxiv_rss: dict = field(default_factory=lambda: {
+        "enabled": True,
+        "max_items": 30,
+        "filter_by_keywords": True,
+        "categories": ["cs.SD", "eess.AS", "cs.CL"],
+    })
     huggingface_papers: dict = field(default_factory=lambda: {
         "filter_by_keywords": True,
         "max_items": 50,
@@ -80,6 +92,7 @@ class Settings:
     claude: ClaudeConfig = field(default_factory=ClaudeConfig)
     paths: PathsConfig = field(default_factory=PathsConfig)
     monitoring: MonitoringConfig = field(default_factory=MonitoringConfig)
+    filtering: FilteringConfig = field(default_factory=FilteringConfig)
     sources: SourcesConfig = field(default_factory=SourcesConfig)
     prompts: PromptsConfig = field(default_factory=PromptsConfig)
     
@@ -159,6 +172,26 @@ class Settings:
     @property
     def github_min_stars(self) -> int:
         return self.sources.github_new.get("min_stars", 5)
+    
+    @property
+    def arxiv_enabled(self) -> bool:
+        return self.sources.arxiv_rss.get("enabled", True)
+    
+    @property
+    def arxiv_categories(self) -> list[str]:
+        return self.sources.arxiv_rss.get("categories", ["cs.SD", "eess.AS", "cs.CL"])
+    
+    @property
+    def arxiv_max_items(self) -> int:
+        return self.sources.arxiv_rss.get("max_items", 30)
+    
+    @property
+    def arxiv_filter_by_keywords(self) -> bool:
+        return self.sources.arxiv_rss.get("filter_by_keywords", True)
+    
+    @property
+    def speech_keywords(self) -> list[str]:
+        return self.filtering.speech_keywords
 
 
 def load_config(config_path: Path = Path("config.yaml")) -> dict:
@@ -197,6 +230,9 @@ def get_settings(config_path: Path = Path("config.yaml")) -> Settings:
     if "monitoring" in config:
         for key, value in config["monitoring"].items():
             setattr(settings.monitoring, key, value)
+    
+    if "filtering" in config:
+        settings.filtering = FilteringConfig(**config["filtering"])
     
     if "sources" in config:
         settings.sources = SourcesConfig(**config["sources"])

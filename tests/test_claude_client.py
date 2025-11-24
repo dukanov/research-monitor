@@ -16,9 +16,10 @@ def mock_settings() -> Settings:
     """Create mock settings."""
     with patch.dict("os.environ", {"ANTHROPIC_API_KEY": "test-key"}):
         settings = Settings()
-        settings.claude_max_retries = 3
-        settings.claude_initial_retry_delay = 0.1  # Faster for tests
-        settings.claude_request_delay = 0.05
+        # Set values directly in claude config object
+        settings.claude.max_retries = 3
+        settings.claude.initial_retry_delay = 0.1  # Faster for tests
+        settings.claude.request_delay = 0.05
         return settings
 
 

@@ -21,8 +21,65 @@ monitoring:
   relevance_threshold: 0.7
   save_debug_data: false
 
+# Keyword filtering (shared across sources)
+filtering:
+  speech_keywords:
+    - "speech synthesis"
+    - "text-to-speech"
+    - "tts"
+    - "voice cloning"
+    - "voice conversion"
+    - "speech-to-speech"
+    - "speech generation"
+    - "neural speech"
+    - "voice synthesis"
+    - "audio codec"
+    - "acoustic model"
+    - "acoustic modeling"
+    - "speaker embedding"
+    - "emotional speech"
+    - "expressive speech"
+    - "speech emotion"
+    - "emotional tts"
+    - "emotion synthesis"
+    - "expressive tts"
+    - "emotional voice"
+    - "dubbing"
+    - "speech dubbing"
+    - "voice dubbing"
+    - "speech translation"
+    - "speech-to-speech translation"
+    - "voice transfer"
+    - "cross-lingual speech"
+    - "zero-shot speech"
+    - "zero-shot tts"
+    - "zero-shot voice"
+    - "few-shot speech"
+    - "voice cloning"
+    - "speaker cloning"
+    - "cross-lingual synthesis"
+    - "neural codec"
+    - "audio llm"
+    - "audio language model"
+    - "neural audio codec"
+    - "high-quality speech synthesis"
+    - "high-quality tts"
+    - "speaking style"
+    - "paralinguistic"
+    - "speech dataset"
+    - "speech corpus"
+
 # Source-specific settings
 sources:
+  arxiv_rss:
+    enabled: true
+    max_items: 30
+    filter_by_keywords: true  # Pre-filter by keywords before LLM check
+    categories:
+      - "cs.SD"    # Sound
+      - "eess.AS"  # Audio and Speech Processing
+      - "cs.CL"    # Computation and Language (includes TTS papers)
+  
   huggingface_papers:
     filter_by_keywords: true
     max_items: 50
@@ -33,10 +90,10 @@ sources:
     max_items: 30
   
   github_new:
-    max_items: 20
+    max_items: 50
     search_days: 14  # Search for repos created within last N days
     min_stars: 10  # Minimum stars threshold
-    request_delay: 1  # Delay between search requests (seconds) to avoid rate limits
+    request_delay: 0.1  # Delay between search requests (seconds) to avoid rate limits
     search_queries:
       topics:
         - "voice-cloning"

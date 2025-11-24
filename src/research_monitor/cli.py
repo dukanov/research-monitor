@@ -10,6 +10,7 @@ import typer
 from research_monitor.adapters.digest import MarkdownDigestGenerator
 from research_monitor.adapters.llm import ClaudeClient
 from research_monitor.adapters.sources import (
+    ArXivRSSSource,
     GitHubSource,
     HFPapersSource,
     HFTrendingSource,
@@ -67,7 +68,24 @@ async def async_run(days: int, output: Optional[Path], debug: bool) -> None:
         print(f"  • 🔍 Debug mode: {settings.debug_dir}")
     
     # Initialize sources
-    sources = [
+    sources = []
+    
+    # Get shared keywords for filtering
+    speech_keywords = settings.speech_keywords
+    
+    # ArXiv RSS (if enabled)
+    if settings.arxiv_enabled:
+        sources.append(
+            ArXivRSSSource(
+                categories=settings.arxiv_categories,
+                max_items=settings.arxiv_max_items,
+                filter_by_keywords=settings.arxiv_filter_by_keywords,
+                keywords=speech_keywords,
+            )
+        )
+    
+    # GitHub
+    sources.append(
         GitHubSource(
             token=settings.github_token,
             max_items=settings.max_items_per_source,
@@ -76,16 +94,25 @@ async def async_run(days: int, output: Optional[Path], debug: bool) -> None:
             search_days=settings.github_search_days,
             min_stars=settings.github_min_stars,
             request_delay=settings.github_request_delay,
-        ),
+        )
+    )
+    
+    # HuggingFace Papers
+    sources.append(
         HFPapersSource(
             max_items=settings.max_items_per_source,
             search_days=settings.hf_papers_search_days,
-        ),
+            keywords=speech_keywords,
+        )
+    )
+    
+    # HuggingFace Trending
+    sources.append(
         HFTrendingSource(
             max_items=settings.max_items_per_source,
             max_days_old=settings.hf_models_max_days_old
-        ),
-    ]
+        )
+    )
     
     print(f"\n📡 Источники:")
     for source in sources:
