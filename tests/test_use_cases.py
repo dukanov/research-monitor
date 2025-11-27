@@ -89,10 +89,57 @@ async def test_digest_service_generate() -> None:
     )
     
     # Test digest generation
-    digest = await service.generate_digest([filter_result], date.today())
+    digest, entries = await service.generate_digest([filter_result], date.today())
     
     assert digest == "# Test Digest"
+    assert len(entries) == 1
+    assert entries[0].item == test_item
+    assert entries[0].summary == "Test summary"
+    assert entries[0].highlights == ["Highlight 1", "Highlight 2"]
     mock_llm.generate_summary.assert_called_once()
     mock_llm.extract_highlights.assert_called_once()
     mock_generator.generate.assert_called_once()
+
+
+@pytest.mark.asyncio
+async def test_digest_service_generate_summary() -> None:
+    """Test digest service generates digest summary."""
+    test_item = Item(
+        type=ItemType.PAPER,
+        title="Test Paper",
+        url="https://arxiv.org/test",
+        content="Speech synthesis paper",
+        source="arxiv",
+        discovered_at=datetime.now(timezone.utc),
+        metadata={},
+    )
+    
+    from research_monitor.core import DigestEntry
+    
+    test_entry = DigestEntry(
+        item=test_item,
+        summary="Test summary",
+        relevance_score=0.9,
+        highlights=["Highlight 1", "Highlight 2"],
+    )
+    
+    # Create mock LLM client
+    mock_llm = AsyncMock()
+    mock_llm.generate_digest_summary.return_value = "📄 **Test Paper** — Brief summary. [Link](url)"
+    
+    # Create mock digest generator
+    mock_generator = AsyncMock()
+    
+    # Create service
+    service = DigestService(
+        llm_client=mock_llm,
+        digest_generator=mock_generator,
+    )
+    
+    # Test digest summary generation
+    summary = await service.generate_digest_summary([test_entry])
+    
+    assert "Test Paper" in summary
+    assert "📄" in summary
+    mock_llm.generate_digest_summary.assert_called_once_with([test_entry])
 

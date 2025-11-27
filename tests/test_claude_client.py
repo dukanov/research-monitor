@@ -8,7 +8,7 @@ import pytest
 
 from research_monitor.adapters.llm import ClaudeClient
 from research_monitor.config import Settings
-from research_monitor.core import Item, ItemType
+from research_monitor.core import DigestEntry, Item, ItemType
 
 
 @pytest.fixture
@@ -125,4 +125,37 @@ async def test_rate_limiting(mock_settings: Settings) -> None:
         
         # Should take at least request_delay seconds due to rate limiting
         assert elapsed >= mock_settings.claude_request_delay
+
+
+@pytest.mark.asyncio
+async def test_generate_digest_summary(mock_settings: Settings, test_item: Item) -> None:
+    """Test digest summary generation."""
+    client = ClaudeClient(mock_settings)
+    
+    test_entry = DigestEntry(
+        item=test_item,
+        summary="Brief summary",
+        relevance_score=0.9,
+        highlights=["Key point 1", "Key point 2"],
+    )
+    
+    with patch("httpx.AsyncClient") as mock_client_class:
+        mock_response = MagicMock()
+        mock_response.status_code = 200
+        mock_response.json.return_value = {
+            "content": [{
+                "text": "📄 **Test Repo** — Interesting speech synthesis research. [Link](url)"
+            }]
+        }
+        
+        mock_client = AsyncMock()
+        mock_client.__aenter__.return_value = mock_client
+        mock_client.post.return_value = mock_response
+        mock_client_class.return_value = mock_client
+        
+        summary = await client.generate_digest_summary([test_entry])
+        
+        assert "Test Repo" in summary
+        assert "📄" in summary
+        assert mock_client.post.call_count == 1
 

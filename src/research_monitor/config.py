@@ -78,6 +78,10 @@ class PromptsConfig:
         "system": "You are a research analyst.",
         "user": "Extract highlights: {title}\n{content}",
     })
+    digest_summary: dict = field(default_factory=lambda: {
+        "system": "You are a tech content writer for a Telegram channel.",
+        "user": "Create digest summary: {entries_json}",
+    })
 
 
 @dataclass

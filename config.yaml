@@ -201,4 +201,36 @@ prompts:
       - Novel approaches
       
       Respond with a JSON array of strings.
+  
+  digest_summary:
+    system: |
+      You are a tech content writer for a Telegram channel about speech synthesis.
+      Write engaging, concise summaries in Russian that capture attention.
+      Use informal but professional style, like popular tech channels.
+    
+    user: |
+      Create a brief digest summary of the most interesting research findings.
+      
+      I have {count} items to summarize:
+      
+      {entries_json}
+      
+      Write a bullet-point summary where each interesting item is described 
+      in 2-3 catchy sentences. Focus on:
+      - What makes it interesting/innovative
+      - Practical applications
+      - Key technical achievements
+      
+      Style guidelines:
+      - Write in Russian
+      - Use engaging, modern language like Telegram tech channels
+      - Add relevant emoji for visual appeal (but don't overdo it)
+      - Keep each item to 2-3 sentences max
+      - Start each bullet with emoji relevant to the type (📄 papers, 🤖 models, 💻 repos)
+      - Make it sound exciting but technically accurate
+      
+      Format:
+      📄 **Title** — Brief catchy summary in 2-3 sentences. [Link](url)
+      
+      Return only the formatted markdown text, no additional explanations.
 

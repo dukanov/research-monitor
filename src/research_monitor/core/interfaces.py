@@ -32,6 +32,11 @@ class LLMClient(ABC):
     async def extract_highlights(self, item: Item) -> list[str]:
         """Extract key highlights from the item."""
         pass
+    
+    @abstractmethod
+    async def generate_digest_summary(self, digest_entries: list[DigestEntry]) -> str:
+        """Generate brief digest summary in Telegram channel style."""
+        pass
 
 
 class DigestGenerator(ABC):

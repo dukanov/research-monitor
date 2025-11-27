@@ -8,7 +8,7 @@ from typing import Any
 import httpx
 
 from research_monitor.config import Settings
-from research_monitor.core import FilterResult, Item, LLMClient
+from research_monitor.core import DigestEntry, FilterResult, Item, LLMClient
 
 
 class ClaudeClient(LLMClient):
@@ -107,6 +107,30 @@ class ClaudeClient(LLMClient):
             # If not JSON, split by lines
             lines = [line.strip("- ").strip() for line in json_text.split("\n") if line.strip()]
             return lines[:5]
+    
+    async def generate_digest_summary(self, digest_entries: list[DigestEntry]) -> str:
+        """Generate brief digest summary in Telegram channel style."""
+        prompt_template = self.settings.prompts.digest_summary.get("user", "")
+        system_prompt = self.settings.prompts.digest_summary.get("system", "")
+        
+        # Prepare entries data for the prompt
+        entries_data = []
+        for entry in digest_entries:
+            entry_data = {
+                "title": entry.item.title,
+                "url": entry.item.url,
+                "type": entry.item.type.value,
+                "summary": entry.summary,
+                "relevance_score": entry.relevance_score,
+            }
+            entries_data.append(entry_data)
+        
+        prompt = prompt_template.format(
+            entries_json=json.dumps(entries_data, ensure_ascii=False, indent=2),
+            count=len(entries_data),
+        )
+        
+        return await self._call_api(prompt=prompt, system=system_prompt)
     
     async def _call_api(self, prompt: str, system: str) -> str:
         """Call Claude API with retry logic and rate limiting."""

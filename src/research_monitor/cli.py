@@ -162,7 +162,7 @@ async def async_run(days: int, output: Optional[Path], debug: bool) -> None:
     print("=" * 70)
     print(f"Создание резюме и хайлайтов для {len(relevant_results)} релевантных элементов...")
     
-    digest = await digest_service.generate_digest(relevant_results, digest_date)
+    digest, entries = await digest_service.generate_digest(relevant_results, digest_date)
     
     # Save digest
     if output is None:
@@ -171,6 +171,22 @@ async def async_run(days: int, output: Optional[Path], debug: bool) -> None:
     
     digest_service.save_digest(digest, output)
     
+    # Generate digest summary
+    print("\n" + "=" * 70)
+    print("✨ ЭТАП 5: ГЕНЕРАЦИЯ КРАТКОГО САММАРИ")
+    print("=" * 70)
+    print(f"Создание краткого саммари в стиле Telegram-каналов...")
+    
+    try:
+        digest_summary = await digest_service.generate_digest_summary(entries)
+        
+        # Save digest summary with same name but _summary suffix
+        summary_output = output.parent / output.name.replace('.md', '_summary.md')
+        digest_service.save_digest(digest_summary, summary_output)
+        print(f"✓ Саммари сохранен: {summary_output}")
+    except Exception as e:
+        print(f"⚠️  Ошибка при генерации саммари: {e}")
+    
     # Save artifacts ONLY after successful digest generation
     monitoring_service.save_artifacts(all_filter_results)
     
@@ -178,6 +194,8 @@ async def async_run(days: int, output: Optional[Path], debug: bool) -> None:
     print(f"✅ ГОТОВО!")
     print("=" * 70)
     print(f"📄 Дайджест сохранен: {output}")
+    if 'summary_output' in locals():
+        print(f"✨ Саммари сохранен: {summary_output}")
     if debug:
         print(f"🔍 Debug данные: {settings.debug_dir}/")
     print()

@@ -285,8 +285,12 @@ class DigestService:
     
     async def generate_digest(
         self, filter_results: list[FilterResult], digest_date: date
-    ) -> str:
-        """Generate digest from filtered results."""
+    ) -> tuple[str, list[DigestEntry]]:
+        """Generate digest from filtered results.
+        
+        Returns:
+            Tuple of (digest content, digest entries)
+        """
         # Create digest entries with summaries and highlights
         entries: list[DigestEntry] = []
         
@@ -316,7 +320,11 @@ class DigestService:
         # Generate final digest
         digest = await self.digest_generator.generate(entries, digest_date)
         
-        return digest
+        return digest, entries
+    
+    async def generate_digest_summary(self, entries: list[DigestEntry]) -> str:
+        """Generate brief digest summary in Telegram channel style."""
+        return await self.llm_client.generate_digest_summary(entries)
     
     def save_digest(self, digest: str, output_path: Path) -> None:
         """Save digest to file."""
