@@ -13,6 +13,7 @@ from research_monitor.core import (
     Item,
     ItemSource,
     LLMClient,
+    NotificationService,
     SeenItemsTracker,
 )
 
@@ -279,9 +280,11 @@ class DigestService:
         self,
         llm_client: LLMClient,
         digest_generator: DigestGenerator,
+        notification_service: Optional[NotificationService] = None,
     ) -> None:
         self.llm_client = llm_client
         self.digest_generator = digest_generator
+        self.notification_service = notification_service
     
     async def generate_digest(
         self, filter_results: list[FilterResult], digest_date: date
@@ -325,6 +328,16 @@ class DigestService:
     async def generate_digest_summary(self, entries: list[DigestEntry]) -> str:
         """Generate brief digest summary in Telegram channel style."""
         return await self.llm_client.generate_digest_summary(entries)
+    
+    async def send_notification(self, digest_summary: str, digest_date: date) -> None:
+        """Send notification with digest summary.
+        
+        Args:
+            digest_summary: The digest summary text
+            digest_date: Date of the digest
+        """
+        if self.notification_service:
+            await self.notification_service.send_digest(digest_summary, digest_date)
     
     def save_digest(self, digest: str, output_path: Path) -> None:
         """Save digest to file."""

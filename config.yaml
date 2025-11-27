@@ -12,6 +12,8 @@ claude:
 # Paths
 paths:
   output_dir: "digests"
+  full_digests_dir: "digests/full"
+  summary_digests_dir: "digests/summary"
   debug_dir: "debug"
   artifacts_dir: "artifacts"
 
@@ -125,21 +127,21 @@ prompts:
       Analyze the following item for relevance to my interests.
       
       MY INTERESTS:
-      Мне интересны статьи по синтезу речи с прицелом на задачу эмоционального синтеза, zero-shot и дубляжа.
+      I'm interested in speech synthesis research, focusing on emotional synthesis, zero-shot methods, and dubbing.
       
-      Ключевые темы:
-      - Эмоциональный синтез речи (emotional TTS, expressive speech synthesis)
-      - Zero-shot синтез (voice cloning, speaker adaptation)
-      - Дубляж и перевод речи (speech-to-speech, dubbing, voice conversion)
-      - Многоязычный синтез (multilingual TTS, cross-lingual synthesis)
-      - Качество и натуральность синтеза (prosody, intonation, expressiveness)
+      Key topics:
+      - Emotional speech synthesis (emotional TTS, expressive speech synthesis)
+      - Zero-shot synthesis (voice cloning, speaker adaptation)
+      - Dubbing and speech translation (speech-to-speech, dubbing, voice conversion)
+      - Multilingual synthesis (multilingual TTS, cross-lingual synthesis)
+      - Quality and naturalness (prosody, intonation, expressiveness)
       
-      Интересные технологии и подходы:
-      - Диффузионные модели для синтеза речи
-      - Трансформеры и attention механизмы
-      - Few-shot и zero-shot обучение
-      - Voice cloning с минимальными данными
-      - End-to-end модели синтеза
+      Interesting technologies and approaches:
+      - Diffusion models for speech synthesis
+      - Transformers and attention mechanisms
+      - Few-shot and zero-shot learning
+      - Voice cloning with minimal data
+      - End-to-end synthesis models
       
       ---
       
@@ -183,9 +185,15 @@ prompts:
   
   highlights:
     system: |
-      You are a research analyst. Extract key points concisely.
+      You are a research analyst.
+      Respond ONLY with valid JSON array. No markdown, no code blocks, no extra text.
     
     user: |
+      Extract 3-5 key highlights from this content.
+      
+      OUTPUT FORMAT (respond with JSON array only, starting with [ ):
+      ["highlight 1 in Russian", "highlight 2 in Russian", "highlight 3 in Russian"]
+      
       Content to analyze:
       
       Title: {title}
@@ -194,13 +202,13 @@ prompts:
       Content:
       {content}
       
-      Extract 3-5 key highlights as bullet points in Russian. Focus on:
+      Extract 3-5 key highlights in Russian. Focus on:
       - Main technical innovations
       - Practical applications
       - Performance improvements
       - Novel approaches
       
-      Respond with a JSON array of strings.
+      Return as JSON array of strings.
   
   digest_summary:
     system: |

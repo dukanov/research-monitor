@@ -13,8 +13,7 @@ build/
 .coverage
 htmlcov/
 
-# Output directories
-digests/
+# Debug directory
 debug/
 
 # Artifacts (YAML files)

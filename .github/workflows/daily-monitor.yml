@@ -1,0 +1,55 @@
+name: Daily Research Monitor
+
+on:
+  schedule:
+    # Run at 10:00 AM UTC every day (adjust timezone as needed)
+    - cron: '0 10 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Required for pushing commits
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      
+      - name: Install dependencies
+        run: uv sync
+      
+      - name: Run research monitor
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Automatic token
+          GH_PAT: ${{ secrets.GH_PAT }}  # Optional: custom PAT for higher rate limit
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          uv run research-monitor --days 1
+      
+      - name: Configure git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+      
+      - name: Commit and push changes
+        run: |
+          git add artifacts/ digests/full/ digests/summary/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "run result $(date +'%Y-%m-%d')"
+            git push
+          fi
+

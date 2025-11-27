@@ -57,8 +57,14 @@ class ClaudeClient(LLMClient):
         except (json.JSONDecodeError, KeyError) as e:
             # Log the problematic response
             print(f"  ⚠️  Claude вернул невалидный JSON:")
-            print(f"     Ответ: {response[:200]}..." if len(response) > 200 else f"     Ответ: {response}")
-            print(f"     Ошибка: {e}")
+            # Show first and last part of response to see structure
+            if len(response) > 500:
+                print(f"     Начало ответа: {response[:250]}...")
+                print(f"     Конец ответа: ...{response[-250:]}")
+            else:
+                print(f"     Полный ответ: {response}")
+            print(f"     Извлеченный JSON: {json_text[:200]}..." if len(json_text) > 200 else f"     Извлеченный JSON: {json_text}")
+            print(f"     Ошибка: {type(e).__name__}: {e}")
             
             # Fallback if LLM doesn't return proper JSON
             return FilterResult(
@@ -101,12 +107,21 @@ class ClaudeClient(LLMClient):
         try:
             highlights = json.loads(json_text)
             if isinstance(highlights, list):
-                return highlights[:5]
-            return [json_text]
-        except json.JSONDecodeError:
-            # If not JSON, split by lines
-            lines = [line.strip("- ").strip() for line in json_text.split("\n") if line.strip()]
-            return lines[:5]
+                return [str(h) for h in highlights[:5]]
+            elif isinstance(highlights, dict):
+                # If dict, try to extract values
+                return [str(v) for v in highlights.values()][:5]
+            return [str(highlights)]
+        except json.JSONDecodeError as e:
+            print(f"  ⚠️  Failed to parse highlights JSON: {e}")
+            print(f"     Response: {response[:200]}...")
+            # If not JSON, try to split by lines or bullet points
+            lines = [
+                line.strip("- •*").strip()
+                for line in json_text.split("\n")
+                if line.strip() and not line.strip().startswith(("```", "{", "["))
+            ]
+            return lines[:5] if lines else ["Failed to extract highlights"]
     
     async def generate_digest_summary(self, digest_entries: list[DigestEntry]) -> str:
         """Generate brief digest summary in Telegram channel style."""
@@ -222,13 +237,54 @@ class ClaudeClient(LLMClient):
         # Exponential backoff
         return self.initial_retry_delay * (2 ** attempt)
     
+    def _fix_json(self, text: str) -> str:
+        """Try to fix common JSON issues."""
+        # Remove trailing commas before } or ]
+        text = re.sub(r',(\s*[}\]])', r'\1', text)
+        return text
+    
     def _extract_json(self, text: str) -> str:
-        """Extract JSON from markdown code block if present."""
-        # Try to find JSON in markdown code block
+        """Extract JSON from markdown code block or raw text."""
+        # Strategy 1: Try to find JSON in markdown code block
         code_block_match = re.search(r'```(?:json)?\s*\n(.*?)\n```', text, re.DOTALL)
         if code_block_match:
-            return code_block_match.group(1).strip()
+            candidate = code_block_match.group(1).strip()
+            return self._fix_json(candidate)
         
-        # Otherwise return as is
-        return text.strip()
+        # Strategy 2: Try to find JSON object with required fields (more specific)
+        # Look for is_relevant field which is required in response
+        json_with_fields = re.search(
+            r'\{[^}]*"is_relevant"\s*:\s*(?:true|false)[^}]*\}',
+            text,
+            re.DOTALL
+        )
+        if json_with_fields:
+            candidate = self._fix_json(json_with_fields.group(0))
+            try:
+                json.loads(candidate)
+                return candidate
+            except json.JSONDecodeError:
+                pass
+        
+        # Strategy 3: Try to find any JSON object or array
+        json_object_match = re.search(r'\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}', text, re.DOTALL)
+        if json_object_match:
+            candidate = self._fix_json(json_object_match.group(0))
+            try:
+                json.loads(candidate)
+                return candidate
+            except json.JSONDecodeError:
+                pass
+        
+        json_array_match = re.search(r'\[[^\[\]]*(?:\[[^\[\]]*\][^\[\]]*)*\]', text, re.DOTALL)
+        if json_array_match:
+            candidate = self._fix_json(json_array_match.group(0))
+            try:
+                json.loads(candidate)
+                return candidate
+            except json.JSONDecodeError:
+                pass
+        
+        # Strategy 4: Return as is (last resort)
+        return self._fix_json(text.strip())
 

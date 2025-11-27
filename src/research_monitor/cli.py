@@ -9,6 +9,7 @@ import typer
 
 from research_monitor.adapters.digest import MarkdownDigestGenerator
 from research_monitor.adapters.llm import ClaudeClient
+from research_monitor.adapters.notifications import SlackNotifier
 from research_monitor.adapters.sources import (
     ArXivRSSSource,
     GitHubSource,
@@ -51,9 +52,14 @@ async def async_run(days: int, output: Optional[Path], debug: bool) -> None:
         print(f"  ✗ ANTHROPIC_API_KEY - не найден (фильтрация не будет работать)")
     
     if settings.github_token:
-        print(f"  ✓ GITHUB_TOKEN - для парсинга GitHub feed")
+        print(f"  ✓ GitHub Token - для парсинга GitHub feed")
     else:
-        print(f"  ⚠️  GITHUB_TOKEN - не найден (будут собираться только публичные события)")
+        print(f"  ⚠️  GitHub Token - не найден (ограниченный rate limit)")
+    
+    if settings.slack_webhook_url:
+        print(f"  ✓ SLACK_WEBHOOK_URL - для отправки уведомлений")
+    else:
+        print(f"  ⚠️  SLACK_WEBHOOK_URL - не найден (уведомления отключены)")
     
     # Calculate date range
     since = date.today() - timedelta(days=days)
@@ -137,9 +143,14 @@ async def async_run(days: int, output: Optional[Path], debug: bool) -> None:
     )
     
     digest_generator = MarkdownDigestGenerator()
+    
+    # Initialize notification service if webhook is configured
+    notification_service = SlackNotifier(settings.slack_webhook_url) if settings.slack_webhook_url else None
+    
     digest_service = DigestService(
         llm_client=llm_client,
         digest_generator=digest_generator,
+        notification_service=notification_service,
     )
     
     # Collect and filter items
@@ -167,7 +178,7 @@ async def async_run(days: int, output: Optional[Path], debug: bool) -> None:
     # Save digest
     if output is None:
         timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-        output = settings.output_dir / f"digest_{timestamp}.md"
+        output = settings.full_digests_dir / f"{timestamp}_digest.md"
     
     digest_service.save_digest(digest, output)
     
@@ -180,10 +191,15 @@ async def async_run(days: int, output: Optional[Path], debug: bool) -> None:
     try:
         digest_summary = await digest_service.generate_digest_summary(entries)
         
-        # Save digest summary with same name but _summary suffix
-        summary_output = output.parent / output.name.replace('.md', '_summary.md')
+        # Save digest summary to summary directory with same timestamp
+        timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+        summary_output = settings.summary_digests_dir / f"{timestamp}_summary.md"
         digest_service.save_digest(digest_summary, summary_output)
         print(f"✓ Саммари сохранен: {summary_output}")
+        
+        # Send notification if configured
+        if notification_service:
+            await digest_service.send_notification(digest_summary, digest_date)
     except Exception as e:
         print(f"⚠️  Ошибка при генерации саммари: {e}")
     

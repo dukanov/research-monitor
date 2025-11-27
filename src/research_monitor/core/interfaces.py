@@ -47,3 +47,12 @@ class DigestGenerator(ABC):
         """Generate digest from entries."""
         pass
 
+
+class NotificationService(ABC):
+    """Interface for sending notifications."""
+    
+    @abstractmethod
+    async def send_digest(self, digest_summary: str, digest_date: date) -> None:
+        """Send digest summary notification."""
+        pass
+

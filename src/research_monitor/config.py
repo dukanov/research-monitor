@@ -23,6 +23,8 @@ class ClaudeConfig:
 class PathsConfig:
     """Path settings."""
     output_dir: Path = Path("digests")
+    full_digests_dir: Path = Path("digests/full")
+    summary_digests_dir: Path = Path("digests/summary")
     debug_dir: Path = Path("debug")
     artifacts_dir: Path = Path("artifacts")
 
@@ -88,9 +90,10 @@ class PromptsConfig:
 class Settings:
     """Application settings."""
     
-    # API Keys (from environment only)
+    # API Keys and webhooks (from environment only)
     anthropic_api_key: str = ""
     github_token: Optional[str] = None
+    slack_webhook_url: Optional[str] = None
     
     # Config sections
     claude: ClaudeConfig = field(default_factory=ClaudeConfig)
@@ -128,6 +131,14 @@ class Settings:
     @property
     def output_dir(self) -> Path:
         return self.paths.output_dir
+    
+    @property
+    def full_digests_dir(self) -> Path:
+        return self.paths.full_digests_dir
+    
+    @property
+    def summary_digests_dir(self) -> Path:
+        return self.paths.summary_digests_dir
     
     @property
     def debug_dir(self) -> Path:
@@ -212,14 +223,17 @@ def get_settings(config_path: Path = Path("config.yaml")) -> Settings:
     # Load YAML config
     config = load_config(config_path)
     
-    # Get API keys from environment
+    # Get API keys and webhooks from environment
     anthropic_api_key = os.getenv("ANTHROPIC_API_KEY", "")
-    github_token = os.getenv("GITHUB_TOKEN")
+    # Try GH_PAT first (custom token), then fall back to GITHUB_TOKEN (Actions default)
+    github_token = os.getenv("GH_PAT") or os.getenv("GITHUB_TOKEN")
+    slack_webhook_url = os.getenv("SLACK_WEBHOOK_URL")
     
     # Build settings
     settings = Settings(
         anthropic_api_key=anthropic_api_key,
         github_token=github_token,
+        slack_webhook_url=slack_webhook_url,
     )
     
     # Apply YAML config
