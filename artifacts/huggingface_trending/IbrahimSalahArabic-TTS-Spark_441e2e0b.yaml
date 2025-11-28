@@ -1,0 +1,28 @@
+title: IbrahimSalah/Arabic-TTS-Spark
+url: https://huggingface.co/IbrahimSalah/Arabic-TTS-Spark
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-11-28T16:28:11.479640+00:00'
+date_seen: '2025-11-28'
+metadata:
+  likes: '6'
+  downloads: '1380'
+  trending_score: '3'
+  last_modified: '2025-11-27T10:05:58.000Z'
+content_preview: "---\nlanguage:\n- ar\nbase_model:\n- SparkAudio/Spark-TTS-0.5B\n\
+  tags:\n- speech\n- arabic\n- spark\n- tts\n- text-to-speech\nlicense: fair-noncommercial-research-license\n\
+  ---\n# Spark-TTS Arabic\n## نموذج تحويل النص إلى كلام باللغة العربية\n\nArabic text-to-speech\
+  \ model fine-tuned on 300 hours of clean Arabic audio data. Delivers consistent,\
+  \ high-quality speech synthesis for Modern Standard Arabic with full diacritization.\n\
+  \n## Model Details\n\n**Training Data:** ~300 hours of clean Arabic audio  \n**Language:**\
+  \ Mo"
+content_length: 5049
+llm_content_sent: 5049
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Модель релевантна вашим интересам, поскольку представляет TTS-систему с возможностями
+  клонирования голоса (voice cloning) из референсного аудио, что относится к zero-shot
+  методам. Поддерживает многоязычный синтез (арабский язык) и имеет функции для улучшения
+  качества и естественности речи (нормализация, кроссфейдинг). Однако модель ограничена
+  одним языком и не фокусируется специально на эмоциональном синтезе или дубляже.

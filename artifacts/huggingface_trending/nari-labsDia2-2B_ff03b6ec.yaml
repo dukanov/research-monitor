@@ -1,0 +1,28 @@
+title: nari-labs/Dia2-2B
+url: https://huggingface.co/nari-labs/Dia2-2B
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-11-28T16:28:07.524747+00:00'
+date_seen: '2025-11-28'
+metadata:
+  likes: '81'
+  downloads: '4737'
+  trending_score: '69'
+  last_modified: '2025-11-19T05:12:47.000Z'
+content_preview: "---\nlicense: apache-2.0\nlanguage:\n- en\npipeline_tag: text-to-speech\n\
+  ---\n# Dia2-2B\n\n<div align=\"center\">\n  <a href=\"https://huggingface.co/nari-labs/Dia2-2B\"\
+  ><img src=\"https://img.shields.io/badge/HF%20Repo-Dia2--2B-orange?style=for-the-badge\"\
+  ></a>\n  <a href=\"https://discord.gg/bJq6vjRRKv\"><img src=\"https://img.shields.io/badge/Discord-Join%20Chat-7289DA?logo=discord&style=for-the-badge\"\
+  ></a>\n  <a href=\"https://github.com/nari-labs/dia2/blob/main/LICENSE\"><img src=\"\
+  https://img.shields.io/badge/Li"
+content_length: 4687
+llm_content_sent: 4687
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.8
+reason: Dia2-2B - это потоковая модель TTS для диалогов с поддержкой условной генерации
+  на основе аудио, что напрямую связано с дублированием и речевой трансляцией. Модель
+  поддерживает генерацию в реальном времени и может использоваться для систем speech-to-speech,
+  что соответствует интересам в области дублирования. Хотя явно не упоминается эмоциональный
+  синтез или zero-shot методы, архитектура позволяет кондиционирование на аудио префиксах,
+  что может быть полезно для адаптации голоса.

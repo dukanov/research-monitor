@@ -1,0 +1,27 @@
+title: nari-labs/Dia2-1B
+url: https://huggingface.co/nari-labs/Dia2-1B
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-11-28T16:28:08.764924+00:00'
+date_seen: '2025-11-28'
+metadata:
+  likes: '9'
+  downloads: '287'
+  trending_score: '6'
+  last_modified: '2025-11-18T02:25:18.000Z'
+content_preview: "---\nlicense: apache-2.0\nlanguage:\n- en\npipeline_tag: text-to-speech\n\
+  ---\n# Dia2-1B\n\n<div align=\"center\">\n  <a href=\"https://huggingface.co/nari-labs/Dia2-2B\"\
+  ><img src=\"https://img.shields.io/badge/HF%20Repo-Dia2--2B-orange?style=for-the-badge\"\
+  ></a>\n  <a href=\"https://discord.gg/bJq6vjRRKv\"><img src=\"https://img.shields.io/badge/Discord-Join%20Chat-7289DA?logo=discord&style=for-the-badge\"\
+  ></a>\n  <a href=\"https://github.com/nari-labs/dia2/blob/main/LICENSE\"><img src=\"\
+  https://img.shields.io/badge/Li"
+content_length: 4474
+llm_content_sent: 4474
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.85
+reason: Высоко релевантная модель для речевого синтеза с поддержкой диалогов и потокового
+  воспроизведения. Dia2-1B поддерживает условную генерацию на основе аудио (что близко
+  к zero-shot методам), многоспикерный синтез с метками [S1]/[S2], и может использоваться
+  для речь-в-речь систем. Модель особенно интересна для дубляжа и разговорных приложений,
+  хотя напрямую не упоминает эмоциональный синтез или многоязычность.

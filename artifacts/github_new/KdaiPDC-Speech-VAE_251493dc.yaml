@@ -1,0 +1,32 @@
+title: KdaiP/DC-Speech-VAE
+url: https://github.com/KdaiP/DC-Speech-VAE
+source: github_new
+type: repository
+date_discovered: '2025-11-19T23:41:20+00:00'
+date_seen: '2025-11-28'
+metadata:
+  stars: '45'
+  language: Python
+  created_at: '2025-11-19T23:41:20Z'
+content_preview: 'Description: 5Hz Deep-Compression Speech VAE for AR-Diffusion and
+  CALMs
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 45
+
+  '
+content_length: 119
+llm_content_sent: 119
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: 'Репозиторий напрямую связан с интересующими технологиями: содержит VAE (вариационный
+  автоэнкодер) для сжатия речи с частотой 5Hz, предназначенный для AR-Diffusion и
+  CALM моделей. Диффузионные модели для синтеза речи - одна из ключевых интересующих
+  технологий. Сжатие речевых представлений важно для эффективного синтеза и может
+  применяться в zero-shot методах и клонировании голоса.'

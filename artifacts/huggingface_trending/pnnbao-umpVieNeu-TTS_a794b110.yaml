@@ -1,0 +1,58 @@
+title: pnnbao-ump/VieNeu-TTS
+url: https://huggingface.co/pnnbao-ump/VieNeu-TTS
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-11-28T16:28:10.438083+00:00'
+date_seen: '2025-11-28'
+metadata:
+  likes: '31'
+  downloads: '9095'
+  trending_score: '4'
+  last_modified: '2025-11-24T05:29:23.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  datasets:
+
+  - pnnbao-ump/VieNeu-TTS-1000h
+
+  - pnnbao-ump/VieNeu-TTS-500h-dialects
+
+  - pnnbao-ump/VieNeuCodec-dataset
+
+  language:
+
+  - vi
+
+  base_model:
+
+  - neuphonic/neutts-air
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  # VieNeu-TTS
+
+
+  [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/pnnbao97/VieNeu-TTS)
+
+  [![Model](https://img.shields.io/badge/Hugging%20Face-Model-yellow)](https://huggingface.co/pnnbao-ump/VieNeu-TTS)
+
+
+
+  ![Untitled](https://cdn-uploads.huggingface.c'
+content_length: 8477
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.85
+reason: Модель VieNeu-TTS очень релевантна вашим интересам. Она предлагает мгновенное
+  клонирование голоса (instant voice cloning) с минимальными данными (3-5 секунд референсного
+  аудио), что идеально соответствует вашему интересу к zero-shot методам и voice cloning.
+  Модель поддерживает синтез с высоким качеством (24 kHz) и работает в реальном времени,
+  что важно для дубляжа. Хотя это специфично для вьетнамского языка, архитектура и
+  подходы (использование Qwen LM + NeuCodec) могут быть интересны для исследований
+  в области многоязычного синтеза.

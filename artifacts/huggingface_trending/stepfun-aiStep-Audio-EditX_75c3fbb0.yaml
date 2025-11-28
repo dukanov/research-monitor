@@ -1,0 +1,29 @@
+title: stepfun-ai/Step-Audio-EditX
+url: https://huggingface.co/stepfun-ai/Step-Audio-EditX
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-11-28T16:28:11.243567+00:00'
+date_seen: '2025-11-28'
+metadata:
+  likes: '88'
+  downloads: '989'
+  trending_score: '3'
+  last_modified: '2025-11-28T14:33:09.000Z'
+content_preview: "---\nlicense: apache-2.0\npipeline_tag: text-to-speech\nlibrary_name:\
+  \ transformers\n---\n## Step-Audio-EditX\n\n ✨ [Demo Page](https://stepaudiollm.github.io/step-audio-editx/)&nbsp;\n\
+  | \U0001F31F [GitHub](https://github.com/stepfun-ai/Step-Audio-EditX)&nbsp;\n| \U0001F4D1\
+  \ [Paper](https://arxiv.org/abs/2511.03601)&nbsp;\n\nCheck our open-source repository\
+  \ https://github.com/stepfun-ai/Step-Audio-EditX for more details!\n\n## \U0001F525\
+  \U0001F525\U0001F525 News!!！\n* Nov 28, 2025: \U0001F680 New Model Release: Now\
+  \ supporting **`Japanese`** and **`Korean`** langua"
+content_length: 5380
+llm_content_sent: 5380
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.95
+reason: 'Модель Step-Audio-EditX идеально соответствует вашим интересам: это 3B параметров
+  LLM-модель для синтеза речи с поддержкой zero-shot TTS клонирования голоса, эмоционального
+  синтеза (angry, happy, sad и др.), редактирования стиля речи, работы с множественными
+  языками (китайский, английский, японский, корейский) и паралингвистическими особенностями.
+  Модель основана на трансформерах и поддерживает итеративное редактирование аудио
+  с минимальными данными.'

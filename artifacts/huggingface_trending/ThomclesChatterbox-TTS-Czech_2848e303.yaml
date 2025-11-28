@@ -1,0 +1,44 @@
+title: Thomcles/Chatterbox-TTS-Czech
+url: https://huggingface.co/Thomcles/Chatterbox-TTS-Czech
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-11-28T16:28:19.909823+00:00'
+date_seen: '2025-11-28'
+metadata:
+  likes: '5'
+  downloads: '0'
+  trending_score: '1'
+  last_modified: '2025-11-19T07:20:52.000Z'
+content_preview: 'Chatterbox Czech
+
+  training quality TTS with low ressource data
+
+  demo audios:
+
+  "Dobrý den, vítáme vás v našem testu syntézy řeči"
+
+  Your browser does not support audio.
+
+  "Tři sta třiatřicet stříbrných křepelek přeletělo přes tři stříbrné střechy"
+
+  Your browser does not support audio.
+
+  "Kolik stojí devět tisíc osm set sedmdesát pět korun ?"
+
+  Your browser does not support audio.
+
+  "Prosím, nastav hlasitost na sedmdesát procent a přehraj znovu"
+
+  Your browser does not support audio.
+
+  "Doktor Křivohlavý napsal člá'
+content_length: 1910
+llm_content_sent: 1910
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.6
+reason: Модель представляет интерес как пример многоязычного TTS с низкоресурсными
+  данными (чешский язык). Хотя она не фокусируется на эмоциональном синтезе или zero-shot
+  методах, она демонстрирует подход к многоязычному синтезу речи с ограниченными данными,
+  что частично пересекается с вашими интересами в области multilingual TTS и может
+  быть полезна для понимания методов работы с редкими языками.

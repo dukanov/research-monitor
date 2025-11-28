@@ -1,0 +1,31 @@
+title: GiantAILab/YingMusic-SVC
+url: https://github.com/GiantAILab/YingMusic-SVC
+source: github_new
+type: repository
+date_discovered: '2025-11-25T09:28:43+00:00'
+date_seen: '2025-11-28'
+metadata:
+  stars: '42'
+  language: Python
+  created_at: '2025-11-25T09:28:43Z'
+content_preview: 'Description: Official implementation of YingMusic-SVC.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 42
+
+  '
+content_length: 102
+llm_content_sent: 102
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: SVC (Singing Voice Conversion) технология напрямую связана с вашими интересами
+  в области voice conversion и синтеза речи. Хотя это музыкальное приложение, SVC
+  использует те же базовые методы что и speech synthesis - преобразование голоса,
+  адаптацию говорящего, и может включать zero-shot подходы. Технологии SVC часто применяются
+  и для обычного синтеза речи.

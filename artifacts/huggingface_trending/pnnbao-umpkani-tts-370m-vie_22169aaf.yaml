@@ -1,0 +1,56 @@
+title: pnnbao-ump/kani-tts-370m-vie
+url: https://huggingface.co/pnnbao-ump/kani-tts-370m-vie
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-11-28T16:28:09.616409+00:00'
+date_seen: '2025-11-28'
+metadata:
+  likes: '20'
+  downloads: '1338'
+  trending_score: '5'
+  last_modified: '2025-11-15T14:33:19.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  datasets:
+
+  - pnnbao-ump/VieNeu-TTS-140h
+
+  - pnnbao-ump/VieNeu-TTS-140h-nanocodec
+
+  - pnnbao-ump/VieNeu-TTS-500h-dialects
+
+  language:
+
+  - vi
+
+  base_model:
+
+  - nineninesix/kani-tts-370m
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+  # 😻 Kani TTS Vie
+
+
+  [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/pnnbao97/Kani-TTS-Vie)
+
+  [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Model-yellow)](https://huggingface.co/pnnbao-ump/kani-tts-370m-vie)
+
+
+  **Fast and Expres'
+content_length: 6391
+llm_content_sent: 6391
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Модель Kani TTS Vie релевантна для исследований синтеза речи. Она демонстрирует
+  мультиязычные возможности (вьетнамский + кросс-лингвальный синтез с английскими,
+  корейскими и другими голосами), поддерживает множественные голоса и диалекты, что
+  близко к zero-shot методам. Модель основана на современной архитектуре (370M параметров)
+  и поддерживает fine-tuning через LoRA для адаптации голоса. Хотя эмоциональный синтез
+  и дубляж не являются основным фокусом, кросс-лингвальные возможности и адаптация
+  голоса делают её интересной для исследований.

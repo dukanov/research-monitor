@@ -1,0 +1,48 @@
+title: jiaqili3/flexicodec
+url: https://huggingface.co/jiaqili3/flexicodec
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-11-28T16:28:13.767175+00:00'
+date_seen: '2025-11-28'
+metadata:
+  likes: '4'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2025-11-25T08:13:06.000Z'
+content_preview: '---
+
+  pipeline_tag: text-to-speech
+
+  datasets:
+
+  - facebook/multilingual_librispeech
+
+  language:
+
+  - en
+
+  ---
+
+  # FlexiCodec: A Dynamic Neural Audio Codec for Low Frame Rates
+
+
+  [![Demo Page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://flexicodec.github.io/)
+
+  [![ArXiv](https://img.shields.io/badge/arXiv-PDF-green?logo=arxiv&style=flat-square)](https://arxiv.org/abs/2510.00981)
+
+
+
+  ## Abstract
+
+  Neural audio codecs are foundational to speech language models. It is exp'
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.85
+reason: FlexiCodec - это нейронный аудиокодек с динамической частотой кадров для синтеза
+  речи, который включает TTS систему с AR+NAR архитектурой. Модель поддерживает многоязычность
+  (multilingual_librispeech), voice cloning через reference audio, и использует современные
+  подходы включая Transformer архитектуру и диффузионные модели. Хотя основной фокус
+  на кодировании аудио, а не на эмоциональном синтезе или дубляже, технология напрямую
+  применима к задачам синтеза речи и может быть полезна для zero-shot voice cloning.

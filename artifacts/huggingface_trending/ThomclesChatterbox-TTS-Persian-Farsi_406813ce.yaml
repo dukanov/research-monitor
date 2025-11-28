@@ -1,0 +1,51 @@
+title: Thomcles/Chatterbox-TTS-Persian-Farsi
+url: https://huggingface.co/Thomcles/Chatterbox-TTS-Persian-Farsi
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-11-28T16:28:09.393949+00:00'
+date_seen: '2025-11-28'
+metadata:
+  likes: '22'
+  downloads: '0'
+  trending_score: '5'
+  last_modified: '2025-11-22T07:25:44.000Z'
+content_preview: 'Chatterbox Persian-Farsi
+
+  training High quality TTS with low ressource data
+
+  Chatterbox-TTS-Persian-Farsi
+
+  is a TTS trained on data that I cleaned, denoised, and filtered.
+
+  The total cost of the TTS is
+
+  $150
+
+  on my cloud hardware.
+
+  If you find this model useful and high-quality, and would like to support my work,
+  you can send me money via ko-fi, or like it on huggingface.
+
+  Dataset :
+
+  Thomcles/Persian-Farsi-Speech
+
+  contact :
+
+  e-mail :
+
+  cyprienoucortex@gmail.com
+
+  demo audios:
+
+  "سلام! به آزمایش تبدیل متن به گفتا'
+content_length: 2402
+llm_content_sent: 2402
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.6
+reason: Модель TTS для персидского языка релевантна интересам в области многоязычного
+  синтеза речи. Хотя не фокусируется на эмоциональном синтезе или zero-shot методах,
+  представляет интерес как пример обучения высококачественной TTS на ограниченных
+  данных для менее распространенного языка. Использует архитектуру Chatterbox, что
+  может быть полезно для понимания подходов к многоязычному синтезу.

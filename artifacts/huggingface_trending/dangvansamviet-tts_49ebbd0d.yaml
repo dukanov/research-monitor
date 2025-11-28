@@ -1,0 +1,27 @@
+title: dangvansam/viet-tts
+url: https://huggingface.co/dangvansam/viet-tts
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-11-28T16:28:16.293556+00:00'
+date_seen: '2025-11-28'
+metadata:
+  likes: '23'
+  downloads: '129'
+  trending_score: '1'
+  last_modified: '2025-11-19T10:02:20.000Z'
+content_preview: "---\nlanguage:\n- vi\n- en\npipeline_tag: text-to-speech\nlicense:\
+  \ cc\ntags:\n- tts\n- text-to-speech\n- vietnamese\n- speech-synthesis\n- speech,\n\
+  - viet-tts\n- viettts\n---\n<!-- # VietTTS: An Open-Source Vietnamese Text to Speech\
+  \ -->\n<p align=\"center\">\n  <img src=\"https://github.com/dangvansam/viet-tts/blob/main/assets/viet-tts-medium.png?raw=true\"\
+  \ style=\"width: 200px\">\n  <h1 align=\"center\"style=\"color: white; font-weight:\
+  \ bold; font-family:roboto\"><span style=\"color: white; font-weight: bold; font-family:r"
+content_length: 8510
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Проект VietTTS релевантен вашим интересам, так как предоставляет возможности
+  voice cloning ('robust voice cloning') и zero-shot синтеза через промпт-аудио ('TTS
+  with any voice via prompt audio'). Система поддерживает клонирование голоса с минимальными
+  данными и имеет встроенные голоса. Однако проект специфичен для вьетнамского языка
+  и не фокусируется на эмоциональном синтезе или дублировании, что снижает общую релевантность.
