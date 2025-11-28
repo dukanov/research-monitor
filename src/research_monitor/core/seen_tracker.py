@@ -24,7 +24,7 @@ class SeenItemsTracker:
             self.storage_dir.mkdir(parents=True, exist_ok=True)
             
             # Create subdirectories by source
-            for source in ["github", "huggingface_papers", "huggingface_trending"]:
+            for source in ["arxiv_rss", "github_new", "huggingface_papers", "huggingface_trending"]:
                 (self.storage_dir / source).mkdir(exist_ok=True)
     
     def is_seen(self, item: Item) -> bool:
