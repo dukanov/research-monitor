@@ -16,7 +16,3 @@ htmlcov/
 # Debug directory
 debug/
 
-# Artifacts (YAML files)
-artifacts/*
-!artifacts/.gitkeep
-!artifacts/README.md
