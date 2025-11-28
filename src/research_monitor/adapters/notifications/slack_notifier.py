@@ -1,5 +1,6 @@
 """Slack notification adapter."""
 
+import re
 from datetime import date
 from typing import Optional
 
@@ -19,20 +20,42 @@ class SlackNotifier(NotificationService):
         """
         self.webhook_url = webhook_url
     
+    def _convert_markdown_to_mrkdwn(self, text: str) -> str:
+        """Convert markdown to Slack mrkdwn format.
+        
+        Args:
+            text: Markdown text
+            
+        Returns:
+            Text in Slack mrkdwn format
+        """
+        # Convert markdown links [text](url) to Slack format <url|text>
+        text = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<\2|\1>', text)
+        
+        # Convert markdown bold **text** to Slack bold *text*
+        text = re.sub(r'\*\*([^*]+)\*\*', r'*\1*', text)
+        
+        # Italic is already the same format in both (_text_)
+        
+        return text
+    
     async def send_digest(self, digest_summary: str, digest_date: date) -> None:
         """Send digest summary to Slack.
         
         Args:
-            digest_summary: The digest summary text
+            digest_summary: The digest summary text (in markdown)
             digest_date: Date of the digest
         """
         if not self.webhook_url:
             # Silently skip if no webhook configured
             return
         
+        # Convert markdown to Slack mrkdwn format
+        slack_summary = self._convert_markdown_to_mrkdwn(digest_summary)
+        
         # Format message
         formatted_date = digest_date.strftime('%d.%m.%Y')
-        message = f"📡 *Research Digest — {formatted_date}*\n\n{digest_summary}"
+        message = f"📡 *Research Digest — {formatted_date}*\n\n{slack_summary}"
         
         # Send to Slack
         payload = {

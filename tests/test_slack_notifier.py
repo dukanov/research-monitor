@@ -82,5 +82,46 @@ async def test_send_digest_formatting() -> None:
         # Check formatting
         assert message.startswith("📡 *Research Digest")
         assert "27.11.2025" in message
-        assert summary in message
+        # Bold should be converted from ** to *
+        assert "*Paper*" in message
+        assert "*Repo*" in message
+
+
+def test_convert_markdown_to_mrkdwn_links() -> None:
+    """Test markdown link conversion to Slack format."""
+    notifier = SlackNotifier("https://hooks.slack.com/services/test")
+    
+    # Test single link
+    markdown = "Check out [this paper](https://arxiv.org/abs/123)"
+    result = notifier._convert_markdown_to_mrkdwn(markdown)
+    assert result == "Check out <https://arxiv.org/abs/123|this paper>"
+    
+    # Test multiple links
+    markdown = "[First](http://example.com) and [Second](http://test.com)"
+    result = notifier._convert_markdown_to_mrkdwn(markdown)
+    assert result == "<http://example.com|First> and <http://test.com|Second>"
+
+
+def test_convert_markdown_to_mrkdwn_bold() -> None:
+    """Test markdown bold conversion to Slack format."""
+    notifier = SlackNotifier("https://hooks.slack.com/services/test")
+    
+    # Test single bold
+    markdown = "This is **bold text** here"
+    result = notifier._convert_markdown_to_mrkdwn(markdown)
+    assert result == "This is *bold text* here"
+    
+    # Test multiple bold
+    markdown = "**First** and **Second** bold"
+    result = notifier._convert_markdown_to_mrkdwn(markdown)
+    assert result == "*First* and *Second* bold"
+
+
+def test_convert_markdown_to_mrkdwn_combined() -> None:
+    """Test combined markdown to mrkdwn conversion."""
+    notifier = SlackNotifier("https://hooks.slack.com/services/test")
+    
+    markdown = "**Title**: Check [this link](http://example.com) with **bold text**"
+    result = notifier._convert_markdown_to_mrkdwn(markdown)
+    assert result == "*Title*: Check <http://example.com|this link> with *bold text*"
 
