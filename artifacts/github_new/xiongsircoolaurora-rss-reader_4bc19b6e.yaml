@@ -1,0 +1,29 @@
+title: xiongsircool/aurora-rss-reader
+url: https://github.com/xiongsircool/aurora-rss-reader
+source: github_new
+type: repository
+date_discovered: '2025-11-13T08:52:53+00:00'
+date_seen: '2025-11-27'
+metadata:
+  stars: '27'
+  language: Rust
+  created_at: '2025-11-13T08:52:53Z'
+content_preview: 'Description:  Aurora RSS Reader - AI 增强的跨平台桌面 RSS 阅读器，支持多语言翻译、智能摘要和现代化阅读体验.
+
+
+  Topics: No topics
+
+
+  Language: Rust
+
+  Stars: 27
+
+  '
+content_length: 121
+llm_content_sent: 121
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Это репозиторий RSS-читалки на языке Rust с AI-функциями для перевода и суммаризации
+  текста. Не имеет отношения к синтезу речи, эмоциональному TTS, zero-shot голосовому
+  клонированию или дублированию. Относится к обработке текста, а не к речевым технологиям.

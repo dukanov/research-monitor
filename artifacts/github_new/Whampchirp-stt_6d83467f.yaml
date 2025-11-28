@@ -1,0 +1,31 @@
+title: Whamp/chirp-stt
+url: https://github.com/Whamp/chirp-stt
+source: github_new
+type: repository
+date_discovered: '2025-11-13T21:15:28+00:00'
+date_seen: '2025-11-27'
+metadata:
+  stars: '161'
+  language: Python
+  created_at: '2025-11-13T21:15:28Z'
+content_preview: 'Description: No description
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 161
+
+  '
+content_length: 76
+llm_content_sent: 76
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий связан с распознаванием речи (STT - Speech-to-Text), а не с синтезом
+  речи (TTS). Хотя STT может быть частью пайплайна для дубляжа (speech-to-speech),
+  основной фокус интересов - на синтезе речи, эмоциональном TTS и voice cloning. Без
+  описания и дополнительной информации о содержимом репозитория сложно определить
+  прямую релевантность к задачам синтеза.

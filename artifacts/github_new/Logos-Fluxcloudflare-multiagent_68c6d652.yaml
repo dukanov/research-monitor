@@ -1,0 +1,31 @@
+title: Logos-Flux/cloudflare-multiagent
+url: https://github.com/Logos-Flux/cloudflare-multiagent
+source: github_new
+type: repository
+date_discovered: '2025-11-26T14:09:24+00:00'
+date_seen: '2025-11-27'
+metadata:
+  stars: '16'
+  language: TypeScript
+  created_at: '2025-11-26T14:09:24Z'
+content_preview: 'Description: The Model Configuration System enables flexible, admin-managed
+  AI model configurations without requiring code changes.
+
+
+  Topics: No topics
+
+
+  Language: TypeScript
+
+  Stars: 16
+
+  '
+content_length: 183
+llm_content_sent: 183
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Репозиторий представляет собой систему конфигурации AI моделей на TypeScript
+  для Cloudflare, что не связано с синтезом речи, эмоциональным TTS, zero-shot синтезом
+  или дублированием. Это инфраструктурный инструмент общего назначения для управления
+  конфигурациями AI моделей.

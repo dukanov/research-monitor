@@ -1,0 +1,31 @@
+title: Step-Audio-R1 Technical Report
+url: https://huggingface.co/papers/2511.15848
+source: huggingface_papers
+type: paper
+date_discovered: '2025-11-27T12:16:41.969219+00:00'
+date_seen: '2025-11-27'
+metadata:
+  upvotes: '50'
+  paper_id: '2511.15848'
+  published_date: '2025-11-23'
+content_preview: 'Title: Step-Audio-R1 Technical Report
+
+
+  Summary:
+
+  Recent advances in reasoning models have demonstrated remarkable success in text
+  and vision domains through extended chain-of-thought deliberation. However, a perplexing
+  phenomenon persists in audio language models: they consistently perform better with
+  minimal or no reasoning, raising a fundamental question - can audio intelligence
+  truly benefit from deliberate thinking? We introduce Step-Audio-R1, the first audio
+  reasoning model that successfully'
+content_length: 1508
+llm_content_sent: 1508
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.15
+reason: Статья посвящена аудио-рассуждениям (audio reasoning) и пониманию звука, но
+  не касается синтеза речи. Step-Audio-R1 - это модель для анализа и понимания аудио
+  (речь, звуки окружения, музыка), а не для генерации/синтеза речи. Хотя работа связана
+  с аудио-технологиями, она не релевантна для задач эмоционального синтеза, voice
+  cloning или дубляжа.

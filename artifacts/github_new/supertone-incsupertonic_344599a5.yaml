@@ -1,0 +1,34 @@
+title: supertone-inc/supertonic
+url: https://github.com/supertone-inc/supertonic
+source: github_new
+type: repository
+date_discovered: '2025-11-18T08:23:58+00:00'
+date_seen: '2025-11-27'
+metadata:
+  stars: '1197'
+  language: JavaScript
+  created_at: '2025-11-18T08:23:58Z'
+content_preview: 'Description: Lightning-fast, on-device TTS — running natively via
+  ONNX.
+
+
+  Topics: cpp, csharp, go, ios, java, lightweight, nodejs, on-device, python, rust,
+  swift, text-to-speech, tt, tts, web
+
+
+  Language: JavaScript
+
+  Stars: 1197
+
+  '
+content_length: 225
+llm_content_sent: 225
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: 'Репозиторий посвящен быстрому on-device TTS через ONNX, что является инфраструктурным
+  решением для развертывания моделей синтеза речи. Однако он не касается основных
+  интересующих тем: эмоционального синтеза, zero-shot подходов, дубляжа или многоязычности.
+  Это скорее техническая библиотека для оптимизации производительности существующих
+  TTS моделей, а не исследовательская работа в области качества и выразительности
+  синтеза.'

@@ -1,0 +1,32 @@
+title: inclusionAI/AudioMCQ
+url: https://github.com/inclusionAI/AudioMCQ
+source: github_new
+type: repository
+date_discovered: '2025-11-14T08:06:09+00:00'
+date_seen: '2025-11-27'
+metadata:
+  stars: '31'
+  language: Python
+  created_at: '2025-11-14T08:06:09Z'
+content_preview: 'Description: AudioMCQ: A 571k audio multiple-choice question dataset
+  for post-training Large Audio Language Models with dual CoT annotations and audio-contribution
+  filtering. 🏆 1st place in DCASE 2025 Challenge.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 31
+
+  '
+content_length: 259
+llm_content_sent: 259
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий посвящен созданию датасета для обучения больших аудио-языковых
+  моделей с помощью вопросов множественного выбора, что относится к пониманию аудио,
+  а не к синтезу речи. Хотя работа связана с аудио-технологиями, она не касается эмоционального
+  синтеза, zero-shot TTS, дубляжа или других интересующих тем синтеза речи.

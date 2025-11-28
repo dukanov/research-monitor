@@ -1,0 +1,30 @@
+title: devgeetech-murf/murf-voice-agent-starter
+url: https://github.com/devgeetech-murf/murf-voice-agent-starter
+source: github_new
+type: repository
+date_discovered: '2025-11-18T08:03:03+00:00'
+date_seen: '2025-11-27'
+metadata:
+  stars: '19'
+  language: Python
+  created_at: '2025-11-18T08:03:03Z'
+content_preview: 'Description: No description
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 19
+
+  '
+content_length: 75
+llm_content_sent: 75
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий связан с Murf (известная платформа для синтеза речи), но содержит
+  только starter код для voice agent без описания, документации или кода. Невозможно
+  определить, содержит ли он технологии, релевантные для эмоционального синтеза, zero-shot
+  или дубляжа. Слишком мало информации для оценки научной или технической ценности.

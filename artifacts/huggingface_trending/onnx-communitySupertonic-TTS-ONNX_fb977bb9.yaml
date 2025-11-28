@@ -1,0 +1,60 @@
+title: onnx-community/Supertonic-TTS-ONNX
+url: https://huggingface.co/onnx-community/Supertonic-TTS-ONNX
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-11-27T12:16:46.584683+00:00'
+date_seen: '2025-11-27'
+metadata:
+  likes: '5'
+  downloads: '1910'
+  trending_score: '4'
+  last_modified: '2025-11-25T15:02:40.000Z'
+content_preview: '---
+
+  license: openrail
+
+  base_model:
+
+  - Supertone/supertonic
+
+  library_name: transformers.js
+
+  language:
+
+  - en
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+
+  ### Transformers.js
+
+
+  If you haven''t already, you can install the [Transformers.js](https://huggingface.co/docs/transformers.js)
+  JavaScript library from [NPM](https://www.npmjs.com/package/@huggingface/transformers)
+  using:
+
+  ```bash
+
+  npm i @huggingface/transformers
+
+  ```
+
+
+  You can then generate audio as follows:
+
+  ```js
+
+  import { pipeline } from ''@huggingface/transformer'
+content_length: 981
+llm_content_sent: 981
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.6
+reason: Модель Supertonic-TTS представляет интерес как современная TTS система с поддержкой
+  speaker embeddings, что может быть полезно для voice cloning задач. Однако информация
+  ограничена - нет явных упоминаний об эмоциональном синтезе, zero-shot возможностях
+  или многоязычности. Это скорее базовая TTS модель с возможностью выбора голоса через
+  предзаписанные embeddings.

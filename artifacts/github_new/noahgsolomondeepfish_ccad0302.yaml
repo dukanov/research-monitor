@@ -1,0 +1,32 @@
+title: noahgsolomon/deepfish
+url: https://github.com/noahgsolomon/deepfish
+source: github_new
+type: repository
+date_discovered: '2025-11-23T02:03:48+00:00'
+date_seen: '2025-11-27'
+metadata:
+  stars: '57'
+  language: TypeScript
+  created_at: '2025-11-23T02:03:48Z'
+content_preview: 'Description: A visual node-based editor for building, sharing, and
+  executing complex AI workflows with Fal.ai and Replicate.
+
+
+  Topics: ai, comfyui-web, fal-ai, generative-ai, low-code, nextjs, node-editor, react-flow,
+  replicate, typescript, visual-programming, workflow-automation
+
+
+  Language: TypeScript
+
+  Stars: 57
+
+  '
+content_length: 312
+llm_content_sent: 312
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это визуальный редактор для создания AI-воркфлоу с Fal.ai и Replicate, но
+  не специализируется на синтезе речи. Хотя может потенциально использоваться для
+  построения пайплайнов TTS, основной фокус на общих AI-задачах, а не на эмоциональном
+  синтезе, zero-shot TTS или дубляже.

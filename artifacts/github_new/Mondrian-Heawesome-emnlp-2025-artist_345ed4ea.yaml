@@ -1,0 +1,31 @@
+title: Mondrian-He/awesome-emnlp-2025-artist
+url: https://github.com/Mondrian-He/awesome-emnlp-2025-artist
+source: github_new
+type: repository
+date_discovered: '2025-11-22T09:03:16+00:00'
+date_seen: '2025-11-27'
+metadata:
+  stars: '40'
+  language: null
+  created_at: '2025-11-22T09:03:16Z'
+content_preview: 'Description: This is a repository dedicated to high quality figures
+  from EMNLP 2025 long papers.
+
+
+  Topics: No topics
+
+
+  Language: None
+
+  Stars: 40
+
+  '
+content_length: 142
+llm_content_sent: 142
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий содержит только визуализации из статей EMNLP 2025, но не сами
+  исследования по синтезу речи. Хотя среди статей EMNLP могут быть работы по TTS,
+  данный репозиторий фокусируется на графиках и диаграммах, а не на технических решениях
+  в области эмоционального синтеза, zero-shot или дубляжа.

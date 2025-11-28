@@ -1,0 +1,31 @@
+title: chengyuZou/Open-LLM
+url: https://github.com/chengyuZou/Open-LLM
+source: github_new
+type: repository
+date_discovered: '2025-11-16T08:26:06+00:00'
+date_seen: '2025-11-27'
+metadata:
+  stars: '40'
+  language: null
+  created_at: '2025-11-16T08:26:06Z'
+content_preview: 'Description: 一些大模型相关的开源网站
+
+
+  Topics: agent, llm, nlp, openai, python, rag
+
+
+  Language: None
+
+  Stars: 40
+
+  '
+content_length: 98
+llm_content_sent: 98
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий содержит общую информацию о больших языковых моделях (LLM) и связанных
+  ресурсах, но не имеет прямого отношения к синтезу речи, эмоциональному TTS, zero-shot
+  voice cloning или дубляжу. Хотя LLM могут использоваться в некоторых системах синтеза
+  речи, данный репозиторий фокусируется на текстовых задачах (NLP, RAG, агенты), а
+  не на аудио/речевых технологиях.

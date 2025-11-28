@@ -1,0 +1,31 @@
+title: h9-tec/customer-service-center
+url: https://github.com/h9-tec/customer-service-center
+source: github_new
+type: repository
+date_discovered: '2025-11-23T07:59:32+00:00'
+date_seen: '2025-11-27'
+metadata:
+  stars: '18'
+  language: Python
+  created_at: '2025-11-23T07:59:32Z'
+content_preview: 'Description: No description
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 18
+
+  '
+content_length: 75
+llm_content_sent: 75
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Репозиторий не содержит описания, тем или кода, связанного с синтезом речи.
+  Название 'customer-service-center' предполагает систему обслуживания клиентов, что
+  не пересекается с интересами в области эмоционального синтеза речи, zero-shot технологий
+  или дубляжа. Отсутствие описания и тем делает невозможным определение связи с TTS
+  технологиями.

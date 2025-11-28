@@ -1,0 +1,23 @@
+title: h9-tec/lumina-ai
+url: https://github.com/h9-tec/lumina-ai
+source: github_new
+type: repository
+date_discovered: '2025-11-14T18:44:30+00:00'
+date_seen: '2025-11-27'
+metadata:
+  stars: '19'
+  language: Python
+  created_at: '2025-11-14T18:44:30Z'
+content_preview: "Description: AI-powered meeting assistant that auto-joins Google\
+  \ Meet, records,   transcribes , and generates structured minutes using local  \
+  \ LLMs \n\nTopics: No topics\n\nLanguage: Python\nStars: 19\n"
+content_length: 196
+llm_content_sent: 196
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий представляет собой AI-ассистента для встреч, который записывает
+  и транскрибирует речь, но не занимается синтезом речи. Хотя проект работает с аудио
+  и речевыми технологиями, он решает задачи распознавания и обработки речи (ASR),
+  а не синтеза (TTS). Отсутствует связь с эмоциональным синтезом, voice cloning или
+  дубляжом.

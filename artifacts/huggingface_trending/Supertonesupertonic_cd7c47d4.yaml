@@ -1,0 +1,43 @@
+title: Supertone/supertonic
+url: https://huggingface.co/Supertone/supertonic
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-11-27T12:16:43.165203+00:00'
+date_seen: '2025-11-27'
+metadata:
+  likes: '308'
+  downloads: '7387'
+  trending_score: '222'
+  last_modified: '2025-11-22T01:39:33.000Z'
+content_preview: '---
+
+  license: openrail
+
+  language:
+
+  - en
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  # Supertonic — Lightning Fast, On-Device TTS
+
+
+  **Supertonic** is a lightning-fast, on-device text-to-speech system designed for
+  **extreme performance** with minimal computational overhead. Powered by ONNX Runtime,
+  it runs entirely on your device—no cloud, no API calls, no privacy concerns.
+
+
+  > 🎧 **Try it now**: Experience Supertonic in your browser with our [**Interactive
+  Demo**](https://huggingface.co/spaces/Supertone/superton'
+content_length: 7673
+llm_content_sent: 7673
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: 'Supertonic - это быстрая TTS система, но она не поддерживает ключевые интересы:
+  эмоциональный синтез, zero-shot voice cloning или дубляж. Модель фокусируется только
+  на скорости и производительности базового синтеза речи без возможностей клонирования
+  голоса или эмоциональной выразительности.'

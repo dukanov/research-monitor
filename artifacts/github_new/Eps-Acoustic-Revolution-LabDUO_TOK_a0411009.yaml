@@ -1,0 +1,31 @@
+title: Eps-Acoustic-Revolution-Lab/DUO_TOK
+url: https://github.com/Eps-Acoustic-Revolution-Lab/DUO_TOK
+source: github_new
+type: repository
+date_discovered: '2025-11-25T06:49:29+00:00'
+date_seen: '2025-11-27'
+metadata:
+  stars: '16'
+  language: null
+  created_at: '2025-11-25T06:49:29Z'
+content_preview: 'Description: Official repository for “Duo-Tok: Dual-Track Semantic
+  Music Tokenizer for Vocal–Accompaniment Generation.”
+
+
+  Topics: audio, music
+
+
+  Language: None
+
+  Stars: 16
+
+  '
+content_length: 168
+llm_content_sent: 168
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий посвящен генерации музыки (вокал и аккомпанемент), а не синтезу
+  речи. Хотя есть упоминание вокала, это в контексте музыкальной генерации, а не эмоционального
+  синтеза речи, zero-shot voice cloning или дубляжа. Технологии токенизации могут
+  быть косвенно полезны, но основная направленность не соответствует интересам.

@@ -1,0 +1,31 @@
+title: arpy8/ESP32_Voice_Assistant
+url: https://github.com/arpy8/ESP32_Voice_Assistant
+source: github_new
+type: repository
+date_discovered: '2025-11-13T08:17:37+00:00'
+date_seen: '2025-11-27'
+metadata:
+  stars: '27'
+  language: Python
+  created_at: '2025-11-13T08:17:37Z'
+content_preview: 'Description: This project combines embedded system and AI inference
+  to create an end-to-end conversational experience.
+
+
+  Topics: ai, esp32, faster-whisper, gemini, llm, piper-tts, tts, voice-assistant
+
+
+  Language: Python
+
+  Stars: 27
+
+  '
+content_length: 228
+llm_content_sent: 228
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Репозиторий представляет собой проект голосового ассистента на ESP32 с использованием
+  Piper TTS, но не содержит исследований или разработок в области эмоционального синтеза,
+  zero-shot обучения или дубляжа. Это скорее практическое применение существующих
+  TTS решений в embedded системах, а не исследовательская работа по синтезу речи.
