@@ -143,3 +143,38 @@ async def test_digest_service_generate_summary() -> None:
     assert "📄" in summary
     mock_llm.generate_digest_summary.assert_called_once_with([test_entry])
 
+
+@pytest.mark.asyncio
+async def test_digest_service_send_notification_with_service() -> None:
+    """Test digest service sends notification when notification service is configured."""
+    # Create mock notification service
+    mock_notifier = AsyncMock()
+    
+    # Create service with notification
+    service = DigestService(
+        llm_client=AsyncMock(),
+        digest_generator=AsyncMock(),
+        notification_service=mock_notifier,
+    )
+    
+    # Test notification sending
+    await service.send_notification("Test digest", date.today())
+    
+    mock_notifier.send_digest.assert_called_once_with("Test digest", date.today())
+
+
+@pytest.mark.asyncio
+async def test_digest_service_send_notification_without_service() -> None:
+    """Test digest service does not fail when notification service is None."""
+    # Create service without notification
+    service = DigestService(
+        llm_client=AsyncMock(),
+        digest_generator=AsyncMock(),
+        notification_service=None,
+    )
+    
+    # Test notification sending doesn't fail
+    await service.send_notification("Test digest", date.today())
+    
+    # Should not raise any errors
+

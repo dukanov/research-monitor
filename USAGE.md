@@ -8,6 +8,7 @@ ANTHROPIC_API_KEY=sk-ant-...
 
 # Опционально
 GITHUB_TOKEN=ghp_...
+SLACK_WEBHOOK_URL=https://hooks.slack.com/services/...  # Для отправки уведомлений в Slack
 ```
 
 ## Настройка параметров
@@ -37,19 +38,19 @@ interests_file: Path = Path("interests.md")
 
 ```bash
 # Базовый запуск
-research-monitor run
+uv run research-monitor
 
 # С отладкой
-research-monitor run --debug
+uv run research-monitor --debug
 
 # За последнюю неделю
-research-monitor run --days 7
+uv run research-monitor --days 7
 
 # Свой выходной файл
-research-monitor run --output my-digest.md
+uv run research-monitor --output my-digest.md
 
-# Просмотр конфигурации
-research-monitor config
+# Без отправки уведомлений в Slack
+uv run research-monitor --no-slack
 ```
 
 ## Обработка rate limits

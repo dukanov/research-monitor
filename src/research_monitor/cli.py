@@ -25,9 +25,10 @@ def main(
     days: int = 1,
     output: Optional[Path] = None,
     debug: bool = False,
+    no_slack: bool = typer.Option(False, "--no-slack", help="Disable Slack notifications"),
 ) -> None:
     """Monitor speech synthesis research updates and generate digest."""
-    asyncio.run(async_run(days, output, debug))
+    asyncio.run(async_run(days, output, debug, no_slack))
 
 
 def app() -> None:
@@ -35,7 +36,7 @@ def app() -> None:
     typer.run(main)
 
 
-async def async_run(days: int, output: Optional[Path], debug: bool) -> None:
+async def async_run(days: int, output: Optional[Path], debug: bool, no_slack: bool) -> None:
     """Async implementation of run command."""
     settings = get_settings()
     
@@ -56,7 +57,9 @@ async def async_run(days: int, output: Optional[Path], debug: bool) -> None:
     else:
         print(f"  ⚠️  GitHub Token - не найден (ограниченный rate limit)")
     
-    if settings.slack_webhook_url:
+    if no_slack:
+        print(f"  ⚠️  SLACK_WEBHOOK_URL - отключен опцией --no-slack")
+    elif settings.slack_webhook_url:
         print(f"  ✓ SLACK_WEBHOOK_URL - для отправки уведомлений")
     else:
         print(f"  ⚠️  SLACK_WEBHOOK_URL - не найден (уведомления отключены)")
@@ -144,8 +147,8 @@ async def async_run(days: int, output: Optional[Path], debug: bool) -> None:
     
     digest_generator = MarkdownDigestGenerator()
     
-    # Initialize notification service if webhook is configured
-    notification_service = SlackNotifier(settings.slack_webhook_url) if settings.slack_webhook_url else None
+    # Initialize notification service if webhook is configured and not disabled
+    notification_service = SlackNotifier(settings.slack_webhook_url) if (settings.slack_webhook_url and not no_slack) else None
     
     digest_service = DigestService(
         llm_client=llm_client,
