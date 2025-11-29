@@ -1,0 +1,68 @@
+title: jaeyong2/neutts-air-ko
+url: https://huggingface.co/jaeyong2/neutts-air-ko
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-11-29T10:06:50.623619+00:00'
+date_seen: '2025-11-29'
+metadata:
+  likes: '4'
+  downloads: '87'
+  trending_score: '1'
+  last_modified: '2025-11-29T00:14:32.000Z'
+content_preview: '---
+
+  library_name: transformers
+
+  license: apache-2.0
+
+  language:
+
+  - ko
+
+  - en
+
+  base_model:
+
+  - neuphonic/neutts-air
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+
+  ### Install info
+
+  ```
+
+  https://huggingface.co/neuphonic/neutts-air
+
+  ```
+
+
+
+  ### Example
+
+
+  ```
+
+  from neuttsair.neutts import NeuTTSAir
+
+  import soundfile as sf
+
+
+  tts = NeuTTSAir(backbone_repo="jaeyong2/neutts-air-ko-preview", backbone_device="cpu",
+  codec_repo="neuphonic/neucodec", codec_device="cpu")
+
+  input_text = "하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 저를 믿는 자마다 멸망치 않고 영생을 얻게'
+content_length: 1444
+llm_content_sent: 1444
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Модель представляет корейскую версию NeuTTS-Air - системы синтеза речи, которая
+  использует reference audio для клонирования голоса. Это напрямую связано с интересами
+  к zero-shot synthesis и voice cloning. Модель поддерживает многоязычность (корейский/английский)
+  и использует современную архитектуру с кодеками. Хотя эмоциональный синтез не упоминается
+  явно, технология reference-based synthesis открывает возможности для передачи эмоциональных
+  характеристик из референсного аудио.
