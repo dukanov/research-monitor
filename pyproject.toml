@@ -7,7 +7,7 @@ dependencies = [
     "httpx>=0.27",
     "python-dateutil>=2.9",
     "beautifulsoup4>=4.12",
-    "typer>=0.12",
+    "click>=8.0",
     "pyyaml>=6.0",
 ]
 
@@ -18,7 +18,7 @@ dev = [
 ]
 
 [project.scripts]
-research-monitor = "research_monitor.cli:main"
+research-monitor = "research_monitor.cli:app"
 
 [build-system]
 requires = ["hatchling"]

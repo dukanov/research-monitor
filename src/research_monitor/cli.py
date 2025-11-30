@@ -5,7 +5,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Optional
 
-import typer
+import click
 
 from research_monitor.adapters.digest import MarkdownDigestGenerator
 from research_monitor.adapters.llm import ClaudeClient
@@ -21,19 +21,19 @@ from research_monitor.core import SeenItemsTracker
 from research_monitor.use_cases import DigestService, MonitoringService
 
 
-def main(
-    days: int = 1,
-    output: Optional[Path] = None,
-    debug: bool = False,
-    no_slack: bool = typer.Option(False, "--no-slack", help="Disable Slack notifications"),
-) -> None:
+@click.command()
+@click.option("--days", default=1, type=int, help="Number of days to look back")
+@click.option("--output", type=click.Path(path_type=Path), help="Output file path")
+@click.option("--debug", is_flag=True, help="Enable debug mode")
+@click.option("--no-slack", is_flag=True, help="Disable Slack notifications")
+def main(days: int, output: Optional[Path], debug: bool, no_slack: bool) -> None:
     """Monitor speech synthesis research updates and generate digest."""
     asyncio.run(async_run(days, output, debug, no_slack))
 
 
 def app() -> None:
     """CLI entry point."""
-    typer.run(main)
+    main()
 
 
 async def async_run(days: int, output: Optional[Path], debug: bool, no_slack: bool) -> None:
