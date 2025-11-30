@@ -1,0 +1,30 @@
+title: 164149043/AlphaCouncil
+url: https://github.com/164149043/AlphaCouncil
+source: github_new
+type: repository
+date_discovered: '2025-11-29T12:29:21+00:00'
+date_seen: '2025-11-30'
+metadata:
+  stars: '28'
+  language: TypeScript
+  created_at: '2025-11-29T12:29:21Z'
+content_preview: 'Description: 多智能体股票分析决策系统，需Gemini、DeepSeek、聚合数据这三个平台的API来获取数据后进行分析决策和参考意见。
+
+
+  Topics: No topics
+
+
+  Language: TypeScript
+
+  Stars: 28
+
+  '
+content_length: 126
+llm_content_sent: 126
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Этот репозиторий представляет собой многоагентную систему анализа акций, которая
+  использует API различных платформ для принятия финансовых решений. Содержимое полностью
+  не связано с синтезом речи, эмоциональным TTS, дублированием или любыми другими
+  аспектами исследований в области синтеза речи.
