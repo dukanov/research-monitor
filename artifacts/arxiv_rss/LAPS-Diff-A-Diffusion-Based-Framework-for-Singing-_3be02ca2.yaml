@@ -1,0 +1,37 @@
+title: 'LAPS-Diff: A Diffusion-Based Framework for Singing Voice Synthesis With Language
+  Aware Prosody-Style Guided Learning'
+url: https://arxiv.org/abs/2507.04966
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-01T10:07:22.124226+00:00'
+date_seen: '2025-12-01'
+metadata:
+  arxiv_id: '2507.04966'
+  published: Mon, 01 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, eess.AS
+content_preview: 'Title: LAPS-Diff: A Diffusion-Based Framework for Singing Voice
+  Synthesis With Language Aware Prosody-Style Guided Learning
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The field of Singing Voice Synthesis (SVS) has seen significant advancements in
+  recent years due to the rapid progress of diffusion-based approaches. However, capturing
+  vocal style, genre-specific pitch inflections, and language-dependent characteristics
+  remains challenging, particularly in low-resource scenarios. To address this, we
+  propose LAP'
+content_length: 1642
+llm_content_sent: 1642
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Статья высоко релевантна вашим интересам. Она использует диффузионные модели
+  для синтеза речи (пения), что соответствует вашему интересу к диффузионным подходам.
+  Работа включает стилевое управление и просодические характеристики, что близко к
+  эмоциональному синтезу. Также присутствуют элементы многоязычного синтеза (Hindi)
+  и работа в условиях ограниченных данных, что пересекается с zero-shot методами.
+  Хотя фокус на пении, а не на речи, технологии и подходы очень схожи с TTS исследованиями.

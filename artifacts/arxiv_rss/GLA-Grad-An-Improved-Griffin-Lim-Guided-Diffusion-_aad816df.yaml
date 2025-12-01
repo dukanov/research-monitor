@@ -1,0 +1,35 @@
+title: 'GLA-Grad++: An Improved Griffin-Lim Guided Diffusion Model for Speech Synthesis'
+url: https://arxiv.org/abs/2511.22293
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-01T10:07:22.123932+00:00'
+date_seen: '2025-12-01'
+metadata:
+  arxiv_id: '2511.22293'
+  published: Mon, 01 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.LG, eess.AS, eess.SP
+content_preview: 'Title: GLA-Grad++: An Improved Griffin-Lim Guided Diffusion Model
+  for Speech Synthesis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in diffusion models have positioned them as powerful generative
+  frameworks for speech synthesis, demonstrating substantial improvements in audio
+  quality and stability. Nevertheless, their effectiveness in vocoders conditioned
+  on mel spectrograms remains constrained, particularly when the conditioning diverges
+  from the training distribution. The recently proposed GLA'
+content_length: 1206
+llm_content_sent: 1206
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Статья напрямую относится к синтезу речи и использует диффузионные модели
+  - одну из интересующих вас технологий. GLA-Grad++ представляет улучшенный вокодер
+  с диффузионной моделью, что важно для качества синтеза речи. Хотя работа фокусируется
+  на техническом улучшении вокодера, а не на эмоциональном синтезе или zero-shot методах,
+  она все же релевантна как часть общей экосистемы технологий синтеза речи.

@@ -1,0 +1,35 @@
+title: hyperneuronAILabs/hailabsparktts
+url: https://huggingface.co/hyperneuronAILabs/hailabsparktts
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-01T10:07:58.071881+00:00'
+date_seen: '2025-12-01'
+metadata:
+  likes: '2'
+  downloads: '7'
+  trending_score: '2'
+  last_modified: '2025-11-23T17:26:40.000Z'
+content_preview: 'Model Card for Model ID
+
+  We used spark-tts-0.5B model which was originally trained on English and Chinese.
+  We did peft finetuning to support Hindi a new language which was not part of original
+  training.
+
+  So our objective is to achieve better AI models with frugality. This model is just
+  to show case capabilities that a model can be finetuned with less money and time.
+  You can finetune this model for better results by taking this as base for Hindi.
+
+  We will plan to release best model in future.
+
+  Model '
+content_length: 9861
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.85
+reason: 'Модель очень релевантна вашим интересам: поддерживает zero-shot voice cloning
+  (клонирование голоса без обучения на конкретном голосе), мультиязычный синтез (английский,
+  китайский, хинди), контролируемую генерацию речи с настройкой пола, высоты тона
+  и скорости речи. Использует LLM-подход на базе Qwen2.5, что соответствует современным
+  трансформер-архитектурам. Подходит для дубляжа благодаря cross-lingual возможностям
+  и code-switching.'

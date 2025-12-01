@@ -1,0 +1,38 @@
+title: State-of-the-art Embeddings with Video-free Segmentation of the Source VoxCeleb
+  Data
+url: https://arxiv.org/abs/2410.02364
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-01T10:07:22.172195+00:00'
+date_seen: '2025-12-01'
+metadata:
+  arxiv_id: '2410.02364'
+  published: Mon, 01 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: State-of-the-art Embeddings with Video-free Segmentation
+  of the Source VoxCeleb Data
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In this paper, we refine and validate our method for training speaker embedding
+  extractors using weak annotations. More specifically, we use only the audio stream
+  of the source VoxCeleb videos and the names of the celebrities without knowing the
+  time intervals in which they appear in the recording. We experiment with hyperparameters
+  and embedding extractors based on ResNet and'
+content_length: 1188
+llm_content_sent: 1188
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Статья релевантна, поскольку касается обучения извлекателей эмбеддингов говорителей
+  с использованием слабой аннотации, что напрямую связано с zero-shot методами и адаптацией
+  говорителей. Хотя основной фокус на верификации говорителей, а не на синтезе речи,
+  разработанные методы извлечения эмбеддингов могут быть применены для клонирования
+  голоса и zero-shot синтеза. Использование только аудио без временных меток открывает
+  возможности для работы с большими объемами слабо размеченных данных, что важно для
+  zero-shot подходов.

@@ -1,0 +1,38 @@
+title: Balancing Speech Understanding and Generation Using Continual Pre-training
+  for Codec-based Speech LLM
+url: https://arxiv.org/abs/2502.16897
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-01T10:07:22.172204+00:00'
+date_seen: '2025-12-01'
+metadata:
+  arxiv_id: '2502.16897'
+  published: Mon, 01 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Balancing Speech Understanding and Generation Using Continual
+  Pre-training for Codec-based Speech LLM
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in speech language models (LLMs) have extended textual LLMs to the
+  speech domain, but balancing speech understanding and generation remains challenging,
+  especially with codec-based representations. We propose a continual pre-training
+  (CPT) framework that adapts a textual LLM to handle codec-discretized speech, mitigating
+  modality mismatch and p'
+content_length: 1061
+llm_content_sent: 1061
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.85
+reason: Статья высоко релевантна вашим интересам. Она представляет единую модель для
+  понимания и генерации речи на основе кодеков, что напрямую связано с синтезом речи.
+  Особенно важно упоминание S2S-Trans (речь-в-речь перевод) без промежуточных транскрипций,
+  что актуально для дубляжа и речевого перевода. Использование neural codec tokens
+  и end-to-end подход соответствует современным технологиям синтеза речи. Хотя эмоциональный
+  синтез и zero-shot методы не упоминаются явно, unified speech LLM архитектура может
+  быть адаптирована для этих задач.
