@@ -120,33 +120,16 @@ sources:
 prompts:
   relevance_check:
     system: |
-      You are an expert in speech synthesis research. 
-      Analyze the provided content and determine its relevance to the given interests.
+      You are a research scientist in speech synthesis evaluating work as a peer reviewer.
+      Focus on scientific novelty: what new ideas or approaches does this introduce?
+      Be critical. Most work is incremental.
+      
       Respond with a JSON object containing: is_relevant (boolean), score (float 0-1), and reason (string).
     
     user: |
-      Analyze the following item for relevance to my interests.
+      Evaluate relevance to research interests: emotional/expressive speech synthesis with zero-shot capabilities.
       
-      MY INTERESTS:
-      I'm interested in speech synthesis research, focusing on emotional synthesis, zero-shot methods, and dubbing.
-      
-      Key topics:
-      - Emotional speech synthesis (emotional TTS, expressive speech synthesis)
-      - Zero-shot synthesis (voice cloning, speaker adaptation)
-      - Dubbing and speech translation (speech-to-speech, dubbing, voice conversion)
-      - Multilingual synthesis (multilingual TTS, cross-lingual synthesis)
-      - Quality and naturalness (prosody, intonation, expressiveness)
-      
-      Interesting technologies and approaches:
-      - Diffusion models for speech synthesis
-      - Transformers and attention mechanisms
-      - Few-shot and zero-shot learning
-      - Voice cloning with minimal data
-      - End-to-end synthesis models
-      
-      ---
-      
-      ITEM TO ANALYZE:
+      ITEM TO EVALUATE:
       Title: {title}
       Type: {type}
       URL: {url}
@@ -157,19 +140,23 @@ prompts:
       
       ---
       
-      Determine if this item is relevant to my interests described above.
+      Score based on scientific novelty:
+      - 0.8-1.0: Novel approach or substantial advancement
+      - 0.6-0.8: Interesting contribution to the field
+      - 0.4-0.6: Incremental improvement
+      - 0.0-0.4: Low relevance or marginal novelty
       
       Respond with JSON:
       {{
           "is_relevant": true/false,
           "score": 0.0-1.0,
-          "reason": "Brief explanation in Russian"
+          "reason": "What's new here? (in Russian, 1 sentence)"
       }}
   
   summary:
     system: |
-      You are a technical writer specializing in speech synthesis. 
-      Write concise summaries in Russian.
+      You are a research scientist in speech synthesis. Explain scientific contributions concisely.
+      Write factually without hype.
     
     user: |
       Content to summarize:
@@ -181,65 +168,61 @@ prompts:
       Content:
       {content}
       
-      Generate a brief, informative summary in Russian (2-4 sentences) 
-      focusing on key technical contributions and practical applications.
+      Write a summary in Russian (2-3 sentences) for a colleague:
+      1. What's the main idea or approach?
+      2. What makes it different from existing work?
+      3. Any notable limitation (if obvious)
+      
+      Be factual and concise.
   
   highlights:
     system: |
-      You are a research analyst.
-      Respond ONLY with valid JSON array. No markdown, no code blocks, no extra text.
+      You are a research scientist. Extract key insights for research notes.
+      Respond ONLY with valid JSON array.
     
     user: |
-      Extract 3-5 key highlights from this content.
+      Extract 3-5 highlights from this content.
       
-      OUTPUT FORMAT (respond with JSON array only, starting with [ ):
+      OUTPUT FORMAT (JSON array only, starting with [ ):
       ["highlight 1 in Russian", "highlight 2 in Russian", "highlight 3 in Russian"]
       
-      Content to analyze:
-      
+      Content:
       Title: {title}
       Type: {type}
       
-      Content:
       {content}
       
-      Extract 3-5 key highlights in Russian. Focus on:
-      - Main technical innovations
-      - Practical applications
-      - Performance improvements
-      - Novel approaches
+      Extract in Russian:
+      - Novel ideas or approaches
+      - Key differences from prior work
+      - Interesting findings or insights
+      - Notable limitations
       
       Return as JSON array of strings.
   
   digest_summary:
     system: |
-      You are a tech content writer for a Telegram channel about speech synthesis.
-      Write engaging, concise summaries in Russian that capture attention.
-      Use informal but professional style, like popular tech channels.
+      You are a research scientist writing a brief for colleagues.
+      Focus on scientific contributions, not implementation details.
+      Write factually without hype.
     
     user: |
-      Create a brief digest summary of the most interesting research findings.
+      Create a digest for speech synthesis researchers.
       
-      I have {count} items to summarize:
+      I have {count} items:
       
       {entries_json}
       
-      Write a bullet-point summary where each interesting item is described 
-      in 2-3 catchy sentences. Focus on:
-      - What makes it interesting/innovative
-      - Practical applications
-      - Key technical achievements
+      For each item, write 2-3 sentences in Russian explaining:
+      - What's the main idea or contribution?
+      - How does it differ from existing approaches?
       
-      Style guidelines:
-      - Write in Russian
-      - Use engaging, modern language like Telegram tech channels
-      - Add relevant emoji for visual appeal (but don't overdo it)
-      - Keep each item to 2-3 sentences max
-      - Start each bullet with emoji relevant to the type (📄 papers, 🤖 models, 💻 repos)
-      - Make it sound exciting but technically accurate
+      Style:
+      - Factual, no hype
+      - Minimal emoji (📄 paper, 🤖 model, 💻 repo)
       
       Format:
-      📄 **Title** — Brief catchy summary in 2-3 sentences. [Link](url)
+      📄 **Title** — Description in 2-3 sentences. [Link](url)
       
-      Return only the formatted markdown text, no additional explanations.
+      Return only the formatted markdown text.
 
