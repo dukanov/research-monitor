@@ -8,6 +8,7 @@ claude:
   max_retries: 5
   initial_retry_delay: 2.0  # seconds
   request_delay: 1.5  # seconds between requests
+  enable_thinking: true  # Extended thinking for deep technical analysis (2048 tokens budget, incompatible with temperature)
 
 # Paths
 paths:

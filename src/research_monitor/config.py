@@ -17,6 +17,7 @@ class ClaudeConfig:
     max_retries: int = 5
     initial_retry_delay: float = 2.0
     request_delay: float = 1.5
+    enable_thinking: bool = True  # Extended thinking for better analysis
 
 
 @dataclass
@@ -127,6 +128,10 @@ class Settings:
     @property
     def claude_request_delay(self) -> float:
         return self.claude.request_delay
+    
+    @property
+    def claude_enable_thinking(self) -> bool:
+        return self.claude.enable_thinking
     
     @property
     def output_dir(self) -> Path:

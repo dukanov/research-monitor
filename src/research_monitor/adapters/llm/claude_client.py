@@ -41,7 +41,8 @@ class ClaudeClient(LLMClient):
             content=item.content[:8000],
         )
         
-        response = await self._call_api(prompt=prompt, system=system_prompt)
+        # Relevance check doesn't need extended thinking (simple JSON response)
+        response = await self._call_api(prompt=prompt, system=system_prompt, enable_thinking=False)
         
         # Extract JSON from markdown code block if present
         json_text = self._extract_json(response)
@@ -86,7 +87,8 @@ class ClaudeClient(LLMClient):
             content=item.content[:8000],
         )
         
-        return await self._call_api(prompt=prompt, system=system_prompt)
+        # Enable thinking for deep technical analysis
+        return await self._call_api(prompt=prompt, system=system_prompt, enable_thinking=True)
     
     async def extract_highlights(self, item: Item) -> list[str]:
         """Extract key highlights from the item."""
@@ -99,7 +101,8 @@ class ClaudeClient(LLMClient):
             content=item.content[:8000],
         )
         
-        response = await self._call_api(prompt=prompt, system=system_prompt)
+        # Enable thinking for careful analysis of technical contributions
+        response = await self._call_api(prompt=prompt, system=system_prompt, enable_thinking=True)
         
         # Extract JSON from markdown code block if present
         json_text = self._extract_json(response)
@@ -145,9 +148,10 @@ class ClaudeClient(LLMClient):
             count=len(entries_data),
         )
         
-        return await self._call_api(prompt=prompt, system=system_prompt)
+        # Enable thinking for critical evaluation of what's technically noteworthy
+        return await self._call_api(prompt=prompt, system=system_prompt, enable_thinking=True)
     
-    async def _call_api(self, prompt: str, system: str) -> str:
+    async def _call_api(self, prompt: str, system: str, enable_thinking: bool = True) -> str:
         """Call Claude API with retry logic and rate limiting."""
         # Rate limiting: ensure minimum delay between requests
         current_time = asyncio.get_event_loop().time()
@@ -159,7 +163,28 @@ class ClaudeClient(LLMClient):
         
         for attempt in range(self.max_retries):
             try:
-                async with httpx.AsyncClient(timeout=60.0) as client:
+                # Build request payload
+                payload = {
+                    "model": self.model,
+                    "max_tokens": self.max_tokens,
+                    "system": system,
+                    "messages": [
+                        {"role": "user", "content": prompt}
+                    ],
+                }
+                
+                # Add extended thinking if enabled (incompatible with temperature/top_k)
+                if enable_thinking and self.settings.claude_enable_thinking:
+                    payload["thinking"] = {
+                        "type": "enabled",
+                        "budget_tokens": 2048  # Minimum is 1024, start with 2048 for good reasoning
+                    }
+                    # Extended thinking is incompatible with temperature/top_k
+                    # Only add temperature if thinking is disabled
+                else:
+                    payload["temperature"] = self.temperature
+                
+                async with httpx.AsyncClient(timeout=90.0) as client:  # Increased timeout for thinking
                     response = await client.post(
                         f"{self.base_url}/messages",
                         headers={
@@ -167,15 +192,7 @@ class ClaudeClient(LLMClient):
                             "anthropic-version": "2023-06-01",
                             "content-type": "application/json",
                         },
-                        json={
-                            "model": self.model,
-                            "max_tokens": self.max_tokens,
-                            "temperature": self.temperature,
-                            "system": system,
-                            "messages": [
-                                {"role": "user", "content": prompt}
-                            ],
-                        },
+                        json=payload,
                     )
                     
                     self._last_request_time = asyncio.get_event_loop().time()
@@ -183,7 +200,12 @@ class ClaudeClient(LLMClient):
                     # Success case
                     if response.status_code == 200:
                         data = response.json()
-                        return data["content"][0]["text"]
+                        # Extract text content, skipping thinking blocks
+                        text_content = []
+                        for block in data["content"]:
+                            if block["type"] == "text":
+                                text_content.append(block["text"])
+                        return "\n".join(text_content) if text_content else ""
                     
                     # Rate limit - retry with backoff
                     if response.status_code == 429:
