@@ -1,0 +1,39 @@
+title: 'OmniFusion: Simultaneous Multilingual Multimodal Translations via Modular
+  Fusion'
+url: https://arxiv.org/abs/2512.00234
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-02T10:07:18.727230+00:00'
+date_seen: '2025-12-02'
+metadata:
+  arxiv_id: '2512.00234'
+  published: Tue, 02 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.AI
+content_preview: 'Title: OmniFusion: Simultaneous Multilingual Multimodal Translations
+  via Modular Fusion
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  There has been significant progress in open-source text-only translation large language
+  models (LLMs) with better language coverage and quality. However, these models can
+  be only used in cascaded pipelines for speech translation (ST), performing automatic
+  speech recognition first followed by translation. This introduces additional latency,
+  which is particularly critical in simulta'
+content_length: 1755
+llm_content_sent: 1755
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Статья напрямую относится к области речевого перевода и дублирования, которые
+  входят в ваши интересы. OmniFusion представляет end-to-end подход для speech-to-text
+  перевода с мультимодальным контекстом, что близко к задачам дублирования и speech-to-speech
+  перевода. Модель использует современные архитектуры (трансформеры, многомодальные
+  foundation models) и решает проблемы латентности в simultaneous speech translation.
+  Хотя фокус больше на переводе чем на синтезе речи, технологии и подходы (end-to-end
+  обучение, мультиязычность, работа с аудио) очень релевантны для ваших исследований
+  в области дублирования и речевых технологий.

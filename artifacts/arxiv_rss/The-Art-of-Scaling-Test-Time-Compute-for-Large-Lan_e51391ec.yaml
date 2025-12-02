@@ -1,0 +1,35 @@
+title: The Art of Scaling Test-Time Compute for Large Language Models
+url: https://arxiv.org/abs/2512.02008
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-02T10:07:18.730081+00:00'
+date_seen: '2025-12-02'
+metadata:
+  arxiv_id: '2512.02008'
+  published: Tue, 02 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: The Art of Scaling Test-Time Compute for Large Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Test-time scaling (TTS) -- the dynamic allocation of compute during inference --
+  is a promising direction for improving reasoning in large language models (LLMs).
+  However, a systematic comparison of well-known TTS strategies under identical conditions
+  is missing, and the influence of model type and problem difficulty on performance
+  remains unclear. To address these gaps, we conduct the first large-'
+content_length: 1300
+llm_content_sent: 1300
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Статья посвящена масштабированию вычислений во время инференса для больших
+  языковых моделей (LLM) в задачах рассуждения, что не связано с синтезом речи. Хотя
+  используется аббревиатура TTS, здесь она означает 'Test-Time Scaling', а не 'Text-To-Speech'.
+  Исследование фокусируется на текстовых задачах логического вывода, что не пересекается
+  с интересующими областями эмоционального синтеза речи, дублирования или многоязычного
+  TTS.

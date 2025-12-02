@@ -1,0 +1,31 @@
+title: 'OmniFusion: Simultaneous Multilingual Multimodal Translations via Modular
+  Fusion'
+url: https://huggingface.co/papers/2512.00234
+source: huggingface_papers
+type: paper
+date_discovered: '2025-12-02T10:07:51.118206+00:00'
+date_seen: '2025-12-02'
+metadata:
+  upvotes: '0'
+  paper_id: '2512.00234'
+  published_date: '2025-12-02'
+content_preview: 'Title: OmniFusion: Simultaneous Multilingual Multimodal Translations
+  via Modular Fusion
+
+
+  Summary:
+
+  There has been significant progress in open-source text-only translation large language
+  models (LLMs) with better language coverage and quality. However, these models can
+  be only used in cascaded pipelines for speech translation (ST), performing automatic
+  speech recognition first followed by translation. This introduces additional latency,
+  which is particularly critical in simultaneous ST (SimulST),'
+content_length: 1657
+llm_content_sent: 1657
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Статья напрямую связана с речевым переводом и дублированием - ключевыми интересами.
+  OmniFusion выполняет speech-to-text перевод и мультимодальный перевод, что релевантно
+  для dubbing и speech translation. Однако фокус больше на переводе, чем на синтезе
+  речи, и нет упоминания эмоциональности или zero-shot методов для TTS.

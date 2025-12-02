@@ -1,0 +1,32 @@
+title: LFM2 Technical Report
+url: https://huggingface.co/papers/2511.23404
+source: huggingface_papers
+type: paper
+date_discovered: '2025-12-02T10:07:51.117570+00:00'
+date_seen: '2025-12-02'
+metadata:
+  upvotes: '6'
+  paper_id: '2511.23404'
+  published_date: '2025-12-02'
+content_preview: 'Title: LFM2 Technical Report
+
+
+  Summary:
+
+  We present LFM2, a family of Liquid Foundation Models designed for efficient on-device
+  deployment and strong task capabilities. Using hardware-in-the-loop architecture
+  search under edge latency and memory constraints, we obtain a compact hybrid backbone
+  that combines gated short convolutions with a small number of grouped query attention
+  blocks, delivering up to 2x faster prefill and decode on CPUs compared to similarly
+  sized models. The LFM2 family covers '
+content_length: 1882
+llm_content_sent: 1882
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Статья представляет LFM2-Audio - многомодальную модель для речевых задач с
+  поддержкой речь-в-речь взаимодействия в реальном времени. Хотя основной фокус на
+  общих языковых моделях, речевой компонент напрямую относится к интересам в области
+  синтеза речи, особенно для дублирования и speech-to-speech систем. Модель обещает
+  конкурентную производительность с моделями в 3 раза больше, что важно для практического
+  применения.

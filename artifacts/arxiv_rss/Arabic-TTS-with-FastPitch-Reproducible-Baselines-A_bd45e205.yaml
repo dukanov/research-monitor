@@ -1,0 +1,38 @@
+title: 'Arabic TTS with FastPitch: Reproducible Baselines, Adversarial Training, and
+  Oversmoothing Analysis'
+url: https://arxiv.org/abs/2512.00937
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-02T10:07:18.699892+00:00'
+date_seen: '2025-12-02'
+metadata:
+  arxiv_id: '2512.00937'
+  published: Tue, 02 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Arabic TTS with FastPitch: Reproducible Baselines, Adversarial
+  Training, and Oversmoothing Analysis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Arabic text-to-speech (TTS) remains challenging due to limited resources and complex
+  phonological patterns. We present reproducible baselines for Arabic TTS built on
+  the FastPitch architecture and introduce cepstral-domain metrics for analyzing oversmoothing
+  in mel-spectrogram prediction. While traditional Lp reconstruction losses yield
+  smooth but over-averaged '
+content_length: 1123
+llm_content_sent: 1123
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: 'Статья релевантна интересам в области синтеза речи. Представлены воспроизводимые
+  базовые модели для арабского TTS на основе FastPitch, что связано с многоязычным
+  синтезом. Особенно интересны: анализ oversmoothing в mel-спектрограммах с новыми
+  метриками, использование adversarial loss для улучшения качества, и многоговорящий
+  TTS с синтетическими голосами через XTTSv2. Хотя не фокусируется на эмоциональном
+  синтезе или zero-shot методах, затрагивает важные аспекты качества и натуральности,
+  а также многоязычность.'

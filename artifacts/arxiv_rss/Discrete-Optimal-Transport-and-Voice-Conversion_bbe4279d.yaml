@@ -1,0 +1,37 @@
+title: Discrete Optimal Transport and Voice Conversion
+url: https://arxiv.org/abs/2505.04382
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-02T10:07:18.686470+00:00'
+date_seen: '2025-12-02'
+metadata:
+  arxiv_id: '2505.04382'
+  published: Tue, 02 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.LG, cs.SD
+content_preview: 'Title: Discrete Optimal Transport and Voice Conversion
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In this work, we address the voice conversion (VC) task using a vector-based interface.
+  To align audio embeddings between speakers, we employ discrete optimal transport
+  mapping. Our evaluation results demonstrate the high quality and effectiveness of
+  this method. Additionally, we show that applying discrete optimal transport as a
+  post-processing step in audio generation can lead to the incorrect classification
+  of'
+content_length: 625
+llm_content_sent: 625
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.85
+reason: Статья напрямую касается преобразования голоса (voice conversion) - одной
+  из ключевых областей ваших интересов в разделе 'Dubbing and speech translation'.
+  Использование дискретного оптимального транспорта для выравнивания аудио-эмбеддингов
+  между говорящими представляет инновационный подход к адаптации голоса. Хотя не упоминаются
+  эмоциональный синтез или zero-shot методы конкретно, voice conversion является фундаментальной
+  технологией для дублирования и может применяться для клонирования голоса с минимальными
+  данными.

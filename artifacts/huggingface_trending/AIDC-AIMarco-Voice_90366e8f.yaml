@@ -1,0 +1,28 @@
+title: AIDC-AI/Marco-Voice
+url: https://huggingface.co/AIDC-AI/Marco-Voice
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-02T10:07:55.958470+00:00'
+date_seen: '2025-12-02'
+metadata:
+  likes: '4'
+  downloads: '0'
+  trending_score: '3'
+  last_modified: '2025-12-02T03:20:52.000Z'
+content_preview: "---\nlicense: apache-2.0\nlanguage:\n- multilingual\ntags:\n- text-to-speech\n\
+  - tts\n- audio\n- voice-cloning\n- emotion-control\n- marco-voice\n---\n\n### License\n\
+  This project is licensed under the Apache License, Version 2.0 (SPDX-License-Identifier:\
+  \ Apache-2.0). \n\nWe used compliance checking algorithms during the training process,\
+  \ to ensure the compliance of the trained model(s) to the best of our ability. Due\
+  \ to complex data and the diversity of language model usage scenarios, we cannot\
+  \ guarantee that th"
+content_length: 4589
+llm_content_sent: 4589
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.95
+reason: 'Этот проект идеально соответствует вашим интересам: Marco-Voice предлагает
+  эмоциональный синтез речи с 7 эмоциями, zero-shot/few-shot клонирование голоса,
+  кросс-лингвальную передачу эмоций для дубляжа, многоязычную поддержку и тонкий контроль
+  эмоциональной выразительности. Модель основана на современной архитектуре CosyVoice
+  и поддерживает все ключевые области ваших исследований.'

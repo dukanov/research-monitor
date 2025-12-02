@@ -1,0 +1,38 @@
+title: Comparative Evaluation of Expressive Japanese Character Text-to-Speech with
+  VITS and Style-BERT-VITS2
+url: https://arxiv.org/abs/2505.17320
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-02T10:07:18.686476+00:00'
+date_seen: '2025-12-02'
+metadata:
+  arxiv_id: '2505.17320'
+  published: Tue, 02 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.SD, eess.AS
+content_preview: 'Title: Comparative Evaluation of Expressive Japanese Character Text-to-Speech
+  with VITS and Style-BERT-VITS2
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Synthesizing expressive Japanese character speech poses unique challenges due to
+  pitch-accent sensitivity and stylistic variability. This paper empirically evaluates
+  two open-source text-to-speech models--VITS and Style-BERT-VITS2 JP Extra (SBV2JE)--on
+  in-domain, character-driven Japanese speech. Using three character-specific datasets,
+  we evaluate models acro'
+content_length: 1056
+llm_content_sent: 1056
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.85
+reason: Статья напрямую относится к экспрессивному синтезу речи (expressive speech
+  synthesis), что является одним из ключевых интересов. Исследование сравнивает модели
+  VITS и Style-BERT-VITS2 для синтеза выразительной японской речи персонажей, оценивая
+  естественность, разборчивость и качество. Хотя работа не затрагивает zero-shot методы
+  или дублирование, она покрывает важные аспекты многоязычного синтеза (японский язык),
+  просодии и выразительности. Использование современных архитектур (VITS, трансформеры)
+  и фокус на качестве синтеза делают работу высоко релевантной.

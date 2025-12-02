@@ -1,0 +1,38 @@
+title: 'SpeechJudge: Towards Human-Level Judgment for Speech Naturalness'
+url: https://arxiv.org/abs/2511.07931
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-02T10:07:18.686208+00:00'
+date_seen: '2025-12-02'
+metadata:
+  arxiv_id: '2511.07931'
+  published: Tue, 02 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.CL
+content_preview: 'Title: SpeechJudge: Towards Human-Level Judgment for Speech Naturalness
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Aligning large generative models with human feedback is a critical challenge. In
+  speech synthesis, this is particularly pronounced due to the lack of a large-scale
+  human preference dataset, which hinders the development of models that truly align
+  with human perception. To address this, we introduce SpeechJudge, a comprehensive
+  suite comprising a dataset, a benchmark, and a reward model centered o'
+content_length: 2040
+llm_content_sent: 2040
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.85
+reason: Статья высоко релевантна вашим интересам. SpeechJudge представляет комплексное
+  решение для оценки естественности синтезированной речи - ключевого аспекта качества
+  TTS. Работа включает датасет из 99K пар речевых образцов с человеческими аннотациями,
+  бенчмарк для оценки естественности и reward model на основе Qwen2.5-Omni-7B. Особенно
+  важно, что датасет создан с использованием разнообразных zero-shot TTS моделей для
+  различных стилей речи и языков, что напрямую связано с вашими интересами к zero-shot
+  синтезу и многоязычности. Предложенная reward model может использоваться для выравнивания
+  моделей генерации речи с человеческими предпочтениями, что критично для развития
+  эмоционального и экспрессивного синтеза.

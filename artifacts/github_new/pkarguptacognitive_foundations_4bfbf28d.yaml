@@ -1,0 +1,33 @@
+title: pkargupta/cognitive_foundations
+url: https://github.com/pkargupta/cognitive_foundations
+source: github_new
+type: repository
+date_discovered: '2025-11-23T23:02:04+00:00'
+date_seen: '2025-12-02'
+metadata:
+  stars: '16'
+  language: Python
+  created_at: '2025-11-23T23:02:04Z'
+content_preview: 'Description: A framework bridging cognitive science and LLM reasoning
+  research to diagnose and improve how large language models reason, based on analysis
+  of 192K model traces and 54 human think-aloud traces.
+
+
+  Topics: cognitive-science, llm-reasoning, multimodal-large-language-models
+
+
+  Language: Python
+
+  Stars: 16
+
+  '
+content_length: 313
+llm_content_sent: 313
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий посвящен когнитивной науке и исследованию рассуждений больших
+  языковых моделей, что не связано с синтезом речи, эмоциональным TTS, дублированием
+  или голосовым клонированием. Хотя используются современные подходы к машинному обучению,
+  фокус полностью на текстовых LLM и когнитивных процессах, а не на аудио/речевых
+  технологиях.
