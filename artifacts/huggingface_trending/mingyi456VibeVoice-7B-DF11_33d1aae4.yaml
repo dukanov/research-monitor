@@ -1,0 +1,48 @@
+title: mingyi456/VibeVoice-7B-DF11
+url: https://huggingface.co/mingyi456/VibeVoice-7B-DF11
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-03T10:08:09.833087+00:00'
+date_seen: '2025-12-03'
+metadata:
+  likes: '2'
+  downloads: '65'
+  trending_score: '1'
+  last_modified: '2025-11-30T04:43:08.000Z'
+content_preview: '---
+
+  license: mit
+
+  language:
+
+  - en
+
+  - zh
+
+  base_model:
+
+  - vibevoice/VibeVoice-7B
+
+  base_model_relation: quantized
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+  # Note: I realized some tensors were left uncompressed, due to an error on my part.
+  The fixed weights are now uploaded.
+
+
+  For more information (including how to compress models yourself), check out https://huggingface.co/DFloat11
+  and https://github.com/LeanModels/DFloat11
+
+
+  Feel free to request for other models for compression as well (for either the `diffusers`'
+content_length: 2953
+llm_content_sent: 2953
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Это просто квантизованная версия существующей модели VibeVoice-7B с использованием
+  формата DFloat11 для сжатия, без каких-либо научных новшеств в области эмоционального
+  синтеза речи.

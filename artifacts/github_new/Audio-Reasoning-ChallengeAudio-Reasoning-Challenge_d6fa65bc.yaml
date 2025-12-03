@@ -1,0 +1,29 @@
+title: Audio-Reasoning-Challenge/Audio-Reasoning-Challenge-Baselines
+url: https://github.com/Audio-Reasoning-Challenge/Audio-Reasoning-Challenge-Baselines
+source: github_new
+type: repository
+date_discovered: '2025-12-01T13:43:39+00:00'
+date_seen: '2025-12-03'
+metadata:
+  stars: '16'
+  language: Python
+  created_at: '2025-12-01T13:43:39Z'
+content_preview: 'Description: The baselines of ARC-Challenge-Interspeech2026
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 16
+
+  '
+content_length: 107
+llm_content_sent: 107
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Репозиторий содержит только базовые решения для Audio Reasoning Challenge
+  без описания методов, новых подходов к эмоциональному синтезу речи или zero-shot
+  возможностей.

@@ -1,0 +1,30 @@
+title: selenon/BotForge
+url: https://github.com/selenon/BotForge
+source: github_new
+type: repository
+date_discovered: '2025-11-27T04:54:06+00:00'
+date_seen: '2025-12-03'
+metadata:
+  stars: '15'
+  language: JavaScript
+  created_at: '2025-11-27T04:54:06Z'
+content_preview: 'Description: BotForge is a platform for creating and deploying AI-powered
+  customer support chatbots. It enables businesses to integrate customizable chatbots
+  with interactive 3D avatars and voice capabilities into their websites.
+
+
+  Topics: No topics
+
+
+  Language: JavaScript
+
+  Stars: 15
+
+  '
+content_length: 281
+llm_content_sent: 281
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это обычная платформа для создания чат-ботов без каких-либо научных новшеств
+  в области синтеза эмоциональной речи или zero-shot подходов.

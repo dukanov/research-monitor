@@ -1,0 +1,33 @@
+title: 'Swivuriso: The South African Next Voices Multilingual Speech Dataset'
+url: https://arxiv.org/abs/2512.02201
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-03T10:07:24.321686+00:00'
+date_seen: '2025-12-03'
+metadata:
+  arxiv_id: '2512.02201'
+  published: Wed, 03 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Swivuriso: The South African Next Voices Multilingual Speech
+  Dataset
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This paper introduces Swivuriso, a 3000-hour multilingual speech dataset developed
+  as part of the African Next Voices project, to support the development and benchmarking
+  of automatic speech recognition (ASR) technologies in seven South African languages.
+  Covering agriculture, healthcare, and general domain topics, Swivuriso addresses
+  significant gaps in existing ASR datasets. We describe the'
+content_length: 832
+llm_content_sent: 832
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа представляет только новый датасет для распознавания речи на южноафриканских
+  языках, что не имеет отношения к эмоциональному/экспрессивному синтезу речи с zero-shot
+  возможностями.
