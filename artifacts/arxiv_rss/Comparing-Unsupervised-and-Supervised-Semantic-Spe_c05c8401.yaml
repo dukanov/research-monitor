@@ -1,0 +1,34 @@
+title: 'Comparing Unsupervised and Supervised Semantic Speech Tokens: A Case Study
+  of Child ASR'
+url: https://arxiv.org/abs/2512.03301
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-04T10:07:11.969855+00:00'
+date_seen: '2025-12-04'
+metadata:
+  arxiv_id: '2512.03301'
+  published: Thu, 04 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Comparing Unsupervised and Supervised Semantic Speech Tokens:
+  A Case Study of Child ASR
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Discrete speech tokens have gained attention for their storage efficiency and integration
+  with Large Language Models (LLMs). They are commonly categorized into acoustic and
+  semantic tokens, with the latter being more advantageous for Automatic Speech Recognition
+  (ASR). Traditionally, unsupervised K-means clustering has been used to extract semantic
+  speech tokens from Speech'
+content_length: 1261
+llm_content_sent: 1261
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа сравнивает существующие методы дискретизации речи для ASR детской речи,
+  но не предлагает новых подходов для эмоционального/экспрессивного синтеза речи с
+  zero-shot возможностями.

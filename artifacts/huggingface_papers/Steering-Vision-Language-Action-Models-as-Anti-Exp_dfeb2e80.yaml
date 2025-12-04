@@ -1,0 +1,30 @@
+title: 'Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling
+  Approach'
+url: https://huggingface.co/papers/2512.02834
+source: huggingface_papers
+type: paper
+date_discovered: '2025-12-04T10:07:43.400547+00:00'
+date_seen: '2025-12-04'
+metadata:
+  upvotes: '12'
+  paper_id: '2512.02834'
+  published_date: '2025-12-04'
+content_preview: 'Title: Steering Vision-Language-Action Models as Anti-Exploration:
+  A Test-Time Scaling Approach
+
+
+  Summary:
+
+  Vision-Language-Action (VLA) models, trained via flow-matching or diffusion objectives,
+  excel at learning complex behaviors from large-scale, multi-modal datasets (e.g.,
+  human teleoperation, scripted policies). However, since VLAs incorporate diverse
+  data modes in the pre-training stage, and the finetuning dataset often contains
+  demonstration data collected in a kinematically suboptimal or u'
+content_length: 1929
+llm_content_sent: 1929
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Работа посвящена управлению робототехническими системами через Vision-Language-Action
+  модели, что не имеет отношения к синтезу эмоциональной/экспрессивной речи с zero-shot
+  способностями.

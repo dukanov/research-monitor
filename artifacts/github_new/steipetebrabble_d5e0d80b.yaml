@@ -1,0 +1,29 @@
+title: steipete/brabble
+url: https://github.com/steipete/brabble
+source: github_new
+type: repository
+date_discovered: '2025-12-03T15:02:08+00:00'
+date_seen: '2025-12-04'
+metadata:
+  stars: '15'
+  language: Go
+  created_at: '2025-12-03T15:02:08Z'
+content_preview: 'Description: "Hey, Computer" from Star Trek. Talk to your agent.
+  Run hooks after trigger comands. Runs locally, cause shit''s scary.
+
+
+  Topics: ai, talk
+
+
+  Language: Go
+
+  Stars: 15
+
+  '
+content_length: 174
+llm_content_sent: 174
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это простой локальный голосовой помощник без какого-либо отношения к синтезу
+  речи, эмоциональности или zero-shot обучению - только базовая обработка команд.

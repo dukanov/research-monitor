@@ -1,0 +1,32 @@
+title: yayaiu6/Real-Time-Quran-recitation-tracker-System
+url: https://github.com/yayaiu6/Real-Time-Quran-recitation-tracker-System
+source: github_new
+type: repository
+date_discovered: '2025-11-21T16:38:35+00:00'
+date_seen: '2025-12-04'
+metadata:
+  stars: '13'
+  language: Python
+  created_at: '2025-11-21T16:38:35Z'
+content_preview: 'Description: An open-source AI system enabling real time Quran recitation
+  tracking, word-level alignment, error detection, and adaptive feedback. Designed
+  to support memorization, accuracy, and accessibility for Muslims worldwide through
+  advanced speech recognition.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 13
+
+  '
+content_length: 314
+llm_content_sent: 314
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Это система распознавания речи для отслеживания рецитации Корана, которая
+  не относится к синтезу речи и не содержит научных новшеств в области эмоционального/экспрессивного
+  синтеза речи с zero-shot возможностями.

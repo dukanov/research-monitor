@@ -1,0 +1,49 @@
+title: microsoft/VibeVoice-Realtime-0.5B
+url: https://huggingface.co/microsoft/VibeVoice-Realtime-0.5B
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-04T10:07:44.933559+00:00'
+date_seen: '2025-12-04'
+metadata:
+  likes: '14'
+  downloads: '0'
+  trending_score: '14'
+  last_modified: '2025-12-04T05:58:05.000Z'
+content_preview: '---
+
+  license: mit
+
+  language:
+
+  - en
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - Realtime TTS
+
+  - Streaming text input
+
+  - Long-from speech generation
+
+  library_name: transformers
+
+  ---
+
+
+  ## VibeVoice: A Frontier Open-Source Text-to-Speech Model
+
+
+  VibeVoice-Realtime is a **lightweight real‑time** text-to-speech model supporting
+  **streaming text input**. It can be used to build realtime TTS services, narrate
+  live data streams, and let different LLMs start speaking from their very first tokens
+  (plug in your preferred m'
+content_length: 9344
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Модель представляет инкрементальное улучшение в области TTS с акцентом на
+  потоковую генерацию в реальном времени, но не демонстрирует существенных новшеств
+  в области эмоциональной/экспрессивной синтеза речи или zero-shot возможностей.
