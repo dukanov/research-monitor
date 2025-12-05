@@ -1,0 +1,31 @@
+title: AutoArk/EVA-OS
+url: https://github.com/AutoArk/EVA-OS
+source: github_new
+type: repository
+date_discovered: '2025-11-26T03:29:08+00:00'
+date_seen: '2025-12-05'
+metadata:
+  stars: '15'
+  language: TypeScript
+  created_at: '2025-11-26T03:29:08Z'
+content_preview: 'Description: EVA OS — A real-time multimodal AIOS for next-generation
+  hardware, enabling your devices being “alive” and as intelligent as a real brain.   ·   EVA
+  OS ，面向新一代硬件的实时多模态AIOS 为你的硬件创造具备“生命感”，“高智商”的真大脑
+
+
+  Topics: No topics
+
+
+  Language: TypeScript
+
+  Stars: 15
+
+  '
+content_length: 260
+llm_content_sent: 260
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий представляет собой общую концепцию многомодальной ОС без конкретных
+  технических деталей, алгоритмов или кода, связанных с синтезом эмоциональной речи
+  или zero-shot возможностями.

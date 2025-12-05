@@ -1,0 +1,45 @@
+title: the-vedantic-coder/text-to-speech-en-US-web
+url: https://huggingface.co/the-vedantic-coder/text-to-speech-en-US-web
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-05T10:07:32.895791+00:00'
+date_seen: '2025-12-05'
+metadata:
+  likes: '1'
+  downloads: '3'
+  trending_score: '1'
+  last_modified: '2025-11-29T12:33:18.000Z'
+content_preview: '---
+
+  license: mit
+
+  language:
+
+  - en
+
+  base_model:
+
+  - rhasspy/piper-voices
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - tts
+
+  - piper
+
+  - web
+
+  - offline
+
+  - onnx
+
+  ---'
+content_length: 142
+llm_content_sent: 142
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто веб-обёртка для существующей модели Piper без какой-либо научной
+  новизны в области эмоциональной или экспрессивной речи.

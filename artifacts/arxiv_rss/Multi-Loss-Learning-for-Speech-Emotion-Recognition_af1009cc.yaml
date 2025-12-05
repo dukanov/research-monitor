@@ -1,0 +1,34 @@
+title: Multi-Loss Learning for Speech Emotion Recognition with Energy-Adaptive Mixup
+  and Frame-Level Attention
+url: https://arxiv.org/abs/2512.04551
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-05T10:06:57.443753+00:00'
+date_seen: '2025-12-05'
+metadata:
+  arxiv_id: '2512.04551'
+  published: Fri, 05 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, eess.AS
+content_preview: 'Title: Multi-Loss Learning for Speech Emotion Recognition with Energy-Adaptive
+  Mixup and Frame-Level Attention
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech emotion recognition (SER) is an important technology in human-computer interaction.
+  However, achieving high performance is challenging due to emotional complexity and
+  scarce annotated data. To tackle these challenges, we propose a multi-loss learning
+  (MLL) framework integrating an energy-adaptive mixup (EAM) method and a frame-level
+  attention module ('
+content_length: 1205
+llm_content_sent: 1205
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена распознаванию эмоций в речи, а не синтезу эмоциональной речи,
+  и представляет лишь инкрементальные улучшения существующих методов через комбинацию
+  известных техник (mixup, attention, multi-loss).

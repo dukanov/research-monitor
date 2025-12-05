@@ -1,0 +1,25 @@
+title: Nadhari/swa-csm-1b
+url: https://huggingface.co/Nadhari/swa-csm-1b
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-05T10:07:32.696778+00:00'
+date_seen: '2025-12-05'
+metadata:
+  likes: '1'
+  downloads: '239'
+  trending_score: '1'
+  last_modified: '2025-11-24T18:23:23.000Z'
+content_preview: "---\nlicense: apache-2.0\nlanguage:\n  - sw\ntags:\n  - text-to-speech\n\
+  \  - tts\n  - swahili\n  - voice-cloning\n  - speech-synthesis\n  - csm\n  - audio-generation\n\
+  pipeline_tag: text-to-speech\nlibrary_name: transformers\nbase_model: sesame/csm-1b\n\
+  datasets:\n  - mozilla-foundation/common_voice_17_0\n---\n\n# Nadhari/swa-csm-1b\n\
+  \nA fine-tuned version of [Sesame's CSM-1B](https://huggingface.co/sesame/csm-1b)\
+  \ for **Swahili text-to-speech** with voice cloning capabilities.\n\n## Model Description\n\
+  \nThis model was fine"
+content_length: 9424
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Простая адаптация существующей модели CSM-1B для языка суахили без новых архитектурных
+  решений или методов для эмоциональной/экспрессивной синтеза речи.

@@ -1,0 +1,35 @@
+title: 'YingMusic-Singer: Zero-shot Singing Voice Synthesis and Editing with Annotation-free
+  Melody Guidance'
+url: https://arxiv.org/abs/2512.04779
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-05T10:06:57.443900+00:00'
+date_seen: '2025-12-05'
+metadata:
+  arxiv_id: '2512.04779'
+  published: Fri, 05 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: YingMusic-Singer: Zero-shot Singing Voice Synthesis and Editing
+  with Annotation-free Melody Guidance
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Singing Voice Synthesis (SVS) remains constrained in practical deployment due to
+  its strong dependence on accurate phoneme-level alignment and manually annotated
+  melody contours, requirements that are resource-intensive and hinder scalability.
+  To overcome these limitations, we propose a melody-driven SVS framework capable
+  of synthesizing arbitrary lyrics follow'
+content_length: 1778
+llm_content_sent: 1778
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Новизна заключается в комбинации annotation-free melody guidance с DiT архитектурой
+  и Flow-GRPO reinforcement learning для zero-shot singing voice synthesis, что представляет
+  интересный вклад в область, хотя отдельные компоненты не являются принципиально
+  новыми.

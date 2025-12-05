@@ -1,0 +1,33 @@
+title: 'RRPO: Robust Reward Policy Optimization for LLM-based Emotional TTS'
+url: https://arxiv.org/abs/2512.04552
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-05T10:06:57.443771+00:00'
+date_seen: '2025-12-05'
+metadata:
+  arxiv_id: '2512.04552'
+  published: Fri, 05 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, eess.AS
+content_preview: 'Title: RRPO: Robust Reward Policy Optimization for LLM-based Emotional
+  TTS
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Differentiable reinforcement learning (RL) frameworks like DiffRO offer a powerful
+  approach for controllable text-to-speech (TTS), but are vulnerable to reward hacking,
+  particularly for nuanced tasks like emotion control. The policy model can exploit
+  a vanilla Reward Model (RM) by generating acoustic artifacts to achieve spurious
+  rewards, but at the cost of degrading perceptual quality. To add'
+content_length: 1316
+llm_content_sent: 1316
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Новый подход к решению проблемы reward hacking в эмоциональном TTS через гибридную
+  регуляризацию reward model, что представляет интересный вклад в область управляемого
+  синтеза речи с эмоциональной выразительностью.

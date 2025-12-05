@@ -1,0 +1,86 @@
+title: Harshil748/VoiceAPI-Models
+url: https://huggingface.co/Harshil748/VoiceAPI-Models
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-05T10:07:33.261119+00:00'
+date_seen: '2025-12-05'
+metadata:
+  likes: '1'
+  downloads: '0'
+  trending_score: '1'
+  last_modified: '2025-12-04T15:53:26.000Z'
+content_preview: '---
+
+  colorFrom: blue
+
+  colorTo: purple
+
+  sdk: docker
+
+  app_port: 7860
+
+  license: mit
+
+  title: VoiceAPI
+
+  tags:
+
+  - tts
+
+  - text-to-speech
+
+  - indian-languages
+
+  - vits
+
+  - multilingual
+
+  - speech-synthesis
+
+  language:
+
+  - hi
+
+  - bn
+
+  - mr
+
+  - te
+
+  - kn
+
+  - en
+
+  - bho
+
+  - mai
+
+  - mag
+
+  - hne
+
+  - gu
+
+  ---
+
+
+  # 🎙️ VoiceAPI - Multi-lingual Indian Language TTS
+
+
+  An advanced **multi-speaker, multilingual text-to-speech (TTS) synthesizer** supporting
+  11 Indian languages with 21 voice options.
+
+
+
+  ## 🌟 Features
+
+
+  - **11 Indian Languages**: Hindi, Bengali, Mar'
+content_length: 5680
+llm_content_sent: 5680
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто развертывание существующих VITS моделей через API для индийских
+  языков без какой-либо научной новизны в области эмоциональной/экспрессивной речи
+  или zero-shot синтеза.

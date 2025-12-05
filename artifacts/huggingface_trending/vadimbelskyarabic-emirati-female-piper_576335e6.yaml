@@ -1,0 +1,73 @@
+title: vadimbelsky/arabic-emirati-female-piper
+url: https://huggingface.co/vadimbelsky/arabic-emirati-female-piper
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-05T10:07:32.966400+00:00'
+date_seen: '2025-12-05'
+metadata:
+  likes: '1'
+  downloads: '0'
+  trending_score: '1'
+  last_modified: '2025-12-01T04:20:52.000Z'
+content_preview: '---
+
+  language:
+
+  - ar
+
+  license: mit
+
+  tags:
+
+  - text-to-speech
+
+  - piper
+
+  - arabic
+
+  - emirati
+
+  library_name: piper
+
+  ---
+
+
+  # Arabic (Emirati Female) - Piper TTS Model
+
+
+  This is a Piper TTS voice model for Arabic (Emirati dialect), trained with a female
+  voice.
+
+
+  ## Usage
+
+
+  ### With Piper CLI
+
+
+  ```bash
+
+  echo "مرحبا" | piper --model arabic-emirati-female-model.onnx --output_file output.wav
+
+  ```
+
+
+  ### With Python (piper-tts)
+
+
+  ```python
+
+  from piper import PiperVoice
+
+  import wave
+
+
+  voice = PiperVoice.load("arabic-emirati-femal'
+content_length: 861
+llm_content_sent: 861
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Это просто стандартная модель Piper TTS для эмиратского диалекта арабского
+  языка без каких-либо инноваций в области эмоциональной/экспрессивной речи или zero-shot
+  возможностей.

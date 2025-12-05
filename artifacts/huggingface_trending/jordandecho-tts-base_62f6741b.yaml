@@ -1,0 +1,24 @@
+title: jordand/echo-tts-base
+url: https://huggingface.co/jordand/echo-tts-base
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-05T10:07:33.169812+00:00'
+date_seen: '2025-12-05'
+metadata:
+  likes: '1'
+  downloads: '0'
+  trending_score: '1'
+  last_modified: '2025-12-04T20:53:27.000Z'
+content_preview: "---\nlicense: cc-by-nc-sa-4.0\ntags:\n  - text-to-speech\n  - diffusion\n\
+  \  - audio\n  - speech-synthesis\n---\n\n# Echo-TTS\n\nEcho-TTS is a diffusion-based\
+  \ text-to-speech model.  \nThe weights in this repository are intended for **research\
+  \ and non-commercial use only**.\n\n- Technical overview/samples (blog): https://jordandarefsky.com/blog/2025/echo/\n\
+  - Code and reference implementation (GitHub): https://github.com/jordandare/echo-tts\n\
+  \n---\n\n## License\n\n- **Model weights**: Released under **CC-BY-NC-SA-4.0**."
+content_length: 1360
+llm_content_sent: 1360
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Диффузионная модель TTS без явных указаний на эмоциональность или zero-shot
+  возможности - скорее всего стандартная реализация без существенных новшеств.

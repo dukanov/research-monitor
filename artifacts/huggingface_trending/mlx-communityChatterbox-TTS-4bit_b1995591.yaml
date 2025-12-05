@@ -1,0 +1,56 @@
+title: mlx-community/Chatterbox-TTS-4bit
+url: https://huggingface.co/mlx-community/Chatterbox-TTS-4bit
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-05T10:07:33.036887+00:00'
+date_seen: '2025-12-05'
+metadata:
+  likes: '1'
+  downloads: '231'
+  trending_score: '1'
+  last_modified: '2025-12-01T17:03:27.000Z'
+content_preview: '---
+
+  library_name: mlx-audio
+
+  base_model:
+
+  - ResembleAI/chatterbox
+
+  - FunAudioLLM/CosyVoice2-0.5B
+
+  tags:
+
+  - mlx
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  # mlx-community/Chatterbox-TTS-4bit
+
+
+  This model was converted to MLX format from [ResembleAI/chatterbox](https://huggingface.co/ResembleAI/chatterbox)
+  using mlx-audio version **0.2.6**.
+
+
+  The S3Tokenizer weights are from [FunAudioLLM/CosyVoice2-0.5B](https://huggingface.co/FunAudioLLM/CosyVoice2-0.5B).
+
+
+  ## Use with mlx-audio
+
+
+  ```bash
+
+  pip install -U mlx-audio
+
+  '
+content_length: 939
+llm_content_sent: 939
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Это просто конвертация существующей модели Chatterbox в формат MLX с 4-битным
+  квантованием - никаких новых научных идей в области эмоционального/экспрессивного
+  синтеза речи не представлено.

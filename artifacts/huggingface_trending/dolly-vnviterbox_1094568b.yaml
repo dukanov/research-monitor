@@ -1,0 +1,24 @@
+title: dolly-vn/viterbox
+url: https://huggingface.co/dolly-vn/viterbox
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-05T10:07:31.038262+00:00'
+date_seen: '2025-12-05'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2025-12-05T07:55:00.000Z'
+content_preview: "---\nlicense: mit\nlanguage:\n  - vi\n  - en\nlibrary_name: viterbox\n\
+  tags:\n  - text-to-speech\n  - tts\n  - vietnamese\n  - voice-cloning\n  - audio\n\
+  \  - speech-synthesis\n  - chatterbox\ndatasets:\n  - vivoice\n  - phoaudiobook\n\
+  pipeline_tag: text-to-speech\nbase_model: ResembleAI/chatterbox\ninference: false\n\
+  ---\n\n<div align=\"center\">\n\n# \U0001F399️ Viterbox\n\n### Vietnamese Text-to-Speech\
+  \ với Zero-shot Voice Cloning\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/M"
+content_length: 5267
+llm_content_sent: 5267
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Простая адаптация существующей модели Chatterbox для вьетнамского языка без
+  технических инноваций в области эмоционального синтеза речи или zero-shot возможностей.

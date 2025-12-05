@@ -1,0 +1,28 @@
+title: Generative Neural Video Compression via Video Diffusion Prior
+url: https://huggingface.co/papers/2512.05016
+source: huggingface_papers
+type: paper
+date_discovered: '2025-12-05T10:07:28.368329+00:00'
+date_seen: '2025-12-05'
+metadata:
+  upvotes: '3'
+  paper_id: '2512.05016'
+  published_date: '2025-12-05'
+content_preview: 'Title: Generative Neural Video Compression via Video Diffusion Prior
+
+
+  Summary:
+
+  We present GNVC-VD, the first DiT-based generative neural video compression framework
+  built upon an advanced video generation foundation model, where spatio-temporal
+  latent compression and sequence-level generative refinement are unified within a
+  single codec. Existing perceptual codecs primarily rely on pre-trained image generative
+  priors to restore high-frequency details, but their frame-wise nature lacks temporal
+  m'
+content_length: 1636
+llm_content_sent: 1636
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена сжатию видео с использованием диффузионных моделей, что не
+  имеет отношения к синтезу эмоциональной речи или zero-shot голосовым технологиям.
