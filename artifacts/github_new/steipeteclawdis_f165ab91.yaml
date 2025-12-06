@@ -1,0 +1,30 @@
+title: steipete/clawdis
+url: https://github.com/steipete/clawdis
+source: github_new
+type: repository
+date_discovered: '2025-11-24T10:16:47+00:00'
+date_seen: '2025-12-06'
+metadata:
+  stars: '300'
+  language: TypeScript
+  created_at: '2025-11-24T10:16:47Z'
+content_preview: 'Description: Invoke actions on your machine when you get a WhatsApp
+  message and send replies! Uses Twilio and TailScale. Great for connecting Claude
+  Code with WhatsApp.
+
+
+  Topics: relay, whatsapp
+
+
+  Language: TypeScript
+
+  Stars: 300
+
+  '
+content_length: 227
+llm_content_sent: 227
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто инструмент для интеграции WhatsApp с машинными действиями через
+  Twilio, не имеющий отношения к синтезу речи или обработке эмоциональной экспрессивности.

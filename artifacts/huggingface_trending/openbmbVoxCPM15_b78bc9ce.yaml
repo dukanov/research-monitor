@@ -1,0 +1,57 @@
+title: openbmb/VoxCPM1.5
+url: https://huggingface.co/openbmb/VoxCPM1.5
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-06T10:06:30.395082+00:00'
+date_seen: '2025-12-06'
+metadata:
+  likes: '19'
+  downloads: '104'
+  trending_score: '19'
+  last_modified: '2025-12-05T16:39:57.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - en
+
+  - zh
+
+  base_model:
+
+  - openbmb/MiniCPM4-0.5B
+
+  pipeline_tag: text-to-speech
+
+  library_name: voxcpm1.5
+
+  tags:
+
+  - text-to-speech
+
+  - speech
+
+  - speech generation
+
+  - voice cloning
+
+  ---
+
+
+  ## 🎙️ VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life
+  Voice Cloning
+
+
+
+  [![Project Page](https://img.shields.io/badge/Project%20Page-GitHub-blue)](https://github.com/OpenBMB/VoxCPM/)
+  [![Technical Report](https://img.shields.io/badge/Technical%20Report-Arxiv-red)]('
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Новый подход к синтезу речи без токенизации с использованием непрерывного
+  пространства представлений и диффузионной авторегрессивной архитектуры, обеспечивающий
+  контекстно-зависимую генерацию и качественное клонирование голоса без обучения.

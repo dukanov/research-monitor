@@ -1,0 +1,33 @@
+title: ykdojo/claude-code-tips
+url: https://github.com/ykdojo/claude-code-tips
+source: github_new
+type: repository
+date_discovered: '2025-11-28T00:52:00+00:00'
+date_seen: '2025-12-06'
+metadata:
+  stars: '17'
+  language: JavaScript
+  created_at: '2025-11-28T00:52:00Z'
+content_preview: 'Description: 30+ tips for getting the most out of Claude Code, from
+  basics to advanced - includes a custom status line script, cutting the system prompt
+  in half, using Gemini CLI as Claude Code''s minion, and Claude Code running itself
+  in a container
+
+
+  Topics: agentic, agentic-ai, agentic-coding, agentic-workflow, ai, claude, claude-ai,
+  claude-code, tips, tips-and-tricks
+
+
+  Language: JavaScript
+
+  Stars: 17
+
+  '
+content_length: 404
+llm_content_sent: 404
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Репозиторий содержит только советы по использованию Claude Code для программирования
+  и не имеет никакого отношения к синтезу речи, эмоциональной выразительности или
+  zero-shot возможностям в области обработки аудио.
