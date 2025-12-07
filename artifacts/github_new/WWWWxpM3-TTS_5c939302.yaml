@@ -1,0 +1,30 @@
+title: WWWWxp/M3-TTS
+url: https://github.com/WWWWxp/M3-TTS
+source: github_new
+type: repository
+date_discovered: '2025-12-04T12:05:24+00:00'
+date_seen: '2025-12-07'
+metadata:
+  stars: '34'
+  language: Python
+  created_at: '2025-12-04T12:05:24Z'
+content_preview: 'Description: Pytorch Implementation of the paper "M3-TTS: Multi-modal
+  DiT Alignment & Mel-latent for Zero-shot High-fidelity Speech Synthesis"
+
+
+  Topics: flow-matching, mmdit, tts
+
+
+  Language: Python
+
+  Stars: 34
+
+  '
+content_length: 206
+llm_content_sent: 206
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Новый подход к zero-shot синтезу речи, использующий многомодальное выравнивание
+  DiT (Diffusion Transformer) с mel-латентным пространством, что представляет интересную
+  комбинацию современных архитектур для высококачественного синтеза.
