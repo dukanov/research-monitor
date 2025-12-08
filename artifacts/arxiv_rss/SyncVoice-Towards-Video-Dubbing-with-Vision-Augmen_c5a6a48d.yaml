@@ -1,0 +1,33 @@
+title: 'SyncVoice: Towards Video Dubbing with Vision-Augmented Pretrained TTS Model'
+url: https://arxiv.org/abs/2512.05126
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-08T10:07:31.441327+00:00'
+date_seen: '2025-12-08'
+metadata:
+  arxiv_id: '2512.05126'
+  published: Mon, 08 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.AI, cs.CL, cs.CV, cs.MM, cs.SD
+content_preview: 'Title: SyncVoice: Towards Video Dubbing with Vision-Augmented Pretrained
+  TTS Model
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Video dubbing aims to generate high-fidelity speech that is precisely temporally
+  aligned with the visual content. Existing methods still suffer from limitations
+  in speech naturalness and audio-visual synchronization, and are limited to monolingual
+  settings. To address these challenges, we propose SyncVoice, a vision-augmented
+  video dubbing framework built upon a pretrained text-to-spee'
+content_length: 1102
+llm_content_sent: 1102
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.65
+reason: Работа предлагает интересную интеграцию визуальной информации в предобученную
+  TTS модель для видеодублирования с кросс-языковыми возможностями, но основной подход
+  остается инкрементальным улучшением существующих методов.

@@ -1,0 +1,30 @@
+title: marhensa/vibevoice-realtime-openai-api
+url: https://github.com/marhensa/vibevoice-realtime-openai-api
+source: github_new
+type: repository
+date_discovered: '2025-12-06T11:10:56+00:00'
+date_seen: '2025-12-08'
+metadata:
+  stars: '22'
+  language: Python
+  created_at: '2025-12-06T11:10:56Z'
+content_preview: 'Description: OpenAI API-compatible text-to-speech server using Microsoft
+  VibeVoice-Realtime-0.5B. Docker or Python venv support, multiple voices with OpenAI
+  aliases, CUDA-optimized.
+
+
+  Topics: docker, openwebui, roleplay, tts-api
+
+
+  Language: Python
+
+  Stars: 22
+
+  '
+content_length: 256
+llm_content_sent: 256
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто обёртка API для существующей модели Microsoft VibeVoice без каких-либо
+  научных новшеств в области эмоционального синтеза речи или zero-shot возможностей.
