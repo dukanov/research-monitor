@@ -1,0 +1,53 @@
+title: csukuangfj/vits-piper-de_DE-dii-high
+url: https://huggingface.co/csukuangfj/vits-piper-de_DE-dii-high
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-09T10:08:27.551317+00:00'
+date_seen: '2025-12-09'
+metadata:
+  likes: '1'
+  downloads: '0'
+  trending_score: '1'
+  last_modified: '2025-12-02T06:56:08.000Z'
+content_preview: '---
+
+  base_model:
+
+  - OpenVoiceOS/pipertts_nl-NL_dii
+
+  datasets:
+
+  - Jarbas/tts-train-synthetic-dii_de-DE
+
+  language:
+
+  - de
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  See https://huggingface.co/OpenVoiceOS/pipertts_de-DE_dii
+
+  and https://github.com/OHF-Voice/piper1-gpl/discussions/27
+
+
+
+  # License
+
+
+
+  See also https://github.com/k2-fsa/sherpa-onnx/pull/2480
+
+
+
+  This model is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike
+  4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/li'
+content_length: 846
+llm_content_sent: 846
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто модельная карточка для существующей VITS-модели синтеза речи на
+  немецком языке без какой-либо научной новизны, эмоциональности или zero-shot возможностей.

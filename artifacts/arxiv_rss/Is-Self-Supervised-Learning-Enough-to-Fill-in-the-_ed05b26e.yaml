@@ -1,0 +1,33 @@
+title: Is Self-Supervised Learning Enough to Fill in the Gap? A Study on Speech Inpainting
+url: https://arxiv.org/abs/2405.20101
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-09T10:07:45.380564+00:00'
+date_seen: '2025-12-09'
+metadata:
+  arxiv_id: '2405.20101'
+  published: Tue, 09 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.CL, eess.AS
+content_preview: 'Title: Is Self-Supervised Learning Enough to Fill in the Gap? A
+  Study on Speech Inpainting
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech inpainting consists in reconstructing corrupted or missing speech segments
+  using surrounding context, a process that closely resembles the pretext tasks in
+  Self-Supervised Learning (SSL) for speech encoders. This study investigates using
+  SSL-trained speech encoders for inpainting without any additional training beyond
+  the initial pretext task, and simply adding a decoder'
+content_length: 2084
+llm_content_sent: 2084
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: Работа исследует применение SSL энкодеров для восстановления речи без дополнительного
+  обучения, но это довольно очевидное применение существующих методов без существенных
+  новшеств для эмоциональной/экспрессивной синтеза речи с zero-shot возможностями.

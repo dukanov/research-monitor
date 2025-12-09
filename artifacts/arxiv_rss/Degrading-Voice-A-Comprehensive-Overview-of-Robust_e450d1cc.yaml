@@ -1,0 +1,34 @@
+title: 'Degrading Voice: A Comprehensive Overview of Robust Voice Conversion Through
+  Input Manipulation'
+url: https://arxiv.org/abs/2512.06304
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-09T10:07:45.380316+00:00'
+date_seen: '2025-12-09'
+metadata:
+  arxiv_id: '2512.06304'
+  published: Tue, 09 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.AI, cs.CR, cs.SD
+content_preview: 'Title: Degrading Voice: A Comprehensive Overview of Robust Voice
+  Conversion Through Input Manipulation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Identity, accent, style, and emotions are essential components of human speech.
+  Voice conversion (VC) techniques process the speech signals of two input speakers
+  and other modalities of auxiliary information such as prompts and emotion tags.
+  It changes para-linguistic features from one to another, while maintaining linguistic
+  contents. Recently, VC models have made '
+content_length: 2020
+llm_content_sent: 2020
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа представляет обзор существующих методов атак и защиты для систем конверсии
+  голоса, но не содержит новых подходов к эмоциональному/экспрессивному синтезу речи
+  с zero-shot возможностями.

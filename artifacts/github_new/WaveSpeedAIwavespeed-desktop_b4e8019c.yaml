@@ -1,0 +1,29 @@
+title: WaveSpeedAI/wavespeed-desktop
+url: https://github.com/WaveSpeedAI/wavespeed-desktop
+source: github_new
+type: repository
+date_discovered: '2025-12-02T14:22:32+00:00'
+date_seen: '2025-12-09'
+metadata:
+  stars: '15'
+  language: TypeScript
+  created_at: '2025-12-02T14:22:32Z'
+content_preview: 'Description: A cross-platform desktop application for running AI
+  models from [WaveSpeedAI](https://wavespeed.ai).
+
+
+  Topics: No topics
+
+
+  Language: TypeScript
+
+  Stars: 15
+
+  '
+content_length: 165
+llm_content_sent: 165
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто десктопное приложение для запуска AI моделей без какой-либо научной
+  новизны в области синтеза речи или zero-shot методов.
