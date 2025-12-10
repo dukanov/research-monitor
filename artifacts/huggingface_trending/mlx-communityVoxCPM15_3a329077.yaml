@@ -1,0 +1,60 @@
+title: mlx-community/VoxCPM1.5
+url: https://huggingface.co/mlx-community/VoxCPM1.5
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-10T10:11:40.615492+00:00'
+date_seen: '2025-12-10'
+metadata:
+  likes: '2'
+  downloads: '14'
+  trending_score: '2'
+  last_modified: '2025-12-10T03:24:50.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - en
+
+  - zh
+
+  base_model:
+
+  - openbmb/MiniCPM4-0.5B
+
+  pipeline_tag: text-to-speech
+
+  library_name: voxcpm1.5
+
+  tags:
+
+  - text-to-speech
+
+  - speech
+
+  - speech generation
+
+  - voice cloning
+
+  - mlx
+
+  ---
+
+
+  # mlx-community/VoxCPM1.5
+
+  This model was converted to MLX format from [`openbmb/VoxCPM1.5`](https://huggingface.co/openbmb/VoxCPM1.5)
+  using mlx-audio version **0.2.6**.
+
+  Refer to the [original model card](https://huggingface.co/openbmb/VoxCPM1.5) for
+  more details on the model.
+
+  ## Use with'
+content_length: 651
+llm_content_sent: 651
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто конвертация существующей модели VoxCPM1.5 в формат MLX без каких-либо
+  научных новшеств или улучшений в области эмоционального синтеза речи.

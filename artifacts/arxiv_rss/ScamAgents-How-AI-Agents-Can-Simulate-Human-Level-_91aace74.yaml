@@ -1,0 +1,32 @@
+title: 'ScamAgents: How AI Agents Can Simulate Human-Level Scam Calls'
+url: https://arxiv.org/abs/2508.06457
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-10T10:11:03.745075+00:00'
+date_seen: '2025-12-10'
+metadata:
+  arxiv_id: '2508.06457'
+  published: Wed, 10 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CR, cs.AI, cs.CL, cs.MA
+content_preview: 'Title: ScamAgents: How AI Agents Can Simulate Human-Level Scam Calls
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large Language Models (LLMs) have demonstrated impressive fluency and reasoning
+  capabilities, but their potential for misuse has raised growing concern. In this
+  paper, we present ScamAgent, an autonomous multi-turn agent built on top of LLMs,
+  capable of generating highly realistic scam call scripts that simulate real-world
+  fraud scenarios. Unlike prior work focused on single-shot prompt misuse, Scam'
+content_length: 1416
+llm_content_sent: 1416
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Работа демонстрирует применение существующих TTS систем для создания мошеннических
+  звонков, но не предлагает новых методов синтеза речи или подходов к эмоциональной/экспрессивной
+  генерации голоса.

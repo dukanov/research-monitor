@@ -1,0 +1,30 @@
+title: 'JEPA as a Neural Tokenizer: Learning Robust Speech Representations with Density
+  Adaptive Attention'
+url: https://huggingface.co/papers/2512.07168
+source: huggingface_papers
+type: paper
+date_discovered: '2025-12-10T10:11:35.176170+00:00'
+date_seen: '2025-12-10'
+metadata:
+  upvotes: '1'
+  paper_id: '2512.07168'
+  published_date: '2025-12-09'
+content_preview: 'Title: JEPA as a Neural Tokenizer: Learning Robust Speech Representations
+  with Density Adaptive Attention
+
+
+  Summary:
+
+  We introduce a two-stage self-supervised framework that combines the Joint-Embedding
+  Predictive Architecture (JEPA) with a Density Adaptive Attention Mechanism (DAAM)
+  for learning robust speech representations. Stage~1 uses JEPA with DAAM to learn
+  semantic audio features via masked prediction in latent space, fully decoupled from
+  waveform reconstruction. Stage~2 leverages these rep'
+content_length: 1135
+llm_content_sent: 1135
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: Работа фокусируется на самообучающихся представлениях речи и нейронной токенизации,
+  но не затрагивает эмоциональный/экспрессивный синтез речи или zero-shot способности
+  - это чисто техническое улучшение аудиокодеков.

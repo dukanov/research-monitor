@@ -1,0 +1,34 @@
+title: 'DFALLM: Achieving Generalizable Multitask Deepfake Detection by Optimizing
+  Audio LLM Components'
+url: https://arxiv.org/abs/2512.08403
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-10T10:11:03.711822+00:00'
+date_seen: '2025-12-10'
+metadata:
+  arxiv_id: '2512.08403'
+  published: Wed, 10 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: DFALLM: Achieving Generalizable Multitask Deepfake Detection
+  by Optimizing Audio LLM Components
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Audio deepfake detection has recently garnered public concern due to its implications
+  for security and reliability. Traditional deep learning methods have been widely
+  applied to this task but often lack generalisability when confronted with newly
+  emerging spoofing techniques and more tasks such as spoof attribution recognition
+  rather than simple binary classificatio'
+content_length: 1832
+llm_content_sent: 1832
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена детекции дипфейков, а не синтезу эмоциональной речи с zero-shot
+  возможностями - это противоположная задача без прямого отношения к исследовательским
+  интересам.
