@@ -1,0 +1,28 @@
+title: ArtificialAnalysis/Stirrup
+url: https://github.com/ArtificialAnalysis/Stirrup
+source: github_new
+type: repository
+date_discovered: '2025-12-10T03:10:49+00:00'
+date_seen: '2025-12-11'
+metadata:
+  stars: '40'
+  language: Python
+  created_at: '2025-12-10T03:10:49Z'
+content_preview: 'Description: The lightweight framework for building agents
+
+
+  Topics: agents, ai, ai-agent, ai-agents
+
+
+  Language: Python
+
+  Stars: 40
+
+  '
+content_length: 128
+llm_content_sent: 128
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий представляет общий фреймворк для создания AI-агентов без какой-либо
+  связи с синтезом речи или обработкой эмоциональных аспектов речи.

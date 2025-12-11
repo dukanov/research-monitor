@@ -1,0 +1,33 @@
+title: 'Human perception of audio deepfakes: the role of language and speaking style'
+url: https://arxiv.org/abs/2512.09221
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-11T10:07:22.858498+00:00'
+date_seen: '2025-12-11'
+metadata:
+  arxiv_id: '2512.09221'
+  published: Thu, 11 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, eess.SP
+content_preview: 'Title: Human perception of audio deepfakes: the role of language
+  and speaking style
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Audio deepfakes have reached a level of realism that makes it increasingly difficult
+  to distinguish between human and artificial voices, which poses risks such as identity
+  theft or spread of disinformation. Despite these concerns, research on humans''
+  ability to identify deepfakes is limited, with most studies focusing on English
+  and very few exploring the reasons behind listeners'' per'
+content_length: 2053
+llm_content_sent: 2053
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.65
+reason: Первое систематическое кросс-лингвистическое исследование восприятия аудио-дипфейков
+  с качественным анализом перцептивных стратегий, выявляющее важность просодических
+  и экстралингвистических признаков для детекции синтетической речи.

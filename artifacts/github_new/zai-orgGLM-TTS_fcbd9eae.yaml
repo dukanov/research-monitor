@@ -1,0 +1,30 @@
+title: zai-org/GLM-TTS
+url: https://github.com/zai-org/GLM-TTS
+source: github_new
+type: repository
+date_discovered: '2025-12-06T04:50:56+00:00'
+date_seen: '2025-12-11'
+metadata:
+  stars: '283'
+  language: Python
+  created_at: '2025-12-06T04:50:56Z'
+content_preview: 'Description: GLM-TTS: Controllable & Emotion-Expressive Zero-shot
+  TTS with Multi-Reward Reinforcement Learning
+
+
+  Topics: edge-computing, llm, tts
+
+
+  Language: Python
+
+  Stars: 283
+
+  '
+content_length: 174
+llm_content_sent: 174
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Репозиторий заявляет о комбинации GLM архитектуры с многокритериальным обучением
+  с подкреплением для эмоционального TTS, но без доступа к коду или статье невозможно
+  оценить реальную новизну подхода.

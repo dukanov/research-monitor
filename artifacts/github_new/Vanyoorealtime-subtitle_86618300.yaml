@@ -1,0 +1,29 @@
+title: Vanyoo/realtime-subtitle
+url: https://github.com/Vanyoo/realtime-subtitle
+source: github_new
+type: repository
+date_discovered: '2025-12-10T10:11:12+00:00'
+date_seen: '2025-12-11'
+metadata:
+  stars: '32'
+  language: Python
+  created_at: '2025-12-10T10:11:12Z'
+content_preview: 'Description: Real time translated subtitle powered by whisper for
+  macOS
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 32
+
+  '
+content_length: 119
+llm_content_sent: 119
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто приложение для реального времени субтитров на основе существующей
+  модели Whisper, без какого-либо вклада в синтез речи или новых научных подходов.

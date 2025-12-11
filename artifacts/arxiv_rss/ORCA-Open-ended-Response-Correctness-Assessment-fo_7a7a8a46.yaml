@@ -1,0 +1,32 @@
+title: 'ORCA: Open-ended Response Correctness Assessment for Audio Question Answering'
+url: https://arxiv.org/abs/2512.09066
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-11T10:07:22.805487+00:00'
+date_seen: '2025-12-11'
+metadata:
+  arxiv_id: '2512.09066'
+  published: Thu, 11 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.CL
+content_preview: 'Title: ORCA: Open-ended Response Correctness Assessment for Audio
+  Question Answering
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Evaluating open-ended responses from large audio language models (LALMs) is challenging
+  because human annotators often genuinely disagree on answer correctness due to multiple
+  valid interpretations, partial correctness, and subjective judgment. Traditional
+  metrics reporting only mean scores fail to capture this uncertainty. We present
+  ORCA (Open-ended Response Correctness Assessment)'
+content_length: 1338
+llm_content_sent: 1338
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена оценке качества ответов аудио-языковых моделей на вопросы,
+  что не связано с синтезом эмоциональной речи или zero-shot генерацией речи.

@@ -1,0 +1,25 @@
+title: 'Beyond Unified Models: A Service-Oriented Approach to Low Latency, Context
+  Aware Phonemization for Real Time TTS'
+url: https://huggingface.co/papers/2512.08006
+source: huggingface_papers
+type: paper
+date_discovered: '2025-12-11T10:07:53.820369+00:00'
+date_seen: '2025-12-11'
+metadata:
+  upvotes: '2'
+  paper_id: '2512.08006'
+  published_date: '2025-12-11'
+content_preview: "Title: Beyond Unified Models: A Service-Oriented Approach to Low\
+  \ Latency, Context Aware Phonemization for Real Time TTS\n\nSummary:\nLightweight,\
+  \ real-time text-to-speech systems are crucial for accessibility. However, the most\
+  \ efficient TTS models often rely on lightweight phonemizers that struggle with\
+  \ context-dependent challenges. In contrast, more advanced phonemizers with a deeper\
+  \ linguistic understanding typically incur high computational costs, which prevents\
+  \ real-time performance.\n  This pa"
+content_length: 1245
+llm_content_sent: 1245
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена архитектурной оптимизации фонемизации для TTS систем реального
+  времени, но не касается эмоциональной/экспрессивной синтеза речи или zero-shot возможностей.

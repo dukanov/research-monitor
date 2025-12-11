@@ -1,0 +1,31 @@
+title: deucebucket/library-manager
+url: https://github.com/deucebucket/library-manager
+source: github_new
+type: repository
+date_discovered: '2025-12-10T01:49:59+00:00'
+date_seen: '2025-12-11'
+metadata:
+  stars: '14'
+  language: Python
+  created_at: '2025-12-10T01:49:59Z'
+content_preview: 'Description: Smart audiobook library organizer - fixes messy folders
+  using 4 book databases (Audnexus, OpenLibrary, Google Books, Hardcover) + AI verification.
+  Web UI with undo, pending approvals, and drastic change protection.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 14
+
+  '
+content_length: 275
+llm_content_sent: 275
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Данный репозиторий представляет собой систему управления библиотекой аудиокниг
+  и не имеет никакого отношения к синтезу эмоциональной/экспрессивной речи или zero-shot
+  технологиям.

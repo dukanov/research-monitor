@@ -1,0 +1,33 @@
+title: alizaeda/yt-tksub
+url: https://github.com/alizaeda/yt-tksub
+source: github_new
+type: repository
+date_discovered: '2025-12-09T21:28:09+00:00'
+date_seen: '2025-12-11'
+metadata:
+  stars: '15'
+  language: Python
+  created_at: '2025-12-09T21:28:09Z'
+content_preview: 'Description: 🎬 AI-powered YouTube video translator with GPU-accelerated
+  transcription and GPT-4 translations. 12+ languages, smart caching, professional
+  subtitles.
+
+
+  Topics: ai, arabic, fastapi, ffmpeg, gpt-4, gpu-acceleration, machine-learning,
+  openai, python, pytorch, series, subtitles, translation, turkish, video-processing,
+  whisper, youtube
+
+
+  Language: Python
+
+  Stars: 15
+
+  '
+content_length: 374
+llm_content_sent: 374
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто инженерное приложение для перевода субтитров YouTube с использованием
+  существующих технологий (Whisper, GPT-4), без какой-либо научной новизны в области
+  синтеза эмоциональной речи или zero-shot методов.

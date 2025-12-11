@@ -1,0 +1,33 @@
+title: LG Uplus System with Multi-Speaker IDs and Discriminator-based Sub-Judges for
+  the WildSpoof Challenge
+url: https://arxiv.org/abs/2512.09000
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-11T10:07:22.858427+00:00'
+date_seen: '2025-12-11'
+metadata:
+  arxiv_id: '2512.09000'
+  published: Thu, 11 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: LG Uplus System with Multi-Speaker IDs and Discriminator-based
+  Sub-Judges for the WildSpoof Challenge
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This paper describes our submission to the WildSpoof Challenge Track 2, which focuses
+  on spoof-aware speaker verification (SASV) in the presence of high-quality text-to-speech
+  (TTS) attacks. We adopt a ResNet-221 back-bone and study two speaker-labeling strategies,
+  namelyDual-Speaker IDs and Multi-Speaker IDs, to explicitly enlarge the margin between
+  bona fide'
+content_length: 981
+llm_content_sent: 981
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена детекции синтетической речи для защиты от спуфинг-атак, а
+  не синтезу эмоциональной речи с zero-shot возможностями.

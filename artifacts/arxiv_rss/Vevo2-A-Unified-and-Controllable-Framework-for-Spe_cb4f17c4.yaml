@@ -1,0 +1,33 @@
+title: 'Vevo2: A Unified and Controllable Framework for Speech and Singing Voice Generation'
+url: https://arxiv.org/abs/2508.16332
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-11T10:07:22.805823+00:00'
+date_seen: '2025-12-11'
+metadata:
+  arxiv_id: '2508.16332'
+  published: Thu, 11 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.CL
+content_preview: 'Title: Vevo2: A Unified and Controllable Framework for Speech and
+  Singing Voice Generation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Controllable human voice generation, particularly for expressive domains like singing,
+  remains a significant challenge. This paper introduces Vevo2, a unified framework
+  for controllable speech and singing voice generation. To tackle issues like the
+  scarcity of annotated singing data and to enable flexible controllability, Vevo2
+  introduces two audio tokenizers: (1) a unified mus'
+content_length: 1867
+llm_content_sent: 1867
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Новизна в объединенном подходе к генерации речи и пения с двумя специализированными
+  токенизаторами и стратегиями обучения для связывания речевых и певческих модальностей,
+  что потенциально обеспечивает zero-shot контроль над просодией и стилем.
