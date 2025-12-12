@@ -1,0 +1,58 @@
+title: mlx-community/Kokoro-82M-bf16
+url: https://huggingface.co/mlx-community/Kokoro-82M-bf16
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-12T10:07:51.216614+00:00'
+date_seen: '2025-12-12'
+metadata:
+  likes: '28'
+  downloads: '5211'
+  trending_score: '1'
+  last_modified: '2025-12-02T13:59:36.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - en
+
+  base_model:
+
+  - yl4579/StyleTTS2-LJSpeech
+
+  pipeline_tag: text-to-speech
+
+  library_name: mlx
+
+  ---
+
+
+  # mlx-community/Kokoro-82M-bf16
+
+  This model was converted to MLX format from [`hexagrad/Kokoro-82M`]() using mlx-audio
+  version **0.0.1**.
+
+  Refer to the [original model card](https://huggingface.co/hexagrad/Kokoro-82M) for
+  more details on the model.
+
+  ## Use with mlx
+
+
+  ```bash
+
+  pip install -U mlx-audio
+
+  ```
+
+
+  ```bash
+
+  python -m mlx_audio.tts.generate --model mlx-community/Koko'
+content_length: 536
+llm_content_sent: 536
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто конвертация существующей модели в формат MLX без каких-либо научных
+  новшеств в области эмоционального синтеза речи или zero-shot возможностей.

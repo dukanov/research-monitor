@@ -1,0 +1,35 @@
+title: 'It Hears, It Sees too: Multi-Modal LLM for Depression Detection By Integrating
+  Visual Understanding into Audio Language Models'
+url: https://arxiv.org/abs/2511.19877
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-12T10:07:09.514432+00:00'
+date_seen: '2025-12-12'
+metadata:
+  arxiv_id: '2511.19877'
+  published: Fri, 12 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.MM, cs.CV, cs.LG, eess.AS
+content_preview: 'Title: It Hears, It Sees too: Multi-Modal LLM for Depression Detection
+  By Integrating Visual Understanding into Audio Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Depression is one of the most prevalent mental health disorders globally. In recent
+  years, multi-modal data, such as speech, video, and transcripts, has been increasingly
+  used to develop AI-assisted depression assessment systems. Large language models
+  have further advanced this field due to their strong language understanding and
+  gener'
+content_length: 1610
+llm_content_sent: 1610
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена детекции депрессии через мультимодальные LLM, что не связано
+  с синтезом эмоциональной речи и zero-shot генерацией, а представляет собой стандартную
+  задачу классификации с инкрементальным улучшением через выравнивание аудио-визуальных
+  признаков.

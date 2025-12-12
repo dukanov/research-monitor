@@ -1,0 +1,35 @@
+title: 'AgriGPT-Omni: A Unified Speech-Vision-Text Framework for Multilingual Agricultural
+  Intelligence'
+url: https://arxiv.org/abs/2512.10624
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-12T10:07:09.527192+00:00'
+date_seen: '2025-12-12'
+metadata:
+  arxiv_id: '2512.10624'
+  published: Fri, 12 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: AgriGPT-Omni: A Unified Speech-Vision-Text Framework for
+  Multilingual Agricultural Intelligence
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Despite rapid advances in multimodal large language models, agricultural applications
+  remain constrained by the lack of multilingual speech data, unified multimodal architectures,
+  and comprehensive evaluation benchmarks. To address these challenges, we present
+  AgriGPT-Omni, an agricultural omni-framework that integrates speech, vision, and
+  text in a unified framewor'
+content_length: 1673
+llm_content_sent: 1673
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена сельскохозяйственным приложениям и не содержит новых подходов
+  к эмоциональному/экспрессивному синтезу речи с zero-shot возможностями, представляя
+  лишь адаптацию существующих мультимодальных архитектур для специфической предметной
+  области.

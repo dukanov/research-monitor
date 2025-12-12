@@ -1,0 +1,33 @@
+title: Lightweight Model Attribution and Detection of Synthetic Speech via Audio Residual
+  Fingerprints
+url: https://arxiv.org/abs/2411.14013
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-12T10:07:09.514348+00:00'
+date_seen: '2025-12-12'
+metadata:
+  arxiv_id: '2411.14013'
+  published: Fri, 12 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.CR, cs.LG
+content_preview: 'Title: Lightweight Model Attribution and Detection of Synthetic
+  Speech via Audio Residual Fingerprints
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  As speech generation technologies advance, so do risks of impersonation, misinformation,
+  and spoofing. We present a lightweight, training-free approach for detecting synthetic
+  speech and attributing it to its source model. Our method addresses three tasks:
+  (1) single-model attribution in an open-world setting, (2) multi-model attribution
+  in a closed-world setting, a'
+content_length: 1496
+llm_content_sent: 1496
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена детекции синтетической речи, а не её синтезу, что не относится
+  к исследованиям эмоционального/экспрессивного синтеза речи с zero-shot возможностями.

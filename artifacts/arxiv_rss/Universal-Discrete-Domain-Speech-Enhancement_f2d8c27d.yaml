@@ -1,0 +1,32 @@
+title: Universal Discrete-Domain Speech Enhancement
+url: https://arxiv.org/abs/2510.09974
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-12T10:07:09.435874+00:00'
+date_seen: '2025-12-12'
+metadata:
+  arxiv_id: '2510.09974'
+  published: Fri, 12 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: Universal Discrete-Domain Speech Enhancement
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In real-world scenarios, speech signals are inevitably corrupted by various types
+  of interference, making speech enhancement (SE) a critical task for robust speech
+  processing. However, most existing SE methods only handle a limited range of distortions,
+  such as additive noise, reverberation, or band limitation, while the study of SE
+  under multiple simultaneous distortions remains limited. This gap affects the genera'
+content_length: 1932
+llm_content_sent: 1932
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена улучшению качества речи (speech enhancement), а не синтезу
+  эмоциональной речи с zero-shot возможностями - это совершенно другая задача, хотя
+  использование дискретных токенов RVQ представляет некоторый технический интерес.
