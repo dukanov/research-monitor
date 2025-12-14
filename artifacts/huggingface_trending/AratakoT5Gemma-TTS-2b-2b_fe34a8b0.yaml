@@ -1,0 +1,28 @@
+title: Aratako/T5Gemma-TTS-2b-2b
+url: https://huggingface.co/Aratako/T5Gemma-TTS-2b-2b
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-14T10:06:37.537250+00:00'
+date_seen: '2025-12-14'
+metadata:
+  likes: '9'
+  downloads: '30'
+  trending_score: '9'
+  last_modified: '2025-12-14T09:25:24.000Z'
+content_preview: 'This model is for
+
+  Non-Commercial Use Only
+
+  (CC-BY-NC 4.0) and follows the
+
+  Gemma Terms of Use
+
+  . Malicious use, including impersonation, is strictly prohibited.'
+content_length: 157
+llm_content_sent: 157
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Представлена только лицензионная информация модели без технических деталей,
+  архитектуры или методологии, что не позволяет оценить научную новизну или релевантность
+  к эмоциональному синтезу речи.

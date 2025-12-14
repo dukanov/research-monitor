@@ -1,0 +1,72 @@
+title: mlx-community/CosyVoice2-0.5B-fp16
+url: https://huggingface.co/mlx-community/CosyVoice2-0.5B-fp16
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-14T10:06:42.143962+00:00'
+date_seen: '2025-12-14'
+metadata:
+  likes: '2'
+  downloads: '116'
+  trending_score: '2'
+  last_modified: '2025-12-11T21:01:25.000Z'
+content_preview: '---
+
+  library_name: mlx-audio-plus
+
+  base_model:
+
+  - FunAudioLLM/CosyVoice2-0.5B
+
+  tags:
+
+  - mlx
+
+  - tts
+
+  - cosyvoice2
+
+  pipeline_tag: text-to-speech
+
+  language:
+
+  - en
+
+  - zh
+
+  - ja
+
+  - ko
+
+  ---
+
+
+  # mlx-community/CosyVoice2-0.5B-fp16
+
+
+  This model was converted to MLX format from [FunAudioLLM/CosyVoice2-0.5B](https://huggingface.co/FunAudioLLM/CosyVoice2-0.5B)
+  using [mlx-audio-plus](https://github.com/DePasqualeOrg/mlx-audio-plus) version
+  **0.1.2**.
+
+
+  ## Usage
+
+
+  ```bash
+
+  pip install -U mlx-audio-plus
+
+  ```
+
+
+  ### Inference Modes
+
+
+  '
+content_length: 1727
+llm_content_sent: 1727
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Это просто конвертация существующей модели CosyVoice2 в формат MLX без научных
+  новшеств, хотя модель поддерживает zero-shot синтез с эмоциональным контролем через
+  инструкции.

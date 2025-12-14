@@ -1,0 +1,57 @@
+title: cosrigel/dia-finetuning-vnese
+url: https://huggingface.co/cosrigel/dia-finetuning-vnese
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-14T10:06:47.036619+00:00'
+date_seen: '2025-12-14'
+metadata:
+  likes: '20'
+  downloads: '0'
+  trending_score: '1'
+  last_modified: '2025-12-03T07:04:09.000Z'
+content_preview: 'Dia Vietnamese Checkpoint (finetuned)
+
+  Checkpoint tiếng Việt cho mô hình Dia TTS.
+
+  Sử dụng nhanh
+
+  from
+
+  huggingface_hub
+
+  import
+
+  hf_hub_download
+
+  import
+
+  safetensors.torch
+
+  as
+
+  st
+
+
+  ckpt = hf_hub_download(
+
+  "cosrigel/dia-finetuning-vnese"
+
+  , filename=
+
+  "model.safetensors"
+
+  )
+
+  state = st.load_file(ckpt)
+
+  # dict tên->tensor
+
+  # ... khởi tạo kiến trúc từ code project rồi nạp state_dict'
+content_length: 366
+llm_content_sent: 366
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто файнтюненная модель Dia TTS для вьетнамского языка без описания
+  методологии, новых подходов или экспериментальных результатов - чисто техническая
+  публикация весов модели.
