@@ -1,0 +1,32 @@
+title: The TCG CREST -- RKMVERI Submission for the NCIIPC Startup India AI Grand Challenge
+url: https://arxiv.org/abs/2512.11009
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-15T10:08:17.866466+00:00'
+date_seen: '2025-12-15'
+metadata:
+  arxiv_id: '2512.11009'
+  published: Mon, 15 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: The TCG CREST -- RKMVERI Submission for the NCIIPC Startup
+  India AI Grand Challenge
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In this report, we summarize the integrated multilingual audio processing pipeline
+  developed by our team for the inaugural NCIIPC Startup India AI GRAND CHALLENGE,
+  addressing Problem Statement 06: Language-Agnostic Speaker Identification and Diarisation,
+  and subsequent Transcription and Translation System. Our primary focus was on advancing
+  speaker diarization, a critical compo'
+content_length: 1383
+llm_content_sent: 1383
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена диаризации спикеров и распознаванию речи, но не затрагивает
+  синтез эмоциональной/экспрессивной речи с zero-shot возможностями.

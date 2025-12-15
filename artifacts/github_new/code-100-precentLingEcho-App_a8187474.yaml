@@ -1,0 +1,33 @@
+title: code-100-precent/LingEcho-App
+url: https://github.com/code-100-precent/LingEcho-App
+source: github_new
+type: repository
+date_discovered: '2025-12-10T02:48:56+00:00'
+date_seen: '2025-12-15'
+metadata:
+  stars: '46'
+  language: TypeScript
+  created_at: '2025-12-10T02:48:56Z'
+content_preview: 'Description: LingEcho is an intelligent voice interaction platform
+  that provides a comprehensive AI voice interaction solution. It integrates advanced
+  speech recognition (ASR), text-to-speech (TTS), large language models (LLM) and
+  real-time communication, supporting real-time calls, voice cloning, knowledge base
+  management and other enterprise-level features.
+
+
+  Topics: No topics
+
+
+  Language: TypeScript
+
+  Stars: 46
+
+  '
+content_length: 413
+llm_content_sent: 413
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто интеграционная платформа, объединяющая существующие технологии
+  ASR/TTS/LLM без каких-либо научных новшеств в области эмоционального синтеза речи
+  или zero-shot подходов.

@@ -1,0 +1,32 @@
+title: 'Recent Advances in Discrete Speech Tokens: A Review'
+url: https://arxiv.org/abs/2502.06490
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-15T10:08:17.867035+00:00'
+date_seen: '2025-12-15'
+metadata:
+  arxiv_id: '2502.06490'
+  published: Mon, 15 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.AI, cs.MM, cs.SD, eess.SP
+content_preview: 'Title: Recent Advances in Discrete Speech Tokens: A Review
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The rapid advancement of speech generation technologies in the era of large language
+  models (LLMs) has established discrete speech tokens as a foundational paradigm
+  for speech representation. These tokens, characterized by their discrete, compact,
+  and concise nature, are not only advantageous for efficient transmission and storage,
+  but also inherently compatible with the language modeling framework, enabling '
+content_length: 1432
+llm_content_sent: 1432
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: Обзорная статья систематизирует существующие подходы к дискретным речевым
+  токенам, но не предлагает новых методов для эмоциональной/экспрессивной синтеза
+  речи с zero-shot возможностями.
