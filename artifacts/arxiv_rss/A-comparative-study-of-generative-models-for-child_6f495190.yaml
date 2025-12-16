@@ -1,0 +1,33 @@
+title: A comparative study of generative models for child voice conversion
+url: https://arxiv.org/abs/2512.12129
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-16T10:07:33.773249+00:00'
+date_seen: '2025-12-16'
+metadata:
+  arxiv_id: '2512.12129'
+  published: Tue, 16 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: A comparative study of generative models for child voice
+  conversion
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Generative models are a popular choice for adult-to-adult voice conversion (VC)
+  because of their efficient way of modelling unlabelled data. To this point their
+  usefulness in producing children speech and in particular adult to child VC has
+  not been investigated. For adult to child VC, four generative models are compared:
+  diffusion model, flow based model, variational autoencoders, and generat'
+content_length: 1161
+llm_content_sent: 1161
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: Работа сравнивает существующие генеративные модели для конверсии голоса взрослый-ребенок
+  без значительных методологических новшеств, лишь добавляя технику частотного искажения
+  как постобработку.

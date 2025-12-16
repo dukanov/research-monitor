@@ -1,0 +1,34 @@
+title: 'DisCo-Speech: Controllable Zero-Shot Speech Generation with A Disentangled
+  Speech Codec'
+url: https://arxiv.org/abs/2512.13251
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-16T10:07:33.773448+00:00'
+date_seen: '2025-12-16'
+metadata:
+  arxiv_id: '2512.13251'
+  published: Tue, 16 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: DisCo-Speech: Controllable Zero-Shot Speech Generation with
+  A Disentangled Speech Codec
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent codec-based language models~(LMs) have revolutionized text-to-speech~(TTS).
+  However, since standard codecs tightly couple timbre and prosody, continuation-based
+  LMs inevitably replicate this entanglement, hindering independent control. Recent
+  efforts attempt to break this entanglement via codec design, but insufficient decoupling
+  remains a critical bottleneck. To tac'
+content_length: 1805
+llm_content_sent: 1805
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Новый подход к решению фундаментальной проблемы связанности тембра и просодии
+  в кодеках через явное трёхфакторное разделение на контент, просодику и тембр с гибридными
+  потерями, что обеспечивает независимое управление просодией в zero-shot режиме.

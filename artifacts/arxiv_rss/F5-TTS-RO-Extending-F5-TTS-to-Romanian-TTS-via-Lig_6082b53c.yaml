@@ -1,0 +1,33 @@
+title: 'F5-TTS-RO: Extending F5-TTS to Romanian TTS via Lightweight Input Adaptation'
+url: https://arxiv.org/abs/2512.12297
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-16T10:07:33.812817+00:00'
+date_seen: '2025-12-16'
+metadata:
+  arxiv_id: '2512.12297'
+  published: Tue, 16 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: F5-TTS-RO: Extending F5-TTS to Romanian TTS via Lightweight
+  Input Adaptation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This work introduces a lightweight input-level adapter for the F5-TTS model that
+  enables Romanian Language support. To preserve the existing capabilities of the
+  model (voice cloning, English and Chinese support), we keep the original weights
+  frozen, append a sub-network to the model and train it as an extension for the textual
+  embedding matrix of the text encoder. For simplicity, we r'
+content_length: 1417
+llm_content_sent: 1417
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: Работа представляет только техническую адаптацию существующей модели F5-TTS
+  для румынского языка через добавление легковесного адаптера, без новых подходов
+  к эмоциональному/экспрессивному синтезу или улучшения zero-shot возможностей.

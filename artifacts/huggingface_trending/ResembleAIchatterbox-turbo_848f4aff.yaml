@@ -1,0 +1,26 @@
+title: ResembleAI/chatterbox-turbo
+url: https://huggingface.co/ResembleAI/chatterbox-turbo
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-16T10:08:12.182933+00:00'
+date_seen: '2025-12-16'
+metadata:
+  likes: '97'
+  downloads: '0'
+  trending_score: '97'
+  last_modified: '2025-12-15T15:56:20.000Z'
+content_preview: "---\nlicense: mit\nlanguage:\n- en\npipeline_tag: text-to-speech\n\
+  tags:\n- text-to-speech\n- speech\n- speech-generation\n- voice-cloning\n---\n![resemble+cbturbo-1600x900](https://storage.googleapis.com/chatterbox-demo-samples/turbo/turbo-banner.jpg)\n\
+  \n\n# Chatterbox TTS\n\n<div style=\"display: flex; align-items: center; gap: 12px\"\
+  >\n  <a href=\"https://resemble-ai.github.io/chatterbox_turbo_demopage/\">\n   \
+  \ <img src=\"https://img.shields.io/badge/listen-demo_samples-blue\" alt=\"Listen\
+  \ to Demo Samples\" />\n  </a>\n "
+content_length: 9435
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: Модель предлагает интересное сочетание нулевого обучения голосового клонирования
+  с встроенными паралингвистическими тегами ([laugh], [cough]) и оптимизированной
+  архитектурой для низкой латентности, но представляет скорее инженерную оптимизацию
+  существующих подходов, чем фундаментальную научную новизну.

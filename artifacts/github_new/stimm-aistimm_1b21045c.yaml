@@ -1,0 +1,31 @@
+title: stimm-ai/stimm
+url: https://github.com/stimm-ai/stimm
+source: github_new
+type: repository
+date_discovered: '2025-12-04T08:34:52+00:00'
+date_seen: '2025-12-16'
+metadata:
+  stars: '25'
+  language: Python
+  created_at: '2025-12-04T08:34:52Z'
+content_preview: 'Description: The Open Source Voice Agent Platform. Orchestrate ultra-low
+  latency AI pipelines for real-time conversations over WebRTC.
+
+
+  Topics: conversational-ai, docker, livekit, livekit-sdk, livekit-server, llm, low-latency,
+  orchestration, python, realtime, stt, tts, voice-agent, voice-ai, voice-assistant,
+  voicebot, webrtc
+
+
+  Language: Python
+
+  Stars: 25
+
+  '
+content_length: 355
+llm_content_sent: 355
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Это инженерная платформа для голосовых агентов без научных новшеств в области
+  эмоционального синтеза речи или zero-shot методов.
