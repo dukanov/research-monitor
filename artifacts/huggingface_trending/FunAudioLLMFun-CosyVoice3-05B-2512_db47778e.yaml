@@ -1,0 +1,57 @@
+title: FunAudioLLM/Fun-CosyVoice3-0.5B-2512
+url: https://huggingface.co/FunAudioLLM/Fun-CosyVoice3-0.5B-2512
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-17T10:07:40.538938+00:00'
+date_seen: '2025-12-17'
+metadata:
+  likes: '165'
+  downloads: '0'
+  trending_score: '165'
+  last_modified: '2025-12-17T06:24:31.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - zh
+
+  - en
+
+  - fr
+
+  - es
+
+  - ja
+
+  - ko
+
+  - it
+
+  - ru
+
+  - de
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  ![SVG Banners](https://svg-banners.vercel.app/api?type=origin&text1=CosyVoice🤠&text2=Text-to-Speech%20💖%20Large%20Language%20Model&width=800&height=210)
+
+
+  ## 👉🏻 CosyVoice 👈🏻
+
+
+  **Fun-CosyVoice 3.0**: [Demos](https://funaudiollm.github.io/cosyvoice3/); [Paper](https://arxiv.org/abs/2505.17589);
+  [Modelscope](https://www.modelscope.cn/models/FunAudioLLM/Fun-CosyVoice3-0.5B-2512);
+  [Huggingfa'
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.65
+reason: Модель представляет интересную комбинацию LLM-подхода с zero-shot клонированием
+  голоса и поддержкой инструкций для эмоций, хотя архитектурные новшества не очень
+  детализированы в описании.
