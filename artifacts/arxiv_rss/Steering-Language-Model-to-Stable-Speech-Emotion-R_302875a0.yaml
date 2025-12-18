@@ -1,0 +1,34 @@
+title: Steering Language Model to Stable Speech Emotion Recognition via Contextual
+  Perception and Chain of Thought
+url: https://arxiv.org/abs/2502.18186
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-18T10:07:01.876772+00:00'
+date_seen: '2025-12-18'
+metadata:
+  arxiv_id: '2502.18186'
+  published: Thu, 18 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.CL, eess.AS
+content_preview: 'Title: Steering Language Model to Stable Speech Emotion Recognition
+  via Contextual Perception and Chain of Thought
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large-scale audio language models (ALMs), such as Qwen2-Audio, are capable of comprehending
+  diverse audio signal, performing audio analysis and generating textual responses.
+  However, in speech emotion recognition (SER), ALMs often suffer from hallucinations,
+  resulting in misclassifications or irrelevant outputs. To address these challenges,
+  we propose C$'
+content_length: 1528
+llm_content_sent: 1528
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена распознаванию эмоций в речи, а не синтезу эмоциональной речи
+  - это обратная задача, которая не имеет прямого отношения к генерации выразительной
+  речи с zero-shot возможностями.

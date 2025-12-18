@@ -1,0 +1,53 @@
+title: YatharthS/MiraTTS
+url: https://huggingface.co/YatharthS/MiraTTS
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-18T10:07:38.211254+00:00'
+date_seen: '2025-12-18'
+metadata:
+  likes: '8'
+  downloads: '31'
+  trending_score: '8'
+  last_modified: '2025-12-18T01:35:24.000Z'
+content_preview: '---
+
+  tags:
+
+  - tts
+
+  - audio
+
+  language:
+
+  - en
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  ## MiraTTS
+
+
+  This is the model for the [MiraTTS](https://github.com/ysharma3501/MiraTTS) repository.
+
+  MiraTTS is a high quality TTS model that can generate clear and realistic speech
+  at speeds as fast as 100x realtime.
+
+
+  ## Key benefits
+
+  - Incredibly fast: Over 100x realtime by using Lmdeploy and batching.
+
+  - High quality: Generates clear and crisp 48khz audio outputs which is much higher
+  quality then most models.
+
+  - Memory effic'
+content_length: 1306
+llm_content_sent: 1306
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Модель представляет собой стандартную TTS систему без каких-либо возможностей
+  эмоциональной/экспрессивной речи или zero-shot адаптации, фокусируясь только на
+  скорости и качестве базового синтеза.
