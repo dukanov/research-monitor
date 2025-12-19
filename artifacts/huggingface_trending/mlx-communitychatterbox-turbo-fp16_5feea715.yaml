@@ -1,0 +1,56 @@
+title: mlx-community/chatterbox-turbo-fp16
+url: https://huggingface.co/mlx-community/chatterbox-turbo-fp16
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-19T10:07:21.379595+00:00'
+date_seen: '2025-12-19'
+metadata:
+  likes: '4'
+  downloads: '67'
+  trending_score: '4'
+  last_modified: '2025-12-17T20:06:40.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - en
+
+  base_model:
+
+  - mlx-community/chatterbox-turbo-fp16
+
+  pipeline_tag: text-to-speech
+
+  library_name: mlx-audio
+
+  tags:
+
+  - text-to-speech
+
+  - speech
+
+  - speech generation
+
+  - voice cloning
+
+  - mlx
+
+  - tts
+
+  ---
+
+  # mlx-community/chatterbox-turbo
+
+  This model was converted to MLX format from [`ResembleAI/chatterbox-turbo`](https://huggingface.co/ResembleAI/chatterbox-turbo)
+  using mlx-audio version **0.2.8**.
+
+  Refer to the [original model card](https://huggingface.co/ResembleAI/chatterbo'
+content_length: 2023
+llm_content_sent: 2023
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Это просто конвертация существующей модели ResembleAI в формат MLX без каких-либо
+  научных новшеств или улучшений в области эмоционального синтеза речи.

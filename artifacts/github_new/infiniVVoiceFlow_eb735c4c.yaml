@@ -1,0 +1,30 @@
+title: infiniV/VoiceFlow
+url: https://github.com/infiniV/VoiceFlow
+source: github_new
+type: repository
+date_discovered: '2025-12-13T18:28:09+00:00'
+date_seen: '2025-12-19'
+metadata:
+  stars: '50'
+  language: TypeScript
+  created_at: '2025-12-13T18:28:09Z'
+content_preview: 'Description: VoiceFlow brings the power of OpenAI''s Whisper directly
+  to your Windows machine. It runs entirely on your hardware, ensuring your voice
+  data never leaves your device. Designed for privacy, speed, and reliability.
+
+
+  Topics: No topics
+
+
+  Language: TypeScript
+
+  Stars: 50
+
+  '
+content_length: 277
+llm_content_sent: 277
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто обертка для запуска существующей модели Whisper на Windows без
+  какого-либо научного вклада в синтез или распознавание речи.

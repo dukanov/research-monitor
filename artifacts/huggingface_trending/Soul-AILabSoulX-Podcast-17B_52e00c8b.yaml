@@ -1,0 +1,26 @@
+title: Soul-AILab/SoulX-Podcast-1.7B
+url: https://huggingface.co/Soul-AILab/SoulX-Podcast-1.7B
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-19T10:07:22.000202+00:00'
+date_seen: '2025-12-19'
+metadata:
+  likes: '225'
+  downloads: '784'
+  trending_score: '2'
+  last_modified: '2025-12-18T05:07:34.000Z'
+content_preview: "---\nlicense: apache-2.0\nlanguage:\n  - en\n  - zh\ntags:\n  -\
+  \ text-to-speech\n---\n\n<div align=\"center\">\n    <h1>\n    SoulX-Podcast\n \
+  \   </h1>\n    <p>\n    Official inference code for <br>\n    <b><em>SoulX-Podcast:\
+  \ Towards Realistic Long-form Podcasts with Dialectal and Paralinguistic Diversity</em></b>\n\
+  \    </p>\n    <p>\n    <!-- <img src=\"assets/XiaoHongShu_Logo.png\" alt=\"Institution\
+  \ 4\" style=\"width: 102px; height: 48px;\"> -->\n    <img src=\"assets/SoulX-Podcast-log.jpg\"\
+  \ alt=\"SoulX-Podcast_Logo\" style=\"w"
+content_length: 7209
+llm_content_sent: 7209
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Модель представляет интересное сочетание диалогового синтеза речи с поддержкой
+  китайских диалектов, паралингвистических элементов (смех, вздохи) и zero-shot клонирования
+  голоса, что является значимым вкладом в область экспрессивного синтеза речи.

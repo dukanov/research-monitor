@@ -1,0 +1,21 @@
+title: FunAudioLLM/Fun-ASR
+url: https://github.com/FunAudioLLM/Fun-ASR
+source: github_new
+type: repository
+date_discovered: '2025-12-15T01:46:48+00:00'
+date_seen: '2025-12-19'
+metadata:
+  stars: '434'
+  language: Python
+  created_at: '2025-12-15T01:46:48Z'
+content_preview: "Description: Fun-ASR is an end-to-end speech recognition large model\
+  \ launched by Tongyi Lab. \n\nTopics: audio, audio-language-model, audio-understanding,\
+  \ fun-asr, multimodal-large-language-models, pytorch, speaker-diarization, speech-recognition\n\
+  \nLanguage: Python\nStars: 434\n"
+content_length: 274
+llm_content_sent: 274
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Это стандартная система распознавания речи без какого-либо отношения к синтезу
+  эмоциональной речи или zero-shot возможностям генерации.

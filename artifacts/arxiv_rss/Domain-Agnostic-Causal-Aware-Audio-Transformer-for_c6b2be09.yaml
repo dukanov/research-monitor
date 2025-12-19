@@ -1,0 +1,33 @@
+title: Domain-Agnostic Causal-Aware Audio Transformer for Infant Cry Classification
+url: https://arxiv.org/abs/2512.16271
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-19T10:06:47.404832+00:00'
+date_seen: '2025-12-19'
+metadata:
+  arxiv_id: '2512.16271'
+  published: Fri, 19 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: Domain-Agnostic Causal-Aware Audio Transformer for Infant
+  Cry Classification
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Accurate and interpretable classification of infant cry paralinguistics is essential
+  for early detection of neonatal distress and clinical decision support. However,
+  many existing deep learning methods rely on correlation-driven acoustic representations,
+  which makes them vulnerable to noise, spurious cues, and domain shifts across recording
+  environments. We propose DACH-TIC, a Domain-'
+content_length: 1874
+llm_content_sent: 1874
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена классификации детского плача, что не связано с синтезом эмоциональной
+  речи, а представляет собой стандартную задачу распознавания аудио с инкрементальными
+  улучшениями в архитектуре трансформера.

@@ -1,0 +1,58 @@
+title: JayLL13/VoxCPM-0.5B-VN
+url: https://huggingface.co/JayLL13/VoxCPM-0.5B-VN
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-19T10:07:22.407815+00:00'
+date_seen: '2025-12-19'
+metadata:
+  likes: '2'
+  downloads: '22'
+  trending_score: '2'
+  last_modified: '2025-12-17T17:24:17.000Z'
+content_preview: '---
+
+  license: mit
+
+  datasets:
+
+  - dolly-vn/dolly-audio-1000h-vietnamese
+
+  language:
+
+  - vi
+
+  base_model:
+
+  - openbmb/VoxCPM-0.5B
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  # VoxCPM-0.5B-VN
+
+
+  Model TTS đã được training với dataset 1000h tiếng Việt [dolly-vn/dolly-audio-1000h-vietnamese](https://huggingface.co/datasets/dolly-vn/dolly-audio-1000h-vietnamese)
+
+
+  Max steps: 2000
+
+
+  Device: NVIDIA RTX5090
+
+
+  ## How-tos
+
+
+  ### Finetune a LoRa:
+
+
+  Follow the original guide [here](https://github.com/OpenBMB/VoxCPM/blob/main/docs/finetun'
+content_length: 2643
+llm_content_sent: 2643
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Простое дообучение существующей модели VoxCPM на вьетнамском датасете без
+  каких-либо новых методов для эмоциональности или zero-shot синтеза.
