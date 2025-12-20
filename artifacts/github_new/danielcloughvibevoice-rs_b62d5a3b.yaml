@@ -1,0 +1,29 @@
+title: danielclough/vibevoice-rs
+url: https://github.com/danielclough/vibevoice-rs
+source: github_new
+type: repository
+date_discovered: '2025-12-11T02:48:30+00:00'
+date_seen: '2025-12-20'
+metadata:
+  stars: '37'
+  language: Rust
+  created_at: '2025-12-11T02:48:30Z'
+content_preview: 'Description: Rust implementation of VibeVoice text-to-speech with
+  voice cloning and multi-speaker synthesis.
+
+
+  Topics: rust, tts, vibevoice
+
+
+  Language: Rust
+
+  Stars: 37
+
+  '
+content_length: 165
+llm_content_sent: 165
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Простая портация существующего TTS решения на язык Rust без новых научных
+  подходов к эмоциональному синтезу речи или zero-shot обучению.

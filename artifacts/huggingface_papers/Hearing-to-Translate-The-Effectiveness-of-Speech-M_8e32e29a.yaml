@@ -1,0 +1,29 @@
+title: 'Hearing to Translate: The Effectiveness of Speech Modality Integration into
+  LLMs'
+url: https://huggingface.co/papers/2512.16378
+source: huggingface_papers
+type: paper
+date_discovered: '2025-12-20T10:06:44.577141+00:00'
+date_seen: '2025-12-20'
+metadata:
+  upvotes: '7'
+  paper_id: '2512.16378'
+  published_date: '2025-12-20'
+content_preview: 'Title: Hearing to Translate: The Effectiveness of Speech Modality
+  Integration into LLMs
+
+
+  Summary:
+
+  As Large Language Models (LLMs) expand beyond text, integrating speech as a native
+  modality has given rise to SpeechLLMs, which aim to translate spoken language directly,
+  thereby bypassing traditional transcription-based pipelines. Whether this integration
+  improves speech-to-text translation quality over established cascaded architectures,
+  however, remains an open question. We present Hearing to Tra'
+content_length: 1193
+llm_content_sent: 1193
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена машинному переводу речи, а не синтезу эмоциональной/экспрессивной
+  речи с zero-shot возможностями - это совершенно другая задача.

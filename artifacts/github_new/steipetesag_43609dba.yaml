@@ -1,0 +1,28 @@
+title: steipete/sag
+url: https://github.com/steipete/sag
+source: github_new
+type: repository
+date_discovered: '2025-12-07T22:29:31+00:00'
+date_seen: '2025-12-20'
+metadata:
+  stars: '39'
+  language: Go
+  created_at: '2025-12-07T22:29:31Z'
+content_preview: 'Description: Like the macOS say command, but with a modern voice.
+
+
+  Topics: elevenlabs, go, say
+
+
+  Language: Go
+
+  Stars: 39
+
+  '
+content_length: 119
+llm_content_sent: 119
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто обёртка для существующего API ElevenLabs без какой-либо научной
+  новизны в области синтеза речи.
