@@ -1,0 +1,34 @@
+title: Robust TTS Training via Self-Purifying Flow Matching for the WildSpoof 2026
+  TTS Track
+url: https://arxiv.org/abs/2512.17293
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-22T10:06:49.338987+00:00'
+date_seen: '2025-12-22'
+metadata:
+  arxiv_id: '2512.17293'
+  published: Mon, 22 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: Robust TTS Training via Self-Purifying Flow Matching for
+  the WildSpoof 2026 TTS Track
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This paper presents a lightweight text-to-speech (TTS) system developed for the
+  WildSpoof Challenge TTS Track. Our approach fine-tunes the recently released open-weight
+  TTS model, \textit{Supertonic}\footnote{\url{https://github.com/supertone-inc/supertonic}},
+  with Self-Purifying Flow Matching (SPFM) to enable robust adaptation to in-the-wild
+  speech. SPFM mitigates label nois'
+content_length: 1169
+llm_content_sent: 1169
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: Работа представляет лишь инкрементальное улучшение существующей модели Supertonic
+  через механизм самоочистки для обработки шумных данных, но не вносит существенных
+  новшеств в эмоциональный/экспрессивный синтез речи с zero-shot возможностями.

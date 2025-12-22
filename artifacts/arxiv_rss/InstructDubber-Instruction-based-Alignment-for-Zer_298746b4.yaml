@@ -1,0 +1,32 @@
+title: 'InstructDubber: Instruction-based Alignment for Zero-shot Movie Dubbing'
+url: https://arxiv.org/abs/2512.17154
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-22T10:06:49.338884+00:00'
+date_seen: '2025-12-22'
+metadata:
+  arxiv_id: '2512.17154'
+  published: Mon, 22 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: InstructDubber: Instruction-based Alignment for Zero-shot
+  Movie Dubbing
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Movie dubbing seeks to synthesize speech from a given script using a specific voice,
+  while ensuring accurate lip synchronization and emotion-prosody alignment with the
+  character''s visual performance. However, existing alignment approaches based on
+  visual features face two key limitations: (1)they rely on complex, handcrafted visual
+  preprocessing pipelines, including facial landmark detecti'
+content_length: 1906
+llm_content_sent: 1906
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Новый подход к дублированию фильмов через инструкции естественного языка вместо
+  визуальных признаков, с возможностями zero-shot синтеза и эмоциональной выразительности.

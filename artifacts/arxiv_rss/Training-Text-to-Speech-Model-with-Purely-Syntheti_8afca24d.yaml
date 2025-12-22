@@ -1,0 +1,34 @@
+title: 'Training Text-to-Speech Model with Purely Synthetic Data: Feasibility, Sensitivity,
+  and Generalization Capability'
+url: https://arxiv.org/abs/2512.17356
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-22T10:06:49.338994+00:00'
+date_seen: '2025-12-22'
+metadata:
+  arxiv_id: '2512.17356'
+  published: Mon, 22 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: Training Text-to-Speech Model with Purely Synthetic Data:
+  Feasibility, Sensitivity, and Generalization Capability
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The potential of synthetic data in text-to-speech (TTS) model training has gained
+  increasing attention, yet its rationality and effectiveness require systematic validation.
+  In this study, we systematically investigate the feasibility of using purely synthetic
+  data for TTS training and explore how various factors--including text richness,
+  speaker di'
+content_length: 1146
+llm_content_sent: 1146
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: Исследование систематически изучает возможность обучения TTS моделей исключительно
+  на синтетических данных, что является интересным направлением, но представляет скорее
+  инкрементальное улучшение существующих подходов к синтезу речи.
