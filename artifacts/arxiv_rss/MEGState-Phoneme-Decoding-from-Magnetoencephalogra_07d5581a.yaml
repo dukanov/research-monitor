@@ -1,0 +1,31 @@
+title: 'MEGState: Phoneme Decoding from Magnetoencephalography Signals'
+url: https://arxiv.org/abs/2512.17978
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-23T10:07:08.651390+00:00'
+date_seen: '2025-12-23'
+metadata:
+  arxiv_id: '2512.17978'
+  published: Tue, 23 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: q-bio.NC, cs.LG, cs.SD
+content_preview: 'Title: MEGState: Phoneme Decoding from Magnetoencephalography Signals
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Decoding linguistically meaningful representations from non-invasive neural recordings
+  remains a central challenge in neural speech decoding. Among available neuroimaging
+  modalities, magnetoencephalography (MEG) provides a safe and repeatable means of
+  mapping speech-related cortical dynamics, yet its low signal-to-noise ratio and
+  high temporal dimensionality continue to hinder robust decoding. In t'
+content_length: 1063
+llm_content_sent: 1063
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена декодированию фонем из сигналов МЭГ, что относится к анализу
+  речи, а не к синтезу эмоциональной/экспрессивной речи с zero-shot возможностями.

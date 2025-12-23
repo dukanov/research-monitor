@@ -1,0 +1,30 @@
+title: MrSibe/KnowNote
+url: https://github.com/MrSibe/KnowNote
+source: github_new
+type: repository
+date_discovered: '2025-12-15T11:56:42+00:00'
+date_seen: '2025-12-23'
+metadata:
+  stars: '265'
+  language: TypeScript
+  created_at: '2025-12-15T11:56:42Z'
+content_preview: 'Description: Similar to Google Notebook LM, a lightweight, local
+  AI workspace built with Electron. Click to start—helping you think, research, and
+  write. More convenient, more lightweight, and understands you better!
+
+
+  Topics: ai, deep-learning, deepseek, dl, electron, notebook, notebooklm, openai
+
+
+  Language: TypeScript
+
+  Stars: 265
+
+  '
+content_length: 331
+llm_content_sent: 331
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто клон Google Notebook LM на Electron без какого-либо отношения к
+  синтезу речи или научным исследованиям в области экспрессивной генерации речи.

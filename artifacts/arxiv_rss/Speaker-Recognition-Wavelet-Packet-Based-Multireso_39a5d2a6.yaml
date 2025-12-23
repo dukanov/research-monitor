@@ -1,0 +1,34 @@
+title: Speaker Recognition -- Wavelet Packet Based Multiresolution Feature Extraction
+  Approach
+url: https://arxiv.org/abs/2512.18902
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-23T10:07:08.651216+00:00'
+date_seen: '2025-12-23'
+metadata:
+  arxiv_id: '2512.18902'
+  published: Tue, 23 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: Speaker Recognition -- Wavelet Packet Based Multiresolution
+  Feature Extraction Approach
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This paper proposes a novel Wavelet Packet based feature extraction approach for
+  the task of text independent speaker recognition. The features are extracted by
+  using the combination of Mel Frequency Cepstral Coefficient (MFCC) and Wavelet Packet
+  Transform (WPT).Hybrid Features technique uses the advantage of human ear simulation
+  offered by MFCC combining it with multi-reso'
+content_length: 1206
+llm_content_sent: 1206
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена распознаванию говорящего, а не синтезу речи, и использует
+  стандартные методы (MFCC + вейвлеты + GMM/HMM) без значительных новшеств для области
+  эмоционального синтеза речи.

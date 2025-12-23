@@ -1,0 +1,33 @@
+title: What Does the Speaker Embedding Encode?
+url: https://arxiv.org/abs/2512.18286
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-23T10:07:08.730045+00:00'
+date_seen: '2025-12-23'
+metadata:
+  arxiv_id: '2512.18286'
+  published: Tue, 23 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: What Does the Speaker Embedding Encode?
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Developing a good speaker embedding has received tremendous interest in the speech
+  community, with representations such as i-vector and d-vector demonstrating remarkable
+  performance across various tasks. Despite their widespread adoption, a fundamental
+  question remains largely unexplored: what properties are actually encoded in these
+  embeddings? To address this gap, we conduct a comprehensive analysis of three prominent '
+content_length: 1692
+llm_content_sent: 1692
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: Работа предлагает систематический анализ того, что кодируют различные типы
+  эмбеддингов говорителя, и комбинирует i-vector и s-vector в новый i-s-vector, что
+  является полезным инкрементальным улучшением для понимания представлений говорителя,
+  но не вносит принципиально новых идей в эмоциональный/экспрессивный синтез речи.

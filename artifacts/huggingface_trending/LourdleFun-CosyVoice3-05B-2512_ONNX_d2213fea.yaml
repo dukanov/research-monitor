@@ -1,0 +1,46 @@
+title: Lourdle/Fun-CosyVoice3-0.5B-2512_ONNX
+url: https://huggingface.co/Lourdle/Fun-CosyVoice3-0.5B-2512_ONNX
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-23T10:07:47.991514+00:00'
+date_seen: '2025-12-23'
+metadata:
+  likes: '3'
+  downloads: '0'
+  trending_score: '3'
+  last_modified: '2025-12-22T15:34:13.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  base_model:
+
+  - FunAudioLLM/Fun-CosyVoice3-0.5B-2512
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+  # CosyVoice3-2512 ONNX Models (flow & hift)
+
+
+  This repository provides ONNX-format models for selected modules of CosyVoice3,
+  including:
+
+  - `flow_fp32.onnx`  (full precision, flow module)
+
+  - `flow_fp16.onnx`  (half precision, flow module)
+
+  - `hift.onnx`       (full precision, hift module)
+
+  - `flow_hift_fp32.onnx` (combined flow_fp32 and hift model)
+
+  - `flow_hift_fp16.onnx` (combined flow_fp16 an'
+content_length: 2322
+llm_content_sent: 2322
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Это просто конвертация существующей модели CosyVoice3 в формат ONNX для ускорения
+  инференса, без каких-либо научных новшеств в области эмоционального синтеза речи
+  или zero-shot возможностей.

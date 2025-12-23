@@ -1,0 +1,34 @@
+title: 'X-Talk: On the Underestimated Potential of Modular Speech-to-Speech Dialogue
+  System'
+url: https://arxiv.org/abs/2512.18706
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-23T10:07:08.651125+00:00'
+date_seen: '2025-12-23'
+metadata:
+  arxiv_id: '2512.18706'
+  published: Tue, 23 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: X-Talk: On the Underestimated Potential of Modular Speech-to-Speech
+  Dialogue System
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We present X-Talk, an open-source framework that champions a decoupled, modular
+  design for LLM-driven speech-to-speech (S2S) systems. While the dominant trend favors
+  end-to-end (E2E) modeling to optimize information flow, these "omni-models" often
+  struggle to balance the competing objectives of complex speech tasks within a single
+  network. X-Talk challenges this paradigm by dem'
+content_length: 1163
+llm_content_sent: 1163
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: Работа предлагает модульную архитектуру для речевых диалоговых систем с интеграцией
+  анализа эмоций, но это скорее инженерное решение без принципиальных новшеств в области
+  эмоционального синтеза речи или zero-shot подходов.

@@ -1,0 +1,33 @@
+title: spring-ai-community/spring-ai-playground
+url: https://github.com/spring-ai-community/spring-ai-playground
+source: github_new
+type: repository
+date_discovered: '2025-12-10T05:18:38+00:00'
+date_seen: '2025-12-23'
+metadata:
+  stars: '42'
+  language: Java
+  created_at: '2025-12-10T05:18:38Z'
+content_preview: 'Description: Spring AI Playground is a self-hosted web UI for low-code
+  AI tool development with live MCP server registration. It includes MCP server inspection,
+  agentic chat, and integrated LLM and RAG workflows, enabling real-time experimentation
+  and evolution of tool-enabled AI systems without redeployment.
+
+
+  Topics: agentic-chat, ai-agents, ai-playground, low-code-platform, mcp-client, mcp-server,
+  rag, tool-development
+
+
+  Language: Java
+
+  Stars: 42
+
+  '
+content_length: 451
+llm_content_sent: 451
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это общая платформа для разработки AI-инструментов без какого-либо отношения
+  к синтезу речи, эмоциональной выразительности или zero-shot возможностям в речевых
+  технологиях.

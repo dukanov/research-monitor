@@ -1,0 +1,33 @@
+title: Explainable Transformer-CNN Fusion for Noise-Robust Speech Emotion Recognition
+url: https://arxiv.org/abs/2512.18298
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-23T10:07:08.651097+00:00'
+date_seen: '2025-12-23'
+metadata:
+  arxiv_id: '2512.18298'
+  published: Tue, 23 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.CL
+content_preview: 'Title: Explainable Transformer-CNN Fusion for Noise-Robust Speech
+  Emotion Recognition
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech Emotion Recognition (SER) systems often degrade in performance when exposed
+  to the unpredictable acoustic interference found in real-world environments. Additionally,
+  the opacity of deep learning models hinders their adoption in trust-sensitive applications.
+  To bridge this gap, we propose a Hybrid Transformer-CNN framework that unifies the
+  contextual modeling of Wav2Vec 2.0 w'
+content_length: 1680
+llm_content_sent: 1680
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена распознаванию эмоций в речи, а не синтезу эмоциональной речи,
+  и представляет лишь стандартное объединение существующих архитектур без существенных
+  новшеств.

@@ -1,0 +1,26 @@
+title: ekwek/Soprano-80M
+url: https://huggingface.co/ekwek/Soprano-80M
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-23T10:07:44.462950+00:00'
+date_seen: '2025-12-23'
+metadata:
+  likes: '28'
+  downloads: '324'
+  trending_score: '28'
+  last_modified: '2025-12-22T02:40:22.000Z'
+content_preview: "---\nlibrary_name: transformers\nlicense: apache-2.0\npipeline_tag:\
+  \ text-to-speech\n---\n  \n# Soprano: Instant, Ultra‑Realistic Text‑to‑Speech\n\n\
+  \n<!-- Embedded demo video (placeholder) -->\n\n<p align=\"center\">\n</p>\n\n---\n\
+  \n## Overview\n\n**Soprano** is an ultra‑lightweight, open‑source text‑to‑speech\
+  \ (TTS) model designed for real‑time, high‑fidelity speech synthesis at unprecedented\
+  \ speed, all while remaining compact and easy to deploy.\n\nWith only **80M parameters**,\
+  \ Soprano achieves a real‑time factor (RT"
+content_length: 3766
+llm_content_sent: 3766
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Модель представляет лишь инженерную оптимизацию существующих подходов (LLM
+  + Vocos декодер) для ускорения синтеза, но не предлагает новых методов для эмоционального/экспрессивного
+  синтеза или zero-shot возможностей.
