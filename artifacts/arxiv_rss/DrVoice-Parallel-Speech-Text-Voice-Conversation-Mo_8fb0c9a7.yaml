@@ -1,0 +1,35 @@
+title: 'DrVoice: Parallel Speech-Text Voice Conversation Model via Dual-Resolution
+  Speech Representations'
+url: https://arxiv.org/abs/2506.09349
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-24T10:06:39.365169+00:00'
+date_seen: '2025-12-24'
+metadata:
+  arxiv_id: '2506.09349'
+  published: Wed, 24 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: DrVoice: Parallel Speech-Text Voice Conversation Model via
+  Dual-Resolution Speech Representations
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent studies on end-to-end (E2E) speech generation with large language models
+  (LLMs) have attracted significant community attention, with multiple works extending
+  text-based LLMs to generate discrete speech tokens. Existing E2E approaches primarily
+  fall into two categories: (1) Methods that generate discrete speech tokens independently
+  without incorporating them'
+content_length: 1625
+llm_content_sent: 1625
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: Предложен механизм двойного разрешения для снижения частоты речевых токенов
+  с 12.5Hz до 5Hz в совместном автогрессивном моделировании речи и текста, что является
+  инкрементальным улучшением существующих подходов без кардинальных новшеств в области
+  эмоциональной/экспрессивной синтеза речи.

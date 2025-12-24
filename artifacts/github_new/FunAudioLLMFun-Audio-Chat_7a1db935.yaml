@@ -1,0 +1,30 @@
+title: FunAudioLLM/Fun-Audio-Chat
+url: https://github.com/FunAudioLLM/Fun-Audio-Chat
+source: github_new
+type: repository
+date_discovered: '2025-12-23T07:06:36+00:00'
+date_seen: '2025-12-24'
+metadata:
+  stars: '266'
+  language: Python
+  created_at: '2025-12-23T07:06:36Z'
+content_preview: 'Description: Fun-Audio-Chat is a Large Audio Language Model built
+  for natural, low-latency voice interactions.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 266
+
+  '
+content_length: 159
+llm_content_sent: 159
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Репозиторий представляет собой типичную реализацию большой аудио-языковой
+  модели без явных инноваций в области эмоционального синтеза речи или zero-shot возможностей,
+  основываясь на стандартных подходах.

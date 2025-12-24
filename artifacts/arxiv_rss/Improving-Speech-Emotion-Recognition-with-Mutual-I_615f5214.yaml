@@ -1,0 +1,33 @@
+title: Improving Speech Emotion Recognition with Mutual Information Regularized Generative
+  Model
+url: https://arxiv.org/abs/2510.10078
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-24T10:06:39.332753+00:00'
+date_seen: '2025-12-24'
+metadata:
+  arxiv_id: '2510.10078'
+  published: Wed, 24 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.LG
+content_preview: 'Title: Improving Speech Emotion Recognition with Mutual Information
+  Regularized Generative Model
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Lack of large, well-annotated emotional speech corpora continues to limit the performance
+  and robustness of speech emotion recognition (SER), particularly as models grow
+  more complex and the demand for multimodal systems increases. While generative data
+  augmentation offers a promising solution, existing approaches often produce emotionally
+  inconsistent samples due to over'
+content_length: 1829
+llm_content_sent: 1829
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа фокусируется на распознавании эмоций в речи через генеративную аугментацию
+  данных, но не касается синтеза речи или zero-shot генерации эмоциональной речи.

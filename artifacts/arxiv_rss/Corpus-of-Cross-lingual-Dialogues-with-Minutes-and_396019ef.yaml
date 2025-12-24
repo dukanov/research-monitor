@@ -1,0 +1,33 @@
+title: Corpus of Cross-lingual Dialogues with Minutes and Detection of Misunderstandings
+url: https://arxiv.org/abs/2512.20204
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-24T10:06:39.364172+00:00'
+date_seen: '2025-12-24'
+metadata:
+  arxiv_id: '2512.20204'
+  published: Wed, 24 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.AI
+content_preview: 'Title: Corpus of Cross-lingual Dialogues with Minutes and Detection
+  of Misunderstandings
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech processing and translation technology have the potential to facilitate meetings
+  of individuals who do not share any common language. To evaluate automatic systems
+  for such a task, a versatile and realistic evaluation corpus is needed. Therefore,
+  we create and present a corpus of cross-lingual dialogues between individuals without
+  a common language who were facilitated by a'
+content_length: 1371
+llm_content_sent: 1371
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена созданию корпуса межъязыковых диалогов и детекции недопонимания,
+  что не имеет отношения к эмоциональному/экспрессивному синтезу речи с zero-shot
+  возможностями.
