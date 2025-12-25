@@ -1,0 +1,85 @@
+title: YUGOROU/Chatterbox-Multilingual-MLX-4bit
+url: https://huggingface.co/YUGOROU/Chatterbox-Multilingual-MLX-4bit
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-25T10:07:10.852558+00:00'
+date_seen: '2025-12-25'
+metadata:
+  likes: '2'
+  downloads: '81'
+  trending_score: '2'
+  last_modified: '2025-12-16T04:14:56.000Z'
+content_preview: '---
+
+  library_name: mlx-audio-plus
+
+  base_model:
+
+  - ResembleAI/chatterbox
+
+  tags:
+
+  - mlx
+
+  - multilingual
+
+  - tts
+
+  - text-to-speech
+
+  - japanese
+
+  language:
+
+  - ar  # Arabic
+
+  - da  # Danish
+
+  - de  # German
+
+  - el  # Greek
+
+  - en  # English
+
+  - es  # Spanish
+
+  - fi  # Finnish
+
+  - fr  # French
+
+  - he  # Hebrew
+
+  - hi  # Hindi
+
+  - it  # Italian
+
+  - ja  # Japanese
+
+  - ko  # Korean
+
+  - ms  # Malay
+
+  - nl  # Dutch
+
+  - "no"  # Norwegian
+
+  - pl  # Polish
+
+  - pt  # Portuguese
+
+  - ru  # Russian
+
+  - sv  # Swedish
+
+  - sw  # Swahili
+
+  - tr  # Turkish
+
+  - zh  # Chinese'
+content_length: 1861
+llm_content_sent: 1861
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Это просто конвертация существующей модели Chatterbox в формат MLX с квантизацией,
+  без каких-либо научных новшеств в области эмоционального или zero-shot синтеза речи.

@@ -1,0 +1,28 @@
+title: av/awesome-llm-services
+url: https://github.com/av/awesome-llm-services
+source: github_new
+type: repository
+date_discovered: '2025-12-17T16:51:36+00:00'
+date_seen: '2025-12-25'
+metadata:
+  stars: '20'
+  language: TypeScript
+  created_at: '2025-12-17T16:51:36Z'
+content_preview: 'Description: A list of self-hostable LLM services
+
+
+  Topics: ai, awesome, awesome-list, docker, llm, self-hosted
+
+
+  Language: TypeScript
+
+  Stars: 20
+
+  '
+content_length: 143
+llm_content_sent: 143
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто список сервисов LLM без какого-либо научного вклада в эмоциональный
+  синтез речи или zero-shot методы.

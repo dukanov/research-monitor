@@ -1,0 +1,34 @@
+title: 'VCB Bench: An Evaluation Benchmark for Audio-Grounded Large Language Model
+  Conversational Agents'
+url: https://arxiv.org/abs/2510.11098
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-25T10:06:37.390707+00:00'
+date_seen: '2025-12-25'
+metadata:
+  arxiv_id: '2510.11098'
+  published: Thu, 25 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.CL
+content_preview: 'Title: VCB Bench: An Evaluation Benchmark for Audio-Grounded Large
+  Language Model Conversational Agents
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in large audio language models (LALMs) have greatly enhanced multimodal
+  conversational systems. However, existing benchmarks remain limited -- they are
+  mainly English-centric, rely on synthetic speech, and lack comprehensive, discriminative
+  evaluation across multiple dimensions. To address these gaps, we present Voice Chat
+  Bot Bench (VCB Bench) -- a'
+content_length: 1267
+llm_content_sent: 1267
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа представляет только бенчмарк для оценки существующих моделей на китайском
+  языке, но не предлагает новых методов для эмоциональной/экспрессивной синтеза речи
+  или zero-shot возможностей.

@@ -1,0 +1,29 @@
+title: tronghieuit/valtec-tts
+url: https://github.com/tronghieuit/valtec-tts
+source: github_new
+type: repository
+date_discovered: '2025-12-24T06:16:08+00:00'
+date_seen: '2025-12-25'
+metadata:
+  stars: '92'
+  language: Python
+  created_at: '2025-12-24T06:16:08Z'
+content_preview: 'Description: A Vietnamese Text-to-Speech system supporting multiple
+  speakers with high-quality voice synthesis.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 92
+
+  '
+content_length: 159
+llm_content_sent: 159
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий представляет стандартную TTS систему для вьетнамского языка без
+  каких-либо инноваций в области эмоциональной/экспрессивной речи или zero-shot синтеза.

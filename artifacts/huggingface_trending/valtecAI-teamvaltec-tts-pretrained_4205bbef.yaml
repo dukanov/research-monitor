@@ -1,0 +1,30 @@
+title: valtecAI-team/valtec-tts-pretrained
+url: https://huggingface.co/valtecAI-team/valtec-tts-pretrained
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-25T10:07:10.993695+00:00'
+date_seen: '2025-12-25'
+metadata:
+  likes: '2'
+  downloads: '79'
+  trending_score: '2'
+  last_modified: '2025-12-24T04:44:51.000Z'
+content_preview: '---
+
+  license: cc-by-nc-2.0
+
+  language:
+
+  - vi
+
+  pipeline_tag: text-to-speech
+
+  ---'
+content_length: 73
+llm_content_sent: 73
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто карточка предобученной модели TTS для вьетнамского языка без описания
+  архитектуры, методологии или каких-либо инноваций в области эмоционального синтеза
+  речи.

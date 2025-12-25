@@ -1,0 +1,34 @@
+title: 'SingingSDS: A Singing-Capable Spoken Dialogue System for Conversational Roleplay
+  Applications'
+url: https://arxiv.org/abs/2511.20972
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-25T10:06:37.390713+00:00'
+date_seen: '2025-12-25'
+metadata:
+  arxiv_id: '2511.20972'
+  published: Thu, 25 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: SingingSDS: A Singing-Capable Spoken Dialogue System for
+  Conversational Roleplay Applications
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  With recent advances in automatic speech recognition (ASR), large language models
+  (LLMs), and text-to-speech (TTS) technologies, spoken dialogue systems (SDS) have
+  become widely accessible. However, most existing SDS are limited to conventional
+  spoken responses. We present SingingSDS, a cascaded SDS that responds through singing
+  rather than speaking, fostering more af'
+content_length: 1204
+llm_content_sent: 1204
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Система предлагает интересный подход к эмоциональному синтезу речи через пение
+  вместо обычной речи, что создает более выразительные и запоминающиеся диалоги, хотя
+  архитектура остается достаточно стандартной каскадной схемой ASR-LLM-SVS.
