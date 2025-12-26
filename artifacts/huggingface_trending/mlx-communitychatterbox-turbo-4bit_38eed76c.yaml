@@ -1,0 +1,57 @@
+title: mlx-community/chatterbox-turbo-4bit
+url: https://huggingface.co/mlx-community/chatterbox-turbo-4bit
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-26T10:07:23.902764+00:00'
+date_seen: '2025-12-26'
+metadata:
+  likes: '2'
+  downloads: '201'
+  trending_score: '2'
+  last_modified: '2025-12-17T20:06:59.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - en
+
+  base_model:
+
+  - ResembleAI/chatterbox-turbo
+
+  pipeline_tag: text-to-speech
+
+  library_name: mlx-audio
+
+  tags:
+
+  - text-to-speech
+
+  - speech
+
+  - speech generation
+
+  - voice cloning
+
+  - mlx
+
+  - tts
+
+  ---
+
+
+  # mlx-community/chatterbox-turbo-4bit
+
+  This model was converted to MLX format from [`ResembleAI/chatterbox-turbo`](https://huggingface.co/ResembleAI/chatterbox-turbo)
+  using mlx-audio version **0.2.8**.
+
+  Refer to the [original model card](https://huggingface.co/ResembleAI/chatterbox-'
+content_length: 2014
+llm_content_sent: 2014
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Это просто квантизованная версия существующей модели для работы на Apple Silicon
+  без новых научных вкладов в эмоциональный синтез речи.
