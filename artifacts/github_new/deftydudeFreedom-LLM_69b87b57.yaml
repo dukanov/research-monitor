@@ -1,0 +1,31 @@
+title: deftydude/Freedom-LLM
+url: https://github.com/deftydude/Freedom-LLM
+source: github_new
+type: repository
+date_discovered: '2025-12-26T06:14:33+00:00'
+date_seen: '2025-12-27'
+metadata:
+  stars: '40'
+  language: C++
+  created_at: '2025-12-26T06:14:33Z'
+content_preview: 'Description: Free Uncensored LLM Client with proxy support, web
+  development mod and many other features.
+
+
+  Topics: ai, ai-agents, ai-assistant, audio-generation, chatbot, chatgpt, deepseek,
+  free, gemini, image-generation, jailbreak, llm, llm-agent, llm-inference, openai,
+  qwen, uncensored, unlimited, web-development, web-search
+
+
+  Language: C++
+
+  Stars: 40
+
+  '
+content_length: 353
+llm_content_sent: 353
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий представляет собой обычный клиент для LLM без какой-либо научной
+  новизны в области синтеза эмоциональной речи или zero-shot технологий.

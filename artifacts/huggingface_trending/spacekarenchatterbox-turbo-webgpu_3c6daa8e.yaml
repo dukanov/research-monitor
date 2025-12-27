@@ -1,0 +1,26 @@
+title: spacekaren/chatterbox-turbo-webgpu
+url: https://huggingface.co/spacekaren/chatterbox-turbo-webgpu
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-27T10:06:57.578884+00:00'
+date_seen: '2025-12-27'
+metadata:
+  likes: '2'
+  downloads: '183'
+  trending_score: '2'
+  last_modified: '2025-12-26T21:11:41.000Z'
+content_preview: "---\nlicense: mit\nbase_model: ResembleAI/chatterbox-turbo-ONNX\n\
+  tags:\n  - text-to-speech\n  - tts\n  - onnx\n  - webgpu\n  - transformers.js\n\
+  ---\n\n# Chatterbox Turbo - WebGPU Compatible\n\nThis is a WebGPU-compatible version\
+  \ of [ResembleAI/chatterbox-turbo-ONNX](https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX).\n\
+  \n## Changes from Original\n\nThe original model contains `int64` Cast operations\
+  \ and tensors that WebGPU cannot execute.\nThis version converts all `int64` operations\
+  \ to `int32`, enabling dir"
+content_length: 1498
+llm_content_sent: 1498
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто техническая конвертация существующей модели для совместимости с
+  WebGPU без каких-либо научных новшеств в области эмоционального/экспрессивного синтеза
+  речи или zero-shot возможностей.

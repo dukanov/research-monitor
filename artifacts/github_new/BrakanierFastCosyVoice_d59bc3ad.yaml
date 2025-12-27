@@ -1,0 +1,28 @@
+title: Brakanier/FastCosyVoice
+url: https://github.com/Brakanier/FastCosyVoice
+source: github_new
+type: repository
+date_discovered: '2025-12-18T16:47:08+00:00'
+date_seen: '2025-12-27'
+metadata:
+  stars: '18'
+  language: Python
+  created_at: '2025-12-18T16:47:08Z'
+content_preview: 'Description: Fast CosyVoice3 inference with tensorRT and tensorRT-LLM
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 18
+
+  '
+content_length: 117
+llm_content_sent: 117
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Это просто оптимизация существующей модели CosyVoice3 для ускорения инференса
+  с помощью TensorRT, без научных новшеств в области эмоционального синтеза речи.
