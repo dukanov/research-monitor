@@ -1,0 +1,63 @@
+title: mlx-community/maya1-4bit
+url: https://huggingface.co/mlx-community/maya1-4bit
+source: huggingface_trending
+type: model_card
+date_discovered: '2025-12-28T10:07:07.652092+00:00'
+date_seen: '2025-12-28'
+metadata:
+  likes: '2'
+  downloads: '14'
+  trending_score: '2'
+  last_modified: '2025-12-24T21:49:24.000Z'
+content_preview: '---
+
+  language:
+
+  - en
+
+  license: apache-2.0
+
+  library_name: mlx-audio
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - mlx
+
+  - text-to-speech
+
+  - speech
+
+  - speech generation
+
+  - voice cloning
+
+  - tts
+
+  ---
+
+
+  # mlx-community/maya1-4bit
+
+  This model was converted to MLX format from [`maya-research/maya1`](https://huggingface.co/maya-research/maya1)
+  using mlx-audio version **0.2.9**.
+
+  Refer to the [original model card](https://huggingface.co/maya-research/maya1) for
+  more details on the model.
+
+
+  ## Use with mlx-audio
+
+
+  ```bash
+
+  pip ins'
+content_length: 992
+llm_content_sent: 992
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Это просто конвертация существующей модели maya1 в 4-битный формат MLX без
+  каких-либо научных новшеств в области эмоционального синтеза речи или zero-shot
+  возможностей.
