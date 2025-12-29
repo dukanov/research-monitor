@@ -1,0 +1,33 @@
+title: 'Zero-Shot to Zero-Lies: Detecting Bengali Deepfake Audio through Transfer
+  Learning'
+url: https://arxiv.org/abs/2512.21702
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-29T10:07:16.319248+00:00'
+date_seen: '2025-12-29'
+metadata:
+  arxiv_id: '2512.21702'
+  published: Mon, 29 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: Zero-Shot to Zero-Lies: Detecting Bengali Deepfake Audio
+  through Transfer Learning
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The rapid growth of speech synthesis and voice conversion systems has made deepfake
+  audio a major security concern. Bengali deepfake detection remains largely unexplored.
+  In this work, we study automatic detection of Bengali audio deepfakes using the
+  BanglaFake dataset. We evaluate zeroshot inference with several pretrained models.
+  These include Wav2Vec2-XLSR-53, Whisper, PANNsC'
+content_length: 1380
+llm_content_sent: 1380
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена детекции дипфейков, а не синтезу эмоциональной речи - это
+  противоположная задача без новизны в методах.
