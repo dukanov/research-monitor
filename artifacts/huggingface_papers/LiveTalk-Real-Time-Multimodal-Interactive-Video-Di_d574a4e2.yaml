@@ -1,0 +1,30 @@
+title: 'LiveTalk: Real-Time Multimodal Interactive Video Diffusion via Improved On-Policy
+  Distillation'
+url: https://huggingface.co/papers/2512.23576
+source: huggingface_papers
+type: paper
+date_discovered: '2025-12-30T10:07:27.023710+00:00'
+date_seen: '2025-12-30'
+metadata:
+  upvotes: '42'
+  paper_id: '2512.23576'
+  published_date: '2025-12-30'
+content_preview: 'Title: LiveTalk: Real-Time Multimodal Interactive Video Diffusion
+  via Improved On-Policy Distillation
+
+
+  Summary:
+
+  Real-time video generation via diffusion is essential for building general-purpose
+  multimodal interactive AI systems. However, the simultaneous denoising of all video
+  frames with bidirectional attention via an iterative process in diffusion models
+  prevents real-time interaction. While existing distillation methods can make the
+  model autoregressive and reduce sampling steps to mitigate '
+content_length: 1969
+llm_content_sent: 1969
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Работа представляет улучшенную методику дистилляции on-policy для реального
+  времени многомодального интерактивного видео с аватарами, что важно для экспрессивного
+  синтеза речи, хотя фокус больше на видео генерации чем на zero-shot способностях.

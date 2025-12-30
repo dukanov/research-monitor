@@ -1,0 +1,34 @@
+title: 'Distinctive Feature Codec: An Adaptive Efficient Speech Representation for
+  Depression Detection'
+url: https://arxiv.org/abs/2505.18516
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-30T10:06:56.398079+00:00'
+date_seen: '2025-12-30'
+metadata:
+  arxiv_id: '2505.18516'
+  published: Tue, 30 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Distinctive Feature Codec: An Adaptive Efficient Speech Representation
+  for Depression Detection
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large Language Models (LLMs) have demonstrated remarkable success across diverse
+  fields, establishing a powerful paradigm for complex information processing. This
+  has inspired the integration of speech into LLM frameworks, often by tokenizing
+  continuous audio via neural speech codecs, enabling powerful speech language models.
+  However, this dominant tokenization stra'
+content_length: 1821
+llm_content_sent: 1821
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена детекции депрессии, а не синтезу эмоциональной речи - это
+  совершенно другая задача, хотя адаптивное кодирование временной динамики может быть
+  косвенно полезно.

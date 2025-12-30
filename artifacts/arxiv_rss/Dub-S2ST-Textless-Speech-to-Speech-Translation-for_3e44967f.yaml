@@ -1,0 +1,34 @@
+title: 'Dub-S2ST: Textless Speech-to-Speech Translation for Seamless Dubbing'
+url: https://arxiv.org/abs/2505.20899
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-30T10:06:56.386607+00:00'
+date_seen: '2025-12-30'
+metadata:
+  arxiv_id: '2505.20899'
+  published: Tue, 30 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.SD, eess.AS
+content_preview: 'Title: Dub-S2ST: Textless Speech-to-Speech Translation for Seamless
+  Dubbing
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This paper introduces a cross-lingual dubbing system that translates speech from
+  one language to another while preserving key characteristics such as duration, speaker
+  identity, and speaking speed. Despite the strong translation quality of existing
+  speech translation approaches, they often overlook the transfer of speech patterns,
+  leading to mismatches with source speech and limiting their su'
+content_length: 1379
+llm_content_sent: 1379
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Новизна заключается в комбинации дискретной диффузии для перевода речи в юниты
+  с явным контролем длительности и условной flow matching модели для синтеза, что
+  позволяет сохранять временные характеристики и идентичность говорящего при межъязыковом
+  дублировании без использования текста.

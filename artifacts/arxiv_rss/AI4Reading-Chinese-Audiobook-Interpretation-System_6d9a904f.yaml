@@ -1,0 +1,33 @@
+title: 'AI4Reading: Chinese Audiobook Interpretation System Based on Multi-Agent Collaboration'
+url: https://arxiv.org/abs/2512.23300
+source: arxiv_rss
+type: paper
+date_discovered: '2025-12-30T10:06:56.422945+00:00'
+date_seen: '2025-12-30'
+metadata:
+  arxiv_id: '2512.23300'
+  published: Tue, 30 Dec 2025 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: AI4Reading: Chinese Audiobook Interpretation System Based
+  on Multi-Agent Collaboration
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Audiobook interpretations are attracting increasing attention, as they provide accessible
+  and in-depth analyses of books that offer readers practical insights and intellectual
+  inspiration. However, their manual creation process remains time-consuming and resource-intensive.
+  To address this challenge, we propose AI4Reading, a multi-agent collaboration system
+  leveraging large '
+content_length: 1351
+llm_content_sent: 1351
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: Система применяет многоагентную архитектуру LLM для создания аудиокниг, но
+  использует стандартные технологии синтеза речи без инноваций в эмоциональной выразительности
+  или zero-shot адаптации.
