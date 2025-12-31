@@ -1,0 +1,29 @@
+title: LosCV29/polyvoice
+url: https://github.com/LosCV29/polyvoice
+source: github_new
+type: repository
+date_discovered: '2025-12-30T04:52:26+00:00'
+date_seen: '2025-12-31'
+metadata:
+  stars: '21'
+  language: Python
+  created_at: '2025-12-30T04:52:26Z'
+content_preview: 'Description: Multi-provider voice assistant for Home Assistant with
+  15+ built-in functions
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 21
+
+  '
+content_length: 138
+llm_content_sent: 138
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто многопровайдерный голосовой ассистент для домашней автоматизации
+  без какого-либо вклада в эмоциональный/экспрессивный синтез речи или zero-shot технологии.

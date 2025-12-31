@@ -1,0 +1,27 @@
+title: Teycir/Timeseal
+url: https://github.com/Teycir/Timeseal
+source: github_new
+type: repository
+date_discovered: '2025-12-19T21:44:38+00:00'
+date_seen: '2025-12-31'
+metadata:
+  stars: '42'
+  language: TypeScript
+  created_at: '2025-12-19T21:44:38Z'
+content_preview: 'Description: Time-locked encryption vault with Dead Man''s Switch.
+  Send encrypted messages that unlock at a specific date or auto-release if you go
+  silent. AES-256, split-key crypto, ephemeral seals. Perfect for crypto inheritance,
+  whistleblowing, scheduled releases. Self-hostable.
+
+
+  Topics: aes-encryption, cloudflare-workers, cryptography, dead-mans-switch, digital-legacy,
+  edge-computing, encryption, ephemeral-messages, nextjs, privacy, react, security,
+  self-hosted, serverless, tailwindcss, time-'
+content_length: 589
+llm_content_sent: 589
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Проект посвящен криптографическому хранилищу с временными блокировками и не
+  имеет никакого отношения к синтезу речи, эмоциональной выразительности или zero-shot
+  методам в области речевых технологий.
