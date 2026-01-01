@@ -1,0 +1,33 @@
+title: 'MiMo-Audio: Audio Language Models are Few-Shot Learners'
+url: https://arxiv.org/abs/2512.23808
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-01T10:06:49.552748+00:00'
+date_seen: '2026-01-01'
+metadata:
+  arxiv_id: '2512.23808'
+  published: Thu, 01 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.SD, eess.AS
+content_preview: 'Title: MiMo-Audio: Audio Language Models are Few-Shot Learners
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Existing audio language models typically rely on task-specific fine-tuning to accomplish
+  particular audio tasks. In contrast, humans are able to generalize to new audio
+  tasks with only a few examples or simple instructions. GPT-3 has shown that scaling
+  next-token prediction pretraining enables strong generalization capabilities in
+  text, and we believe this paradigm is equally applicable to the audio domai'
+content_length: 1826
+llm_content_sent: 1826
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Модель демонстрирует способности к zero-shot генерации речи с различными стилями
+  и эмоциональной выразительностью через масштабирование предобучения на 100+ миллионах
+  часов аудиоданных, что представляет значительный шаг к универсальным аудио-языковым
+  моделям.

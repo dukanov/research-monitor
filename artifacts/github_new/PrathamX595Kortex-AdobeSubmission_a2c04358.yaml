@@ -1,0 +1,32 @@
+title: PrathamX595/Kortex-AdobeSubmission
+url: https://github.com/PrathamX595/Kortex-AdobeSubmission
+source: github_new
+type: repository
+date_discovered: '2025-12-28T07:47:46+00:00'
+date_seen: '2026-01-01'
+metadata:
+  stars: '21'
+  language: Kotlin
+  created_at: '2025-12-28T07:47:46Z'
+content_preview: 'Description: Advanced Android photo editor powered by on-device
+  AI models (LaMa, EdgeSAM, MobileViT) with GPU-accelerated adjustments, voice commands,
+  generative fill, and professional editing tools. Built with Jetpack Compose and
+  ONNX Runtime for fast, offline-first image processing.
+
+
+  Topics: android, edgesam, jetpack-compose, kotlin, lama-inpainting, minicpm, mobilevit,
+  mvvm-architecture, photo-editing, vosk
+
+
+  Language: Kotlin
+
+  Stars: 21
+
+  '
+content_length: 442
+llm_content_sent: 442
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это Android-приложение для редактирования фотографий с голосовыми командами,
+  не имеющее отношения к синтезу эмоциональной речи или zero-shot генерации речи.
