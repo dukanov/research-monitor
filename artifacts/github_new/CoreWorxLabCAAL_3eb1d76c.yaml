@@ -1,0 +1,30 @@
+title: CoreWorxLab/CAAL
+url: https://github.com/CoreWorxLab/CAAL
+source: github_new
+type: repository
+date_discovered: '2025-12-24T08:24:03+00:00'
+date_seen: '2026-01-02'
+metadata:
+  stars: '152'
+  language: TypeScript
+  created_at: '2025-12-24T08:24:03Z'
+content_preview: 'Description: Local voice assistant that learns new abilities via
+  auto-discovered n8n workflows exposed as tools via MCP
+
+
+  Topics: No topics
+
+
+  Language: TypeScript
+
+  Stars: 152
+
+  '
+content_length: 172
+llm_content_sent: 172
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Проект представляет собой голосового ассистента с автоматическим обнаружением
+  рабочих процессов, что не относится к синтезу эмоциональной речи или zero-shot генерации
+  речевых характеристик.
