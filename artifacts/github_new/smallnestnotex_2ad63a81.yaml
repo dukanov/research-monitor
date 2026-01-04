@@ -1,0 +1,29 @@
+title: smallnest/notex
+url: https://github.com/smallnest/notex
+source: github_new
+type: repository
+date_discovered: '2026-01-02T15:31:33+00:00'
+date_seen: '2026-01-04'
+metadata:
+  stars: '28'
+  language: Go
+  created_at: '2026-01-02T15:31:33Z'
+content_preview: 'Description: An open-source alternative to NotebookLM
+
+
+  Topics: No topics
+
+
+  Language: Go
+
+  Stars: 28
+
+  '
+content_length: 97
+llm_content_sent: 97
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Репозиторий представляет альтернативу NotebookLM на языке Go, что не имеет
+  отношения к синтезу эмоциональной речи или zero-shot подходам в области речевых
+  технологий.

@@ -1,0 +1,31 @@
+title: CloudAI-X/z-ai-playground-v2
+url: https://github.com/CloudAI-X/z-ai-playground-v2
+source: github_new
+type: repository
+date_discovered: '2026-01-01T16:01:13+00:00'
+date_seen: '2026-01-04'
+metadata:
+  stars: '39'
+  language: Python
+  created_at: '2026-01-01T16:01:13Z'
+content_preview: 'Description: Z.AI API Playground - Complete examples for GLM-4.7,
+  Vision, Image/Video Generation, Audio, and more. Powered by Z.AI-GLM-4.7-Coding
+  Plan
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 39
+
+  '
+content_length: 198
+llm_content_sent: 198
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий представляет собой лишь набор примеров использования существующего
+  API Z.AI без какого-либо научного вклада в область эмоционального/экспрессивного
+  синтеза речи или zero-shot методов.
