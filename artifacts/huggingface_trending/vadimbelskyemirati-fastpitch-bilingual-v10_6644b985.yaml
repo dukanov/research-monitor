@@ -1,0 +1,26 @@
+title: vadimbelsky/emirati-fastpitch-bilingual-v1.0
+url: https://huggingface.co/vadimbelsky/emirati-fastpitch-bilingual-v1.0
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-05T10:08:34.597978+00:00'
+date_seen: '2026-01-05'
+metadata:
+  likes: '7'
+  downloads: '2'
+  trending_score: '7'
+  last_modified: '2026-01-04T07:23:30.000Z'
+content_preview: "---\nlanguage:\n  - ar\n  - en\npipeline_tag: text-to-speech\nlibrary_name:\
+  \ nemo\nbase_model: \"vadimbelsky/emirati-fastpitch-bilingual-v1.0\"\ntags:\n  -\
+  \ emirati-arabic\n  - bilingual\n  - code-switching\n  - fastpitch\n  - hifigan\n\
+  license: cc-by-4.0\n\nmodel-index:\n  - name: \"Emirati FastPitch v1.0\"\n    results:\n\
+  \      - task:\n          type: \"text-to-speech\"\n        metrics:\n         \
+  \ - name: \"MOS\"\n            type: \"subjective\"\n            value: \"your-mos-score\"\
+  \n        dataset:\n          type: \"your-evalua"
+content_length: 4546
+llm_content_sent: 4546
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Это просто fine-tuning существующей архитектуры FastPitch на диалекте эмиратского
+  арабского с поддержкой code-switching, без каких-либо новых подходов к эмоциональному/экспрессивному
+  синтезу или zero-shot возможностям.
