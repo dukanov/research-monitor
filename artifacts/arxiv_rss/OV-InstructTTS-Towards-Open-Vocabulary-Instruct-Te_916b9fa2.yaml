@@ -1,0 +1,32 @@
+title: 'OV-InstructTTS: Towards Open-Vocabulary Instruct Text-to-Speech'
+url: https://arxiv.org/abs/2601.01459
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-06T10:07:05.093984+00:00'
+date_seen: '2026-01-06'
+metadata:
+  arxiv_id: '2601.01459'
+  published: Tue, 06 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: OV-InstructTTS: Towards Open-Vocabulary Instruct Text-to-Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Instruct Text-to-Speech (InstructTTS) leverages natural language descriptions as
+  style prompts to guide speech synthesis. However, existing InstructTTS methods mainly
+  rely on a direct combination of audio-related labels or their diverse rephrasings,
+  making it difficult to handle flexible, high-level instructions. Such rigid control
+  is insufficient for users such as content creators who wish to ste'
+content_length: 1524
+llm_content_sent: 1524
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Новизна заключается в использовании промежуточного этапа рассуждений для интерпретации
+  открытых инструкций и их преобразования в акустические параметры, что позволяет
+  обрабатывать более гибкие и высокоуровневые описания стиля речи.

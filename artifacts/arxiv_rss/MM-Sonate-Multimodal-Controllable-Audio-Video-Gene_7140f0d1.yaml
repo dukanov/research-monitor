@@ -1,0 +1,34 @@
+title: 'MM-Sonate: Multimodal Controllable Audio-Video Generation with Zero-Shot Voice
+  Cloning'
+url: https://arxiv.org/abs/2601.01568
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-06T10:07:05.094023+00:00'
+date_seen: '2026-01-06'
+metadata:
+  arxiv_id: '2601.01568'
+  published: Tue, 06 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.CV, cs.MM, eess.AS
+content_preview: 'Title: MM-Sonate: Multimodal Controllable Audio-Video Generation
+  with Zero-Shot Voice Cloning
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Joint audio-video generation aims to synthesize synchronized multisensory content,
+  yet current unified models struggle with fine-grained acoustic control, particularly
+  for identity-preserving speech. Existing approaches either suffer from temporal
+  misalignment due to cascaded generation or lack the capability to perform zero-shot
+  voice cloning within a joint synthesis framew'
+content_length: 1645
+llm_content_sent: 1645
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Новизна заключается в объединении многомодальной генерации аудио-видео с zero-shot
+  клонированием голоса через механизм инъекции тембра и noise-based негативное кондиционирование,
+  что представляет интересный вклад в область экспрессивного синтеза речи.

@@ -1,0 +1,25 @@
+title: Supertone/supertonic-2
+url: https://huggingface.co/Supertone/supertonic-2
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-06T10:07:37.687596+00:00'
+date_seen: '2026-01-06'
+metadata:
+  likes: '10'
+  downloads: '0'
+  trending_score: '10'
+  last_modified: '2026-01-06T07:56:05.000Z'
+content_preview: "---\nlicense: openrail\nlanguage:\n    - en\n    - ko\n    - es\n\
+  \    - pt\n    - fr\npipeline_tag: text-to-speech\ntags:\n    - text-to-speech\n\
+  \    - speech-synthesis\n    - tts\n    - onnx\nlibrary_name: supertonic\n---\n\n\
+  # Supertonic 2 — Lightning Fast, On-Device TTS, Multilingual TTS\n\n![Supertonic\
+  \ Preview](img/supertonic_preview_0.1.jpg)\n\n<p align=\"center\">\n  <a href=\"\
+  https://huggingface.co/spaces/Supertone/supertonic-2\"><img src=\"https://img.shields.io/badge/\U0001F917\
+  _Demo-Hugging_Face-yellow?style=for-the-badge\" a"
+content_length: 5751
+llm_content_sent: 5751
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Это просто коммерческая модель TTS с акцентом на скорость работы, без упоминания
+  эмоциональной/экспрессивной синтеза речи или zero-shot возможностей.

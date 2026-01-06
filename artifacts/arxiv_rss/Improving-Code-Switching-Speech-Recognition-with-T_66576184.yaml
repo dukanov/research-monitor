@@ -1,0 +1,33 @@
+title: Improving Code-Switching Speech Recognition with TTS Data Augmentation
+url: https://arxiv.org/abs/2601.00935
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-06T10:07:05.122467+00:00'
+date_seen: '2026-01-06'
+metadata:
+  arxiv_id: '2601.00935'
+  published: Tue, 06 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.AI
+content_preview: 'Title: Improving Code-Switching Speech Recognition with TTS Data
+  Augmentation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Automatic speech recognition (ASR) for conversational code-switching speech remains
+  challenging due to the scarcity of realistic, high-quality labeled speech data.
+  This paper explores multilingual text-to-speech (TTS) models as an effective data
+  augmentation technique to address this shortage. Specifically, we fine-tune the
+  multilingual CosyVoice2 TTS model on the SEAME dataset to generate '
+content_length: 1156
+llm_content_sent: 1156
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа использует существующую TTS модель CosyVoice2 для генерации синтетических
+  данных для ASR, что является стандартной техникой аугментации данных без новизны
+  в области эмоциональной/экспрессивной синтеза речи с zero-shot возможностями.

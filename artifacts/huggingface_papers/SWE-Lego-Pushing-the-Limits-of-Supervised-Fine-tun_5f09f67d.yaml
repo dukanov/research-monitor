@@ -1,0 +1,30 @@
+title: 'SWE-Lego: Pushing the Limits of Supervised Fine-tuning for Software Issue
+  Resolving'
+url: https://huggingface.co/papers/2601.01426
+source: huggingface_papers
+type: paper
+date_discovered: '2026-01-06T10:07:35.986186+00:00'
+date_seen: '2026-01-06'
+metadata:
+  upvotes: '2'
+  paper_id: '2601.01426'
+  published_date: '2026-01-06'
+content_preview: 'Title: SWE-Lego: Pushing the Limits of Supervised Fine-tuning for
+  Software Issue Resolving
+
+
+  Summary:
+
+  We present SWE-Lego, a supervised fine-tuning (SFT) recipe designed to achieve state-ofthe-art
+  performance in software engineering (SWE) issue resolving. In contrast to prevalent
+  methods that rely on complex training paradigms (e.g., mid-training, SFT, reinforcement
+  learning, and their combinations), we explore how to push the limits of a lightweight
+  SFT-only approach for SWE tasks. SWE-Lego comp'
+content_length: 1478
+llm_content_sent: 1478
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Работа посвящена решению программных задач через fine-tuning языковых моделей,
+  что не имеет отношения к синтезу эмоциональной речи или zero-shot возможностям в
+  речевых технологиях.

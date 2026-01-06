@@ -1,0 +1,33 @@
+title: 'ARCADE: A City-Scale Corpus for Fine-Grained Arabic Dialect Tagging'
+url: https://arxiv.org/abs/2601.02209
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-06T10:07:05.094245+00:00'
+date_seen: '2026-01-06'
+metadata:
+  arxiv_id: '2601.02209'
+  published: Tue, 06 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.CY, cs.SD
+content_preview: 'Title: ARCADE: A City-Scale Corpus for Fine-Grained Arabic Dialect
+  Tagging
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The Arabic language is characterized by a rich tapestry of regional dialects that
+  differ substantially in phonetics and lexicon, reflecting the geographic and cultural
+  diversity of its speakers. Despite the availability of many multi-dialect datasets,
+  mapping speech to fine-grained dialect sources, such as cities, remains underexplored.
+  We present ARCADE (Arabic Radio Corpus for Audio Dialect '
+content_length: 1619
+llm_content_sent: 1619
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа представляет только корпус данных для классификации арабских диалектов,
+  но не содержит методов синтеза речи или zero-shot технологий для эмоциональной/экспрессивной
+  генерации речи.

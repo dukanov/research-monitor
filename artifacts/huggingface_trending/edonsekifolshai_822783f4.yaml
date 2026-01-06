@@ -1,0 +1,26 @@
+title: edonseki/folsh.ai
+url: https://huggingface.co/edonseki/folsh.ai
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-06T10:07:38.787759+00:00'
+date_seen: '2026-01-06'
+metadata:
+  likes: '3'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-01-04T11:23:42.000Z'
+content_preview: "---\nlicense: cc0-1.0\nlanguage:\n- sq\nbase_model:\n- rhasspy/piper-voices\n\
+  library_name: piper\ntags:\n- text-to-speech\n- tts\n- onnx\n- albanian\n- shqip\n\
+  ---\n\n# Albanian (sq) TTS Voice for Piper\n\nThis repository contains a high-quality\
+  \ Albanian (Shqip) Text-to-Speech (TTS) model in `.onnx` format. This model is optimized\
+  \ for [Piper](https://github.com/rhasspy/piper), a fast, local neural text-to-speech\
+  \ engine.\n\n## Author\nThis model was developed/contributed by **Edon Sekiraqa**.\
+  \  \nIf you find this model"
+content_length: 2155
+llm_content_sent: 2155
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто адаптация существующей модели Piper для албанского языка без какой-либо
+  научной новизны в области эмоционального/экспрессивного синтеза речи или zero-shot
+  возможностей.
