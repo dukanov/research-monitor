@@ -1,0 +1,29 @@
+title: 'The Sonar Moment: Benchmarking Audio-Language Models in Audio Geo-Localization'
+url: https://huggingface.co/papers/2601.03227
+source: huggingface_papers
+type: paper
+date_discovered: '2026-01-07T10:07:41.710275+00:00'
+date_seen: '2026-01-07'
+metadata:
+  upvotes: '1'
+  paper_id: '2601.03227'
+  published_date: '2026-01-07'
+content_preview: 'Title: The Sonar Moment: Benchmarking Audio-Language Models in Audio
+  Geo-Localization
+
+
+  Summary:
+
+  Geo-localization aims to infer the geographic origin of a given signal. In computer
+  vision, geo-localization has served as a demanding benchmark for compositional reasoning
+  and is relevant to public safety. In contrast, progress on audio geo-localization
+  has been constrained by the lack of high-quality audio-location pairs. To address
+  this gap, we introduce AGL1K, the first audio geo-localization benc'
+content_length: 1306
+llm_content_sent: 1306
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена геолокализации по аудио с использованием языковых моделей,
+  что не имеет отношения к синтезу эмоциональной/выразительной речи или zero-shot
+  возможностям в этой области.

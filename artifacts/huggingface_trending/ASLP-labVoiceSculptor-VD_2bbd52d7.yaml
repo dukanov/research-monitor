@@ -1,0 +1,26 @@
+title: ASLP-lab/VoiceSculptor-VD
+url: https://huggingface.co/ASLP-lab/VoiceSculptor-VD
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-07T10:07:43.123845+00:00'
+date_seen: '2026-01-07'
+metadata:
+  likes: '5'
+  downloads: '5'
+  trending_score: '5'
+  last_modified: '2026-01-07T07:45:48.000Z'
+content_preview: "---\nlicense: apache-2.0\nbase_model:\n- HKUSTAudio/Llasa-3B\npipeline_tag:\
+  \ text-to-speech\n---\n<div align=\"center\">\n    <h1>\n    VoiceSculptor\n   \
+  \ </h1>\n    <b><em>VoiceSculptor: Your Voice, Designed By You</em></b>\n    </p>\n\
+  \    <p>\n    <img src=\"assets/logo.png\" style=\"width: 400px; height: 400px;\"\
+  >\n    </p>\n    <a href=\"https://hujingbin1.github.io/VoiceSculptor-Demo\"><img\
+  \ src=\"https://img.shields.io/badge/Demo-Page-lightgrey\" alt=\"version\"></a>\n\
+  \    <a href=\"https://huggingface.co/ASLP-lab/VoiceSc"
+content_length: 6668
+llm_content_sent: 6668
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.65
+reason: Модель представляет интересный подход к инструкционному синтезу речи с возможностью
+  дизайна голоса по текстовому описанию, показывая конкурентоспособные результаты
+  на бенчмарке InstructTTSEval, хотя архитектурные новшества не очевидны из описания.

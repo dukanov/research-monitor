@@ -1,0 +1,30 @@
+title: ASLP-lab/VoiceSculptor
+url: https://github.com/ASLP-lab/VoiceSculptor
+source: github_new
+type: repository
+date_discovered: '2025-12-29T17:42:08+00:00'
+date_seen: '2026-01-07'
+metadata:
+  stars: '43'
+  language: Python
+  created_at: '2025-12-29T17:42:08Z'
+content_preview: 'Description: An instruct text-to-speech solution based on LLaSA
+  and CosyVoice2 developed by the ASLP lab and collaborators.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 43
+
+  '
+content_length: 171
+llm_content_sent: 171
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: Репозиторий представляет инструкционный подход к синтезу речи, комбинируя
+  LLaSA и CosyVoice2, но без детального описания архитектуры и новизны методов оценить
+  научный вклад сложно.

@@ -1,0 +1,33 @@
+title: Large Language Model Guided Decoding for Self-Supervised Speech Recognition
+url: https://arxiv.org/abs/2508.02228
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-07T10:07:10.516337+00:00'
+date_seen: '2026-01-07'
+metadata:
+  arxiv_id: '2508.02228'
+  published: Wed, 07 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Large Language Model Guided Decoding for Self-Supervised
+  Speech Recognition
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Self-supervised automatic speech recognition (SSL-ASR) is an ASR approach that uses
+  speech encoders pretrained on large amounts of unlabeled audio (e.g., wav2vec2.0
+  or HuBERT) and then fine-tunes them with limited labeled data to perform transcription.
+  Decoding is usually performed with a CTC decoder, whose hypotheses are scored and
+  refined using an external language model (LM), typica'
+content_length: 1676
+llm_content_sent: 1676
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена декодированию в распознавании речи с использованием больших
+  языковых моделей, что не связано с синтезом эмоциональной/экспрессивной речи и zero-shot
+  возможностями в этой области.

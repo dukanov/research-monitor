@@ -1,0 +1,34 @@
+title: Quantifying Quanvolutional Neural Networks Robustness for Speech in Healthcare
+  Applications
+url: https://arxiv.org/abs/2601.02432
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-07T10:07:10.465375+00:00'
+date_seen: '2026-01-07'
+metadata:
+  arxiv_id: '2601.02432'
+  published: Wed, 07 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.LG, eess.AS
+content_preview: 'Title: Quantifying Quanvolutional Neural Networks Robustness for
+  Speech in Healthcare Applications
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech-based machine learning systems are sensitive to noise, complicating reliable
+  deployment in emotion recognition and voice pathology detection. We evaluate the
+  robustness of a hybrid quantum machine learning model, quanvolutional neural networks
+  (QNNs) against classical convolutional neural networks (CNNs) under four acoustic
+  corruptions (Gaussian noise, pitch shif'
+content_length: 1891
+llm_content_sent: 1891
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа изучает робастность квантовых нейронных сетей для распознавания эмоций
+  и патологий голоса, но не касается синтеза речи или zero-shot генерации выразительной
+  речи.

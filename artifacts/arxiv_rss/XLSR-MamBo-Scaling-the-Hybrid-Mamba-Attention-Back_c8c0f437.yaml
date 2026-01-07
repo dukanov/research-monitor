@@ -1,0 +1,34 @@
+title: 'XLSR-MamBo: Scaling the Hybrid Mamba-Attention Backbone for Audio Deepfake
+  Detection'
+url: https://arxiv.org/abs/2601.02944
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-07T10:07:10.516219+00:00'
+date_seen: '2026-01-07'
+metadata:
+  arxiv_id: '2601.02944'
+  published: Wed, 07 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: XLSR-MamBo: Scaling the Hybrid Mamba-Attention Backbone for
+  Audio Deepfake Detection
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Advanced speech synthesis technologies have enabled highly realistic speech generation,
+  posing security risks that motivate research into audio deepfake detection (ADD).
+  While state space models (SSMs) offer linear complexity, pure causal SSMs architectures
+  often struggle with the content-based retrieval required to capture global frequency-domain
+  artifacts. To address this, w'
+content_length: 1731
+llm_content_sent: 1731
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена детекции поддельной речи, а не синтезу эмоциональной/экспрессивной
+  речи с zero-shot возможностями - это противоположная задача без прямого отношения
+  к исследовательским интересам.

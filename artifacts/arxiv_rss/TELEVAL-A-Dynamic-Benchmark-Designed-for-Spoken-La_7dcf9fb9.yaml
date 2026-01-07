@@ -1,0 +1,34 @@
+title: 'TELEVAL: A Dynamic Benchmark Designed for Spoken Language Models in Chinese
+  Interactive Scenarios'
+url: https://arxiv.org/abs/2507.18061
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-07T10:07:10.466022+00:00'
+date_seen: '2026-01-07'
+metadata:
+  arxiv_id: '2507.18061'
+  published: Wed, 07 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.SD, eess.AS
+content_preview: 'Title: TELEVAL: A Dynamic Benchmark Designed for Spoken Language
+  Models in Chinese Interactive Scenarios
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Spoken language models (SLMs) have advanced rapidly in recent years, accompanied
+  by a growing number of evaluation benchmarks. However, most existing benchmarks
+  emphasize task completion and capability scaling, while remaining poorly aligned
+  with how users interact with SLMs in real-world spoken conversations. Effective
+  spoken interaction requires not only accurat'
+content_length: 1539
+llm_content_sent: 1539
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа представляет только бенчмарк для оценки разговорных языковых моделей
+  на китайском языке, но не предлагает новых методов для эмоциональной/экспрессивной
+  синтеза речи или zero-shot подходов.

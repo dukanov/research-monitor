@@ -1,0 +1,34 @@
+title: 'MoE Adapter for Large Audio Language Models: Sparsity, Disentanglement, and
+  Gradient-Conflict-Free'
+url: https://arxiv.org/abs/2601.02967
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-07T10:07:10.465715+00:00'
+date_seen: '2026-01-07'
+metadata:
+  arxiv_id: '2601.02967'
+  published: Wed, 07 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, eess.AS
+content_preview: 'Title: MoE Adapter for Large Audio Language Models: Sparsity, Disentanglement,
+  and Gradient-Conflict-Free
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Extending the input modality of Large Language Models~(LLMs) to the audio domain
+  is essential for achieving comprehensive multimodal perception. However, it is well-known
+  that acoustic information is intrinsically \textit{heterogeneous}, entangling attributes
+  such as speech, music, and environmental context. Existing research is limited to
+  a dense, parameter-shar'
+content_length: 1529
+llm_content_sent: 1529
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Новый подход с использованием разреженной MoE-архитектуры для адаптеров в
+  больших аудио-языковых моделях, решающий проблему конфликта градиентов при обработке
+  гетерогенной акустической информации через специализированных экспертов.

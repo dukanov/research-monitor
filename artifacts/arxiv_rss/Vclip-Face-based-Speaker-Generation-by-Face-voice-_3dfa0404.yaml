@@ -1,0 +1,33 @@
+title: 'Vclip: Face-based Speaker Generation by Face-voice Association Learning'
+url: https://arxiv.org/abs/2601.02753
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-07T10:07:10.516208+00:00'
+date_seen: '2026-01-07'
+metadata:
+  arxiv_id: '2601.02753'
+  published: Wed, 07 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Vclip: Face-based Speaker Generation by Face-voice Association
+  Learning
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This paper discusses the task of face-based speech synthesis, a kind of personalized
+  speech synthesis where the synthesized voices are con- strained to perceptually
+  match with a reference face image. Due to the lack of TTS-quality audio-visual corpora,
+  previous approaches suffer from either low synthesis quality or domain mismatch
+  induced by a knowledge transfer scheme. This paper proposes'
+content_length: 1408
+llm_content_sent: 1408
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа касается синтеза речи на основе изображения лица, но не затрагивает
+  эмоциональную/экспрессивную синтез речи или zero-shot возможности - это другая задача
+  персонализации по внешности.

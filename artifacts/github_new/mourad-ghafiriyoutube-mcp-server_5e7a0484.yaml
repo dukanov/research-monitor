@@ -1,0 +1,29 @@
+title: mourad-ghafiri/youtube-mcp-server
+url: https://github.com/mourad-ghafiri/youtube-mcp-server
+source: github_new
+type: repository
+date_discovered: '2026-01-03T06:05:06+00:00'
+date_seen: '2026-01-07'
+metadata:
+  stars: '33'
+  language: Python
+  created_at: '2026-01-03T06:05:06Z'
+content_preview: 'Description: A powerful Model Context Protocol (MCP) server for
+  YouTube video transcription and metadata extraction.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 33
+
+  '
+content_length: 164
+llm_content_sent: 164
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто сервер для извлечения транскрипций и метаданных YouTube видео без
+  какого-либо отношения к синтезу эмоциональной речи или zero-shot методам.
