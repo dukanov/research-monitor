@@ -1,0 +1,28 @@
+title: Agentic Rubrics as Contextual Verifiers for SWE Agents
+url: https://huggingface.co/papers/2601.04171
+source: huggingface_papers
+type: paper
+date_discovered: '2026-01-08T10:08:20.662016+00:00'
+date_seen: '2026-01-08'
+metadata:
+  upvotes: '2'
+  paper_id: '2601.04171'
+  published_date: '2026-01-08'
+content_preview: 'Title: Agentic Rubrics as Contextual Verifiers for SWE Agents
+
+
+  Summary:
+
+  Verification is critical for improving agents: it provides the reward signal for
+  Reinforcement Learning and enables inference-time gains through Test-Time Scaling
+  (TTS). Despite its importance, verification in software engineering (SWE) agent
+  settings often relies on code execution, which can be difficult to scale due to
+  environment setup overhead. Scalable alternatives such as patch classifiers and
+  heuristic methods exist, '
+content_length: 1454
+llm_content_sent: 1454
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Работа посвящена верификации агентов для разработки программного обеспечения
+  и не имеет отношения к синтезу эмоциональной/экспрессивной речи.

@@ -1,0 +1,47 @@
+title: samuel-vitorino/sopro
+url: https://huggingface.co/samuel-vitorino/sopro
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-08T10:08:22.683749+00:00'
+date_seen: '2026-01-08'
+metadata:
+  likes: '3'
+  downloads: '15'
+  trending_score: '3'
+  last_modified: '2026-01-07T19:23:11.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  datasets:
+
+  - amphion/Emilia-Dataset
+
+  - mythicinfinity/libritts_r
+
+  language:
+
+  - en
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  # Sopro TTS
+
+
+  [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/samuel-vitorino/sopro)
+
+
+  Sopro (from the Portuguese word for “breath/blow”) is a lightweight English text-to-speech
+  model I trained as a side project. Sopro is composed of dilated convs (à la WaveNet)
+  and lightweight cross-attention layers, instead of the '
+content_length: 5271
+llm_content_sent: 5271
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.45
+reason: Модель предлагает легковесную архитектуру на основе дилатированных свёрток
+  вместо трансформеров для zero-shot клонирования голоса, но это скорее инженерное
+  решение без существенных научных новаций.

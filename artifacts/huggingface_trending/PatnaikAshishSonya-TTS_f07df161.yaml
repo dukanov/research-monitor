@@ -1,0 +1,26 @@
+title: PatnaikAshish/Sonya-TTS
+url: https://huggingface.co/PatnaikAshish/Sonya-TTS
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-08T10:08:22.408579+00:00'
+date_seen: '2026-01-08'
+metadata:
+  likes: '4'
+  downloads: '0'
+  trending_score: '4'
+  last_modified: '2026-01-07T17:26:05.000Z'
+content_preview: "---\nlicense: mit\nlanguage:\n- en\npipeline_tag: text-to-speech\n\
+  tags:\n- voice\n- speech\n- tts\n- vits\n- expressive-voice\n- gradio\n- neural-tts\n\
+  ---\n<p align=\"center\">\n  <img src=\"logo.png\" alt=\"Sonya TTS Logo\" width=\"\
+  800\"/>\n</p>\n\n<h1 align=\"center\">✨ Sonya TTS</h1>\n<h3 align=\"center\">A Beautiful,\
+  \ Expressive Neural Voice Engine</h3>\n\n<p align=\"center\">\n  <em>High-fidelity\
+  \ AI speech with emotion, rhythm, and audiobook-quality narration</em>\n</p>\n\n\
+  <p align=\"center\">\n  <a href=\"https://huggingface.co/Patn"
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Стандартная реализация VITS без zero-shot возможностей и с ограниченной экспрессивностью
+  только для одного голоса, что представляет лишь инкрементальное улучшение существующих
+  подходов.

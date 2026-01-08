@@ -1,0 +1,33 @@
+title: 'BENYO-S2ST-Corpus-1: A Bilingual English-to-Yoruba Direct Speech-to-Speech
+  Translation Corpus'
+url: https://arxiv.org/abs/2507.09342
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-08T10:07:48.811345+00:00'
+date_seen: '2026-01-08'
+metadata:
+  arxiv_id: '2507.09342'
+  published: Thu, 08 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: BENYO-S2ST-Corpus-1: A Bilingual English-to-Yoruba Direct
+  Speech-to-Speech Translation Corpus
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  There is a major shortage of Speech-to-Speech Translation (S2ST) datasets for high
+  resource-to-low resource language pairs such as English-to-Yoruba. Thus, in this
+  study, we curated the Bilingual English-to-Yoruba Speech-to-Speech Translation Corpus
+  Version 1 (BENYO-S2ST-Corpus-1). The corpus is based on a hybrid architecture we
+  developed for large-scale direct S2ST c'
+content_length: 2141
+llm_content_sent: 2141
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа представляет только создание корпуса данных для перевода речи английский-йоруба
+  без инноваций в области эмоциональности, экспрессивности или zero-shot синтеза речи.

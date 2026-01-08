@@ -1,0 +1,48 @@
+title: pnnbao-ump/VieNeu-TTS-0.3B
+url: https://huggingface.co/pnnbao-ump/VieNeu-TTS-0.3B
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-08T10:08:22.742557+00:00'
+date_seen: '2026-01-08'
+metadata:
+  likes: '3'
+  downloads: '17'
+  trending_score: '3'
+  last_modified: '2026-01-08T03:59:13.000Z'
+content_preview: '---
+
+  license: cc-by-nc-4.0
+
+  datasets:
+
+  - pnnbao-ump/VieNeu-TTS-1000h
+
+  - pnnbao-ump/VieNeu-TTS-140h
+
+  language:
+
+  - vi
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  # VieNeu-TTS-0.3B
+
+
+  [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/pnnbao97/VieNeu-TTS)
+
+  [![Model](https://img.shields.io/badge/Hugging%20Face-Model-yellow)](https://huggingface.co/pnnbao-ump/VieNeu-TTS-0.3B)
+
+
+
+  ![Untitled](https://cdn-uploads.huggingface.co/production/uploads/68b923a86c86c127a1975eda/vd7kW8h7ooSafcIhEQt'
+content_length: 5510
+llm_content_sent: 5510
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: Модель предлагает инкрементальные улучшения в виде ускорения инференса в 2
+  раза и оптимизации для вьетнамского языка, но не содержит принципиально новых подходов
+  к эмоциональному синтезу речи или zero-shot capabilities.

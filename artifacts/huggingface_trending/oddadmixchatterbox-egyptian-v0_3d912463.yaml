@@ -1,0 +1,65 @@
+title: oddadmix/chatterbox-egyptian-v0
+url: https://huggingface.co/oddadmix/chatterbox-egyptian-v0
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-08T10:08:21.839441+00:00'
+date_seen: '2026-01-08'
+metadata:
+  likes: '8'
+  downloads: '0'
+  trending_score: '8'
+  last_modified: '2026-01-07T03:57:01.000Z'
+content_preview: '---
+
+  language:
+
+  - ar
+
+  base_model:
+
+  - ResembleAI/chatterbox
+
+  license: mit
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - arabic
+
+  - egyptian
+
+  - text-to-speech
+
+  - speech
+
+  - speech-generation
+
+  - voice-cloning
+
+  - multilingual-tts
+
+  library_name: chatterbox
+
+  ---
+
+
+  # Chatterbox Egyptian Arabic (Masri) TTS
+
+
+  ## Model Summary
+
+  **Chatterbox Egyptian Arabic (Masri) TTS** is a Text-to-Speech model built on top
+  of the **Chatterbox Multilingual TTS** architecture and configured to generate **Egyptian
+  Arabic (Masri)** speech.
+
+
+  The model'
+content_length: 3475
+llm_content_sent: 3475
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Это просто адаптация существующей архитектуры Chatterbox для египетского диалекта
+  арабского языка без каких-либо методологических новшеств в области эмоциональной
+  или экспрессивной синтеза речи.
