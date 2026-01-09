@@ -1,0 +1,34 @@
+title: 'When Tone and Words Disagree: Towards Robust Speech Emotion Recognition under
+  Acoustic-Semantic Conflict'
+url: https://arxiv.org/abs/2601.04564
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-09T10:07:03.145667+00:00'
+date_seen: '2026-01-09'
+metadata:
+  arxiv_id: '2601.04564'
+  published: Fri, 09 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: When Tone and Words Disagree: Towards Robust Speech Emotion
+  Recognition under Acoustic-Semantic Conflict
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech Emotion Recognition (SER) systems often assume congruence between vocal emotion
+  and lexical semantics. However, in real-world interactions, acoustic-semantic conflict
+  is common yet overlooked, where the emotion conveyed by tone contradicts the literal
+  meaning of spoken words. We show that state-of-the-art SER models, including ASR-based,
+  self-supervi'
+content_length: 1498
+llm_content_sent: 1498
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Новый подход к разделению акустических и семантических путей в распознавании
+  эмоций речи с введением специального датасета для конфликтных ситуаций, что важно
+  для экспрессивного синтеза, но это всё же работа по распознаванию, а не синтезу.
