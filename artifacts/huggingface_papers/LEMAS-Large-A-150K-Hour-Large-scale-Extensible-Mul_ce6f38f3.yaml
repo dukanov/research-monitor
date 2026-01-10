@@ -1,0 +1,30 @@
+title: 'LEMAS: Large A 150K-Hour Large-scale Extensible Multilingual Audio Suite with
+  Generative Speech Models'
+url: https://huggingface.co/papers/2601.04233
+source: huggingface_papers
+type: paper
+date_discovered: '2026-01-10T10:07:00.259174+00:00'
+date_seen: '2026-01-10'
+metadata:
+  upvotes: '0'
+  paper_id: '2601.04233'
+  published_date: '2026-01-10'
+content_preview: 'Title: LEMAS: Large A 150K-Hour Large-scale Extensible Multilingual
+  Audio Suite with Generative Speech Models
+
+
+  Summary:
+
+  We present the LEMAS-Dataset, which, to our knowledge, is currently the largest
+  open-source multilingual speech corpus with word-level timestamps. Covering over
+  150,000 hours across 10 major languages, LEMAS-Dataset is constructed via a efficient
+  data processing pipeline that ensures high-quality data and annotations. To validate
+  the effectiveness of LEMAS-Dataset across divers'
+content_length: 1604
+llm_content_sent: 1604
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: Работа представляет крупномасштабный датасет и две модели, но научная новизна
+  ограничена - это в основном инженерная работа по масштабированию существующих подходов
+  без принципиально новых методов для эмоциональной или экспрессивной синтеза речи.

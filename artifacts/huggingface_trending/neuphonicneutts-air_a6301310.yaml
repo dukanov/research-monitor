@@ -1,0 +1,25 @@
+title: neuphonic/neutts-air
+url: https://huggingface.co/neuphonic/neutts-air
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-10T10:07:03.352215+00:00'
+date_seen: '2026-01-10'
+metadata:
+  likes: '829'
+  downloads: '13425'
+  trending_score: '5'
+  last_modified: '2026-01-09T10:53:22.000Z'
+content_preview: "---\nlicense: apache-2.0\npipeline_tag: text-to-speech\ntags:\n\
+  - audio\n- speech\n- speech-language-models\ndatasets:\n- amphion/Emilia-Dataset\n\
+  - neuphonic/emilia-yodas-english-neucodec\n---\n\n# NeuTTS Air ☁️ \n\n[![NeuTTSAir_Intro](neutts-air.png)](https://www.youtube.com/watch?v=YAB3hCtu5wE)\n\
+  \n[\U0001F680 Spaces Demo](https://huggingface.co/spaces/neuphonic/neutts-air),\
+  \ [\U0001F527 Github](https://github.com/neuphonic/neutts-air)\n\n[Q8 GGUF version](https://huggingface.co/neuphonic/neutts-air-q8-gguf),\
+  \ [Q4 GGUF version](http"
+content_length: 5469
+llm_content_sent: 5469
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Модель представляет инженерную оптимизацию существующих подходов для мобильных
+  устройств, но не содержит научных новшеств в области эмоциональной/экспрессивной
+  синтеза речи или zero-shot методов.

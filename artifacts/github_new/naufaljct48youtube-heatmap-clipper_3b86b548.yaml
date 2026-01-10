@@ -1,0 +1,30 @@
+title: naufaljct48/youtube-heatmap-clipper
+url: https://github.com/naufaljct48/youtube-heatmap-clipper
+source: github_new
+type: repository
+date_discovered: '2026-01-09T06:45:16+00:00'
+date_seen: '2026-01-10'
+metadata:
+  stars: '74'
+  language: Python
+  created_at: '2026-01-09T06:45:16Z'
+content_preview: 'Description: Automatically find and clip the most engaging parts
+  of YouTube videos using heatmap-based viewer interaction data.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 74
+
+  '
+content_length: 175
+llm_content_sent: 175
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий занимается клиппингом YouTube видео на основе тепловых карт взаимодействия
+  зрителей, что никак не связано с синтезом эмоциональной речи или zero-shot подходами
+  в этой области.

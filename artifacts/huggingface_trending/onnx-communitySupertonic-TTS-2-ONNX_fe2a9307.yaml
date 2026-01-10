@@ -1,0 +1,67 @@
+title: onnx-community/Supertonic-TTS-2-ONNX
+url: https://huggingface.co/onnx-community/Supertonic-TTS-2-ONNX
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-10T10:07:05.819510+00:00'
+date_seen: '2026-01-10'
+metadata:
+  likes: '2'
+  downloads: '24'
+  trending_score: '2'
+  last_modified: '2026-01-07T00:44:05.000Z'
+content_preview: '---
+
+  license: openrail
+
+  base_model:
+
+  - Supertone/supertonic-2
+
+  library_name: transformers.js
+
+  language:
+
+  - en
+
+  - ko
+
+  - es
+
+  - pt
+
+  - fr
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  ## Usage
+
+
+  ### Transformers.js
+
+
+  If you haven''t already, you can install the [Transformers.js](https://huggingface.co/docs/transformers.js)
+  JavaScript library from [NPM](https://www.npmjs.com/package/@huggingface/transformers)
+  using:
+
+  ```bash
+
+  npm i @huggingface/transformers
+
+  ```
+
+
+  You can then generate audio as follows:
+
+  ```js
+
+  import { pipeline }'
+content_length: 5656
+llm_content_sent: 5656
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Это просто ONNX-конвертация существующей модели Supertonic-2 для JavaScript/веб-использования
+  без каких-либо научных новшеств в области синтеза речи.

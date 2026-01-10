@@ -1,0 +1,71 @@
+title: LEMAS-Project/LEMAS-TTS
+url: https://huggingface.co/LEMAS-Project/LEMAS-TTS
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-10T10:07:05.680497+00:00'
+date_seen: '2026-01-10'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-01-10T05:56:18.000Z'
+content_preview: '---
+
+  datasets:
+
+  - LEMAS-Project/LEMAS-Dataset-train
+
+  - LEMAS-Project/LEMAS-Dataset-eval
+
+  language:
+
+  - it
+
+  - pt
+
+  - es
+
+  - fr
+
+  - de
+
+  - vi
+
+  - id
+
+  - ru
+
+  - en
+
+  - zh
+
+  license: cc-by-nc-4.0
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - zero-shot
+
+  - multilingual
+
+  ---
+
+
+  # LEMAS-TTS
+
+
+  LEMAS-TTS is a multilingual zero-shot text-to-speech system, presented in the paper
+  [LEMAS: A 150K-Hour Large-scale Extensible Multilingual Audio Suite with Generative
+  Speech Models](https://huggingface.co/papers/2601.04233).
+
+
+  - **Project Page:** [https'
+content_length: 2180
+llm_content_sent: 2180
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: Модель представляет инкрементальное улучшение в области многоязычного zero-shot
+  синтеза речи через использование очень большого датасета (150K часов) и accent-adversarial
+  обучения, но не вводит принципиально новых архитектурных или методологических решений.
