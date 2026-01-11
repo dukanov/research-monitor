@@ -1,0 +1,60 @@
+title: pnnbao-ump/VieNeu-TTS-0.3B-q4-gguf
+url: https://huggingface.co/pnnbao-ump/VieNeu-TTS-0.3B-q4-gguf
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-11T10:07:02.757556+00:00'
+date_seen: '2026-01-11'
+metadata:
+  likes: '2'
+  downloads: '399'
+  trending_score: '2'
+  last_modified: '2026-01-08T13:17:43.000Z'
+content_preview: '---
+
+  license: cc-by-nc-4.0
+
+  datasets:
+
+  - pnnbao-ump/VieNeu-TTS-1000h
+
+  - pnnbao-ump/VieNeu-TTS-140h
+
+  language:
+
+  - vi
+
+  base_model:
+
+  - pnnbao-ump/VieNeu-TTS-0.3B
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - realtime
+
+  - tts
+
+  - cpu
+
+  - vietnamese
+
+  - gguf
+
+  ---
+
+
+  # VieNeu-TTS-0.3B-Q4-GGUF (CPU Optimized)
+
+
+  [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/pnnbao97/VieNeu-TTS)
+
+  [![Base Model](https://img.shields.io/badge/Hugging%20Face-Base%20Model-yellow)](https://huggingface.co/pnnbao-ump/Vie'
+content_length: 2092
+llm_content_sent: 2092
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Это просто квантизованная версия существующей модели TTS для вьетnamского
+  языка без какой-либо научной новизны в области эмоционального/экспрессивного синтеза
+  речи или zero-shot возможностей.
