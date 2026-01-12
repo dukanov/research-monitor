@@ -1,0 +1,31 @@
+title: LEMAS-Project/LEMAS-TTS
+url: https://github.com/LEMAS-Project/LEMAS-TTS
+source: github_new
+type: repository
+date_discovered: '2026-01-05T02:19:22+00:00'
+date_seen: '2026-01-12'
+metadata:
+  stars: '39'
+  language: Python
+  created_at: '2026-01-05T02:19:22Z'
+content_preview: 'Description: LEMAS‑TTS is a multilingual zero‑shot text‑to‑speech
+  system, supporting 10 languages:  Chinese English Spanish Russian French German
+  Italian Portuguese Indonesian Vietnamese
+
+
+  Topics: speech-synthesis, text-to-speech, tts
+
+
+  Language: Python
+
+  Stars: 39
+
+  '
+content_length: 262
+llm_content_sent: 262
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Репозиторий представляет многоязычную TTS систему с zero-shot возможностями,
+  но без описания архитектуры или методологии невозможно оценить научную новизну -
+  это может быть просто реализация существующих подходов.

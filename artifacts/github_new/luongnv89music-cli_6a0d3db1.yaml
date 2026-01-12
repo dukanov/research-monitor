@@ -1,0 +1,29 @@
+title: luongnv89/music-cli
+url: https://github.com/luongnv89/music-cli
+source: github_new
+type: repository
+date_discovered: '2025-12-29T22:28:06+00:00'
+date_seen: '2026-01-12'
+metadata:
+  stars: '31'
+  language: Python
+  created_at: '2025-12-29T22:28:06Z'
+content_preview: 'Description: A command-line music player for coders. Background
+  daemon with radio streaming, local MP3s, and AI-generated music.
+
+
+  Topics: coder, music-player, programming, terminal
+
+
+  Language: Python
+
+  Stars: 31
+
+  '
+content_length: 209
+llm_content_sent: 209
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто командная утилита для воспроизведения музыки, не имеющая отношения
+  к синтезу речи или генерации эмоциональной речи.

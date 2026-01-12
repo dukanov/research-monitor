@@ -1,0 +1,33 @@
+title: 'Thinking with Map: Reinforced Parallel Map-Augmented Agent for Geolocalization'
+url: https://arxiv.org/abs/2601.05432
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-12T10:08:22.353529+00:00'
+date_seen: '2026-01-12'
+metadata:
+  arxiv_id: '2601.05432'
+  published: Mon, 12 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CV, cs.AI, cs.CL
+content_preview: 'Title: Thinking with Map: Reinforced Parallel Map-Augmented Agent
+  for Geolocalization
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The image geolocalization task aims to predict the location where an image was taken
+  anywhere on Earth using visual clues. Existing large vision-language model (LVLM)
+  approaches leverage world knowledge, chain-of-thought reasoning, and agentic capabilities,
+  but overlook a common strategy used by humans -- using maps. In this work, we first
+  equip the model \textit{Thinking with Map} '
+content_length: 1458
+llm_content_sent: 1458
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Работа посвящена геолокализации изображений с использованием карт и агентных
+  подходов, что не имеет отношения к синтезу эмоциональной/выразительной речи с zero-shot
+  возможностями.

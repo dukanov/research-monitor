@@ -1,0 +1,34 @@
+title: Discriminative-Generative Target Speaker Extraction with Decoder-Only Language
+  Models
+url: https://arxiv.org/abs/2601.06006
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-12T10:08:22.228009+00:00'
+date_seen: '2026-01-12'
+metadata:
+  arxiv_id: '2601.06006'
+  published: Mon, 12 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: Discriminative-Generative Target Speaker Extraction with
+  Decoder-Only Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Target speaker extraction (TSE) aims to recover the speech signal of a desired speaker
+  from a mixed audio recording, given a short enrollment utterance. Most existing
+  TSE approaches are based on discriminative modeling paradigms. Although effective
+  at suppressing interfering speakers, these methods often struggle to produce speech
+  with high perceptual quality and naturalness.'
+content_length: 1960
+llm_content_sent: 1960
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена извлечению речи целевого говорителя из смешанной записи,
+  что является задачей разделения источников звука, а не синтеза эмоциональной/экспрессивной
+  речи с zero-shot возможностями.

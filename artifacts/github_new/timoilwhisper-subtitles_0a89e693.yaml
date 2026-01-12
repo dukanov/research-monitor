@@ -1,0 +1,32 @@
+title: timoil/whisper-subtitles
+url: https://github.com/timoil/whisper-subtitles
+source: github_new
+type: repository
+date_discovered: '2026-01-09T00:44:37+00:00'
+date_seen: '2026-01-12'
+metadata:
+  stars: '28'
+  language: Python
+  created_at: '2026-01-09T00:44:37Z'
+content_preview: 'Description: 🎬 AI-powered localhost subtitle generator for hearing-impaired
+  users. Automatic speech recognition using OpenAI Whisper + Intel OpenVINO. Supports
+  99 languages, torrent downloads, and online video playback.
+
+
+  Topics: accessibility, asr, captions, deaf, docker, fastapi, hearing-impaired, intel,
+  openai, openvino, python, speech-to-text, srt, subtitles, subtitles-generator, transcription,
+  video, whisper, whisper-ai
+
+
+  Language: Python
+
+  Stars: 28
+
+  '
+content_length: 456
+llm_content_sent: 456
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто практическое приложение существующей модели Whisper для генерации
+  субтитров без какой-либо научной новизны в области синтеза речи или экспрессивности.

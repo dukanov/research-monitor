@@ -1,0 +1,71 @@
+title: LEMAS-Project/LEMAS-Edit
+url: https://huggingface.co/LEMAS-Project/LEMAS-Edit
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-12T10:09:02.457931+00:00'
+date_seen: '2026-01-12'
+metadata:
+  likes: '2'
+  downloads: '27'
+  trending_score: '2'
+  last_modified: '2026-01-10T09:22:32.000Z'
+content_preview: '---
+
+  datasets:
+
+  - LEMAS-Project/LEMAS-Dataset-train
+
+  - LEMAS-Project/LEMAS-Dataset-eval
+
+  language:
+
+  - it
+
+  - pt
+
+  - es
+
+  - fr
+
+  - de
+
+  - vi
+
+  - id
+
+  - ru
+
+  - en
+
+  - zh
+
+  license: cc-by-nc-4.0
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - zero-shot
+
+  - multilingual
+
+  ---
+
+
+  # LEMAS-Edit
+
+
+  LEMAS-Edit is a multilingual speech editing system, presented in the paper [LEMAS:
+  A 150K-Hour Large-scale Extensible Multilingual Audio Suite with Generative Speech
+  Models](https://huggingface.co/papers/2601.04233).
+
+
+  - **Project Page:** [https://lemas'
+content_length: 1475
+llm_content_sent: 1475
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: Модель представляет инкрементальное улучшение в области многоязычного синтеза
+  речи с возможностями zero-shot, но конкретные технические новшества в области эмоционального/экспрессивного
+  синтеза из описания не ясны.

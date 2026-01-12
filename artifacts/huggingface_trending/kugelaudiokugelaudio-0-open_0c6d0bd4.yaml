@@ -1,0 +1,26 @@
+title: kugelaudio/kugelaudio-0-open
+url: https://huggingface.co/kugelaudio/kugelaudio-0-open
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-12T10:09:02.545878+00:00'
+date_seen: '2026-01-12'
+metadata:
+  likes: '2'
+  downloads: '45'
+  trending_score: '2'
+  last_modified: '2026-01-11T22:22:09.000Z'
+content_preview: "---\nlanguage:\n  - en\n  - de\n  - fr\n  - es\n  - it\n  - pt\n\
+  \  - nl\n  - pl\n  - ru\n  - uk\n  - cs\n  - ro\n  - hu\n  - sv\n  - da\n  - fi\n\
+  \  - no\n  - el\n  - bg\n  - sk\n  - hr\n  - sr\n  - tr\nlicense: mit\ntags:\n \
+  \ - text-to-speech\n  - tts\n  - voice-cloning\n  - speech-synthesis\n  - audio-generation\n\
+  \  - european-languages\n  - diffusion\n  - autoregressive\npipeline_tag: text-to-speech\n\
+  inference: false\nmodel-index:\n  - name: kugelaudio-0-open\n    results:\n    \
+  \  - task:\n          type: text-to-speech\n        dataset:\n "
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: Инкрементальное улучшение существующей архитектуры VibeVoice для европейских
+  языков с zero-shot voice cloning, но без принципиально новых методологических подходов
+  к эмоциональному/экспрессивному синтезу речи.

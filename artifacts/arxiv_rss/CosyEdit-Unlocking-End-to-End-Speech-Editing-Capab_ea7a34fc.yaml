@@ -1,0 +1,35 @@
+title: 'CosyEdit: Unlocking End-to-End Speech Editing Capability from Zero-Shot Text-to-Speech
+  Models'
+url: https://arxiv.org/abs/2601.05329
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-12T10:08:22.227890+00:00'
+date_seen: '2026-01-12'
+metadata:
+  arxiv_id: '2601.05329'
+  published: Mon, 12 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: CosyEdit: Unlocking End-to-End Speech Editing Capability
+  from Zero-Shot Text-to-Speech Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Automatic speech editing aims to modify spoken content based on textual instructions,
+  yet traditional cascade systems suffer from complex preprocessing pipelines and
+  a reliance on explicit external temporal alignment. Addressing these limitations,
+  we propose CosyEdit, an end-to-end speech editing model adapted from CosyVoice through
+  task-specific fine-tuning and an op'
+content_length: 1376
+llm_content_sent: 1376
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Работа предлагает интересный подход к адаптации zero-shot TTS модели для задач
+  редактирования речи через специализированное дообучение, что устраняет необходимость
+  в каскадных системах и внешнем выравнивании, хотя основная архитектура остается
+  заимствованной из CosyVoice.

@@ -1,0 +1,28 @@
+title: 'Thinking with Map: Reinforced Parallel Map-Augmented Agent for Geolocalization'
+url: https://huggingface.co/papers/2601.05432
+source: huggingface_papers
+type: paper
+date_discovered: '2026-01-12T10:08:53.444428+00:00'
+date_seen: '2026-01-12'
+metadata:
+  upvotes: '81'
+  paper_id: '2601.05432'
+  published_date: '2026-01-12'
+content_preview: 'Title: Thinking with Map: Reinforced Parallel Map-Augmented Agent
+  for Geolocalization
+
+
+  Summary:
+
+  The image geolocalization task aims to predict the location where an image was taken
+  anywhere on Earth using visual clues. Existing large vision-language model (LVLM)
+  approaches leverage world knowledge, chain-of-thought reasoning, and agentic capabilities,
+  but overlook a common strategy used by humans -- using maps. In this work, we first
+  equip the model Thinking with Map ability and formulate it as '
+content_length: 1346
+llm_content_sent: 1346
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Работа посвящена геолокализации изображений с использованием карт и агентов,
+  что не имеет отношения к синтезу эмоциональной/экспрессивной речи.
