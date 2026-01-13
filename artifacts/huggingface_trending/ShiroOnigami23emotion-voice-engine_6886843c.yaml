@@ -1,0 +1,56 @@
+title: ShiroOnigami23/emotion-voice-engine
+url: https://huggingface.co/ShiroOnigami23/emotion-voice-engine
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-13T10:07:48.009495+00:00'
+date_seen: '2026-01-13'
+metadata:
+  likes: '3'
+  downloads: '39'
+  trending_score: '3'
+  last_modified: '2026-01-11T13:24:55.000Z'
+content_preview: '---
+
+  license: mit
+
+  language: en
+
+  tags:
+
+  - text-to-speech
+
+  - emotion-ai
+
+  - rjit
+
+  - shiro
+
+  ---
+
+
+  # emotion voice engine
+
+  Developed by **Aryan Singh Chandel (Shiro)** at **Rustamji Institute of Technology
+  (RJIT)**.
+
+
+  ## 📝 Overview
+
+  This repository contains assets for **emotion voice engine**. It is a professional
+  research component of the Shiro AI ecosystem.
+
+
+  ## 🚀 Status
+
+  The core files are live. Detailed usage instructions and technical benchmarks are
+  currently being compiled for the elite release.
+
+  '
+content_length: 489
+llm_content_sent: 489
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.1
+reason: Представлена только карточка модели без технических деталей, кода или описания
+  методологии - невозможно оценить научную новизну при отсутствии какой-либо технической
+  информации.

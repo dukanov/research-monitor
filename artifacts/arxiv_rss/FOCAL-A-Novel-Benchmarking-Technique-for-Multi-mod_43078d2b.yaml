@@ -1,0 +1,31 @@
+title: 'FOCAL: A Novel Benchmarking Technique for Multi-modal Agents'
+url: https://arxiv.org/abs/2601.07367
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-13T10:07:11.065917+00:00'
+date_seen: '2026-01-13'
+metadata:
+  arxiv_id: '2601.07367'
+  published: Tue, 13 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: FOCAL: A Novel Benchmarking Technique for Multi-modal Agents
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  With the recent advancements in reasoning capa- bilities, tool calling using MCP
+  servers and Audio Language Models (ALMs), development and integration of multi-modal
+  agents (with voice and text support) has come to the industry forefront. Cascading
+  pipelines for voice agents still play a central role in the industry owing to their
+  superior reasoning capabilities facilitated by LLMs. Although, cascadi'
+content_length: 1019
+llm_content_sent: 1019
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена бенчмаркингу мультимодальных агентов, а не синтезу эмоциональной
+  речи или zero-shot возможностям в TTS.

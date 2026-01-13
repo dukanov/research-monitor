@@ -1,0 +1,26 @@
+title: nvidia/magpie_tts_multilingual_357m
+url: https://huggingface.co/nvidia/magpie_tts_multilingual_357m
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-13T10:07:45.190215+00:00'
+date_seen: '2026-01-13'
+metadata:
+  likes: '45'
+  downloads: '552'
+  trending_score: '32'
+  last_modified: '2026-01-12T16:06:54.000Z'
+content_preview: "---\nlicense: other\nlicense_name: nvidia-open-model-license\nlicense_link:\
+  \ >-\n  https://developer.download.nvidia.com/licenses/nvidia-open-model-license-agreement-june-2024.pdf\n\
+  language:\n- en\n- es\n- de\n- it\n- vi\n- zh\n- fr\nmetrics:\n- cer\nlibrary_name:\
+  \ nemo\ntags:\n- NeMo\n- TTS\n- PyTorch\n- Speech\n- Multilingual-TTS\nextra_gated_prompt:\
+  \ >-\n  You agree to not use the model to conduct experiments that cause harm to\
+  \ human\n  subjects.\nextra_gated_fields:\n  Company: text\n  Country: country\n\
+  \  Specific date: d"
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Это стандартная модель TTS с многоязычной поддержкой и несколькими голосами,
+  но без явных возможностей zero-shot эмоционального синтеза или научной новизны в
+  архитектуре.

@@ -1,0 +1,29 @@
+title: '3D CoCa v2: Contrastive Learners with Test-Time Search for Generalizable Spatial
+  Intelligence'
+url: https://huggingface.co/papers/2601.06496
+source: huggingface_papers
+type: paper
+date_discovered: '2026-01-13T10:07:43.523494+00:00'
+date_seen: '2026-01-13'
+metadata:
+  upvotes: '0'
+  paper_id: '2601.06496'
+  published_date: '2026-01-13'
+content_preview: 'Title: 3D CoCa v2: Contrastive Learners with Test-Time Search for
+  Generalizable Spatial Intelligence
+
+
+  Summary:
+
+  Spatial intelligence refers to the ability to perceive, reason about, and describe
+  objects and their relationships within three-dimensional environments, forming a
+  foundation for embodied perception and scene understanding. 3D captioning aims to
+  describe 3D scenes in natural language; however, it remains challenging due to the
+  sparsity and irregularity of point clouds and, more critical'
+content_length: 1579
+llm_content_sent: 1579
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена 3D-описанию сцен на естественном языке, что не имеет отношения
+  к синтезу эмоциональной речи или zero-shot генерации речи.

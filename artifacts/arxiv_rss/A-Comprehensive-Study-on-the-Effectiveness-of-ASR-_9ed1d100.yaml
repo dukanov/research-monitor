@@ -1,0 +1,34 @@
+title: A Comprehensive Study on the Effectiveness of ASR Representations for Noise-Robust
+  Speech Emotion Recognition
+url: https://arxiv.org/abs/2311.07093
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-13T10:07:11.066183+00:00'
+date_seen: '2026-01-13'
+metadata:
+  arxiv_id: '2311.07093'
+  published: Tue, 13 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.CL, eess.AS
+content_preview: 'Title: A Comprehensive Study on the Effectiveness of ASR Representations
+  for Noise-Robust Speech Emotion Recognition
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This paper proposes an efficient attempt to noisy speech emotion recognition (NSER).
+  Conventional NSER approaches have proven effective in mitigating the impact of artificial
+  noise sources, such as white Gaussian noise, but are limited to non-stationary noises
+  in real-world environments due to their complexity and uncertainty. To overcome
+  this limitati'
+content_length: 1282
+llm_content_sent: 1282
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена распознаванию эмоций в зашумленной речи, а не синтезу эмоциональной
+  речи, и не содержит существенных новизны - просто используют ASR-модель как экстрактор
+  признаков.

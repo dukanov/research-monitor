@@ -1,0 +1,30 @@
+title: mohammed840/RLM-implementation
+url: https://github.com/mohammed840/RLM-implementation
+source: github_new
+type: repository
+date_discovered: '2026-01-12T00:23:13+00:00'
+date_seen: '2026-01-13'
+metadata:
+  stars: '66'
+  language: Python
+  created_at: '2026-01-12T00:23:13Z'
+content_preview: 'Description: RVAA: Recursive Vision-Action Agent for Long Video
+  Understanding. Implementation of the RLM paradigm (Zhang, Kraska, Khattab 2025)
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 66
+
+  '
+content_length: 191
+llm_content_sent: 191
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Репозиторий посвящен пониманию длинных видео через рекурсивного визуально-действенного
+  агента, что не имеет отношения к синтезу эмоциональной/экспрессивной речи с zero-shot
+  возможностями.

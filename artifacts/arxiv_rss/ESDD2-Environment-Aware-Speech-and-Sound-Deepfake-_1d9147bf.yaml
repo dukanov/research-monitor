@@ -1,0 +1,33 @@
+title: 'ESDD2: Environment-Aware Speech and Sound Deepfake Detection Challenge Evaluation
+  Plan'
+url: https://arxiv.org/abs/2601.07303
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-13T10:07:11.065828+00:00'
+date_seen: '2026-01-13'
+metadata:
+  arxiv_id: '2601.07303'
+  published: Tue, 13 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: ESDD2: Environment-Aware Speech and Sound Deepfake Detection
+  Challenge Evaluation Plan
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Audio recorded in real-world environments often contains a mixture of foreground
+  speech and background environmental sounds. With rapid advances in text-to-speech,
+  voice conversion, and other generation models, either component can now be modified
+  independently. Such component-level manipulations are harder to detect, as the remaining
+  unaltered component can mislead the syst'
+content_length: 1437
+llm_content_sent: 1437
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена обнаружению deepfake аудио, а не синтезу эмоциональной речи
+  с zero-shot возможностями - это противоположная задача детекции, а не генерации.

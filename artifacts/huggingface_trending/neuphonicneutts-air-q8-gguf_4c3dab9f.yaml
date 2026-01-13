@@ -1,0 +1,26 @@
+title: neuphonic/neutts-air-q8-gguf
+url: https://huggingface.co/neuphonic/neutts-air-q8-gguf
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-13T10:07:49.439283+00:00'
+date_seen: '2026-01-13'
+metadata:
+  likes: '32'
+  downloads: '1774'
+  trending_score: '2'
+  last_modified: '2026-01-09T10:53:42.000Z'
+content_preview: "---\nbase_model: neuphonic/neutts-air\nlicense: apache-2.0\ntags:\n\
+  - audio\n- speech\n- speech-language-models\ndatasets:\n- amphion/Emilia-Dataset\n\
+  - neuphonic/emilia-yodas-english-neucodec\npipeline_tag: text-to-speech\n---\n\n\
+  # NeuTTS Air Q8-GGUF ☁️ \n\n\n[![NeuTTSAir_Intro](neutts-air.png)](https://www.youtube.com/watch?v=YAB3hCtu5wE)\n\
+  \n*Created by [Neuphonic](http://neuphonic.com/) - building faster, smaller, on-device\
+  \ voice AI*\n\nState-of-the-art Voice AI has been locked behind web APIs for too\
+  \ long. NeuTTS"
+content_length: 5144
+llm_content_sent: 5144
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Модель представляет лишь квантизованную версию существующей архитектуры без
+  научных новшеств - это инженерная оптимизация для развертывания на устройствах,
+  а не исследовательский вклад.

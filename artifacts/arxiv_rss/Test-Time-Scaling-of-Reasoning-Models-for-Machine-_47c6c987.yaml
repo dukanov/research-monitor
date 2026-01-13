@@ -1,0 +1,32 @@
+title: Test-Time Scaling of Reasoning Models for Machine Translation
+url: https://arxiv.org/abs/2510.06471
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-13T10:07:11.294978+00:00'
+date_seen: '2026-01-13'
+metadata:
+  arxiv_id: '2510.06471'
+  published: Tue, 13 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Test-Time Scaling of Reasoning Models for Machine Translation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Test-time scaling (TTS) has enhanced the performance of Reasoning Models (RMs) on
+  various tasks such as math and coding, yet its efficacy in machine translation (MT)
+  remains underexplored. This paper investigates whether increased inference-time
+  computation improves translation quality. We evaluate 12 RMs across a diverse suite
+  of MT benchmarks spanning multiple domains, examining three scenarios: d'
+content_length: 1548
+llm_content_sent: 1548
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена машинному переводу и масштабированию времени тестирования
+  для моделей рассуждений, что не имеет отношения к эмоциональному/экспрессивному
+  синтезу речи с zero-shot возможностями.

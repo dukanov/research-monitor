@@ -1,0 +1,34 @@
+title: Berezinskii--Kosterlitz--Thouless transition in a context-sensitive random
+  language model
+url: https://arxiv.org/abs/2412.01212
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-13T10:07:11.295884+00:00'
+date_seen: '2026-01-13'
+metadata:
+  arxiv_id: '2412.01212'
+  published: Tue, 13 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: stat.ML, cond-mat.stat-mech, cs.CL, cs.LG
+content_preview: 'Title: Berezinskii--Kosterlitz--Thouless transition in a context-sensitive
+  random language model
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Several power-law critical properties involving different statistics in natural
+  languages -- reminiscent of scaling properties of physical systems at or near phase
+  transitions -- have been documented for decades. The recent rise of large language
+  models has added further evidence and excitement by providing intriguing similarities
+  with notions in physics such as scaling l'
+content_length: 2024
+llm_content_sent: 2024
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена теоретическому анализу фазовых переходов в языковых моделях
+  с точки зрения статистической физики, что не имеет прямого отношения к эмоциональному/экспрессивному
+  синтезу речи с zero-shot возможностями.

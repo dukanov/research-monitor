@@ -1,0 +1,42 @@
+title: prince-canuma/Kokoro-82M
+url: https://huggingface.co/prince-canuma/Kokoro-82M
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-13T10:07:51.661899+00:00'
+date_seen: '2026-01-13'
+metadata:
+  likes: '5'
+  downloads: '773'
+  trending_score: '1'
+  last_modified: '2026-01-05T23:18:37.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - en
+
+  base_model:
+
+  - yl4579/StyleTTS2-LJSpeech
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+  **Kokoro** is an open-weight TTS model with 82 million parameters. Despite its lightweight
+  architecture, it delivers comparable quality to larger models while being significantly
+  faster and more cost-efficient. With Apache-licensed weights, Kokoro can be deployed
+  anywhere from production environments to personal projects.
+
+
+  <audio controls><source src="https://huggingface.co/hexgrad/Kok'
+content_length: 8537
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Это просто еще одна реализация StyleTTS2 с меньшим количеством параметров,
+  без каких-либо новых идей в области эмоциональности, экспрессивности или zero-shot
+  синтеза речи.
