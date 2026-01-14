@@ -1,0 +1,33 @@
+title: 'Robust CAPTCHA Using Audio Illusions in the Era of Large Language Models:
+  from Evaluation to Advances'
+url: https://arxiv.org/abs/2601.08516
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-14T10:07:30.408954+00:00'
+date_seen: '2026-01-14'
+metadata:
+  arxiv_id: '2601.08516'
+  published: Wed, 14 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.CY, eess.AS
+content_preview: 'Title: Robust CAPTCHA Using Audio Illusions in the Era of Large
+  Language Models: from Evaluation to Advances
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  CAPTCHAs are widely used by websites to block bots and spam by presenting challenges
+  that are easy for humans but difficult for automated programs to solve. To improve
+  accessibility, audio CAPTCHAs are designed to complement visual ones. However, the
+  robustness of audio CAPTCHAs against advanced Large Audio Language Models (LALMs)
+  and Automatic Speech Recognit'
+content_length: 1463
+llm_content_sent: 1463
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена защите от ботов через аудио-капчи с использованием слуховых
+  иллюзий, что не имеет отношения к синтезу эмоциональной речи или zero-shot возможностям.

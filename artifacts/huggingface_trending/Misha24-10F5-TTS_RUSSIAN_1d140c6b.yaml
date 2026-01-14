@@ -1,0 +1,26 @@
+title: Misha24-10/F5-TTS_RUSSIAN
+url: https://huggingface.co/Misha24-10/F5-TTS_RUSSIAN
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-14T10:08:08.102607+00:00'
+date_seen: '2026-01-14'
+metadata:
+  likes: '162'
+  downloads: '15249'
+  trending_score: '4'
+  last_modified: '2026-01-13T21:09:47.000Z'
+content_preview: "---\nlicense: cc-by-nc-4.0\ntags:\n- tts\n- russian\n- fine-tuned\n\
+  - f5-tts\n- voice-clone\nlanguage:\n- ru\nbase_model:\n- SWivid/F5-TTS\npipeline_tag:\
+  \ text-to-speech\n---\n\n**F5-TTS_RUSSIAN** - дообученная версия оригинальной модели\
+  \ **[F5-TTS](https://huggingface.co/SWivid/F5-TTS)**, адаптированная для синтеза\
+  \ русской речи.  \nМодель обучалась на 5 000 часах с сочетанием русской и английской\
+  \ речи и поддерживает управление ударением в словах.\n\n## Ключевые особенности\n\
+  \n* **Ударения**: для изменения ударения по"
+content_length: 1717
+llm_content_sent: 1717
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Это просто дообучение существующей модели F5-TTS на русском языке с добавлением
+  разметки ударений - никаких новых идей для эмоционального/экспрессивного синтеза
+  или zero-shot возможностей не представлено.

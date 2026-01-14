@@ -1,0 +1,30 @@
+title: 0xACAB666/yt-heatmap-clipper
+url: https://github.com/0xACAB666/yt-heatmap-clipper
+source: github_new
+type: repository
+date_discovered: '2026-01-08T07:52:41+00:00'
+date_seen: '2026-01-14'
+metadata:
+  stars: '26'
+  language: Python
+  created_at: '2026-01-08T07:52:41Z'
+content_preview: 'Description: Automatically find and clip the most engaging parts
+  of YouTube videos using heatmap-based viewer interaction data.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 26
+
+  '
+content_length: 175
+llm_content_sent: 175
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий занимается клиппингом YouTube видео на основе тепловых карт взаимодействия
+  зрителей, что не имеет никакого отношения к синтезу эмоциональной речи или zero-shot
+  технологиям.

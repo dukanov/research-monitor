@@ -1,0 +1,30 @@
+title: ekwek1/soprano-factory
+url: https://github.com/ekwek1/soprano-factory
+source: github_new
+type: repository
+date_discovered: '2026-01-13T15:44:14+00:00'
+date_seen: '2026-01-14'
+metadata:
+  stars: '38'
+  language: Python
+  created_at: '2026-01-13T15:44:14Z'
+content_preview: 'Description: Soprano-Factory: Train your own 2000x realtime text-to-speech
+  model
+
+
+  Topics: text-to-speech, tts
+
+
+  Language: Python
+
+  Stars: 38
+
+  '
+content_length: 138
+llm_content_sent: 138
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Репозиторий представляет только название и базовое описание TTS модели без
+  технических деталей, кода или доказательств инноваций в области эмоциональной или
+  zero-shot синтеза речи.

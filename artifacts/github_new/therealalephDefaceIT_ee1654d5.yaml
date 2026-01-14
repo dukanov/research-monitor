@@ -1,0 +1,30 @@
+title: therealaleph/DefaceIT
+url: https://github.com/therealaleph/DefaceIT
+source: github_new
+type: repository
+date_discovered: '2026-01-01T23:15:41+00:00'
+date_seen: '2026-01-14'
+metadata:
+  stars: '27'
+  language: Python
+  created_at: '2026-01-01T23:15:41Z'
+content_preview: 'Description: Cross-platform GUI application for blurring faces and
+  license plates in videos using YOLOv11
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 27
+
+  '
+content_length: 153
+llm_content_sent: 153
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Проект посвящен размытию лиц и номерных знаков в видео с помощью YOLOv11,
+  что не имеет отношения к синтезу эмоциональной речи или zero-shot возможностям в
+  этой области.

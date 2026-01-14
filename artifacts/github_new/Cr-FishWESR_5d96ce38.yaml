@@ -1,0 +1,29 @@
+title: Cr-Fish/WESR
+url: https://github.com/Cr-Fish/WESR
+source: github_new
+type: repository
+date_discovered: '2026-01-07T12:35:28+00:00'
+date_seen: '2026-01-14'
+metadata:
+  stars: '24'
+  language: Python
+  created_at: '2026-01-07T12:35:28Z'
+content_preview: 'Description: WESR (Word-level Event-Speech Recognition): A comprehensive
+  benchmark and baseline for detecting and localizing non-verbal vocal events in speech.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 24
+
+  '
+content_length: 207
+llm_content_sent: 207
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий посвящен распознаванию невербальных вокальных событий в речи,
+  что является задачей анализа, а не синтеза экспрессивной речи.

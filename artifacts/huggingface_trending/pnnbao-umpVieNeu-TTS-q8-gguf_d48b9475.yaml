@@ -1,0 +1,60 @@
+title: pnnbao-ump/VieNeu-TTS-q8-gguf
+url: https://huggingface.co/pnnbao-ump/VieNeu-TTS-q8-gguf
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-14T10:08:12.448395+00:00'
+date_seen: '2026-01-14'
+metadata:
+  likes: '3'
+  downloads: '1809'
+  trending_score: '2'
+  last_modified: '2026-01-08T07:21:11.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  datasets:
+
+  - pnnbao-ump/VieNeu-TTS-1000h
+
+  - pnnbao-ump/VieNeu-TTS-140h
+
+  language:
+
+  - vi
+
+  base_model:
+
+  - pnnbao-ump/VieNeu-TTS
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - realtime-tts
+
+  - cpu
+
+  - tts
+
+  ---
+
+
+  # VieNeu-TTS
+
+
+  [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/pnnbao97/VieNeu-TTS)
+
+  [![Model](https://img.shields.io/badge/Hugging%20Face-Model-yellow)](https://huggingface.co/pnnbao-ump/VieNeu-TTS)
+
+
+
+  ![Untitled](https://cdn-uploads.huggingface.co/produc'
+content_length: 5050
+llm_content_sent: 5050
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Это адаптация существующей архитектуры NeuTTS Air для вьетnamского языка с
+  квантизацией, что является инкрементальным улучшением без существенных научных новшеств
+  в области эмоциональной или экспрессивной речи.
