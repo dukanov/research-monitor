@@ -1,0 +1,25 @@
+title: ekwek/Soprano-1.1-80M
+url: https://huggingface.co/ekwek/Soprano-1.1-80M
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-15T10:07:35.761358+00:00'
+date_seen: '2026-01-15'
+metadata:
+  likes: '35'
+  downloads: '407'
+  trending_score: '35'
+  last_modified: '2026-01-14T17:47:31.000Z'
+content_preview: "---\nlibrary_name: transformers\nlicense: apache-2.0\npipeline_tag:\
+  \ text-to-speech\n---\n  \n<!-- Version 0.1.0 -->\n# Soprano: Instant, Ultra‑Realistic\
+  \ Text‑to‑Speech\n\n<div align=\"center\">\n  \n  <img width=\"640\" height=\"320\"\
+  \ alt=\"soprano-github\" src=\"https://github.com/user-attachments/assets/4d612eac-23b8-44e6-8c59-d7ac14ebafd1\"\
+  \ />\n\n  [![Alt Text](https://img.shields.io/badge/Github-Repo-black?logo=github)](https://github.com/ekwek1/soprano)\n\
+  \  [![Alt Text](https://img.shields.io/badge/HuggingFace-Demo"
+content_length: 6578
+llm_content_sent: 6578
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Модель представляет собой инкрементальное улучшение существующих TTS подходов
+  с фокусом на скорость и компактность, но не демонстрирует zero-shot возможности
+  или значительные инновации в эмоциональном синтезе речи.

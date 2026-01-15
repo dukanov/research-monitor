@@ -1,0 +1,32 @@
+title: 'MATS: An Audio Language Model under Text-only Supervision'
+url: https://arxiv.org/abs/2502.13433
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-15T10:07:00.478878+00:00'
+date_seen: '2026-01-15'
+metadata:
+  arxiv_id: '2502.13433'
+  published: Thu, 15 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: MATS: An Audio Language Model under Text-only Supervision
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large audio-language models (LALMs), built upon powerful Large Language Models (LLMs),
+  have exhibited remarkable audio comprehension and reasoning capabilities. However,
+  the training of LALMs demands a large corpus of audio-language pairs, which requires
+  substantial costs in both data collection and training resources. In this paper,
+  we propose \textbf{MATS}, an audio-language multimodal LLM designed to'
+content_length: 1637
+llm_content_sent: 1637
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа фокусируется на понимании аудио с помощью LLM, а не на синтезе эмоциональной
+  речи, что не соответствует исследовательским интересам в области генерации выразительной
+  речи.

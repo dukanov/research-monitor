@@ -1,0 +1,26 @@
+title: kyutai/pocket-tts-without-voice-cloning
+url: https://huggingface.co/kyutai/pocket-tts-without-voice-cloning
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-15T10:07:40.515759+00:00'
+date_seen: '2026-01-15'
+metadata:
+  likes: '5'
+  downloads: '0'
+  trending_score: '5'
+  last_modified: '2026-01-14T13:57:46.000Z'
+content_preview: "---\nlanguage:\n- en\nlicense: cc-by-4.0\npipeline_tag: text-to-speech\n\
+  library_name: pocket-tts\nextra_gated_prompt: 'Prohibited use: Use of our model\
+  \ must comply with all applicable\n  laws and regulations and must not result in,\
+  \ involve, or facilitate any illegal,\n  harmful, deceptive, fraudulent, or unauthorized\
+  \ activity. Prohibited uses include,\n  without limitation, voice impersonation\
+  \ or cloning without explicit and lawful consent;\n  misinformation, disinformation,\
+  \ or deception (including fake n"
+content_length: 7474
+llm_content_sent: 7474
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Модель представляет только инженерную оптимизацию существующих TTS подходов
+  для работы на CPU без GPU, но не вводит новых научных идей в области эмоционального
+  синтеза речи или zero-shot capabilities.

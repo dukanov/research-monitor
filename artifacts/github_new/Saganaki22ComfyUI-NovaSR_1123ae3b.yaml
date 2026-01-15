@@ -1,0 +1,30 @@
+title: Saganaki22/ComfyUI-NovaSR
+url: https://github.com/Saganaki22/ComfyUI-NovaSR
+source: github_new
+type: repository
+date_discovered: '2026-01-13T14:48:54+00:00'
+date_seen: '2026-01-15'
+metadata:
+  stars: '22'
+  language: Python
+  created_at: '2026-01-13T14:48:54Z'
+content_preview: 'Description: Ultra-fast audio super resolution custom node for ComfyUI,
+  powered by the NovaSR model.
+
+
+  Topics: audio, audio-processing, audio-upscaler, audio-visualizer, comfyui, comfyui-custom-node,
+  comfyui-nodes, upscaler
+
+
+  Language: Python
+
+  Stars: 22
+
+  '
+content_length: 251
+llm_content_sent: 251
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто обертка для существующей модели NovaSR в виде узла для ComfyUI,
+  без научной новизны в области синтеза эмоциональной речи или zero-shot возможностей.

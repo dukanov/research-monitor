@@ -1,0 +1,25 @@
+title: neuphonic/neutts-nano
+url: https://huggingface.co/neuphonic/neutts-nano
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-15T10:07:37.141053+00:00'
+date_seen: '2026-01-15'
+metadata:
+  likes: '16'
+  downloads: '214'
+  trending_score: '16'
+  last_modified: '2026-01-15T09:09:01.000Z'
+content_preview: "---\nlicense: other\npipeline_tag: text-to-speech\n---\n\n# NeuTTS\
+  \ Nano \n\n[![NeuTTSNano_Intro](neutts-nano.png)](https://www.youtube.com/watch?v=_USVA-JA0o0)\n\
+  \n[\U0001F680 Spaces Demo](https://huggingface.co/spaces/neuphonic/neutts-nano),\
+  \ [\U0001F527 Github](https://github.com/neuphonic/neutts)\n\n[Q8 GGUF version](https://huggingface.co/neuphonic/neutts-nano-q8-gguf),\
+  \ [Q4 GGUF version](https://huggingface.co/neuphonic/neutts-nano-q4-gguf)\n\n*Created\
+  \ by [Neuphonic](http://neuphonic.com/) - building faster, smaller, on-dev"
+content_length: 5330
+llm_content_sent: 5330
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Модель представляет инженерную оптимизацию существующих подходов для работы
+  на устройствах с ограниченными ресурсами, но не содержит принципиально новых научных
+  идей в области эмоционального синтеза речи или zero-shot клонирования голоса.
