@@ -1,0 +1,33 @@
+title: 'PMOA-TTS: Introducing the PubMed Open Access Textual Times Series Corpus'
+url: https://arxiv.org/abs/2505.20323
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-16T10:06:58.023608+00:00'
+date_seen: '2026-01-16'
+metadata:
+  arxiv_id: '2505.20323'
+  published: Fri, 16 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.LG
+content_preview: 'Title: PMOA-TTS: Introducing the PubMed Open Access Textual Times
+  Series Corpus
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Clinical narratives encode temporal dynamics essential for modeling patient trajectories,
+  yet large-scale temporally annotated resources are scarce. We introduce PMOA-TTS,
+  a corpus of 124,699 single-patient PubMed Open Access case reports converted into
+  structured textual timelines of (event, time) pairs using a scalable large-language-model
+  pipeline (Llama 3.3 70B and DeepSeek-R1). The c'
+content_length: 1251
+llm_content_sent: 1251
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена созданию корпуса медицинских текстов с временными метками
+  для моделирования траекторий пациентов, что не имеет отношения к эмоциональному/экспрессивному
+  синтезу речи с zero-shot возможностями.

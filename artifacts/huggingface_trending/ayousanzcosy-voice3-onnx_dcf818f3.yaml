@@ -1,0 +1,77 @@
+title: ayousanz/cosy-voice3-onnx
+url: https://huggingface.co/ayousanz/cosy-voice3-onnx
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-16T10:07:40.085035+00:00'
+date_seen: '2026-01-16'
+metadata:
+  likes: '4'
+  downloads: '0'
+  trending_score: '4'
+  last_modified: '2026-01-15T07:08:52.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - en
+
+  - zh
+
+  - ja
+
+  - ko
+
+  - de
+
+  - es
+
+  - fr
+
+  - it
+
+  - ru
+
+  tags:
+
+  - text-to-speech
+
+  - tts
+
+  - onnx
+
+  - voice-cloning
+
+  - cosyvoice
+
+  library_name: onnxruntime
+
+  pipeline_tag: text-to-speech
+
+  base_model:
+
+  - FunAudioLLM/Fun-CosyVoice3-0.5B-2512
+
+  ---
+
+
+  # CosyVoice3 ONNX Models
+
+
+  ONNX-exported models for [Fun-CosyVoice3-0.5B](https://modelscope.cn/models/FunAudioLLM/Fun-CosyVoice3-0.5B-2512),
+  enabling PyTorch-free inference.
+
+
+  ## Model Description
+
+
+  CosyVoice3 is a multilingual text-to-speech (TTS)'
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Это просто ONNX-конвертация существующей модели CosyVoice3 для инференса без
+  PyTorch, что является техническим портированием без научной новизны в области эмоционального/экспрессивного
+  синтеза речи.

@@ -1,0 +1,34 @@
+title: LLM-Driven Preference Data Synthesis for Proactive Prediction of the Next User
+  Utterance in Human-Machine Dialogue
+url: https://arxiv.org/abs/2601.09713
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-16T10:06:58.019199+00:00'
+date_seen: '2026-01-16'
+metadata:
+  arxiv_id: '2601.09713'
+  published: Fri, 16 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: LLM-Driven Preference Data Synthesis for Proactive Prediction
+  of the Next User Utterance in Human-Machine Dialogue
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Proactively predicting a users next utterance in human-machine dialogue can streamline
+  interaction and improve user experience. Existing commercial API-based solutions
+  are subject to privacy concerns while deploying general-purpose LLMs locally remains
+  computationally expensive. As such, training a compact, task-specific LLM provides
+  a practical a'
+content_length: 1903
+llm_content_sent: 1903
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена предсказанию следующей реплики пользователя в диалоге через
+  синтез данных предпочтений, что не имеет отношения к эмоциональному/экспрессивному
+  синтезу речи с zero-shot возможностями.
