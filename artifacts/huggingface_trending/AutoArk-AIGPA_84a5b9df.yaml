@@ -1,0 +1,26 @@
+title: AutoArk-AI/GPA
+url: https://huggingface.co/AutoArk-AI/GPA
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-17T10:07:10.460373+00:00'
+date_seen: '2026-01-17'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-01-16T11:31:57.000Z'
+content_preview: "---\r\nlibrary_name: transformers\r\ntags:\r\n- text-to-speech\r\
+  \n- automatic-speech-recognition\r\n- voice-conversion\r\n- speech\r\n- audio\r\n\
+  pipeline_tag: text-to-speech\r\nlanguage:\r\n- en\r\n- zh\r\nlicense: apache-2.0\r\
+  \n---\r\n<div align=\"center\">\r\n  <img src=\"figures/GPA_intro.png\" width=\"\
+  80%\" alt=\"GPA Logo\"/>\r\n\r\n# GPA: One Model for Speech Recognition, Text-to-Speech,\
+  \ and Voice Conversion\r\n\r\n\r\n</div>\r\n\r\n> **TL;DR** GPA incorporates three\
+  \ speech tasks into one single model and this repo includes codes of training"
+content_length: 7935
+llm_content_sent: 7935
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Хотя модель объединяет три речевые задачи в одном трансформере, это инкрементальное
+  улучшение без существенных новшеств в эмоциональном/экспрессивном синтезе или zero-shot
+  способностях.
