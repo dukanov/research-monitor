@@ -1,0 +1,30 @@
+title: greenjim301-ux/media-server
+url: https://github.com/greenjim301-ux/media-server
+source: github_new
+type: repository
+date_discovered: '2026-01-06T08:06:39+00:00'
+date_seen: '2026-01-18'
+metadata:
+  stars: '20'
+  language: C++
+  created_at: '2026-01-06T08:06:39Z'
+content_preview: 'Description: A media server implementation supporting GB/T 28181,
+  RTSP, WebRTC and HTTP streaming protocols.
+
+
+  Topics: No topics
+
+
+  Language: C++
+
+  Stars: 20
+
+  '
+content_length: 153
+llm_content_sent: 153
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Репозиторий представляет собой стандартную реализацию медиа-сервера с поддержкой
+  протоколов потокового вещания, что не имеет отношения к синтезу эмоциональной речи
+  или zero-shot возможностям.

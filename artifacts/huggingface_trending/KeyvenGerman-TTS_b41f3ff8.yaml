@@ -1,0 +1,65 @@
+title: Keyven/German-TTS
+url: https://huggingface.co/Keyven/German-TTS
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-18T10:07:03.182793+00:00'
+date_seen: '2026-01-18'
+metadata:
+  likes: '3'
+  downloads: '5'
+  trending_score: '3'
+  last_modified: '2026-01-07T14:38:15.000Z'
+content_preview: 'German-TTS
+
+  german-tts.de
+
+  - Hochoptimiertes deutsches Text-to-Speech System mit Zero-Shot Voice Cloning.
+
+  Features
+
+  Deutsche Sprachsynthese
+
+  - Optimiert für native deutsche Aussprache
+
+  Zero-Shot Voice Cloning
+
+  - Klone jede Stimme mit 3-10s Audio
+
+  Emotionale Sprache (EN)
+
+  - Happy, Sad, Angry, Surprise
+
+  Geschwindigkeitskontrolle
+
+  - 0.5x bis 2.0x
+
+  51 Stimmen
+
+  - 22 Deutsche + 29 Englische
+
+  Schnellstart
+
+  from
+
+  german_tts
+
+  import
+
+  GermanTTS
+
+
+  tts = GermanTTS()
+
+  # Synthese
+
+  audio = tts.synthesize(
+
+  "Guten Tag! Wie geht es '
+content_length: 1161
+llm_content_sent: 1161
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Система предлагает только базовую эмоциональную синтезу для английского языка
+  и стандартное клонирование голоса, без существенных научных новшеств или методологических
+  прорывов.
