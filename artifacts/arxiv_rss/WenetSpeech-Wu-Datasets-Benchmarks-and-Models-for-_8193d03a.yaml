@@ -1,0 +1,35 @@
+title: 'WenetSpeech-Wu: Datasets, Benchmarks, and Models for a Unified Chinese Wu
+  Dialect Speech Processing Ecosystem'
+url: https://arxiv.org/abs/2601.11027
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-19T10:09:19.538318+00:00'
+date_seen: '2026-01-19'
+metadata:
+  arxiv_id: '2601.11027'
+  published: Mon, 19 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: WenetSpeech-Wu: Datasets, Benchmarks, and Models for a Unified
+  Chinese Wu Dialect Speech Processing Ecosystem
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech processing for low-resource dialects remains a fundamental challenge in developing
+  inclusive and robust speech technologies. Despite its linguistic significance and
+  large speaker population, the Wu dialect of Chinese has long been hindered by the
+  lack of large-scale speech data, standardized evaluation benchmarks, and publicly
+  available models. '
+content_length: 1620
+llm_content_sent: 1620
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Работа представляет первый крупномасштабный датасет для диалекта У китайского
+  языка с базовыми моделями TTS, но не содержит новых методов для эмоционального/экспрессивного
+  синтеза или zero-shot способностей - это стандартная работа по созданию ресурсов
+  для низкоресурсного языка.

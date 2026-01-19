@@ -1,0 +1,58 @@
+title: mlx-community/Kokoro-82M-4bit
+url: https://huggingface.co/mlx-community/Kokoro-82M-4bit
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-19T10:09:54.795064+00:00'
+date_seen: '2026-01-19'
+metadata:
+  likes: '6'
+  downloads: '531'
+  trending_score: '1'
+  last_modified: '2026-01-05T23:44:35.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - en
+
+  base_model:
+
+  - yl4579/StyleTTS2-LJSpeech
+
+  pipeline_tag: text-to-speech
+
+  library_name: mlx
+
+  ---
+
+  # mlx-community/Kokoro-82M-4bit
+
+  This model was converted to MLX format from [`hexagrad/Kokoro-82M`]() using mlx-audio
+  version **0.0.1**.
+
+  Refer to the [original model card](https://huggingface.co/hexagrad/Kokoro-82M) for
+  more details on the model.
+
+  ## Use with mlx
+
+
+  ```bash
+
+  pip install -U mlx-audio
+
+  ```
+
+
+  ```bash
+
+  python -m mlx_audio.tts.generate --model mlx-community/Kokor'
+content_length: 535
+llm_content_sent: 535
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто конвертация существующей модели в формат MLX с квантизацией до
+  4 бит, без какого-либо научного вклада в синтез эмоциональной речи или zero-shot
+  возможности.

@@ -1,0 +1,20 @@
+title: rcawston/Overlook
+url: https://github.com/rcawston/Overlook
+source: github_new
+type: repository
+date_discovered: '2026-01-09T05:19:52+00:00'
+date_seen: '2026-01-19'
+metadata:
+  stars: '19'
+  language: Swift
+  created_at: '2026-01-09T05:19:52Z'
+content_preview: "Description: Overlook is a MacOS-native remote console for GL.iNet\
+  \ GLKVM / Comet-style KVM devices. \n\nTopics: No topics\n\nLanguage: Swift\nStars:\
+  \ 19\n"
+content_length: 147
+llm_content_sent: 147
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Это приложение для удаленного управления KVM-устройствами, которое не имеет
+  никакого отношения к синтезу речи или обработке аудио.

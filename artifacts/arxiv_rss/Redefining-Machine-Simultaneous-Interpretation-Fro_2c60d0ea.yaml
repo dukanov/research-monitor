@@ -1,0 +1,34 @@
+title: 'Redefining Machine Simultaneous Interpretation: From Incremental Translation
+  to Human-Like Strategies'
+url: https://arxiv.org/abs/2601.11002
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-19T10:09:19.576231+00:00'
+date_seen: '2026-01-19'
+metadata:
+  arxiv_id: '2601.11002'
+  published: Mon, 19 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Redefining Machine Simultaneous Interpretation: From Incremental
+  Translation to Human-Like Strategies
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Simultaneous Machine Translation (SiMT) requires high-quality translations under
+  strict real-time constraints, which traditional policies with only READ/WRITE actions
+  cannot fully address. We extend the action space of SiMT with four adaptive actions:
+  Sentence_Cut, Drop, Partial_Summarization and Pronominalization, which enable real-time
+  restructuring, omissio'
+content_length: 1464
+llm_content_sent: 1464
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена машинному синхронному переводу, а не синтезу речи, и хотя
+  упоминается TTS для оценки, основной вклад касается стратегий перевода, что не релевантно
+  для эмоционального/экспрессивного синтеза речи.
