@@ -1,0 +1,26 @@
+title: hynt/F5-TTS-Vietnamese-100h
+url: https://huggingface.co/hynt/F5-TTS-Vietnamese-100h
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-20T10:09:46.406654+00:00'
+date_seen: '2026-01-20'
+metadata:
+  likes: '24'
+  downloads: '2'
+  trending_score: '1'
+  last_modified: '2026-01-18T11:16:30.000Z'
+content_preview: "---\ntags:\n  - text-to-speech\n  - vietnamese\n  - ai-model\n \
+  \ - deep-learning\nlicense: cc-by-nc-sa-4.0\nlibrary_name: pytorch\ndatasets:\n\
+  \  - VLSP2021\n  - VLSP2022\n  - VLSP2023\n  - vietTTS\nmodel_name: F5-TTS-Vietnamese-150h\n\
+  language: vi\n---\n\n# \U0001F6D1 Important Note ⚠️  \nThis model is only intended\
+  \ for **research purposes**.  \n**Access requests must be made using an institutional,\
+  \ academic, or corporate email**. Requests from public email providers will be denied.\
+  \ We appreciate your understanding.  \n\n# \U0001F399️ F"
+content_length: 2276
+llm_content_sent: 2276
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Это просто стандартная адаптация существующей модели F5-TTS для вьетнамского
+  языка без каких-либо новых методов для эмоциональной/экспрессивной речи или zero-shot
+  возможностей.

@@ -1,0 +1,63 @@
+title: KevinAHM/pocket-tts-onnx
+url: https://huggingface.co/KevinAHM/pocket-tts-onnx
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-20T10:09:40.625942+00:00'
+date_seen: '2026-01-20'
+metadata:
+  likes: '4'
+  downloads: '0'
+  trending_score: '4'
+  last_modified: '2026-01-19T01:40:37.000Z'
+content_preview: '---
+
+  license: cc-by-4.0
+
+  language:
+
+  - en
+
+  library_name: pocket-tts-onnx
+
+  base_model:
+
+  - kyutai/pocket-tts
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - tts
+
+  - voice-cloning
+
+  - onnx
+
+  - onnxruntime
+
+  ---
+
+
+  # Pocket TTS ONNX
+
+
+  ONNX export of [Pocket TTS](https://huggingface.co/kyutai/pocket-tts) for lightweight
+  text-to-speech with zero-shot voice cloning.
+
+
+  ## Model Description
+
+
+  Pocket TTS is a compact text-to-speech model from Kyutai that supports voice cloning
+  from short audio samples. This ONNX export provides:
+
+
+  - **Z'
+content_length: 5213
+llm_content_sent: 5213
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Это просто ONNX-экспорт существующей модели Pocket TTS с оптимизацией для
+  CPU инференса, без новых научных идей в области эмоциональности или экспрессивности
+  речи.

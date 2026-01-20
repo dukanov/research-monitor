@@ -1,0 +1,38 @@
+title: YatharthS/LuxVoice
+url: https://huggingface.co/YatharthS/LuxVoice
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-20T10:09:41.594786+00:00'
+date_seen: '2026-01-20'
+metadata:
+  likes: '3'
+  downloads: '17'
+  trending_score: '3'
+  last_modified: '2026-01-19T23:36:24.000Z'
+content_preview: '---
+
+  license: other
+
+  license_name: custom
+
+  license_link: LICENSE
+
+  language:
+
+  - en
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  LuxVoice is an incredibly fast sota 150m text-to-speech model distilled from NeuTTS
+  models that can voice clone and generate crisp 48khz outputs at speeds of 600x realtime
+  on gpu and 3x realtime on CPUs. Coming soon...'
+content_length: 329
+llm_content_sent: 329
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Модель представляет только инженерную оптимизацию существующих подходов (дистилляция
+  NeuTTS) без новых научных идей в области эмоционального синтеза или zero-shot capabilities.
