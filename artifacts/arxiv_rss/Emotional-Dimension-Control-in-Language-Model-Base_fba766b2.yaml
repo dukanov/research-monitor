@@ -1,0 +1,34 @@
+title: 'Emotional Dimension Control in Language Model-Based Text-to-Speech: Spanning
+  a Broad Spectrum of Human Emotions'
+url: https://arxiv.org/abs/2409.16681
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-21T10:08:32.885516+00:00'
+date_seen: '2026-01-21'
+metadata:
+  arxiv_id: '2409.16681'
+  published: Wed, 21 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.CL, cs.SD
+content_preview: 'Title: Emotional Dimension Control in Language Model-Based Text-to-Speech:
+  Spanning a Broad Spectrum of Human Emotions
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Emotional text-to-speech (TTS) systems sturggle to capture the full spectrum of
+  human emotions due to the inherent complexity of emotional expressions and the limited
+  coverage of existing emotion labels. To address this, we propose a language model-based
+  TTS framework that synthesizes speech across a broad range of emotional styles.
+  Our approach enab'
+content_length: 1238
+llm_content_sent: 1238
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Новый подход использует непрерывное трёхмерное пространство PAD для контроля
+  эмоций в TTS на основе языковых моделей, что позволяет генерировать более широкий
+  спектр эмоциональных выражений без явной привязки к категориальным меткам эмоций.

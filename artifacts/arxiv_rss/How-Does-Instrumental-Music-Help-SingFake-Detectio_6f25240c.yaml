@@ -1,0 +1,31 @@
+title: How Does Instrumental Music Help SingFake Detection?
+url: https://arxiv.org/abs/2509.14675
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-21T10:08:32.885277+00:00'
+date_seen: '2026-01-21'
+metadata:
+  arxiv_id: '2509.14675'
+  published: Wed, 21 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, eess.AS, eess.SP
+content_preview: 'Title: How Does Instrumental Music Help SingFake Detection?
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Although many models exist to detect singing voice deepfakes (SingFake), how these
+  models operate, particularly with instrumental accompaniment, is unclear. We investigate
+  how instrumental music affects SingFake detection from two perspectives. To investigate
+  the behavioral effect, we test different backbones, unpaired instrumental tracks,
+  and frequency subbands. To analyze the representational effect, we pr'
+content_length: 1128
+llm_content_sent: 1128
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена детекции поддельного пения, а не синтезу эмоциональной речи
+  с zero-shot возможностями - это совершенно другая задача.

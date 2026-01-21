@@ -1,0 +1,30 @@
+title: filliptm/ComfyUI_FL-HeartMuLa
+url: https://github.com/filliptm/ComfyUI_FL-HeartMuLa
+source: github_new
+type: repository
+date_discovered: '2026-01-20T05:19:50+00:00'
+date_seen: '2026-01-21'
+metadata:
+  stars: '46'
+  language: Python
+  created_at: '2026-01-20T05:19:50Z'
+content_preview: 'Description: FL HeartMuLa - Multilingual AI music generation nodes
+  for ComfyUI. Generate full songs with lyrics using HeartMuLa.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 46
+
+  '
+content_length: 176
+llm_content_sent: 176
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий представляет собой обёртку для существующей модели генерации музыки
+  HeartMuLa в ComfyUI, не содержит научных новшеств в области эмоционального/экспрессивного
+  синтеза речи и фокусируется на музыке, а не на речи.

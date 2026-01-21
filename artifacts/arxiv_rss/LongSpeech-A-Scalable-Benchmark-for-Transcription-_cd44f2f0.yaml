@@ -1,0 +1,33 @@
+title: 'LongSpeech: A Scalable Benchmark for Transcription, Translation and Understanding
+  in Long Speech'
+url: https://arxiv.org/abs/2601.13539
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-21T10:08:32.884118+00:00'
+date_seen: '2026-01-21'
+metadata:
+  arxiv_id: '2601.13539'
+  published: Wed, 21 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: LongSpeech: A Scalable Benchmark for Transcription, Translation
+  and Understanding in Long Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in audio-language models have demonstrated remarkable success on
+  short, segment-level speech tasks. However, real-world applications such as meeting
+  transcription, spoken document understanding, and conversational analysis require
+  robust models capable of processing and reasoning over long-form audio. In this
+  work, we present LongSpeech, a large-sca'
+content_length: 1422
+llm_content_sent: 1422
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа представляет только новый бенчмарк для длинных аудиозаписей, но не
+  содержит методов для эмоциональной/экспрессивной синтеза речи или zero-shot возможностей.

@@ -1,0 +1,34 @@
+title: 'Habibi: Laying the Open-Source Foundation of Unified-Dialectal Arabic Speech
+  Synthesis'
+url: https://arxiv.org/abs/2601.13802
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-21T10:08:32.885131+00:00'
+date_seen: '2026-01-21'
+metadata:
+  arxiv_id: '2601.13802'
+  published: Wed, 21 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.SD, eess.AS
+content_preview: 'Title: Habibi: Laying the Open-Source Foundation of Unified-Dialectal
+  Arabic Speech Synthesis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  A notable gap persists in speech synthesis research and development for Arabic dialects,
+  particularly from a unified modeling perspective. Despite its high practical value,
+  the inherent linguistic complexity of Arabic dialects, further compounded by a lack
+  of standardized data, benchmarks, and evaluation guidelines, steers researchers
+  toward safer ground. To bridge this divi'
+content_length: 1388
+llm_content_sent: 1388
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: Работа фокусируется на многодиалектном синтезе арабской речи через curriculum
+  learning, но не затрагивает эмоциональную выразительность или zero-shot способности
+  для передачи эмоций.

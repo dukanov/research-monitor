@@ -1,0 +1,32 @@
+title: Harmonizing the Arabic Audio Space with Data Scheduling
+url: https://arxiv.org/abs/2601.12494
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-21T10:08:32.883772+00:00'
+date_seen: '2026-01-21'
+metadata:
+  arxiv_id: '2601.12494'
+  published: Wed, 21 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.CL, eess.AS
+content_preview: 'Title: Harmonizing the Arabic Audio Space with Data Scheduling
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Audio large language models (LLMs) enable unified speech understanding and generation,
+  yet their adaptation to linguistically complex, dialect-rich settings remains underexplored.
+  This paper presents the first systematic study of multi-task instruction tuning
+  for an Arabic-centric audio LLM, covering a hierarchy of generative tasks (ASR,
+  speech summarization) and discriminative tasks (dialect and emotion '
+content_length: 1656
+llm_content_sent: 1656
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа фокусируется на многозадачном обучении арабской аудио-языковой модели
+  с новыми стратегиями планирования данных, но не затрагивает эмоциональный/экспрессивный
+  синтез речи или zero-shot возможности синтеза.

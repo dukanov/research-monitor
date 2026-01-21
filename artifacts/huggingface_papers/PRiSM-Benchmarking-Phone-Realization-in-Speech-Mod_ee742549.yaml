@@ -1,0 +1,29 @@
+title: 'PRiSM: Benchmarking Phone Realization in Speech Models'
+url: https://huggingface.co/papers/2601.14046
+source: huggingface_papers
+type: paper
+date_discovered: '2026-01-21T10:09:04.371713+00:00'
+date_seen: '2026-01-21'
+metadata:
+  upvotes: '3'
+  paper_id: '2601.14046'
+  published_date: '2026-01-21'
+content_preview: 'Title: PRiSM: Benchmarking Phone Realization in Speech Models
+
+
+  Summary:
+
+  Phone recognition (PR) serves as the atomic interface for language-agnostic modeling
+  for cross-lingual speech processing and phonetic analysis. Despite prolonged efforts
+  in developing PR systems, current evaluations only measure surface-level transcription
+  accuracy. We introduce PRiSM, the first open-source benchmark designed to expose
+  blind spots in phonetic perception through intrinsic and extrinsic evaluation of
+  PR system'
+content_length: 1063
+llm_content_sent: 1063
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа представляет бенчмарк для оценки систем распознавания фонем, что является
+  инфраструктурным вкладом, но не содержит новых методов для эмоционального/экспрессивного
+  синтеза речи с zero-shot способностями.

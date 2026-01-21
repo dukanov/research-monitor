@@ -1,0 +1,33 @@
+title: 'CodeSep: Low-Bitrate Codec-Driven Speech Separation with Base-Token Disentanglement
+  and Auxiliary-Token Serial Prediction'
+url: https://arxiv.org/abs/2601.12757
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-21T10:08:32.988340+00:00'
+date_seen: '2026-01-21'
+metadata:
+  arxiv_id: '2601.12757'
+  published: Wed, 21 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: CodeSep: Low-Bitrate Codec-Driven Speech Separation with
+  Base-Token Disentanglement and Auxiliary-Token Serial Prediction
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This paper targets a new scenario that integrates speech separation with speech
+  compression, aiming to disentangle multiple speakers while producing discrete representations
+  for efficient transmission or storage, with applications in online meetings and
+  dialogue archiving. To address this scenario, we propose CodeSep, a codec-driven
+  model t'
+content_length: 1460
+llm_content_sent: 1460
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена разделению речи с компрессией, но не затрагивает эмоциональный/экспрессивный
+  синтез речи или zero-shot возможности - это совершенно другая область исследований.

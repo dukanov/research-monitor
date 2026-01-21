@@ -1,0 +1,33 @@
+title: Ultra-Lightweight Network for Ship-Radiated Sound Classification on Embedded
+  Deployment
+url: https://arxiv.org/abs/2601.13679
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-21T10:08:32.884177+00:00'
+date_seen: '2026-01-21'
+metadata:
+  arxiv_id: '2601.13679'
+  published: Wed, 21 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: Ultra-Lightweight Network for Ship-Radiated Sound Classification
+  on Embedded Deployment
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This letter presents ShuffleFAC, a lightweight acoustic model for ship-radiated
+  sound classification in resource-constrained maritime monitoring systems. ShuffleFAC
+  integrates Frequency-Aware convolution into an efficiency-oriented backbone using
+  separable convolution, point-wise group convolution, and channel shuffle, enabling
+  frequency-sensitive feature extraction with lo'
+content_length: 1128
+llm_content_sent: 1128
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена классификации звуков кораблей для морского мониторинга, что
+  совершенно не связано с синтезом эмоциональной речи или zero-shot генерацией речи.

@@ -1,0 +1,34 @@
+title: Adaptive Speaker Embedding Self-Augmentation for Personal Voice Activity Detection
+  with Short Enrollment Speech
+url: https://arxiv.org/abs/2601.12769
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-21T10:08:32.988356+00:00'
+date_seen: '2026-01-21'
+metadata:
+  arxiv_id: '2601.12769'
+  published: Wed, 21 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Adaptive Speaker Embedding Self-Augmentation for Personal
+  Voice Activity Detection with Short Enrollment Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Personal Voice Activity Detection (PVAD) is crucial for identifying target speaker
+  segments in the mixture, yet its performance heavily depends on the quality of speaker
+  embeddings. A key practical limitation is the short enrollment speech--such as a
+  wake-up word--which provides limited cues. This paper proposes a novel adaptive
+  speaker embedding sel'
+content_length: 1176
+llm_content_sent: 1176
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена детекции голосовой активности конкретного говорящего (PVAD),
+  а не синтезу эмоциональной/экспрессивной речи с zero-shot возможностями - это совершенно
+  другая задача из области анализа речи, а не синтеза.

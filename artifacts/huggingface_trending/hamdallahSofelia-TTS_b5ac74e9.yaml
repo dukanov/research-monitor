@@ -1,0 +1,26 @@
+title: hamdallah/Sofelia-TTS
+url: https://huggingface.co/hamdallah/Sofelia-TTS
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-21T10:09:16.464276+00:00'
+date_seen: '2026-01-21'
+metadata:
+  likes: '2'
+  downloads: '20'
+  trending_score: '2'
+  last_modified: '2026-01-19T00:21:29.000Z'
+content_preview: "---\nlanguage:\n- ar\n- en\nlicense: apache-2.0\ntags:\n- text-to-speech\n\
+  - tts\n- audio\n- speech\n- palestinian-arabic\n- arabic\n- voice-cloning\n- miratts\n\
+  - sofelia\nbase_model: YatharthS/MiraTTS\nlibrary_name: transformers\npipeline_tag:\
+  \ text-to-speech\n---\n\n<div style=\"text-align: center;\">\n  <h1>\U0001F1F5\U0001F1F8\
+  \ Sofelia-TTS \U0001F1F5\U0001F1F8</h1>\n  <p><strong>Palestinian Arabic Text-to-Speech\
+  \ Model</strong></p>\n  <p><em>Palestine will be free</em> \U0001F54A️</p>\n  <p><img\
+  \ style=\"margin: auto; width: 500px\" src=\"https://huggingface.co/hamdall"
+content_length: 8584
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Это просто файн-тюнинг существующей модели MiraTTS для палестинского диалекта
+  арабского языка без каких-либо технических новшеств в области эмоциональности или
+  zero-shot синтеза речи.

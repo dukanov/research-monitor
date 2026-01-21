@@ -1,0 +1,34 @@
+title: Confidence-based Filtering for Speech Dataset Curation with Generative Speech
+  Enhancement Using Discrete Tokens
+url: https://arxiv.org/abs/2601.12254
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-21T10:08:32.883670+00:00'
+date_seen: '2026-01-21'
+metadata:
+  arxiv_id: '2601.12254'
+  published: Wed, 21 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: Confidence-based Filtering for Speech Dataset Curation with
+  Generative Speech Enhancement Using Discrete Tokens
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Generative speech enhancement (GSE) models show great promise in producing high-quality
+  clean speech from noisy inputs, enabling applications such as curating noisy text-to-speech
+  (TTS) datasets into high-quality ones. However, GSE models are prone to hallucination
+  errors, such as phoneme omissions and speaker inconsistency, which conventional
+  error '
+content_length: 1327
+llm_content_sent: 1327
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена фильтрации ошибок в моделях улучшения речи для курирования
+  датасетов, но не затрагивает эмоциональный/экспрессивный синтез речи или zero-shot
+  возможности.

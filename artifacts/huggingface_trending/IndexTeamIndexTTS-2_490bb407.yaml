@@ -1,0 +1,26 @@
+title: IndexTeam/IndexTTS-2
+url: https://huggingface.co/IndexTeam/IndexTTS-2
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-21T10:09:08.396152+00:00'
+date_seen: '2026-01-21'
+metadata:
+  likes: '603'
+  downloads: '18566'
+  trending_score: '15'
+  last_modified: '2026-01-20T13:41:51.000Z'
+content_preview: "---\nlanguage:\n- en\n- zh\npipeline_tag: text-to-speech\n---\n\
+  ## \U0001F449\U0001F3FB IndexTTS2 \U0001F448\U0001F3FB\n\n<center><h3>IndexTTS2:\
+  \ A Breakthrough in Emotionally Expressive and Duration-Controlled Auto-Regressive\
+  \ Zero-Shot Text-to-Speech</h3></center>\n\n\n<div align=\"center\">\n  <a href='https://arxiv.org/abs/2506.21619'>\n\
+  \    <img src='https://img.shields.io/badge/ArXiv-2506.21619-red?logo=arxiv'/>\n\
+  \  </a>\n  <br/>\n  <a href='https://github.com/index-tts/index-tts'>\n    <img\
+  \ src='https://img.shields.io/badge/GitHub-Code-orange?logo"
+content_length: 2493
+llm_content_sent: 2493
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: Инкрементальное улучшение существующих авторегрессионных TTS моделей с добавлением
+  контроля длительности и эмоциональной экспрессивности, но без принципиально новых
+  архитектурных решений или методологических прорывов.

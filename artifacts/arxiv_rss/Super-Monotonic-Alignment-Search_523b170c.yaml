@@ -1,0 +1,33 @@
+title: Super Monotonic Alignment Search
+url: https://arxiv.org/abs/2409.07704
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-21T10:08:32.988705+00:00'
+date_seen: '2026-01-21'
+metadata:
+  arxiv_id: '2409.07704'
+  published: Wed, 21 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.AI
+content_preview: 'Title: Super Monotonic Alignment Search
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Monotonic alignment search (MAS), introduced by Glow-TTS, is one of the most popular
+  algorithm in text-to-speech to estimate unknown alignments between text and speech.
+  Since this algorithm needs to search for the most probable alignment with dynamic
+  programming by caching all possible paths, the time complexity of the algorithm
+  is $O(T \times S)$, where $T$ is the length of text and $S$ is the length of speech
+  representation. '
+content_length: 1130
+llm_content_sent: 1130
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Работа представляет только техническую оптимизацию существующего алгоритма
+  MAS через GPU-ускорение, без каких-либо новых научных идей в области синтеза речи
+  или улучшения качества выравнивания.

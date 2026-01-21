@@ -1,0 +1,32 @@
+title: 'PRiSM: Benchmarking Phone Realization in Speech Models'
+url: https://arxiv.org/abs/2601.14046
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-21T10:08:32.885164+00:00'
+date_seen: '2026-01-21'
+metadata:
+  arxiv_id: '2601.14046'
+  published: Wed, 21 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.SD
+content_preview: 'Title: PRiSM: Benchmarking Phone Realization in Speech Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Phone recognition (PR) serves as the atomic interface for language-agnostic modeling
+  for cross-lingual speech processing and phonetic analysis. Despite prolonged efforts
+  in developing PR systems, current evaluations only measure surface-level transcription
+  accuracy. We introduce PRiSM, the first open-source benchmark designed to expose
+  blind spots in phonetic perception through intrinsic and extrinsic eval'
+content_length: 1150
+llm_content_sent: 1150
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа представляет новый бенчмарк для оценки систем фонетического распознавания,
+  но не касается эмоциональной/экспрессивной синтеза речи или zero-shot способностей
+  синтеза.
