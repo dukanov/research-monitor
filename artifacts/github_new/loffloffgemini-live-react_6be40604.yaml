@@ -1,0 +1,30 @@
+title: loffloff/gemini-live-react
+url: https://github.com/loffloff/gemini-live-react
+source: github_new
+type: repository
+date_discovered: '2026-01-15T20:40:55+00:00'
+date_seen: '2026-01-22'
+metadata:
+  stars: '15'
+  language: TypeScript
+  created_at: '2026-01-15T20:40:55Z'
+content_preview: 'Description: React hook for Google Gemini Live API - real-time voice
+  streaming, session recording, workflow automation, and smart element detection
+
+
+  Topics: ai, audio, automation, gemini, google, react, real-time, streaming, typescript,
+  voice, workflow
+
+
+  Language: TypeScript
+
+  Stars: 15
+
+  '
+content_length: 285
+llm_content_sent: 285
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто React-обёртка для существующего API Google Gemini Live без какого-либо
+  научного вклада в эмоциональный или экспрессивный синтез речи.

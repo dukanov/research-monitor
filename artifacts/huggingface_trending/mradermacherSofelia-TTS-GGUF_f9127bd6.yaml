@@ -1,0 +1,25 @@
+title: mradermacher/Sofelia-TTS-GGUF
+url: https://huggingface.co/mradermacher/Sofelia-TTS-GGUF
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-22T10:09:39.859915+00:00'
+date_seen: '2026-01-22'
+metadata:
+  likes: '2'
+  downloads: '407'
+  trending_score: '2'
+  last_modified: '2026-01-21T01:45:37.000Z'
+content_preview: "---\nbase_model: hamdallah/Sofelia-TTS\nlanguage:\n- ar\n- en\n\
+  library_name: transformers\nlicense: apache-2.0\nmradermacher:\n  readme_rev: 1\n\
+  quantized_by: mradermacher\ntags:\n- text-to-speech\n- tts\n- audio\n- speech\n\
+  - palestinian-arabic\n- arabic\n- voice-cloning\n- miratts\n- sofelia\n---\n## About\n\
+  \n<!-- ### quantize_version: 2 -->\n<!-- ### output_tensor_quantised: 1 -->\n<!--\
+  \ ### convert_type: hf -->\n<!-- ### vocab_type:  -->\n<!-- ### tags:  -->\n<!--\
+  \ ### quants:  x-f16 Q4_K_S Q2_K Q8_0 Q6_K Q3_K_M Q3_K_S Q3_"
+content_length: 3630
+llm_content_sent: 3630
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто квантизация существующей модели Sofelia-TTS в формат GGUF без каких-либо
+  научных новшеств в области эмоционального синтеза речи или zero-shot возможностей.

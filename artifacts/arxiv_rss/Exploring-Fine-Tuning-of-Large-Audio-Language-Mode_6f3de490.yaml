@@ -1,0 +1,33 @@
+title: Exploring Fine-Tuning of Large Audio Language Models for Spoken Language Understanding
+  under Limited Speech Data
+url: https://arxiv.org/abs/2509.15389
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-22T10:08:57.921977+00:00'
+date_seen: '2026-01-22'
+metadata:
+  arxiv_id: '2509.15389'
+  published: Thu, 22 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.CL, cs.LG, eess.AS
+content_preview: 'Title: Exploring Fine-Tuning of Large Audio Language Models for
+  Spoken Language Understanding under Limited Speech Data
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large Audio Language Models (LALMs) have emerged as powerful tools for speech-related
+  tasks but remain underexplored for fine-tuning, especially with limited speech data.
+  To bridge this gap, we systematically examine how different fine-tuning schemes
+  including text-only, direct mixing, and curriculum learning affect spoken language
+  understanding (SL'
+content_length: 1267
+llm_content_sent: 1267
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена пониманию речи (SLU) и fine-tuning больших аудио-языковых
+  моделей, но не касается синтеза эмоциональной/экспрессивной речи с zero-shot возможностями.

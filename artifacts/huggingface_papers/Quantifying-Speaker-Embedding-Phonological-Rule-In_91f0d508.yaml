@@ -1,0 +1,30 @@
+title: Quantifying Speaker Embedding Phonological Rule Interactions in Accented Speech
+  Synthesis
+url: https://huggingface.co/papers/2601.14417
+source: huggingface_papers
+type: paper
+date_discovered: '2026-01-22T10:09:29.536707+00:00'
+date_seen: '2026-01-22'
+metadata:
+  upvotes: '4'
+  paper_id: '2601.14417'
+  published_date: '2026-01-22'
+content_preview: 'Title: Quantifying Speaker Embedding Phonological Rule Interactions
+  in Accented Speech Synthesis
+
+
+  Summary:
+
+  Many spoken languages, including English, exhibit wide variation in dialects and
+  accents, making accent control an important capability for flexible text-to-speech
+  (TTS) models. Current TTS systems typically generate accented speech by conditioning
+  on speaker embeddings associated with specific accents. While effective, this approach
+  offers limited interpretability and controllability, as e'
+content_length: 1314
+llm_content_sent: 1314
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.65
+reason: Новый метрик PSR для количественной оценки взаимодействия между эмбеддингами
+  говорящих и лингвистическими правилами в акцентном синтезе речи, что улучшает интерпретируемость
+  и контролируемость систем TTS.

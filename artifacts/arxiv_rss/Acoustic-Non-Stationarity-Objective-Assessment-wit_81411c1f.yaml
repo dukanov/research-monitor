@@ -1,0 +1,34 @@
+title: Acoustic Non-Stationarity Objective Assessment with Hard Label Criteria for
+  Supervised Learning Models
+url: https://arxiv.org/abs/2508.06405
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-22T10:08:57.935504+00:00'
+date_seen: '2026-01-22'
+metadata:
+  arxiv_id: '2508.06405'
+  published: Thu, 22 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, eess.SP
+content_preview: 'Title: Acoustic Non-Stationarity Objective Assessment with Hard
+  Label Criteria for Supervised Learning Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Objective non-stationarity measures are resource intensive and impose critical limitations
+  for real-time processing solutions. In this paper, a novel Hard Label Criteria (HLC)
+  algorithm is proposed to generate a global non-stationarity label for acoustic signals,
+  enabling supervised learning strategies to be trained as stationarity estimators.
+  The HLC is firs'
+content_length: 1012
+llm_content_sent: 1012
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена оценке нестационарности акустических сигналов для общих целей,
+  что не имеет прямого отношения к эмоциональному/экспрессивному синтезу речи с zero-shot
+  возможностями.

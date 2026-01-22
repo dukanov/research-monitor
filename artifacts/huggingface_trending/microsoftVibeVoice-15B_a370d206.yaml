@@ -1,0 +1,51 @@
+title: microsoft/VibeVoice-1.5B
+url: https://huggingface.co/microsoft/VibeVoice-1.5B
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-22T10:09:33.365676+00:00'
+date_seen: '2026-01-22'
+metadata:
+  likes: '2170'
+  downloads: '305890'
+  trending_score: '8'
+  last_modified: '2026-01-22T07:22:28.000Z'
+content_preview: '---
+
+  language:
+
+  - en
+
+  - zh
+
+  license: mit
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - Podcast
+
+  library_name: transformers
+
+  ---
+
+
+  ## VibeVoice: A Frontier Open-Source Text-to-Speech Model
+
+
+  VibeVoice is a novel framework designed for generating expressive, long-form, multi-speaker
+  conversational audio, such as podcasts, from text. It addresses significant challenges
+  in traditional Text-to-Speech (TTS) systems, particularly in scalability, speaker
+  consistency, and natural turn-taking.
+
+
+  A core innovation of VibeVo'
+content_length: 7228
+llm_content_sent: 7228
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Новый подход к генерации экспрессивной речи через комбинацию LLM с диффузионными
+  моделями и ультранизкочастотными токенизаторами (7.5 Hz), позволяющий генерировать
+  до 90 минут многоговорной речи, что существенно превосходит возможности предыдущих
+  моделей.

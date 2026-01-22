@@ -1,0 +1,26 @@
+title: juliardi/chatterbox-multilingual-finetuned-arabic
+url: https://huggingface.co/juliardi/chatterbox-multilingual-finetuned-arabic
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-22T10:09:39.425156+00:00'
+date_seen: '2026-01-22'
+metadata:
+  likes: '2'
+  downloads: '7'
+  trending_score: '2'
+  last_modified: '2026-01-16T06:44:40.000Z'
+content_preview: "---\nlicense: mit\nbase_model: ResembleAI/chatterbox\nlanguage:\
+  \ \n- ar\n- en\npipeline_tag: text-to-speech\ntags:\n- text-to-speech\n- arabic\n\
+  - chatterbox\n- fine-tuned\n- voice-cloning\n- lora\n---\n\n# Chatterbox Arabic\
+  \ Fine-tuned TTS \U0001F1F8\U0001F1E6\n\nThis is an **Arabic-focused** fine-tuned\
+  \ version of [ResembleAI/chatterbox](https://huggingface.co/ResembleAI/chatterbox)\
+  \ multilingual model using LoRA (Low-Rank Adaptation).\n\n## \U0001F3AF Model Description\n\
+  \nThis model has been specifically fine-tuned to improve **Arabic language**"
+content_length: 7276
+llm_content_sent: 7276
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Это просто стандартная доводка существующей модели Chatterbox для арабского
+  языка с помощью LoRA - никаких новых научных идей или подходов к эмоциональному/экспрессивному
+  синтезу речи не представлено.

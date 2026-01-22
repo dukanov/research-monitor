@@ -1,0 +1,33 @@
+title: Principled Coarse-Grained Acceptance for Speculative Decoding in Speech
+url: https://arxiv.org/abs/2511.13732
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-22T10:08:57.935593+00:00'
+date_seen: '2026-01-22'
+metadata:
+  arxiv_id: '2511.13732'
+  published: Thu, 22 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.LG
+content_preview: 'Title: Principled Coarse-Grained Acceptance for Speculative Decoding
+  in Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speculative decoding accelerates autoregressive speech generation by letting a fast
+  draft model propose tokens that a larger target model verifies. However, for speech
+  LLMs that generate acoustic tokens, exact token matching is overly restrictive:
+  many discrete tokens are acoustically or semantically interchangeable, reducing
+  acceptance rates and limiting speedups. We introduce Principled '
+content_length: 1451
+llm_content_sent: 1451
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа касается только ускорения генерации речи через спекулятивное декодирование,
+  но не затрагивает эмоциональность, экспрессивность или zero-shot способности в синтезе
+  речи.
