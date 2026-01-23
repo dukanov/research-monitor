@@ -1,0 +1,31 @@
+title: QwenLM/Qwen3-TTS
+url: https://github.com/QwenLM/Qwen3-TTS
+source: github_new
+type: repository
+date_discovered: '2026-01-21T06:41:32+00:00'
+date_seen: '2026-01-23'
+metadata:
+  stars: '1331'
+  language: Python
+  created_at: '2026-01-21T06:41:32Z'
+content_preview: 'Description: Qwen3-TTS is an open-source series of TTS models developed
+  by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming
+  speech generation, free-form voice design, and vivid voice cloning.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 1331
+
+  '
+content_length: 269
+llm_content_sent: 269
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: Репозиторий представляет промышленную TTS-систему с поддержкой экспрессивного
+  синтеза и клонирования голоса, но без доступа к коду и техническим деталям сложно
+  оценить научную новизну подходов.

@@ -1,0 +1,31 @@
+title: 'FlashLabs Chroma 1.0: A Real-Time End-to-End Spoken Dialogue Model with Personalized
+  Voice Cloning'
+url: https://huggingface.co/papers/2601.11141
+source: huggingface_papers
+type: paper
+date_discovered: '2026-01-23T10:08:10.356988+00:00'
+date_seen: '2026-01-23'
+metadata:
+  upvotes: '9'
+  paper_id: '2601.11141'
+  published_date: '2026-01-22'
+content_preview: 'Title: FlashLabs Chroma 1.0: A Real-Time End-to-End Spoken Dialogue
+  Model with Personalized Voice Cloning
+
+
+  Summary:
+
+  Recent end-to-end spoken dialogue systems leverage speech tokenizers and neural
+  audio codecs to enable LLMs to operate directly on discrete speech representations.
+  However, these models often exhibit limited speaker identity preservation, hindering
+  personalized voice interaction. In this work, we present Chroma 1.0, the first open-source,
+  real-time, end-to-end spoken dialogue model'
+content_length: 1227
+llm_content_sent: 1227
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Новизна заключается в интеграции персонализированного клонирования голоса
+  в end-to-end диалоговую систему с низкой задержкой через чередующееся расписание
+  текстовых и аудио токенов (1:2), что позволяет потоковую генерацию с сохранением
+  идентичности говорящего.

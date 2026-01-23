@@ -1,0 +1,34 @@
+title: 'EmotionThinker: Prosody-Aware Reinforcement Learning for Explainable Speech
+  Emotion Reasoning'
+url: https://arxiv.org/abs/2601.15668
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-23T10:07:37.584370+00:00'
+date_seen: '2026-01-23'
+metadata:
+  arxiv_id: '2601.15668'
+  published: Fri, 23 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: EmotionThinker: Prosody-Aware Reinforcement Learning for
+  Explainable Speech Emotion Reasoning
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Emotional information in speech plays a unique role in multimodal perception. However,
+  current Speech Large Language Models (SpeechLLMs), similar to conventional speech
+  emotion recognition (SER) systems, still treat emotion understanding as a simple
+  classification problem. This provides limited interpretability of predictions, while
+  leaving the LLMs'' expressive and re'
+content_length: 2054
+llm_content_sent: 2054
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Новый подход к распознаванию эмоций в речи через reinforcement learning с
+  объяснимыми предсказаниями и улучшенным восприятием просодии, хотя связь с zero-shot
+  синтезом речи косвенная.

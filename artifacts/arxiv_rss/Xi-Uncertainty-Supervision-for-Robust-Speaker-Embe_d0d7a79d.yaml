@@ -1,0 +1,31 @@
+title: 'Xi+: Uncertainty Supervision for Robust Speaker Embedding'
+url: https://arxiv.org/abs/2509.05993
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-23T10:07:37.584738+00:00'
+date_seen: '2026-01-23'
+metadata:
+  arxiv_id: '2509.05993'
+  published: Fri, 23 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: Xi+: Uncertainty Supervision for Robust Speaker Embedding
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  There are various factors that can influence the performance of speaker recognition
+  systems, such as emotion, language and other speaker-related or context-related
+  variations. Since individual speech frames do not contribute equally to the utterance-level
+  representation, it is essential to estimate the importance or reliability of each
+  frame. The xi-vector model addresses this by assigning different wei'
+content_length: 1303
+llm_content_sent: 1303
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена улучшению извлечения признаков говорящего через оценку неопределенности
+  фреймов, но не касается эмоционального/экспрессивного синтеза речи с zero-shot возможностями.

@@ -1,0 +1,28 @@
+title: HaujetZhao/Fun-ASR-GGUF
+url: https://github.com/HaujetZhao/Fun-ASR-GGUF
+source: github_new
+type: repository
+date_discovered: '2026-01-18T14:15:46+00:00'
+date_seen: '2026-01-23'
+metadata:
+  stars: '19'
+  language: Python
+  created_at: '2026-01-18T14:15:46Z'
+content_preview: 'Description: 用 onnx 和 gguf 格式混合运行 FunASR-Nano 模型全流程
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 19
+
+  '
+content_length: 99
+llm_content_sent: 99
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто техническая реализация запуска существующей модели FunASR в форматах
+  ONNX/GGUF без научной новизны в области синтеза эмоциональной речи.

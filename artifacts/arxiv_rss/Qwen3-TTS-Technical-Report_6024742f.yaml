@@ -1,0 +1,34 @@
+title: Qwen3-TTS Technical Report
+url: https://arxiv.org/abs/2601.15621
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-23T10:07:37.584345+00:00'
+date_seen: '2026-01-23'
+metadata:
+  arxiv_id: '2601.15621'
+  published: Fri, 23 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.CL, eess.AS
+content_preview: 'Title: Qwen3-TTS Technical Report
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In this report, we present the Qwen3-TTS series, a family of advanced multilingual,
+  controllable, robust, and streaming text-to-speech models. Qwen3-TTS supports state-of-the-art
+  3-second voice cloning and description-based control, allowing both the creation
+  of entirely novel voices and fine-grained manipulation over the output speech. Trained
+  on over 5 million hours of speech data spanning 10 languages, Qwen3-TTS adopts a
+  dual-trac'
+content_length: 1434
+llm_content_sent: 1434
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Новый подход к TTS с dual-track LM архитектурой, двумя специализированными
+  токенизаторами (25Hz для семантики, 12Hz для ультра-низкой задержки) и возможностью
+  описательного контроля эмоций, что представляет интересный вклад в область экспрессивного
+  синтеза речи с zero-shot клонированием голоса.

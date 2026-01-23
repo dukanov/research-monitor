@@ -1,0 +1,33 @@
+title: 'DeepASMR: LLM-Based Zero-Shot ASMR Speech Generation for Anyone of Any Voice'
+url: https://arxiv.org/abs/2601.15596
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-23T10:07:37.584326+00:00'
+date_seen: '2026-01-23'
+metadata:
+  arxiv_id: '2601.15596'
+  published: Fri, 23 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, eess.AS
+content_preview: 'Title: DeepASMR: LLM-Based Zero-Shot ASMR Speech Generation for
+  Anyone of Any Voice
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  While modern Text-to-Speech (TTS) systems achieve high fidelity for read-style speech,
+  they struggle to generate Autonomous Sensory Meridian Response (ASMR), a specialized,
+  low-intensity speech style essential for relaxation. The inherent challenges include
+  ASMR''s subtle, often unvoiced characteristics and the demand for zero-shot speaker
+  adaptation. In this paper, we introduce DeepAS'
+content_length: 1679
+llm_content_sent: 1679
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Впервые представлен специализированный подход для генерации ASMR речи с нулевым
+  обучением, использующий LLM для разделения стиля и тембра через дискретные токены,
+  что является новым направлением в экспрессивном синтезе речи.

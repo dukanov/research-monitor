@@ -1,0 +1,29 @@
+title: flybirdxx/ComfyUI-Qwen-TTS
+url: https://github.com/flybirdxx/ComfyUI-Qwen-TTS
+source: github_new
+type: repository
+date_discovered: '2026-01-22T18:38:52+00:00'
+date_seen: '2026-01-23'
+metadata:
+  stars: '23'
+  language: Python
+  created_at: '2026-01-22T18:38:52Z'
+content_preview: 'Description: A Simple Implementation of Qwen3-TTS''s ComfyUI
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 23
+
+  '
+content_length: 107
+llm_content_sent: 107
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто обертка для интеграции существующей модели Qwen3-TTS в графический
+  интерфейс ComfyUI, без каких-либо научных новшеств в области эмоционального синтеза
+  речи или zero-shot возможностей.
