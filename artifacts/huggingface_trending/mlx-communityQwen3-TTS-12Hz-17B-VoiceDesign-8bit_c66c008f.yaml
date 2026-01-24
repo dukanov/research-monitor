@@ -1,0 +1,25 @@
+title: mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-8bit
+url: https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-8bit
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-24T10:06:51.010395+00:00'
+date_seen: '2026-01-24'
+metadata:
+  likes: '2'
+  downloads: '312'
+  trending_score: '2'
+  last_modified: '2026-01-22T23:00:10.000Z'
+content_preview: "---\nlicense: apache-2.0\ntags:\n  - mlx\n  - text-to-speech\n \
+  \ - speech\n  - speech generation\n  - voice cloning\n  - tts\n  - mlx-audio\nlibrary_name:\
+  \ mlx-audio\n---\n\n# mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-8bit\n\nThis\
+  \ model was converted to MLX format from [`Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign`](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign)\
+  \ using mlx-audio version **0.3.0rc1**.\n\nRefer to the [original model card](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign)\
+  \ for mo"
+content_length: 1203
+llm_content_sent: 1203
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Это просто конвертированная версия существующей модели Qwen3-TTS в формат
+  MLX без каких-либо научных новшеств или улучшений в области эмоционального синтеза
+  речи.

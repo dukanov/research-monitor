@@ -1,0 +1,29 @@
+title: DarioFT/ComfyUI-Qwen3-TTS
+url: https://github.com/DarioFT/ComfyUI-Qwen3-TTS
+source: github_new
+type: repository
+date_discovered: '2026-01-22T20:37:55+00:00'
+date_seen: '2026-01-24'
+metadata:
+  stars: '31'
+  language: Python
+  created_at: '2026-01-22T20:37:55Z'
+content_preview: 'Description: A ComfyUI custom node suite for Qwen3-TTS, supporting
+  1.7B and 0.6B models, Custom Voice, Voice Design, Voice Cloning and Fine-Tuning.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 31
+
+  '
+content_length: 195
+llm_content_sent: 195
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Это просто обертка для интеграции существующей модели Qwen3-TTS в ComfyUI
+  без какого-либо научного вклада или новизны в области синтеза речи.

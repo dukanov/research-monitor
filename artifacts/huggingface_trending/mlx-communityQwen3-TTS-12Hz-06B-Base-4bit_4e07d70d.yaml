@@ -1,0 +1,25 @@
+title: mlx-community/Qwen3-TTS-12Hz-0.6B-Base-4bit
+url: https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-0.6B-Base-4bit
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-24T10:06:49.720741+00:00'
+date_seen: '2026-01-24'
+metadata:
+  likes: '3'
+  downloads: '292'
+  trending_score: '3'
+  last_modified: '2026-01-22T22:59:43.000Z'
+content_preview: "---\nlicense: apache-2.0\ntags:\n  - mlx\n  - text-to-speech\n \
+  \ - speech\n  - speech generation\n  - voice cloning\n  - tts\n  - mlx-audio\nlibrary_name:\
+  \ mlx-audio\n---\n\n# mlx-community/Qwen3-TTS-12Hz-0.6B-Base-4bit\n\nThis model\
+  \ was converted to MLX format from [`Qwen/Qwen3-TTS-12Hz-0.6B-Base`](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base)\
+  \ using mlx-audio version **0.3.0rc1**.\n\nRefer to the [original model card](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base)\
+  \ for more details on the model.\n\n##"
+content_length: 1645
+llm_content_sent: 1645
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Это просто конвертация существующей модели Qwen3-TTS в формат MLX с квантизацией
+  до 4 бит, без каких-либо научных новшеств в области эмоциональной или экспрессивной
+  речи.

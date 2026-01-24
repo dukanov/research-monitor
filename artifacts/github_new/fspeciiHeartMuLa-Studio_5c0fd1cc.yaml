@@ -1,0 +1,29 @@
+title: fspecii/HeartMuLa-Studio
+url: https://github.com/fspecii/HeartMuLa-Studio
+source: github_new
+type: repository
+date_discovered: '2026-01-22T12:17:27+00:00'
+date_seen: '2026-01-24'
+metadata:
+  stars: '109'
+  language: TypeScript
+  created_at: '2026-01-22T12:17:27Z'
+content_preview: 'Description: Suno-like music generation studio for HeartMuLa/heartlib
+  - AI-powered music creation with reference audio style transfer
+
+
+  Topics: No topics
+
+
+  Language: TypeScript
+
+  Stars: 109
+
+  '
+content_length: 186
+llm_content_sent: 186
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это музыкальная генерация, а не синтез речи, и представляет собой лишь интерфейс
+  для существующей модели без научных новшеств.
