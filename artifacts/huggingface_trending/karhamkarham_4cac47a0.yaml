@@ -1,0 +1,56 @@
+title: karham/karham
+url: https://huggingface.co/karham/karham
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-25T10:06:56.012662+00:00'
+date_seen: '2026-01-25'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-01-21T08:52:36.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  datasets:
+
+  - bigai/TongSIM-Asset
+
+  language:
+
+  - tr
+
+  metrics:
+
+  - accuracy
+
+  base_model:
+
+  - Lightricks/LTX-2
+
+  new_version: MiniMaxAI/MiniMax-M2.1
+
+  pipeline_tag: text-to-speech
+
+  library_name: allennlp
+
+  tags:
+
+  - climate
+
+  - chemistry
+
+  - text-generation-inference
+
+  - code
+
+  ---'
+content_length: 276
+llm_content_sent: 276
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Карточка модели содержит только метаданные без описания методологии, архитектуры
+  или технических деталей, что делает невозможной оценку научной новизны в области
+  эмоционального синтеза речи.

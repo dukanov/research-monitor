@@ -1,0 +1,31 @@
+title: WhiskeyCoder/Qwen3-Audiobook-Converter
+url: https://github.com/WhiskeyCoder/Qwen3-Audiobook-Converter
+source: github_new
+type: repository
+date_discovered: '2026-01-24T16:07:35+00:00'
+date_seen: '2026-01-25'
+metadata:
+  stars: '76'
+  language: Python
+  created_at: '2026-01-24T16:07:35Z'
+content_preview: 'Description: Convert PDFs, EPUBs, DOCX, DOC, and TXT files into
+  high-quality audiobooks using **Qwen3 TTS Voice Model** - an open-source voice synthesis
+  system that excels at natural speech generation and voice cloning.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 76
+
+  '
+content_length: 267
+llm_content_sent: 267
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Это просто пользовательское приложение для конвертации текста в аудиокниги
+  с использованием существующей модели Qwen3 TTS, без научных новшеств в области эмоционального
+  синтеза речи или zero-shot возможностей.

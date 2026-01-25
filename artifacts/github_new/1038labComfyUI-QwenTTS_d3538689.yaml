@@ -1,0 +1,29 @@
+title: 1038lab/ComfyUI-QwenTTS
+url: https://github.com/1038lab/ComfyUI-QwenTTS
+source: github_new
+type: repository
+date_discovered: '2026-01-23T17:58:24+00:00'
+date_seen: '2026-01-25'
+metadata:
+  stars: '49'
+  language: Python
+  created_at: '2026-01-23T17:58:24Z'
+content_preview: 'Description: ComfyUI custom nodes for speech, voice cloning, and
+  voice design based on Qwen3-TTS models
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 49
+
+  '
+content_length: 151
+llm_content_sent: 151
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Это просто интеграция существующей модели Qwen3-TTS в интерфейс ComfyUI без
+  каких-либо научных новшеств или улучшений в области эмоционального синтеза речи.

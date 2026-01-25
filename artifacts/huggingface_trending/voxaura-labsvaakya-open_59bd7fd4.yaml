@@ -1,0 +1,56 @@
+title: voxaura-labs/vaakya-open
+url: https://huggingface.co/voxaura-labs/vaakya-open
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-25T10:06:58.326774+00:00'
+date_seen: '2026-01-25'
+metadata:
+  likes: '2'
+  downloads: '118'
+  trending_score: '2'
+  last_modified: '2026-01-25T05:11:01.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  tags:
+
+  - TTS
+
+  - Hinglish
+
+  - Indian-languages
+
+  - Voice-AI
+
+  - Speech-Synthesis
+
+  language:
+
+  - hi
+
+  - en
+
+  base_model:
+
+  - canopylabs/orpheus-3b-0.1-ft
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+  # Vaakya‑Open
+
+
+  **Vaakya‑Open** is a high‑quality, single‑speaker **Text‑to‑Speech (TTS)** model
+  developed by **Voxaura Labs**, designed for **English and Hindi** voice synthesis.
+  It features a **natural female voice**, optimized for voice‑overs, audiobooks, podcasts,
+  narration, assistants, and production‑gr'
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Это стандартная однодикторская TTS модель без эмоциональной выразительности
+  или zero-shot возможностей, использующая существующую архитектуру Orpheus без новых
+  научных вкладов.

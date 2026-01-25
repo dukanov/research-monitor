@@ -1,0 +1,30 @@
+title: FranckyB/Voice-Clone-Studio
+url: https://github.com/FranckyB/Voice-Clone-Studio
+source: github_new
+type: repository
+date_discovered: '2026-01-24T03:05:15+00:00'
+date_seen: '2026-01-25'
+metadata:
+  stars: '55'
+  language: Python
+  created_at: '2026-01-24T03:05:15Z'
+content_preview: 'Description: A Gradio-based web UI for voice cloning and voice design,
+  powered by Qwen3-TTS & VibeVoice.  Can use Whisper or VibeVoice-ASR for automatic
+  transcription.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 55
+
+  '
+content_length: 215
+llm_content_sent: 215
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Это просто веб-интерфейс для существующих моделей синтеза речи без какой-либо
+  научной новизны или улучшений в области эмоционального/экспрессивного синтеза.
