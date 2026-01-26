@@ -1,0 +1,34 @@
+title: Do Models Hear Like Us? Probing the Representational Alignment of Audio LLMs
+  and Naturalistic EEG
+url: https://arxiv.org/abs/2601.16540
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-26T10:08:22.069085+00:00'
+date_seen: '2026-01-26'
+metadata:
+  arxiv_id: '2601.16540'
+  published: Mon, 26 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, eess.AS
+content_preview: 'Title: Do Models Hear Like Us? Probing the Representational Alignment
+  of Audio LLMs and Naturalistic EEG
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Audio Large Language Models (Audio LLMs) have demonstrated strong capabilities in
+  integrating speech perception with language understanding. However, whether their
+  internal representations align with human neural dynamics during naturalistic listening
+  remains largely unexplored. In this work, we systematically examine layer-wise representational
+  alignment between '
+content_length: 1548
+llm_content_sent: 1548
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа исследует соответствие внутренних представлений аудио-LLM с нейронной
+  активностью человека через ЭЭГ, но не касается синтеза речи или zero-shot генерации
+  эмоциональной речи - это анализ восприятия, а не генерации.

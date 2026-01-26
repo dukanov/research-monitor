@@ -1,0 +1,33 @@
+title: Speech-Aware Long Context Pruning and Integration for Contextualized Automatic
+  Speech Recognition
+url: https://arxiv.org/abs/2511.11139
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-26T10:08:22.214239+00:00'
+date_seen: '2026-01-26'
+metadata:
+  arxiv_id: '2511.11139'
+  published: Mon, 26 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Speech-Aware Long Context Pruning and Integration for Contextualized
+  Automatic Speech Recognition
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Automatic speech recognition (ASR) systems have achieved remarkable performance
+  in common conditions but often struggle to leverage long-context information in
+  contextualized scenarios that require domain-specific knowledge, such as conference
+  presentations. This challenge arises primarily due to constrained model context
+  windows and the sparsity of relevant infor'
+content_length: 1424
+llm_content_sent: 1424
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена распознаванию речи с контекстом, а не синтезу эмоциональной/экспрессивной
+  речи с zero-shot возможностями.

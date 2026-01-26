@@ -1,0 +1,26 @@
+title: ORI-Muchim/openaudio-s1-mini-int8
+url: https://huggingface.co/ORI-Muchim/openaudio-s1-mini-int8
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-26T10:09:01.278139+00:00'
+date_seen: '2026-01-26'
+metadata:
+  likes: '2'
+  downloads: '30'
+  trending_score: '2'
+  last_modified: '2026-01-20T19:42:54.000Z'
+content_preview: "---\r\ntags:\r\n- text-to-speech\r\nlicense: cc-by-nc-sa-4.0\r\n\
+  language:\r\n- zh\r\n- en\r\n- de\r\n- ja\r\n- fr\r\n- es\r\n- ko\r\n- ar\r\n- nl\r\
+  \n- ru\r\n- it\r\n- pl\r\n- pt\r\npipeline_tag: text-to-speech\r\ninference: false\r\
+  \nbase_model: fishaudio/openaudio-s1-mini\r\n---\r\n\r\n# OpenAudio S1-mini INT8\
+  \ Quantized\r\n\r\n**INT8 weight-only quantized version** of [fishaudio/openaudio-s1-mini](https://huggingface.co/fishaudio/openaudio-s1-mini)\
+  \ for efficient GPU inference.\r\n\r\n## Model Size Comparison\r\n\r\n| Model |\
+  \ Original | INT8 | Reduction"
+content_length: 1922
+llm_content_sent: 1922
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Это просто квантизованная версия существующей модели OpenAudio с сжатием весов
+  до INT8 без каких-либо новых научных подходов к эмоциональному или экспрессивному
+  синтезу речи.

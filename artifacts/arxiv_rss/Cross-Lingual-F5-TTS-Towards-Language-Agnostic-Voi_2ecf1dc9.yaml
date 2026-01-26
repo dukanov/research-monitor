@@ -1,0 +1,34 @@
+title: 'Cross-Lingual F5-TTS: Towards Language-Agnostic Voice Cloning and Speech Synthesis'
+url: https://arxiv.org/abs/2509.14579
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-26T10:08:22.069507+00:00'
+date_seen: '2026-01-26'
+metadata:
+  arxiv_id: '2509.14579'
+  published: Mon, 26 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: Cross-Lingual F5-TTS: Towards Language-Agnostic Voice Cloning
+  and Speech Synthesis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Flow-matching-based text-to-speech (TTS) models have shown high-quality speech synthesis.
+  However, most current flow-matching-based TTS models still rely on reference transcripts
+  corresponding to the audio prompt for synthesis. This dependency prevents cross-lingual
+  voice cloning when audio prompt transcripts are unavailable, particularly for unseen
+  languages. The key challenges'
+content_length: 1336
+llm_content_sent: 1336
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.65
+reason: Работа предлагает интересное решение для кросс-языкового клонирования голоса
+  без необходимости транскриптов аудио-промптов через использование принудительного
+  выравнивания и предикторов скорости речи, но представляет скорее инкрементальное
+  улучшение существующей архитектуры F5-TTS.

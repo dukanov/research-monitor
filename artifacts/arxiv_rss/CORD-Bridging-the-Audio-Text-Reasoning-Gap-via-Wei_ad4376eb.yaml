@@ -1,0 +1,34 @@
+title: 'CORD: Bridging the Audio-Text Reasoning Gap via Weighted On-policy Cross-modal
+  Distillation'
+url: https://arxiv.org/abs/2601.16547
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-26T10:08:22.069130+00:00'
+date_seen: '2026-01-26'
+metadata:
+  arxiv_id: '2601.16547'
+  published: Mon, 26 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, eess.AS
+content_preview: 'Title: CORD: Bridging the Audio-Text Reasoning Gap via Weighted
+  On-policy Cross-modal Distillation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large Audio Language Models (LALMs) have garnered significant research interest.
+  Despite being built upon text-based large language models (LLMs), LALMs frequently
+  exhibit a degradation in knowledge and reasoning capabilities. We hypothesize that
+  this limitation stems from the failure of current training paradigms to effectively
+  bridge the acoustic-semantic gap within t'
+content_length: 1634
+llm_content_sent: 1634
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа фокусируется на выравнивании рассуждений в аудио-текстовых моделях,
+  но не касается эмоциональной/экспрессивной синтеза речи или zero-shot генерации
+  - это скорее о понимании аудио, чем о синтезе.

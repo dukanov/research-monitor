@@ -1,0 +1,31 @@
+title: divyaprakash0426/autoshorts
+url: https://github.com/divyaprakash0426/autoshorts
+source: github_new
+type: repository
+date_discovered: '2026-01-23T07:29:50+00:00'
+date_seen: '2026-01-26'
+metadata:
+  stars: '98'
+  language: Python
+  created_at: '2026-01-23T07:29:50Z'
+content_preview: 'Description: Automatically generate viral-ready vertical short clips
+  from long-form gameplay footage using AI-powered scene analysis, GPU-accelerated
+  rendering, and optional AI voiceovers.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 98
+
+  '
+content_length: 236
+llm_content_sent: 236
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий представляет собой инструмент для автоматической нарезки видеоклипов
+  с возможностью AI озвучки, что не имеет отношения к исследованиям синтеза эмоциональной
+  речи с zero-shot возможностями.

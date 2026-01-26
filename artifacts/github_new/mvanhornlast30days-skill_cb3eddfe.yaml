@@ -1,0 +1,30 @@
+title: mvanhorn/last30days-skill
+url: https://github.com/mvanhorn/last30days-skill
+source: github_new
+type: repository
+date_discovered: '2026-01-23T20:37:37+00:00'
+date_seen: '2026-01-26'
+metadata:
+  stars: '207'
+  language: Python
+  created_at: '2026-01-23T20:37:37Z'
+content_preview: 'Description: Claude Code skill that researches any topic across
+  Reddit + X from the last 30 days, then writes copy-paste-ready prompts
+
+
+  Topics: ai-prompts, claude, claude-code, reddit, twitter
+
+
+  Language: Python
+
+  Stars: 207
+
+  '
+content_length: 222
+llm_content_sent: 222
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий представляет собой простой инструмент для сбора данных из социальных
+  сетей и генерации промптов, что не имеет отношения к синтезу эмоциональной речи
+  или zero-shot технологиям в области обработки аудио.

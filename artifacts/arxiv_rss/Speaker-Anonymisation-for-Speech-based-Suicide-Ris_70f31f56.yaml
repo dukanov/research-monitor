@@ -1,0 +1,31 @@
+title: Speaker Anonymisation for Speech-based Suicide Risk Detection
+url: https://arxiv.org/abs/2509.22148
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-26T10:08:22.069716+00:00'
+date_seen: '2026-01-26'
+metadata:
+  arxiv_id: '2509.22148'
+  published: Mon, 26 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: Speaker Anonymisation for Speech-based Suicide Risk Detection
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Adolescent suicide is a critical global health issue, and speech provides a cost-effective
+  modality for automatic suicide risk detection. Given the vulnerable population,
+  protecting speaker identity is particularly important, as speech itself can reveal
+  personally identifiable information if the data is leaked or maliciously exploited.
+  This work presents the first systematic study of speaker anonymi'
+content_length: 1207
+llm_content_sent: 1207
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа касается анонимизации речи для детекции суицидального риска, что не
+  связано с эмоциональным/экспрессивным синтезом речи или zero-shot возможностями.

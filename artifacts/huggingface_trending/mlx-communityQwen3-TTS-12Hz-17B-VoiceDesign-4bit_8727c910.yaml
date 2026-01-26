@@ -1,0 +1,51 @@
+title: mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-4bit
+url: https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-4bit
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-26T10:09:01.846383+00:00'
+date_seen: '2026-01-26'
+metadata:
+  likes: '2'
+  downloads: '385'
+  trending_score: '2'
+  last_modified: '2026-01-25T22:05:39.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  tags:
+
+  - mlx
+
+  - text-to-speech
+
+  - speech
+
+  - speech generation
+
+  - voice cloning
+
+  - tts
+
+  - mlx-audio
+
+  library_name: mlx-audio
+
+  ---
+
+  # mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-4bit
+
+
+  This model was converted to MLX format from [`Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign`](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign)
+  using mlx-audio version **0.3.0**.
+
+
+  Refer to the [original model card](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign)
+  for more details on the '
+content_length: 1068
+llm_content_sent: 1068
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Это просто конвертация существующей модели Qwen3-TTS в формат MLX с квантизацией
+  до 4 бит, без научных новшеств в области эмоциональной или экспрессивной речи.
