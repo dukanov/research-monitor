@@ -1,0 +1,32 @@
+title: 'EuleroDec: A Complex-Valued RVQ-VAE for Efficient and Robust Audio Coding'
+url: https://arxiv.org/abs/2601.17517
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-27T10:08:29.846678+00:00'
+date_seen: '2026-01-27'
+metadata:
+  arxiv_id: '2601.17517'
+  published: Tue, 27 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.LG, eess.AS
+content_preview: 'Title: EuleroDec: A Complex-Valued RVQ-VAE for Efficient and Robust
+  Audio Coding
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Audio codecs power discrete music generative modelling, music streaming, and immersive
+  media by shrinking PCM audio to bandwidth-friendly bitrates. Recent works have gravitated
+  towards processing in the spectral domain; however, spectrogram domains typically
+  struggle with phase modeling, which is naturally complex-valued. Most frequency-domain
+  neural codecs either disregard phase informa'
+content_length: 1515
+llm_content_sent: 1515
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена аудиокодекам для сжатия звука, а не синтезу эмоциональной
+  речи с zero-shot возможностями - это совершенно другая область исследований.

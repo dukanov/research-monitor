@@ -1,0 +1,34 @@
+title: 'Sidon: Fast and Robust Open-Source Multilingual Speech Restoration for Large-scale
+  Dataset Cleansing'
+url: https://arxiv.org/abs/2509.17052
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-27T10:08:29.848011+00:00'
+date_seen: '2026-01-27'
+metadata:
+  arxiv_id: '2509.17052'
+  published: Tue, 27 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: Sidon: Fast and Robust Open-Source Multilingual Speech Restoration
+  for Large-scale Dataset Cleansing
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large-scale text-to-speech (TTS) systems are limited by the scarcity of clean, multilingual
+  recordings. We introduce Sidon, a fast, open-source speech restoration model that
+  converts noisy in-the-wild speech into studio-quality speech and scales to dozens
+  of languages. Sidon consists of two models: w2v-BERT 2.0 finetuned feature predictor
+  to cleanse features fr'
+content_length: 1218
+llm_content_sent: 1218
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: Работа представляет инкрементальное улучшение в области очистки речевых данных
+  для TTS, но не вносит существенных новшеств в эмоциональный/экспрессивный синтез
+  речи с zero-shot возможностями - это скорее инструмент предобработки данных.

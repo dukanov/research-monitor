@@ -1,0 +1,29 @@
+title: filliptm/ComfyUI-FL-Qwen3TTS
+url: https://github.com/filliptm/ComfyUI-FL-Qwen3TTS
+source: github_new
+type: repository
+date_discovered: '2026-01-26T03:49:40+00:00'
+date_seen: '2026-01-27'
+metadata:
+  stars: '50'
+  language: Python
+  created_at: '2026-01-26T03:49:40Z'
+content_preview: 'Description: Qwen3-TTS text-to-speech nodes for ComfyUI with voice
+  cloning, voice design, and fine-tuning UI
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 50
+
+  '
+content_length: 156
+llm_content_sent: 156
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Это просто интеграция существующей модели Qwen3-TTS в интерфейс ComfyUI без
+  каких-либо научных новшеств или методологических улучшений.

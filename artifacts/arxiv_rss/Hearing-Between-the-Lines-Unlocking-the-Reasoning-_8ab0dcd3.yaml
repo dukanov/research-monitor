@@ -1,0 +1,34 @@
+title: 'Hearing Between the Lines: Unlocking the Reasoning Power of LLMs for Speech
+  Evaluation'
+url: https://arxiv.org/abs/2601.13742
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-27T10:08:29.905138+00:00'
+date_seen: '2026-01-27'
+metadata:
+  arxiv_id: '2601.13742'
+  published: Tue, 27 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Hearing Between the Lines: Unlocking the Reasoning Power
+  of LLMs for Speech Evaluation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large Language Model (LLM) judges exhibit strong reasoning capabilities but are
+  limited to textual content. This leaves current automatic Speech-to-Speech (S2S)
+  evaluation methods reliant on opaque and expensive Audio Language Models (ALMs).
+  In this work, we propose TRACE (Textual Reasoning over Audio Cues for Evaluation),
+  a novel framework that enables LLM judges to reason '
+content_length: 1404
+llm_content_sent: 1404
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Новый подход к оценке речевого синтеза через текстовое представление аудио-сигналов
+  для LLM с разделением на явные измерения (контент, качество голоса, паралингвистика),
+  что позволяет более эффективно и интерпретируемо оценивать экспрессивную речь.

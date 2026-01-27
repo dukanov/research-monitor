@@ -1,0 +1,30 @@
+title: 'AR-Omni: A Unified Autoregressive Model for Any-to-Any Generation'
+url: https://huggingface.co/papers/2601.17761
+source: huggingface_papers
+type: paper
+date_discovered: '2026-01-27T10:09:02.238194+00:00'
+date_seen: '2026-01-27'
+metadata:
+  upvotes: '5'
+  paper_id: '2601.17761'
+  published_date: '2026-01-27'
+content_preview: 'Title: AR-Omni: A Unified Autoregressive Model for Any-to-Any Generation
+
+
+  Summary:
+
+  Real-world perception and interaction are inherently multimodal, encompassing not
+  only language but also vision and speech, which motivates the development of "Omni"
+  MLLMs that support both multimodal inputs and multimodal outputs. While a sequence
+  of omni MLLMs has emerged, most existing systems still rely on additional expert
+  components to achieve multimodal generation, limiting the simplicity of unified
+  trainin'
+content_length: 1409
+llm_content_sent: 1409
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Модель представляет интересный подход к унификации многомодальной генерации
+  через единую авторегрессивную архитектуру, включая потоковую генерацию речи, но
+  не фокусируется специально на эмоциональной выразительности или zero-shot способностях
+  для речевого синтеза.

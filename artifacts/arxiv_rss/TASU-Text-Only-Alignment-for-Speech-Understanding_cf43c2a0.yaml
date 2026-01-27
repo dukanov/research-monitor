@@ -1,0 +1,32 @@
+title: 'TASU: Text-Only Alignment for Speech Understanding'
+url: https://arxiv.org/abs/2511.03310
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-27T10:08:29.863624+00:00'
+date_seen: '2026-01-27'
+metadata:
+  arxiv_id: '2511.03310'
+  published: Tue, 27 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: TASU: Text-Only Alignment for Speech Understanding
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in Speech Large Language Models (Speech LLMs) have paved the way
+  for unified architectures across diverse speech understanding tasks. However, prevailing
+  alignment paradigms rely heavily on large-scale audio-text paired data and computationally
+  intensive training, yet often exhibit limited generalization to unseen domains or
+  tasks. To address these limitations, we propose TASU (Text-only Alignm'
+content_length: 1240
+llm_content_sent: 1240
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа фокусируется на распознавании речи и понимании с использованием только
+  текстовых данных для выравнивания, но не касается эмоционального/экспрессивного
+  синтеза речи с zero-shot возможностями.

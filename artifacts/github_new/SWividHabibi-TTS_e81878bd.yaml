@@ -1,0 +1,30 @@
+title: SWivid/Habibi-TTS
+url: https://github.com/SWivid/Habibi-TTS
+source: github_new
+type: repository
+date_discovered: '2026-01-21T15:59:35+00:00'
+date_seen: '2026-01-27'
+metadata:
+  stars: '37'
+  language: Python
+  created_at: '2026-01-21T15:59:35Z'
+content_preview: 'Description: Official code for "Habibi: Laying the Open-Source Foundation
+  of Unified-Dialectal Arabic Speech Synthesis"
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 37
+
+  '
+content_length: 167
+llm_content_sent: 167
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Репозиторий представляет систему синтеза арабской речи с поддержкой диалектов,
+  но отсутствует информация о zero-shot возможностях или эмоциональной экспрессивности,
+  что делает его малорелевантным для исследований эмоционального синтеза речи.

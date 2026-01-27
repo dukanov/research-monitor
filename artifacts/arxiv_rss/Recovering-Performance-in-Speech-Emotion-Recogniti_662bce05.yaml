@@ -1,0 +1,32 @@
+title: Recovering Performance in Speech Emotion Recognition from Discrete Tokens via
+  Multi-Layer Fusion and Paralinguistic Feature Integration
+url: https://arxiv.org/abs/2601.17085
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-27T10:08:29.847253+00:00'
+date_seen: '2026-01-27'
+metadata:
+  arxiv_id: '2601.17085'
+  published: Tue, 27 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.LG, cs.SD
+content_preview: 'Title: Recovering Performance in Speech Emotion Recognition from
+  Discrete Tokens via Multi-Layer Fusion and Paralinguistic Feature Integration
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Discrete speech tokens offer significant advantages for storage and language model
+  integration, but their application in speech emotion recognition (SER) is limited
+  by paralinguistic information loss during quantization. This paper presents a comprehensive
+  investigation of discrete tokens for SER. Using a fine-tuned WavLM-Larg'
+content_length: 1320
+llm_content_sent: 1320
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена распознаванию эмоций в речи из дискретных токенов, а не синтезу
+  эмоциональной речи с zero-shot возможностями - это анализ, а не генерация.

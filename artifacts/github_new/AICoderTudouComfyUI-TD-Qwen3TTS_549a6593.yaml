@@ -1,0 +1,29 @@
+title: AICoderTudou/ComfyUI-TD-Qwen3TTS
+url: https://github.com/AICoderTudou/ComfyUI-TD-Qwen3TTS
+source: github_new
+type: repository
+date_discovered: '2026-01-23T05:33:20+00:00'
+date_seen: '2026-01-27'
+metadata:
+  stars: '33'
+  language: Python
+  created_at: '2026-01-23T05:33:20Z'
+content_preview: 'Description: No description
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 33
+
+  '
+content_length: 75
+llm_content_sent: 75
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий представляет собой лишь интеграцию существующей модели Qwen3TTS
+  в интерфейс ComfyUI без описания, документации или научных новшеств в области эмоционального
+  синтеза речи.
