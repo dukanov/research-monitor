@@ -1,0 +1,28 @@
+title: antirez/whisperbot
+url: https://github.com/antirez/whisperbot
+source: github_new
+type: repository
+date_discovered: '2026-01-27T19:09:40+00:00'
+date_seen: '2026-01-28'
+metadata:
+  stars: '58'
+  language: C
+  created_at: '2026-01-27T19:09:40Z'
+content_preview: 'Description: Telegram bot that transcribes audio messages via whisper.cpp
+
+
+  Topics: No topics
+
+
+  Language: C
+
+  Stars: 58
+
+  '
+content_length: 116
+llm_content_sent: 116
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Простая интеграция существующего whisper.cpp в Telegram-бота для транскрипции
+  без какого-либо отношения к синтезу речи или эмоциональной выразительности.

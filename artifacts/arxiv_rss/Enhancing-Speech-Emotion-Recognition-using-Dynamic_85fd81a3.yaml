@@ -1,0 +1,34 @@
+title: Enhancing Speech Emotion Recognition using Dynamic Spectral Features and Kalman
+  Smoothing
+url: https://arxiv.org/abs/2601.18908
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-28T10:08:53.505599+00:00'
+date_seen: '2026-01-28'
+metadata:
+  arxiv_id: '2601.18908'
+  published: Wed, 28 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.LG, eess.AS
+content_preview: 'Title: Enhancing Speech Emotion Recognition using Dynamic Spectral
+  Features and Kalman Smoothing
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech Emotion Recognition systems often use static features like Mel-Frequency
+  Cepstral Coefficients (MFCCs), Zero Crossing Rate (ZCR), and Root Mean Square Energy
+  (RMSE). Because of this, they can misclassify emotions when there is acoustic noise
+  in vocal signals. To address this, we added dynamic features using Dynamic Spectral
+  features (Deltas and Delta-Deltas) along '
+content_length: 991
+llm_content_sent: 991
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена распознаванию эмоций в речи, а не синтезу эмоциональной речи,
+  и использует стандартные методы (дельта-признаки и фильтр Калмана) без существенных
+  новшеств.

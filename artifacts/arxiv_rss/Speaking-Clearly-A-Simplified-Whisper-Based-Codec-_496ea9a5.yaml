@@ -1,0 +1,33 @@
+title: 'Speaking Clearly: A Simplified Whisper-Based Codec for Low-Bitrate Speech
+  Coding'
+url: https://arxiv.org/abs/2510.20504
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-28T10:08:53.506344+00:00'
+date_seen: '2026-01-28'
+metadata:
+  arxiv_id: '2510.20504'
+  published: Wed, 28 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: Speaking Clearly: A Simplified Whisper-Based Codec for Low-Bitrate
+  Speech Coding
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech codecs serve as bridges between continuous speech signals and large language
+  models, yet face an inherent conflict between acoustic fidelity and semantic preservation.
+  To mitigate this conflict, prevailing methods augment acoustic codecs with complex
+  semantic supervision. We explore the opposite direction: a semantic-first approach
+  that starts from a semantically-capable mo'
+content_length: 1420
+llm_content_sent: 1420
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена сжатию речи с низким битрейтом, а не синтезу эмоциональной/выразительной
+  речи с zero-shot возможностями - это совершенно другая область исследований.

@@ -1,0 +1,33 @@
+title: Rethinking Discrete Speech Representation Tokens for Accent Generation
+url: https://arxiv.org/abs/2601.19786
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-28T10:08:53.506289+00:00'
+date_seen: '2026-01-28'
+metadata:
+  arxiv_id: '2601.19786'
+  published: Wed, 28 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.CL, cs.SD
+content_preview: 'Title: Rethinking Discrete Speech Representation Tokens for Accent
+  Generation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Discrete Speech Representation Tokens (DSRTs) have become a foundational component
+  in speech generation. While prior work has extensively studied phonetic and speaker
+  information in DSRTs, how accent information is encoded in DSRTs remains largely
+  unexplored. In this paper, we present the first systematic investigation of accent
+  information in DSRTs. We propose a unified evaluation framewor'
+content_length: 1391
+llm_content_sent: 1391
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Первое систематическое исследование кодирования акцентной информации в дискретных
+  токенах речевых представлений с новой методологией оценки и практическими рекомендациями
+  для контролируемой генерации акцентов.

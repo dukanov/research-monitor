@@ -1,0 +1,32 @@
+title: 'CAMEO: Collection of Multilingual Emotional Speech Corpora'
+url: https://arxiv.org/abs/2505.11051
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-28T10:08:53.506471+00:00'
+date_seen: '2026-01-28'
+metadata:
+  arxiv_id: '2505.11051'
+  published: Wed, 28 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.SD, eess.AS
+content_preview: 'Title: CAMEO: Collection of Multilingual Emotional Speech Corpora
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This paper presents CAMEO -- a curated collection of multilingual emotional speech
+  datasets designed to facilitate research in emotion recognition and other speech-related
+  tasks. The main objectives were to ensure easy access to the data, to allow reproducibility
+  of the results, and to provide a standardized benchmark for evaluating speech emotion
+  recognition (SER) systems across different emotional st'
+content_length: 873
+llm_content_sent: 873
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: Работа представляет курированную коллекцию многоязычных эмоциональных датасетов
+  с унифицированным бенчмарком, что полезно для сообщества, но не содержит новых методологических
+  подходов к синтезу речи или zero-shot обучению.

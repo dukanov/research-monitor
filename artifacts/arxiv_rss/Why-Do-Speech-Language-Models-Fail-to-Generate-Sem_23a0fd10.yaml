@@ -1,0 +1,34 @@
+title: Why Do Speech Language Models Fail to Generate Semantically Coherent Outputs?
+  A Modality Evolving Perspective
+url: https://arxiv.org/abs/2412.17048
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-28T10:08:53.506422+00:00'
+date_seen: '2026-01-28'
+metadata:
+  arxiv_id: '2412.17048'
+  published: Wed, 28 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.CL, cs.SD
+content_preview: 'Title: Why Do Speech Language Models Fail to Generate Semantically
+  Coherent Outputs? A Modality Evolving Perspective
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Although text-based large language models exhibit human-level writing ability and
+  remarkable intelligence, speech language models (SLMs) still struggle to generate
+  semantically coherent outputs. There are several potential reasons for this performance
+  degradation: (A) speech tokens mainly provide phonetic information rather than semantic
+  information, ('
+content_length: 1345
+llm_content_sent: 1345
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Новый систематический подход к анализу причин семантической некогерентности
+  речевых языковых моделей через постепенный переход модальности от текста к речи,
+  что важно для понимания ограничений современных SLM в экспрессивном синтезе.

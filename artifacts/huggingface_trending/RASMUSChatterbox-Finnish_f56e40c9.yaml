@@ -1,0 +1,25 @@
+title: RASMUS/Chatterbox-Finnish
+url: https://huggingface.co/RASMUS/Chatterbox-Finnish
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-28T10:10:09.631884+00:00'
+date_seen: '2026-01-28'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-01-26T23:27:49.000Z'
+content_preview: "---\nlanguage:\n- fi\nlicense: mit\ntags:\n- text-to-speech\n- tts\n\
+  - zero-shot\n- voice-cloning\n- finnish\ndatasets:\n- mozilla-foundation/common_voice_15_0\n\
+  base_model: ResembleAI/chatterbox\npipeline_tag: text-to-speech\nlibrary_name: pytorch\n\
+  model-index:\n- name: Chatterbox Finnish Fine-Tuned (Step 986)\n  results:\n  -\
+  \ task:\n      type: text-to-speech\n      name: Text to Speech\n    dataset:\n\
+  \      name: Mozilla Common Voice 15.0 (Finnish OOD)\n      type: mozilla-foundation/common_voice_15_0\n\
+  \      config: fi"
+content_length: 6717
+llm_content_sent: 6717
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Стандартная адаптация существующей модели Chatterbox для финского языка без
+  новых архитектурных решений или методов для эмоциональности/экспрессивности.
