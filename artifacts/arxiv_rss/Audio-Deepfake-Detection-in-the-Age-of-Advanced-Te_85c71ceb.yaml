@@ -1,0 +1,33 @@
+title: Audio Deepfake Detection in the Age of Advanced Text-to-Speech models
+url: https://arxiv.org/abs/2601.20510
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-29T10:15:18.449314+00:00'
+date_seen: '2026-01-29'
+metadata:
+  arxiv_id: '2601.20510'
+  published: Thu, 29 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, eess.AS
+content_preview: 'Title: Audio Deepfake Detection in the Age of Advanced Text-to-Speech
+  models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in Text-to-Speech (TTS) systems have substantially increased the
+  realism of synthetic speech, raising new challenges for audio deepfake detection.
+  This work presents a comparative evaluation of three state-of-the-art TTS models--Dia2,
+  Maya1, and MeloTTS--representing streaming, LLM-based, and non-autoregressive architectures.
+  A corpus of 12,000 synthetic audio samples was gen'
+content_length: 1289
+llm_content_sent: 1289
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена детекции синтетической речи, а не синтезу эмоциональной/экспрессивной
+  речи с zero-shot возможностями - это противоположная задача без новизны в области
+  синтеза.

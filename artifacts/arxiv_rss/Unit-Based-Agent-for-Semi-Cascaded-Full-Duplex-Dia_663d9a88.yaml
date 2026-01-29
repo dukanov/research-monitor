@@ -1,0 +1,33 @@
+title: Unit-Based Agent for Semi-Cascaded Full-Duplex Dialogue Systems
+url: https://arxiv.org/abs/2601.20230
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-29T10:15:18.486200+00:00'
+date_seen: '2026-01-29'
+metadata:
+  arxiv_id: '2601.20230'
+  published: Thu, 29 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.HC
+content_preview: 'Title: Unit-Based Agent for Semi-Cascaded Full-Duplex Dialogue Systems
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Full-duplex voice interaction is crucial for natural human computer interaction.
+  We present a framework that decomposes complex dialogue into minimal conversational
+  units, enabling the system to process each unit independently and predict when to
+  transit to the next. This framework is instantiated as a semi-cascaded full-duplex
+  dialogue system built around a multimodal large language model, suppor'
+content_length: 1065
+llm_content_sent: 1065
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена архитектуре диалоговых систем полного дуплекса, но не содержит
+  новых подходов к эмоциональному/экспрессивному синтезу речи или zero-shot возможностям
+  - TTS модуль используется как вспомогательный компонент без инноваций в области
+  синтеза.

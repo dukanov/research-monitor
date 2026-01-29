@@ -1,0 +1,33 @@
+title: 'T-Mimi: A Transformer-based Mimi Decoder for Real-Time On-Phone TTS'
+url: https://arxiv.org/abs/2601.20094
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-29T10:15:18.465556+00:00'
+date_seen: '2026-01-29'
+metadata:
+  arxiv_id: '2601.20094'
+  published: Thu, 29 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: T-Mimi: A Transformer-based Mimi Decoder for Real-Time On-Phone
+  TTS
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Neural audio codecs provide promising acoustic features for speech synthesis, with
+  representative streaming codecs like Mimi providing high-quality acoustic features
+  for real-time Text-to-Speech (TTS) applications. However, Mimi''s decoder, which
+  employs a hybrid transformer and convolution architecture, introduces significant
+  latency bottlenecks on edge devices due to the the compute intensive'
+content_length: 1292
+llm_content_sent: 1292
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: Работа представляет лишь инженерную оптимизацию архитектуры декодера для мобильных
+  устройств, заменяя свертки на трансформеры без новых подходов к эмоциональному или
+  экспрессивному синтезу речи.

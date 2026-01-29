@@ -1,0 +1,67 @@
+title: Qwen/Qwen3-TTS-12Hz-0.6B-Base
+url: https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-29T10:15:51.766258+00:00'
+date_seen: '2026-01-29'
+metadata:
+  likes: '142'
+  downloads: '86362'
+  trending_score: '142'
+  last_modified: '2026-01-29T08:01:19.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  pipeline_tag: text-to-speech
+
+  language:
+
+  - zh
+
+  - en
+
+  - ja
+
+  - ko
+
+  - de
+
+  - fr
+
+  - ru
+
+  - pt
+
+  - es
+
+  - it
+
+  tags:
+
+  - audio
+
+  - tts
+
+  - voice-clone
+
+  ---
+
+
+  # Qwen3-TTS-12Hz-0.6B-Base
+
+
+  [**Qwen3-TTS Technical Report**](https://huggingface.co/papers/2601.15621) | [**GitHub
+  Repository**](https://github.com/QwenLM/Qwen3-TTS) | [**Hugging Face Demo**](https://huggingface.co/spaces/Qwen/Qwen3-TTS)
+
+
+  Qwen3-TTS is a family of advanced multilingual, controllable, robust, and streaming
+  text-to-speech models. Tr'
+content_length: 3622
+llm_content_sent: 3622
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: Модель предлагает быстрое клонирование голоса за 3 секунды и сверхнизкую латентность
+  97мс, но использует стандартную архитектуру дискретного языкового моделирования
+  без принципиальных новшеств в эмоциональном синтезе или zero-shot способностях.

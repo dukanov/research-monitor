@@ -1,0 +1,28 @@
+title: miuda-ai/lele
+url: https://github.com/miuda-ai/lele
+source: github_new
+type: repository
+date_discovered: '2026-01-28T06:28:26+00:00'
+date_seen: '2026-01-29'
+metadata:
+  stars: '45'
+  language: Rust
+  created_at: '2026-01-28T06:28:26Z'
+content_preview: 'Description: Bare-Metal Rust Audio AI Framework
+
+
+  Topics: audio, onnxruntime, pytorch
+
+
+  Language: Rust
+
+  Stars: 45
+
+  '
+content_length: 111
+llm_content_sent: 111
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Репозиторий представляет лишь базовый фреймворк для аудио AI на Rust без конкретных
+  алгоритмов или методов для эмоционального синтеза речи.

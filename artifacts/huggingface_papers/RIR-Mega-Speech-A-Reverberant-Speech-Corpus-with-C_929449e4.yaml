@@ -1,0 +1,30 @@
+title: 'RIR-Mega-Speech: A Reverberant Speech Corpus with Comprehensive Acoustic Metadata
+  and Reproducible Evaluation'
+url: https://huggingface.co/papers/2601.19949
+source: huggingface_papers
+type: paper
+date_discovered: '2026-01-29T10:15:50.509510+00:00'
+date_seen: '2026-01-29'
+metadata:
+  upvotes: '1'
+  paper_id: '2601.19949'
+  published_date: '2026-01-29'
+content_preview: 'Title: RIR-Mega-Speech: A Reverberant Speech Corpus with Comprehensive
+  Acoustic Metadata and Reproducible Evaluation
+
+
+  Summary:
+
+  Despite decades of research on reverberant speech, comparing methods remains difficult
+  because most corpora lack per-file acoustic annotations or provide limited documentation
+  for reproduction. We present RIR-Mega-Speech, a corpus of approximately 117.5 hours
+  created by convolving LibriSpeech utterances with roughly 5,000 simulated room impulse
+  responses from the RIR-Meg'
+content_length: 1490
+llm_content_sent: 1490
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа представляет только корпус реверберантной речи с метаданными, но не
+  содержит новых методов для эмоционального/экспрессивного синтеза речи с zero-shot
+  возможностями.

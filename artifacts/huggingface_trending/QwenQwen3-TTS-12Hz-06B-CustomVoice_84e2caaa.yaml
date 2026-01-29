@@ -1,0 +1,27 @@
+title: Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice
+url: https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-29T10:15:52.040805+00:00'
+date_seen: '2026-01-29'
+metadata:
+  likes: '84'
+  downloads: '40949'
+  trending_score: '84'
+  last_modified: '2026-01-29T08:01:51.000Z'
+content_preview: "---\nlicense: apache-2.0\npipeline_tag: text-to-speech\nlanguage:\n\
+  - zh\n- en\n- ja\n- ko\n- de\n- fr\n- ru\n- pt\n- es\n- it\ntags:\n- tts\n- qwen\n\
+  - audio\narxiv: 2601.15621\n---\n\n# Qwen3-TTS-12Hz-0.6B-CustomVoice\n\n[Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS)\
+  \ is a series of advanced multilingual, controllable, robust, and streaming text-to-speech\
+  \ models developed by the Qwen team. \n\nThis specific checkpoint is the **0.6B\
+  \ CustomVoice** variant, based on the **12Hz** tokenizer. It supports 9 premium\
+  \ timbres an"
+content_length: 3191
+llm_content_sent: 3191
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Модель предлагает интересную комбинацию многоязычного синтеза с управлением
+  эмоциональной экспрессивностью через естественные языковые инструкции и низкой латентностью
+  для стриминга, что представляет практически значимый вклад в область управляемого
+  синтеза речи.

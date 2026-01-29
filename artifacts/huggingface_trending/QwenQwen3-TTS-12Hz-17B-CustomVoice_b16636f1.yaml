@@ -1,0 +1,27 @@
+title: Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice
+url: https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-29T10:15:51.620924+00:00'
+date_seen: '2026-01-29'
+metadata:
+  likes: '722'
+  downloads: '169048'
+  trending_score: '722'
+  last_modified: '2026-01-29T08:00:54.000Z'
+content_preview: "---\nlicense: apache-2.0\npipeline_tag: text-to-speech\n---\n\n\
+  # Qwen3-TTS\n\n## Overview\n### Introduction\n\n<p align=\"center\">\n    <img src=\"\
+  https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen3-TTS-Repo/qwen3_tts_introduction.png\"\
+  \ width=\"90%\"/>\n<p>\n\nQwen3-TTS covers 10 major languages (Chinese, English,\
+  \ Japanese, Korean, German, French, Russian, Portuguese, Spanish, and Italian) as\
+  \ well as multiple dialectal voice profiles to meet global application needs. In\
+  \ addition, the models feature strong contex"
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Модель представляет интересную архитектуру с дискретными мульти-кодбуками
+  для end-to-end синтеза речи, поддерживает инструкционное управление эмоциями и просодией,
+  а также обеспечивает zero-shot клонирование голоса за 3 секунды, что представляет
+  значительное улучшение в области экспрессивного синтеза речи.

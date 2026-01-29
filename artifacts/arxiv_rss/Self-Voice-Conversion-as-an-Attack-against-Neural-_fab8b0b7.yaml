@@ -1,0 +1,31 @@
+title: Self Voice Conversion as an Attack against Neural Audio Watermarking
+url: https://arxiv.org/abs/2601.20432
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-29T10:15:18.449243+00:00'
+date_seen: '2026-01-29'
+metadata:
+  arxiv_id: '2601.20432'
+  published: Thu, 29 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: Self Voice Conversion as an Attack against Neural Audio Watermarking
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Audio watermarking embeds auxiliary information into speech while maintaining speaker
+  identity, linguistic content, and perceptual quality. Although recent advances in
+  neural and digital signal processing-based watermarking methods have improved imperceptibility
+  and embedding capacity, robustness is still primarily assessed against conventional
+  distortions such as compression, additive noise,'
+content_length: 1190
+llm_content_sent: 1190
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена атакам на водяные знаки в аудио через конверсию голоса, что
+  не связано с эмоциональным/экспрессивным синтезом речи или zero-shot способностями.

@@ -1,0 +1,27 @@
+title: Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign
+url: https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-29T10:15:51.691716+00:00'
+date_seen: '2026-01-29'
+metadata:
+  likes: '192'
+  downloads: '68577'
+  trending_score: '192'
+  last_modified: '2026-01-29T08:04:19.000Z'
+content_preview: "---\nlicense: apache-2.0\npipeline_tag: text-to-speech\nlibrary_name:\
+  \ qwen-tts\ntags:\n- audio\n- tts\n- qwen\n- multilingual\n---\n\n# Qwen3-TTS\n\n\
+  <br>\n\n<p align=\"center\">\n    <img src=\"https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen3-TTS-Repo/qwen3_tts_logo.png\"\
+  \ width=\"400\"/>\n<p>\n\n<p align=\"center\">\n&nbsp&nbsp\U0001F917 <a href=\"\
+  https://huggingface.co/collections/Qwen/qwen3-tts\">Hugging Face</a>&nbsp&nbsp |\
+  \ &nbsp&nbsp\U0001F916 <a href=\"https://modelscope.cn/collections/Qwen/Qwen3-TTS\"\
+  >ModelScope</a>&nbsp&nbsp | &nbsp"
+content_length: 3122
+llm_content_sent: 3122
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Модель предлагает интересную комбинацию zero-shot voice cloning с управлением
+  эмоциями через естественные языковые инструкции ('用特别愤怒的语气说'), что представляет
+  практическую ценность для экспрессивного синтеза речи, хотя архитектурные новшества
+  не детализированы.

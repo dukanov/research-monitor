@@ -1,0 +1,33 @@
+title: 'Switchcodec: Adaptive residual-expert sparse quantization for high-fidelity
+  neural audio coding'
+url: https://arxiv.org/abs/2601.20362
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-29T10:15:18.449199+00:00'
+date_seen: '2026-01-29'
+metadata:
+  arxiv_id: '2601.20362'
+  published: Thu, 29 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: Switchcodec: Adaptive residual-expert sparse quantization
+  for high-fidelity neural audio coding
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent neural audio compression models often rely on residual vector quantization
+  for high-fidelity coding, but using a fixed number of per-frame codebooks is suboptimal
+  for the wide variability of audio content-especially for signals that are either
+  very simple or highly complex. To address this limitation, we propose SwitchCodec,
+  a neural audio codec based on Resi'
+content_length: 1188
+llm_content_sent: 1188
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена сжатию аудио с адаптивной квантизацией, но не касается эмоциональной/экспрессивной
+  речи или zero-shot синтеза - это чисто техническое улучшение кодеков.
