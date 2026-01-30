@@ -1,0 +1,35 @@
+title: Speech Quality-Based Localization of Low-Quality Speech and Text-to-Speech
+  Synthesis Artefacts
+url: https://arxiv.org/abs/2601.21886
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-30T10:12:18.165714+00:00'
+date_seen: '2026-01-30'
+metadata:
+  arxiv_id: '2601.21886'
+  published: Fri, 30 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Speech Quality-Based Localization of Low-Quality Speech and
+  Text-to-Speech Synthesis Artefacts
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  A large number of works view the automatic assessment of speech from an utterance-
+  or system-level perspective. While such approaches are good in judging overall quality,
+  they cannot adequately explain why a certain score was assigned to an utterance.
+  frame-level scores can provide better interpretability, but models predicting them
+  are harder to tune and regularize '
+content_length: 1196
+llm_content_sent: 1196
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: Работа предлагает инкрементальное улучшение в виде сегментно-основанного ограничения
+  согласованности для регуляризации предикторов качества речи на уровне кадров, что
+  позволяет локализовать артефакты синтеза, но не вводит принципиально новых подходов
+  к эмоциональному или zero-shot синтезу речи.

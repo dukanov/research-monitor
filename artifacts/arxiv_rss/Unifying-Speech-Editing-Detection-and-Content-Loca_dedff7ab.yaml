@@ -1,0 +1,33 @@
+title: Unifying Speech Editing Detection and Content Localization via Prior-Enhanced
+  Audio LLMs
+url: https://arxiv.org/abs/2601.21463
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-30T10:12:18.147932+00:00'
+date_seen: '2026-01-30'
+metadata:
+  arxiv_id: '2601.21463'
+  published: Fri, 30 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: Unifying Speech Editing Detection and Content Localization
+  via Prior-Enhanced Audio LLMs
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech editing achieves semantic inversion by performing fine-grained segment-level
+  manipulation on original utterances, while preserving global perceptual naturalness.
+  Existing detection studies mainly focus on manually edited speech with explicit
+  splicing artifacts, and therefore struggle to cope with emerging end-to-end neural
+  speech editing techniques that generate sea'
+content_length: 1756
+llm_content_sent: 1756
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена обнаружению редактирования речи, а не синтезу эмоциональной/выразительной
+  речи с zero-shot возможностями - это совершенно другая задача.

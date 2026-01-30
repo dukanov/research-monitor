@@ -1,0 +1,28 @@
+title: jamiepine/voicebox
+url: https://github.com/jamiepine/voicebox
+source: github_new
+type: repository
+date_discovered: '2026-01-25T12:27:03+00:00'
+date_seen: '2026-01-30'
+metadata:
+  stars: '114'
+  language: TypeScript
+  created_at: '2026-01-25T12:27:03Z'
+content_preview: 'Description: The open-source voice synthesis studio powered by Qwen3-TTS.
+
+
+  Topics: ai, qwen3-tts, voice-ai, voice-clone, whisper
+
+
+  Language: TypeScript
+
+  Stars: 114
+
+  '
+content_length: 162
+llm_content_sent: 162
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Это просто пользовательский интерфейс для существующей модели Qwen3-TTS без
+  каких-либо научных новшеств в области синтеза речи или zero-shot возможностей.

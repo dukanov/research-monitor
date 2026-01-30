@@ -1,0 +1,31 @@
+title: QwenLM/Qwen3-ASR
+url: https://github.com/QwenLM/Qwen3-ASR
+source: github_new
+type: repository
+date_discovered: '2026-01-28T05:44:59+00:00'
+date_seen: '2026-01-30'
+metadata:
+  stars: '619'
+  language: Python
+  created_at: '2026-01-28T05:44:59Z'
+content_preview: 'Description: Qwen3-ASR is an open-source series of ASR models developed
+  by the Qwen team at Alibaba Cloud, supporting stable multilingual speech/music/song
+  recognition, language detection and timestamp prediction.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 619
+
+  '
+content_length: 262
+llm_content_sent: 262
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это стандартная модель автоматического распознавания речи (ASR) без какого-либо
+  отношения к синтезу эмоциональной речи или zero-shot возможностям в области генерации
+  речи.

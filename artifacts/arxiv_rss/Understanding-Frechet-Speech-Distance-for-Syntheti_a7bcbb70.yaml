@@ -1,0 +1,33 @@
+title: Understanding Frechet Speech Distance for Synthetic Speech Quality Evaluation
+url: https://arxiv.org/abs/2601.21386
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-30T10:12:18.147918+00:00'
+date_seen: '2026-01-30'
+metadata:
+  arxiv_id: '2601.21386'
+  published: Fri, 30 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: Understanding Frechet Speech Distance for Synthetic Speech
+  Quality Evaluation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Objective evaluation of synthetic speech quality remains a critical challenge. Human
+  listening tests are the gold standard, but costly and impractical at scale. Fr\''echet
+  Distance has emerged as a promising alternative, yet its reliability depends heavily
+  on the choice of embeddings and experimental settings. In this work, we comprehensively
+  evaluate Fr\''echet Speech Distance (FSD) a'
+content_length: 1255
+llm_content_sent: 1255
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена только оценке качества синтетической речи через метрики FSD/SMMD,
+  но не затрагивает эмоциональный/экспрессивный синтез или zero-shot возможности -
+  это чисто инкрементальное исследование существующих метрик оценки.

@@ -1,0 +1,62 @@
+title: NAMAA-Space/NAMAA-Saudi-TTS
+url: https://huggingface.co/NAMAA-Space/NAMAA-Saudi-TTS
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-30T10:12:59.635341+00:00'
+date_seen: '2026-01-30'
+metadata:
+  likes: '3'
+  downloads: '6'
+  trending_score: '3'
+  last_modified: '2026-01-29T13:51:49.000Z'
+content_preview: '---
+
+  license: mit
+
+  language:
+
+  - ar
+
+  base_model:
+
+  - ResembleAI/chatterbox
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - Saudi
+
+  - Arabic
+
+  - Saudi-Dialect
+
+  - Chatterbox
+
+  - TTS
+
+  - voice-cloning
+
+  - multilingual-tts
+
+  library_name: chatterbox
+
+  ---
+
+
+  ![NAMAA Saudi TTS Banner](https://cdn-uploads.huggingface.co/production/uploads/628f7a71dd993507cfcbe587/2d4VIgVYji-CS2w8n_3tS.png)
+
+
+  # 🇸🇦 NAMAA-Saudi-TTS
+
+
+  **NAMAA-Saudi-TTS** is a Saudi Arabic Text-to-Speech (TTS) model built on top of
+  the **Chatterbox Multilingual TTS** architec'
+content_length: 3898
+llm_content_sent: 3898
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: Это просто адаптация существующей архитектуры Chatterbox для саудовского диалекта
+  арабского языка без каких-либо новых методологических вкладов в эмоциональный или
+  экспрессивный синтез речи.

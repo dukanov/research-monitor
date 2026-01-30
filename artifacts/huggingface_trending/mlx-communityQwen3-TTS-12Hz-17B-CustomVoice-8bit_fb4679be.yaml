@@ -1,0 +1,55 @@
+title: mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-8bit
+url: https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-8bit
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-30T10:13:02.078811+00:00'
+date_seen: '2026-01-30'
+metadata:
+  likes: '2'
+  downloads: '477'
+  trending_score: '2'
+  last_modified: '2026-01-26T20:11:42.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  library_name: mlx-audio
+
+  tags:
+
+  - mlx
+
+  - text-to-speech
+
+  - speech
+
+  - speech generation
+
+  - voice cloning
+
+  - tts
+
+  - mlx-audio
+
+  base_model:
+
+  - Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice
+
+  ---
+
+  # mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-8bit
+
+
+  This model was converted to MLX format from [`Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice`](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice)
+  using mlx-audio version **0.3.0**.
+
+
+  Refer to the [original model card](https://huggingface.co/Qwen/Qwen3-'
+content_length: 1118
+llm_content_sent: 1118
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Это просто конвертация существующей модели Qwen3-TTS в формат MLX с квантизацией
+  до 8 бит, без каких-либо научных новшеств в области эмоционального синтеза речи
+  или zero-shot возможностей.

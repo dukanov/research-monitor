@@ -1,0 +1,26 @@
+title: A conversational gesture synthesis system based on emotions and semantics
+url: https://arxiv.org/abs/2507.03147
+source: arxiv_rss
+type: paper
+date_discovered: '2026-01-30T10:12:18.148697+00:00'
+date_seen: '2026-01-30'
+metadata:
+  arxiv_id: '2507.03147'
+  published: Fri, 30 Jan 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.HC, cs.CL, cs.LG, cs.SD, eess.AS
+content_preview: "Title: A conversational gesture synthesis system based on emotions\
+  \ and semantics\n\nAuthors: Unknown\n\nAbstract:\nAlong with the explosion of large\
+  \ language models, improvements in speech synthesis, advancements in hardware, and\
+  \ the evolution of computer graphics, the current bottleneck in creating digital\
+  \ humans lies in generating character movements that correspond naturally to text\
+  \ or speech inputs.\n  In this work, we present DeepGesture, a diffusion-based gesture\
+  \ synthesis framework for generati"
+content_length: 1580
+llm_content_sent: 1580
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена синтезу жестов, а не синтезу речи, что делает её нерелевантной
+  для исследований в области эмоциональной/экспрессивной речевой синтеза с zero-shot
+  возможностями.
