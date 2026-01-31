@@ -1,0 +1,27 @@
+title: 'JUST-DUB-IT: Video Dubbing via Joint Audio-Visual Diffusion'
+url: https://huggingface.co/papers/2601.22143
+source: huggingface_papers
+type: paper
+date_discovered: '2026-01-31T10:07:08.686977+00:00'
+date_seen: '2026-01-31'
+metadata:
+  upvotes: '2'
+  paper_id: '2601.22143'
+  published_date: '2026-01-31'
+content_preview: 'Title: JUST-DUB-IT: Video Dubbing via Joint Audio-Visual Diffusion
+
+
+  Summary:
+
+  Audio-Visual Foundation Models, which are pretrained to jointly generate sound and
+  visual content, have recently shown an unprecedented ability to model multi-modal
+  generation and editing, opening new opportunities for downstream tasks. Among these
+  tasks, video dubbing could greatly benefit from such priors, yet most existing solutions
+  still rely on complex, task-specific pipelines that struggle in real-world settings. '
+content_length: 1493
+llm_content_sent: 1493
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: Работа фокусируется на дублировании видео с синхронизацией губ, но не касается
+  эмоциональной/выразительной синтеза речи или zero-shot способностей в этом контексте.

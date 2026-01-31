@@ -1,0 +1,25 @@
+title: zukky/Qwen3-TTS-ONNX-DLL
+url: https://huggingface.co/zukky/Qwen3-TTS-ONNX-DLL
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-31T10:07:14.879917+00:00'
+date_seen: '2026-01-31'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-01-27T13:50:24.000Z'
+content_preview: "---\r\nlicense: apache-2.0\r\nlibrary_name: onnxruntime\r\ntags:\r\
+  \n  - text-to-speech\r\n  - tts\r\n  - onnx\r\n  - rust\r\n  - dll\r\n  - voice-clone\r\
+  \n  - voice-design\r\n---\r\n\r\n# Qwen3-TTS DLL + ONNX (Minimal, Single-File ONNX)\r\
+  \n\r\nThis Hugging Face repository provides a **minimal** runtime bundle for Qwen3-TTS:\r\
+  \n- **Rust DLL** for audio preprocessing + tokenizer (BPE)\r\n- **ONNX** models\
+  \ (single `.onnx` files with embedded weights)\r\n- **Minimal tokenizer files**\
+  \ (`config.json`, `vocab.json`, `merges.txt`, `tokeni"
+content_length: 3154
+llm_content_sent: 3154
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Это просто техническая упаковка существующей модели Qwen3-TTS в формат ONNX
+  с DLL-оберткой, без какой-либо научной новизны в области синтеза речи.

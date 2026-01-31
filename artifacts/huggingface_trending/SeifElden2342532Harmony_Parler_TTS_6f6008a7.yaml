@@ -1,0 +1,63 @@
+title: SeifElden2342532/Harmony_Parler_TTS
+url: https://huggingface.co/SeifElden2342532/Harmony_Parler_TTS
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-31T10:07:14.982644+00:00'
+date_seen: '2026-01-31'
+metadata:
+  likes: '2'
+  downloads: '50'
+  trending_score: '2'
+  last_modified: '2026-01-30T16:38:37.000Z'
+content_preview: '---
+
+  language:
+
+  - en
+
+  license: apache-2.0
+
+  tags:
+
+  - text-to-speech
+
+  - tts
+
+  - parler-tts
+
+  - speech-synthesis
+
+  - fine-tuned
+
+  - gemini-inspired
+
+  - audio
+
+  datasets:
+
+  - SeifElden2342532/parler-tts-dataset-format
+
+  model_name: Gemini Harmony Parler TTS
+
+  library_name: transformers
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+
+  ## **Harmony Parler TTS**
+
+
+  A fine-tuned speech synthesis model built to **enhance the quality and expressiveness
+  of the original Parler TTS model**, incorporating stylistic characteristics inspired
+  by Gemin'
+content_length: 3194
+llm_content_sent: 3194
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Это просто файн-тюнинг существующей модели Parler TTS без каких-либо новых
+  архитектурных решений или методологических подходов для эмоциональности или zero-shot
+  синтеза.

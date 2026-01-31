@@ -1,0 +1,51 @@
+title: Tundragoon/Kokoro-German
+url: https://huggingface.co/Tundragoon/Kokoro-German
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-01-31T10:07:12.619982+00:00'
+date_seen: '2026-01-31'
+metadata:
+  likes: '3'
+  downloads: '41'
+  trending_score: '3'
+  last_modified: '2026-01-24T15:36:47.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - de
+
+  base_model:
+
+  - yl4579/StyleTTS2-LJSpeech
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  Kokoro-German ist ein TTS-Modell mit 82 Millionen Parametern.
+
+  Das Modell verwendet denselben Inferenzcode wie Kokoro.
+
+
+  <audio controls><source src="https://huggingface.co/Tundragoon/Kokoro-German/resolve/main/samples/df_eva.mp3"
+  type="audio/wav"></audio>
+
+
+  ### Warning:
+
+  The model has been trained on limited data and still lacks training.
+
+
+
+  🐈 **GitHub**: https://github.com/Thomcle/kokoro'
+content_length: 1714
+llm_content_sent: 1714
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Это просто адаптация существующей модели Kokoro/StyleTTS2 для немецкого языка
+  без каких-либо новых методов для эмоциональности или zero-shot синтеза речи.
