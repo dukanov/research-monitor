@@ -1,0 +1,33 @@
+title: CoWork-OS/CoWork-OS
+url: https://github.com/CoWork-OS/CoWork-OS
+source: github_new
+type: repository
+date_discovered: '2026-01-24T22:27:16+00:00'
+date_seen: '2026-02-02'
+metadata:
+  stars: '83'
+  language: TypeScript
+  created_at: '2026-01-24T22:27:16Z'
+content_preview: 'Description: Operating System for your personal AI Agents with Security-first
+  approach. Multi-channel (WhatsApp, Telegram, Discord, Slack, iMessage), multi-provider
+  (Claude, GPT, Gemini, Ollama), fully self-hosted.
+
+
+  Topics: ai-assistants, ai-automation, claude, desktop-app, discord-bot, electron,
+  gemini, guardrails, llm, local-first, macos, mcp, model-context-protocol, openai,
+  personal-ai, security, self-hosted, slack-bot, telegram, whatsapp-bot
+
+
+  Language: TypeScript
+
+  Stars: 83
+
+  '
+content_length: 482
+llm_content_sent: 482
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто операционная система для AI-агентов с интеграцией различных мессенджеров
+  и LLM, не содержит никаких новых идей в области синтеза эмоциональной речи или zero-shot
+  возможностей.

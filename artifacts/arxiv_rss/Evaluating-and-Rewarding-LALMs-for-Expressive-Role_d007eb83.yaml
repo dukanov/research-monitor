@@ -1,0 +1,34 @@
+title: Evaluating and Rewarding LALMs for Expressive Role-Play TTS via Mean Continuation
+  Log-Probability
+url: https://arxiv.org/abs/2601.22661
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-02T10:20:19.248718+00:00'
+date_seen: '2026-02-02'
+metadata:
+  arxiv_id: '2601.22661'
+  published: Mon, 02 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: Evaluating and Rewarding LALMs for Expressive Role-Play TTS
+  via Mean Continuation Log-Probability
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in Large Audio Language Models (LALMs) have extended Text-to-Speech
+  (TTS) to interactive role-play scenarios, which demand high expressiveness and strict
+  adherence to role-play instructions. However, existing models struggle to maintain
+  stylistic consistency with character profiles and scene descriptions across multi-turn
+  dialogues. A critical bott'
+content_length: 1499
+llm_content_sent: 1499
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Новый подход к оценке и обучению экспрессивного синтеза речи через метрику
+  Mean Continuation Log-Probability, которая использует способности больших аудио-языковых
+  моделей для количественной оценки стилистической согласованности в ролевых диалогах.

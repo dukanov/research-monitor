@@ -1,0 +1,32 @@
+title: 'SimulSense: Sense-Driven Interpreting for Efficient Simultaneous Speech Translation'
+url: https://arxiv.org/abs/2509.21932
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-02T10:20:19.293986+00:00'
+date_seen: '2026-02-02'
+metadata:
+  arxiv_id: '2509.21932'
+  published: Mon, 02 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: SimulSense: Sense-Driven Interpreting for Efficient Simultaneous
+  Speech Translation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  How to make human-interpreter-like read/write decisions for simultaneous speech
+  translation (SimulST) systems? Current state-of-the-art systems formulate SimulST
+  as a multi-turn dialogue task, requiring specialized interleaved training data and
+  relying on computationally expensive large language model (LLM) inference for decision-making.
+  In this paper, we propose SimulSense, a '
+content_length: 1025
+llm_content_sent: 1025
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена синхронному переводу речи, а не синтезу эмоциональной/экспрессивной
+  речи с zero-shot возможностями - это совершенно другая область исследований.

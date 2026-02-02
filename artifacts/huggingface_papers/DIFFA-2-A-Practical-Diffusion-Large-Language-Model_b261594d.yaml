@@ -1,0 +1,29 @@
+title: 'DIFFA-2: A Practical Diffusion Large Language Model for General Audio Understanding'
+url: https://huggingface.co/papers/2601.23161
+source: huggingface_papers
+type: paper
+date_discovered: '2026-02-02T10:20:52.176825+00:00'
+date_seen: '2026-02-02'
+metadata:
+  upvotes: '1'
+  paper_id: '2601.23161'
+  published_date: '2026-02-02'
+content_preview: 'Title: DIFFA-2: A Practical Diffusion Large Language Model for General
+  Audio Understanding
+
+
+  Summary:
+
+  Autoregressive (AR) large audio language models (LALMs) such as Qwen-2.5-Omni have
+  achieved strong performance on audio understanding and interaction, but scaling
+  them remains costly in data and computation, and strictly sequential decoding limits
+  inference efficiency. Diffusion large language models (dLLMs) have recently been
+  shown to make effective use of limited training data, and prior work o'
+content_length: 1494
+llm_content_sent: 1494
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа фокусируется на общем понимании аудио через диффузионные языковые модели,
+  но не затрагивает эмоциональный/экспрессивный синтез речи или zero-shot возможности
+  для генерации речи.

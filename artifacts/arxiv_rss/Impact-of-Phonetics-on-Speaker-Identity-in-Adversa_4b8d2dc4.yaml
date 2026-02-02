@@ -1,0 +1,33 @@
+title: Impact of Phonetics on Speaker Identity in Adversarial Voice Attack
+url: https://arxiv.org/abs/2509.15437
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-02T10:20:19.249273+00:00'
+date_seen: '2026-02-02'
+metadata:
+  arxiv_id: '2509.15437'
+  published: Mon, 02 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.CR, eess.AS
+content_preview: 'Title: Impact of Phonetics on Speaker Identity in Adversarial Voice
+  Attack
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Adversarial perturbations in speech pose a serious threat to automatic speech recognition
+  (ASR) and speaker verification by introducing subtle waveform modifications that
+  remain imperceptible to humans but can significantly alter system outputs. While
+  targeted attacks on end-to-end ASR models have been widely studied, the phonetic
+  basis of these perturbations and their effect on speaker identi'
+content_length: 1375
+llm_content_sent: 1375
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа изучает влияние адверсариальных атак на фонетические признаки и идентичность
+  говорящего, но не предлагает новых методов синтеза речи с эмоциональной выразительностью
+  или zero-shot возможностями.

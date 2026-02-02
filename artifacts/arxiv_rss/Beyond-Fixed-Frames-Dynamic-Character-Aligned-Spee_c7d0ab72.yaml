@@ -1,0 +1,32 @@
+title: 'Beyond Fixed Frames: Dynamic Character-Aligned Speech Tokenization'
+url: https://arxiv.org/abs/2601.23174
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-02T10:20:19.249131+00:00'
+date_seen: '2026-02-02'
+metadata:
+  arxiv_id: '2601.23174'
+  published: Mon, 02 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.LG, cs.AI, cs.SD
+content_preview: 'Title: Beyond Fixed Frames: Dynamic Character-Aligned Speech Tokenization
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Neural audio codecs are at the core of modern conversational speech technologies,
+  converting continuous speech into sequences of discrete tokens that can be processed
+  by LLMs. However, existing codecs typically operate at fixed frame rates, allocating
+  tokens uniformly in time and producing unnecessarily long sequences. In this work,
+  we introduce DyCAST, a Dynamic Character-Aligned Speech Tokeni'
+content_length: 1262
+llm_content_sent: 1262
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Новый подход к токенизации речи с переменной частотой кадров и выравниванием
+  по символам, что может улучшить эффективность синтеза речи, но применимость к эмоциональному
+  синтезу неясна.

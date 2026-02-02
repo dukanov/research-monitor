@@ -1,0 +1,35 @@
+title: 'EmoShift: Lightweight Activation Steering for Enhanced Emotion-Aware Speech
+  Synthesis'
+url: https://arxiv.org/abs/2601.22873
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-02T10:20:19.249111+00:00'
+date_seen: '2026-02-02'
+metadata:
+  arxiv_id: '2601.22873'
+  published: Mon, 02 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.AI, cs.CL, cs.SD
+content_preview: 'Title: EmoShift: Lightweight Activation Steering for Enhanced Emotion-Aware
+  Speech Synthesis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Achieving precise and controllable emotional expression is crucial for producing
+  natural and context-appropriate speech in text-to-speech (TTS) synthesis. However,
+  many emotion-aware TTS systems, including large language model (LLM)-based designs,
+  rely on scaling fixed emotion embeddings or external guidance, limiting their ability
+  to model emotion-specific latent characteris'
+content_length: 1338
+llm_content_sent: 1338
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.65
+reason: Предлагается легковесный подход активационного управления с EmoSteer слоем
+  для изучения векторов смещения эмоций в пространстве эмбеддингов, что является интересным
+  развитием методов управления эмоциональностью в TTS с минимальными вычислительными
+  затратами.

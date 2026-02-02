@@ -1,0 +1,33 @@
+title: 'DiffuSpeech: Silent Thought, Spoken Answer via Unified Speech-Text Diffusion'
+url: https://arxiv.org/abs/2601.22889
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-02T10:20:19.249119+00:00'
+date_seen: '2026-02-02'
+metadata:
+  arxiv_id: '2601.22889'
+  published: Mon, 02 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.LG, cs.SD
+content_preview: 'Title: DiffuSpeech: Silent Thought, Spoken Answer via Unified Speech-Text
+  Diffusion
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Current speech language models generate responses directly without explicit reasoning,
+  leading to errors that cannot be corrected once audio is produced. We introduce
+  \textbf{``Silent Thought, Spoken Answer''''} -- a paradigm where speech LLMs generate
+  internal text reasoning alongside spoken responses, with thinking traces informing
+  speech quality. To realize this, we present \method{}'
+content_length: 1458
+llm_content_sent: 1458
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: Работа фокусируется на рассуждениях в речевых языковых моделях через диффузионный
+  подход, но не затрагивает эмоциональную/экспрессивную синтезу речи или zero-shot
+  способности в этом контексте.

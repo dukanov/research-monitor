@@ -1,0 +1,29 @@
+title: itsfabioroma/transcribee
+url: https://github.com/itsfabioroma/transcribee
+source: github_new
+type: repository
+date_discovered: '2026-01-29T08:00:45+00:00'
+date_seen: '2026-02-02'
+metadata:
+  stars: '54'
+  language: TypeScript
+  created_at: '2026-01-29T08:00:45Z'
+content_preview: 'Description: Open source macOS video transcriber that builds a self-organizing
+  knowledge base 🐝
+
+
+  Topics: No topics
+
+
+  Language: TypeScript
+
+  Stars: 54
+
+  '
+content_length: 147
+llm_content_sent: 147
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто приложение для транскрибации видео на macOS без какого-либо отношения
+  к синтезу речи, эмоциональной выразительности или zero-shot возможностям.

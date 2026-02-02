@@ -1,0 +1,32 @@
+title: 'RASST: Fast Cross-modal Retrieval-Augmented Simultaneous Speech Translation'
+url: https://arxiv.org/abs/2601.22777
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-02T10:20:19.290553+00:00'
+date_seen: '2026-02-02'
+metadata:
+  arxiv_id: '2601.22777'
+  published: Mon, 02 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: RASST: Fast Cross-modal Retrieval-Augmented Simultaneous
+  Speech Translation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Simultaneous speech translation (SST) produces target text incrementally from partial
+  speech input. Recent speech large language models (Speech LLMs) have substantially
+  improved SST quality, yet they still struggle to correctly translate rare and domain-specific
+  terminology. While retrieval augmentation has been effective for terminology translation
+  in machine translation, bringing ret'
+content_length: 1489
+llm_content_sent: 1489
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена машинному переводу речи с поиском терминов, но не касается
+  эмоциональной или экспрессивной синтеза речи с zero-shot возможностями.
