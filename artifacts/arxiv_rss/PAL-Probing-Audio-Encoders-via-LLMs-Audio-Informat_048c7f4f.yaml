@@ -1,0 +1,33 @@
+title: 'PAL: Probing Audio Encoders via LLMs -- Audio Information Transfer into LLMs'
+url: https://arxiv.org/abs/2506.10423
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-03T10:16:03.884139+00:00'
+date_seen: '2026-02-03'
+metadata:
+  arxiv_id: '2506.10423'
+  published: Tue, 03 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.CL, eess.AS
+content_preview: 'Title: PAL: Probing Audio Encoders via LLMs -- Audio Information
+  Transfer into LLMs
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Integration of audio perception into large language models (LLMs) is an emerging
+  research area for enabling machine listening applications, yet efficient transfer
+  of rich audio semantics from audio encoders to LLMs remains underexplored. The most
+  widely used integration paradigm projects audio-encoder output tokens into the LLM
+  input space (e.g., via an MLP or a Q-Former) and then pre'
+content_length: 1799
+llm_content_sent: 1799
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа фокусируется на технической оптимизации интеграции аудио-энкодеров
+  в LLM через механизм внимания, но не касается эмоциональной/экспрессивной синтеза
+  речи или zero-shot способностей в этой области.

@@ -1,0 +1,31 @@
+title: Investigating Modality Contribution in Audio LLMs for Music
+url: https://arxiv.org/abs/2509.20641
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-03T10:16:03.884518+00:00'
+date_seen: '2026-02-03'
+metadata:
+  arxiv_id: '2509.20641'
+  published: Tue, 03 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.LG, cs.SD
+content_preview: 'Title: Investigating Modality Contribution in Audio LLMs for Music
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Audio Large Language Models (Audio LLMs) enable human-like conversation about music,
+  yet it is unclear if they are truly listening to the audio or just using textual
+  reasoning, as recent benchmarks suggest. This paper investigates this issue by quantifying
+  the contribution of each modality to a model''s output. We adapt the MM-SHAP framework,
+  a performance-agnostic score based on Shapley values that qu'
+content_length: 1141
+llm_content_sent: 1141
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа применяет существующий метод MM-SHAP к аудио LLM для анализа музыки,
+  но не вносит существенного вклада в синтез эмоциональной речи с zero-shot возможностями.

@@ -1,0 +1,34 @@
+title: 'EmoAra: Emotion-Preserving English Speech Transcription and Cross-Lingual
+  Translation with Arabic Text-to-Speech'
+url: https://arxiv.org/abs/2602.01170
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-03T10:16:03.947563+00:00'
+date_seen: '2026-02-03'
+metadata:
+  arxiv_id: '2602.01170'
+  published: Tue, 03 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: EmoAra: Emotion-Preserving English Speech Transcription and
+  Cross-Lingual Translation with Arabic Text-to-Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This work presents EmoAra, an end-to-end emotion-preserving pipeline for cross-lingual
+  spoken communication, motivated by banking customer service where emotional context
+  affects service quality. EmoAra integrates Speech Emotion Recognition, Automatic
+  Speech Recognition, Machine Translation, and Text-to-Speech to process English speech
+  and deliver a'
+content_length: 1119
+llm_content_sent: 1119
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: Система объединяет существующие компоненты (распознавание эмоций, ASR, MT,
+  TTS) в pipeline для кросс-языкового синтеза с сохранением эмоций, но не предлагает
+  принципиально новых методов или архитектур.

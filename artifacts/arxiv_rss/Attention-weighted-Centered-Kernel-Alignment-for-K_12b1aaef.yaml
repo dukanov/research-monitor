@@ -1,0 +1,32 @@
+title: Attention-weighted Centered Kernel Alignment for Knowledge Distillation in
+  Large Audio-Language Models Applied to Speech Emotion Recognition
+url: https://arxiv.org/abs/2602.01547
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-03T10:16:03.883465+00:00'
+date_seen: '2026-02-03'
+metadata:
+  arxiv_id: '2602.01547'
+  published: Tue, 03 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: Attention-weighted Centered Kernel Alignment for Knowledge
+  Distillation in Large Audio-Language Models Applied to Speech Emotion Recognition
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The emergence of Large Audio-Language Models (LALMs) has advanced Speech Emotion
+  Recognition (SER), but their size limits deployment in resource-constrained environments.
+  While Knowledge Distillation is effective for LALM compression, existing methods
+  remain underexplored in distilling the cross-modal projection module (P'
+content_length: 1377
+llm_content_sent: 1377
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена распознаванию эмоций в речи через сжатие больших моделей,
+  но не касается синтеза эмоциональной речи или zero-shot возможностей генерации.

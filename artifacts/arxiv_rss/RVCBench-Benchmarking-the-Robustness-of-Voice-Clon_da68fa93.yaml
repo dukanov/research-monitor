@@ -1,0 +1,34 @@
+title: 'RVCBench: Benchmarking the Robustness of Voice Cloning Across Modern Audio
+  Generation Models'
+url: https://arxiv.org/abs/2602.00443
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-03T10:16:03.883193+00:00'
+date_seen: '2026-02-03'
+metadata:
+  arxiv_id: '2602.00443'
+  published: Tue, 03 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.MM, eess.AS
+content_preview: 'Title: RVCBench: Benchmarking the Robustness of Voice Cloning Across
+  Modern Audio Generation Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Modern voice cloning (VC) can synthesize speech that closely matches a target speaker
+  from only seconds of reference audio, enabling applications such as personalized
+  speech interfaces and dubbing. In practical deployments, modern audio generation
+  models inevitably encounter noisy reference audios, imperfect text prompts, and
+  diverse downstream processing, which can si'
+content_length: 1732
+llm_content_sent: 1732
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Впервые представлен комплексный бенчмарк для оценки робастности современных
+  моделей клонирования голоса в реальных условиях развертывания, что заполняет важный
+  пробел в исследованиях.

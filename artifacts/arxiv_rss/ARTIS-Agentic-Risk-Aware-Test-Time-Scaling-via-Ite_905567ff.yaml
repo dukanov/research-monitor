@@ -1,0 +1,33 @@
+title: 'ARTIS: Agentic Risk-Aware Test-Time Scaling via Iterative Simulation'
+url: https://arxiv.org/abs/2602.01709
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-03T10:16:03.949014+00:00'
+date_seen: '2026-02-03'
+metadata:
+  arxiv_id: '2602.01709'
+  published: Tue, 03 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: ARTIS: Agentic Risk-Aware Test-Time Scaling via Iterative
+  Simulation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Current test-time scaling (TTS) techniques enhance large language model (LLM) performance
+  by allocating additional computation at inference time, yet they remain insufficient
+  for agentic settings, where actions directly interact with external environments
+  and their effects can be irreversible and costly. We propose \emph{\name}, \emph{\underline{A}gentic
+  \underline{R}isk-Aware \underline{T}es'
+content_length: 1552
+llm_content_sent: 1552
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена агентным системам и масштабированию времени тестирования
+  для LLM, что не имеет отношения к синтезу эмоциональной речи или zero-shot генерации
+  речи.

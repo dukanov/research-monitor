@@ -1,0 +1,30 @@
+title: 'Prism: Efficient Test-Time Scaling via Hierarchical Search and Self-Verification
+  for Discrete Diffusion Language Models'
+url: https://huggingface.co/papers/2602.01842
+source: huggingface_papers
+type: paper
+date_discovered: '2026-02-03T10:16:38.572065+00:00'
+date_seen: '2026-02-03'
+metadata:
+  upvotes: '2'
+  paper_id: '2602.01842'
+  published_date: '2026-02-03'
+content_preview: 'Title: Prism: Efficient Test-Time Scaling via Hierarchical Search
+  and Self-Verification for Discrete Diffusion Language Models
+
+
+  Summary:
+
+  Inference-time compute has re-emerged as a practical way to improve LLM reasoning.
+  Most test-time scaling (TTS) algorithms rely on autoregressive decoding, which is
+  ill-suited to discrete diffusion language models (dLLMs) due to their parallel decoding
+  over the entire sequence. As a result, developing effective and efficient TTS methods
+  to unlock dLLMs'' full ge'
+content_length: 1477
+llm_content_sent: 1477
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена оптимизации вывода в дискретных диффузионных языковых моделях
+  для математических рассуждений и генерации кода, что не имеет отношения к синтезу
+  эмоциональной/экспрессивной речи с zero-shot возможностями.

@@ -1,0 +1,33 @@
+title: 'Chronos: Learning Temporal Dynamics of Reasoning Chains for Test-Time Scaling'
+url: https://arxiv.org/abs/2602.01208
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-03T10:16:03.947699+00:00'
+date_seen: '2026-02-03'
+metadata:
+  arxiv_id: '2602.01208'
+  published: Tue, 03 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Chronos: Learning Temporal Dynamics of Reasoning Chains for
+  Test-Time Scaling
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Test-Time Scaling (TTS) has emerged as an effective paradigm for improving the reasoning
+  performance of large language models (LLMs). However, existing methods -- most notably
+  majority voting and heuristic token-level scoring -- treat reasoning traces or tokens
+  equally, thereby being susceptible to substantial variations in trajectory quality
+  and localized logical failures. In this w'
+content_length: 1263
+llm_content_sent: 1263
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена улучшению рассуждений языковых моделей через временное моделирование
+  траекторий, что не имеет отношения к эмоциональному/экспрессивному синтезу речи
+  с zero-shot возможностями.

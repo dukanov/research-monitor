@@ -1,0 +1,33 @@
+title: 'Bias in the Ear of the Listener: Assessing Sensitivity in Audio Language Models
+  Across Linguistic, Demographic, and Positional Variations'
+url: https://arxiv.org/abs/2602.01030
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-03T10:16:03.883967+00:00'
+date_seen: '2026-02-03'
+metadata:
+  arxiv_id: '2602.01030'
+  published: Tue, 03 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.SD, eess.AS
+content_preview: 'Title: Bias in the Ear of the Listener: Assessing Sensitivity in
+  Audio Language Models Across Linguistic, Demographic, and Positional Variations
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This work presents the first systematic investigation of speech bias in multilingual
+  MLLMs. We construct and release the BiasInEar dataset, a speech-augmented benchmark
+  based on Global MMLU Lite, spanning English, Chinese, and Korean, balanced by gender
+  and accent, and totaling 70.8 hours ($\approx$4,249 minutes) of speech w'
+content_length: 1390
+llm_content_sent: 1390
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена исследованию предвзятости в многоязычных аудио-языковых моделях,
+  что не связано с синтезом эмоциональной речи или zero-shot генерацией, а касается
+  анализа существующих моделей на предмет справедливости и робастности.

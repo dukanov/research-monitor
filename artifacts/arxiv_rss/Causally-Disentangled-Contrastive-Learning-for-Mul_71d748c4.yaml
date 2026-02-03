@@ -1,0 +1,32 @@
+title: Causally Disentangled Contrastive Learning for Multilingual Speaker Embeddings
+url: https://arxiv.org/abs/2602.01363
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-03T10:16:03.883448+00:00'
+date_seen: '2026-02-03'
+metadata:
+  arxiv_id: '2602.01363'
+  published: Tue, 03 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.CL, eess.AS
+content_preview: 'Title: Causally Disentangled Contrastive Learning for Multilingual
+  Speaker Embeddings
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Self-supervised speaker embeddings are widely used in speaker verification systems,
+  but prior work has shown that they often encode sensitive demographic attributes,
+  raising fairness and privacy concerns. This paper investigates the extent to which
+  demographic information, specifically gender, age, and accent, is present in SimCLR-trained
+  speaker embeddings and whether such leakage '
+content_length: 1689
+llm_content_sent: 1689
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: Работа посвящена удалению демографической информации из эмбеддингов говорителей,
+  что не связано с эмоциональным/экспрессивным синтезом речи или zero-shot возможностями.
