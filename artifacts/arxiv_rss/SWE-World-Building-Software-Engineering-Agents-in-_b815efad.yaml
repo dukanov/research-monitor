@@ -1,0 +1,33 @@
+title: 'SWE-World: Building Software Engineering Agents in Docker-Free Environments'
+url: https://arxiv.org/abs/2602.03419
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-04T10:17:13.588208+00:00'
+date_seen: '2026-02-04'
+metadata:
+  arxiv_id: '2602.03419'
+  published: Wed, 04 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SE, cs.CL
+content_preview: 'Title: SWE-World: Building Software Engineering Agents in Docker-Free
+  Environments
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in large language models (LLMs) have enabled software engineering
+  agents to tackle complex code modification tasks. Most existing approaches rely
+  on execution feedback from containerized environments, which require dependency-complete
+  setup and physical execution of programs and tests. While effective, this paradigm
+  is resource-intensive and difficult to maintain, subst'
+content_length: 1794
+llm_content_sent: 1794
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Работа посвящена разработке программного обеспечения с использованием языковых
+  моделей, что никак не связано с синтезом эмоциональной/выразительной речи или zero-shot
+  возможностями в области речевых технологий.

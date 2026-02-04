@@ -1,0 +1,28 @@
+title: 'SWE-Master: Unleashing the Potential of Software Engineering Agents via Post-Training'
+url: https://huggingface.co/papers/2602.03411
+source: huggingface_papers
+type: paper
+date_discovered: '2026-02-04T10:17:46.403142+00:00'
+date_seen: '2026-02-04'
+metadata:
+  upvotes: '26'
+  paper_id: '2602.03411'
+  published_date: '2026-02-04'
+content_preview: 'Title: SWE-Master: Unleashing the Potential of Software Engineering
+  Agents via Post-Training
+
+
+  Summary:
+
+  In this technical report, we present SWE-Master, an open-source and fully reproducible
+  post-training framework for building effective software engineering agents. SWE-Master
+  systematically explores the complete agent development pipeline, including teacher-trajectory
+  synthesis and data curation, long-horizon SFT, RL with real execution feedback,
+  and inference framework design. Starting from an '
+content_length: 1341
+llm_content_sent: 1341
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Работа посвящена разработке агентов для программной инженерии, что не имеет
+  отношения к эмоциональному/экспрессивному синтезу речи с zero-shot возможностями.

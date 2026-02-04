@@ -1,0 +1,29 @@
+title: 'SWE-World: Building Software Engineering Agents in Docker-Free Environments'
+url: https://huggingface.co/papers/2602.03419
+source: huggingface_papers
+type: paper
+date_discovered: '2026-02-04T10:17:46.403113+00:00'
+date_seen: '2026-02-04'
+metadata:
+  upvotes: '28'
+  paper_id: '2602.03419'
+  published_date: '2026-02-04'
+content_preview: 'Title: SWE-World: Building Software Engineering Agents in Docker-Free
+  Environments
+
+
+  Summary:
+
+  Recent advances in large language models (LLMs) have enabled software engineering
+  agents to tackle complex code modification tasks. Most existing approaches rely
+  on execution feedback from containerized environments, which require dependency-complete
+  setup and physical execution of programs and tests. While effective, this paradigm
+  is resource-intensive and difficult to maintain, substantially complicati'
+content_length: 1707
+llm_content_sent: 1707
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: Работа посвящена созданию агентов для программной инженерии без использования
+  Docker, что совершенно не связано с синтезом эмоциональной речи или zero-shot возможностями
+  в области речевых технологий.

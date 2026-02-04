@@ -1,0 +1,29 @@
+title: bc-dunia/qwen3-TTS-studio
+url: https://github.com/bc-dunia/qwen3-TTS-studio
+source: github_new
+type: repository
+date_discovered: '2026-02-02T12:29:53+00:00'
+date_seen: '2026-02-04'
+metadata:
+  stars: '146'
+  language: Python
+  created_at: '2026-02-02T12:29:53Z'
+content_preview: 'Description: A professional-grade interface for Qwen3-TTS, designed
+  to unlock the model''s full potential with fine-grained control and intuitive workflows.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 146
+
+  '
+content_length: 204
+llm_content_sent: 204
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: Это просто интерфейс для существующей модели Qwen3-TTS без новых научных подходов
+  к эмоциональному или zero-shot синтезу речи.

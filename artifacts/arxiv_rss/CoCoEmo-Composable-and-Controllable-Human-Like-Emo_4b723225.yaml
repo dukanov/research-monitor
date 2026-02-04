@@ -1,0 +1,34 @@
+title: 'CoCoEmo: Composable and Controllable Human-Like Emotional TTS via Activation
+  Steering'
+url: https://arxiv.org/abs/2602.03420
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-04T10:17:13.535880+00:00'
+date_seen: '2026-02-04'
+metadata:
+  arxiv_id: '2602.03420'
+  published: Wed, 04 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.LG
+content_preview: 'Title: CoCoEmo: Composable and Controllable Human-Like Emotional
+  TTS via Activation Steering
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Emotional expression in human speech is nuanced and compositional, often involving
+  multiple, sometimes conflicting, affective cues that may diverge from linguistic
+  content. In contrast, most expressive text-to-speech systems enforce a single utterance-level
+  emotion, collapsing affective diversity and suppressing mixed or text-emotion-misaligned
+  expression. While activation st'
+content_length: 1458
+llm_content_sent: 1458
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Первое систематическое исследование активационного управления для эмоционального
+  контроля в гибридных TTS моделях с возможностью композиционного синтеза смешанных
+  эмоций и несоответствия текст-эмоция.
