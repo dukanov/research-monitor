@@ -1,0 +1,34 @@
+title: 'When Good Sounds Go Adversarial: Jailbreaking Audio-Language Models with Benign
+  Inputs'
+url: https://arxiv.org/abs/2508.03365
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-05T10:17:56.078734+00:00'
+date_seen: '2026-02-05'
+metadata:
+  arxiv_id: '2508.03365'
+  published: Thu, 05 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.CR, eess.AS
+content_preview: 'Title: When Good Sounds Go Adversarial: Jailbreaking Audio-Language
+  Models with Benign Inputs
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  As large language models (LLMs) become increasingly integrated into daily life,
+  audio has emerged as a key interface for human-AI interaction. However, this convenience
+  also introduces new vulnerabilities, making audio a potential attack surface for
+  adversaries. Our research introduces WhisperInject, a two-stage adversarial audio
+  attack framework that manipulates state-of-th'
+content_length: 1558
+llm_content_sent: 1558
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа посвящена атакам на аудио-языковые модели через adversarial примеры,
+  что не имеет отношения к эмоциональному/экспрессивному синтезу речи с zero-shot
+  возможностями.

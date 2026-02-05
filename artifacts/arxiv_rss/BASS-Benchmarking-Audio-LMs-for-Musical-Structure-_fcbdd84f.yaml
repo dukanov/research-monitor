@@ -1,0 +1,33 @@
+title: 'BASS: Benchmarking Audio LMs for Musical Structure and Semantic Reasoning'
+url: https://arxiv.org/abs/2602.04085
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-05T10:17:56.078112+00:00'
+date_seen: '2026-02-05'
+metadata:
+  arxiv_id: '2602.04085'
+  published: Thu, 05 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.CL
+content_preview: 'Title: BASS: Benchmarking Audio LMs for Musical Structure and Semantic
+  Reasoning
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Music understanding is a complex task that often requires reasoning over both structural
+  and semantic elements of audio. We introduce BASS, designed to evaluate music understanding
+  and reasoning in audio language models across four broad categories: structural
+  segmentation, lyric transcription, musicological analysis, and artist collaboration.
+  BASS comprises 2658 questions spanning 12 ta'
+content_length: 1350
+llm_content_sent: 1350
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Работа представляет бенчмарк для оценки музыкальных языковых моделей, но не
+  касается эмоциональной/экспрессивной речевой синтеза или zero-shot возможностей
+  в этой области.

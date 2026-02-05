@@ -1,0 +1,33 @@
+title: Decoding Ambiguous Emotions with Test-Time Scaling in Audio-Language Models
+url: https://arxiv.org/abs/2602.03873
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-05T10:17:56.078059+00:00'
+date_seen: '2026-02-05'
+metadata:
+  arxiv_id: '2602.03873'
+  published: Thu, 05 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, eess.AS
+content_preview: 'Title: Decoding Ambiguous Emotions with Test-Time Scaling in Audio-Language
+  Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Emotion recognition from human speech is a critical enabler for socially aware conversational
+  AI. However, while most prior work frames emotion recognition as a categorical classification
+  problem, real-world affective states are often ambiguous, overlapping, and context-dependent,
+  posing significant challenges for both annotation and automatic modeling. Recent
+  large-scale audio languag'
+content_length: 1779
+llm_content_sent: 1779
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Впервые применяется test-time scaling для распознавания неоднозначных эмоций
+  в речи с использованием больших аудио-языковых моделей, что представляет интересный
+  подход к решению проблемы многозначности эмоциональных состояний.

@@ -1,0 +1,76 @@
+title: divyajot5005/Qwen3-TTS-12Hz-1.7B-Base-BNB-4bit
+url: https://huggingface.co/divyajot5005/Qwen3-TTS-12Hz-1.7B-Base-BNB-4bit
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-05T10:18:32.900283+00:00'
+date_seen: '2026-02-05'
+metadata:
+  likes: '2'
+  downloads: '98'
+  trending_score: '2'
+  last_modified: '2026-01-25T20:29:06.000Z'
+content_preview: '---
+
+  language:
+
+  - en
+
+  - zh
+
+  - de
+
+  - fr
+
+  - it
+
+  - pt
+
+  - es
+
+  - ja
+
+  - ko
+
+  - ru
+
+  license: apache-2.0
+
+  library_name: transformers
+
+  base_model: Qwen/Qwen3-TTS-12Hz-1.7B-Base
+
+  tags:
+
+  - tts
+
+  - text-to-speech
+
+  - qwen3
+
+  - bitsandbytes
+
+  - quantized
+
+  - 4bit
+
+  ---
+
+
+  # Qwen3-TTS-12Hz-1.7B-Base - 4-bit Quantized (bitsandbytes)
+
+
+  This is a 4-bit quantized version of [Qwen/Qwen3-TTS-12Hz-1.7B-Base](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base)
+  configured for **automatic bitsandbytes quantization** at load time.
+
+
+  ## How It Works
+
+
+  '
+content_length: 1813
+llm_content_sent: 1813
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: Это просто квантизованная версия существующей модели без каких-либо новых
+  подходов к эмоциональному/экспрессивному синтезу речи или zero-shot возможностям.
