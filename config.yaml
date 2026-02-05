@@ -150,7 +150,7 @@ prompts:
       {{
           "is_relevant": true/false,
           "score": 0.0-1.0,
-          "reason": "What's new here? (in Russian, 1 sentence)"
+          "reason": "What's new here? (1 sentence)"
       }}
   
   summary:
@@ -168,7 +168,7 @@ prompts:
       Content:
       {content}
       
-      Write a summary in Russian (2-3 sentences) for a colleague:
+      Write a summary in English (2-3 sentences) for a colleague:
       1. What's the main idea or approach?
       2. What makes it different from existing work?
       3. Any notable limitation (if obvious)
@@ -184,7 +184,7 @@ prompts:
       Extract 3-5 highlights from this content.
       
       OUTPUT FORMAT (JSON array only, starting with [ ):
-      ["highlight 1 in Russian", "highlight 2 in Russian", "highlight 3 in Russian"]
+      ["highlight 1", "highlight 2", "highlight 3"]
       
       Content:
       Title: {title}
@@ -192,7 +192,7 @@ prompts:
       
       {content}
       
-      Extract in Russian:
+      Extract key points:
       - Novel ideas or approaches
       - Key differences from prior work
       - Interesting findings or insights
@@ -213,7 +213,7 @@ prompts:
       
       {entries_json}
       
-      For each item, write 2-3 sentences in Russian explaining:
+      For each item, write 2-3 sentences in English explaining:
       - What's the main idea or contribution?
       - How does it differ from existing approaches?
       

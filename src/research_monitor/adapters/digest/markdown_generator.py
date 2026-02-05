@@ -11,7 +11,7 @@ class MarkdownDigestGenerator(DigestGenerator):
     async def generate(self, entries: list[DigestEntry], digest_date: date) -> str:
         """Generate markdown digest."""
         if not entries:
-            return f"# Дайджест за {digest_date.strftime('%d.%m.%Y')}\n\nНе найдено релевантных материалов."
+            return f"# Research Digest — {digest_date.strftime('%d.%m.%Y')}\n\nNo relevant materials found."
         
         # Group by type
         repositories = [e for e in entries if e.item.type.value == "repository"]
@@ -24,15 +24,15 @@ class MarkdownDigestGenerator(DigestGenerator):
         models.sort(key=lambda x: x.relevance_score, reverse=True)
         
         lines = [
-            f"# 🎙️ Дайджест по синтезу речи за {digest_date.strftime('%d.%m.%Y')}",
+            f"# Research Digest — {digest_date.strftime('%d.%m.%Y')}",
             "",
-            f"Найдено материалов: {len(entries)}",
+            f"Items found: {len(entries)}",
             "",
         ]
         
         if papers:
             lines.extend([
-                "## 📄 Статьи",
+                "## 📄 Papers",
                 "",
             ])
             for entry in papers:
@@ -40,7 +40,7 @@ class MarkdownDigestGenerator(DigestGenerator):
         
         if models:
             lines.extend([
-                "## 🤖 Модели",
+                "## 🤖 Models",
                 "",
             ])
             for entry in models:
@@ -48,7 +48,7 @@ class MarkdownDigestGenerator(DigestGenerator):
         
         if repositories:
             lines.extend([
-                "## 💻 Репозитории",
+                "## 💻 Repositories",
                 "",
             ])
             for entry in repositories:
@@ -61,7 +61,7 @@ class MarkdownDigestGenerator(DigestGenerator):
         lines = [
             f"### [{entry.item.title}]({entry.item.url})",
             "",
-            f"**Релевантность:** {entry.relevance_score:.1%}",
+            f"**Relevance:** {entry.relevance_score:.1%}",
             "",
             entry.summary,
             "",
@@ -69,7 +69,7 @@ class MarkdownDigestGenerator(DigestGenerator):
         
         if entry.highlights:
             lines.extend([
-                "**Ключевые моменты:**",
+                "**Key points:**",
                 "",
             ])
             for highlight in entry.highlights:
