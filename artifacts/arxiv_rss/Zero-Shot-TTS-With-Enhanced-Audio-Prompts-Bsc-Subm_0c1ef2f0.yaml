@@ -1,0 +1,35 @@
+title: 'Zero-Shot TTS With Enhanced Audio Prompts: Bsc Submission For The 2026 Wildspoof
+  Challenge TTS Track'
+url: https://arxiv.org/abs/2602.05770
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-06T10:16:57.490730+00:00'
+date_seen: '2026-02-06'
+metadata:
+  arxiv_id: '2602.05770'
+  published: Fri, 06 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Zero-Shot TTS With Enhanced Audio Prompts: Bsc Submission
+  For The 2026 Wildspoof Challenge TTS Track
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We evaluate two non-autoregressive architectures, StyleTTS2 and F5-TTS, to address
+  the spontaneous nature of in-the-wild speech. Our models utilize flexible duration
+  modeling to improve prosodic naturalness. To handle acoustic noise, we implement
+  a multi-stage enhancement pipeline using the Sidon model, which significantly outperforms
+  standard Demucs in signal '
+content_length: 915
+llm_content_sent: 915
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: While the work addresses zero-shot TTS with audio enhancement for noisy conditions,
+  it appears to be primarily an engineering combination of existing models (StyleTTS2,
+  F5-TTS, Sidon) without introducing fundamentally new architectural or methodological
+  innovations.

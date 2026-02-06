@@ -1,0 +1,30 @@
+title: 'UniAudio 2.0: A Unified Audio Language Model with Text-Aligned Factorized
+  Audio Tokenization'
+url: https://huggingface.co/papers/2602.04683
+source: huggingface_papers
+type: paper
+date_discovered: '2026-02-06T10:17:30.144957+00:00'
+date_seen: '2026-02-06'
+metadata:
+  upvotes: '1'
+  paper_id: '2602.04683'
+  published_date: '2026-02-06'
+content_preview: 'Title: UniAudio 2.0: A Unified Audio Language Model with Text-Aligned
+  Factorized Audio Tokenization
+
+
+  Summary:
+
+  We study two foundational problems in audio language models: (1) how to design an
+  audio tokenizer that can serve as an intermediate representation for both understanding
+  and generation; and (2) how to build an audio foundation model that generalizes
+  in few-shot and zero-shot settings, analogous to large language models. To this
+  end, we make the following two contributions. First, we prop'
+content_length: 1609
+llm_content_sent: 1609
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: The factorized audio tokenization approach with separate reasoning and reconstruction
+  tokens for unified understanding/generation is novel, though the overall unified
+  audio-text modeling paradigm builds on established foundations.

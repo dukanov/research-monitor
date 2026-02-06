@@ -1,0 +1,34 @@
+title: 'ARCHI-TTS: A flow-matching-based Text-to-Speech Model with Self-supervised
+  Semantic Aligner and Accelerated Inference'
+url: https://arxiv.org/abs/2602.05207
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-06T10:16:57.490670+00:00'
+date_seen: '2026-02-06'
+metadata:
+  arxiv_id: '2602.05207'
+  published: Fri, 06 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.AI
+content_preview: 'Title: ARCHI-TTS: A flow-matching-based Text-to-Speech Model with
+  Self-supervised Semantic Aligner and Accelerated Inference
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Although diffusion-based, non-autoregressive text-to-speech (TTS) systems have demonstrated
+  impressive zero-shot synthesis capabilities, their efficacy is still hindered by
+  two key challenges: the difficulty of text-speech alignment modeling and the high
+  computational overhead of the iterative denoising process. To address these limitations,
+  we'
+content_length: 1291
+llm_content_sent: 1291
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.6
+reason: The paper introduces a dedicated self-supervised semantic aligner and encoder
+  feature reuse strategy for flow-matching TTS, but represents incremental improvements
+  rather than fundamental breakthroughs in zero-shot emotional/expressive synthesis.

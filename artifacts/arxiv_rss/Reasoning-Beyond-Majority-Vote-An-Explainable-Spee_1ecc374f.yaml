@@ -1,0 +1,34 @@
+title: 'Reasoning Beyond Majority Vote: An Explainable SpeechLM Framework for Speech
+  Emotion Recognition'
+url: https://arxiv.org/abs/2509.24187
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-06T10:16:57.490807+00:00'
+date_seen: '2026-02-06'
+metadata:
+  arxiv_id: '2509.24187'
+  published: Fri, 06 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Reasoning Beyond Majority Vote: An Explainable SpeechLM Framework
+  for Speech Emotion Recognition
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech Emotion Recognition (SER) is typically trained and evaluated on majority-voted
+  labels, which simplifies benchmarking but masks subjectivity and provides little
+  transparency into why predictions are made. This neglects valid minority annotations
+  and limits interpretability. We propose an explainable Speech Language Model (SpeechLM)
+  framework that frames SER a'
+content_length: 1530
+llm_content_sent: 1530
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel generative reasoning approach to speech emotion recognition
+  that produces natural language explanations grounded in acoustic and lexical cues,
+  moving beyond traditional classification to interpretable emotion understanding.
