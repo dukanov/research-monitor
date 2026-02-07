@@ -1,0 +1,21 @@
+title: fishaudio/s1-mini
+url: https://huggingface.co/fishaudio/s1-mini
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-07T10:07:52.685456+00:00'
+date_seen: '2026-02-07'
+metadata:
+  likes: '571'
+  downloads: '4780'
+  trending_score: '8'
+  last_modified: '2026-02-06T12:49:42.000Z'
+content_preview: You agree to not use the model to generate contents that violate
+  DMCA or local laws.
+content_length: 84
+llm_content_sent: 84
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: The provided content contains only a legal disclaimer with no technical information
+  about the model's architecture, capabilities, or contributions to emotional/expressive
+  speech synthesis.

@@ -1,0 +1,28 @@
+title: Soul-AILab/SoulX-Singer
+url: https://huggingface.co/Soul-AILab/SoulX-Singer
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-07T10:07:53.265339+00:00'
+date_seen: '2026-02-07'
+metadata:
+  likes: '4'
+  downloads: '0'
+  trending_score: '4'
+  last_modified: '2026-02-07T01:52:55.000Z'
+content_preview: "---\nlicense: apache-2.0\nlanguage:\n- en\n- zh\ntags:\n- text-to-audio\n\
+  - music\n- text-to-speech\n- singing-voice-synthesis\n- svs\n---\n\n<div align=\"\
+  center\">\n    <h1>\n    SoulX-Singer\n    </h1>\n    <p>\n    <br>\n    <b><em>\
+  \ Towards High-Quality Zero-Shot Singing Voice Synthesis</em></b>\n    </p>\n  \
+  \  <p>\n    <img src=\"assets/soulx-logo.png\" alt=\"SoulX-Podcast_Logo\" style=\"\
+  height: 80px;\">\n    </p>\n    <p>\n    </p>\n    <a href=\"https://soul-ailab.github.io/soulx-singer/\"\
+  ><img src=\"https://img.shields.io/badg"
+content_length: 2944
+llm_content_sent: 2944
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: While the model addresses zero-shot singing voice synthesis which is relevant
+  to expressive speech synthesis, the content only provides a basic model card without
+  technical details, architectural innovations, or evaluation of the zero-shot capabilities,
+  making it difficult to assess true scientific novelty beyond incremental application
+  to the singing domain.
