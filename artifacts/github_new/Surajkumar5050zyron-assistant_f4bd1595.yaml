@@ -1,0 +1,31 @@
+title: Surajkumar5050/zyron-assistant
+url: https://github.com/Surajkumar5050/zyron-assistant
+source: github_new
+type: repository
+date_discovered: '2026-01-31T17:15:15+00:00'
+date_seen: '2026-02-08'
+metadata:
+  stars: '51'
+  language: Python
+  created_at: '2026-01-31T17:15:15Z'
+content_preview: 'Description: ⚡ A local, privacy-focused AI desktop assistant for
+  Windows. Control your PC remotely via Telegram or locally with Voice commands. Powered
+  by Ollama.
+
+
+  Topics: ai-assistant, desktop-assistant, local-llm, ollama, privacy, python, telegram-bot,
+  windows-automation
+
+
+  Language: Python
+
+  Stars: 51
+
+  '
+content_length: 302
+llm_content_sent: 302
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is a desktop automation tool using existing LLMs with no novel contributions
+  to speech synthesis, emotional expression, or zero-shot capabilities in TTS research.
