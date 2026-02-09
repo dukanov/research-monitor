@@ -1,0 +1,29 @@
+title: tc-mb/llama.cpp-omni
+url: https://github.com/tc-mb/llama.cpp-omni
+source: github_new
+type: repository
+date_discovered: '2026-02-01T12:57:50+00:00'
+date_seen: '2026-02-09'
+metadata:
+  stars: '48'
+  language: C++
+  created_at: '2026-02-01T12:57:50Z'
+content_preview: 'Description: No description
+
+
+  Topics: No topics
+
+
+  Language: C++
+
+  Stars: 48
+
+  '
+content_length: 72
+llm_content_sent: 72
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: This appears to be a fork or variant of llama.cpp with no description, documentation,
+  or clear indication of novel contributions to emotional/expressive speech synthesis
+  or zero-shot capabilities.

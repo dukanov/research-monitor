@@ -1,0 +1,35 @@
+title: 'STACodec: Semantic Token Assignment for Balancing Acoustic Fidelity and Semantic
+  Information in Audio Codecs'
+url: https://arxiv.org/abs/2602.06180
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-09T10:26:38.615366+00:00'
+date_seen: '2026-02-09'
+metadata:
+  arxiv_id: '2602.06180'
+  published: Mon, 09 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.CL
+content_preview: 'Title: STACodec: Semantic Token Assignment for Balancing Acoustic
+  Fidelity and Semantic Information in Audio Codecs
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Neural audio codecs are widely used for audio compression and can be integrated
+  into token-based language models. Traditional codecs preserve acoustic details well
+  but lack semantic information. Recent hybrid codecs attempt to incorporate semantic
+  information through distillation, but this often degrades reconstruction performance,
+  making it difficult t'
+content_length: 1323
+llm_content_sent: 1323
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The semantic token assignment (STA) approach for integrating SSL-derived semantic
+  information into the first RVQ layer is a novel architectural contribution that
+  directly addresses the acoustic-semantic trade-off problem in audio codecs, though
+  the overall framework remains incremental.

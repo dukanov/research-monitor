@@ -1,0 +1,26 @@
+title: kjanh/ViVoxCPM-1.5
+url: https://huggingface.co/kjanh/ViVoxCPM-1.5
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-09T10:27:16.210273+00:00'
+date_seen: '2026-02-09'
+metadata:
+  likes: '2'
+  downloads: '65'
+  trending_score: '2'
+  last_modified: '2026-01-31T04:13:04.000Z'
+content_preview: "---\nlicense: apache-2.0\nlanguage:\n- vi\n- en\nbase_model:\n-\
+  \ openbmb/VoxCPM1.5\npipeline_tag: text-to-speech\n---\n# ViVoxCPM-1.5 \U0001F5E3\
+  ️\U0001F525\n\n**ViVoxCPM-1.5** là mô hình Text-to-Speech (TTS) dựa trên **VoxCPM-1.5**,\
+  \ được fine-tune để tổng hợp giọng nói **tiếng Việt và tiếng Anh**, hỗ trợ **voice\
+  \ cloning**.\n\n## \U0001F9E0 Thông tin huấn luyện\n\n- **Base model**: VoxCPM-1.5\
+  \  \n- **Dataset**: ~1200 giờ audio tiếng **Việt + Anh**\n- **Epochs**: ~10\n- **Kiểu\
+  \ huấn luyện**: Full Finetune\n- **Mục tiêu**:\n  - Phát âm tiếng Việt "
+content_length: 5083
+llm_content_sent: 5083
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is merely a fine-tuned version of an existing model (VoxCPM-1.5) for
+  Vietnamese/English languages with no novel contributions to emotional/expressive
+  synthesis or zero-shot capabilities beyond basic voice cloning.

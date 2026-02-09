@@ -1,0 +1,28 @@
+title: pheonix-delta/axiom-voice-agent
+url: https://github.com/pheonix-delta/axiom-voice-agent
+source: github_new
+type: repository
+date_discovered: '2026-02-04T17:13:34+00:00'
+date_seen: '2026-02-09'
+metadata:
+  stars: '38'
+  language: Python
+  created_at: '2026-02-04T17:13:34Z'
+content_preview: 'Description: Run a <400ms latency Voice Agent on just 4GB VRAM.
+  Fully offline, no API keys required. Optimized for GTX 1650 and edge robotics with
+  zero-copy inference. (Apache 2.0)
+
+
+  Topics: ai-voice-agent, edge-ai-agents, edge-robotics-voice-assistant, kokora-tts,
+  llama-fine-tune, local-llm-integration, local-voice-agent, nvidia-cuda, offline-ai,
+  ollama-voice-agent, parakeet-model, python-3, quantizations, rag, sentence-transformers-finetune,
+  setfit-model, setfit-training, sherpa-onnx, speech-sy'
+content_length: 549
+llm_content_sent: 549
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This appears to be an engineering integration project combining existing TTS
+  models (Kokora-TTS, Parakeet) with LLMs for voice agents, but lacks novel contributions
+  to emotional/expressive speech synthesis or zero-shot capabilities beyond standard
+  model deployment optimizations.

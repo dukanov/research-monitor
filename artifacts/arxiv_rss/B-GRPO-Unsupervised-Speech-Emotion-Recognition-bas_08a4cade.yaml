@@ -1,0 +1,34 @@
+title: 'B-GRPO: Unsupervised Speech Emotion Recognition based on Batched-Group Relative
+  Policy Optimization'
+url: https://arxiv.org/abs/2602.06290
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-09T10:26:38.615406+00:00'
+date_seen: '2026-02-09'
+metadata:
+  arxiv_id: '2602.06290'
+  published: Mon, 09 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: B-GRPO: Unsupervised Speech Emotion Recognition based on
+  Batched-Group Relative Policy Optimization
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Unsupervised speech emotion recognition (SER) focuses on addressing the problem
+  of data sparsity and annotation bias of emotional speech. Reinforcement learning
+  (RL) is a promising method which enhances the performance through rule-based or
+  model-based verification functions rather than human annotations. We treat the sample
+  selection during the learning process'
+content_length: 1274
+llm_content_sent: 1274
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on emotion recognition (analysis) rather than synthesis,
+  and while it addresses unsupervised learning, it doesn't contribute to zero-shot
+  expressive speech generation capabilities.

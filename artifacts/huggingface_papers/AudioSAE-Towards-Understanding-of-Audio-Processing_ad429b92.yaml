@@ -1,0 +1,29 @@
+title: 'AudioSAE: Towards Understanding of Audio-Processing Models with Sparse AutoEncoders'
+url: https://huggingface.co/papers/2602.05027
+source: huggingface_papers
+type: paper
+date_discovered: '2026-02-09T10:27:10.809306+00:00'
+date_seen: '2026-02-09'
+metadata:
+  upvotes: '7'
+  paper_id: '2602.05027'
+  published_date: '2026-02-09'
+content_preview: 'Title: AudioSAE: Towards Understanding of Audio-Processing Models
+  with Sparse AutoEncoders
+
+
+  Summary:
+
+  Sparse Autoencoders (SAEs) are powerful tools for interpreting neural representations,
+  yet their use in audio remains underexplored. We train SAEs across all encoder layers
+  of Whisper and HuBERT, provide an extensive evaluation of their stability, interpretability,
+  and show their practical utility. Over 50% of the features remain consistent across
+  random seeds, and reconstruction quality is prese'
+content_length: 1166
+llm_content_sent: 1166
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: First application of Sparse Autoencoders to audio processing models (Whisper/HuBERT)
+  with novel demonstration of feature steering for controlling model behavior, though
+  the core SAE methodology is established from language models.
