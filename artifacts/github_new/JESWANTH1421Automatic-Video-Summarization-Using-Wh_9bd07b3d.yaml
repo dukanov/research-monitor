@@ -1,0 +1,31 @@
+title: JESWANTH1421/Automatic-Video-Summarization-Using-Whisper-and-Transformer-Models
+url: https://github.com/JESWANTH1421/Automatic-Video-Summarization-Using-Whisper-and-Transformer-Models
+source: github_new
+type: repository
+date_discovered: '2026-01-31T12:48:57+00:00'
+date_seen: '2026-02-10'
+metadata:
+  stars: '42'
+  language: Python
+  created_at: '2026-01-31T12:48:57Z'
+content_preview: 'Description: This project extracts audio from YouTube videos, converts
+  speech to text using OpenAI Whisper, and summarizes the content using transformer-based
+  NLP models to save time and improve content accessibility.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 42
+
+  '
+content_length: 265
+llm_content_sent: 265
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is a standard application combining existing tools (Whisper + transformers)
+  for video summarization with no connection to emotional/expressive speech synthesis
+  or zero-shot speech generation capabilities.

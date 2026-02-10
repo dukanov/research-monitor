@@ -1,0 +1,34 @@
+title: 'Measuring Audio''s Impact on Correctness: Audio-Contribution-Aware Post-Training
+  of Large Audio Language Models'
+url: https://arxiv.org/abs/2509.21060
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-10T10:22:50.360501+00:00'
+date_seen: '2026-02-10'
+metadata:
+  arxiv_id: '2509.21060'
+  published: Tue, 10 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Measuring Audio''s Impact on Correctness: Audio-Contribution-Aware
+  Post-Training of Large Audio Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large Audio Language Models (LALMs) represent an important frontier in multimodal
+  AI, addressing diverse audio tasks. Recently, post-training of LALMs has received
+  increasing attention due to significant performance improvements over foundation
+  models. While single-stage post-training such as reinforcement learning (RL) has
+  demonstrated promising resu'
+content_length: 1939
+llm_content_sent: 1939
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on audio question-answering and general audio understanding
+  rather than emotional/expressive speech synthesis, with no mention of zero-shot
+  synthesis capabilities or emotional speech generation.

@@ -1,0 +1,33 @@
+title: Equipping LLM with Directional Multi-Talker Speech Understanding Capabilities
+url: https://arxiv.org/abs/2602.07211
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-10T10:22:50.346738+00:00'
+date_seen: '2026-02-10'
+metadata:
+  arxiv_id: '2602.07211'
+  published: Tue, 10 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.SD
+content_preview: 'Title: Equipping LLM with Directional Multi-Talker Speech Understanding
+  Capabilities
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent studies have demonstrated that prompting large language models (LLM) with
+  audio encodings enables effective speech understanding capabilities. However, most
+  speech LLMs are trained on single-channel, single-talker data, which makes it challenging
+  to directly apply them to multi-talker and multi-channel speech understanding task.
+  In this work, we present a comprehensive investi'
+content_length: 1319
+llm_content_sent: 1319
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on multi-talker speech understanding and recognition rather
+  than emotional/expressive speech synthesis, and lacks zero-shot synthesis capabilities
+  - it's primarily about speech processing/understanding, not generation.

@@ -1,0 +1,24 @@
+title: adityakum667388/lumichats_TTS_1B_finetune_16bit
+url: https://huggingface.co/adityakum667388/lumichats_TTS_1B_finetune_16bit
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-10T10:23:32.022888+00:00'
+date_seen: '2026-02-10'
+metadata:
+  likes: '2'
+  downloads: '29'
+  trending_score: '2'
+  last_modified: '2026-02-09T17:24:53.000Z'
+content_preview: "---\nbase_model: csm-1b\ntags:\n- text-to-speech\n- tts\n- audio-generation\n\
+  - transformers\n- csm\n- lora\n- peft\nlicense: apache-2.0\nlanguage:\n- en\nlibrary_name:\
+  \ transformers\npipeline_tag: text-to-speech\ndatasets:\n- MrDragonFox/Elise\nmodel-index:\n\
+  - name: lumichats_TTS_1B\n  results: []\n---\n\n# LumiChats TTS 1B\n\n<div align=\"\
+  center\">\n\n[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n\
+  [![Base Model](https://img.shields.io/badge/Base-csm--1b-"
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: This is a standard LoRA fine-tuning of an existing TTS model with no novel
+  technical contributions to emotional/expressive synthesis or zero-shot capabilities.

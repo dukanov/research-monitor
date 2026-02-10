@@ -1,0 +1,32 @@
+title: Noizefield/audio-plugin-coder
+url: https://github.com/Noizefield/audio-plugin-coder
+source: github_new
+type: repository
+date_discovered: '2026-01-30T17:43:19+00:00'
+date_seen: '2026-02-10'
+metadata:
+  stars: '52'
+  language: C++
+  created_at: '2026-01-30T17:43:19Z'
+content_preview: 'Description: Audio Plugin Coder (APC) is a groundbreaking, open-source
+  framework that enables musicians, producers, sound designers, and developers to
+  create professional VST3/AU audio plugins using natural language and AI assistance.
+  Built on JUCE 8 and powered by a revolutionary 5-phase workflow system.
+
+
+  Topics: No topics
+
+
+  Language: C++
+
+  Stars: 52
+
+  '
+content_length: 351
+llm_content_sent: 351
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is an audio plugin development framework using natural language interfaces,
+  which is completely unrelated to emotional/expressive speech synthesis or zero-shot
+  speech generation research.

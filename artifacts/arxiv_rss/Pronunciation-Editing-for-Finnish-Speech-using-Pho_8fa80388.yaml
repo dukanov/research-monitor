@@ -1,0 +1,32 @@
+title: Pronunciation Editing for Finnish Speech using Phonetic Posteriorgrams
+url: https://arxiv.org/abs/2507.02115
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-10T10:22:50.360304+00:00'
+date_seen: '2026-02-10'
+metadata:
+  arxiv_id: '2507.02115'
+  published: Tue, 10 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Pronunciation Editing for Finnish Speech using Phonetic Posteriorgrams
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Synthesizing second-language (L2) speech is potentially highly valued for L2 language
+  learning experience and feedback. However, due to the lack of L2 speech synthesis
+  datasets, it is difficult to synthesize L2 speech for low-resourced languages. In
+  this paper, we provide a practical solution for editing native speech to approximate
+  L2 speech and present PPG2Speech, a diffusion-based multis'
+content_length: 1568
+llm_content_sent: 1568
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on pronunciation editing for second-language speech synthesis
+  using phonetic posteriorgrams, which is tangentially related but does not address
+  emotional/expressive speech synthesis or zero-shot capabilities for emotional expression.

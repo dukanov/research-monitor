@@ -1,0 +1,57 @@
+title: AliAbdallah/egyptian-arabic-tts-chatterbox
+url: https://huggingface.co/AliAbdallah/egyptian-arabic-tts-chatterbox
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-10T10:23:31.852683+00:00'
+date_seen: '2026-02-10'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-02-05T23:30:37.000Z'
+content_preview: '---
+
+  language:
+
+  - ar
+
+  license: apache-2.0
+
+  tags:
+
+  - text-to-speech
+
+  - tts
+
+  - egyptian-arabic
+
+  - arabic
+
+  - chatterbox
+
+  - dialect
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  # 🎤 Egyptian Arabic TTS - Chatterbox Fine-tuned
+
+
+  First open-source Egyptian Arabic TTS model based on Chatterbox Multilingual TTS.
+
+
+  ## Model Description
+
+
+  This model is a **strategic partial fine-tuning** of Chatterbox for Egyptian Arabic
+  dialect. Unlike standard LoRA fine-tuning which only adapts voice characteristics,
+  this approach deeply learns'
+content_length: 3495
+llm_content_sent: 3495
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: This is a standard fine-tuning of an existing model for a specific dialect
+  with no novel contributions to emotional/expressive synthesis or zero-shot capabilities.

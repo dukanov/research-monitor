@@ -1,0 +1,82 @@
+title: tsukemono/neuTTS-JP-150m
+url: https://huggingface.co/tsukemono/neuTTS-JP-150m
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-10T10:23:28.954510+00:00'
+date_seen: '2026-02-10'
+metadata:
+  likes: '5'
+  downloads: '48'
+  trending_score: '5'
+  last_modified: '2026-02-09T10:35:23.000Z'
+content_preview: '---
+
+  language:
+
+  - ja
+
+  library_name: transformers
+
+  pipeline_tag: text-to-speech
+
+  license: cc-by-nc-4.0
+
+  datasets:
+
+  - amphion/Emilia-Dataset
+
+  tags:
+
+  - tts
+
+  - audio
+
+  - japanese
+
+  base_model:
+
+  - llm-jp/llm-jp-3-150m
+
+  ---
+
+
+  # neuTTS-JP-150m
+
+
+  日本語専用TTSモデルです
+
+
+  トークナイザーを大幅に修正している関係で日本語以外はしゃべません
+
+
+  150Mパラメータでのvoice cloneingを目指しています
+
+
+  ストリーミング再生を意識しており、無音部分としてpaddingトークンを導入しています
+
+
+  推論時はpaddingトークンを無視するか、そこで一区切りさせるなど、工夫を行ってください
+
+
+  ### インストール
+
+
+  ```bash
+
+  pip install torch torchaudio transformers neucodec pyopenjtalk
+
+  ```
+
+
+  ## 推論
+
+
+  ```pytho'
+content_length: 2763
+llm_content_sent: 2763
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: While this Japanese TTS model demonstrates voice cloning capabilities relevant
+  to zero-shot synthesis, it presents only incremental engineering work with no novel
+  scientific contributions to emotional/expressive speech synthesis research.
