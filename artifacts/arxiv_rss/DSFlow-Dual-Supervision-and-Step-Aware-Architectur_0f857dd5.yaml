@@ -1,0 +1,35 @@
+title: 'DSFlow: Dual Supervision and Step-Aware Architecture for One-Step Flow Matching
+  Speech Synthesis'
+url: https://arxiv.org/abs/2602.09041
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-11T10:21:19.512360+00:00'
+date_seen: '2026-02-11'
+metadata:
+  arxiv_id: '2602.09041'
+  published: Wed, 11 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, eess.AS
+content_preview: 'Title: DSFlow: Dual Supervision and Step-Aware Architecture for
+  One-Step Flow Matching Speech Synthesis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Flow-matching models have enabled high-quality text-to-speech synthesis, but their
+  iterative sampling process during inference incurs substantial computational cost.
+  Although distillation is widely used to reduce the number of inference steps, existing
+  methods often suffer from process variance due to endpoint error accumulation. Moreover,
+  directly reusing continuo'
+content_length: 1668
+llm_content_sent: 1668
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: While DSFlow presents incremental improvements to flow-matching distillation
+  with dual supervision and step-aware architectures, it focuses on computational
+  efficiency rather than emotional/expressive synthesis and lacks zero-shot capabilities
+  for new speakers or emotions.

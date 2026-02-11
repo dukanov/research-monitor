@@ -1,0 +1,49 @@
+title: Aratako/MioTTS-GGUF
+url: https://huggingface.co/Aratako/MioTTS-GGUF
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-11T10:21:57.010197+00:00'
+date_seen: '2026-02-11'
+metadata:
+  likes: '3'
+  downloads: '6'
+  trending_score: '3'
+  last_modified: '2026-02-09T16:46:11.000Z'
+content_preview: '---
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - speech
+
+  - tts
+
+  - voice
+
+  - gguf
+
+  license: other
+
+  ---
+
+
+  # MioTTS-GGUF
+
+
+  [![Hugging Face Collection](https://img.shields.io/badge/Collection-HuggingFace-yellow)](https://huggingface.co/collections/Aratako/miotts)
+
+  [![Inference Code](https://img.shields.io/badge/Inference-GitHub-black)](https://github.com/Aratako/MioTTS-Inference)
+
+
+  This repository contains **GGUF quantized versions** of the [MioTTS models](https://huggingface.co/collections/Aratako/miotts).
+
+  MioTTS is'
+content_length: 2918
+llm_content_sent: 2918
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is merely a quantized distribution of existing MioTTS models with no
+  scientific contribution - it's an engineering optimization for deployment, not research
+  advancing emotional/expressive speech synthesis capabilities.

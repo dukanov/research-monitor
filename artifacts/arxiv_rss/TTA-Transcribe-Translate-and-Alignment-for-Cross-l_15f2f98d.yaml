@@ -1,0 +1,33 @@
+title: 'TTA: Transcribe, Translate and Alignment for Cross-lingual Speech Representation'
+url: https://arxiv.org/abs/2511.14410
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-11T10:21:19.527385+00:00'
+date_seen: '2026-02-11'
+metadata:
+  arxiv_id: '2511.14410'
+  published: Wed, 11 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: TTA: Transcribe, Translate and Alignment for Cross-lingual
+  Speech Representation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech-LLM models have demonstrated great performance in multi-modal and multi-task
+  speech understanding. A typical speech-LLM paradigm is integrating speech modality
+  with a large language model (LLM). While the Whisper encoder was frequently adopted
+  in previous studies for speech input, it shows limitations regarding input format,
+  model scale, and semantic performance. To this en'
+content_length: 1305
+llm_content_sent: 1305
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on cross-lingual speech representation learning for ASR/translation
+  tasks rather than emotional/expressive speech synthesis, and lacks zero-shot synthesis
+  capabilities.

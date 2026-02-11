@@ -1,0 +1,25 @@
+title: OpenMOSS-Team/MOSS-TTS-Realtime
+url: https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Realtime
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-11T10:21:58.480767+00:00'
+date_seen: '2026-02-11'
+metadata:
+  likes: '2'
+  downloads: '9'
+  trending_score: '2'
+  last_modified: '2026-02-10T15:47:42.000Z'
+content_preview: "---\nlicense: apache-2.0\ntags:\n- text-to-speech\n---\n# MOSS-TTS\
+  \ Family\n\n<br>\n\n<p align=\"center\">\n  &nbsp;&nbsp;&nbsp;&nbsp;\n  <img src=\"\
+  https://speech-demo.oss-cn-shanghai.aliyuncs.com/moss_tts_demo/tts_readme_imgaes_demo/openmoss_x_mosi\"\
+  \ height=\"50\" align=\"middle\" />\n</p>\n\n\n\n<div align=\"center\">\n  <a href=\"\
+  https://github.com/OpenMOSS/MOSS-TTS/tree/main\"><img src=\"https://img.shields.io/badge/Project%20Page-GitHub-blue\"\
+  ></a>\n  <a href=\"https://modelscope.cn/collections/OpenMOSS-Team/MOSS-TTS\"><img"
+content_length: 8074
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces context-aware streaming TTS that conditions on both textual and
+  acoustic dialogue history across turns, which is a meaningful advancement for real-time
+  conversational agents beyond traditional isolated response synthesis.

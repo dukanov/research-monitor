@@ -1,0 +1,61 @@
+title: Aratako/MioTTS-0.6B
+url: https://huggingface.co/Aratako/MioTTS-0.6B
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-11T10:21:58.397073+00:00'
+date_seen: '2026-02-11'
+metadata:
+  likes: '2'
+  downloads: '2'
+  trending_score: '2'
+  last_modified: '2026-02-10T08:23:30.000Z'
+content_preview: '---
+
+  language:
+
+  - ja
+
+  - en
+
+  library_name: transformers
+
+  license: apache-2.0
+
+  datasets:
+
+  - nvidia/hifitts-2
+
+  - amphion/Emilia-Dataset
+
+  base_model:
+
+  - Qwen/Qwen3-0.6B-Base
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - speech
+
+  - tts
+
+  - voice
+
+  ---
+
+
+  # MioTTS-0.6B: Lightweight & Fast LLM-based TTS
+
+
+  [![Hugging Face Collection](https://img.shields.io/badge/Collection-HuggingFace-yellow)](https://huggingface.co/collections/Aratako/miotts)
+
+  [![Inference Code](https://img.shields.io/badge/Inference-GitHub-black)](https://github.'
+content_length: 7387
+llm_content_sent: 7387
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: While this model demonstrates zero-shot voice cloning capabilities relevant
+  to your interests, it appears to be primarily an engineering contribution scaling
+  existing LLM-based TTS approaches rather than introducing novel methods for emotional
+  or expressive speech synthesis.

@@ -1,0 +1,35 @@
+title: Covo-Audio Technical Report
+url: https://arxiv.org/abs/2602.09823
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-11T10:21:19.512515+00:00'
+date_seen: '2026-02-11'
+metadata:
+  arxiv_id: '2602.09823'
+  published: Wed, 11 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.CL, eess.AS
+content_preview: 'Title: Covo-Audio Technical Report
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In this work, we present Covo-Audio, a 7B-parameter end-to-end LALM that directly
+  processes continuous audio inputs and generates audio outputs within a single unified
+  architecture. Through large-scale curated pretraining and targeted post-training,
+  Covo-Audio achieves state-of-the-art or competitive performance among models of
+  comparable scale across a broad spectrum of tasks, including speech-text modeling,
+  spoken dialogue, speech'
+content_length: 2011
+llm_content_sent: 2011
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The unified 7B-parameter end-to-end architecture that directly processes and
+  generates continuous audio within a single model, combined with the intelligence-speaker
+  decoupling strategy for flexible voice customization, represents a notable architectural
+  advancement for large audio language models, though the specific emotional/expressive
+  capabilities and zero-shot performance details are not clearly demonstrated.

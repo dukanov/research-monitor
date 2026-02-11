@@ -1,0 +1,30 @@
+title: tsdocode/nano-qwen3tts-vllm
+url: https://github.com/tsdocode/nano-qwen3tts-vllm
+source: github_new
+type: repository
+date_discovered: '2026-02-01T01:28:38+00:00'
+date_seen: '2026-02-11'
+metadata:
+  stars: '41'
+  language: Python
+  created_at: '2026-02-01T01:28:38Z'
+content_preview: 'Description: Qwen3-TTS with nano vLLM-style optimizations for fast
+  text-to-speech generation. Achieved 3x faster
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 41
+
+  '
+content_length: 160
+llm_content_sent: 160
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This appears to be primarily an engineering optimization (3x speedup) of existing
+  Qwen3-TTS rather than introducing novel approaches for emotional/expressive or zero-shot
+  speech synthesis capabilities.

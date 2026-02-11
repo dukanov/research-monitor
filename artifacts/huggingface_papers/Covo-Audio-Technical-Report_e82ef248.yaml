@@ -1,0 +1,30 @@
+title: Covo-Audio Technical Report
+url: https://huggingface.co/papers/2602.09823
+source: huggingface_papers
+type: paper
+date_discovered: '2026-02-11T10:21:52.687953+00:00'
+date_seen: '2026-02-11'
+metadata:
+  upvotes: '5'
+  paper_id: '2602.09823'
+  published_date: '2026-02-11'
+content_preview: 'Title: Covo-Audio Technical Report
+
+
+  Summary:
+
+  In this work, we present Covo-Audio, a 7B-parameter end-to-end LALM that directly
+  processes continuous audio inputs and generates audio outputs within a single unified
+  architecture. Through large-scale curated pretraining and targeted post-training,
+  Covo-Audio achieves state-of-the-art or competitive performance among models of
+  comparable scale across a broad spectrum of tasks, including speech-text modeling,
+  spoken dialogue, speech understanding, aud'
+content_length: 1915
+llm_content_sent: 1915
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: While the unified end-to-end architecture for audio processing is interesting,
+  this appears to be primarily an engineering scaling effort rather than introducing
+  fundamentally novel approaches for emotional/expressive speech synthesis or zero-shot
+  capabilities.

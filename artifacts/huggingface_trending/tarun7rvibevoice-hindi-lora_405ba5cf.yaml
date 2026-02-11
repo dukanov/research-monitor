@@ -1,0 +1,60 @@
+title: tarun7r/vibevoice-hindi-lora
+url: https://huggingface.co/tarun7r/vibevoice-hindi-lora
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-11T10:21:57.625462+00:00'
+date_seen: '2026-02-11'
+metadata:
+  likes: '14'
+  downloads: '43'
+  trending_score: '2'
+  last_modified: '2026-02-11T06:02:21.000Z'
+content_preview: '---
+
+  license: mit
+
+  language:
+
+  - hi
+
+  - en
+
+  base_model: vibevoice/VibeVoice-7B
+
+  tags:
+
+  - text-to-speech
+
+  - hindi
+
+  - lora
+
+  - peft
+
+  - audio-generation
+
+  - tts
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  # VibeVoice-Hindi-LoRA
+
+
+  ## Model Description
+
+
+  This repository contains **LoRA (Low-Rank Adaptation) weights** for fine-tuning
+  the VibeVoice-7B model for **Hindi text-to-speech synthesis**. These adapter weights
+  enable efficient fine-tuning of the base VibeVoice model to generate high-quality,
+  natural-sounding Hindi speech '
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is purely an application of existing LoRA fine-tuning to adapt an existing
+  TTS model for Hindi, with no novel methodological contributions to emotional/expressive
+  speech synthesis or zero-shot capabilities.

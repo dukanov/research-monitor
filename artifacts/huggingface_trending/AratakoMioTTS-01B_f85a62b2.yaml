@@ -1,0 +1,63 @@
+title: Aratako/MioTTS-0.1B
+url: https://huggingface.co/Aratako/MioTTS-0.1B
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-11T10:21:55.812863+00:00'
+date_seen: '2026-02-11'
+metadata:
+  likes: '5'
+  downloads: '12'
+  trending_score: '5'
+  last_modified: '2026-02-10T08:19:41.000Z'
+content_preview: '---
+
+  language:
+
+  - ja
+
+  - en
+
+  library_name: transformers
+
+  license: other
+
+  license_name: falcon-llm-license
+
+  license_link: https://falconllm.tii.ae/falcon-terms-and-conditions.html
+
+  datasets:
+
+  - nvidia/hifitts-2
+
+  - amphion/Emilia-Dataset
+
+  base_model:
+
+  - tiiuae/Falcon-H1-Tiny-Multilingual-100M-Base
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - speech
+
+  - tts
+
+  - voice
+
+  ---
+
+
+  # MioTTS-0.1B: Lightweight & Fast LLM-based TTS
+
+
+  [![Hugging Face Collection](https://img.shields.io/badge/Collection-HuggingFace-yellow)](https://hugging'
+content_length: 7709
+llm_content_sent: 7709
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: This presents an incremental improvement by applying LLM architectures to
+  TTS with zero-shot voice cloning capabilities, but the core approach of using language
+  models for speech synthesis and the zero-shot cloning concept are already established
+  in the field.

@@ -1,0 +1,30 @@
+title: 'SCALE: Self-uncertainty Conditioned Adaptive Looking and Execution for Vision-Language-Action
+  Models'
+url: https://huggingface.co/papers/2602.04208
+source: huggingface_papers
+type: paper
+date_discovered: '2026-02-11T10:21:52.687586+00:00'
+date_seen: '2026-02-11'
+metadata:
+  upvotes: '17'
+  paper_id: '2602.04208'
+  published_date: '2026-02-11'
+content_preview: 'Title: SCALE: Self-uncertainty Conditioned Adaptive Looking and
+  Execution for Vision-Language-Action Models
+
+
+  Summary:
+
+  Vision-Language-Action (VLA) models have emerged as a promising paradigm for general-purpose
+  robotic control, with test-time scaling (TTS) gaining attention to enhance robustness
+  beyond training. However, existing TTS methods for VLAs require additional training,
+  verifiers, and multiple forward passes, making them impractical for deployment.
+  Moreover, they intervene only at actio'
+content_length: 1365
+llm_content_sent: 1365
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This paper focuses on robotic control using vision-language-action models
+  with no connection to speech synthesis, emotional expression, or audio processing
+  - it's entirely in the robotics/computer vision domain.
