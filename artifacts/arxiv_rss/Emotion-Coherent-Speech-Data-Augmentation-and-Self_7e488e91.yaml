@@ -1,0 +1,34 @@
+title: Emotion-Coherent Speech Data Augmentation and Self-Supervised Contrastive Style
+  Training for Enhancing Kids's Story Speech Synthesis
+url: https://arxiv.org/abs/2602.10164
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-12T10:19:57.093519+00:00'
+date_seen: '2026-02-12'
+metadata:
+  arxiv_id: '2602.10164'
+  published: Thu, 12 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: Emotion-Coherent Speech Data Augmentation and Self-Supervised
+  Contrastive Style Training for Enhancing Kids''s Story Speech Synthesis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Expressive speech synthesis requires vibrant prosody and well-timed pauses. We propose
+  an effective strategy to augment a small dataset to train an expressive end-to-end
+  Text-to-Speech model. We merge audios of emotionally congruent text using a text
+  emotion recognizer, creating augmented expressive speech data. By training with '
+content_length: 1261
+llm_content_sent: 1261
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: The paper combines emotion-coherent data augmentation with contrastive style
+  training for children's story synthesis, but these are incremental improvements
+  on existing techniques rather than novel methodological breakthroughs, and lacks
+  zero-shot capabilities which is a key aspect of your research interests.

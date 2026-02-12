@@ -1,0 +1,34 @@
+title: 'Calliope: A TTS-based Narrated E-book Creator Ensuring Exact Synchronization,
+  Privacy, and Layout Fidelity'
+url: https://arxiv.org/abs/2602.10735
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-12T10:19:57.093579+00:00'
+date_seen: '2026-02-12'
+metadata:
+  arxiv_id: '2602.10735'
+  published: Thu, 12 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.CL
+content_preview: 'Title: Calliope: A TTS-based Narrated E-book Creator Ensuring Exact
+  Synchronization, Privacy, and Layout Fidelity
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  A narrated e-book combines synchronized audio with digital text, highlighting the
+  currently spoken word or sentence during playback. This format supports early literacy
+  and assists individuals with reading challenges, while also allowing general readers
+  to seamlessly switch between reading and listening. With the emergence of natural-sounding
+  neural Text-'
+content_length: 2108
+llm_content_sent: 2108
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is primarily an engineering/application paper focused on e-book creation
+  workflows rather than advancing emotional/expressive speech synthesis or zero-shot
+  TTS capabilities.

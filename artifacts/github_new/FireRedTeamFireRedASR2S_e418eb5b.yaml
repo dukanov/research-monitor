@@ -1,0 +1,27 @@
+title: FireRedTeam/FireRedASR2S
+url: https://github.com/FireRedTeam/FireRedASR2S
+source: github_new
+type: repository
+date_discovered: '2026-02-12T04:23:46+00:00'
+date_seen: '2026-02-12'
+metadata:
+  stars: '124'
+  language: Python
+  created_at: '2026-02-12T04:23:46Z'
+content_preview: 'Description: FireRedASR2S is a SOTA Industrial-Grade All-in-One
+  ASR system with ASR, VAD, LID, and Punc modules. FireRedASR2 supports Chinese (Mandarin,
+  20+ dialects/accents), English, code-switching, and singing lyrics recognition.
+  FireRedVAD supports speech/singing/music in 100+ langs. FireRedLID supports 100+
+  langs and 20+ zh dialects.
+
+
+  Topics: asr, asr-pipeline, audio-event-classification, audio-event-detection, automatic-speech-recognition,
+  industrial-grade, language-identification, lid, ll'
+content_length: 677
+llm_content_sent: 677
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is an ASR (Automatic Speech Recognition) system focused on converting
+  speech to text, which is the opposite direction from speech synthesis and lacks
+  any emotional/expressive or zero-shot synthesis capabilities.

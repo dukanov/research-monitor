@@ -1,0 +1,33 @@
+title: 'SLM-S2ST: A multimodal language model for direct speech-to-speech translation'
+url: https://arxiv.org/abs/2506.04392
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-12T10:19:57.108254+00:00'
+date_seen: '2026-02-12'
+metadata:
+  arxiv_id: '2506.04392'
+  published: Thu, 12 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: SLM-S2ST: A multimodal language model for direct speech-to-speech
+  translation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech-aware language models (LMs) have demonstrated capabilities in understanding
+  spoken language while generating text-based responses. However, enabling them to
+  produce speech output efficiently and effectively remains a challenge. In this paper,
+  we present SLM-S2ST, a multimodal LM for direct speech-to-speech translation (S2ST),
+  built on the open-source Phi4-MM model. SLM-S2ST ex'
+content_length: 1096
+llm_content_sent: 1096
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: The work presents an incremental advancement by extending existing speech-aware
+  language models with direct speech output generation, but lacks clear novelty in
+  emotional/expressive synthesis or zero-shot capabilities beyond standard S2ST.

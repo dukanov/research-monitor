@@ -1,0 +1,34 @@
+title: 'MerkleSpeech: Public-Key Verifiable, Chunk-Localised Speech Provenance via
+  Perceptual Fingerprints and Merkle Commitments'
+url: https://arxiv.org/abs/2602.10166
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-12T10:19:57.093683+00:00'
+date_seen: '2026-02-12'
+metadata:
+  arxiv_id: '2602.10166'
+  published: Thu, 12 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CR, cs.SD, eess.AS
+content_preview: 'Title: MerkleSpeech: Public-Key Verifiable, Chunk-Localised Speech
+  Provenance via Perceptual Fingerprints and Merkle Commitments
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech provenance goes beyond detecting whether a watermark is present. Real workflows
+  involve splicing, quoting, trimming, and platform-level transforms that may preserve
+  some regions while altering others. Neural watermarking systems have made strides
+  in robustness and localised detection, but most deployments produce outputs with
+  no thir'
+content_length: 2144
+llm_content_sent: 2144
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on cryptographic provenance verification and watermarking
+  for speech authentication rather than advancing emotional/expressive speech synthesis
+  or zero-shot capabilities.

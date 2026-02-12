@@ -1,0 +1,33 @@
+title: 'AudioRouter: Data Efficient Audio Understanding via RL based Dual Reasoning'
+url: https://arxiv.org/abs/2602.10439
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-12T10:19:57.093570+00:00'
+date_seen: '2026-02-12'
+metadata:
+  arxiv_id: '2602.10439'
+  published: Thu, 12 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, eess.AS
+content_preview: 'Title: AudioRouter: Data Efficient Audio Understanding via RL based
+  Dual Reasoning
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large Audio Language Models (LALMs) have demonstrated strong capabilities in audio
+  understanding and reasoning. However, their performance on fine grained auditory
+  perception remains unreliable, and existing approaches largely rely on data intensive
+  training to internalize perceptual abilities. We propose AudioRouter, a reinforcement
+  learning framework that enables LALMs to improve aud'
+content_length: 1287
+llm_content_sent: 1287
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on audio understanding and tool routing for LALMs, which
+  is orthogonal to emotional/expressive speech synthesis and lacks zero-shot synthesis
+  capabilities.

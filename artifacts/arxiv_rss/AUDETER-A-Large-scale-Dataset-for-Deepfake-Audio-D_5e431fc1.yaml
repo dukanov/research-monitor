@@ -1,0 +1,34 @@
+title: 'AUDETER: A Large-scale Dataset for Deepfake Audio Detection in Open Worlds'
+url: https://arxiv.org/abs/2509.04345
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-12T10:19:57.093878+00:00'
+date_seen: '2026-02-12'
+metadata:
+  arxiv_id: '2509.04345'
+  published: Thu, 12 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.LG
+content_preview: 'Title: AUDETER: A Large-scale Dataset for Deepfake Audio Detection
+  in Open Worlds
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech synthesis systems can now produce highly realistic vocalisations that pose
+  significant authenticity challenges. Despite substantial progress in deepfake detection
+  models, their real-world effectiveness is often undermined by evolving distribution
+  shifts between training and test data, driven by the complexity of human speech
+  and the rapid evolution of synthesis systems. Existing '
+content_length: 1752
+llm_content_sent: 1752
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This paper focuses on deepfake audio detection rather than synthesis, and
+  while it mentions TTS systems, it doesn't advance emotional/expressive speech synthesis
+  or zero-shot capabilities - it's primarily a dataset contribution for the detection
+  side of the problem.

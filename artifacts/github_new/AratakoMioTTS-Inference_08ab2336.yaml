@@ -1,0 +1,30 @@
+title: Aratako/MioTTS-Inference
+url: https://github.com/Aratako/MioTTS-Inference
+source: github_new
+type: repository
+date_discovered: '2026-02-10T12:57:42+00:00'
+date_seen: '2026-02-12'
+metadata:
+  stars: '42'
+  language: Python
+  created_at: '2026-02-10T12:57:42Z'
+content_preview: 'Description: Inference server for MioTTS, a lightweight and fast
+  LLM-based TTS model.
+
+
+  Topics: llm, python, pytorch, speech-synthesis, text-to-speech, tts, voice-cloning
+
+
+  Language: Python
+
+  Stars: 42
+
+  '
+content_length: 198
+llm_content_sent: 198
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: This appears to be just an inference server implementation for an existing
+  TTS model without novel contributions to emotional/expressive synthesis or zero-shot
+  capabilities.

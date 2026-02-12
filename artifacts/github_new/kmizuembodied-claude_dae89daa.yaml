@@ -1,0 +1,29 @@
+title: kmizu/embodied-claude
+url: https://github.com/kmizu/embodied-claude
+source: github_new
+type: repository
+date_discovered: '2026-01-30T06:19:50+00:00'
+date_seen: '2026-02-12'
+metadata:
+  stars: '160'
+  language: Python
+  created_at: '2026-01-30T06:19:50Z'
+content_preview: 'Description: Claudeに身体性を与えるMCP群
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 160
+
+  '
+content_length: 80
+llm_content_sent: 80
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This repository appears to focus on embodied AI for Claude (an LLM) rather
+  than speech synthesis, and provides no content details about emotional/expressive
+  speech generation or zero-shot capabilities.
