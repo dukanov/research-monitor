@@ -1,0 +1,48 @@
+title: neuphonic/neutts-nano-spanish
+url: https://huggingface.co/neuphonic/neutts-nano-spanish
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-13T10:18:09.068741+00:00'
+date_seen: '2026-02-13'
+metadata:
+  likes: '8'
+  downloads: '88'
+  trending_score: '8'
+  last_modified: '2026-02-12T15:41:02.000Z'
+content_preview: '---
+
+  license: other
+
+  pipeline_tag: text-to-speech
+
+  language:
+
+  - es
+
+  ---
+
+
+  # NeuTTS Nano Spanish
+
+
+  [![NeuTTSNano_Intro](NeuTTS-Nano-Spanish-Thumbnail.png)](https://youtu.be/mvgkxumjMfg)
+
+
+  [🚀 Spaces Demo](https://huggingface.co/spaces/neuphonic/neutts-nano-multilingual-collection),
+  [🔧 Github](https://github.com/neuphonic/neutts)
+
+
+  [Q8 GGUF version](https://huggingface.co/neuphonic/neutts-nano-spanish-q8-gguf),
+  [Q4 GGUF version](https://huggingface.co/neuphonic/neutts-nano-spanish-q4-gguf)
+
+
+  *Created by [Neu'
+content_length: 8192
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: While this presents a Spanish-specific TTS model with voice cloning capabilities,
+  it appears to be primarily a deployment/optimization of existing techniques rather
+  than introducing novel approaches to emotional/expressive synthesis or zero-shot
+  capabilities.

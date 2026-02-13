@@ -1,0 +1,33 @@
+title: OpenMOSS/MOSS-Audio-Tokenizer
+url: https://github.com/OpenMOSS/MOSS-Audio-Tokenizer
+source: github_new
+type: repository
+date_discovered: '2026-02-03T10:29:25+00:00'
+date_seen: '2026-02-13'
+metadata:
+  stars: '65'
+  language: Python
+  created_at: '2026-02-03T10:29:25Z'
+content_preview: 'Description: MOSS-Audio-Tokenizer is a Causal Transformer-based
+  audio tokenizer built on the CAT architecture. Trained on 3M hours of diverse audio,
+  it supports streaming and variable bitrates, delivering SOTA reconstruction and
+  strong performance in generation and understanding—serving as a unified interface
+  for next-generation native audio language models.
+
+
+  Topics: audio, music, speech, speech-representation, tokenizer, tts, unified
+
+
+  Language: Python
+
+  Stars: 65
+
+  '
+content_length: 467
+llm_content_sent: 467
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a causal transformer-based audio tokenizer with streaming capabilities
+  and variable bitrates trained on massive diverse audio data, which could enable
+  better zero-shot expressive speech synthesis through improved audio representations.

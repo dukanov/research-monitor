@@ -1,0 +1,47 @@
+title: neuphonic/neutts-nano-german-q4-gguf
+url: https://huggingface.co/neuphonic/neutts-nano-german-q4-gguf
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-13T10:18:10.659675+00:00'
+date_seen: '2026-02-13'
+metadata:
+  likes: '4'
+  downloads: '56'
+  trending_score: '4'
+  last_modified: '2026-02-12T15:40:17.000Z'
+content_preview: '---
+
+  license: other
+
+  pipeline_tag: text-to-speech
+
+  language:
+
+  - de
+
+  ---
+
+
+  # NeuTTS Nano German
+
+
+  [![NeuTTSNano_Intro](NeuTTS-Nano-German-Thumbnail.png)](https://youtu.be/mvgkxumjMfg)
+
+
+  [🚀 Spaces Demo](https://huggingface.co/spaces/neuphonic/neutts-nano-multilingual-collection),
+  [🔧 Github](https://github.com/neuphonic/neutts)
+
+
+  [Torch version](https://huggingface.co/neuphonic/neutts-nano-german), [Q8 GGUF version](https://huggingface.co/neuphonic/neutts-nano-german-q8-gguf)
+
+
+  *Created by [Neuphonic](http:/'
+content_length: 8910
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily a model release with quantization optimizations for on-device
+  deployment rather than introducing novel approaches to emotional/expressive speech
+  synthesis or zero-shot capabilities - the main contribution appears to be engineering
+  efficiency rather than scientific advancement in expressiveness.

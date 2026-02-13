@@ -1,0 +1,32 @@
+title: Agentic Test-Time Scaling for WebAgents
+url: https://arxiv.org/abs/2602.12276
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-13T10:17:31.558374+00:00'
+date_seen: '2026-02-13'
+metadata:
+  arxiv_id: '2602.12276'
+  published: Fri, 13 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.AI, cs.CL
+content_preview: 'Title: Agentic Test-Time Scaling for WebAgents
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Test-time scaling has become a standard way to improve performance and boost reliability
+  of neural network models. However, its behavior on agentic, multi-step tasks remains
+  less well-understood: small per-step errors can compound over long horizons; and
+  we find that naive policies that uniformly increase sampling show diminishing returns.
+  In this work, we present CATTS, a simple technique for dynamically allocating comp'
+content_length: 1566
+llm_content_sent: 1566
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on web agents and test-time compute allocation for multi-step
+  tasks, which has no connection to emotional/expressive speech synthesis or zero-shot
+  speech capabilities.

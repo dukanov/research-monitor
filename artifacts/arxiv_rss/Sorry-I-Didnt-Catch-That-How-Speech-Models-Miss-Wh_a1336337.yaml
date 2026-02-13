@@ -1,0 +1,33 @@
+title: '"Sorry, I Didn''t Catch That": How Speech Models Miss What Matters Most'
+url: https://arxiv.org/abs/2602.12249
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-13T10:17:31.558365+00:00'
+date_seen: '2026-02-13'
+metadata:
+  arxiv_id: '2602.12249'
+  published: Fri, 13 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.AI, cs.CL, cs.CY
+content_preview: 'Title: "Sorry, I Didn''t Catch That": How Speech Models Miss What
+  Matters Most
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Despite speech recognition systems achieving low word error rates on standard benchmarks,
+  they often fail on short, high-stakes utterances in real-world deployments. Here,
+  we study this failure mode in a high-stakes task: the transcription of U.S. street
+  names as spoken by U.S. participants. We evaluate 15 models from OpenAI, Deepgram,
+  Google, and Microsoft on recordings from linguistically'
+content_length: 1494
+llm_content_sent: 1494
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on speech recognition (ASR) accuracy issues rather than
+  speech synthesis, and while it uses TTS for data augmentation, it doesn't advance
+  emotional/expressive synthesis or zero-shot capabilities.

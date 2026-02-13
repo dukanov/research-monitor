@@ -1,0 +1,31 @@
+title: 'MOSS-Audio-Tokenizer: Scaling Audio Tokenizers for Future Audio Foundation
+  Models'
+url: https://huggingface.co/papers/2602.10934
+source: huggingface_papers
+type: paper
+date_discovered: '2026-02-13T10:18:04.524213+00:00'
+date_seen: '2026-02-13'
+metadata:
+  upvotes: '38'
+  paper_id: '2602.10934'
+  published_date: '2026-02-13'
+content_preview: 'Title: MOSS-Audio-Tokenizer: Scaling Audio Tokenizers for Future
+  Audio Foundation Models
+
+
+  Summary:
+
+  Discrete audio tokenizers are fundamental to empowering large language models with
+  native audio processing and generation capabilities. Despite recent progress, existing
+  approaches often rely on pretrained encoders, semantic distillation, or heterogeneous
+  CNN-based architectures. These designs introduce fixed inductive biases that limit
+  reconstruction fidelity and hinder effective scaling. In this '
+content_length: 1853
+llm_content_sent: 1853
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a fully end-to-end Transformer-based audio tokenizer architecture
+  (CAT) that scales to 1.6B parameters and demonstrates the first purely autoregressive
+  TTS model achieving competitive performance, representing a significant architectural
+  shift from existing hybrid approaches.

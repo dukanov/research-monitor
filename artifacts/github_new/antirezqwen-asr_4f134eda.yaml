@@ -1,0 +1,29 @@
+title: antirez/qwen-asr
+url: https://github.com/antirez/qwen-asr
+source: github_new
+type: repository
+date_discovered: '2026-02-12T15:04:28+00:00'
+date_seen: '2026-02-13'
+metadata:
+  stars: '168'
+  language: C
+  created_at: '2026-02-12T15:04:28Z'
+content_preview: 'Description: C inference for Qwen3-ASR 0.6b and 1.7b transcriptions
+  models
+
+
+  Topics: No topics
+
+
+  Language: C
+
+  Stars: 168
+
+  '
+content_length: 118
+llm_content_sent: 118
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is a C inference implementation for existing ASR models, not related
+  to emotional/expressive speech synthesis or zero-shot capabilities.

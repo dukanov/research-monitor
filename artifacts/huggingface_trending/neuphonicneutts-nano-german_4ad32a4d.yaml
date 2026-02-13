@@ -1,0 +1,48 @@
+title: neuphonic/neutts-nano-german
+url: https://huggingface.co/neuphonic/neutts-nano-german
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-13T10:18:10.028377+00:00'
+date_seen: '2026-02-13'
+metadata:
+  likes: '5'
+  downloads: '106'
+  trending_score: '5'
+  last_modified: '2026-02-12T15:39:53.000Z'
+content_preview: '---
+
+  license: other
+
+  pipeline_tag: text-to-speech
+
+  language:
+
+  - de
+
+  ---
+
+
+  # NeuTTS Nano German
+
+
+  [![NeuTTSNano_Intro](NeuTTS-Nano-German-Thumbnail.png)](https://youtu.be/mvgkxumjMfg)
+
+
+  [🚀 Spaces Demo](https://huggingface.co/spaces/neuphonic/neutts-nano-multilingual-collection),
+  [🔧 Github](https://github.com/neuphonic/neutts)
+
+
+  [Q8 GGUF version](https://huggingface.co/neuphonic/neutts-nano-german-q8-gguf),
+  [Q4 GGUF version](https://huggingface.co/neuphonic/neutts-nano-german-q4-gguf)
+
+
+  *Created by [Neuphon'
+content_length: 8225
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily a German language deployment of existing NeuTTS architecture
+  with instant voice cloning capabilities, offering incremental value through language-specific
+  optimization but no fundamental algorithmic novelty for emotional/expressive synthesis
+  or zero-shot capabilities beyond basic voice cloning.

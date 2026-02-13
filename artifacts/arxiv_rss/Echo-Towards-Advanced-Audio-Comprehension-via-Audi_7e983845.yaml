@@ -1,0 +1,33 @@
+title: 'Echo: Towards Advanced Audio Comprehension via Audio-Interleaved Reasoning'
+url: https://arxiv.org/abs/2602.11909
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-13T10:17:31.391580+00:00'
+date_seen: '2026-02-13'
+metadata:
+  arxiv_id: '2602.11909'
+  published: Fri, 13 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.LG
+content_preview: 'Title: Echo: Towards Advanced Audio Comprehension via Audio-Interleaved
+  Reasoning
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The maturation of Large Audio Language Models (LALMs) has raised growing expectations
+  for them to comprehend complex audio much like humans. Current efforts primarily
+  replicate text-based reasoning by contextualizing audio content through a one-time
+  encoding, which introduces a critical information bottleneck. Drawing inspiration
+  from human cognition, we propose audio-interleaved reason'
+content_length: 1548
+llm_content_sent: 1548
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While the audio-interleaved reasoning approach is novel for general audio
+  comprehension, this work focuses on audio understanding rather than speech synthesis
+  and lacks zero-shot emotional/expressive capabilities.

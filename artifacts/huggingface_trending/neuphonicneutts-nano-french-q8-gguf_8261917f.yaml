@@ -1,0 +1,46 @@
+title: neuphonic/neutts-nano-french-q8-gguf
+url: https://huggingface.co/neuphonic/neutts-nano-french-q8-gguf
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-13T10:18:12.481340+00:00'
+date_seen: '2026-02-13'
+metadata:
+  likes: '3'
+  downloads: '42'
+  trending_score: '3'
+  last_modified: '2026-02-12T15:40:43.000Z'
+content_preview: '---
+
+  license: other
+
+  pipeline_tag: text-to-speech
+
+  language:
+
+  - fr
+
+  ---
+
+
+  # NeuTTS Nano French
+
+
+  [![NeuTTSNano_Intro](NeuTTS-Nano-French-Thumbnail.png)](https://youtu.be/mvgkxumjMfg)
+
+
+  [🚀 Spaces Demo](https://huggingface.co/spaces/neuphonic/neutts-nano-multilingual-collection),
+  [🔧 Github](https://github.com/neuphonic/neutts)
+
+
+  [Torch version](https://huggingface.co/neuphonic/neutts-nano-french), [Q4 GGUF version](https://huggingface.co/neuphonic/neutts-nano-french-q4-gguf)
+
+
+  *Created by [Neuphonic](http:/'
+content_length: 8938
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is just a quantized deployment format (GGUF) of an existing French TTS
+  model with basic voice cloning, offering no scientific novelty in emotional/expressive
+  synthesis or zero-shot capabilities beyond standard voice adaptation.

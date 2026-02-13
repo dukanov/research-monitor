@@ -1,0 +1,48 @@
+title: neuphonic/neutts-nano-french
+url: https://huggingface.co/neuphonic/neutts-nano-french
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-13T10:18:10.535079+00:00'
+date_seen: '2026-02-13'
+metadata:
+  likes: '4'
+  downloads: '110'
+  trending_score: '4'
+  last_modified: '2026-02-12T15:40:35.000Z'
+content_preview: '---
+
+  license: other
+
+  pipeline_tag: text-to-speech
+
+  language:
+
+  - fr
+
+  ---
+
+
+  # NeuTTS Nano French
+
+
+  [![NeuTTSNano_Intro](NeuTTS-Nano-French-Thumbnail.png)](https://youtu.be/mvgkxumjMfg)
+
+
+  [🚀 Spaces Demo](https://huggingface.co/spaces/neuphonic/neutts-nano-multilingual-collection),
+  [🔧 Github](https://github.com/neuphonic/neutts)
+
+
+  [Q8 GGUF version](https://huggingface.co/neuphonic/neutts-nano-french-q8-gguf),
+  [Q4 GGUF version](https://huggingface.co/neuphonic/neutts-nano-french-q4-gguf)
+
+
+  *Created by [Neuphon'
+content_length: 8244
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: While this is a French-specific TTS model with voice cloning capabilities,
+  it appears to be primarily an engineering optimization for on-device deployment
+  rather than introducing novel scientific approaches to emotional/expressive speech
+  synthesis or zero-shot learning.

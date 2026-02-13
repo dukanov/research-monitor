@@ -1,0 +1,33 @@
+title: 'Synthesizing the Virtual Advocate: A Multi-Persona Speech Generation Framework
+  for Diverse Linguistic Jurisdictions in Indic Languages'
+url: https://arxiv.org/abs/2602.11172
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-13T10:17:31.553859+00:00'
+date_seen: '2026-02-13'
+metadata:
+  arxiv_id: '2602.11172'
+  published: Fri, 13 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Synthesizing the Virtual Advocate: A Multi-Persona Speech
+  Generation Framework for Diverse Linguistic Jurisdictions in Indic Languages
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Legal advocacy requires a unique combination of authoritative tone, rhythmic pausing
+  for emphasis, and emotional intelligence. This study investigates the performance
+  of the Gemini 2.5 Flash TTS and Gemini 2.5 Pro TTS models in generating synthetic
+  courtroom speeches across five Indic languages: Tamil, Telugu, Bengali, Hindi, a'
+content_length: 1714
+llm_content_sent: 1714
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: While the application to legal advocacy personas in Indic languages is novel,
+  this appears to be primarily an evaluation study of existing Gemini TTS models rather
+  than introducing new technical approaches for expressive or zero-shot speech synthesis.

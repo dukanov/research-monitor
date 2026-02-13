@@ -1,0 +1,47 @@
+title: neuphonic/neutts-nano-spanish-q8-gguf
+url: https://huggingface.co/neuphonic/neutts-nano-spanish-q8-gguf
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-13T10:18:12.607896+00:00'
+date_seen: '2026-02-13'
+metadata:
+  likes: '3'
+  downloads: '58'
+  trending_score: '3'
+  last_modified: '2026-02-12T15:41:14.000Z'
+content_preview: '---
+
+  license: other
+
+  pipeline_tag: text-to-speech
+
+  language:
+
+  - es
+
+  ---
+
+
+  # NeuTTS Nano Spanish
+
+
+  [![NeuTTSNano_Intro](NeuTTS-Nano-Spanish-Thumbnail.png)](https://youtu.be/mvgkxumjMfg)
+
+
+  [🚀 Spaces Demo](https://huggingface.co/spaces/neuphonic/neutts-nano-multilingual-collection),
+  [🔧 Github](https://github.com/neuphonic/neutts)
+
+
+  [Torch version](https://huggingface.co/neuphonic/neutts-nano-spanish), [Q4 GGUF
+  version](https://huggingface.co/neuphonic/neutts-nano-spanish-q4-gguf)
+
+
+  *Created by [Neuphonic](ht'
+content_length: 8858
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily an engineering deployment of existing TTS techniques (quantized
+  GGUF format for CPU inference) with instant voice cloning capabilities, but lacks
+  novel algorithmic contributions to emotional/expressive synthesis or zero-shot learning.

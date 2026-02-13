@@ -1,0 +1,34 @@
+title: 'WavBench: Benchmarking Reasoning, Colloquialism, and Paralinguistics for End-to-End
+  Spoken Dialogue Models'
+url: https://arxiv.org/abs/2602.12135
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-13T10:17:31.556135+00:00'
+date_seen: '2026-02-13'
+metadata:
+  arxiv_id: '2602.12135'
+  published: Fri, 13 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: WavBench: Benchmarking Reasoning, Colloquialism, and Paralinguistics
+  for End-to-End Spoken Dialogue Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  With the rapid integration of advanced reasoning capabilities into spoken dialogue
+  models, the field urgently demands benchmarks that transcend simple interactions
+  to address real-world complexity. However, current evaluations predominantly adhere
+  to text-generation standards, overlooking the unique audio-centric characteristics
+  of paralinguistics and col'
+content_length: 1735
+llm_content_sent: 1735
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a comprehensive tripartite benchmark framework that uniquely evaluates
+  paralinguistic capabilities and colloquial speech patterns in dialogue models, addressing
+  a significant gap in current text-focused evaluation methods.
