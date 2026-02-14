@@ -1,0 +1,26 @@
+title: nineninesix/kani-tts-2-en
+url: https://huggingface.co/nineninesix/kani-tts-2-en
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-14T10:08:21.075855+00:00'
+date_seen: '2026-02-14'
+metadata:
+  likes: '4'
+  downloads: '44'
+  trending_score: '4'
+  last_modified: '2026-02-14T00:17:10.000Z'
+content_preview: "---\nlicense: apache-2.0\ndatasets:\n- laion/Emolia\nlanguage:\n\
+  - en\npipeline_tag: text-to-speech\nlibrary_name: transformers\nbase_model:\n- nineninesix/kani-tts-2-pt\n\
+  ---\n\n<p>\n  <img src=\"public/logo.png\" alt=\"Logo\" width=\"100%\">\n</p>\n\n\
+  \n# KaniTTS2-en\n\n[![](https://dcbadge.limes.pink/api/server/https://discord.gg/NzP3rjB4SB?style=flat)](https://discord.gg/NzP3rjB4SB)\
+  \ [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n\
+  \n\nText-to-Speech Model "
+content_length: 7096
+llm_content_sent: 7096
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: While relevant to TTS research, this appears to be primarily an engineering
+  effort combining existing components (LFM2 backbone, NanoCodec) with voice cloning
+  capabilities, but lacks clear technical novelty or detailed methodology for zero-shot
+  emotional/expressive synthesis.
