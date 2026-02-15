@@ -1,0 +1,24 @@
+title: princezuda/safeclaw
+url: https://github.com/princezuda/safeclaw
+source: github_new
+type: repository
+date_discovered: '2026-02-02T23:11:15+00:00'
+date_seen: '2026-02-15'
+metadata:
+  stars: '43'
+  language: Python
+  created_at: '2026-02-02T23:11:15Z'
+content_preview: "Description: Safeclaw is the alternative to openclaw.. You can naturally\
+  \ chat with it via text and voice, yet there is no language model., it picks up\
+  \ on intent and semantics. No prompt injection while you get over ninety percent\
+  \ of what openclaw does plus tts and voice to text  \n\nTopics: agentic-ai, ai,\
+  \ ai-agent, ai-assistant, ai-tools, openclaw, safe, safeai\n\nLanguage: Python\n\
+  Stars: 43\n"
+content_length: 391
+llm_content_sent: 391
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This appears to be a chatbot/AI assistant repository with basic TTS/STT integration
+  rather than research in emotional/expressive speech synthesis or zero-shot voice
+  capabilities.

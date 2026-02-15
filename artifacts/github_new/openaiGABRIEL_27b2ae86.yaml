@@ -1,0 +1,31 @@
+title: openai/GABRIEL
+url: https://github.com/openai/GABRIEL
+source: github_new
+type: repository
+date_discovered: '2026-02-05T02:32:09+00:00'
+date_seen: '2026-02-15'
+metadata:
+  stars: '43'
+  language: Jupyter Notebook
+  created_at: '2026-02-05T02:32:09Z'
+content_preview: 'Description: An official OpenAI toolkit for social scientists and
+  data scientists to measure quantitative attributes in text, images, or audio using
+  the GPT API.
+
+
+  Topics: No topics
+
+
+  Language: Jupyter Notebook
+
+  Stars: 43
+
+  '
+content_length: 219
+llm_content_sent: 219
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is a general-purpose measurement toolkit for quantitative text/image/audio
+  analysis using GPT API, not focused on speech synthesis or zero-shot emotional expression
+  generation.

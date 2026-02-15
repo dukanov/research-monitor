@@ -1,0 +1,30 @@
+title: NicolasHaas/gospeak
+url: https://github.com/NicolasHaas/gospeak
+source: github_new
+type: repository
+date_discovered: '2026-02-13T17:41:01+00:00'
+date_seen: '2026-02-15'
+metadata:
+  stars: '50'
+  language: Go
+  created_at: '2026-02-13T17:41:01Z'
+content_preview: 'Description: A privacy-focused voice communication server and client,
+  inspired by TeamSpeak, built entirely in Go.
+
+
+  Topics: No topics
+
+
+  Language: Go
+
+  Stars: 50
+
+  '
+content_length: 158
+llm_content_sent: 158
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is a voice communication server implementation (like TeamSpeak) with
+  no apparent connection to speech synthesis, emotional expression, or zero-shot capabilities
+  - it's purely a networking/communication tool.
