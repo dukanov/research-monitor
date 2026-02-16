@@ -1,0 +1,29 @@
+title: predict-woo/qwen3-tts.cpp
+url: https://github.com/predict-woo/qwen3-tts.cpp
+source: github_new
+type: repository
+date_discovered: '2026-02-06T03:16:44+00:00'
+date_seen: '2026-02-16'
+metadata:
+  stars: '47'
+  language: C++
+  created_at: '2026-02-06T03:16:44Z'
+content_preview: 'Description: No description
+
+
+  Topics: No topics
+
+
+  Language: C++
+
+  Stars: 47
+
+  '
+content_length: 72
+llm_content_sent: 72
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This appears to be a C++ implementation/port of an existing TTS model (Qwen3)
+  with no description or evidence of novel contributions to emotional/expressive synthesis
+  or zero-shot capabilities.

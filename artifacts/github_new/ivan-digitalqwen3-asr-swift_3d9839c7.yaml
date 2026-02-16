@@ -1,0 +1,30 @@
+title: ivan-digital/qwen3-asr-swift
+url: https://github.com/ivan-digital/qwen3-asr-swift
+source: github_new
+type: repository
+date_discovered: '2026-02-04T00:52:46+00:00'
+date_seen: '2026-02-16'
+metadata:
+  stars: '45'
+  language: Swift
+  created_at: '2026-02-04T00:52:46Z'
+content_preview: 'Description: A Swift implementation of Qwen3-ASR speech recognition
+  model using MLX Swift for Apple Silicon.
+
+
+  Topics: No topics
+
+
+  Language: Swift
+
+  Stars: 45
+
+  '
+content_length: 155
+llm_content_sent: 155
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is a platform-specific implementation of an existing ASR model (Qwen3-ASR)
+  for Apple Silicon devices, not a contribution to emotional/expressive speech synthesis
+  or zero-shot capabilities.

@@ -1,0 +1,35 @@
+title: Eliminating stability hallucinations in llm-based tts models via attention
+  guidance
+url: https://arxiv.org/abs/2509.19852
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-16T10:22:38.076709+00:00'
+date_seen: '2026-02-16'
+metadata:
+  arxiv_id: '2509.19852'
+  published: Mon, 16 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: Eliminating stability hallucinations in llm-based tts models
+  via attention guidance
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This paper focuses on resolving stability hallucinations (e.g., repetitive or omitted
+  speech) in LLM-based Text-to-Speech (TTS) models by improving and leveraging the
+  attention mechanism. First, we analyzed the alignment mechanism between text tokens
+  and speech tokens in LLMs. We then proposed a metric termed the Optimal Alignment
+  Score (OAS), which employs the Viterbi algorith'
+content_length: 1234
+llm_content_sent: 1234
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.6
+reason: Introduces a novel Optimal Alignment Score metric using Viterbi algorithm
+  and chain-of-thought attention guidance to address stability hallucinations in LLM-based
+  TTS, which is a meaningful contribution to improving synthesis reliability though
+  not groundbreaking for zero-shot emotional synthesis specifically.

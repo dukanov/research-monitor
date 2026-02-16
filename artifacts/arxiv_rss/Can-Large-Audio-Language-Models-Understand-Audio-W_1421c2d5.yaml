@@ -1,0 +1,34 @@
+title: Can Large Audio Language Models Understand Audio Well? Speech, Scene and Events
+  Understanding Benchmark for LALMs
+url: https://arxiv.org/abs/2509.13148
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-16T10:22:38.076702+00:00'
+date_seen: '2026-02-16'
+metadata:
+  arxiv_id: '2509.13148'
+  published: Mon, 16 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: Can Large Audio Language Models Understand Audio Well? Speech,
+  Scene and Events Understanding Benchmark for LALMs
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recently, Large Audio Language Models (LALMs) have progressed rapidly, demonstrating
+  their strong efficacy in universal audio understanding through cross-modal integration.
+  To evaluate LALMs'' audio understanding performance, researchers have proposed different
+  benchmarks. However, key aspects for real-world interactions are underexplored in
+  existin'
+content_length: 1447
+llm_content_sent: 1447
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on audio understanding benchmarking for LALMs rather than
+  speech synthesis, and doesn't address emotional/expressive synthesis or zero-shot
+  generation capabilities.
