@@ -1,0 +1,33 @@
+title: 'RosettaSpeech: Zero-Shot Speech-to-Speech Translation without Parallel Speech'
+url: https://arxiv.org/abs/2511.20974
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-17T10:20:33.702524+00:00'
+date_seen: '2026-02-17'
+metadata:
+  arxiv_id: '2511.20974'
+  published: Tue, 17 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.CL, cs.LG
+content_preview: 'Title: RosettaSpeech: Zero-Shot Speech-to-Speech Translation without
+  Parallel Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  End-to-end speech-to-speech translation (S2ST) systems typically struggle with a
+  critical data bottleneck: the scarcity of parallel speech-to-speech corpora. To
+  overcome this, we introduce RosettaSpeech, a novel zero-shot framework trained exclusively
+  on monolingual speech-text data augmented by machine translation supervision. Unlike
+  prior works that rely on complex cascaded pseudo-'
+content_length: 1458
+llm_content_sent: 1458
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on speech-to-speech translation rather than emotional/expressive
+  speech synthesis, and while it mentions preserving speaker voice, it doesn't address
+  emotional expression or zero-shot emotional synthesis capabilities.

@@ -1,0 +1,34 @@
+title: 'AuTAgent: A Reinforcement Learning Framework for Tool-Augmented Audio Reasoning'
+url: https://arxiv.org/abs/2602.13685
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-17T10:20:33.687893+00:00'
+date_seen: '2026-02-17'
+metadata:
+  arxiv_id: '2602.13685'
+  published: Tue, 17 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: AuTAgent: A Reinforcement Learning Framework for Tool-Augmented
+  Audio Reasoning
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large Audio Language Models (LALMs) excel at perception but struggle with complex
+  reasoning requiring precise acoustic measurements. While external tools can extract
+  fine-grained features like exact tempo or pitch, effective integration remains challenging:
+  naively using all tools causes information overload, while prompt-based selection
+  fails to assess context-dependent utility. T'
+content_length: 1425
+llm_content_sent: 1425
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on audio reasoning and tool augmentation for Large Audio
+  Language Models rather than emotional/expressive speech synthesis, making it largely
+  irrelevant to the specified research interests despite some potential indirect connections
+  through audio processing.

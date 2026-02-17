@@ -1,0 +1,34 @@
+title: Learning Physiology-Informed Vocal Spectrotemporal Representations for Speech
+  Emotion Recognition
+url: https://arxiv.org/abs/2602.13259
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-17T10:20:33.687782+00:00'
+date_seen: '2026-02-17'
+metadata:
+  arxiv_id: '2602.13259'
+  published: Tue, 17 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI, eess.AS
+content_preview: 'Title: Learning Physiology-Informed Vocal Spectrotemporal Representations
+  for Speech Emotion Recognition
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech emotion recognition (SER) is essential for humanoid robot tasks such as social
+  robotic interactions and robotic psychological diagnosis, where interpretable and
+  efficient models are critical for safety and performance. Existing deep models trained
+  on large datasets remain largely uninterpretable, often insufficiently modeling
+  underlying emotional acoustic s'
+content_length: 2060
+llm_content_sent: 2060
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on speech emotion recognition (analysis) rather than emotional
+  speech synthesis (generation), and while it introduces physiology-informed representations,
+  it doesn't address zero-shot synthesis capabilities.

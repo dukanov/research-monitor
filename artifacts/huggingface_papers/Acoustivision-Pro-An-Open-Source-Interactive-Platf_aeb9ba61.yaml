@@ -1,0 +1,30 @@
+title: 'Acoustivision Pro: An Open-Source Interactive Platform for Room Impulse Response
+  Analysis and Acoustic Characterization'
+url: https://huggingface.co/papers/2602.12299
+source: huggingface_papers
+type: paper
+date_discovered: '2026-02-17T10:21:06.531900+00:00'
+date_seen: '2026-02-17'
+metadata:
+  upvotes: '1'
+  paper_id: '2602.12299'
+  published_date: '2026-02-17'
+content_preview: 'Title: Acoustivision Pro: An Open-Source Interactive Platform for
+  Room Impulse Response Analysis and Acoustic Characterization
+
+
+  Summary:
+
+  Room acoustics analysis plays a central role in architectural design, audio engineering,
+  speech intelligibility assessment, and hearing research. Despite the availability
+  of standardized metrics such as reverberation time, clarity, and speech transmission
+  index, accessible tools that combine rigorous signal processing with intuitive visualization
+  remain scarce.'
+content_length: 1645
+llm_content_sent: 1645
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on room acoustics analysis tools rather than speech synthesis,
+  and offers no novel approaches for emotional/expressive speech generation or zero-shot
+  capabilities.

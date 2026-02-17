@@ -1,0 +1,34 @@
+title: 'TriniMark: A Robust Generative Speech Watermarking Method for Trinity-Level
+  Traceability'
+url: https://arxiv.org/abs/2504.20532
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-17T10:20:33.688550+00:00'
+date_seen: '2026-02-17'
+metadata:
+  arxiv_id: '2504.20532'
+  published: Tue, 17 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.MM, cs.CR, cs.SD, eess.AS
+content_preview: 'Title: TriniMark: A Robust Generative Speech Watermarking Method
+  for Trinity-Level Traceability
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Diffusion-based speech generation has achieved remarkable fidelity, increasing the
+  risk of misuse and unauthorized redistribution. However, most existing generative
+  speech watermarking methods are developed for GAN-based pipelines, and watermarking
+  for diffusion-based speech generation remains comparatively underexplored. In addition,
+  prior work often focuses on content-le'
+content_length: 1827
+llm_content_sent: 1827
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on watermarking for speech security/provenance rather than
+  advancing emotional/expressive speech synthesis or zero-shot capabilities, making
+  it largely irrelevant to the stated research interests.

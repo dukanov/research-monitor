@@ -1,0 +1,35 @@
+title: Probing Human Articulatory Constraints in End-to-End TTS with Reverse and Mismatched
+  Speech-Text Directions
+url: https://arxiv.org/abs/2602.14664
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-17T10:20:33.688179+00:00'
+date_seen: '2026-02-17'
+metadata:
+  arxiv_id: '2602.14664'
+  published: Tue, 17 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: Probing Human Articulatory Constraints in End-to-End TTS
+  with Reverse and Mismatched Speech-Text Directions
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  An end-to-end (e2e) text-to-speech (TTS) system is a deep architecture that learns
+  to associate a text string with acoustic speech patterns from a curated dataset.
+  It is expected that all aspects associated with speech production, such as phone
+  duration, speaker characteristics, and intonation among other things are captured
+  in the trained TTS model to e'
+content_length: 1503
+llm_content_sent: 1503
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: While the reverse speech direction experiments are somewhat novel, this work
+  focuses on articulatory constraints and data-driven learning rather than emotional/expressive
+  synthesis or zero-shot capabilities, making it tangentially relevant at best to
+  the specified research interests.
