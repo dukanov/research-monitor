@@ -1,0 +1,27 @@
+title: neuphonic/neutts-air-q4-gguf
+url: https://huggingface.co/neuphonic/neutts-air-q4-gguf
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-18T10:20:32.022947+00:00'
+date_seen: '2026-02-18'
+metadata:
+  likes: '44'
+  downloads: '53048'
+  trending_score: '2'
+  last_modified: '2026-02-10T13:06:32.000Z'
+content_preview: "---\nbase_model: neuphonic/neutts-air\nlicense: apache-2.0\ntags:\n\
+  - audio\n- speech\n- speech-language-models\ndatasets:\n- amphion/Emilia-Dataset\n\
+  - neuphonic/emilia-yodas-english-neucodec\npipeline_tag: text-to-speech\n---\n\n\
+  # NeuTTS Air Q4-GGUF ☁️ \n\n[![NeuTTSAir_Intro](neutts-air.png)](https://www.youtube.com/watch?v=YAB3hCtu5wE)\n\
+  \n*Created by [Neuphonic](http://neuphonic.com/) - building faster, smaller, on-device\
+  \ voice AI*\n\nState-of-the-art Voice AI has been locked behind web APIs for too\
+  \ long. NeuTTS "
+content_length: 5143
+llm_content_sent: 5143
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: While this model offers instant voice cloning capabilities relevant to expressive
+  speech synthesis, it appears to be primarily a quantized deployment format of an
+  existing model rather than introducing novel scientific approaches to zero-shot
+  emotional/expressive synthesis.

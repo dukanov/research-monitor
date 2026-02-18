@@ -1,0 +1,25 @@
+title: nineninesix/kani-tts-370m
+url: https://huggingface.co/nineninesix/kani-tts-370m
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-18T10:20:29.608521+00:00'
+date_seen: '2026-02-18'
+metadata:
+  likes: '160'
+  downloads: '883'
+  trending_score: '4'
+  last_modified: '2026-02-18T01:36:09.000Z'
+content_preview: "---\nlicense: other\nlicense_name: lfm1.0\nlicense_link: https://www.liquid.ai/lfm-license\n\
+  language:\n- en\n- de\n- ar\n- zh\n- es\n- ko\npipeline_tag: text-to-speech\nlibrary_name:\
+  \ transformers\nbase_model:\n- nineninesix/kani-tts-450m-0.2-pt\n---\n\n\n<p>\n\
+  \  <img src=\"https://www.nineninesix.ai/kitty.png\" alt=\"Logo\" width=\"200\"\
+  \ height=\"200\">\n</p>\n\n\n# KaniTTS\n\n[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n\
+  \n\nA high-speed, high-fidelity Text-to-S"
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily an engineering implementation of existing TTS architectures
+  with multi-speaker support but lacks novel approaches for emotional/expressive synthesis
+  or true zero-shot voice cloning capabilities.

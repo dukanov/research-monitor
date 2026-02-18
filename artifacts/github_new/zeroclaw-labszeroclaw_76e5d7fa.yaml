@@ -1,0 +1,30 @@
+title: zeroclaw-labs/zeroclaw
+url: https://github.com/zeroclaw-labs/zeroclaw
+source: github_new
+type: repository
+date_discovered: '2026-02-13T08:56:04+00:00'
+date_seen: '2026-02-18'
+metadata:
+  stars: '11513'
+  language: Rust
+  created_at: '2026-02-13T08:56:04Z'
+content_preview: 'Description: Fast, small, and fully autonomous AI assistant infrastructure
+  — deploy anywhere, swap anything 🦀
+
+
+  Topics: No topics
+
+
+  Language: Rust
+
+  Stars: 11513
+
+  '
+content_length: 158
+llm_content_sent: 158
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This appears to be a general AI assistant infrastructure repository with no
+  apparent connection to speech synthesis, emotional expression, or zero-shot capabilities
+  in the speech domain.

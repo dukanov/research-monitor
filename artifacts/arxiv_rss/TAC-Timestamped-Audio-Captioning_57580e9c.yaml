@@ -1,0 +1,33 @@
+title: 'TAC: Timestamped Audio Captioning'
+url: https://arxiv.org/abs/2602.15766
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-18T10:19:48.172394+00:00'
+date_seen: '2026-02-18'
+metadata:
+  arxiv_id: '2602.15766'
+  published: Wed, 18 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: TAC: Timestamped Audio Captioning
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large Audio Language Models struggle to disentangle overlapping events in complex
+  acoustic scenes, yielding temporally inconsistent captions and frequent hallucinations.
+  We introduce Timestamped Audio Captioner (TAC), a model that produces temporally
+  grounded audio descriptions at varying degrees of detail and resolution. TAC is
+  trained with a synthetic data pipeline that constructs challenging and dynamic mixtures
+  from real-w'
+content_length: 1241
+llm_content_sent: 1241
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on audio captioning and understanding rather than speech
+  synthesis, making it largely irrelevant to emotional/expressive speech generation
+  research despite some potential indirect connections through audio-language modeling.

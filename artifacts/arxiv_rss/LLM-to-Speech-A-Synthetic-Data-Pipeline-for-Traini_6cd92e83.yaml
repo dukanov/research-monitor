@@ -1,0 +1,34 @@
+title: 'LLM-to-Speech: A Synthetic Data Pipeline for Training Dialectal Text-to-Speech
+  Models'
+url: https://arxiv.org/abs/2602.15675
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-18T10:19:48.278409+00:00'
+date_seen: '2026-02-18'
+metadata:
+  arxiv_id: '2602.15675'
+  published: Wed, 18 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: LLM-to-Speech: A Synthetic Data Pipeline for Training Dialectal
+  Text-to-Speech Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Despite the advances in neural text to speech (TTS), many Arabic dialectal varieties
+  remain marginally addressed, with most resources concentrated on Modern Spoken Arabic
+  (MSA) and Gulf dialects, leaving Egyptian Arabic -- the most widely understood Arabic
+  dialect -- severely under-resourced. We address this gap by introducing NileTTS:
+  38 hours of transcribed speech from two '
+content_length: 1393
+llm_content_sent: 1393
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While the synthetic data pipeline is somewhat novel, this work focuses purely
+  on dialectal Arabic TTS without addressing emotional/expressive synthesis or zero-shot
+  capabilities, making it largely irrelevant to the specified research interests.

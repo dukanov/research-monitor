@@ -1,0 +1,30 @@
+title: xuiltul/voice-input
+url: https://github.com/xuiltul/voice-input
+source: github_new
+type: repository
+date_discovered: '2026-02-10T14:24:03+00:00'
+date_seen: '2026-02-18'
+metadata:
+  stars: '42'
+  language: Python
+  created_at: '2026-02-10T14:24:03Z'
+content_preview: 'Description: Local voice input with screen-aware context. Push-to-talk
+  → Whisper → LLM refinement, all on your own GPU.
+
+
+  Topics: No topics
+
+
+  Language: Python
+
+  Stars: 42
+
+  '
+content_length: 167
+llm_content_sent: 167
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is a voice input application using existing Whisper ASR and LLM technologies,
+  not a speech synthesis system, and offers no novel contributions to emotional/expressive
+  speech generation or zero-shot synthesis capabilities.

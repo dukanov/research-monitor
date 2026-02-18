@@ -1,0 +1,30 @@
+title: youngkent/clawtime
+url: https://github.com/youngkent/clawtime
+source: github_new
+type: repository
+date_discovered: '2026-02-08T07:06:19+00:00'
+date_seen: '2026-02-18'
+metadata:
+  stars: '43'
+  language: JavaScript
+  created_at: '2026-02-08T07:06:19Z'
+content_preview: 'Description: An engaging 1-on-1 chat interface between you and your
+  AI agent.
+
+
+  Topics: No topics
+
+
+  Language: JavaScript
+
+  Stars: 43
+
+  '
+content_length: 129
+llm_content_sent: 129
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is a generic chat interface repository with no apparent connection to
+  speech synthesis, emotional expression, or zero-shot capabilities - it appears to
+  be a simple conversational UI implementation.

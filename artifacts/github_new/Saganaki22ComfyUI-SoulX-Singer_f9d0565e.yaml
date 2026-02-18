@@ -1,0 +1,31 @@
+title: Saganaki22/ComfyUI-SoulX-Singer
+url: https://github.com/Saganaki22/ComfyUI-SoulX-Singer
+source: github_new
+type: repository
+date_discovered: '2026-02-11T15:08:21+00:00'
+date_seen: '2026-02-18'
+metadata:
+  stars: '47'
+  language: Python
+  created_at: '2026-02-11T15:08:21Z'
+content_preview: 'Description: ComfyUI custom nodes for SoulX-Singer: Towards High-Quality
+  Zero-Shot Singing Voice Synthesis
+
+
+  Topics: ai, audio, audio-effect, audio-processing, comfyui, comfyui-custom-node,
+  comfyui-nodes, python3, safetensors
+
+
+  Language: Python
+
+  Stars: 47
+
+  '
+content_length: 253
+llm_content_sent: 253
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily a UI wrapper/integration tool for existing SoulX-Singer
+  technology rather than novel research, offering only implementation convenience
+  without advancing the underlying zero-shot singing synthesis methods.

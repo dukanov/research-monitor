@@ -1,0 +1,30 @@
+title: espresso3389/MioTTS-llama.cpp
+url: https://github.com/espresso3389/MioTTS-llama.cpp
+source: github_new
+type: repository
+date_discovered: '2026-02-15T00:46:12+00:00'
+date_seen: '2026-02-18'
+metadata:
+  stars: '44'
+  language: C++
+  created_at: '2026-02-15T00:46:12Z'
+content_preview: 'Description: A fast, lightweight text-to-speech tool that runs entirely
+  on your CPU. Give it text, pick a voice, and get a WAV file out.
+
+
+  Topics: No topics
+
+
+  Language: C++
+
+  Stars: 44
+
+  '
+content_length: 181
+llm_content_sent: 181
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This appears to be a basic CPU-based TTS implementation without any novel
+  contributions to emotional/expressive synthesis or zero-shot capabilities, lacking
+  scientific innovation or research depth.

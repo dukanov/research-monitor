@@ -1,0 +1,35 @@
+title: 'AudioRAG+: Feedback-driven Retrieval-augmented Audio Generation with Large
+  Audio Language Models'
+url: https://arxiv.org/abs/2511.01091
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-18T10:19:48.172565+00:00'
+date_seen: '2026-02-18'
+metadata:
+  arxiv_id: '2511.01091'
+  published: Wed, 18 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: AudioRAG+: Feedback-driven Retrieval-augmented Audio Generation
+  with Large Audio Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We propose a general feedback-driven retrieval-augmented generation (RAG) approach
+  that leverages Large Audio Language Models (LALMs) to address the missing or imperfect
+  synthesis of specific sound events in text-to-audio (TTA) generation. Unlike previous
+  RAG-based TTA methods that typically train specialized models from scratch, we utilize
+  LALMs to analyze audio g'
+content_length: 984
+llm_content_sent: 984
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on general text-to-audio generation using retrieval-augmented
+  approaches, but does not address emotional/expressive speech synthesis or zero-shot
+  capabilities for human speech, making it tangentially related but not directly relevant
+  to the specified research interests.
