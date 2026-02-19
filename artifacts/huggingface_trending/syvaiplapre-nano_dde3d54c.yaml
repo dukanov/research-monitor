@@ -1,0 +1,55 @@
+title: syvai/plapre-nano
+url: https://huggingface.co/syvai/plapre-nano
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-19T10:20:01.698537+00:00'
+date_seen: '2026-02-19'
+metadata:
+  likes: '8'
+  downloads: '435'
+  trending_score: '8'
+  last_modified: '2026-02-18T10:31:57.000Z'
+content_preview: 'Plapre Nano - Dansk Tekst-til-Tale
+
+  Dansk TTS-model med talerkonditionering og stemmekloningssupport. Genererer 24kHz
+  lyd fra dansk tekst ved hjælp af autoregressiv lydtoken-prædiktion.
+
+  Modeldetaljer
+
+  Arkitektur
+
+  SmolLM2-360M (LLaMA-baseret, 32 lag, hidden_size=960)
+
+  Parametre
+
+  ~334.6M (base) + 123K (talerprojektion)
+
+  Vocab-størrelse
+
+  20.802 (8000 BPE + 12.800 lyd + separatorer)
+
+  Lydtokenizer
+
+  Kanade
+
+  (25 tokens/sek, 12.800 codebook)
+
+  Samplerate
+
+  24kHz
+
+  Præcision
+
+  bfloat16
+
+  Sådan virker det
+
+  Modellen tager dans'
+content_length: 2519
+llm_content_sent: 2519
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is a straightforward implementation of existing autoregressive TTS techniques
+  for Danish with basic speaker conditioning - no novel zero-shot capabilities or
+  emotional/expressive synthesis innovations are presented.

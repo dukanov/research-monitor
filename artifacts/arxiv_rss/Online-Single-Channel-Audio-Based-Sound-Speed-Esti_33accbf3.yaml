@@ -1,0 +1,34 @@
+title: Online Single-Channel Audio-Based Sound Speed Estimation for Robust Multi-Channel
+  Audio Control
+url: https://arxiv.org/abs/2602.16416
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-19T10:19:23.178557+00:00'
+date_seen: '2026-02-19'
+metadata:
+  arxiv_id: '2602.16416'
+  published: Thu, 19 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: Online Single-Channel Audio-Based Sound Speed Estimation
+  for Robust Multi-Channel Audio Control
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Robust spatial audio control relies on accurate acoustic propagation models, yet
+  environmental variations, especially changes in the speed of sound, cause systematic
+  mismatches that degrade performance. Existing methods either assume known sound
+  speed, require multiple microphones, or rely on separate calibration, making them
+  impractical for systems with minimal sen'
+content_length: 1148
+llm_content_sent: 1148
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on acoustic calibration for spatial audio systems rather
+  than speech synthesis, and has no connection to emotional/expressive synthesis or
+  zero-shot capabilities.

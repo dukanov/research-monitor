@@ -1,0 +1,35 @@
+title: Scaling Open Discrete Audio Foundation Models with Interleaved Semantic, Acoustic,
+  and Text Tokens
+url: https://arxiv.org/abs/2602.16687
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-19T10:19:23.178364+00:00'
+date_seen: '2026-02-19'
+metadata:
+  arxiv_id: '2602.16687'
+  published: Thu, 19 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.CL, eess.AS
+content_preview: 'Title: Scaling Open Discrete Audio Foundation Models with Interleaved
+  Semantic, Acoustic, and Text Tokens
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Current audio language models are predominantly text-first, either extending pre-trained
+  text LLM backbones or relying on semantic-only audio tokens, limiting general audio
+  modeling. This paper presents a systematic empirical study of native audio foundation
+  models that apply next-token prediction to audio at scale, jointly modeling semantic
+  content, acoustic det'
+content_length: 1531
+llm_content_sent: 1531
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: This work introduces a native audio foundation model that jointly models semantic,
+  acoustic, and text tokens with comprehensive scaling laws for discrete audio models,
+  which could enable better zero-shot expressive speech synthesis through its unified
+  cross-modal architecture.

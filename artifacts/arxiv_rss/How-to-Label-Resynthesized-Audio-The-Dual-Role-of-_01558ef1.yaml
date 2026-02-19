@@ -1,0 +1,34 @@
+title: 'How to Label Resynthesized Audio: The Dual Role of Neural Audio Codecs in
+  Audio Deepfake Detection'
+url: https://arxiv.org/abs/2602.16343
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-19T10:19:23.178338+00:00'
+date_seen: '2026-02-19'
+metadata:
+  arxiv_id: '2602.16343'
+  published: Thu, 19 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.LG
+content_preview: 'Title: How to Label Resynthesized Audio: The Dual Role of Neural
+  Audio Codecs in Audio Deepfake Detection
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Since Text-to-Speech systems typically don''t produce waveforms directly, recent
+  spoof detection studies use resynthesized waveforms from vocoders and neural audio
+  codecs to simulate an attacker. Unlike vocoders, which are specifically designed
+  for speech synthesis, neural audio codecs were originally developed for compressing
+  audio for storage and transmission. H'
+content_length: 1082
+llm_content_sent: 1082
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on audio deepfake detection and labeling strategies for
+  codec-resynthesized audio rather than advancing emotional/expressive speech synthesis
+  or zero-shot capabilities.
