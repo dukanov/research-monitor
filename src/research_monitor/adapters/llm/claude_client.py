@@ -57,15 +57,15 @@ class ClaudeClient(LLMClient):
             )
         except (json.JSONDecodeError, KeyError) as e:
             # Log the problematic response
-            print(f"  ⚠️  Claude вернул невалидный JSON:")
+            print(f"  ⚠️  Claude returned invalid JSON:")
             # Show first and last part of response to see structure
             if len(response) > 500:
-                print(f"     Начало ответа: {response[:250]}...")
-                print(f"     Конец ответа: ...{response[-250:]}")
+                print(f"     Response start: {response[:250]}...")
+                print(f"     Response end: ...{response[-250:]}")
             else:
-                print(f"     Полный ответ: {response}")
-            print(f"     Извлеченный JSON: {json_text[:200]}..." if len(json_text) > 200 else f"     Извлеченный JSON: {json_text}")
-            print(f"     Ошибка: {type(e).__name__}: {e}")
+                print(f"     Full response: {response}")
+            print(f"     Extracted JSON: {json_text[:200]}..." if len(json_text) > 200 else f"     Extracted JSON: {json_text}")
+            print(f"     Error: {type(e).__name__}: {e}")
             
             # Fallback if LLM doesn't return proper JSON
             return FilterResult(

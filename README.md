@@ -1,123 +1,123 @@
 # Research Monitor
 
-Система мониторинга обновлений в области синтеза речи из различных источников с автоматической фильтрацией и генерацией дайджестов.
+A system for monitoring updates in the field of speech synthesis from various sources with automatic filtering and digest generation.
 
-## Источники
+## Sources
 
-- 📚 **ArXiv RSS** - статьи из категорий cs.SD, eess.AS, cs.CL (с фильтрацией по 40+ ключевым словам)
-- 🐙 **GitHub (новые репо)** - поиск по topics и keywords, созданные за последние 14 дней, минимум 10⭐
-- 📄 **HuggingFace Papers** - статьи за последние 7 дней (с фильтрацией по ключевым словам)
-- 🤖 **HuggingFace Trending** - трендовые TTS модели, обновленные за последние 14 дней
+- 📚 **ArXiv RSS** - papers from cs.SD, eess.AS, cs.CL categories (filtered by 40+ keywords)
+- 🐙 **GitHub (new repos)** - search by topics and keywords, created in the last 14 days, minimum 10⭐
+- 📄 **HuggingFace Papers** - papers from the last 7 days (filtered by keywords)
+- 🤖 **HuggingFace Trending** - trending TTS models, updated in the last 14 days
 
-## Установка
+## Installation
 
 ```bash
 uv sync
 ```
 
-## Конфигурация
+## Configuration
 
-1. **API ключи** (только они в переменных окружения):
+1. **API keys** (only these go in environment variables):
 
 ```bash
 export ANTHROPIC_API_KEY=your_key_here
-export GH_PAT=your_github_token           # опционально, для повышенного rate limit
-export SLACK_WEBHOOK_URL=your_webhook_url # опционально, для уведомлений
+export GH_PAT=your_github_token           # optional, for higher rate limit
+export SLACK_WEBHOOK_URL=your_webhook_url # optional, for notifications
 ```
 
-2. **Все остальное в `config.yaml`**:
-   - Промпты для Claude (включая ваши интересы)
-   - Настройки источников
-   - Пути и параметры фильтрации
+2. **Everything else in `config.yaml`**:
+   - Prompts for Claude (including your interests)
+   - Source settings
+   - Paths and filtering parameters
 
-## Использование
+## Usage
 
-### Базовое использование
+### Basic usage
 
-Генерирует дайджест за последний день (создает два файла: полный дайджест и краткое саммари):
+Generates a digest for the last day (creates two files: full digest and brief summary):
 
 ```bash
 research-monitor
 ```
 
-### Доступные опции
+### Available options
 
 ```bash
 research-monitor [OPTIONS]
 
-Опции:
-  --days INTEGER      Период мониторинга в днях [по умолчанию: 1]
-  --output PATH       Путь для сохранения дайджеста [по умолчанию: digests/full/YYYY-MM-DD_HH-MM-SS_digest.md]
-  --debug             Включить debug режим (сохраняет отладочные данные в debug/)
-  --help              Показать справку
+Options:
+  --days INTEGER      Monitoring period in days [default: 1]
+  --output PATH       Path for saving the digest [default: digests/full/YYYY-MM-DD_HH-MM-SS_digest.md]
+  --debug             Enable debug mode (saves debug data to debug/)
+  --help              Show help
 ```
 
-### Примеры
+### Examples
 
 ```bash
-# Дайджест за последнюю неделю
+# Digest for the last week
 research-monitor --days 7
 
-# С указанием выходного файла
+# With custom output file
 research-monitor --output my-digest.md
 
-# Отладочный режим
+# Debug mode
 research-monitor --debug
 ```
 
-### Что генерируется
+### Output
 
-Каждый запуск создает два файла:
-- **`digests/full/YYYY-MM-DD_HH-MM-SS_digest.md`** - полный дайджест со всеми деталями
-- **`digests/summary/YYYY-MM-DD_HH-MM-SS_summary.md`** - краткое саммари в стиле Telegram-каналов
+Each run creates two files:
+- **`digests/full/YYYY-MM-DD_HH-MM-SS_digest.md`** - full digest with all details
+- **`digests/summary/YYYY-MM-DD_HH-MM-SS_summary.md`** - brief summary in Telegram channel style
 
-Если настроен `SLACK_WEBHOOK_URL`, краткое саммари автоматически отправляется в Slack.
+If `SLACK_WEBHOOK_URL` is configured, the brief summary is automatically sent to Slack.
 
-### Просмотр результатов
+### Viewing results
 
 ```bash
-# Посмотреть полные дайджесты
+# View full digests
 ls -lt digests/full/
 
-# Посмотреть саммари
+# View summaries
 ls -lt digests/summary/
 
-# Прочитать последнее саммари
+# Read the latest summary
 cat digests/summary/$(ls -t digests/summary/ | head -1)
 
-# Посмотреть артефакты (находки парсеров)
+# View artifacts (parser findings)
 ls -la artifacts/*/*.yaml
 ```
 
-## Как работает система
+## How the system works
 
 ### Workflow
 
-1. **Сбор данных** - источники собирают новые материалы
-2. **Дедупликация** - проверка по артефактам, пропуск уже виденных по URL
-3. **Фильтрация через Claude** - оценка релевантности (порог 70%)
-4. **Сохранение артефактов** - релевантные находки → YAML файлы
-5. **Генерация дайджестов** - создание полного дайджеста + краткого саммари
+1. **Data collection** - sources gather new materials
+2. **Deduplication** - check against artifacts, skip already seen URLs
+3. **Claude filtering** - relevance scoring (70% threshold)
+4. **Artifact saving** - relevant findings → YAML files
+5. **Digest generation** - full digest + brief summary
 
-### Артефакты (находки источников)
+### Artifacts (source findings)
 
-Каждая находка сохраняется как YAML файл в `artifacts/`:
+Each finding is saved as a YAML file in `artifacts/`:
 
 ```
 artifacts/
-├── arxiv_rss/           # Статьи из ArXiv
-├── github_new/          # Новые репозитории
-├── huggingface_papers/  # Статьи с HF
-└── huggingface_trending/# Трендовые модели
+├── arxiv_rss/           # ArXiv papers
+├── github_new/          # New repositories
+├── huggingface_papers/  # HF papers
+└── huggingface_trending/# Trending models
 ```
 
-**Зачем:**
-- 👀 **Прозрачность** - видно что собирают источники
-- ♻️ **Дедупликация** - автоматический пропуск уже виденных (по URL)
-- 📚 **История** - можно вернуться к старым находкам
-- 🔍 **Отладка** - легко проверить содержимое
+**Purpose:**
+- 👀 **Transparency** - see what sources collect
+- ♻️ **Deduplication** - automatic skip of already seen items (by URL)
+- 📚 **History** - revisit past findings
+- 🔍 **Debugging** - easy to inspect contents
 
-**Формат артефакта:**
+**Artifact format:**
 
 ```yaml
 title: Paper or Repository Title
@@ -126,17 +126,17 @@ type: paper/model/repository
 source: github_new/arxiv_rss/etc
 published_at: "2025-11-27"
 relevance_score: 0.85
-relevance_reason: "Описание почему релевантно"
-summary: "Краткое описание"
+relevance_reason: "Description of why it's relevant"
+summary: "Brief description"
 highlights:
-  - "Ключевой пункт 1"
-  - "Ключевой пункт 2"
-content: "Полный текст..."
+  - "Key point 1"
+  - "Key point 2"
+content: "Full text..."
 ```
 
-## Архитектура
+## Architecture
 
-Проект следует принципам Clean Architecture:
+The project follows Clean Architecture principles:
 
 ```
 core/
@@ -163,40 +163,39 @@ config.py          # Configuration management
 cli.py             # CLI entry point
 ```
 
-## Обработка rate limits
+## Rate limit handling
 
-Система автоматически обрабатывает rate limits от Claude API:
-- Батчинг запросов (2 одновременно по умолчанию)
-- Минимальная задержка между запросами (1.5s)
-- Retry с exponential backoff при 429 ошибках (старт с 2s)
-- До 5 повторных попыток
+The system automatically handles rate limits from Claude API:
+- Request batching (2 concurrent by default)
+- Minimum delay between requests (1.5s)
+- Retry with exponential backoff on 429 errors (starting at 2s)
+- Up to 5 retry attempts
 
-Настройки жёстко заданы в `config.py` для стабильной работы без rate limits.
+Rate limit settings are hardcoded in `config.py` for stable operation.
 
-Подробнее: [USAGE.md](USAGE.md)
+See also: [USAGE.md](USAGE.md)
 
-## Автоматизация с GitHub Actions
+## GitHub Actions automation
 
-Настроен автоматический запуск каждый день в 10:00 UTC:
-- 📡 Собирает новые материалы
-- 💾 Коммитит артефакты и дайджесты
-- 💬 Отправляет саммари в Slack
+Configured to run automatically every day at 10:00 UTC:
+- 📡 Collects new materials
+- 💾 Commits artifacts and digests
+- 💬 Sends summary to Slack
 
-**Настройка секретов:**
+**Setting up secrets:**
 
-В Settings → Secrets and variables → Actions добавьте:
+In Settings → Secrets and variables → Actions add:
 
-| Секрет | Обязательно | Описание |
-|--------|-------------|----------|
-| `ANTHROPIC_API_KEY` | ✅ Да | API ключ Claude для фильтрации |
-| `SLACK_WEBHOOK_URL` | ⭕ Опционально | Webhook для отправки в Slack |
-| `GH_PAT` | ⭕ Опционально | Personal Access Token для GitHub (повышенный rate limit) |
+| Secret | Required | Description |
+|--------|----------|-------------|
+| `ANTHROPIC_API_KEY` | Yes | Claude API key for filtering |
+| `SLACK_WEBHOOK_URL` | Optional | Webhook for sending to Slack |
+| `GH_PAT` | Optional | Personal Access Token for GitHub (higher rate limit) |
 
-Подробнее: [.github/SETUP.md](.github/SETUP.md)
+See also: [.github/SETUP.md](.github/SETUP.md)
 
-## Тестирование
+## Testing
 
 ```bash
 pytest
 ```
-

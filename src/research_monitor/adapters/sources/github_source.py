@@ -12,7 +12,7 @@ class GitHubSource(ItemSource):
     """Search GitHub repositories by topics and keywords."""
     
     emoji = "🐙"
-    name = "GitHub (новые репо)"
+    name = "GitHub (new repos)"
     
     def __init__(
         self,
@@ -42,16 +42,16 @@ class GitHubSource(ItemSource):
         from datetime import timedelta
         search_since = date.today() - timedelta(days=self.search_days)
         
-        print(f"  └─ Период поиска: {search_since.isoformat()} - {date.today().isoformat()}")
-        print(f"  └─ Минимум звёзд: {self.min_stars}")
+        print(f"  └─ Search period: {search_since.isoformat()} - {date.today().isoformat()}")
+        print(f"  └─ Minimum stars: {self.min_stars}")
         
         async with httpx.AsyncClient(timeout=30.0) as client:
             headers = self._get_headers()
             
             total_queries = len(self.topics) + len(self.keywords)
-            print(f"  └─ Запросов: {len(self.topics)} topics + {len(self.keywords)} keywords = {total_queries}")
+            print(f"  └─ Queries: {len(self.topics)} topics + {len(self.keywords)} keywords = {total_queries}")
             if not self.token and total_queries > 1:
-                print(f"  └─ Задержка между запросами: {self.request_delay}s (без токена - 10 req/min)")
+                print(f"  └─ Delay between requests: {self.request_delay}s (no token - 10 req/min)")
             
             # Search by topics
             for i, topic in enumerate(self.topics):
@@ -78,13 +78,13 @@ class GitHubSource(ItemSource):
                         seen_urls.add(item.url)
                         items.append(item)
         
-        print(f"  └─ Найдено уникальных репозиториев: {len(items)}")
+        print(f"  └─ Found unique repositories: {len(items)}")
         
         # Sort by stars (metadata contains stars count) and limit to max_items
         items.sort(key=lambda x: int(x.metadata.get("stars", 0)), reverse=True)
         
         if len(items) > self.max_items:
-            print(f"  └─ Ограничено топ-{self.max_items} по звездам")
+            print(f"  └─ Limited to top {self.max_items} by stars")
         
         return items[:self.max_items]
     
@@ -114,7 +114,7 @@ class GitHubSource(ItemSource):
             if response.status_code != 200:
                 print(f"  └─ ⚠️  GitHub API error: {response.status_code} for query: {query}")
                 if response.status_code == 403:
-                    print(f"      Rate limit или требуется аутентификация")
+                    print(f"      Rate limit or authentication required")
                 return items
             
             data = response.json()
@@ -122,7 +122,7 @@ class GitHubSource(ItemSource):
             items_found = len(data.get("items", []))
             
             if total_count > 0:
-                print(f"  └─ '{query}': {items_found} репо (всего: {total_count})")
+                print(f"  └─ '{query}': {items_found} repos (total: {total_count})")
             
             # Use data from search results directly (no additional requests needed)
             for repo in data.get("items", []):
@@ -131,7 +131,7 @@ class GitHubSource(ItemSource):
                     if item:
                         items.append(item)
                 except Exception as e:
-                    print(f"      ⚠️  Ошибка обработки {repo.get('full_name', '?')}: {e}")
+                    print(f"      ⚠️  Error processing {repo.get('full_name', '?')}: {e}")
                     
         except Exception as e:
             print(f"Error searching with query '{query}': {e}")
@@ -177,7 +177,7 @@ Stars: {repo.get("stargazers_count", 0)}
                 }
             )
         except Exception as e:
-            print(f"      ⚠️  Ошибка создания Item: {e}")
+            print(f"      ⚠️  Error creating Item: {e}")
             return None
     
     async def _rate_limit_delay(self) -> None:

@@ -67,7 +67,7 @@ class SlackNotifier(NotificationService):
             try:
                 response = await client.post(self.webhook_url, json=payload)
                 response.raise_for_status()
-                print(f"✓ Дайджест отправлен в Slack")
+                print(f"✓ Digest sent to Slack")
             except httpx.HTTPError as e:
-                print(f"⚠️  Ошибка отправки в Slack: {e}")
+                print(f"⚠️  Error sending to Slack: {e}")
 

@@ -40,7 +40,7 @@ class HFPapersSource(ItemSource):
         end_date = date.today()
         start_date = end_date - timedelta(days=self.search_days)
         
-        print(f"  └─ Период поиска: {start_date.isoformat()} - {end_date.isoformat()} ({self.search_days} дн.)")
+        print(f"  └─ Search period: {start_date.isoformat()} - {end_date.isoformat()} ({self.search_days} days)")
         
         async with httpx.AsyncClient(timeout=30.0, follow_redirects=True) as client:
             try:
@@ -126,17 +126,17 @@ Paper ID: {paper_id}
                             continue
                     
                     if day_count > 0:
-                        print(f"  └─ {current_date}: найдено {day_count} релевантных")
+                        print(f"  └─ {current_date}: found {day_count} relevant")
                     
                     # Stop if we have enough items
                     if len(items) >= self.max_items:
                         break
                 
                 if filtered_count > 0:
-                    print(f"  └─ Всего отфильтровано по ключевым словам: {filtered_count}")
+                    print(f"  └─ Total filtered by keywords: {filtered_count}")
                         
             except Exception as e:
-                print(f"  └─ Ошибка: {e}")
+                print(f"  └─ Error: {e}")
         
         return items
     
@@ -149,12 +149,12 @@ Paper ID: {paper_id}
             hydrate_div = soup.find("div", {"class": "SVELTE_HYDRATER", "data-target": "DailyPapers"})
             
             if not hydrate_div:
-                print(f"  └─ DailyPapers div не найден")
+                print(f"  └─ DailyPapers div not found")
                 return []
             
             data_props = hydrate_div.get("data-props")
             if not data_props:
-                print(f"  └─ data-props пуст")
+                print(f"  └─ data-props is empty")
                 return []
             
             # Parse JSON
@@ -164,11 +164,11 @@ Paper ID: {paper_id}
             daily_papers = props_data.get("dailyPapers", [])
             
             if not daily_papers:
-                print(f"  └─ dailyPapers массив пуст или отсутствует")
+                print(f"  └─ dailyPapers array is empty or missing")
             
             return daily_papers
             
         except Exception as e:
-            print(f"  └─ Ошибка парсинга JSON: {e}")
+            print(f"  └─ JSON parsing error: {e}")
             return []
 

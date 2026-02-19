@@ -46,32 +46,32 @@ async def async_run(days: int, output: Optional[Path], debug: bool, no_slack: bo
     print("=" * 70)
     
     # Show credentials status
-    print(f"\n🔑 Креды:")
+    print(f"\n🔑 Credentials:")
     if settings.anthropic_api_key:
-        print(f"  ✓ ANTHROPIC_API_KEY - для фильтрации через Claude")
+        print(f"  ✓ ANTHROPIC_API_KEY - for filtering via Claude")
     else:
-        print(f"  ✗ ANTHROPIC_API_KEY - не найден (фильтрация не будет работать)")
-    
+        print(f"  ✗ ANTHROPIC_API_KEY - not found (filtering will not work)")
+
     if settings.github_token:
-        print(f"  ✓ GitHub Token - для парсинга GitHub feed")
+        print(f"  ✓ GitHub Token - for parsing GitHub feed")
     else:
-        print(f"  ⚠️  GitHub Token - не найден (ограниченный rate limit)")
-    
+        print(f"  ⚠️  GitHub Token - not found (limited rate limit)")
+
     if no_slack:
-        print(f"  ⚠️  SLACK_WEBHOOK_URL - отключен опцией --no-slack")
+        print(f"  ⚠️  SLACK_WEBHOOK_URL - disabled by --no-slack option")
     elif settings.slack_webhook_url:
-        print(f"  ✓ SLACK_WEBHOOK_URL - для отправки уведомлений")
+        print(f"  ✓ SLACK_WEBHOOK_URL - for sending notifications")
     else:
-        print(f"  ⚠️  SLACK_WEBHOOK_URL - не найден (уведомления отключены)")
+        print(f"  ⚠️  SLACK_WEBHOOK_URL - not found (notifications disabled)")
     
     # Calculate date range
     since = date.today() - timedelta(days=days)
     digest_date = date.today()
     
-    print(f"\n⚙️  Настройки:")
-    print(f"  • Период: {since.strftime('%d.%m.%Y')} - {digest_date.strftime('%d.%m.%Y')} ({days} дн.)")
-    print(f"  • Порог релевантности: {settings.relevance_threshold:.0%}")
-    print(f"  • Макс. элементов на источник: {settings.max_items_per_source}")
+    print(f"\n⚙️  Settings:")
+    print(f"  • Period: {since.strftime('%Y-%m-%d')} - {digest_date.strftime('%Y-%m-%d')} ({days} days)")
+    print(f"  • Relevance threshold: {settings.relevance_threshold:.0%}")
+    print(f"  • Max items per source: {settings.max_items_per_source}")
     
     if debug:
         print(f"  • 🔍 Debug mode: {settings.debug_dir}")
@@ -123,7 +123,7 @@ async def async_run(days: int, output: Optional[Path], debug: bool, no_slack: bo
         )
     )
     
-    print(f"\n📡 Источники:")
+    print(f"\n📡 Sources:")
     for source in sources:
         emoji = getattr(source, 'emoji', '•')
         name = getattr(source, 'name', source.__class__.__name__)
@@ -161,7 +161,7 @@ async def async_run(days: int, output: Optional[Path], debug: bool, no_slack: bo
     
     if not relevant_results:
         print("\n" + "=" * 70)
-        print("❌ НЕ НАЙДЕНО РЕЛЕВАНТНЫХ МАТЕРИАЛОВ")
+        print("❌ NO RELEVANT MATERIALS FOUND")
         print("=" * 70)
         
         # Still save artifacts even if nothing relevant
@@ -172,9 +172,9 @@ async def async_run(days: int, output: Optional[Path], debug: bool, no_slack: bo
     
     # Generate digest
     print("\n" + "=" * 70)
-    print("📝 ЭТАП 4: ГЕНЕРАЦИЯ ДАЙДЖЕСТА")
+    print("📝 STAGE 4: DIGEST GENERATION")
     print("=" * 70)
-    print(f"Создание резюме и хайлайтов для {len(relevant_results)} релевантных элементов...")
+    print(f"Creating summaries and highlights for {len(relevant_results)} relevant items...")
     
     digest, entries = await digest_service.generate_digest(relevant_results, digest_date)
     
@@ -187,9 +187,9 @@ async def async_run(days: int, output: Optional[Path], debug: bool, no_slack: bo
     
     # Generate digest summary
     print("\n" + "=" * 70)
-    print("✨ ЭТАП 5: ГЕНЕРАЦИЯ КРАТКОГО САММАРИ")
+    print("✨ STAGE 5: BRIEF SUMMARY GENERATION")
     print("=" * 70)
-    print(f"Создание краткого саммари в стиле Telegram-каналов...")
+    print(f"Creating brief summary in Telegram channel style...")
     
     try:
         digest_summary = await digest_service.generate_digest_summary(entries)
@@ -198,25 +198,25 @@ async def async_run(days: int, output: Optional[Path], debug: bool, no_slack: bo
         timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
         summary_output = settings.summary_digests_dir / f"{timestamp}_summary.md"
         digest_service.save_digest(digest_summary, summary_output)
-        print(f"✓ Саммари сохранен: {summary_output}")
-        
+        print(f"✓ Summary saved: {summary_output}")
+
         # Send notification if configured
         if notification_service:
             await digest_service.send_notification(digest_summary, digest_date)
     except Exception as e:
-        print(f"⚠️  Ошибка при генерации саммари: {e}")
+        print(f"⚠️  Error generating summary: {e}")
     
     # Save artifacts ONLY after successful digest generation
     monitoring_service.save_artifacts(all_filter_results)
     
     print("\n" + "=" * 70)
-    print(f"✅ ГОТОВО!")
+    print(f"✅ DONE!")
     print("=" * 70)
-    print(f"📄 Дайджест сохранен: {output}")
+    print(f"📄 Digest saved: {output}")
     if 'summary_output' in locals():
-        print(f"✨ Саммари сохранен: {summary_output}")
+        print(f"✨ Summary saved: {summary_output}")
     if debug:
-        print(f"🔍 Debug данные: {settings.debug_dir}/")
+        print(f"🔍 Debug data: {settings.debug_dir}/")
     print()
 
 

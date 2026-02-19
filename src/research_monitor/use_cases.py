@@ -42,7 +42,7 @@ class MonitoringService:
         if not self.seen_tracker or not filter_results:
             return
         
-        print(f"\n💾 Сохранение {len(filter_results)} проверенных артефактов...")
+        print(f"\n💾 Saving {len(filter_results)} checked artifacts...")
         
         # Save with relevance info
         for result in filter_results:
@@ -54,14 +54,14 @@ class MonitoringService:
             )
         
         relevant_count = sum(1 for r in filter_results if r.is_relevant)
-        print(f"✓ Артефакты сохранены в {self.seen_tracker.storage_dir}")
-        print(f"  • Релевантных: {relevant_count}")
-        print(f"  • Нерелевантных: {len(filter_results) - relevant_count}")
+        print(f"✓ Artifacts saved to {self.seen_tracker.storage_dir}")
+        print(f"  • Relevant: {relevant_count}")
+        print(f"  • Not relevant: {len(filter_results) - relevant_count}")
     
     async def collect_and_filter(self, since: date) -> tuple[list[FilterResult], list[FilterResult]]:
         """Collect items from all sources and filter by relevance."""
         print("\n" + "=" * 70)
-        print("📥 ЭТАП 1: СБОР ДАННЫХ ИЗ ИСТОЧНИКОВ")
+        print("📥 STAGE 1: DATA COLLECTION FROM SOURCES")
         print("=" * 70)
         
         # Fetch from all sources in parallel
@@ -71,22 +71,22 @@ class MonitoringService:
         for source in self.sources:
             emoji = getattr(source, 'emoji', '🔍')
             name = getattr(source, 'name', source.__class__.__name__)
-            print(f"\n{emoji} Парсинг: {name}")
+            print(f"\n{emoji} Parsing: {name}")
             
             try:
                 items = await source.fetch_items(since)
                 all_items.extend(items)
                 items_by_source[name] = items
-                print(f"  └─ Найдено: {len(items)} элементов")
+                print(f"  └─ Found: {len(items)} items")
             except Exception as e:
-                print(f"  └─ ❌ Ошибка: {e}")
+                print(f"  └─ ❌ Error: {e}")
                 items_by_source[name] = []
         
-        print(f"\n✓ Всего собрано: {len(all_items)} элементов")
-        
+        print(f"\n✓ Total collected: {len(all_items)} items")
+
         # Show summary by source
         if items_by_source:
-            print("\nРаспределение по источникам:")
+            print("\nDistribution by source:")
             for name, items in items_by_source.items():
                 emoji = next((s.emoji for s in self.sources if getattr(s, 'name', '') == name), '•')
                 print(f"  {emoji} {name}: {len(items)}")
@@ -94,23 +94,23 @@ class MonitoringService:
         # Filter out already seen items
         if self.seen_tracker:
             print("\n" + "=" * 70)
-            print("🔍 ФИЛЬТРАЦИЯ УЖЕ ПРОСМОТРЕННЫХ")
+            print("🔍 FILTERING ALREADY SEEN")
             print("=" * 70)
             
             unseen_items, seen_count = self.seen_tracker.filter_unseen(all_items)
             
             if seen_count > 0:
-                print(f"✓ Отфильтровано уже просмотренных: {seen_count}")
-                print(f"✓ Новых элементов: {len(unseen_items)}")
-                
+                print(f"✓ Filtered already seen: {seen_count}")
+                print(f"✓ New items: {len(unseen_items)}")
+
                 # Show stats
                 stats = self.seen_tracker.get_stats()
-                print(f"\nВсего в истории: {stats['total_seen']} элементов")
+                print(f"\nTotal in history: {stats['total_seen']} items")
                 if stats['by_source']:
                     for source, count in stats['by_source'].items():
                         print(f"  • {source}: {count}")
             else:
-                print("✓ Все элементы новые")
+                print("✓ All items are new")
             
             all_items = unseen_items
         
@@ -120,15 +120,15 @@ class MonitoringService:
         
         # Filter items by relevance (sequential)
         print("\n" + "=" * 70)
-        print("🔍 ЭТАП 2: ФИЛЬТРАЦИЯ РЕЛЕВАНТНОСТИ (LLM)")
+        print("🔍 STAGE 2: RELEVANCE FILTERING (LLM)")
         print("=" * 70)
-        print(f"Проверка {len(all_items)} элементов последовательно...")
+        print(f"Checking {len(all_items)} items sequentially...")
         
         filter_results = await self._filter_items_sequential(all_items)
         
         # Process all filter results
         print("\n" + "=" * 70)
-        print("📊 ЭТАП 3: АГРЕГАЦИЯ РЕЗУЛЬТАТОВ")
+        print("📊 STAGE 3: RESULTS AGGREGATION")
         print("=" * 70)
         
         all_filter_results = []
@@ -149,12 +149,12 @@ class MonitoringService:
         llm_relevant_count = sum(1 for r in all_filter_results if r.is_relevant)
         
         # Print summary
-        print(f"\n✓ Проверено элементов: {len(all_filter_results)}")
-        print(f"✓ Помечено релевантными (LLM): {llm_relevant_count}")
-        print(f"✓ Прошло порог {int(self.relevance_threshold*100)}%: {len(relevant_results)}")
-        print(f"✗ Нерелевантных: {len(all_filter_results) - llm_relevant_count}")
+        print(f"\n✓ Items checked: {len(all_filter_results)}")
+        print(f"✓ Marked as relevant (LLM): {llm_relevant_count}")
+        print(f"✓ Passed {int(self.relevance_threshold*100)}% threshold: {len(relevant_results)}")
+        print(f"✗ Not relevant: {len(all_filter_results) - llm_relevant_count}")
         if errors:
-            print(f"⚠️  Ошибок при проверке: {len(errors)}")
+            print(f"⚠️  Errors during checking: {len(errors)}")
         
         # Save filter results for debug
         if self.debug_dir:
@@ -175,13 +175,13 @@ class MonitoringService:
                 result = await self.llm_client.check_relevance(item, self.interests)
                 
                 if result.is_relevant:
-                    print(f"  ✓ Релевантен: {result.relevance_score:.0%} - {result.reason}")
+                    print(f"  ✓ Relevant: {result.relevance_score:.0%} - {result.reason}")
                 else:
-                    print(f"  ✗ Нерелевантен: {result.relevance_score:.0%} - {result.reason}")
+                    print(f"  ✗ Not relevant: {result.relevance_score:.0%} - {result.reason}")
                 
                 results.append(result)
             except Exception as e:
-                print(f"  ⚠️  Ошибка: {e}")
+                print(f"  ⚠️  Error: {e}")
                 results.append(e)
         
         return results
@@ -254,11 +254,11 @@ class MonitoringService:
         
         # Print detailed summary to console
         print(f"\n" + "─" * 70)
-        print(f"📊 ДЕТАЛЬНЫЕ РЕЗУЛЬТАТЫ ФИЛЬТРАЦИИ")
+        print(f"📊 DETAILED FILTERING RESULTS")
         print("─" * 70)
         
         if relevant_results:
-            print(f"\n✓ Релевантные ({len(relevant_results)}):")
+            print(f"\n✓ Relevant ({len(relevant_results)}):")
             for result in sorted(relevant_results, key=lambda x: x.relevance_score, reverse=True):
                 emoji = "📄" if result.item.type.value == "paper" else "🤖" if result.item.type.value == "model_card" else "💻"
                 print(f"  {emoji} [{result.relevance_score:.0%}] {result.item.title}")
@@ -266,7 +266,7 @@ class MonitoringService:
         
         not_relevant = [r for r in all_results if not r.is_relevant or r.relevance_score < self.relevance_threshold]
         if not_relevant:
-            print(f"\n✗ Нерелевантные (топ-10 из {len(not_relevant)}):")
+            print(f"\n✗ Not relevant (top 10 of {len(not_relevant)}):")
             for result in sorted(not_relevant, key=lambda x: x.relevance_score, reverse=True)[:10]:
                 emoji = "📄" if result.item.type.value == "paper" else "🤖" if result.item.type.value == "model_card" else "💻"
                 print(f"  {emoji} [{result.relevance_score:.0%}] {result.item.title[:60]}")
@@ -307,7 +307,7 @@ class DigestService:
             )
             
             if isinstance(summary, Exception):
-                summary = f"Ошибка при генерации резюме: {summary}"
+                summary = f"Error generating summary: {summary}"
             
             if isinstance(highlights, Exception):
                 highlights = []

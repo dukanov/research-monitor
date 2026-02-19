@@ -43,8 +43,8 @@ class ArXivRSSSource(ItemSource):
         items: list[Item] = []
         seen_arxiv_ids: set[str] = set()
         
-        print(f"  └─ Категории: {', '.join(self.CATEGORIES.get(cat, cat) for cat in self.categories)}")
-        print(f"  └─ Фильтрация по ключевым словам: {'✓' if self.filter_by_keywords else '✗'}")
+        print(f"  └─ Categories: {', '.join(self.CATEGORIES.get(cat, cat) for cat in self.categories)}")
+        print(f"  └─ Keyword filtering: {'✓' if self.filter_by_keywords else '✗'}")
         
         async with httpx.AsyncClient(timeout=30.0, follow_redirects=True) as client:
             filtered_count = 0
@@ -63,7 +63,7 @@ class ArXivRSSSource(ItemSource):
                     papers = self._parse_feed(response.text)
                     
                     if not papers:
-                        print(f"  └─ {category}: статьи не найдены")
+                        print(f"  └─ {category}: no papers found")
                         continue
                     
                     category_count = 0
@@ -121,18 +121,18 @@ Categories: {paper.get('categories', 'Unknown')}
                         category_count += 1
                     
                     if category_count > 0:
-                        print(f"  └─ {self.CATEGORIES.get(category, category)}: найдено {category_count} релевантных")
+                        print(f"  └─ {self.CATEGORIES.get(category, category)}: found {category_count} relevant")
                     
                     # Stop if we have enough items
                     if len(items) >= self.max_items:
                         break
                         
                 except Exception as e:
-                    print(f"  └─ {category}: ошибка - {e}")
+                    print(f"  └─ {category}: error - {e}")
                     continue
             
             if filtered_count > 0:
-                print(f"  └─ Всего отфильтровано по ключевым словам: {filtered_count}")
+                print(f"  └─ Total filtered by keywords: {filtered_count}")
         
         return items
     
@@ -209,7 +209,7 @@ Categories: {paper.get('categories', 'Unknown')}
                     continue
                     
         except Exception as e:
-            print(f"  └─ Ошибка парсинга XML: {e}")
+            print(f"  └─ XML parsing error: {e}")
         
         return papers
 

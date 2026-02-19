@@ -104,7 +104,7 @@ def test_extract_json_from_markdown_response(claude_client: ClaudeClient) -> Non
 
 **Primary Focus**: Speech synthesis system.
 
-{"is_relevant": true, "score": 0.9, "reason": "Релевантная статья"}
+{"is_relevant": true, "score": 0.9, "reason": "Relevant article"}
 
 Additional notes...'''
     result = claude_client._extract_json(text)
@@ -118,7 +118,7 @@ def test_extract_json_with_is_relevant_field(claude_client: ClaudeClient) -> Non
     text = '''Some markdown text here
     
     And the JSON at the end:
-    {"is_relevant": false, "score": 0.2, "reason": "Нерелевантно"}'''
+    {"is_relevant": false, "score": 0.2, "reason": "Not relevant"}'''
     result = claude_client._extract_json(text)
     parsed = json.loads(result)
     assert parsed["is_relevant"] is False

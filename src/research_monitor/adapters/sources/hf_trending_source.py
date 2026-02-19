@@ -106,14 +106,14 @@ class HFTrendingSource(ItemSource):
                                 }
                             ))
                     except Exception as e:
-                        print(f"  └─ Ошибка обработки модели: {e}")
+                        print(f"  └─ Error processing model: {e}")
                         continue
                 
                 if filtered_count > 0:
-                    print(f"  └─ Отфильтровано старых моделей (>{self.max_days_old} дней): {filtered_count}")
+                    print(f"  └─ Filtered old models (>{self.max_days_old} days): {filtered_count}")
                         
             except Exception as e:
-                print(f"  └─ Ошибка: {e}")
+                print(f"  └─ Error: {e}")
         
         return items
     

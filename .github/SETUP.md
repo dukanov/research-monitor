@@ -1,114 +1,113 @@
 # GitHub Actions Setup
 
-## Автоматический запуск монитора
+## Automatic monitor execution
 
-GitHub Action `daily-monitor.yml` автоматически:
-- Запускается каждый день в 10:00 UTC
-- Собирает новые материалы
-- Коммитит изменения в `artifacts/`, `digests/full/` и `digests/summary/`
-- Отправляет краткий саммари в Slack (если настроен `SLACK_WEBHOOK_URL`)
+GitHub Action `daily-monitor.yml` automatically:
+- Runs every day at 10:00 UTC
+- Collects new materials
+- Commits changes to `artifacts/`, `digests/full/` and `digests/summary/`
+- Sends brief summary to Slack (if `SLACK_WEBHOOK_URL` is configured)
 
-**Примечание:** Отправка в Slack встроена в `research-monitor` и происходит автоматически при наличии webhook URL.
+**Note:** Slack notifications are built into `research-monitor` and happen automatically when a webhook URL is present.
 
-## Настройка секретов
+## Setting up secrets
 
-Перейдите в Settings → Secrets and variables → Actions и добавьте следующие секреты:
+Go to Settings → Secrets and variables → Actions and add the following secrets:
 
-### 1. ANTHROPIC_API_KEY (обязательно)
+### 1. ANTHROPIC_API_KEY (required)
 
-API ключ от Claude для фильтрации и генерации дайджестов.
+Claude API key for filtering and digest generation.
 
-**Как получить:**
-1. Зарегистрируйтесь на https://console.anthropic.com/
-2. Перейдите в API Keys
-3. Создайте новый ключ
-4. Скопируйте и добавьте в GitHub Secrets
+**How to get:**
+1. Sign up at https://console.anthropic.com/
+2. Go to API Keys
+3. Create a new key
+4. Copy and add to GitHub Secrets
 
-**Формат:** `sk-ant-api03-...`
+**Format:** `sk-ant-api03-...`
 
-### 2. GH_PAT (опционально)
+### 2. GH_PAT (optional)
 
-Personal Access Token для повышенного rate limit GitHub API.
+Personal Access Token for higher GitHub API rate limit.
 
-**Примечание:** GitHub Actions автоматически предоставляет `GITHUB_TOKEN`, но у него ограниченный rate limit. Если нужен больший лимит, создайте Personal Access Token.
+**Note:** GitHub Actions automatically provides `GITHUB_TOKEN`, but it has a limited rate limit. If you need a higher limit, create a Personal Access Token.
 
-**Как создать:**
+**How to create:**
 1. Settings → Developer settings → Personal access tokens → Tokens (classic)
 2. Generate new token
-3. Выберите scope: `public_repo` (для публичных репозиториев)
-4. Скопируйте и добавьте в GitHub Secrets как `GH_PAT`
+3. Select scope: `public_repo` (for public repositories)
+4. Copy and add to GitHub Secrets as `GH_PAT`
 
-**Формат:** `ghp_...`
+**Format:** `ghp_...`
 
-**Важно:** Нельзя использовать имена с префиксом `GITHUB_` - он зарезервирован системой.
+**Important:** You cannot use names with the `GITHUB_` prefix — it is reserved by the system.
 
-### 3. SLACK_WEBHOOK_URL (опционально)
+### 3. SLACK_WEBHOOK_URL (optional)
 
-Webhook URL для отправки дайджестов в Slack.
+Webhook URL for sending digests to Slack.
 
-**Как получить:**
-1. Перейдите на https://api.slack.com/apps
+**How to get:**
+1. Go to https://api.slack.com/apps
 2. Create New App → From scratch
-3. Выберите workspace
-4. В меню слева: Incoming Webhooks → Activate
+3. Select workspace
+4. In the left menu: Incoming Webhooks → Activate
 5. Add New Webhook to Workspace
-6. Выберите канал для постинга
-7. Скопируйте Webhook URL
-8. Добавьте в GitHub Secrets
+6. Select channel for posting
+7. Copy the Webhook URL
+8. Add to GitHub Secrets
 
-**Формат:** `https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXX`
+**Format:** `https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXX`
 
-## Ручной запуск
+## Manual run
 
-Вы можете запустить workflow вручную:
+You can run the workflow manually:
 1. Actions → Daily Research Monitor
 2. Run workflow → Run workflow
 
-## Настройка расписания
+## Schedule configuration
 
-По умолчанию запускается в 10:00 UTC. Чтобы изменить время, отредактируйте cron в `.github/workflows/daily-monitor.yml`:
+By default, runs at 10:00 UTC. To change the time, edit the cron in `.github/workflows/daily-monitor.yml`:
 
 ```yaml
 schedule:
-  - cron: '0 10 * * *'  # Минуты Часы * * *
+  - cron: '0 10 * * *'  # Minutes Hours * * *
 ```
 
-**Примеры:**
+**Examples:**
 - `0 8 * * *` — 8:00 UTC
 - `30 14 * * *` — 14:30 UTC
-- `0 10 * * 1-5` — 10:00 UTC только по будням
+- `0 10 * * 1-5` — 10:00 UTC weekdays only
 
-**Часовые пояса:**
-- UTC → MSK: добавить 3 часа (10:00 UTC = 13:00 MSK)
-- Для 10:00 MSK используйте: `0 7 * * *`
+**Time zones:**
+- UTC → MSK: add 3 hours (10:00 UTC = 13:00 MSK)
+- For 10:00 MSK use: `0 7 * * *`
 
-## Проверка статуса
+## Checking status
 
-После первого запуска проверьте:
+After the first run, check:
 1. Actions → Daily Research Monitor → Latest run
-2. Посмотрите логи каждого шага
-3. Убедитесь, что коммиты появляются в репозитории
-4. Проверьте канал в Slack
+2. Review logs for each step
+3. Make sure commits appear in the repository
+4. Check the Slack channel
 
 ## Troubleshooting
 
-### Ошибка "ANTHROPIC_API_KEY not found"
-- Проверьте, что секрет добавлен в Settings → Secrets
-- Убедитесь, что название точно `ANTHROPIC_API_KEY`
+### Error "ANTHROPIC_API_KEY not found"
+- Check that the secret is added in Settings → Secrets
+- Make sure the name is exactly `ANTHROPIC_API_KEY`
 
-### Ошибка rate limit от GitHub API
-- Добавьте персональный `GITHUB_TOKEN` с повышенным лимитом
-- Или увеличьте `request_delay` в `config.yaml`
+### GitHub API rate limit error
+- Add a personal `GITHUB_TOKEN` with a higher limit
+- Or increase `request_delay` in `config.yaml`
 
-### Digest не отправляется в Slack
-- Проверьте, что `SLACK_WEBHOOK_URL` добавлен в GitHub Secrets
-- Проверьте формат webhook URL
-- Убедитесь, что webhook активен в Slack App settings
-- Проверьте права доступа приложения к каналу
-- Посмотрите логи workflow: должно быть сообщение "✓ Дайджест отправлен в Slack"
+### Digest not being sent to Slack
+- Check that `SLACK_WEBHOOK_URL` is added to GitHub Secrets
+- Verify the webhook URL format
+- Make sure the webhook is active in Slack App settings
+- Check the app's permissions for the channel
+- Review workflow logs: there should be a message "Digest sent to Slack"
 
-### Нет новых коммитов
-- Это нормально, если не найдено новых релевантных материалов
-- Проверьте логи: если есть фраза "No changes to commit", значит ничего нового не нашлось
-- Уведомление в Slack отправляется только если были найдены релевантные материалы
-
+### No new commits
+- This is normal if no new relevant materials were found
+- Check logs: if you see "No changes to commit", nothing new was found
+- Slack notification is only sent if relevant materials were found

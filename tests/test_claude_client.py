@@ -47,7 +47,7 @@ async def test_check_relevance_success(mock_settings: Settings, test_item: Item)
         mock_response.status_code = 200
         mock_response.json.return_value = {
             "content": [{
-                "text": '{"is_relevant": true, "score": 0.9, "reason": "Test reason"}'
+                "type": "text", "text": '{"is_relevant": true, "score": 0.9, "reason": "Test reason"}'
             }]
         }
         
@@ -78,7 +78,7 @@ async def test_check_relevance_retry_on_429(mock_settings: Settings, test_item: 
         mock_response_ok.status_code = 200
         mock_response_ok.json.return_value = {
             "content": [{
-                "text": '{"is_relevant": true, "score": 0.8, "reason": "After retry"}'
+                "type": "text", "text": '{"is_relevant": true, "score": 0.8, "reason": "After retry"}'
             }]
         }
         
@@ -106,7 +106,7 @@ async def test_rate_limiting(mock_settings: Settings) -> None:
         mock_response = MagicMock()
         mock_response.status_code = 200
         mock_response.json.return_value = {
-            "content": [{"text": "test response"}]
+            "content": [{"type": "text", "text": "test response"}]
         }
         
         mock_client = AsyncMock()
@@ -144,7 +144,7 @@ async def test_generate_digest_summary(mock_settings: Settings, test_item: Item)
         mock_response.status_code = 200
         mock_response.json.return_value = {
             "content": [{
-                "text": "📄 **Test Repo** — Interesting speech synthesis research. [Link](url)"
+                "type": "text", "text": "📄 **Test Repo** — Interesting speech synthesis research. [Link](url)"
             }]
         }
         
