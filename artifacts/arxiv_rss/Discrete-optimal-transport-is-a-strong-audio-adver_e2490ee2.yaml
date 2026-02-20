@@ -1,0 +1,33 @@
+title: Discrete optimal transport is a strong audio adversarial attack
+url: https://arxiv.org/abs/2509.14959
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-20T10:14:58.051315+00:00'
+date_seen: '2026-02-20'
+metadata:
+  arxiv_id: '2509.14959'
+  published: Fri, 20 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.AI
+content_preview: 'Title: Discrete optimal transport is a strong audio adversarial
+  attack
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In this paper, we introduce the discrete optimal transport voice conversion ($k$DOT-VC)
+  method. Comparison with $k$NN-VC, SinkVC, and Gaussian optimal transport (MKL) demonstrates
+  stronger domain adaptation abilities of our method. We use the probabilistic nature
+  of optimal transport (OT) and show that $k$DOT-VC is an effective black-box adversarial
+  attack against modern audio anti-spoofing counte'
+content_length: 975
+llm_content_sent: 975
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While the paper uses optimal transport for voice conversion, it focuses on
+  adversarial attacks against anti-spoofing systems rather than emotional/expressive
+  synthesis or zero-shot capabilities.

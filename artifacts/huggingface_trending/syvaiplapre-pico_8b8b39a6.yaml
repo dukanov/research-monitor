@@ -1,0 +1,56 @@
+title: syvai/plapre-pico
+url: https://huggingface.co/syvai/plapre-pico
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-20T10:15:27.982215+00:00'
+date_seen: '2026-02-20'
+metadata:
+  likes: '3'
+  downloads: '469'
+  trending_score: '3'
+  last_modified: '2026-02-18T10:31:33.000Z'
+content_preview: 'Plapre Pico - Dansk Tekst-til-Tale
+
+  Dansk TTS-model med talerkonditionering og stemmekloningssupport. Genererer 24kHz
+  lyd fra dansk tekst ved hjælp af autoregressiv lydtoken-prædiktion.
+
+  Modeldetaljer
+
+  Arkitektur
+
+  LLaMA-baseret (30 lag, hidden_size=576)
+
+  Parametre
+
+  ~118M (base) + 74K (talerprojektion)
+
+  Vocab-størrelse
+
+  20.802 (BPE + lydtokens + separatorer)
+
+  Lydtokenizer
+
+  Kanade
+
+  (25 tokens/sek, 12.800 codebook)
+
+  Samplerate
+
+  24kHz
+
+  Præcision
+
+  bfloat16
+
+  Sådan virker det
+
+  Modellen tager dansk tekst, konverterer de'
+content_length: 3332
+llm_content_sent: 3332
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is a straightforward implementation of existing autoregressive TTS with
+  speaker conditioning using standard techniques (LLaMA architecture, linear projection
+  for speaker embeddings), offering no novel contributions to emotional/expressive
+  synthesis or zero-shot capabilities beyond basic voice cloning.

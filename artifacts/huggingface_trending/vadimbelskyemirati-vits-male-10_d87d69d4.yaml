@@ -1,0 +1,26 @@
+title: vadimbelsky/emirati-vits-male-1.0
+url: https://huggingface.co/vadimbelsky/emirati-vits-male-1.0
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-20T10:15:26.903024+00:00'
+date_seen: '2026-02-20'
+metadata:
+  likes: '6'
+  downloads: '0'
+  trending_score: '6'
+  last_modified: '2026-02-19T18:00:05.000Z'
+content_preview: "---\r\nlanguage: ar\r\ntags:\r\n  - text-to-speech\r\n  - tts\r\n\
+  \  - vits\r\n  - emirati\r\n  - gulf-arabic\r\n  - male-voice\r\n  - arabic\r\n\
+  \  - nemo\r\nlibrary_name: nemo\r\nlicense: apache-2.0\r\npipeline_tag: text-to-speech\r\
+  \n---\r\n\r\n# Emirati VITS Male TTS Model\r\n\r\n**Bilingual** VITS-based Text-to-Speech\
+  \ model with male voice for **Emirati Arabic** and **English**. Fine-tuned on 70\
+  \ hours of bilingual audio data, this model delivers natural, conversational speech\
+  \ optimized for call center applications and general-purp"
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is a standard VITS model fine-tuned for Emirati Arabic with no novel
+  contributions to emotional/expressive speech synthesis or zero-shot capabilities
+  - it's purely a language-specific adaptation of existing technology.

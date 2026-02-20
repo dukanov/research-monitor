@@ -1,0 +1,34 @@
+title: 'CC-G2PnP: Streaming Grapheme-to-Phoneme and prosody with Conformer-CTC for
+  unsegmented languages'
+url: https://arxiv.org/abs/2602.17157
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-20T10:14:58.051255+00:00'
+date_seen: '2026-02-20'
+metadata:
+  arxiv_id: '2602.17157'
+  published: Fri, 20 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: CC-G2PnP: Streaming Grapheme-to-Phoneme and prosody with
+  Conformer-CTC for unsegmented languages
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We propose CC-G2PnP, a streaming grapheme-to-phoneme and prosody (G2PnP) model to
+  connect large language model and text-to-speech in a streaming manner. CC-G2PnP
+  is based on Conformer-CTC architecture. Specifically, the input grapheme tokens
+  are processed chunk by chunk, which enables streaming inference of phonemic and
+  prosodic (PnP) labels. By guaranteeing minima'
+content_length: 1156
+llm_content_sent: 1156
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on streaming grapheme-to-phoneme conversion for unsegmented
+  languages but does not address emotional/expressive speech synthesis or zero-shot
+  capabilities, making it largely irrelevant to the specified research interests.

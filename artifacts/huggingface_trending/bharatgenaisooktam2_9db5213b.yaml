@@ -1,0 +1,27 @@
+title: bharatgenai/sooktam2
+url: https://huggingface.co/bharatgenai/sooktam2
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-20T10:15:27.348788+00:00'
+date_seen: '2026-02-20'
+metadata:
+  likes: '4'
+  downloads: '144'
+  trending_score: '4'
+  last_modified: '2026-02-19T08:29:29.000Z'
+content_preview: "---\nlanguage:\n- en\n- hi\n- mr\n- gu\n- ta\n- te\n- kn\n- bn\n\
+  - ml\n- or\n- ur\n- pa\npipeline_tag: text-to-speech\nlibrary_name: transformers\n\
+  license: mit\ntags:\n- text-to-speech\n- tts\n- multilingual\n- indic\n- f5-tts\n\
+  - sooktam2\n---\n\n<p align=\"center\">\n  <img src=\"https://cdn-avatars.huggingface.co/v1/production/uploads/67b462a1f4f414c2b3e2bc2f/EnVeNWEIeZ6yF6ueZ7E3Y.jpeg\"\
+  \ width=\"140\" alt=\"BharatGen Logo\"/>\n</p>\n\n<h1 align=\"center\">Sooktam-2\
+  \ \U0001F1EE\U0001F1F3</h1>\n<p align=\"center\"><em>\"विविधता में ही भारत की शक्ति\
+  \ है, और हर"
+content_length: 4687
+llm_content_sent: 4687
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: While this multilingual Indic TTS model addresses an important application
+  domain, it appears to be primarily an engineering effort applying existing F5-TTS
+  architecture without novel algorithmic contributions to emotional/expressive synthesis
+  or zero-shot capabilities.
