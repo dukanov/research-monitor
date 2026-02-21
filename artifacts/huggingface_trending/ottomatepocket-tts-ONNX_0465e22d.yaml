@@ -1,0 +1,25 @@
+title: ottomate/pocket-tts-ONNX
+url: https://huggingface.co/ottomate/pocket-tts-ONNX
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-21T10:07:50.851299+00:00'
+date_seen: '2026-02-21'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-02-20T16:53:29.000Z'
+content_preview: "---\r\nlicense: cc-by-4.0\r\nlibrary_name: onnxruntime\r\nbase_model:\
+  \ kyutai/pocket-tts\r\ntags:\r\n  - text-to-speech\r\n  - onnx\r\n  - onnxruntime\r\
+  \n  - pocket-tts\r\n---\r\n\r\n# ottomate/pocket-tts-ONNX\r\n\r\nONNX export artifacts\
+  \ for Pocket TTS.\r\n\r\n## Contents\r\n\r\n- tokenizer.json (for @huggingface/tokenizers\
+  \ compatibility)\r\n- onnx/flow_lm_main.onnx\r\n- onnx/flow_lm_flow.onnx\r\n- onnx/mimi_encoder.onnx\r\
+  \n- onnx/mimi_decoder.onnx\r\n- onnx/text_conditioner.onnx\r\n- optional *_int8.onnx\
+  \ quantized variants\r\n\r\n## Attributio"
+content_length: 831
+llm_content_sent: 831
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is merely an ONNX conversion of an existing model with no scientific
+  contribution, novel methodology, or advancement in emotional/expressive speech synthesis.
