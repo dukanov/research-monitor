@@ -1,0 +1,63 @@
+title: drbaph/SoulX-Singer
+url: https://huggingface.co/drbaph/SoulX-Singer
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-22T10:07:50.767376+00:00'
+date_seen: '2026-02-22'
+metadata:
+  likes: '3'
+  downloads: '121'
+  trending_score: '2'
+  last_modified: '2026-02-11T16:36:55.000Z'
+content_preview: '---
+
+
+  language:
+
+  - en
+
+  - zh
+
+  library_name: huggingface_hub
+
+  license: apache-2.0
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - text-to-audio
+
+  - music
+
+  - singing-voice-synthesis
+
+  - svs
+
+  - zero-shot
+
+
+  ---
+
+
+  ## ComfyUI Custom Node
+
+
+  This repository includes a custom node for ComfyUI integration:
+
+
+  🔗 **[ComfyUI-SoulX-Singer](https://github.com/Saganaki22/ComfyUI-SoulX-Singer)**
+
+
+
+  ![Screenshot 2026-02-11 160905](https://cdn-uploads.huggingface.co/production/uploads/63473b59e5c0717e6737b872/FqxVnkFDrVt287ppwQj90.png)
+
+
+  Use t'
+content_length: 3524
+llm_content_sent: 3524
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is just a model card for a converted model format (safetensors) of existing
+  singing voice synthesis work, offering no scientific novelty beyond format conversion.
