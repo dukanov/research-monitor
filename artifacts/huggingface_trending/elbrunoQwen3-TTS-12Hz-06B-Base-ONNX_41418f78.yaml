@@ -1,0 +1,24 @@
+title: elbruno/Qwen3-TTS-12Hz-0.6B-Base-ONNX
+url: https://huggingface.co/elbruno/Qwen3-TTS-12Hz-0.6B-Base-ONNX
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-23T10:22:34.326760+00:00'
+date_seen: '2026-02-23'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-02-23T00:49:15.000Z'
+content_preview: "---\nlicense: apache-2.0\ntags:\n  - onnx\n  - tts\n  - qwen3-tts\n\
+  \  - text-to-speech\n  - voice-cloning\n  - ecapa-tdnn\nbase_model: Qwen/Qwen3-TTS-12Hz-0.6B-Base\n\
+  ---\n\n# Qwen3-TTS 12Hz 0.6B Base — ONNX (Voice Cloning)\n\nONNX export of [Qwen/Qwen3-TTS-12Hz-0.6B-Base](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base)\
+  \ for local inference with C# / ONNX Runtime. Includes ECAPA-TDNN speaker encoder\
+  \ for 3-second voice cloning.\n\n## Files\n\n| File | Description | Size |\n|------|-------------|------|\n\
+  | `speake"
+content_length: 1622
+llm_content_sent: 1622
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: This is merely an ONNX conversion of an existing model for C# deployment with
+  no novel contributions to emotional/expressive synthesis or zero-shot capabilities.

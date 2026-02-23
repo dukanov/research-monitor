@@ -1,0 +1,77 @@
+title: xkos/Qwen3-TTS-12Hz-1.7B-ONNX
+url: https://huggingface.co/xkos/Qwen3-TTS-12Hz-1.7B-ONNX
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-23T10:22:34.122647+00:00'
+date_seen: '2026-02-23'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-02-12T07:09:29.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  base_model:
+
+  - Qwen/Qwen3-TTS-12Hz-1.7B-Base
+
+  - Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - qwen3_tts
+
+  - onnx
+
+  - tts
+
+  - speech-synthesis
+
+  - voice-clone
+
+  - voice-design
+
+  language:
+
+  - zh
+
+  - en
+
+  - ja
+
+  - ko
+
+  - de
+
+  - fr
+
+  - ru
+
+  - pt
+
+  - es
+
+  - it
+
+  library_name: onnxruntime
+
+  ---
+
+
+  # Qwen3-TTS ONNX
+
+
+  ONNX-exported version of [Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) for portable,
+  framework-free speech synthesis. Supports **Voice Clone** (clone a voice from reference '
+content_length: 9749
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is merely an ONNX conversion of existing Qwen3-TTS models for deployment
+  optimization, offering no scientific novelty in emotional/expressive speech synthesis
+  or zero-shot capabilities beyond what the original models already provided.
