@@ -1,0 +1,33 @@
+title: Binaural Target Speaker Extraction using HRTFs
+url: https://arxiv.org/abs/2507.19369
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-24T10:20:30.166431+00:00'
+date_seen: '2026-02-24'
+metadata:
+  arxiv_id: '2507.19369'
+  published: Tue, 24 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: Binaural Target Speaker Extraction using HRTFs
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In this work, we address the problem of binaural target-speaker extraction in the
+  presence of multiple simultane-ous talkers. We propose a novel approach that leverages
+  the individual listener''s Head-Related Transfer Function (HRTF) to isolate the
+  target speaker. The proposed method is speaker-independent, as it does not rely
+  on speaker embeddings. We employ a fully complex-valued neural network that operates
+  dire'
+content_length: 1475
+llm_content_sent: 1475
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on binaural target speaker extraction for cocktail party
+  scenarios, which is unrelated to emotional/expressive speech synthesis or zero-shot
+  capabilities.

@@ -1,0 +1,34 @@
+title: 'CTC-TTS: LLM-based dual-streaming text-to-speech with CTC alignment'
+url: https://arxiv.org/abs/2602.19574
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-24T10:20:30.166072+00:00'
+date_seen: '2026-02-24'
+metadata:
+  arxiv_id: '2602.19574'
+  published: Tue, 24 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.AI, cs.SD
+content_preview: 'Title: CTC-TTS: LLM-based dual-streaming text-to-speech with CTC
+  alignment
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large-language-model (LLM)-based text-to-speech (TTS) systems can generate natural
+  speech, but most are not designed for low-latency dual-streaming synthesis. High-quality
+  dual-streaming TTS depends on accurate text--speech alignment and well-designed
+  training sequences that balance synthesis quality and latency. Prior work often
+  relies on GMM-HMM based forced-alignment toolkits (e.g., MFA), w'
+content_length: 1270
+llm_content_sent: 1270
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.65
+reason: Introduces CTC-based alignment to replace MFA in LLM-TTS and proposes bi-word
+  interleaving strategy for dual-streaming synthesis, but represents an incremental
+  engineering improvement rather than a fundamental breakthrough in emotional/expressive
+  synthesis.

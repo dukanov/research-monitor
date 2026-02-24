@@ -1,0 +1,33 @@
+title: 'PhoenixCodec: Taming Neural Speech Coding for Extreme Low-Resource Scenarios'
+url: https://arxiv.org/abs/2510.21196
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-24T10:20:30.166516+00:00'
+date_seen: '2026-02-24'
+metadata:
+  arxiv_id: '2510.21196'
+  published: Tue, 24 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: PhoenixCodec: Taming Neural Speech Coding for Extreme Low-Resource
+  Scenarios
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This paper presents PhoenixCodec, a comprehensive neural speech coding and decoding
+  framework designed for extremely low-resource conditions. The proposed system integrates
+  an optimized asymmetric frequency-time architecture, a Cyclical Calibration and
+  Refinement (CCR) training strategy, and a noise-invariant fine-tuning procedure.
+  Under stringent constraints - computation below 700 M'
+content_length: 1182
+llm_content_sent: 1182
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on low-bitrate speech coding/compression rather than emotional
+  or expressive speech synthesis, and lacks zero-shot capabilities for generating
+  expressive speech from text or emotional conditioning.

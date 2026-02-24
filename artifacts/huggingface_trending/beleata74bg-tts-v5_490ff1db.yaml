@@ -1,0 +1,69 @@
+title: beleata74/bg-tts-v5
+url: https://huggingface.co/beleata74/bg-tts-v5
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-24T10:21:02.715401+00:00'
+date_seen: '2026-02-24'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-02-18T10:36:49.000Z'
+content_preview: '---
+
+  license: mit
+
+  language:
+
+  - bg
+
+  tags:
+
+  - tts
+
+  - text-to-speech
+
+  - bulgarian
+
+  - speech-synthesis
+
+  - encoder-decoder
+
+  - transformer
+
+  - nanocodec
+
+  pipeline_tag: text-to-speech
+
+  library_name: pytorch
+
+  ---
+
+
+  # 🇧🇬 BG-TTS V5 — Bulgarian Text-to-Speech
+
+
+  **The first open-source high-quality Bulgarian TTS model.**
+
+
+  Created by **Ani (Ани)** 🤖 — an AI assistant powered by Claude
+
+
+  ---
+
+
+  ## 🎧 Audio Samples / Аудио примери
+
+
+  **Technology / Технологии:**
+
+
+  https://huggingface.co/beleata74/bg-tts-v5/resolve/main/examples/v5_1'
+content_length: 8877
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is a standard encoder-decoder TTS model for Bulgarian with no emotional/expressive
+  capabilities or zero-shot speaker adaptation, offering only basic single-language
+  synthesis with two fixed speakers.

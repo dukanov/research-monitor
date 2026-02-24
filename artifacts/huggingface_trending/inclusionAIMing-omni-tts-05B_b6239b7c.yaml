@@ -1,0 +1,40 @@
+title: inclusionAI/Ming-omni-tts-0.5B
+url: https://huggingface.co/inclusionAI/Ming-omni-tts-0.5B
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-24T10:20:59.238403+00:00'
+date_seen: '2026-02-24'
+metadata:
+  likes: '19'
+  downloads: '499'
+  trending_score: '15'
+  last_modified: '2026-02-24T04:02:49.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  <p align="center">🌐<a href="https://xqacmer.github.io/Ming-Flash-Omni-V2-TTS/">Project
+  Page</a> ｜🤗 <a href="https://huggingface.co/inclusionAI/Ming-omni-tts-0.5B">Hugging
+  Face</a>｜ 🤖 <a href="https://modelscope.cn/models/inclusionAI/Ming-omni-tts-0.5B">ModelScope</a>
+  | 🎮 <a href="https://modelscope.cn/studios/antsipan/ming-uniaudio-demo">Gradio Demo</a>
+
+
+
+  ## Introduction
+
+
+  Ming-omni-tts is a high-performance unified audio generation model '
+content_length: 3582
+llm_content_sent: 3582
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel unified autoregressive model that jointly generates speech,
+  ambient sound, and music with fine-grained emotional control (46.7% accuracy) and
+  zero-shot voice design capabilities, though the core architectural innovations beyond
+  the custom tokenizer are not clearly detailed.
