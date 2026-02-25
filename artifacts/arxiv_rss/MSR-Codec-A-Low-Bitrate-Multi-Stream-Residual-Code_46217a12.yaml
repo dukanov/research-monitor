@@ -1,0 +1,35 @@
+title: 'MSR-Codec: A Low-Bitrate Multi-Stream Residual Codec for High-Fidelity Speech
+  Generation with Information Disentanglement'
+url: https://arxiv.org/abs/2509.13068
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-25T10:21:46.128768+00:00'
+date_seen: '2026-02-25'
+metadata:
+  arxiv_id: '2509.13068'
+  published: Wed, 25 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: MSR-Codec: A Low-Bitrate Multi-Stream Residual Codec for
+  High-Fidelity Speech Generation with Information Disentanglement
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Audio codecs are a critical component of modern speech generation systems. This
+  paper introduces a low-bitrate, multi-scale residual codec that encodes speech into
+  four distinct streams: semantic, timbre, prosody, and residual. This architecture
+  achieves high-fidelity speech reconstruction at competitive low bitrates while demonstrating
+  an '
+content_length: 1172
+llm_content_sent: 1172
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The multi-stream codec design with explicit disentanglement of semantic, timbre,
+  prosody, and residual components offers a promising foundation for controllable
+  emotional/expressive synthesis, though the core codec architecture itself appears
+  to be an incremental improvement over existing neural audio codecs.

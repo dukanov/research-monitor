@@ -1,0 +1,38 @@
+title: nmcuong/VibeVoice-1.5B-Vietnamese-LoRA
+url: https://huggingface.co/nmcuong/VibeVoice-1.5B-Vietnamese-LoRA
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-25T10:22:16.711313+00:00'
+date_seen: '2026-02-25'
+metadata:
+  likes: '4'
+  downloads: '0'
+  trending_score: '4'
+  last_modified: '2026-02-25T03:34:48.000Z'
+content_preview: 'VibeVoice-1.5B-Vietnamese-LoRA
+
+  Fine-tuned by:
+
+  Nguyễn Mạnh Cường
+
+  This repository contains a LoRA (Low-Rank Adaptation) fine-tuned version of
+
+  VibeVoice-1.5B
+
+  for Vietnamese text-to-speech synthesis. The model has been adapted to generate
+  natural-sounding Vietnamese speech with high fidelity and long-form synthesis capabilities.
+
+  Model Description
+
+  VibeVoice
+
+  is a novel framework designed for generating expressive, long-form, multi-speaker
+  conversational audio from text. It addresses significant challe'
+content_length: 8838
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is purely a LoRA fine-tuning of an existing model (VibeVoice) for Vietnamese
+  language adaptation, with no novel contributions to emotional/expressive synthesis
+  or zero-shot capabilities beyond standard language transfer.

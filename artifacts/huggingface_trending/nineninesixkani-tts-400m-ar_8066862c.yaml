@@ -1,0 +1,23 @@
+title: nineninesix/kani-tts-400m-ar
+url: https://huggingface.co/nineninesix/kani-tts-400m-ar
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-25T10:22:19.308137+00:00'
+date_seen: '2026-02-25'
+metadata:
+  likes: '5'
+  downloads: '207'
+  trending_score: '1'
+  last_modified: '2026-02-18T01:39:25.000Z'
+content_preview: "---\nlicense: other\nlicense_name: lfm1.0\nlicense_link: https://www.liquid.ai/lfm-license\n\
+  language:\n- ar\npipeline_tag: text-to-speech\nlibrary_name: transformers\nbase_model:\n\
+  - nineninesix/kani-tts-400m-0.3-pt\n---\n\n<p>\n  <img src=\"https://cdn-uploads.huggingface.co/production/uploads/64fab67bd268b2f1ad8a826b/clKKZF-3q5LA7u7MiC5WY.png\"\
+  \ alt=\"Logo\" width=\"200\" height=\"200\">\n</p>\n\n\n# KaniTTS Arabic\n\n[![](https://dcbadge.limes.pink/api/server/https://discord.gg/NzP3rjB4SB?style=flat)](https://discord.gg/"
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is just an Arabic language adaptation of an existing TTS model without
+  any novel contributions to emotional/expressive synthesis or zero-shot capabilities
+  - it's purely a language port with no scientific innovation.

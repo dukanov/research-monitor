@@ -1,0 +1,33 @@
+title: 'UBGAN: Enhancing Coded Speech with Blind and Guided Bandwidth Extension'
+url: https://arxiv.org/abs/2505.16404
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-25T10:21:46.113201+00:00'
+date_seen: '2026-02-25'
+metadata:
+  arxiv_id: '2505.16404'
+  published: Wed, 25 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: UBGAN: Enhancing Coded Speech with Blind and Guided Bandwidth
+  Extension
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In practical application of speech codecs, a multitude of factors such as the quality
+  of the radio connection, limiting hardware or required user experience necessitate
+  trade-offs between achievable perceptual quality, engendered bitrate and computational
+  complexity. Most conventional and neural speech codecs operate on wideband (WB)
+  speech signals to achieve this compromise. To further en'
+content_length: 1816
+llm_content_sent: 1816
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on bandwidth extension for speech codecs rather than emotional/expressive
+  synthesis, and while it uses GANs, it doesn't address zero-shot capabilities for
+  emotional speech generation.
