@@ -1,0 +1,33 @@
+title: 'iMiGUE-Speech: A Spontaneous Speech Dataset for Affective Analysis'
+url: https://arxiv.org/abs/2602.21464
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-26T10:19:43.492683+00:00'
+date_seen: '2026-02-26'
+metadata:
+  arxiv_id: '2602.21464'
+  published: Thu, 26 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.CL
+content_preview: 'Title: iMiGUE-Speech: A Spontaneous Speech Dataset for Affective
+  Analysis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This work presents iMiGUE-Speech, an extension of the iMiGUE dataset that provides
+  a spontaneous affective corpus for studying emotional and affective states. The
+  new release focuses on speech and enriches the original dataset with additional
+  metadata, including speech transcripts, speaker-role separation between interviewer
+  and interviewee, and word-level forced alignments. Unlike existing emo'
+content_length: 1419
+llm_content_sent: 1419
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.6
+reason: While dataset contributions are valuable, this work primarily extends an existing
+  dataset with speech modality and standard benchmarking tasks rather than introducing
+  novel methodological approaches for zero-shot emotional speech synthesis.

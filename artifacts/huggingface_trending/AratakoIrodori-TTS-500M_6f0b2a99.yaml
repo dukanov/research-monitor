@@ -1,0 +1,49 @@
+title: Aratako/Irodori-TTS-500M
+url: https://huggingface.co/Aratako/Irodori-TTS-500M
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-26T10:20:15.377126+00:00'
+date_seen: '2026-02-26'
+metadata:
+  likes: '15'
+  downloads: '0'
+  trending_score: '15'
+  last_modified: '2026-02-25T14:27:30.000Z'
+content_preview: '---
+
+  license: cc-by-nc-4.0
+
+  language:
+
+  - ja
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - speech
+
+  - voice
+
+  - tts
+
+  ---
+
+
+  # Irodori-TTS-500M
+
+
+  [![Code](https://img.shields.io/badge/Code-GitHub-black)](https://github.com/Aratako/Irodori-TTS)
+  [![WandB](https://img.shields.io/badge/Training%20Log-WandB-orange)](https://api.wandb.ai/links/aratako-lm/2ctrvcim)
+  [![Demo Space](https://img.shields.io/badge/Demo-HuggingFace%20Space-blue)](https://huggingface.co/spaces/Aratako/Irodori-TTS-500M-Demo)
+
+
+  **Irodori-TTS-500M** is'
+content_length: 6923
+llm_content_sent: 6923
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.65
+reason: The emoji-based style and emotion control mechanism for TTS is a novel user
+  interface approach, though the underlying RF-DiT architecture follows existing work
+  like Echo-TTS without significant technical innovation.

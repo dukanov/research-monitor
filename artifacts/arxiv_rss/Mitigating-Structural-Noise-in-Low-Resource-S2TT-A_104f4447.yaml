@@ -1,0 +1,34 @@
+title: 'Mitigating Structural Noise in Low-Resource S2TT: An Optimized Cascaded Nepali-English
+  Pipeline with Punctuation Restoration'
+url: https://arxiv.org/abs/2602.21647
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-26T10:19:43.512615+00:00'
+date_seen: '2026-02-26'
+metadata:
+  arxiv_id: '2602.21647'
+  published: Thu, 26 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.LG
+content_preview: 'Title: Mitigating Structural Noise in Low-Resource S2TT: An Optimized
+  Cascaded Nepali-English Pipeline with Punctuation Restoration
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This paper presents and evaluates an optimized cascaded Nepali speech-to-English
+  text translation (S2TT) system, focusing on mitigating structural noise introduced
+  by Automatic Speech Recognition (ASR). We first establish highly proficient ASR
+  and NMT components: a Wav2Vec2-XLS-R-300m model achieved a state-of-the-art 2.72%
+  CER on OpenSL'
+content_length: 1733
+llm_content_sent: 1733
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on speech-to-text translation with punctuation restoration
+  for a low-resource language pair, which is completely unrelated to emotional/expressive
+  speech synthesis or zero-shot voice cloning capabilities.

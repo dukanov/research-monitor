@@ -1,0 +1,29 @@
+title: The Design Space of Tri-Modal Masked Diffusion Models
+url: https://huggingface.co/papers/2602.21472
+source: huggingface_papers
+type: paper
+date_discovered: '2026-02-26T10:20:12.862256+00:00'
+date_seen: '2026-02-26'
+metadata:
+  upvotes: '1'
+  paper_id: '2602.21472'
+  published_date: '2026-02-26'
+content_preview: 'Title: The Design Space of Tri-Modal Masked Diffusion Models
+
+
+  Summary:
+
+  Discrete diffusion models have emerged as strong alternatives to autoregressive
+  language models, with recent work initializing and fine-tuning a base unimodal model
+  for bimodal generation. Diverging from previous approaches, we introduce the first
+  tri-modal masked diffusion model pretrained from scratch on text, image-text, and
+  audio-text data. We systematically analyze multimodal scaling laws, modality mixing
+  ratios, noise s'
+content_length: 1466
+llm_content_sent: 1466
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces the first tri-modal masked diffusion model trained from scratch
+  across text, image, and audio modalities with systematic analysis of scaling laws,
+  though the core diffusion approach for speech synthesis isn't fundamentally novel.

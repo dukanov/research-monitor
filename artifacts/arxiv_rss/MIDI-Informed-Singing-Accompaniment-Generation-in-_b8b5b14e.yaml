@@ -1,0 +1,33 @@
+title: MIDI-Informed Singing Accompaniment Generation in a Compositional Song Pipeline
+url: https://arxiv.org/abs/2602.22029
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-26T10:19:43.416858+00:00'
+date_seen: '2026-02-26'
+metadata:
+  arxiv_id: '2602.22029'
+  published: Thu, 26 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: MIDI-Informed Singing Accompaniment Generation in a Compositional
+  Song Pipeline
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Song generation aims to produce full songs with vocals and accompaniment from lyrics
+  and text descriptions, yet end-to-end models remain data- and compute-intensive
+  and provide limited editability. We advocate a compositional alternative that decomposes
+  the task into melody composition, singing voice synthesis, and singing accompaniment
+  generation. Central to our approach is MIDI-i'
+content_length: 1396
+llm_content_sent: 1396
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on musical accompaniment generation for singing rather than
+  emotional/expressive speech synthesis, and lacks zero-shot capabilities for emotional
+  expression.

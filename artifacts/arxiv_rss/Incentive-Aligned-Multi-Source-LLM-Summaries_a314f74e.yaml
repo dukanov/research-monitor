@@ -1,0 +1,32 @@
+title: Incentive-Aligned Multi-Source LLM Summaries
+url: https://arxiv.org/abs/2509.25184
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-26T10:19:43.515287+00:00'
+date_seen: '2026-02-26'
+metadata:
+  arxiv_id: '2509.25184'
+  published: Thu, 26 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.GT
+content_preview: 'Title: Incentive-Aligned Multi-Source LLM Summaries
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large language models (LLMs) are increasingly used in modern search and answer systems
+  to synthesize multiple, sometimes conflicting, texts into a single response, yet
+  current pipelines offer weak incentives for sources to be accurate and are vulnerable
+  to adversarial content. We introduce Truthful Text Summarization (TTS), an incentive-aligned
+  framework that improves factual robustness without ground-truth labels. '
+content_length: 1199
+llm_content_sent: 1199
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This paper focuses on text summarization and factual accuracy in LLMs, which
+  is completely unrelated to emotional/expressive speech synthesis or zero-shot speech
+  capabilities.
