@@ -1,0 +1,34 @@
+title: Discourse-Aware Dual-Track Streaming Response for Low-Latency Spoken Dialogue
+  Systems
+url: https://arxiv.org/abs/2602.23266
+source: arxiv_rss
+type: paper
+date_discovered: '2026-02-27T10:15:37.232139+00:00'
+date_seen: '2026-02-27'
+metadata:
+  arxiv_id: '2602.23266'
+  published: Fri, 27 Feb 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Discourse-Aware Dual-Track Streaming Response for Low-Latency
+  Spoken Dialogue Systems
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Achieving human-like responsiveness is a critical yet challenging goal for cascaded
+  spoken dialogue systems. Conventional ASR-LLM-TTS pipelines follow a strictly sequential
+  paradigm, requiring complete transcription and full reasoning before speech synthesis
+  can begin, which results in high response latency. We propose the Discourse-Aware
+  Dual-Track Streaming Response (DDTSR)'
+content_length: 1631
+llm_content_sent: 1631
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While the dual-track streaming approach for low-latency dialogue is interesting,
+  this work focuses purely on system architecture and latency reduction without addressing
+  emotional or expressive speech synthesis capabilities.

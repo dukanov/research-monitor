@@ -1,0 +1,51 @@
+title: srtrader/Khan-Ai-Speaker
+url: https://huggingface.co/srtrader/Khan-Ai-Speaker
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-27T10:16:09.234404+00:00'
+date_seen: '2026-02-27'
+metadata:
+  likes: '2'
+  downloads: '5'
+  trending_score: '2'
+  last_modified: '2026-02-26T00:08:01.000Z'
+content_preview: '---
+
+  language:
+
+  - en
+
+  license: apache-2.0
+
+  library_name: transformers
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  # Maya1
+
+
+  **Maya1** is a state-of-the-art speech model for expressive voice generation, built
+  to capture real human emotion and precise voice design.
+
+
+  **try it:** [Playground](https://www.mayaresearch.ai/studio)
+
+
+  **What it does:**
+
+  - Create any voice you can imagine — a 20s British girl, an American guy, or a full-blown
+  demon.
+
+  - Make it feel real with emotion tags: laugh, cry, whisper, rage, sigh, g'
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: While the natural language voice description interface and inline emotion
+  tags are user-friendly innovations, the core approach appears to be an incremental
+  improvement on existing neural codec-based TTS systems without fundamental scientific
+  breakthroughs in zero-shot voice synthesis or emotional modeling.

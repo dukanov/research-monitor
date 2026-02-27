@@ -1,0 +1,25 @@
+title: CoRal-project/roest-v3-chatterbox-350m
+url: https://huggingface.co/CoRal-project/roest-v3-chatterbox-350m
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-27T10:16:08.739915+00:00'
+date_seen: '2026-02-27'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-02-26T09:46:43.000Z'
+content_preview: "---\nlicense: openrail\ndatasets:\n- alexandrainst/ftspeech\n- CoRal-project/coral-tts\n\
+  - alexandrainst/nst-da\n- alexandrainst/nota\nlanguage:\n- da\nbase_model:\n- ResembleAI/chatterbox-turbo\n\
+  pipeline_tag: text-to-speech\nlibrary_name: chatterbox\n---\n# Røst-v3-chatterbox-350m\n\
+  \nThis is a Danish open sourced state-of-the-art Text to Speech (TTS) model. It\
+  \ is trained as part of the CoRal project by the [Alexandra Institute](https://alexandra.dk/).\
+  \ \n\n## Examples\n\n<table>\n\n<tr>\n<th>Settings</th>\n<th>Mic</th>\n"
+content_length: 7566
+llm_content_sent: 7566
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: This is primarily a language adaptation (English to Danish) of an existing
+  TTS architecture rather than introducing novel methods for emotional/expressive
+  synthesis or advancing zero-shot capabilities beyond standard voice cloning.
