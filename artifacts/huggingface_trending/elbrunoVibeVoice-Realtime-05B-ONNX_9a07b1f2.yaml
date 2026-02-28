@@ -1,0 +1,26 @@
+title: elbruno/VibeVoice-Realtime-0.5B-ONNX
+url: https://huggingface.co/elbruno/VibeVoice-Realtime-0.5B-ONNX
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-02-28T10:07:11.818167+00:00'
+date_seen: '2026-02-28'
+metadata:
+  likes: '2'
+  downloads: '416'
+  trending_score: '2'
+  last_modified: '2026-02-22T22:57:15.000Z'
+content_preview: "---\r\nlanguage:\r\n  - en\r\ntags:\r\n  - onnx\r\n  - text-to-speech\r\
+  \n  - tts\r\n  - vibevoice\r\n  - microsoft\r\n  - diffusion\r\n  - streaming\r\n\
+  \  - realtime\r\n  - speech-synthesis\r\nlicense: mit\r\nlibrary_name: onnxruntime\r\
+  \npipeline_tag: text-to-speech\r\nbase_model: microsoft/VibeVoice-Realtime-0.5B\r\
+  \ndatasets:\r\n  - librispeech_asr\r\nmodel-index:\r\n  - name: VibeVoice-Realtime-0.5B-ONNX\r\
+  \n    results:\r\n      - task:\r\n          type: text-to-speech\r\n          name:\
+  \ Text-to-Speech\r\n        dataset:\r\n          name: Lib"
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is merely an ONNX conversion of an existing Microsoft TTS model with
+  no novel contributions to emotional/expressive speech synthesis or zero-shot capabilities
+  - it's purely an engineering artifact for deployment convenience.
