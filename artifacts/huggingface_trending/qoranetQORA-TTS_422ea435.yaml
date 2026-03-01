@@ -1,0 +1,26 @@
+title: qoranet/QORA-TTS
+url: https://huggingface.co/qoranet/QORA-TTS
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-03-01T10:08:26.064279+00:00'
+date_seen: '2026-03-01'
+metadata:
+  likes: '2'
+  downloads: '30'
+  trending_score: '2'
+  last_modified: '2026-03-01T05:40:01.000Z'
+content_preview: "---\nlanguage:\n  - en\n  - zh\n  - de\n  - it\n  - pt\n  - es\n\
+  \  - ja\n  - ko\n  - fr\n  - ru\nlicense: apache-2.0\ntags:\n  - rust\n  - cpu-inference\n\
+  \  - quantized\n  - q4\n  - text-to-speech\n  - tts\n  - pure-rust\n  - no-python\n\
+  \  - no-cuda\n  - multi-speaker\n  - multilingual\nlibrary_name: qora\npipeline_tag:\
+  \ text-to-speech\n---\n\n# QORA-TTS - Native Rust Text-to-Speech Engine\n\nPure\
+  \ Rust text-to-speech synthesis engine. No Python runtime, no CUDA, no external\
+  \ dependencies. Single executable + quantized weights = po"
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is purely an engineering optimization (Rust implementation with quantization)
+  of an existing model (Qwen3-TTS) without any novel contributions to emotional/expressive
+  speech synthesis or zero-shot voice capabilities beyond basic voice cloning.
