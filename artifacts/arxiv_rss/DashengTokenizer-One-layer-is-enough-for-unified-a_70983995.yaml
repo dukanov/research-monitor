@@ -1,0 +1,36 @@
+title: 'DashengTokenizer: One layer is enough for unified audio understanding and
+  generation'
+url: https://arxiv.org/abs/2602.23765
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-02T10:19:42.691761+00:00'
+date_seen: '2026-03-02'
+metadata:
+  arxiv_id: '2602.23765'
+  published: Mon, 02 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: DashengTokenizer: One layer is enough for unified audio understanding
+  and generation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This paper introduces DashengTokenizer, a continuous audio tokenizer engineered
+  for joint use in both understanding and generation tasks. Unlike conventional approaches,
+  which train acoustic tokenizers and subsequently integrate frozen semantic knowledge,
+  our method inverts this paradigm: we leverage frozen semantic features and inject
+  acoustic information. In linear evaluatio'
+content_length: 1482
+llm_content_sent: 1482
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The paradigm inversion of injecting acoustic information into frozen semantic
+  features rather than adding semantic knowledge to acoustic tokenizers is a novel
+  architectural approach that shows promise for unified audio understanding and generation,
+  though the specific contribution to zero-shot emotional/expressive synthesis capabilities
+  remains unclear from the abstract.

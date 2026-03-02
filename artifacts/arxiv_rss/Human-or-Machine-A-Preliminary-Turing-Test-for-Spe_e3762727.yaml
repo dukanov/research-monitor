@@ -1,0 +1,34 @@
+title: Human or Machine? A Preliminary Turing Test for Speech-to-Speech Interaction
+url: https://arxiv.org/abs/2602.24080
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-02T10:19:42.691947+00:00'
+date_seen: '2026-03-02'
+metadata:
+  arxiv_id: '2602.24080'
+  published: Mon, 02 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.AI, cs.SD
+content_preview: 'Title: Human or Machine? A Preliminary Turing Test for Speech-to-Speech
+  Interaction
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The pursuit of human-like conversational agents has long been guided by the Turing
+  test. For modern speech-to-speech (S2S) systems, a critical yet unanswered question
+  is whether they can converse like humans. To tackle this, we conduct the first Turing
+  test for S2S systems, collecting 2,968 human judgments on dialogues between 9 state-of-the-art
+  S2S systems and 28 human participants. '
+content_length: 1584
+llm_content_sent: 1584
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces the first systematic Turing test evaluation framework for speech-to-speech
+  systems with a novel 18-dimension taxonomy that identifies paralinguistic features
+  and emotional expressivity as key bottlenecks, directly addressing zero-shot conversational
+  capabilities in expressive speech synthesis.

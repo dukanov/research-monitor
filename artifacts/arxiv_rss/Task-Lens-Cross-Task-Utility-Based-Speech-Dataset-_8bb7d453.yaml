@@ -1,0 +1,34 @@
+title: 'Task-Lens: Cross-Task Utility Based Speech Dataset Profiling for Low-Resource
+  Indian Languages'
+url: https://arxiv.org/abs/2602.23388
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-02T10:19:42.691898+00:00'
+date_seen: '2026-03-02'
+metadata:
+  arxiv_id: '2602.23388'
+  published: Mon, 02 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.SD, eess.AS
+content_preview: 'Title: Task-Lens: Cross-Task Utility Based Speech Dataset Profiling
+  for Low-Resource Indian Languages
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The rising demand for inclusive speech technologies amplifies the need for multilingual
+  datasets for Natural Language Processing (NLP) research. However, limited awareness
+  of existing task-specific resources in low-resource languages hinders research.
+  This challenge is especially acute in linguistically diverse countries, such as
+  India. Cross-task profiling of existi'
+content_length: 1715
+llm_content_sent: 1715
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is a survey paper focused on dataset cataloging and profiling for Indian
+  languages, with no novel technical contributions to emotional/expressive speech
+  synthesis or zero-shot capabilities.
