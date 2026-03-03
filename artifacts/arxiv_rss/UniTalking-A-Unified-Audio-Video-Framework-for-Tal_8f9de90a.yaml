@@ -1,0 +1,35 @@
+title: 'UniTalking: A Unified Audio-Video Framework for Talking Portrait Generation'
+url: https://arxiv.org/abs/2603.01418
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-03T10:16:19.809223+00:00'
+date_seen: '2026-03-03'
+metadata:
+  arxiv_id: '2603.01418'
+  published: Tue, 03 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CV, cs.MM, cs.SD
+content_preview: 'Title: UniTalking: A Unified Audio-Video Framework for Talking Portrait
+  Generation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  While state-of-the-art audio-video generation models like Veo3 and Sora2 demonstrate
+  remarkable capabilities, their closed-source nature makes their architectures and
+  training paradigms inaccessible. To bridge this gap in accessibility and performance,
+  we introduce UniTalking, a unified, end-to-end diffusion framework for generating
+  high-fidelity speech and lip-synchronized video. At i'
+content_length: 1371
+llm_content_sent: 1371
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: While the unified audio-video framework and personalized voice cloning are
+  relevant to expressive synthesis, this is primarily incremental work combining existing
+  techniques (diffusion models, multi-modal transformers) for talking portrait generation
+  rather than introducing fundamentally novel approaches for emotional/expressive
+  speech synthesis with zero-shot capabilities.

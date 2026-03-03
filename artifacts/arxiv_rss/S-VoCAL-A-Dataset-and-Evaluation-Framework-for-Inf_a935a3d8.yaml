@@ -1,0 +1,35 @@
+title: 'S-VoCAL: A Dataset and Evaluation Framework for Inferring Speaking Voice Character
+  Attributes in Literature'
+url: https://arxiv.org/abs/2603.00958
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-03T10:16:19.844400+00:00'
+date_seen: '2026-03-03'
+metadata:
+  arxiv_id: '2603.00958'
+  published: Tue, 03 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: S-VoCAL: A Dataset and Evaluation Framework for Inferring
+  Speaking Voice Character Attributes in Literature
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  With recent advances in Text-to-Speech (TTS) systems, synthetic audiobook narration
+  has seen increased interest, reaching unprecedented levels of naturalness. However,
+  larger gaps remain in synthetic narration systems'' ability to impersonate fictional
+  characters, and convey complex emotions or prosody. A promising direction to enhance
+  character identific'
+content_length: 1803
+llm_content_sent: 1803
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces the first dedicated dataset and evaluation framework for inferring
+  voice-related character attributes from literature, which is a novel contribution
+  that could enable character-specific voice synthesis in audiobooks, though the work
+  focuses on attribute extraction rather than the synthesis itself.

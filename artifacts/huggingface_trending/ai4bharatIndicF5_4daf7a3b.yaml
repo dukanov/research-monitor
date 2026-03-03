@@ -1,0 +1,72 @@
+title: ai4bharat/IndicF5
+url: https://huggingface.co/ai4bharat/IndicF5
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-03-03T10:16:57.823021+00:00'
+date_seen: '2026-03-03'
+metadata:
+  likes: '104'
+  downloads: '7289'
+  trending_score: '1'
+  last_modified: '2026-03-03T03:06:36.000Z'
+content_preview: 'IndicF5: High-Quality Text-to-Speech for Indian Languages
+
+  We release
+
+  IndicF5
+
+  , a
+
+  near-human polyglot
+
+  Text-to-Speech (TTS)
+
+  model trained on
+
+  1417 hours
+
+  of high-quality speech from
+
+  Rasa
+
+  ,
+
+  IndicTTS
+
+  ,
+
+  LIMMITS
+
+  , and
+
+  IndicVoices-R
+
+  .
+
+  IndicF5 supports
+
+  11 Indian languages
+
+  :
+
+  Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Punjabi,
+  Tamil, Telugu.
+
+  🚀 Installation
+
+  conda create -n indicf5 python=3.10 -y
+
+  conda activate indicf5
+
+  pip install git+https://github.com/ai4bharat/IndicF5.git
+
+  🎙 Usag'
+content_length: 2414
+llm_content_sent: 2414
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: While this appears to be a multilingual TTS model with voice cloning capabilities
+  relevant to zero-shot synthesis, it lacks clear documentation of novel technical
+  contributions beyond applying existing F5-TTS architecture to Indian languages,
+  representing primarily an application/adaptation rather than methodological innovation.

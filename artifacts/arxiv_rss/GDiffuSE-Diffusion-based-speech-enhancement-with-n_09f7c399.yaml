@@ -1,0 +1,33 @@
+title: 'GDiffuSE: Diffusion-based speech enhancement with noise model guidance'
+url: https://arxiv.org/abs/2510.04157
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-03T10:16:19.809402+00:00'
+date_seen: '2026-03-03'
+metadata:
+  arxiv_id: '2510.04157'
+  published: Tue, 03 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: GDiffuSE: Diffusion-based speech enhancement with noise model
+  guidance
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This paper introduces a novel speech enhancement (SE) approach based on a denoising
+  diffusion probabilistic model (DDPM), termed Guided diffusion for speech enhancement
+  (GDiffuSE). In contrast to conventional methods that directly map noisy speech to
+  clean speech, our method employs a lightweight helper model to estimate the noise
+  distribution, which is then incorporated into the diffusion '
+content_length: 1105
+llm_content_sent: 1105
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on speech enhancement (noise removal) rather than emotional/expressive
+  speech synthesis, and while it mentions leveraging DDPMs trained for speech generation,
+  it doesn't address zero-shot emotional expression capabilities.

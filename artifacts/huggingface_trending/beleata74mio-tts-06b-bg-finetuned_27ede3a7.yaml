@@ -1,0 +1,67 @@
+title: beleata74/mio-tts-0.6b-bg-finetuned
+url: https://huggingface.co/beleata74/mio-tts-0.6b-bg-finetuned
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-03-03T10:16:55.067549+00:00'
+date_seen: '2026-03-03'
+metadata:
+  likes: '2'
+  downloads: '69'
+  trending_score: '2'
+  last_modified: '2026-02-23T14:15:43.000Z'
+content_preview: '---
+
+  language:
+
+  - bg
+
+  license: apache-2.0
+
+  base_model:
+
+  - Aratako/MioTTS-0.6B
+
+  tags:
+
+  - text-to-speech
+
+  - tts
+
+  - bulgarian
+
+  - miotts
+
+  - qwen3
+
+  - voice-cloning
+
+  library_name: transformers
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  # MioTTS-0.6B Bulgarian Fine-Tuned (BG/EN)
+
+
+  ## Български
+
+
+  Това е fine-tuned версия на [Aratako/MioTTS-0.6B](https://huggingface.co/Aratako/MioTTS-0.6B),
+  адаптирана за **български TTS**.
+
+
+  ### Какво е модифицирано
+
+  - Fine-tune на LLM частта за български текст → speech tokens.
+
+  - Обучение върху б'
+content_length: 2866
+llm_content_sent: 2866
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is merely a language-specific fine-tuning of an existing TTS model for
+  Bulgarian, with no architectural innovations, emotional/expressive capabilities,
+  or zero-shot voice cloning advances.

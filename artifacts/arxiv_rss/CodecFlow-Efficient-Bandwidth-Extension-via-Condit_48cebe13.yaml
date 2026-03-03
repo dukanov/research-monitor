@@ -1,0 +1,34 @@
+title: 'CodecFlow: Efficient Bandwidth Extension via Conditional Flow Matching in
+  Neural Codec Latent Space'
+url: https://arxiv.org/abs/2603.02022
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-03T10:16:19.808934+00:00'
+date_seen: '2026-03-03'
+metadata:
+  arxiv_id: '2603.02022'
+  published: Tue, 03 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: CodecFlow: Efficient Bandwidth Extension via Conditional
+  Flow Matching in Neural Codec Latent Space
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech Bandwidth Extension improves clarity and intelligibility by restoring/inferring
+  appropriate high-frequency content for low-bandwidth speech. Existing methods often
+  rely on spectrogram or waveform modeling, which can incur higher computational cost
+  and have limited high-frequency fidelity. Neural audio codecs offer compact latent
+  representations that bette'
+content_length: 1194
+llm_content_sent: 1194
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on bandwidth extension for speech quality improvement rather
+  than emotional/expressive synthesis, and lacks zero-shot capabilities for generating
+  diverse emotional expressions.

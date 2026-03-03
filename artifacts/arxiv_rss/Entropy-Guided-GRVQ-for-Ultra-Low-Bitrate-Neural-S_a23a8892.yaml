@@ -1,0 +1,32 @@
+title: Entropy-Guided GRVQ for Ultra-Low Bitrate Neural Speech Codec
+url: https://arxiv.org/abs/2603.01476
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-03T10:16:19.821581+00:00'
+date_seen: '2026-03-03'
+metadata:
+  arxiv_id: '2603.01476'
+  published: Tue, 03 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, eess.SP
+content_preview: 'Title: Entropy-Guided GRVQ for Ultra-Low Bitrate Neural Speech Codec
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Neural audio codec (NAC) is essential for reconstructing high-quality speech signals
+  and generating discrete representations for downstream speech language models. However,
+  ensuring accurate semantic modeling while maintaining high-fidelity reconstruction
+  under ultra-low bitrate constraints remains challenging. We propose an entropy-guided
+  group residual vector quantization (EG-GRVQ) for an ultra-lo'
+content_length: 1353
+llm_content_sent: 1353
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on ultra-low bitrate speech compression/reconstruction rather
+  than emotional or expressive synthesis, and lacks any zero-shot capabilities for
+  generating diverse emotional expressions.

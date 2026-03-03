@@ -1,0 +1,32 @@
+title: 'More Data, Fewer Diacritics: Scaling Arabic TTS'
+url: https://arxiv.org/abs/2603.01622
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-03T10:16:19.845728+00:00'
+date_seen: '2026-03-03'
+metadata:
+  arxiv_id: '2603.01622'
+  published: Tue, 03 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: More Data, Fewer Diacritics: Scaling Arabic TTS
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Arabic Text-to-Speech (TTS) research has been hindered by the availability of both
+  publicly available training data and accurate Arabic diacritization models. In this
+  paper, we address the limitation by exploring Arabic TTS training on large automatically
+  annotated data. Namely, we built a robust pipeline for collecting Arabic recordings
+  and processing them automatically using voice activity detection, speech rec'
+content_length: 1126
+llm_content_sent: 1126
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on Arabic TTS data scaling and diacritization issues, which
+  is orthogonal to emotional/expressive speech synthesis and zero-shot capabilities
+  research.

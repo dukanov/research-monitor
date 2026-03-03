@@ -1,0 +1,33 @@
+title: 'DARS: Dysarthria-Aware Rhythm-Style Synthesis for ASR Enhancement'
+url: https://arxiv.org/abs/2603.01369
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-03T10:16:19.808798+00:00'
+date_seen: '2026-03-03'
+metadata:
+  arxiv_id: '2603.01369'
+  published: Tue, 03 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.CL
+content_preview: 'Title: DARS: Dysarthria-Aware Rhythm-Style Synthesis for ASR Enhancement
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Dysarthric speech exhibits abnormal prosody and significant speaker variability,
+  presenting persistent challenges for automatic speech recognition (ASR). While text-to-speech
+  (TTS)-based data augmentation has shown potential, existing methods often fail to
+  accurately model the pathological rhythm and acoustic style of dysarthric speech.
+  To address this, we propose DARS, a dysarthria-aware rhythm'
+content_length: 1352
+llm_content_sent: 1352
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel multi-stage rhythm predictor with contrastive learning
+  between normal and dysarthric speech patterns, combined with dysarthric-style conditional
+  flow matching for pathological speech synthesis - a specialized application rather
+  than general zero-shot expressive synthesis.

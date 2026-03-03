@@ -1,0 +1,35 @@
+title: End-to-End Simultaneous Dysarthric Speech Reconstruction with Frame-Level Adaptor
+  and Multiple Wait-k Knowledge Distillation
+url: https://arxiv.org/abs/2603.01382
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-03T10:16:19.808804+00:00'
+date_seen: '2026-03-03'
+metadata:
+  arxiv_id: '2603.01382'
+  published: Tue, 03 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.CL
+content_preview: 'Title: End-to-End Simultaneous Dysarthric Speech Reconstruction
+  with Frame-Level Adaptor and Multiple Wait-k Knowledge Distillation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Dysarthric speech reconstruction (DSR) typically employs a cascaded system that
+  combines automatic speech recognition (ASR) and sentence-level text-to-speech (TTS)
+  to convert dysarthric speech into normally-prosodied speech. However, dysarthric
+  individuals often speak more slowly, leading to excessively long response times
+  in such system'
+content_length: 1835
+llm_content_sent: 1835
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on dysarthric speech reconstruction for medical applications
+  rather than emotional/expressive speech synthesis, and lacks zero-shot capabilities
+  - it's a specialized assistive technology with limited relevance to expressive synthesis
+  research.
