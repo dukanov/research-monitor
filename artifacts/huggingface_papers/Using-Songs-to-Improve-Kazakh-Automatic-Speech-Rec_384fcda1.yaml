@@ -1,0 +1,29 @@
+title: Using Songs to Improve Kazakh Automatic Speech Recognition
+url: https://huggingface.co/papers/2603.00961
+source: huggingface_papers
+type: paper
+date_discovered: '2026-03-04T10:14:45.009183+00:00'
+date_seen: '2026-03-04'
+metadata:
+  upvotes: '0'
+  paper_id: '2603.00961'
+  published_date: '2026-03-03'
+content_preview: 'Title: Using Songs to Improve Kazakh Automatic Speech Recognition
+
+
+  Summary:
+
+  Developing automatic speech recognition (ASR) systems for low-resource languages
+  is hindered by the scarcity of transcribed corpora. This proof-of-concept study
+  explores songs as an unconventional yet promising data source for Kazakh ASR. We
+  curate a dataset of 3,013 audio-text pairs (about 4.5 hours) from 195 songs by 36
+  artists, segmented at the lyric-line level. Using Whisper as the base recogniser,
+  we fine-tune model'
+content_length: 1322
+llm_content_sent: 1322
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on automatic speech recognition (ASR) for Kazakh using song
+  data, which is completely unrelated to emotional/expressive speech synthesis with
+  zero-shot capabilities.

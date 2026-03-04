@@ -1,0 +1,48 @@
+title: eduardem/xtts-v2-romanian
+url: https://huggingface.co/eduardem/xtts-v2-romanian
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-03-04T10:14:46.611861+00:00'
+date_seen: '2026-03-04'
+metadata:
+  likes: '3'
+  downloads: '44'
+  trending_score: '3'
+  last_modified: '2026-03-03T19:59:56.000Z'
+content_preview: '---
+
+  language: [ro]
+
+  license: other
+
+  license_name: cpml
+
+  license_link: https://coqui.ai/cpml
+
+  library_name: coqui-tts
+
+  pipeline_tag: text-to-speech
+
+  tags: [tts, xtts, romanian, voice-cloning, fine-tuning]
+
+  datasets: [eduardem/romanian-speech-v1]
+
+  base_model: coqui/XTTS-v2
+
+  ---
+
+
+  # XTTS-v2 Romanian
+
+
+  Fine-tuned [XTTS-v2](https://huggingface.co/coqui/XTTS-v2) for high-quality Romanian
+  text-to-speech with voice cloning. Achieves **6.3% WER** (measured by Whisper large-v3)
+  across 5 distinct voices trained on ~1'
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily a language-specific fine-tuning of existing XTTS-v2 architecture
+  with only minor technical contributions in Unicode diacritics handling, offering
+  no novel approaches to emotional/expressive synthesis or zero-shot capabilities.

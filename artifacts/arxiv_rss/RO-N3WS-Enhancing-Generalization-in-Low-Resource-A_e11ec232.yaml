@@ -1,0 +1,35 @@
+title: 'RO-N3WS: Enhancing Generalization in Low-Resource ASR with Diverse Romanian
+  Speech Benchmarks'
+url: https://arxiv.org/abs/2603.02368
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-04T10:14:13.275929+00:00'
+date_seen: '2026-03-04'
+metadata:
+  arxiv_id: '2603.02368'
+  published: Wed, 04 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.LG, cs.SD
+content_preview: 'Title: RO-N3WS: Enhancing Generalization in Low-Resource ASR with
+  Diverse Romanian Speech Benchmarks
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We introduce RO-N3WS, a benchmark Romanian speech dataset designed to improve generalization
+  in automatic speech recognition (ASR), particularly in low-resource and out-of-distribution
+  (OOD) conditions. RO-N3WS comprises over 126 hours of transcribed audio collected
+  from broadcast news, literary audiobooks, film dialogue, children''s stories, and
+  conversational podcast'
+content_length: 1200
+llm_content_sent: 1200
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on automatic speech recognition (ASR) for Romanian language
+  rather than speech synthesis, and while it mentions expressive TTS for synthetic
+  data generation, it doesn't contribute novel methods for emotional/expressive speech
+  synthesis with zero-shot capabilities.

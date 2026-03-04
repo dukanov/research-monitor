@@ -1,0 +1,22 @@
+title: uzlm/sayro-tts-1.7B
+url: https://huggingface.co/uzlm/sayro-tts-1.7B
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-03-04T10:14:46.301364+00:00'
+date_seen: '2026-03-04'
+metadata:
+  likes: '4'
+  downloads: '0'
+  trending_score: '4'
+  last_modified: '2026-03-04T05:52:40.000Z'
+content_preview: To support responsible AI research in Uzbekistan, we require users
+  to provide their intent and agree to our ethical terms of use. Each request is manually
+  reviewed.
+content_length: 164
+llm_content_sent: 164
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This appears to be just a model card with ethical usage requirements and no
+  technical details about the TTS system's architecture, training methodology, or
+  capabilities related to emotional/expressive synthesis or zero-shot learning.

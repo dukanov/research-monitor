@@ -1,0 +1,26 @@
+title: PatnaikAshish/kokoclone
+url: https://huggingface.co/PatnaikAshish/kokoclone
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-03-04T10:14:46.156582+00:00'
+date_seen: '2026-03-04'
+metadata:
+  likes: '4'
+  downloads: '0'
+  trending_score: '4'
+  last_modified: '2026-03-04T07:52:29.000Z'
+content_preview: "---\nlicense: apache-2.0\nbase_model:\n- hexgrad/Kokoro-82M\npipeline_tag:\
+  \ text-to-speech\nlanguage:\n- en\n- hi\n- pt\n- es\n- ja\n- zh\n- it\ntags:\n-\
+  \ tts\n- voice-clone\n- real-time\n- lite-weight\n---\n<img width=\"1050\" height=\"\
+  450\" alt=\"image\" src=\"https://github.com/user-attachments/assets/26fbb00c-220e-435a-8f54-431781449c76\"\
+  \ />\n\n<h1 align=\"center\">KokoClone</h1>\n\n<p align=\"center\">\n  <a href=\"\
+  https://huggingface.co/spaces/PatnaikAshish/kokoclone\">\n    <img src=\"https://img.shields.io/badge/\U0001F917\
+  %20Hugging%20Fa"
+content_length: 4758
+llm_content_sent: 4758
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily an engineering wrapper around existing Kokoro-ONNX TTS with
+  basic zero-shot voice cloning functionality, offering no novel scientific contributions
+  to emotional/expressive speech synthesis.

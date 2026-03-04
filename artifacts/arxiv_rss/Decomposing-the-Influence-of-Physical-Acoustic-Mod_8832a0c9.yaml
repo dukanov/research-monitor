@@ -1,0 +1,32 @@
+title: 'Decomposing the Influence of Physical Acoustic Modeling on Neural Personal
+  Sound Zone Rendering: An Ablation Study'
+url: https://arxiv.org/abs/2603.02508
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-04T10:14:13.275991+00:00'
+date_seen: '2026-03-04'
+metadata:
+  arxiv_id: '2603.02508'
+  published: Wed, 04 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.SD, eess.SP
+content_preview: 'Title: Decomposing the Influence of Physical Acoustic Modeling on
+  Neural Personal Sound Zone Rendering: An Ablation Study
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Deep learning-based Personal Sound Zones (PSZs) rely on simulated acoustic transfer
+  functions (ATFs) for training, yet idealized point-source models exhibit large sim-to-real
+  gaps. While physically informed components improve generalization, individual contributions
+  remain unclear. This paper presents a controlled ablation study on a head-pose-con'
+content_length: 1678
+llm_content_sent: 1678
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on personal sound zone rendering for spatial audio applications,
+  which is unrelated to emotional/expressive speech synthesis or zero-shot voice capabilities.
