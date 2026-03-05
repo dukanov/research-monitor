@@ -1,0 +1,32 @@
+title: 'TTSR: Test-Time Self-Reflection for Continual Reasoning Improvement'
+url: https://arxiv.org/abs/2603.03297
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-05T10:17:13.810648+00:00'
+date_seen: '2026-03-05'
+metadata:
+  arxiv_id: '2603.03297'
+  published: Thu, 05 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.LG
+content_preview: 'Title: TTSR: Test-Time Self-Reflection for Continual Reasoning Improvement
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Test-time Training enables model adaptation using only test questions and offers
+  a promising paradigm for improving the reasoning ability of large language models
+  (LLMs). However, it faces two major challenges: test questions are often highly
+  difficult, making self-generated pseudo-labels unreliable, and existing methods
+  lack effective mechanisms to adapt to a model''s specific reasoning weakne'
+content_length: 1637
+llm_content_sent: 1637
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: This paper focuses on mathematical reasoning improvement for large language
+  models through test-time training, which is completely unrelated to speech synthesis,
+  emotional expression, or zero-shot voice capabilities.

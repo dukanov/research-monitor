@@ -1,0 +1,33 @@
+title: A Sensitivity Analysis of Multi-Event Audio Grounding in Audio LLMs
+url: https://arxiv.org/abs/2603.03855
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-05T10:17:13.639007+00:00'
+date_seen: '2026-03-05'
+metadata:
+  arxiv_id: '2603.03855'
+  published: Thu, 05 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: A Sensitivity Analysis of Multi-Event Audio Grounding in
+  Audio LLMs
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Audio LLMs have shown a strong ability to understand audio samples, yet their reliability
+  in complex acoustic scenes remains under-explored. Unlike prior work limited to
+  small scale or less controlled query construction, we present a large-scale evaluation
+  of event grounding and false alarms as auditory scene complexity increases. Using
+  71K AudioCapsV2 clips, we extract normalized (source, att'
+content_length: 1187
+llm_content_sent: 1187
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on audio understanding and grounding in LLMs rather than
+  speech synthesis, and does not address emotional/expressive generation or zero-shot
+  synthesis capabilities.

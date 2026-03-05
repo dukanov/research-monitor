@@ -1,0 +1,26 @@
+title: nmcuong/MeloTTS-Vietnamese
+url: https://huggingface.co/nmcuong/MeloTTS-Vietnamese
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-03-05T10:17:47.895709+00:00'
+date_seen: '2026-03-05'
+metadata:
+  likes: '1'
+  downloads: '0'
+  trending_score: '1'
+  last_modified: '2026-02-26T16:16:08.000Z'
+content_preview: "---\nlicense: mit\ndatasets:\n- doof-ferb/infore1_25hours\nlanguage:\n\
+  - vi\nbase_model:\n- myshell-ai/MeloTTS-English\npipeline_tag: text-to-speech\n\
+  ---\n<div align=\"center\">\n  <div>&nbsp;</div>\n  <img src=\"logo.png\" width=\"\
+  300\"/> <br>\n  <a href=\"https://trendshift.io/repositories/8133\" target=\"_blank\"\
+  ><img src=\"https://trendshift.io/api/badge/repositories/8133\" alt=\"myshell-ai%2FMeloTTS\
+  \ | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"\
+  /></a>\n</div>\n\n## Introduction\n\n### About Melo"
+content_length: 7194
+llm_content_sent: 7194
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is a straightforward language adaptation of existing MeloTTS architecture
+  to Vietnamese with no novel contributions to emotional/expressive synthesis or zero-shot
+  capabilities.

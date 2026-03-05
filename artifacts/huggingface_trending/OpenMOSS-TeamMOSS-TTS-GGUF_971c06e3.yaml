@@ -1,0 +1,25 @@
+title: OpenMOSS-Team/MOSS-TTS-GGUF
+url: https://huggingface.co/OpenMOSS-Team/MOSS-TTS-GGUF
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-03-05T10:17:44.323916+00:00'
+date_seen: '2026-03-05'
+metadata:
+  likes: '5'
+  downloads: '16'
+  trending_score: '5'
+  last_modified: '2026-03-05T02:57:13.000Z'
+content_preview: "---\nlicense: apache-2.0\ntags:\n- text-to-speech\n- gguf\n- llama-cpp\n\
+  - moss-tts-family\nlanguage:\n- zh\n- en\n- de\n- es\n- fr\n- ja\n- it\n- he\n-\
+  \ ko\n- ru\n- fa\n- ar\n- pl\n- pt\n- cs\n- da\n- sv\n- hu\n- el\n- tr\n---\n# MOSS-TTS-GGUF\n\
+  \n\n<br>\n\n<p align=\"center\">\n  &nbsp;&nbsp;&nbsp;&nbsp;\n  <img src=\"https://speech-demo.oss-cn-shanghai.aliyuncs.com/moss_tts_demo/tts_readme_imgaes_demo/openmoss_x_mosi\"\
+  \ height=\"50\" align=\"middle\" />\n</p>\n\n\n\n<div align=\"center\">\n  <a href=\"\
+  https://github.com/OpenMOSS/MOSS-TTS/tree/main\""
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily an engineering contribution (GGUF quantization for deployment)
+  rather than a scientific advance in emotional/expressive speech synthesis, offering
+  no new methods for zero-shot emotional control or expression modeling.
