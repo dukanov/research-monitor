@@ -1,0 +1,33 @@
+title: 'Llama-Mimi: Exploring the Limits of Flattened Speech Language Modeling'
+url: https://arxiv.org/abs/2509.14882
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-06T10:13:05.881254+00:00'
+date_seen: '2026-03-06'
+metadata:
+  arxiv_id: '2509.14882'
+  published: Fri, 06 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Llama-Mimi: Exploring the Limits of Flattened Speech Language
+  Modeling
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech Language Models (SpeechLMs) model tokenized speech to capture both semantic
+  and acoustic information. When neural audio codecs based on Residual Vector Quantization
+  (RVQ) are used as audio tokenizers, they produce multiple discrete tokens per time
+  step, yielding inherently multi-level representations. To process these multi-level
+  tokens together, prior work typically adopts hierarchi'
+content_length: 1196
+llm_content_sent: 1196
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The work introduces a novel architectural simplification by flattening multi-level
+  RVQ tokens into a single sequence for autoregressive modeling, departing from traditional
+  hierarchical approaches in speech language models.

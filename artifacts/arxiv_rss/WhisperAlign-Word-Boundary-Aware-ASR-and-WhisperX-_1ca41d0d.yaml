@@ -1,0 +1,34 @@
+title: 'WhisperAlign: Word-Boundary-Aware ASR and WhisperX-Anchored Pyannote Diarization
+  for Long-Form Bengali Speech'
+url: https://arxiv.org/abs/2603.04809
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-06T10:13:05.763365+00:00'
+date_seen: '2026-03-06'
+metadata:
+  arxiv_id: '2603.04809'
+  published: Fri, 06 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, cs.LG
+content_preview: 'Title: WhisperAlign: Word-Boundary-Aware ASR and WhisperX-Anchored
+  Pyannote Diarization for Long-Form Bengali Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This paper presents our solution for the DL Sprint 4.0, addressing the dual challenges
+  of Bengali Long-Form Speech Recognition (Task 1) and Speaker Diarization (Task 2).
+  Processing long-form, multi-speaker Bengali audio introduces significant hurdles
+  in voice activity detection, overlapping speech, and context preservation. To solve
+  the long-form trans'
+content_length: 1451
+llm_content_sent: 1451
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on ASR and speaker diarization for Bengali speech without
+  addressing emotional/expressive synthesis or zero-shot capabilities, making it irrelevant
+  to the specified research interests.

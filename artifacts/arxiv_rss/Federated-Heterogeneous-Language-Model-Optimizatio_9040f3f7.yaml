@@ -1,0 +1,33 @@
+title: Federated Heterogeneous Language Model Optimization for Hybrid Automatic Speech
+  Recognition
+url: https://arxiv.org/abs/2603.04945
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-06T10:13:05.877718+00:00'
+date_seen: '2026-03-06'
+metadata:
+  arxiv_id: '2603.04945'
+  published: Fri, 06 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Federated Heterogeneous Language Model Optimization for Hybrid
+  Automatic Speech Recognition
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Training automatic speech recognition (ASR) models increasingly relies on decentralized
+  federated learning to ensure data privacy and accessibility, producing multiple
+  local models that require effective merging. In hybrid ASR systems, while acoustic
+  models can be merged using established methods, the language model (LM) for rescoring
+  the N-best speech recognition list '
+content_length: 1279
+llm_content_sent: 1279
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on federated learning for ASR language model merging, which
+  is unrelated to emotional/expressive speech synthesis or zero-shot capabilities.

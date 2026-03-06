@@ -1,0 +1,35 @@
+title: A Large-Scale Probing Analysis of Speaker-Specific Attributes in Self-Supervised
+  Speech Representations
+url: https://arxiv.org/abs/2501.05310
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-06T10:13:05.764123+00:00'
+date_seen: '2026-03-06'
+metadata:
+  arxiv_id: '2501.05310'
+  published: Fri, 06 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: A Large-Scale Probing Analysis of Speaker-Specific Attributes
+  in Self-Supervised Speech Representations
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Enhancing explainability in speech self-supervised learning (SSL) is important for
+  developing reliable SSL-based speech processing systems. This study probes how speech
+  SSL models encode speaker-specific information via a large-scale probing analysis
+  of 11 models, decomposing identity into acoustic, prosodic, and paralinguistic attributes.
+  The results confir'
+content_length: 1200
+llm_content_sent: 1200
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: This work provides novel insights into how SSL models encode speaker-specific
+  prosodic and paralinguistic attributes across layers, which is directly relevant
+  for understanding representations needed for expressive speech synthesis, though
+  it's primarily an analysis rather than a synthesis method.

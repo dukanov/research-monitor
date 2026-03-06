@@ -1,0 +1,63 @@
+title: NAMAA-Space/NAMAA-Egyptian-TTS
+url: https://huggingface.co/NAMAA-Space/NAMAA-Egyptian-TTS
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-03-06T10:13:41.758341+00:00'
+date_seen: '2026-03-06'
+metadata:
+  likes: '2'
+  downloads: '14'
+  trending_score: '2'
+  last_modified: '2026-03-04T21:25:29.000Z'
+content_preview: '---
+
+  license: mit
+
+  language:
+
+  - ar
+
+  base_model:
+
+  - ResembleAI/chatterbox
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - Egyptian
+
+  - Arabic
+
+  - Egyptian-Dialect
+
+  - Chatterbox
+
+  - TTS
+
+  - voice-cloning
+
+  - multilingual-tts
+
+  library_name: chatterbox
+
+  ---
+
+
+  ![egyptian-tts](https://cdn-uploads.huggingface.co/production/uploads/62947bc11e87ffbe5c037797/k5k6kM3SlL6IAggbKvbCe.jpeg)
+
+
+
+  # 🇪🇬 NAMAA-Egyptian-TTS
+
+
+  **NAMAA-Egyptian-TTS** is a Egyptian Arabic Text-to-Speech (TTS) model built on
+  top of the **Chatterbox Multilingual TTS** a'
+content_length: 3986
+llm_content_sent: 3986
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily a fine-tuned application of existing Chatterbox architecture
+  for Egyptian Arabic dialect with basic voice cloning capabilities, offering minimal
+  scientific novelty beyond dialect-specific adaptation.

@@ -1,0 +1,35 @@
+title: Hierarchical Decoding for Discrete Speech Synthesis with Multi-Resolution Spoof
+  Detection
+url: https://arxiv.org/abs/2603.05373
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-06T10:13:05.763664+00:00'
+date_seen: '2026-03-06'
+metadata:
+  arxiv_id: '2603.05373'
+  published: Fri, 06 Mar 2026 00:00:00 -0500
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: Hierarchical Decoding for Discrete Speech Synthesis with
+  Multi-Resolution Spoof Detection
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Neural codec language models enable high-quality discrete speech synthesis, yet
+  their inference remains vulnerable to token-level artifacts and distributional drift
+  that degrade perceptual realism. Rather than relying on preference optimization
+  or retraining, we propose MSpoof-TTS, a training-free inference framework that improves
+  zero-shot synthesis through multi-resolut'
+content_length: 1160
+llm_content_sent: 1160
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The novel contribution is a training-free hierarchical decoding framework
+  that uses multi-resolution spoof detection to improve zero-shot discrete speech
+  synthesis quality without model retraining, which is a creative approach to addressing
+  codec artifacts through inference-time guidance.
