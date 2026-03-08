@@ -1,0 +1,26 @@
+title: oddadmix/lahgtna-chatterbox-v0
+url: https://huggingface.co/oddadmix/lahgtna-chatterbox-v0
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-03-08T10:07:59.899201+00:00'
+date_seen: '2026-03-08'
+metadata:
+  likes: '4'
+  downloads: '60'
+  trending_score: '4'
+  last_modified: '2026-03-07T14:46:06.000Z'
+content_preview: "---\nlicense: mit\nlanguage:\n- ar\n- da\n- de\n- el\n- en\n- es\n\
+  - fi\n- fr\n- he\n- hi\n- it\n- ja\n- ko\n- ms\n- nl\n- 'no'\n- pl\n- pt\n- ru\n\
+  - sv\n- sw\n- tr\n- zh\npipeline_tag: text-to-speech\ntags:\n  - text-to-speech\n\
+  \  - tts\n  - speech\n  - speech-generation\n  - speech-synthesis\n  - voice-cloning\n\
+  \  - multilingual-tts\n  - arabic\n  - arabic-tts\n  - arabic-dialects\n  - dialect-tts\n\
+  \  - conversational-speech\n  - egypt\n  - egyptian\n  - masri\n  - saudi\n  - gulf-arabic\n\
+  \  - iraqi\n  - morocco\n  - moroccan-arabic\n  - darija\n "
+content_length: 2835
+llm_content_sent: 2835
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This appears to be a standard application of existing multilingual TTS architecture
+  (Chatterbox) to Arabic dialects without novel technical contributions to emotional/expressive
+  synthesis or zero-shot capabilities.
