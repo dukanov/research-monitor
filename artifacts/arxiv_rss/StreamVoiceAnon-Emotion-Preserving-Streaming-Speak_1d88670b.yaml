@@ -1,0 +1,34 @@
+title: 'StreamVoiceAnon+: Emotion-Preserving Streaming Speaker Anonymization via Frame-Level
+  Acoustic Distillation'
+url: https://arxiv.org/abs/2603.06079
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-09T10:20:00.060173+00:00'
+date_seen: '2026-03-09'
+metadata:
+  arxiv_id: '2603.06079'
+  published: Mon, 09 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI, eess.SP
+content_preview: 'Title: StreamVoiceAnon+: Emotion-Preserving Streaming Speaker Anonymization
+  via Frame-Level Acoustic Distillation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We address the challenge of preserving emotional content in streaming speaker anonymization
+  (SA). Neural audio codec language models trained for audio continuation tend to
+  degrade source emotion: content tokens discard emotional information, and the model
+  defaults to dominant acoustic patterns rather than preserving paralinguistic attributes.
+  We propose s'
+content_length: 1306
+llm_content_sent: 1306
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The paper introduces a novel frame-level acoustic distillation approach for
+  preserving emotional content during streaming speaker anonymization, addressing
+  a specific gap where neural codecs typically lose paralinguistic information.

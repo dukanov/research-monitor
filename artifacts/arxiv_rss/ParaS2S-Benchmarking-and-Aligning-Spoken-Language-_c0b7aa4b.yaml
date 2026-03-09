@@ -1,0 +1,35 @@
+title: 'ParaS2S: Benchmarking and Aligning Spoken Language Models for Paralinguistic-aware
+  Speech-to-Speech Interaction'
+url: https://arxiv.org/abs/2511.08723
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-09T10:20:00.060360+00:00'
+date_seen: '2026-03-09'
+metadata:
+  arxiv_id: '2511.08723'
+  published: Mon, 09 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, eess.SP
+content_preview: 'Title: ParaS2S: Benchmarking and Aligning Spoken Language Models
+  for Paralinguistic-aware Speech-to-Speech Interaction
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech-to-Speech (S2S) models have shown promising dialogue capabilities, but their
+  ability to handle paralinguistic cues - such as emotion, tone, and speaker attributes
+  - and to respond appropriately in both content and style remains under-explored.
+  Progress is further hindered by the scarcity of high-quality and expressive demonstrations.
+  To addres'
+content_length: 1828
+llm_content_sent: 1828
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Introduces a novel RL framework for paralinguistic-aware speech-to-speech
+  interaction with a specialized benchmark and automatic judge that addresses style
+  hallucination, moving beyond content-only evaluation to joint optimization of response
+  content and speaking style at the waveform level.

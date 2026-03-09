@@ -1,0 +1,35 @@
+title: 'Reconstruct! Don''t Encode: Self-Supervised Representation Reconstruction
+  Loss for High-Intelligibility and Low-Latency Streaming Neural Audio Codec'
+url: https://arxiv.org/abs/2603.05887
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-09T10:20:00.060141+00:00'
+date_seen: '2026-03-09'
+metadata:
+  arxiv_id: '2603.05887'
+  published: Mon, 09 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI
+content_preview: 'Title: Reconstruct! Don''t Encode: Self-Supervised Representation
+  Reconstruction Loss for High-Intelligibility and Low-Latency Streaming Neural Audio
+  Codec
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Neural audio codecs optimized for mel-spectrogram reconstruction often fail to preserve
+  intelligibility. While semantic encoder distillation improves encoded representations,
+  it does not guarantee content preservation in reconstructed speech. In this work,
+  we demonstrate that self-supervised representation reconstr'
+content_length: 1302
+llm_content_sent: 1302
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel self-supervised representation reconstruction loss that
+  improves codec intelligibility and enables zero-lookahead streaming, which could
+  benefit expressive speech synthesis by better preserving acoustic details needed
+  for emotional expression.

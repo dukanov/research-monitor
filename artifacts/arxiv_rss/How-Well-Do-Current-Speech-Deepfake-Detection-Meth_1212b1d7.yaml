@@ -1,0 +1,34 @@
+title: How Well Do Current Speech Deepfake Detection Methods Generalize to the Real
+  World?
+url: https://arxiv.org/abs/2603.05852
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-09T10:20:00.024358+00:00'
+date_seen: '2026-03-09'
+metadata:
+  arxiv_id: '2603.05852'
+  published: Mon, 09 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: How Well Do Current Speech Deepfake Detection Methods Generalize
+  to the Real World?
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in speech synthesis and voice conversion have greatly improved the
+  naturalness and authenticity of generated audio. Meanwhile, evolving encoding, compression,
+  and transmission mechanisms on social media platforms further obscure deepfake artifacts.
+  These factors complicate reliable detection in real-world environments, underscoring
+  the need for representative ev'
+content_length: 1206
+llm_content_sent: 1206
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This paper focuses on deepfake detection rather than synthesis, and while
+  it introduces a new multilingual dataset, it doesn't advance emotional/expressive
+  speech synthesis or zero-shot capabilities.

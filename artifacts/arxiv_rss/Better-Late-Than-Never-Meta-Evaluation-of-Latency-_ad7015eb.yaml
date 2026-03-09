@@ -1,0 +1,34 @@
+title: 'Better Late Than Never: Meta-Evaluation of Latency Metrics for Simultaneous
+  Speech-to-Text Translation'
+url: https://arxiv.org/abs/2509.17349
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-09T10:20:00.112090+00:00'
+date_seen: '2026-03-09'
+metadata:
+  arxiv_id: '2509.17349'
+  published: Mon, 09 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI
+content_preview: 'Title: Better Late Than Never: Meta-Evaluation of Latency Metrics
+  for Simultaneous Speech-to-Text Translation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Simultaneous speech-to-text translation systems must balance translation quality
+  with latency. Although quality evaluation is well established, latency measurement
+  remains a challenge. Existing metrics produce inconsistent results, especially in
+  short-form settings with artificial presegmentation. We present the first comprehensive
+  meta-evaluation of latency '
+content_length: 1210
+llm_content_sent: 1210
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This paper focuses on latency evaluation metrics for simultaneous speech-to-text
+  translation, which is completely unrelated to emotional/expressive speech synthesis
+  or zero-shot capabilities.

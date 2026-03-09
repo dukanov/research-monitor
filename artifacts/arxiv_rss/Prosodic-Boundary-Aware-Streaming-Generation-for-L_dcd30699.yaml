@@ -1,0 +1,35 @@
+title: Prosodic Boundary-Aware Streaming Generation for LLM-Based TTS with Streaming
+  Text Input
+url: https://arxiv.org/abs/2603.06444
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-09T10:20:00.024449+00:00'
+date_seen: '2026-03-09'
+metadata:
+  arxiv_id: '2603.06444'
+  published: Mon, 09 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: Prosodic Boundary-Aware Streaming Generation for LLM-Based
+  TTS with Streaming Text Input
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Streaming TTS that receives streaming text is essential for interactive systems,
+  yet this scheme faces two major challenges: unnatural prosody due to missing lookahead
+  and long-form collapse due to unbounded context. We propose a prosodic-boundary-aware
+  post-training strategy, adapting a pretrained LLM-based TTS model using weakly time-aligned
+  data. Specifically, the model'
+content_length: 1216
+llm_content_sent: 1216
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a prosodic-boundary-aware post-training strategy for streaming
+  TTS that addresses the fundamental challenge of maintaining natural prosody and
+  emotional consistency without full lookahead context, which is directly relevant
+  to zero-shot expressive synthesis in streaming scenarios.

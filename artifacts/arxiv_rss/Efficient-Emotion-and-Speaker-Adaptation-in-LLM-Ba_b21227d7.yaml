@@ -1,0 +1,35 @@
+title: Efficient Emotion and Speaker Adaptation in LLM-Based TTS via Characteristic-Specific
+  Partial Fine-Tuning
+url: https://arxiv.org/abs/2501.14273
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-09T10:20:00.024669+00:00'
+date_seen: '2026-03-09'
+metadata:
+  arxiv_id: '2501.14273'
+  published: Mon, 09 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: Efficient Emotion and Speaker Adaptation in LLM-Based TTS
+  via Characteristic-Specific Partial Fine-Tuning
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  While LLM-based TTS models exhibit zero-shot emotion and speaker cloning, their
+  cloning fidelity and pronunciation clarity degrade on unseen domains. Fine-tuning
+  is essential for adaptation, yet uniform approaches overlook specific parameter
+  contributions. Uniform tuning on limited data causes slow training and catastrophic
+  forgetting, leading to degraded '
+content_length: 1231
+llm_content_sent: 1231
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel characteristic-specific partial fine-tuning approach that
+  selectively updates only the most and least informative layers for emotion/speaker
+  adaptation, addressing catastrophic forgetting while maintaining zero-shot capabilities
+  with significantly reduced computational cost.

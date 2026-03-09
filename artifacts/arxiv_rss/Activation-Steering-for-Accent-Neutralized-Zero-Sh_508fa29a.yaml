@@ -1,0 +1,33 @@
+title: Activation Steering for Accent-Neutralized Zero-Shot Text-To-Speech
+url: https://arxiv.org/abs/2603.05977
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-09T10:20:00.060159+00:00'
+date_seen: '2026-03-09'
+metadata:
+  arxiv_id: '2603.05977'
+  published: Mon, 09 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Activation Steering for Accent-Neutralized Zero-Shot Text-To-Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Zero-shot Text-to-Speech (TTS) models can generate speech that captures both the
+  voice timbre and accent of a reference speaker. However, disentangling these attributes
+  remains challenging, as the output often inherits both the accent and timbre from
+  the reference. In this study, we introduce a novel, post-hoc, and training-free
+  approach to neutralize accent while preserving the speaker''s orig'
+content_length: 1177
+llm_content_sent: 1177
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel training-free activation steering method to disentangle
+  accent from timbre in zero-shot TTS, which is a creative approach to a challenging
+  problem in voice cloning, though the core concept of activation steering has been
+  explored in other domains.
