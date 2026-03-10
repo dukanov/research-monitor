@@ -1,0 +1,34 @@
+title: Enhancing Speaker Verification with w2v-BERT 2.0 and Knowledge Distillation
+  guided Structured Pruning
+url: https://arxiv.org/abs/2510.04213
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-10T10:16:45.715187+00:00'
+date_seen: '2026-03-10'
+metadata:
+  arxiv_id: '2510.04213'
+  published: Tue, 10 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: Enhancing Speaker Verification with w2v-BERT 2.0 and Knowledge
+  Distillation guided Structured Pruning
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large-scale self-supervised Pre-Trained Models (PTMs) have shown significant improvements
+  in the speaker verification (SV) task by providing rich feature representations.
+  In this paper, we utilize w2v-BERT 2.0, a model with approximately 600 million parameters
+  trained on 4.5 million hours of unlabeled data across 143 languages, for the SV
+  task. The MFA structu'
+content_length: 1126
+llm_content_sent: 1126
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on speaker verification (identification) rather than speech
+  synthesis, and does not address emotional/expressive speech generation or zero-shot
+  synthesis capabilities.

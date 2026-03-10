@@ -1,0 +1,34 @@
+title: Disentangling Reasoning in Large Audio-Language Models for Ambiguous Emotion
+  Prediction
+url: https://arxiv.org/abs/2603.08230
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-10T10:16:45.714323+00:00'
+date_seen: '2026-03-10'
+metadata:
+  arxiv_id: '2603.08230'
+  published: Tue, 10 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI, eess.AS
+content_preview: 'Title: Disentangling Reasoning in Large Audio-Language Models for
+  Ambiguous Emotion Prediction
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech emotion recognition plays an important role in various applications. However,
+  most existing approaches predict a single emotion label, oversimplifying the inherently
+  ambiguous nature of human emotional expression. Recent large audio-language models
+  show promise in generating richer outputs, but their reasoning ability for ambiguous
+  emotional understanding remains lim'
+content_length: 1147
+llm_content_sent: 1147
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Novel reformulation of emotion recognition as distributional reasoning with
+  ambiguity-aware chain-of-thought supervision in large audio-language models, though
+  the connection to zero-shot expressive synthesis is indirect.

@@ -1,0 +1,27 @@
+title: qoranet/QORA-TTS-12Hz-1.7B
+url: https://huggingface.co/qoranet/QORA-TTS-12Hz-1.7B
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-03-10T10:17:23.464457+00:00'
+date_seen: '2026-03-10'
+metadata:
+  likes: '4'
+  downloads: '317'
+  trending_score: '2'
+  last_modified: '2026-03-07T21:56:25.000Z'
+content_preview: "---\nlanguage:\n  - en\n  - zh\n  - de\n  - it\n  - pt\n  - es\n\
+  \  - ja\n  - ko\n  - fr\n  - ru\nlicense: apache-2.0\ntags:\n  - text-to-speech\n\
+  \  - tts\n  - rust\n  - pure-rust\n  - no-python\n  - qwen3-tts\n  - voice-cloning\n\
+  \  - cpu-inference\n  - quantized\n  - q4\nbase_model: Qwen/Qwen3-TTS-12Hz-1.7B-Base\n\
+  pipeline_tag: text-to-speech\nlibrary_name: qora\n---\n\n# QORA-TTS 1.7B - Pure\
+  \ Rust Text-to-Speech with Voice Cloning\n\nPure Rust TTS engine with voice cloning.\
+  \ No Python, no CUDA, no external ML frameworks. Single ex"
+content_length: 7700
+llm_content_sent: 7700
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily an engineering implementation (pure Rust TTS engine) of
+  existing Qwen3-TTS architecture with standard voice cloning capabilities, offering
+  no novel scientific contributions to emotional/expressive speech synthesis or zero-shot
+  methods.

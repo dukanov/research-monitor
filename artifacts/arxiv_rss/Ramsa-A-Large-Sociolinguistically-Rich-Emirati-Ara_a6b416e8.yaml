@@ -1,0 +1,34 @@
+title: 'Ramsa: A Large Sociolinguistically Rich Emirati Arabic Speech Corpus for ASR
+  and TTS'
+url: https://arxiv.org/abs/2603.08125
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-10T10:16:45.876097+00:00'
+date_seen: '2026-03-10'
+metadata:
+  arxiv_id: '2603.08125'
+  published: Tue, 10 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Ramsa: A Large Sociolinguistically Rich Emirati Arabic Speech
+  Corpus for ASR and TTS
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Ramsa is a developing 41-hour speech corpus of Emirati Arabic designed to support
+  sociolinguistic research and low-resource language technologies. It contains recordings
+  from structured interviews with native speakers and episodes from national television
+  shows. The corpus features 157 speakers (59 female, 98 male), spans subdialects
+  such as Urban, Bedouin, and Mountain/Shihhi'
+content_length: 1411
+llm_content_sent: 1411
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is primarily a corpus contribution for Emirati Arabic with basic zero-shot
+  ASR/TTS baselines, but lacks novel methodological contributions to emotional/expressive
+  speech synthesis or zero-shot capabilities beyond standard evaluation.

@@ -1,0 +1,34 @@
+title: Quantifying Cross-Lingual Transfer in Paralinguistic Speech Tasks
+url: https://arxiv.org/abs/2603.08231
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-10T10:16:45.786702+00:00'
+date_seen: '2026-03-10'
+metadata:
+  arxiv_id: '2603.08231'
+  published: Tue, 10 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.CL
+content_preview: 'Title: Quantifying Cross-Lingual Transfer in Paralinguistic Speech
+  Tasks
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Paralinguistic speech tasks are often considered relatively language-agnostic, as
+  they rely on extralinguistic acoustic cues rather than lexical content. However,
+  prior studies report performance degradation under cross-lingual conditions, indicating
+  non-negligible language dependence. Still, these studies typically focus on isolated
+  language pairs or task-specific settings, limiting comparabili'
+content_length: 1187
+llm_content_sent: 1187
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While the Cross-Lingual Transfer Matrix methodology may be novel for systematic
+  cross-lingual analysis, this work focuses on paralinguistic tasks (gender ID, speaker
+  verification) rather than emotional/expressive speech synthesis, and doesn't address
+  zero-shot capabilities for synthesis applications.

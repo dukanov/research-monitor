@@ -1,0 +1,33 @@
+title: Learning-free L2-Accented Speech Generation using Phonological Rules
+url: https://arxiv.org/abs/2603.07550
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-10T10:16:45.875219+00:00'
+date_seen: '2026-03-10'
+metadata:
+  arxiv_id: '2603.07550'
+  published: Tue, 10 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI
+content_preview: 'Title: Learning-free L2-Accented Speech Generation using Phonological
+  Rules
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Accent plays a crucial role in speaker identity and inclusivity in speech technologies.
+  Existing accented text-to-speech (TTS) systems either require large-scale accented
+  datasets or lack fine-grained phoneme-level controllability. We propose a accented
+  TTS framework that combines phonological rules with a multilingual TTS model. The
+  rules are applied to phoneme sequences to transform accent '
+content_length: 1122
+llm_content_sent: 1122
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Novel zero-shot approach using phonological rules for accent generation without
+  requiring accented training data, though the core concept of rule-based phoneme
+  transformation is not entirely new.

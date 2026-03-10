@@ -1,0 +1,34 @@
+title: 'Nw\=ach\=a Mun\=a: A Devanagari Speech Corpus and Proximal Transfer Benchmark
+  for Nepal Bhasha ASR'
+url: https://arxiv.org/abs/2603.07554
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-10T10:16:45.714485+00:00'
+date_seen: '2026-03-10'
+metadata:
+  arxiv_id: '2603.07554'
+  published: Tue, 10 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.SD
+content_preview: 'Title: Nw\=ach\=a Mun\=a: A Devanagari Speech Corpus and Proximal
+  Transfer Benchmark for Nepal Bhasha ASR
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Nepal Bhasha (Newari), an endangered language of the Kathmandu Valley, remains digitally
+  marginalized due to the severe scarcity of annotated speech resources. In this work,
+  we introduce Nw\=ach\=a Mun\=a, a newly curated 5.39-hour manually transcribed Devanagari
+  speech corpus for Nepal Bhasha, and establish the first benchmark using script-preserving
+  acoustic mo'
+content_length: 1412
+llm_content_sent: 1412
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on automatic speech recognition (ASR) for an endangered
+  language using transfer learning, which is completely unrelated to emotional/expressive
+  speech synthesis or zero-shot synthesis capabilities.

@@ -1,0 +1,34 @@
+title: 'Evaluating Parkinson''s Disease Detection in Anonymized Speech: A Performance
+  and Acoustic Analysis'
+url: https://arxiv.org/abs/2603.07544
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-10T10:16:45.714017+00:00'
+date_seen: '2026-03-10'
+metadata:
+  arxiv_id: '2603.07544'
+  published: Tue, 10 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: Evaluating Parkinson''s Disease Detection in Anonymized Speech:
+  A Performance and Acoustic Analysis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Automatic detection of Parkinson''s disease (PD) from speech is a promising non-invasive
+  diagnostic tool, but it raises significant privacy concerns. Speaker anonymization
+  mitigates these risks, but it may suppress the pathological information necessary
+  for PD detection. We assess the trade-off between privacy and PD detection for two
+  anonymizers (STT-TTS and kNN-'
+content_length: 1131
+llm_content_sent: 1131
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on pathological speech detection and privacy preservation
+  rather than emotional/expressive speech synthesis, and offers only incremental analysis
+  of existing anonymization methods without novel synthesis approaches.

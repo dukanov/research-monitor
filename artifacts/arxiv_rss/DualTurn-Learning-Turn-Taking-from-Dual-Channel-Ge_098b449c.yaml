@@ -1,0 +1,33 @@
+title: 'DualTurn: Learning Turn-Taking from Dual-Channel Generative Speech Pretraining'
+url: https://arxiv.org/abs/2603.08216
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-10T10:16:45.714585+00:00'
+date_seen: '2026-03-10'
+metadata:
+  arxiv_id: '2603.08216'
+  published: Tue, 10 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.CL, cs.SD
+content_preview: 'Title: DualTurn: Learning Turn-Taking from Dual-Channel Generative
+  Speech Pretraining
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech-to-speech models handle turn-taking naturally but offer limited support for
+  tool-calling or complex reasoning, while production ASR-LLM-TTS voice pipelines
+  offer these capabilities but rely on silence timeouts, which lead to unnatural turn-taking.
+  We present DualTurn, which narrows this gap through generative pretraining on dual-channel
+  conversational audio. The model generat'
+content_length: 1185
+llm_content_sent: 1185
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on turn-taking dynamics in conversational AI rather than
+  emotional/expressive speech synthesis, and lacks zero-shot capabilities for generating
+  expressive speech variations.

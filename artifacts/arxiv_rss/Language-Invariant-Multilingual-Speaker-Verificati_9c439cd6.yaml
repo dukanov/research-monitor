@@ -1,0 +1,35 @@
+title: Language-Invariant Multilingual Speaker Verification for the TidyVoice 2026
+  Challenge
+url: https://arxiv.org/abs/2603.08092
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-10T10:16:45.786622+00:00'
+date_seen: '2026-03-10'
+metadata:
+  arxiv_id: '2603.08092'
+  published: Tue, 10 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Language-Invariant Multilingual Speaker Verification for
+  the TidyVoice 2026 Challenge
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Multilingual speaker verification (SV) remains challenging due to limited cross-lingual
+  data and language-dependent information in speaker embeddings. This paper presents
+  a language-invariant multilingual SV system for the TidyVoice 2026 Challenge. We
+  adopt the multilingual self-supervised w2v-BERT 2.0 model as the backbone, enhanced
+  with Layer Adapters and Multi-scale Featur'
+content_length: 1284
+llm_content_sent: 1284
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on speaker verification (identifying who is speaking) rather
+  than speech synthesis (generating expressive/emotional speech), making it largely
+  irrelevant to emotional/expressive speech synthesis research despite mentioning
+  TTS for data augmentation.

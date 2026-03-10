@@ -1,0 +1,34 @@
+title: Language-Aware Distillation for Multilingual Instruction-Following Speech LLMs
+  with ASR-Only Supervision
+url: https://arxiv.org/abs/2603.07025
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-10T10:16:45.874445+00:00'
+date_seen: '2026-03-10'
+metadata:
+  arxiv_id: '2603.07025'
+  published: Tue, 10 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Language-Aware Distillation for Multilingual Instruction-Following
+  Speech LLMs with ASR-Only Supervision
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech Large Language Models (LLMs) that understand and follow instructions in many
+  languages are useful for real-world interaction, but are difficult to train with
+  supervised fine-tuning, requiring large, task-specific speech corpora. While recent
+  distillation-based approaches train performant English-only Speech LLMs using only
+  annotated ASR data by align'
+content_length: 1223
+llm_content_sent: 1223
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on multilingual instruction-following speech understanding
+  rather than emotional/expressive speech synthesis, and uses existing TTS for evaluation
+  rather than advancing synthesis capabilities.

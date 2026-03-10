@@ -1,0 +1,35 @@
+title: 'StyleBench: Evaluating Speech Language Models on Conversational Speaking Style
+  Control'
+url: https://arxiv.org/abs/2603.07599
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-10T10:16:45.875251+00:00'
+date_seen: '2026-03-10'
+metadata:
+  arxiv_id: '2603.07599'
+  published: Tue, 10 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: StyleBench: Evaluating Speech Language Models on Conversational
+  Speaking Style Control
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech language models (SLMs) have significantly extended the interactive capability
+  of text-based Large Language Models (LLMs) by incorporating paralinguistic information.
+  For more realistic interactive experience with customized styles, current SLMs have
+  managed to interpret and control speaking style intensity from user prompts during
+  the dialogue process. However, there '
+content_length: 1080
+llm_content_sent: 1080
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.6
+reason: Introduces the first systematic benchmark for evaluating style intensity control
+  in conversational speech language models across multiple paralinguistic dimensions,
+  though the evaluation framework itself is more of a methodological contribution
+  than a technical breakthrough.

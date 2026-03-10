@@ -1,0 +1,185 @@
+title: fishaudio/s2-pro
+url: https://huggingface.co/fishaudio/s2-pro
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-03-10T10:17:16.953217+00:00'
+date_seen: '2026-03-10'
+metadata:
+  likes: '20'
+  downloads: '7'
+  trending_score: '20'
+  last_modified: '2026-03-10T04:16:46.000Z'
+content_preview: '---
+
+  tags:
+
+  - text-to-speech
+
+  license: other
+
+  license_name: fish-audio-research-license
+
+  license_link: LICENSE.md
+
+  language:
+
+  - zh
+
+  - en
+
+  - ja
+
+  - ko
+
+  - es
+
+  - pt
+
+  - ar
+
+  - ru
+
+  - fr
+
+  - de
+
+  - sv
+
+  - it
+
+  - tr
+
+  - "no"
+
+  - nl
+
+  - cy
+
+  - eu
+
+  - ca
+
+  - da
+
+  - gl
+
+  - ta
+
+  - hu
+
+  - fi
+
+  - pl
+
+  - et
+
+  - hi
+
+  - la
+
+  - ur
+
+  - th
+
+  - vi
+
+  - jw
+
+  - bn
+
+  - yo
+
+  - sl
+
+  - cs
+
+  - sw
+
+  - nn
+
+  - he
+
+  - ms
+
+  - uk
+
+  - id
+
+  - kk
+
+  - bg
+
+  - lv
+
+  - my
+
+  - tl
+
+  - sk
+
+  - ne
+
+  - fa
+
+  - af
+
+  - el
+
+  - bo
+
+  - hr
+
+  - ro
+
+  - sn
+
+  - mi
+
+  - yi
+
+  - am
+
+  - be
+
+  - km
+
+  - is
+
+  - az
+
+  - sd
+
+  - br
+
+  - sq
+
+  - ps
+
+  - mn
+
+  - ht
+
+  - ml
+
+  - sr
+
+  - sa
+
+  - te
+
+  - ka
+
+  - bs
+
+  - pa
+
+  - lt'
+content_length: 4343
+llm_content_sent: 4343
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The dual-autoregressive architecture with fine-grained inline control using
+  free-form natural language tags (15,000+ supported) represents a significant advancement
+  in controllable TTS, though the core zero-shot speaker adaptation capabilities are
+  not clearly detailed.

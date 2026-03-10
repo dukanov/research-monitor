@@ -1,0 +1,34 @@
+title: 'KrishokBondhu: A Retrieval-Augmented Voice-Based Agricultural Advisory Call
+  Center for Bengali Farmers'
+url: https://arxiv.org/abs/2510.18355
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-10T10:16:45.880228+00:00'
+date_seen: '2026-03-10'
+metadata:
+  arxiv_id: '2510.18355'
+  published: Tue, 10 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.HC, cs.IR
+content_preview: 'Title: KrishokBondhu: A Retrieval-Augmented Voice-Based Agricultural
+  Advisory Call Center for Bengali Farmers
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In Bangladesh, many farmers still struggle to access timely, expert-level agricultural
+  guidance. This paper presents KrishokBondhu, a voice-enabled, call-centre-integrated
+  advisory platform built on a Retrieval-Augmented Generation (RAG) framework for
+  Bengali-speaking farmers. The system combines agricultural handbooks, extension
+  manuals, and NGO publications'
+content_length: 1729
+llm_content_sent: 1729
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is a domain-specific application paper that uses standard speech-to-text
+  and text-to-speech components without any novel contributions to emotional/expressive
+  speech synthesis or zero-shot voice capabilities.

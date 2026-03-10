@@ -1,0 +1,31 @@
+title: Targeted Speaker Poisoning Framework in Zero-Shot Text-to-Speech
+url: https://arxiv.org/abs/2603.07551
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-10T10:16:45.714037+00:00'
+date_seen: '2026-03-10'
+metadata:
+  arxiv_id: '2603.07551'
+  published: Tue, 10 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: Targeted Speaker Poisoning Framework in Zero-Shot Text-to-Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Zero-shot Text-to-Speech (TTS) voice cloning poses severe privacy risks, demanding
+  the removal of specific speaker identities from trained TTS models. Conventional
+  machine unlearning is insufficient in this context, as zero-shot TTS can dynamically
+  reconstruct voices from just reference prompts. We formalize this task as Speech
+  Generation Speaker Poisoning (SGSP), in which we modify trained model'
+content_length: 1192
+llm_content_sent: 1192
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on privacy/security aspects of zero-shot TTS (speaker poisoning/unlearning)
+  rather than advancing emotional or expressive speech synthesis capabilities.
