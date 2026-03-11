@@ -1,0 +1,35 @@
+title: 'WhisperVC: Decoupled Cross-Domain Alignment and Speech Generation for Low-Resource
+  Whisper-to-Normal Conversion'
+url: https://arxiv.org/abs/2511.01056
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-11T10:16:47.308460+00:00'
+date_seen: '2026-03-11'
+metadata:
+  arxiv_id: '2511.01056'
+  published: Wed, 11 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: WhisperVC: Decoupled Cross-Domain Alignment and Speech Generation
+  for Low-Resource Whisper-to-Normal Conversion
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Whispered speech lacks vocal-fold excitation, making intelligible conversion challenging.
+  We propose WhisperVC, a three-stage framework for low-resource whisper-to-normal
+  (W2N) conversion that decouples cross-domain alignment from speech generation. Stage
+  1 uses limited paired whisper-normal data with a content encoder and a Conformer-based
+  variation'
+content_length: 1232
+llm_content_sent: 1232
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: This work focuses on whisper-to-normal speech conversion rather than emotional/expressive
+  synthesis, and while it uses a three-stage decoupled approach, the core techniques
+  (VAE, Conformer, HiFi-GAN) are standard components without significant methodological
+  innovation for expressive speech.

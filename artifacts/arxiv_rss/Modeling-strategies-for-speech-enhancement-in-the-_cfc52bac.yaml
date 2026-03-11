@@ -1,0 +1,34 @@
+title: Modeling strategies for speech enhancement in the latent space of a neural
+  audio codec
+url: https://arxiv.org/abs/2510.26299
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-11T10:16:47.283796+00:00'
+date_seen: '2026-03-11'
+metadata:
+  arxiv_id: '2510.26299'
+  published: Wed, 11 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: Modeling strategies for speech enhancement in the latent
+  space of a neural audio codec
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Neural audio codecs (NACs) provide compact latent speech representations in the
+  form of sequences of continuous vectors or discrete tokens. In this work, we investigate
+  how these two types of speech representations compare when used as training targets
+  for supervised speech enhancement. We consider both autoregressive and non-autoregressive
+  speech enhancement models based on'
+content_length: 1201
+llm_content_sent: 1201
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on speech enhancement (noise removal) rather than emotional/expressive
+  speech synthesis, and lacks zero-shot capabilities - it's a supervised approach
+  comparing different neural codec representations for denoising.

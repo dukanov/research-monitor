@@ -1,0 +1,34 @@
+title: Textless and Non-Parallel Speech-to-Speech Emotion Style Transfer
+url: https://arxiv.org/abs/2505.17655
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-11T10:16:47.283859+00:00'
+date_seen: '2026-03-11'
+metadata:
+  arxiv_id: '2505.17655'
+  published: Wed, 11 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: Textless and Non-Parallel Speech-to-Speech Emotion Style
+  Transfer
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Given a pair of source and reference speech recordings, speech-to-speech (S2S) emotion
+  style transfer involves the generation of an output speech that mimics the emotion
+  characteristics of the reference while preserving the content and speaker attributes
+  of the source. In this paper, we propose a speech-to-speech zero-shot emotion style
+  transfer framework, termed S2S Zero-shot Emotion Style Tran'
+content_length: 1958
+llm_content_sent: 1958
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The work introduces a textless, non-parallel framework for zero-shot emotion
+  transfer that combines semantic tokens, speaker representations, and emotion embeddings
+  in an analysis-synthesis pipeline, which is a meaningful contribution to expressive
+  speech synthesis though the core components are largely established techniques.

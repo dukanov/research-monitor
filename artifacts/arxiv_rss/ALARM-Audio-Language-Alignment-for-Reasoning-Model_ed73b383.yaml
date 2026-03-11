@@ -1,0 +1,32 @@
+title: 'ALARM: Audio-Language Alignment for Reasoning Models'
+url: https://arxiv.org/abs/2603.09556
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-11T10:16:47.330821+00:00'
+date_seen: '2026-03-11'
+metadata:
+  arxiv_id: '2603.09556'
+  published: Wed, 11 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: ALARM: Audio-Language Alignment for Reasoning Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large audio language models (ALMs) extend LLMs with auditory understanding. A common
+  approach freezes the LLM and trains only an adapter on self-generated targets. However,
+  this fails for reasoning LLMs (RLMs) whose built-in chain-of-thought traces expose
+  the textual surrogate input, yielding unnatural responses. We propose self-rephrasing,
+  converting self-generated responses into audio-understanding variant'
+content_length: 1175
+llm_content_sent: 1175
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While this work addresses audio-language alignment, it focuses on general
+  audio understanding and reasoning rather than emotional/expressive speech synthesis,
+  and lacks zero-shot synthesis capabilities for generating expressive speech.

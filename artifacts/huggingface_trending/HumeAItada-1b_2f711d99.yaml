@@ -1,0 +1,27 @@
+title: HumeAI/tada-1b
+url: https://huggingface.co/HumeAI/tada-1b
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-03-11T10:17:15.631083+00:00'
+date_seen: '2026-03-11'
+metadata:
+  likes: '60'
+  downloads: '3158'
+  trending_score: '60'
+  last_modified: '2026-03-11T00:10:49.000Z'
+content_preview: "---\nlicense: mit\nlanguage:\n- en\ntags:\n- tts\n- text-to-speech\n\
+  - speech-language-model\narxiv: 2602.23068\n---\n\n<h1 align=\"center\">TADA: A\
+  \ Generative Framework for Speech Modeling via Text-Acoustic Dual Alignment</h1>\n\
+  \n<p align=\"center\">\n  <a href=\"https://arxiv.org/abs/2602.23068\"><img src=\"\
+  https://img.shields.io/badge/arXiv-Paper-b31b1b.svg\" alt=\"Paper\"></a>\n  <a href=\"\
+  https://huggingface.co/spaces/HumeAI/tada\"><img src=\"https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-blue\"\
+  \ alt=\"De"
+content_length: 6371
+llm_content_sent: 6371
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The 1:1 text-acoustic token alignment approach that enables dynamic duration
+  synthesis without fixed frame rates is a novel architectural contribution that could
+  advance zero-shot expressive TTS, though the emotional/expressive capabilities aren't
+  explicitly demonstrated.

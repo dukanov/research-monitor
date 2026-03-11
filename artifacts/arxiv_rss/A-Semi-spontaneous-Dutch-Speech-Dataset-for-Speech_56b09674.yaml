@@ -1,0 +1,33 @@
+title: A Semi-spontaneous Dutch Speech Dataset for Speech Enhancement and Speech Recognition
+url: https://arxiv.org/abs/2603.09725
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-11T10:16:47.308229+00:00'
+date_seen: '2026-03-11'
+metadata:
+  arxiv_id: '2603.09725'
+  published: Wed, 11 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: A Semi-spontaneous Dutch Speech Dataset for Speech Enhancement
+  and Speech Recognition
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We present DRES: a 1.5-hour Dutch realistic elicited (semi-spontaneous) speech dataset
+  from 80 speakers recorded in noisy, public indoor environments. DRES was designed
+  as a test set for the evaluation of state-of-the-art (SOTA) automatic speech recognition
+  (ASR) and speech enhancement (SE) models in a real-world scenario: a person speaking
+  in a public indoor space with backg'
+content_length: 1187
+llm_content_sent: 1187
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is a dataset contribution for speech enhancement and ASR evaluation that
+  lacks any connection to emotional/expressive speech synthesis or zero-shot capabilities,
+  focusing instead on noisy environment robustness.

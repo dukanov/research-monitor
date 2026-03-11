@@ -1,0 +1,30 @@
+title: Fish Audio S2 Technical Report
+url: https://huggingface.co/papers/2603.08823
+source: huggingface_papers
+type: paper
+date_discovered: '2026-03-11T10:17:14.586835+00:00'
+date_seen: '2026-03-11'
+metadata:
+  upvotes: '6'
+  paper_id: '2603.08823'
+  published_date: '2026-03-11'
+content_preview: 'Title: Fish Audio S2 Technical Report
+
+
+  Summary:
+
+  We introduce Fish Audio S2, an open-sourced text-to-speech system featuring multi-speaker,
+  multi-turn generation, and, most importantly, instruction-following control via
+  natural-language descriptions. To scale training, we develop a multi-stage training
+  recipe together with a staged data pipeline covering video captioning and speech
+  captioning, voice-quality assessment, and reward modeling. To push the frontier
+  of open-source TTS, we release our m'
+content_length: 939
+llm_content_sent: 939
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces instruction-following control via natural language descriptions
+  for TTS, which is a meaningful advancement for expressive speech synthesis, though
+  the zero-shot capabilities and technical details are not clearly established from
+  this summary.

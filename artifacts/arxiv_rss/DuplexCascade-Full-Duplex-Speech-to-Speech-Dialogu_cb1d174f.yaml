@@ -1,0 +1,34 @@
+title: 'DuplexCascade: Full-Duplex Speech-to-Speech Dialogue with VAD-Free Cascaded
+  ASR-LLM-TTS Pipeline and Micro-Turn Optimization'
+url: https://arxiv.org/abs/2603.09180
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-11T10:16:47.330353+00:00'
+date_seen: '2026-03-11'
+metadata:
+  arxiv_id: '2603.09180'
+  published: Wed, 11 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI
+content_preview: 'Title: DuplexCascade: Full-Duplex Speech-to-Speech Dialogue with
+  VAD-Free Cascaded ASR-LLM-TTS Pipeline and Micro-Turn Optimization
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Spoken dialog systems with cascaded ASR-LLM-TTS modules retain strong LLM intelligence,
+  but VAD segmentation often forces half-duplex turns and brittle control. On the
+  other hand, VAD-free end-to-end model support full-duplex interaction but is hard
+  to maintain conversational intelligence. In this paper, we present DuplexCascade,
+  a VAD-f'
+content_length: 1231
+llm_content_sent: 1231
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While this addresses full-duplex dialogue systems, it focuses on turn-taking
+  and conversational flow rather than emotional/expressive speech synthesis, and uses
+  standard cascaded ASR-LLM-TTS without novel zero-shot emotional synthesis capabilities.

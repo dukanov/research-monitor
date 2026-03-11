@@ -1,0 +1,33 @@
+title: Latent Speech-Text Transformer
+url: https://arxiv.org/abs/2510.06195
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-11T10:16:47.308590+00:00'
+date_seen: '2026-03-11'
+metadata:
+  arxiv_id: '2510.06195'
+  published: Wed, 11 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.LG, eess.AS
+content_preview: 'Title: Latent Speech-Text Transformer
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Auto-regressive speech-text models pre-trained on interleaved text tokens and discretized
+  speech tokens demonstrate strong speech understanding and generation, yet remain
+  substantially less compute-efficient than text LLMs, partly due to the much longer
+  sequences of speech tokens relative to text. This modality imbalance disproportionately
+  allocates pre-training and inference compute to speech, potentially hindering effective
+  cro'
+content_length: 1912
+llm_content_sent: 1912
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel latent patch aggregation approach to address the fundamental
+  sequence length mismatch between speech and text tokens in multimodal transformers,
+  showing consistent improvements in both modalities and computational efficiency.

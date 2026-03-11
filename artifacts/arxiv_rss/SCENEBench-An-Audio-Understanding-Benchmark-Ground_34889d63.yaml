@@ -1,0 +1,34 @@
+title: 'SCENEBench: An Audio Understanding Benchmark Grounded in Assistive and Industrial
+  Use Cases'
+url: https://arxiv.org/abs/2603.09853
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-11T10:16:47.283652+00:00'
+date_seen: '2026-03-11'
+metadata:
+  arxiv_id: '2603.09853'
+  published: Wed, 11 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: SCENEBench: An Audio Understanding Benchmark Grounded in
+  Assistive and Industrial Use Cases
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Advances in large language models (LLMs) have enabled significant capabilities in
+  audio processing, resulting in state-of-the-art models now known as Large Audio
+  Language Models (LALMs). However, minimal work has been done to measure audio understanding
+  beyond automatic speech recognition (ASR). This paper closes that gap by proposing
+  a benchmark suite, SCENEBench (Spat'
+content_length: 1738
+llm_content_sent: 1738
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This paper focuses on audio understanding benchmarking for Large Audio Language
+  Models rather than speech synthesis, and does not address emotional/expressive synthesis
+  or zero-shot capabilities in synthesis systems.

@@ -1,0 +1,36 @@
+title: 'Emotion-Aware Prefix: Towards Explicit Emotion Control in Voice Conversion
+  Models'
+url: https://arxiv.org/abs/2603.09120
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-11T10:16:47.308017+00:00'
+date_seen: '2026-03-11'
+metadata:
+  arxiv_id: '2603.09120'
+  published: Wed, 11 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Emotion-Aware Prefix: Towards Explicit Emotion Control in
+  Voice Conversion Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in zero-shot voice conversion have exhibited potential in emotion
+  control, yet the performance is suboptimal or inconsistent due to their limited
+  expressive capacity. We propose Emotion-Aware Prefix for explicit emotion control
+  in a two-stage voice conversion backbone. We significantly improve emotion conversion
+  performance, doubling the baseline Emotion Conversio'
+content_length: 1049
+llm_content_sent: 1049
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.6
+reason: The paper introduces an emotion-aware prefix mechanism for explicit emotion
+  control in voice conversion, showing substantial performance improvements (85.50%
+  vs 42.40% ECA), but the core approach appears to be an incremental enhancement to
+  existing two-stage voice conversion architectures rather than a fundamentally novel
+  methodology.

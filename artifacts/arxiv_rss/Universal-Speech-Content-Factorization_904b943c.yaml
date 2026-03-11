@@ -1,0 +1,33 @@
+title: Universal Speech Content Factorization
+url: https://arxiv.org/abs/2603.08977
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-11T10:16:47.283658+00:00'
+date_seen: '2026-03-11'
+metadata:
+  arxiv_id: '2603.08977'
+  published: Wed, 11 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: Universal Speech Content Factorization
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We propose Universal Speech Content Factorization (USCF), a simple and invertible
+  linear method for extracting a low-rank speech representation in which speaker timbre
+  is suppressed while phonetic content is preserved. USCF extends Speech Content Factorization,
+  a closed-set voice conversion (VC) method, to an open-set setting by learning a
+  universal speech-to-content mapping via least-squares optimization and deriving
+  spe'
+content_length: 1210
+llm_content_sent: 1210
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Extends closed-set speech content factorization to open-set zero-shot voice
+  conversion using a universal linear mapping with least-squares optimization, enabling
+  timbre-disentangled features for expressive TTS training.

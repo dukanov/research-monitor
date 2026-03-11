@@ -1,0 +1,26 @@
+title: HumeAI/tada-codec
+url: https://huggingface.co/HumeAI/tada-codec
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-03-11T10:17:16.316171+00:00'
+date_seen: '2026-03-11'
+metadata:
+  likes: '9'
+  downloads: '0'
+  trending_score: '9'
+  last_modified: '2026-03-11T00:04:12.000Z'
+content_preview: "---\nlicense: mit\nlanguage:\n  - en\ntags:\n  - tts\n  - text-to-speech\n\
+  \  - speech-language-model\narxiv: 2602.23068\n---\n\n<h1 align=\"center\">TADA:\
+  \ A Generative Framework for Speech Modeling via Text-Acoustic Dual Alignment</h1>\n\
+  \n<p align=\"center\">\n  <a href=\"https://arxiv.org/abs/2602.23068\"><img src=\"\
+  https://img.shields.io/badge/arXiv-Paper-b31b1b.svg\" alt=\"Paper\"></a>\n  <a href=\"\
+  https://huggingface.co/spaces/HumeAI/tada\"><img src=\"https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-blue\""
+content_length: 2004
+llm_content_sent: 2004
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The 1:1 text-acoustic alignment approach for unified speech-language modeling
+  is a novel architectural contribution that could enable better zero-shot capabilities,
+  though the emotional/expressive aspects are not clearly demonstrated in this model
+  card.

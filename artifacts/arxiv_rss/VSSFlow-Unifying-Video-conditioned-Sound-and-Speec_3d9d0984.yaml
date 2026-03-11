@@ -1,0 +1,35 @@
+title: 'VSSFlow: Unifying Video-conditioned Sound and Speech Generation via Joint
+  Learning'
+url: https://arxiv.org/abs/2509.24773
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-11T10:16:47.283953+00:00'
+date_seen: '2026-03-11'
+metadata:
+  arxiv_id: '2509.24773'
+  published: Wed, 11 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI, cs.CL, cs.CV, cs.SD
+content_preview: 'Title: VSSFlow: Unifying Video-conditioned Sound and Speech Generation
+  via Joint Learning
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Video-conditioned audio generation, including Video-to-Sound (V2S) and Visual Text-to-Speech
+  (VisualTTS), has traditionally been treated as distinct tasks, leaving the potential
+  for a unified generative framework largely underexplored. In this paper, we bridge
+  this gap with VSSFlow, a unified flow-matching framework that seamlessly solve both
+  problems. To effectively handle mult'
+content_length: 1627
+llm_content_sent: 1627
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The unified flow-matching framework for joint video-conditioned sound and
+  speech generation with disentangled attention mechanisms is a novel architectural
+  contribution, though it builds incrementally on existing diffusion and flow-matching
+  approaches.

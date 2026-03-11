@@ -1,0 +1,34 @@
+title: Evaluating pretrained speech embedding systems for dysarthria detection across
+  heterogenous datasets
+url: https://arxiv.org/abs/2509.19946
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-11T10:16:47.308451+00:00'
+date_seen: '2026-03-11'
+metadata:
+  arxiv_id: '2509.19946'
+  published: Wed, 11 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Evaluating pretrained speech embedding systems for dysarthria
+  detection across heterogenous datasets
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We present a comprehensive evaluation of pretrained speech embedding systems for
+  the detection of dysarthric speech using existing accessible data. Dysarthric speech
+  datasets are often small and can suffer from recording biases as well as data imbalance.
+  To address these we selected a range of datasets covering related conditions and
+  adopt the use of several cr'
+content_length: 1531
+llm_content_sent: 1531
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on dysarthria detection using existing speech embeddings
+  rather than developing new methods for emotional/expressive speech synthesis or
+  zero-shot capabilities.

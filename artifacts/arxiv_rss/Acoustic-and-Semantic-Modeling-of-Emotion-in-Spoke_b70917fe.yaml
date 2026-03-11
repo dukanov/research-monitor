@@ -1,0 +1,33 @@
+title: Acoustic and Semantic Modeling of Emotion in Spoken Language
+url: https://arxiv.org/abs/2603.09212
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-11T10:16:47.308038+00:00'
+date_seen: '2026-03-11'
+metadata:
+  arxiv_id: '2603.09212'
+  published: Wed, 11 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Acoustic and Semantic Modeling of Emotion in Spoken Language
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Emotions play a central role in human communication, shaping trust, engagement,
+  and social interaction. As artificial intelligence systems powered by large language
+  models become increasingly integrated into everyday life, enabling them to reliably
+  understand and generate human emotions remains an important challenge. While emotional
+  expression is inherently multimodal, this thesis focuses on emotion'
+content_length: 1813
+llm_content_sent: 1813
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a textless, non-parallel speech-to-speech emotion transfer framework
+  that preserves speaker identity and linguistic content while enabling controllable
+  emotional transformations, which addresses key challenges in zero-shot expressive
+  synthesis.

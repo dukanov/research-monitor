@@ -1,0 +1,33 @@
+title: Trade-offs Between Capacity and Robustness in Neural Audio Codecs for Adversarially
+  Robust Speech Recognition
+url: https://arxiv.org/abs/2603.09034
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-11T10:16:47.283669+00:00'
+date_seen: '2026-03-11'
+metadata:
+  arxiv_id: '2603.09034'
+  published: Wed, 11 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: Trade-offs Between Capacity and Robustness in Neural Audio
+  Codecs for Adversarially Robust Speech Recognition
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Adversarial perturbations exploit vulnerabilities in automatic speech recognition
+  (ASR) systems while preserving human perceived linguistic content. Neural audio
+  codecs impose a discrete bottleneck that can suppress fine-grained signal variations
+  associated with adversarial noise. We examine how the granularity of this bottleneck,
+  controlled by residua'
+content_length: 1203
+llm_content_sent: 1203
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on adversarial robustness in ASR systems using neural codecs,
+  which is unrelated to emotional/expressive speech synthesis or zero-shot voice capabilities.

@@ -1,0 +1,33 @@
+title: 'Speech-Omni-Lite: Portable Speech Interfaces for Vision-Language Models'
+url: https://arxiv.org/abs/2603.09627
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-11T10:16:47.308158+00:00'
+date_seen: '2026-03-11'
+metadata:
+  arxiv_id: '2603.09627'
+  published: Wed, 11 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Speech-Omni-Lite: Portable Speech Interfaces for Vision-Language
+  Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  While large-scale omni-models have demonstrated impressive capabilities across various
+  modalities, their strong performance heavily relies on massive multimodal data and
+  incurs substantial computational costs. This work introduces Speech-Omni-Lite, a
+  cost-efficient framework for extending pre-trained Visual-Language (VL) backbones
+  with speech understanding and generation capabilities, whil'
+content_length: 1403
+llm_content_sent: 1403
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel plug-and-play framework for adding speech capabilities
+  to frozen vision-language models with minimal training data, which is relevant to
+  zero-shot speech synthesis but focuses more on understanding than expressive generation.
