@@ -1,0 +1,33 @@
+title: 'Speaker Verification with Speech-Aware LLMs: Evaluation and Augmentation'
+url: https://arxiv.org/abs/2603.10827
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-12T10:17:17.970082+00:00'
+date_seen: '2026-03-12'
+metadata:
+  arxiv_id: '2603.10827'
+  published: Thu, 12 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: Speaker Verification with Speech-Aware LLMs: Evaluation and
+  Augmentation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech-aware large language models (LLMs) can accept speech inputs, yet their training
+  objectives largely emphasize linguistic content or specific fields such as emotions
+  or the speaker''s gender, leaving it unclear whether they encode speaker identity.
+  First, we propose a model-agnostic scoring protocol that produces continuous verification
+  scores for both API-only and open-weight models,'
+content_length: 1183
+llm_content_sent: 1183
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on speaker verification (identity authentication) rather
+  than emotional/expressive speech synthesis, and does not address zero-shot synthesis
+  capabilities.

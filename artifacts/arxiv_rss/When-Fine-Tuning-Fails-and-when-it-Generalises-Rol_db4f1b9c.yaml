@@ -1,0 +1,34 @@
+title: 'When Fine-Tuning Fails and when it Generalises: Role of Data Diversity and
+  Mixed Training in LLM-based TTS'
+url: https://arxiv.org/abs/2603.10904
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-12T10:17:17.970170+00:00'
+date_seen: '2026-03-12'
+metadata:
+  arxiv_id: '2603.10904'
+  published: Thu, 12 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.ET
+content_preview: 'Title: When Fine-Tuning Fails and when it Generalises: Role of Data
+  Diversity and Mixed Training in LLM-based TTS
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large language models are increasingly adopted as semantic backbones for neural
+  text-to-speech systems. However, frozen LLM representations are insufficient for
+  modeling speaker specific acoustic and perceptual characteristics. Our experiments
+  involving fine tuning of the Language Model backbone of TTS show promise in improving
+  the voice consistency and S'
+content_length: 1967
+llm_content_sent: 1967
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: This work provides incremental insights on LoRA fine-tuning for LLM-based
+  TTS with focus on data diversity effects, but lacks the zero-shot capabilities and
+  emotional/expressive aspects central to your research interests.

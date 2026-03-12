@@ -1,0 +1,33 @@
+title: Towards Robust Speech Deepfake Detection via Human-Inspired Reasoning
+url: https://arxiv.org/abs/2603.10725
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-12T10:17:17.970067+00:00'
+date_seen: '2026-03-12'
+metadata:
+  arxiv_id: '2603.10725'
+  published: Thu, 12 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: Towards Robust Speech Deepfake Detection via Human-Inspired
+  Reasoning
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The modern generative audio models can be used by an adversary in an unlawful manner,
+  specifically, to impersonate other people to gain access to private information.
+  To mitigate this issue, speech deepfake detection (SDD) methods started to evolve.
+  Unfortunately, current SDD methods generally suffer from the lack of generalization
+  to new audio domains and generators. More than that, they la'
+content_length: 1143
+llm_content_sent: 1143
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on speech deepfake detection rather than synthesis, and
+  while it mentions Large Audio Language Models, it doesn't advance emotional/expressive
+  speech synthesis or zero-shot generation capabilities.

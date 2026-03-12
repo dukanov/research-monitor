@@ -1,0 +1,34 @@
+title: Robust Audio-Visual Target Speaker Extraction with Emotion-Aware Multiple Enrollment
+  Fusion
+url: https://arxiv.org/abs/2509.12583
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-12T10:17:17.970670+00:00'
+date_seen: '2026-03-12'
+metadata:
+  arxiv_id: '2509.12583'
+  published: Thu, 12 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: Robust Audio-Visual Target Speaker Extraction with Emotion-Aware
+  Multiple Enrollment Fusion
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Audio-Visual Target Speaker Extraction (AVTSE) is crucial for cocktail party scenarios.
+  Leveraging multiple cues --such as utterance-level speaker embeddings or steady
+  face images, and frame-level lip motion or facial expression features --can significantly
+  improve performance. However, real-world applications often suffer from intermittent
+  signal loss, especially for f'
+content_length: 1263
+llm_content_sent: 1263
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on speaker extraction/separation rather than speech synthesis,
+  and while it mentions emotion-aware features, it doesn't address emotional speech
+  generation or zero-shot synthesis capabilities.

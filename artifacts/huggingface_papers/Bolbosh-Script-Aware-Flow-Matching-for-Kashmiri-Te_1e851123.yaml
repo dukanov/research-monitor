@@ -1,0 +1,29 @@
+title: 'Bolbosh: Script-Aware Flow Matching for Kashmiri Text-to-Speech'
+url: https://huggingface.co/papers/2603.07513
+source: huggingface_papers
+type: paper
+date_discovered: '2026-03-12T10:17:46.844442+00:00'
+date_seen: '2026-03-12'
+metadata:
+  upvotes: '1'
+  paper_id: '2603.07513'
+  published_date: '2026-03-11'
+content_preview: 'Title: Bolbosh: Script-Aware Flow Matching for Kashmiri Text-to-Speech
+
+
+  Summary:
+
+  Kashmiri is spoken by around 7 million people but remains critically underserved
+  in speech technology, despite its official status and rich linguistic heritage.
+  The lack of robust Text-to-Speech (TTS) systems limits digital accessibility and
+  inclusive human-computer interaction for native speakers. In this work, we present
+  the first dedicated open-source neural TTS system designed for Kashmiri. We show
+  that zero-sho'
+content_length: 1752
+llm_content_sent: 1752
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: While the work addresses an important low-resource language challenge using
+  flow matching, it focuses on basic TTS quality for Kashmiri rather than emotional/expressive
+  synthesis or zero-shot speaker adaptation capabilities.

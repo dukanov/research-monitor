@@ -1,0 +1,146 @@
+title: mlx-community/fish-audio-s2-pro-bf16
+url: https://huggingface.co/mlx-community/fish-audio-s2-pro-bf16
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-03-12T10:17:51.598848+00:00'
+date_seen: '2026-03-12'
+metadata:
+  likes: '3'
+  downloads: '20'
+  trending_score: '3'
+  last_modified: '2026-03-11T22:26:35.000Z'
+content_preview: '---
+
+  library_name: mlx-audio
+
+  tags:
+
+  - mlx
+
+  - text-to-speech
+
+  - speech
+
+  - speech generation
+
+  - voice cloning
+
+  - tts
+
+  - mlx-audio
+
+  license: other
+
+  license_name: fish-audio-research
+
+  license_link: https://huggingface.co/fishaudio/s2-pro/blob/main/LICENSE
+
+  language:
+
+  - en
+
+  - zh
+
+  - ja
+
+  - ko
+
+  - es
+
+  - pt
+
+  - ar
+
+  - ru
+
+  - fr
+
+  - de
+
+  - sv
+
+  - it
+
+  - tr
+
+  - "no"
+
+  - nl
+
+  - cy
+
+  - eu
+
+  - ca
+
+  - da
+
+  - gl
+
+  - ta
+
+  - hu
+
+  - fi
+
+  - pl
+
+  - et
+
+  - hi
+
+  - la
+
+  - ur
+
+  - th
+
+  - vi
+
+  - jv
+
+  - bn
+
+  - yo
+
+  - cs
+
+  - sw
+
+  - he
+
+  - ms
+
+  - uk
+
+  - id
+
+  - kk
+
+  - bg
+
+  - lv
+
+  - my
+
+  - tl
+
+  - sk
+
+  - ne
+
+  - fa
+
+  - af
+
+  - el
+
+  - '
+content_length: 3502
+llm_content_sent: 3502
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is merely a model format conversion (MLX) of an existing TTS model with
+  no scientific novelty - the original Fish Audio S2 Pro may have contributions, but
+  this card only presents a technical port.

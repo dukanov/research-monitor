@@ -1,0 +1,32 @@
+title: Probabilistic Verification of Voice Anti-Spoofing Models
+url: https://arxiv.org/abs/2603.10713
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-12T10:17:17.970035+00:00'
+date_seen: '2026-03-12'
+metadata:
+  arxiv_id: '2603.10713'
+  published: Thu, 12 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: Probabilistic Verification of Voice Anti-Spoofing Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in generative models have amplified the risk of malicious misuse
+  of speech synthesis technologies, enabling adversaries to impersonate target speakers
+  and access sensitive resources. Although speech deepfake detection has progressed
+  rapidly, most existing countermeasures lack formal robustness guarantees or fail
+  to generalize to unseen generation techniques. We propose PV-VASM, a probabil'
+content_length: 1151
+llm_content_sent: 1151
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This paper focuses on detecting/verifying against synthetic speech rather
+  than generating expressive speech, making it tangentially related but not directly
+  relevant to emotional/expressive speech synthesis research.

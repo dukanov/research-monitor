@@ -1,0 +1,35 @@
+title: 'ID-LoRA: Identity-Driven Audio-Video Personalization with In-Context LoRA'
+url: https://arxiv.org/abs/2603.10256
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-12T10:17:17.969905+00:00'
+date_seen: '2026-03-12'
+metadata:
+  arxiv_id: '2603.10256'
+  published: Thu, 12 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.CV, cs.GR
+content_preview: 'Title: ID-LoRA: Identity-Driven Audio-Video Personalization with
+  In-Context LoRA
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Existing video personalization methods preserve visual likeness but treat video
+  and audio separately. Without access to the visual scene, audio models cannot synchronize
+  sounds with on-screen actions; and because classical voice-cloning models condition
+  only on a reference recording, a text prompt cannot redirect speaking style or acoustic
+  environment. We propose ID-LoRA (Identity-Driven'
+content_length: 2047
+llm_content_sent: 2047
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.85
+reason: This introduces the first joint audio-video personalization method that can
+  generate both visual appearance and voice in a single pass using identity-driven
+  in-context LoRA, with novel technical contributions including negative temporal
+  positions for reference token distinction and identity guidance for preserving speaker
+  characteristics during denoising.
