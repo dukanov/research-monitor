@@ -1,0 +1,35 @@
+title: Causal Prosody Mediation for Text-to-Speech:Counterfactual Training of Duration,
+  Pitch, and Energy in FastSpeech2
+url: https://arxiv.org/abs/2603.11683
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-13T10:13:29.833253+00:00'
+date_seen: '2026-03-13'
+metadata:
+  arxiv_id: '2603.11683'
+  published: Fri, 13 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.LG
+content_preview: 'Title: Causal Prosody Mediation for Text-to-Speech:Counterfactual
+  Training of Duration, Pitch, and Energy in FastSpeech2
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We propose a novel causal prosody mediation framework for expressive text-to-speech
+  (TTS) synthesis. Our approach augments the FastSpeech2 architecture with explicit
+  emotion conditioning and introduces counterfactual training objectives to disentangle
+  emotional prosody from linguistic content. By formulating a structural causal model
+  of how text (c'
+content_length: 2123
+llm_content_sent: 2123
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Introduces a novel causal mediation framework with counterfactual training
+  objectives to explicitly disentangle emotional prosody from linguistic content in
+  TTS, going beyond typical conditioning approaches by enforcing causal constraints
+  on how emotion affects speech generation.

@@ -1,0 +1,33 @@
+title: Resurfacing Paralinguistic Awareness in Large Audio Language Models
+url: https://arxiv.org/abs/2603.11947
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-13T10:13:29.833300+00:00'
+date_seen: '2026-03-13'
+metadata:
+  arxiv_id: '2603.11947'
+  published: Fri, 13 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.CL, cs.MM, eess.AS
+content_preview: 'Title: Resurfacing Paralinguistic Awareness in Large Audio Language
+  Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large Audio Language Models (LALMs) have expanded the interaction with human to
+  speech modality, which introduces great interactive potential, due to the paralinguistic
+  cues implicitly indicating the user context. However, building on the current content-centred
+  paradigm, LALMs usually neglect such paralinguistic cues and respond solely based
+  on query content. In this work, to resurface the pa'
+content_length: 1204
+llm_content_sent: 1204
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Novel approach to enhance Large Audio Language Models with paralinguistic
+  awareness through layer-wise analysis and selective fine-tuning, addressing a key
+  limitation in current content-focused paradigms for expressive speech understanding.

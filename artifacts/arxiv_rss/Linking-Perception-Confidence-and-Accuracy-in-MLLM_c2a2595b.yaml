@@ -1,0 +1,32 @@
+title: Linking Perception, Confidence and Accuracy in MLLMs
+url: https://arxiv.org/abs/2603.12149
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-13T10:13:29.863031+00:00'
+date_seen: '2026-03-13'
+metadata:
+  arxiv_id: '2603.12149'
+  published: Fri, 13 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CV, cs.CL
+content_preview: 'Title: Linking Perception, Confidence and Accuracy in MLLMs
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in Multi-modal Large Language Models (MLLMs) have predominantly
+  focused on enhancing visual perception to improve accuracy. However, a critical
+  question remains unexplored: Do models know when they do not know? Through a probing
+  experiment, we reveal a severe confidence miscalibration problem in MLLMs. To address
+  this, we propose Confidence-Driven Reinforcement Learning (CDRL), which uses ori'
+content_length: 1366
+llm_content_sent: 1366
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: This work focuses on confidence calibration in multi-modal large language
+  models for visual perception tasks, which is completely unrelated to emotional/expressive
+  speech synthesis or zero-shot speech capabilities.

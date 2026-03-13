@@ -1,0 +1,35 @@
+title: Edge-Cloud Collaborative Speech Emotion Captioning via Token-Level Speculative
+  Decoding in Audio-Language Models
+url: https://arxiv.org/abs/2603.11397
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-13T10:13:29.833118+00:00'
+date_seen: '2026-03-13'
+metadata:
+  arxiv_id: '2603.11397'
+  published: Fri, 13 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: Edge-Cloud Collaborative Speech Emotion Captioning via Token-Level
+  Speculative Decoding in Audio-Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech Emotion Captioning (SEC) leverages large audio-language models to generate
+  rich, context-aware affective descriptions from speech. However, real-world deployment
+  remains challenging due to the substantial computational demands on resource-constrained
+  edge devices and the privacy risks of transmitting biometric audio. While smaller
+  audio-langu'
+content_length: 1303
+llm_content_sent: 1303
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: While the edge-cloud collaborative framework with uncertainty-guided speculative
+  decoding is a reasonable engineering contribution for deployment, it's primarily
+  an optimization technique rather than a fundamental advancement in emotional/expressive
+  speech synthesis or zero-shot capabilities.

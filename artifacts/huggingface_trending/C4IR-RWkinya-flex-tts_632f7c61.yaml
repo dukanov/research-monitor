@@ -1,0 +1,49 @@
+title: C4IR-RW/kinya-flex-tts
+url: https://huggingface.co/C4IR-RW/kinya-flex-tts
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-03-13T10:14:08.328466+00:00'
+date_seen: '2026-03-13'
+metadata:
+  likes: '1'
+  downloads: '0'
+  trending_score: '1'
+  last_modified: '2026-03-11T09:11:04.000Z'
+content_preview: '---
+
+  datasets:
+
+  - C4IR-RW/kinya-ag-tts
+
+  language:
+
+  - rw
+
+  tags:
+
+  - kinyarwanda
+
+  - tts
+
+  pipeline_tag: text-to-speech
+
+  license: cc-by-4.0
+
+  ---
+
+
+  # Kinyarwanda Text-to-Speech (TTS) Model used with the agricultural chatbot
+
+
+  In Rwanda, many farmers struggle to access timely, personalized agricultural information.
+  Traditional channels - like radio, TV, and online sources - offer limited reach
+  and interactivity, while extension services and a national call center, staffed
+  by only two agents for over two million fa'
+content_length: 3405
+llm_content_sent: 3405
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is a standard multi-speaker TTS implementation using existing MB-iSTFT-VITS2
+  architecture for Kinyarwanda language with no novel contributions to emotional/expressive
+  synthesis or zero-shot capabilities.

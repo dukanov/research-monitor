@@ -1,0 +1,33 @@
+title: Huntington Disease Automatic Speech Recognition with Biomarker Supervision
+url: https://arxiv.org/abs/2603.11168
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-13T10:13:29.833374+00:00'
+date_seen: '2026-03-13'
+metadata:
+  arxiv_id: '2603.11168'
+  published: Fri, 13 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.LG, cs.CL, cs.SD
+content_preview: 'Title: Huntington Disease Automatic Speech Recognition with Biomarker
+  Supervision
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Automatic speech recognition (ASR) for pathological speech remains underexplored,
+  especially for Huntington''s disease (HD), where irregular timing, unstable phonation,
+  and articulatory distortion challenge current models. We present a systematic HD-ASR
+  study using a high-fidelity clinical speech corpus not previously used for end-to-end
+  ASR training. We compare multiple ASR families und'
+content_length: 1092
+llm_content_sent: 1092
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on automatic speech recognition for pathological speech
+  rather than speech synthesis, and lacks any zero-shot capabilities or emotional/expressive
+  components relevant to the stated research interests.

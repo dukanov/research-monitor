@@ -1,0 +1,66 @@
+title: NMikka/CSM-1B-Georgian
+url: https://huggingface.co/NMikka/CSM-1B-Georgian
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-03-13T10:14:05.632447+00:00'
+date_seen: '2026-03-13'
+metadata:
+  likes: '2'
+  downloads: '57'
+  trending_score: '2'
+  last_modified: '2026-03-09T22:28:48.000Z'
+content_preview: '---
+
+  language:
+
+  - ka
+
+  license: apache-2.0
+
+  base_model: sesame/csm-1b
+
+  tags:
+
+  - tts
+
+  - text-to-speech
+
+  - georgian
+
+  - csm
+
+  - speech-synthesis
+
+  pipeline_tag: text-to-speech
+
+  datasets:
+
+  - NMikka/Common-Voice-Geo-Cleaned
+
+  ---
+
+
+  # CSM-1B Georgian
+
+
+  A fine-tuned version of [sesame/csm-1b](https://huggingface.co/sesame/csm-1b) for
+  **Georgian text-to-speech**. This is open-source Georgian TTS model based on the
+  CSM architecture.
+
+
+  ## Model Details
+
+
+  | | |
+
+  |---|---|
+
+  | **Base model** | [sesame/csm-1b](https://huggingface.co'
+content_length: 4544
+llm_content_sent: 4544
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is a straightforward fine-tuning of an existing CSM model for Georgian
+  language without any novel contributions to emotional/expressive synthesis or zero-shot
+  capabilities - it's purely a language adaptation with standard LoRA training.

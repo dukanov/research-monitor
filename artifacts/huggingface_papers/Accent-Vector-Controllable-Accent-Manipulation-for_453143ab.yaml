@@ -1,0 +1,30 @@
+title: 'Accent Vector: Controllable Accent Manipulation for Multilingual TTS Without
+  Accented Data'
+url: https://huggingface.co/papers/2603.07534
+source: huggingface_papers
+type: paper
+date_discovered: '2026-03-13T10:13:58.058261+00:00'
+date_seen: '2026-03-13'
+metadata:
+  upvotes: '2'
+  paper_id: '2603.07534'
+  published_date: '2026-03-13'
+content_preview: 'Title: Accent Vector: Controllable Accent Manipulation for Multilingual
+  TTS Without Accented Data
+
+
+  Summary:
+
+  Accent is an integral part of society, reflecting multiculturalism and shaping how
+  individuals express identity. The majority of English speakers are non-native (L2)
+  speakers, yet current Text-To-Speech (TTS) systems primarily model American-accented
+  English due limited accented data. We propose Accent Vector, a controllable representation
+  that enables accent manipulation in multilingual T'
+content_length: 1108
+llm_content_sent: 1108
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: While the task vector approach for accent control is somewhat novel, this
+  work focuses on accent manipulation rather than emotional/expressive speech synthesis,
+  and lacks zero-shot capabilities for new accents without fine-tuning.

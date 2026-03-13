@@ -1,0 +1,34 @@
+title: 'Resonate: Reinforcing Text-to-Audio Generation via Online Feedback from Large
+  Audio Language Models'
+url: https://arxiv.org/abs/2603.11661
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-13T10:13:29.833246+00:00'
+date_seen: '2026-03-13'
+metadata:
+  arxiv_id: '2603.11661'
+  published: Fri, 13 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: Resonate: Reinforcing Text-to-Audio Generation via Online
+  Feedback from Large Audio Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Reinforcement Learning (RL) has become an effective paradigm for enhancing Large
+  Language Models (LLMs) and visual generative models. However, its application in
+  text-to-audio (TTA) generation remains largely under-explored. Prior work typically
+  employs offline methods like Direct Preference Optimization (DPO) and leverages
+  Contrastive Language-Audio Pretraining'
+content_length: 1215
+llm_content_sent: 1215
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on general text-to-audio generation using reinforcement
+  learning, but does not address emotional/expressive speech synthesis or zero-shot
+  capabilities for speech specifically.

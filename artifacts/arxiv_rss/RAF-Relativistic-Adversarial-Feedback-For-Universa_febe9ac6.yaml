@@ -1,0 +1,34 @@
+title: 'RAF: Relativistic Adversarial Feedback For Universal Speech Synthesis'
+url: https://arxiv.org/abs/2603.11678
+source: arxiv_rss
+type: paper
+date_discovered: '2026-03-13T10:13:29.833595+00:00'
+date_seen: '2026-03-13'
+metadata:
+  arxiv_id: '2603.11678'
+  published: Fri, 13 Mar 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: RAF: Relativistic Adversarial Feedback For Universal Speech
+  Synthesis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We propose Relativistic Adversarial Feedback (RAF), a novel training objective for
+  GAN vocoders that improves in-domain fidelity and generalization to unseen scenarios.
+  Although modern GAN vocoders employ advanced architectures, their training objectives
+  often fail to promote generalizable representations. RAF addresses this problem
+  by leveraging speech self-supervised learning models to ass'
+content_length: 1195
+llm_content_sent: 1195
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.65
+reason: The work introduces a novel training objective combining self-supervised speech
+  models with relativistic adversarial training for vocoders, which could improve
+  generalization for zero-shot synthesis, though it focuses on vocoding rather than
+  the full emotional synthesis pipeline.
