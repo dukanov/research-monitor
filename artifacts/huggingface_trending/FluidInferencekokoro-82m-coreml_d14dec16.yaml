@@ -1,0 +1,25 @@
+title: FluidInference/kokoro-82m-coreml
+url: https://huggingface.co/FluidInference/kokoro-82m-coreml
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-03-14T10:09:06.027277+00:00'
+date_seen: '2026-03-14'
+metadata:
+  likes: '8'
+  downloads: '234'
+  trending_score: '1'
+  last_modified: '2026-03-13T16:33:12.000Z'
+content_preview: "---\nlicense: apache-2.0\nlanguage:\n  - en\nbase_model:\n- hexgrad/Kokoro-82M\n\
+  pipeline_tag: text-to-speech\n---\n\nBased on the original kokoro model, see https://github.com/FluidInference/FluidAudio\
+  \ for inference\n\n## Benchmark\n\nWe generated the same strings with to gerneate\
+  \ audio between 1s to ~300s in order to test the speed across a range of varying\
+  \ inputs on Pytorch CPU, MPS, and MLX pipeline, and compared it against the native\
+  \ Swift version with Core ML models.\n\nEach pipeline warmed up the models "
+content_length: 4273
+llm_content_sent: 4273
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: This is purely an engineering optimization (PyTorch to CoreML conversion)
+  with no scientific novelty in emotional/expressive speech synthesis or zero-shot
+  capabilities.
