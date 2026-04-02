@@ -1,0 +1,52 @@
+title: drbaph/LongCat-AudioDiT-3.5B-bf16
+url: https://huggingface.co/drbaph/LongCat-AudioDiT-3.5B-bf16
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-02T10:23:52.735872+00:00'
+date_seen: '2026-04-02'
+metadata:
+  likes: '3'
+  downloads: '178'
+  trending_score: '3'
+  last_modified: '2026-03-30T20:30:41.000Z'
+content_preview: '---
+
+  license: mit
+
+  language:
+
+  - zh
+
+  - en
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - comfyui
+
+  - audiodit
+
+  - transformers
+
+  ---
+
+
+  # LongCat-AudioDiT-3.5B — BF16 Weight-Only Quantized (ComfyUI)
+
+
+  **BF16 quantized version of [meituan-longcat/LongCat-AudioDiT-3.5B](https://huggingface.co/meituan-longcat/LongCat-AudioDiT-3.5B).**
+
+
+  [**Original Model**](https://huggingface.co/meituan-longcat/LongCat-AudioDiT-3.5B)
+  | [**Paper**](https://github.com/meituan-longcat/LongCat-AudioDiT/blob/main/LongCat-AudioDiT.pdf)
+  | [**Git'
+content_length: 4343
+llm_content_sent: 4343
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: This is merely a weight quantization (FP32 to BF16) of an existing model with
+  no scientific novelty - it's an engineering optimization that reduces memory usage
+  but introduces no new research contributions to emotional/expressive speech synthesis
+  or zero-shot capabilities.

@@ -1,0 +1,51 @@
+title: drbaph/LongCat-AudioDiT-3.5B-fp8
+url: https://huggingface.co/drbaph/LongCat-AudioDiT-3.5B-fp8
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-02T10:23:52.154264+00:00'
+date_seen: '2026-04-02'
+metadata:
+  likes: '6'
+  downloads: '90'
+  trending_score: '6'
+  last_modified: '2026-03-30T20:30:48.000Z'
+content_preview: '---
+
+  license: mit
+
+  language:
+
+  - zh
+
+  - en
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - comfyui
+
+  - audiodit
+
+  - transformers
+
+  ---
+
+
+  # LongCat-AudioDiT-3.5B — FP8 Weight-Only Quantized (ComfyUI)
+
+
+  **FP8 quantized version of [meituan-longcat/LongCat-AudioDiT-3.5B](https://huggingface.co/meituan-longcat/LongCat-AudioDiT-3.5B).**
+
+
+  [**Original Model**](https://huggingface.co/meituan-longcat/LongCat-AudioDiT-3.5B)
+  | [**Paper**](https://github.com/meituan-longcat/LongCat-AudioDiT/blob/main/LongCat-AudioDiT.pdf)
+  | [**GitHu'
+content_length: 4918
+llm_content_sent: 4918
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: This is merely a quantized version of an existing model for deployment efficiency,
+  offering no scientific novelty in emotional/expressive speech synthesis or zero-shot
+  capabilities.

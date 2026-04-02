@@ -1,0 +1,29 @@
+title: 'How Auditory Knowledge in LLM Backbones Shapes Audio Language Models: A Holistic
+  Evaluation'
+url: https://huggingface.co/papers/2603.19195
+source: huggingface_papers
+type: paper
+date_discovered: '2026-04-02T10:23:50.535124+00:00'
+date_seen: '2026-04-02'
+metadata:
+  upvotes: '4'
+  paper_id: '2603.19195'
+  published_date: '2026-04-01'
+content_preview: 'Title: How Auditory Knowledge in LLM Backbones Shapes Audio Language
+  Models: A Holistic Evaluation
+
+
+  Summary:
+
+  Large language models (LLMs) have been widely used as knowledge backbones of Large
+  Audio Language Models (LALMs), yet how much auditory knowledge they encode through
+  text-only pre-training and how this affects downstream performance remains unclear.
+  We study this gap by comparing different LLMs under two text-only and one audio-grounded
+  setting: (1) direct probing on AKB-2000, a curated b'
+content_length: 1053
+llm_content_sent: 1053
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work analyzes existing LLM knowledge about audio rather than developing
+  new methods for emotional/expressive speech synthesis or zero-shot capabilities.

@@ -1,0 +1,26 @@
+title: HumeAI/mlx-tada-3b
+url: https://huggingface.co/HumeAI/mlx-tada-3b
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-02T10:23:51.862583+00:00'
+date_seen: '2026-04-02'
+metadata:
+  likes: '9'
+  downloads: '0'
+  trending_score: '9'
+  last_modified: '2026-03-24T18:45:02.000Z'
+content_preview: "---\nlicense: llama3.2\nlibrary_name: mlx\nlanguage:\n  - en\n \
+  \ - fr\n  - de\n  - es\n  - pt\n  - it\n  - pl\n  - ja\n  - zh\n  - ar\ntags:\n\
+  \  - mlx\n  - tts\n  - text-to-speech\n  - speech-synthesis\n  - tada\n  - apple-silicon\n\
+  pipeline_tag: text-to-speech\nbase_model: meta-llama/Llama-3.2-3B\narxiv: 2602.23068\n\
+  ---\n\n<h1 align=\"center\">TADA: A Generative Framework for Speech Modeling via\
+  \ Text-Acoustic Dual Alignment</h1>\n\n<p align=\"center\">\n  <a href=\"https://arxiv.org/abs/2602.23068\"\
+  ><img src=\"https://img.shields.io"
+content_length: 5139
+llm_content_sent: 5139
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Introduces a novel unified speech-language modeling approach with 1:1 text-acoustic
+  alignment that enables zero-shot voice cloning across multiple languages, representing
+  a significant architectural advancement in generative speech synthesis.

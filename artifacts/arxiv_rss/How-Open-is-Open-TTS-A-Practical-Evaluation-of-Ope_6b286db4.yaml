@@ -1,0 +1,32 @@
+title: How Open is Open TTS? A Practical Evaluation of Open Source TTS Tools
+url: https://arxiv.org/abs/2603.24116
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-02T10:23:23.762719+00:00'
+date_seen: '2026-04-02'
+metadata:
+  arxiv_id: '2603.24116'
+  published: Thu, 02 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: How Open is Open TTS? A Practical Evaluation of Open Source
+  TTS Tools
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Open-source text-to-speech (TTS) frameworks have emerged as highly adaptable platforms
+  for developing speech synthesis systems across a wide range of languages. However,
+  their applicability is not uniform -- particularly when the target language is under-resourced
+  or when computational resources are constrained. In this study, we systematically
+  assess the feasibility of building novel TTS mo'
+content_length: 1565
+llm_content_sent: 1565
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is a comparative evaluation study of existing open-source TTS tools without
+  introducing new methods for emotional/expressive synthesis or zero-shot capabilities.

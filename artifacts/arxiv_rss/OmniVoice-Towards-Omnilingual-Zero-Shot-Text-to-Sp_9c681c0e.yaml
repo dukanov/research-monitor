@@ -1,0 +1,35 @@
+title: 'OmniVoice: Towards Omnilingual Zero-Shot Text-to-Speech with Diffusion Language
+  Models'
+url: https://arxiv.org/abs/2604.00688
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-02T10:23:23.762695+00:00'
+date_seen: '2026-04-02'
+metadata:
+  arxiv_id: '2604.00688'
+  published: Thu, 02 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, eess.AS
+content_preview: 'Title: OmniVoice: Towards Omnilingual Zero-Shot Text-to-Speech with
+  Diffusion Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We present OmniVoice, a massive multilingual zero-shot text-to-speech (TTS) model
+  that scales to over 600 languages. At its core is a novel diffusion language model-style
+  discrete non-autoregressive (NAR) architecture. Unlike conventional discrete NAR
+  models that suffer from performance bottlenecks in complex two-stage (text-to-semantic-to-acoustic)
+  pipelines, OmniVoice dire'
+content_length: 1210
+llm_content_sent: 1210
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: While the scale to 600+ languages is impressive, the core contribution is
+  primarily an engineering achievement combining existing techniques (diffusion models,
+  discrete tokens, LLM initialization) rather than introducing fundamentally new approaches
+  for emotional/expressive synthesis.

@@ -1,0 +1,34 @@
+title: 'Measuring Prosody Diversity in Zero-Shot TTS: A New Metric, Benchmark, and
+  Exploration'
+url: https://arxiv.org/abs/2509.19928
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-02T10:23:23.762712+00:00'
+date_seen: '2026-04-02'
+metadata:
+  arxiv_id: '2509.19928'
+  published: Thu, 02 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Measuring Prosody Diversity in Zero-Shot TTS: A New Metric,
+  Benchmark, and Exploration
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Prosody diversity is essential for achieving naturalness and expressiveness in zero-shot
+  text-to-speech (TTS). However, frequently used acoustic metrics capture only partial
+  views of prosodic variation and correlate poorly with human perception, leaving
+  the problem of reliably quantifying prosody diversity underexplored. To bridge this
+  gap, we introduce ProsodyEval, a prosod'
+content_length: 1697
+llm_content_sent: 1697
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel prosody diversity metric (DS-WED) with human perceptual
+  validation and provides the first systematic benchmark for prosody diversity in
+  zero-shot TTS systems, addressing a significant gap in evaluation methodology.

@@ -1,0 +1,52 @@
+title: Aratako/Irodori-TTS-500M-v2-VoiceDesign
+url: https://huggingface.co/Aratako/Irodori-TTS-500M-v2-VoiceDesign
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-02T10:23:51.651312+00:00'
+date_seen: '2026-04-02'
+metadata:
+  likes: '26'
+  downloads: '0'
+  trending_score: '26'
+  last_modified: '2026-03-31T10:32:19.000Z'
+content_preview: '---
+
+  license: mit
+
+  language:
+
+  - ja
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - speech
+
+  - voice
+
+  - tts
+
+  base_model:
+
+  - Aratako/Irodori-TTS-500M-v2
+
+  ---
+
+
+  # Irodori-TTS-500M-v2-VoiceDesign
+
+
+  [![Code](https://img.shields.io/badge/Code-GitHub-black)](https://github.com/Aratako/Irodori-TTS)
+  [![Demo Space](https://img.shields.io/badge/Demo-HuggingFace%20Space-red)](https://huggingface.co/spaces/Aratako/Irodori-TTS-500M-v2-VoiceDesign-Demo)
+
+
+  **Irodori-TTS-500M-v2-VoiceDesign** is a Japanese Text-to-Speech model based o'
+content_length: 8007
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel caption-based voice design approach that enables zero-shot
+  voice and emotion control through text descriptions rather than reference audio,
+  combined with emoji-based fine-grained style control.

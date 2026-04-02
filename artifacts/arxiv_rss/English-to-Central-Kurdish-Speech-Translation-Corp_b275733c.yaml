@@ -1,0 +1,34 @@
+title: 'English to Central Kurdish Speech Translation: Corpus Creation, Evaluation,
+  and Orthographic Standardization'
+url: https://arxiv.org/abs/2604.00613
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-02T10:23:23.816020+00:00'
+date_seen: '2026-04-02'
+metadata:
+  arxiv_id: '2604.00613'
+  published: Thu, 02 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: English to Central Kurdish Speech Translation: Corpus Creation,
+  Evaluation, and Orthographic Standardization
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We present KUTED, a speech-to-text translation (S2TT) dataset for Central Kurdish,
+  derived from TED and TEDx talks. The corpus comprises 91,000 sentence pairs, including
+  170 hours of English audio, 1.65 million English tokens, and 1.40 million Central
+  Kurdish tokens. We evaluate KUTED on the S2TT task and find that orthographic variation
+  significantly d'
+content_length: 1084
+llm_content_sent: 1084
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on speech-to-text translation for Central Kurdish with orthographic
+  standardization, which is unrelated to emotional/expressive speech synthesis or
+  zero-shot capabilities.

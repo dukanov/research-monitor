@@ -1,0 +1,30 @@
+title: Voxtral TTS
+url: https://huggingface.co/papers/2603.25551
+source: huggingface_papers
+type: paper
+date_discovered: '2026-04-02T10:23:51.007196+00:00'
+date_seen: '2026-04-02'
+metadata:
+  upvotes: '56'
+  paper_id: '2603.25551'
+  published_date: '2026-03-29'
+content_preview: 'Title: Voxtral TTS
+
+
+  Summary:
+
+  We introduce Voxtral TTS, an expressive multilingual text-to-speech model that generates
+  natural speech from as little as 3 seconds of reference audio. Voxtral TTS adopts
+  a hybrid architecture that combines auto-regressive generation of semantic speech
+  tokens with flow-matching for acoustic tokens. These tokens are encoded and decoded
+  with Voxtral Codec, a speech tokenizer trained from scratch with a hybrid VQ-FSQ
+  quantization scheme. In human evaluations conducted b'
+content_length: 749
+llm_content_sent: 749
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.65
+reason: The hybrid VQ-FSQ quantization scheme for the speech codec and the combination
+  of autoregressive semantic token generation with flow-matching for acoustic tokens
+  presents an interesting architectural contribution, though the core zero-shot voice
+  cloning concept is well-established.

@@ -1,0 +1,34 @@
+title: 'MambaVoiceCloning: Efficient and Expressive Text-to-Speech via State-Space
+  Modeling and Diffusion Control'
+url: https://arxiv.org/abs/2604.00292
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-02T10:23:23.732562+00:00'
+date_seen: '2026-04-02'
+metadata:
+  arxiv_id: '2604.00292'
+  published: Thu, 02 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.LG
+content_preview: 'Title: MambaVoiceCloning: Efficient and Expressive Text-to-Speech
+  via State-Space Modeling and Diffusion Control
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  MambaVoiceCloning (MVC) asks whether the conditioning path of diffusion-based TTS
+  can be made fully SSM-only at inference, removing all attention and explicit RNN-style
+  recurrence layers across text, rhythm, and prosody, while preserving or improving
+  quality under controlled conditions. MVC combines a gated bidirectional Mamba text
+  encoder, a Temporal Bi-M'
+content_length: 1450
+llm_content_sent: 1450
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Novel application of pure state-space modeling (Mamba) to replace all attention
+  mechanisms in TTS conditioning while maintaining expressiveness, though the core
+  diffusion backbone remains unchanged.

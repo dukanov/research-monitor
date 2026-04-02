@@ -1,0 +1,71 @@
+title: pnnbao-ump/VieNeu-TTS-v2-Turbo
+url: https://huggingface.co/pnnbao-ump/VieNeu-TTS-v2-Turbo
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-02T10:23:52.296959+00:00'
+date_seen: '2026-04-02'
+metadata:
+  likes: '5'
+  downloads: '268'
+  trending_score: '5'
+  last_modified: '2026-04-01T05:17:10.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  datasets:
+
+  - pnnbao-ump/vietnamese-audio-corpus
+
+  - pnnbao-ump/VieNeu-TTS-1000h
+
+  - amphion/Emilia-Dataset
+
+  - facebook/multilingual_librispeech
+
+  language:
+
+  - vi
+
+  - en
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - tts
+
+  - vietnamese
+
+  - bilingual
+
+  - transformers
+
+  - pytorch
+
+  - zero-shot-cloning
+
+  - code-switching
+
+  - high-fidelity
+
+  ---
+
+
+  # 🦜 VieNeu-TTS v2 Turbo (GPU Edition)
+
+
+  > **The fastest Bilingual (Vietnamese & English) TTS engine with Instant Zero-Shot
+  Voice Cloning.**
+
+
+  <audio controls src="https://'
+content_length: 5871
+llm_content_sent: 5871
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: While this model offers zero-shot voice cloning for Vietnamese-English bilingual
+  TTS, it appears to be primarily an engineering optimization ("Turbo" version) of
+  existing transformer-based approaches rather than introducing novel architectural
+  or methodological innovations.

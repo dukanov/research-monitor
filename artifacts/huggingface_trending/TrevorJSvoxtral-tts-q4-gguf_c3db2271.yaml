@@ -1,0 +1,26 @@
+title: TrevorJS/voxtral-tts-q4-gguf
+url: https://huggingface.co/TrevorJS/voxtral-tts-q4-gguf
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-02T10:23:52.112400+00:00'
+date_seen: '2026-04-02'
+metadata:
+  likes: '6'
+  downloads: '1025'
+  trending_score: '6'
+  last_modified: '2026-03-28T17:44:15.000Z'
+content_preview: "---\nlicense: apache-2.0\nbase_model: mistralai/Voxtral-4B-TTS-2603\n\
+  tags:\n  - tts\n  - text-to-speech\n  - voxtral\n  - gguf\n  - q4\n  - burn\n  -\
+  \ rust\n  - wasm\n  - webgpu\nlanguage:\n  - en\n  - fr\n  - de\n  - es\n  - pt\n\
+  \  - ar\n  - hi\n  - it\n  - nl\n---\n\n# Voxtral TTS Q4 GGUF\n\nQ4_0 quantized\
+  \ weights for [Voxtral 4B TTS](https://huggingface.co/mistralai/Voxtral-4B-TTS-2603)\
+  \ in GGUF format. For use with [voxtral-mini-realtime-rs](https://github.com/TrevorS/voxtral-mini-realtime-rs).\n\
+  \n**[Try the browser demo]("
+content_length: 4435
+llm_content_sent: 4435
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is purely an engineering optimization (quantization and deployment) of
+  an existing TTS model without any novel contributions to emotional/expressive synthesis
+  or zero-shot capabilities.

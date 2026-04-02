@@ -1,0 +1,26 @@
+title: cabdru/clipcannon-voice-clone
+url: https://huggingface.co/cabdru/clipcannon-voice-clone
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-02T10:23:53.341547+00:00'
+date_seen: '2026-04-02'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-03-29T23:33:57.000Z'
+content_preview: "---\nlicense: mit\nlanguage: en\ntags:\n- tts\n- voice-cloning\n\
+  - qwen3-tts\n- speaker-verification\n- speech-synthesis\ndatasets:\n- custom\n-\
+  \ openslr/librispeech_asr\nmetrics:\n- speaker_similarity\n- wer\npipeline_tag:\
+  \ text-to-speech\nmodel-index:\n- name: ClipCannon Voice Clone Pipeline\n  results:\n\
+  \  - task:\n      type: text-to-speech\n      name: SeedTTS-Eval Zero-Shot (test-en,\
+  \ 1088 samples)\n    dataset:\n      type: openslr/librispeech_asr\n      name:\
+  \ SeedTTS-Eval test-en (Common Voice)\n    metrics:\n    - ty"
+content_length: 5655
+llm_content_sent: 5655
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is purely engineering optimization of an existing model (Qwen3-TTS) using
+  best-of-N selection and temperature tuning, with no novel algorithmic contributions
+  to zero-shot voice cloning or emotional/expressive synthesis.

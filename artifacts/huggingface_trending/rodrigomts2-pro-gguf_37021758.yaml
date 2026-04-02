@@ -1,0 +1,60 @@
+title: rodrigomt/s2-pro-gguf
+url: https://huggingface.co/rodrigomt/s2-pro-gguf
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-02T10:23:52.072895+00:00'
+date_seen: '2026-04-02'
+metadata:
+  likes: '27'
+  downloads: '5429'
+  trending_score: '6'
+  last_modified: '2026-03-21T21:00:08.000Z'
+content_preview: '---
+
+  license: other
+
+  license_name: fish-audio-research-license
+
+  license_link: https://huggingface.co/rodrigomt/s2-pro-gguf/blob/main/LICENSE.md
+
+  language:
+
+  - multilingual
+
+  tags:
+
+  - text-to-speech
+
+  - audio
+
+  - fish-speech
+
+  - gguf
+
+  - tts
+
+  - voice-cloning
+
+  pipeline_tag: text-to-speech
+
+  base_model: fishaudio/s2-pro
+
+  ---
+
+
+  # S2 Pro — GGUF
+
+
+  > **ALPHA — EXPERIMENTAL**
+
+  > The inference engine ([s2.cpp](https://github.com/rodrigomatta/s2.cpp)) is an
+  early-stage, community-built project. Expect rough edges and breaking cha'
+content_length: 3679
+llm_content_sent: 3679
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily a model packaging/deployment contribution (GGUF quantization
+  for local inference) rather than a novel approach to emotional/expressive speech
+  synthesis, with the underlying S2 Pro model architecture being previously published
+  work.

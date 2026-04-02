@@ -1,0 +1,27 @@
+title: mistralai/Voxtral-4B-TTS-2603
+url: https://huggingface.co/mistralai/Voxtral-4B-TTS-2603
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-02T10:23:51.490056+00:00'
+date_seen: '2026-04-02'
+metadata:
+  likes: '614'
+  downloads: '4316'
+  trending_score: '614'
+  last_modified: '2026-03-31T13:43:59.000Z'
+content_preview: "---\nlibrary_name: vllm\nlanguage:\n- en\n- fr\n- es\n- pt\n- it\n\
+  - nl\n- de\n- ar\n- hi\nlicense: cc-by-nc-4.0\ninference: false\nbase_model:\n-\
+  \ mistralai/Ministral-3-3B-Base-2512\nextra_gated_description: >-\n  If you want\
+  \ to learn more about how we process your personal data, please read\n  our <a href=\"\
+  https://mistral.ai/terms/\">Privacy Policy</a>.\ntags:\n- mistral-common\npipeline_tag:\
+  \ text-to-speech\n---\n\n# Voxtral 4B TTS 2603 \n\nVoxtral TTS is a frontier, open-weights\
+  \ text-to-speech model that’s fast, instantl"
+content_length: 5980
+llm_content_sent: 5980
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: While this is a production-ready TTS model with multilingual support and voice
+  adaptation capabilities, it appears to be primarily an engineering/deployment achievement
+  rather than introducing novel scientific approaches to emotional/expressive speech
+  synthesis or zero-shot voice cloning.

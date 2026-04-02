@@ -1,0 +1,134 @@
+title: k2-fsa/OmniVoice
+url: https://huggingface.co/k2-fsa/OmniVoice
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-02T10:23:51.953040+00:00'
+date_seen: '2026-04-02'
+metadata:
+  likes: '9'
+  downloads: '234'
+  trending_score: '9'
+  last_modified: '2026-04-02T01:41:35.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  base_model:
+
+  - Qwen/Qwen3-0.6B
+
+  pipeline_tag: text-to-speech
+
+  language:
+
+  - "aae"
+
+  - "aal"
+
+  - "aao"
+
+  - "ab"
+
+  - "abb"
+
+  - "abn"
+
+  - "abr"
+
+  - "abs"
+
+  - "abv"
+
+  - "acm"
+
+  - "acw"
+
+  - "acx"
+
+  - "adf"
+
+  - "adx"
+
+  - "ady"
+
+  - "aeb"
+
+  - "aec"
+
+  - "af"
+
+  - "afb"
+
+  - "afo"
+
+  - "ahl"
+
+  - "ahs"
+
+  - "ajg"
+
+  - "aju"
+
+  - "ala"
+
+  - "aln"
+
+  - "alo"
+
+  - "am"
+
+  - "amu"
+
+  - "an"
+
+  - "anc"
+
+  - "ank"
+
+  - "anp"
+
+  - "anw"
+
+  - "aom"
+
+  - "apc"
+
+  - "apd"
+
+  - "arb"
+
+  - "arq"
+
+  - "ars"
+
+  - "ary"
+
+  - "arz"
+
+  - "as"
+
+  - "ast"
+
+  - "avl"
+
+  - "awo"
+
+  - "ayl"
+
+  - "ayp"
+
+  - "az"
+
+  - "ba"
+
+  - "bag"
+
+  - "bas'
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel diffusion language model architecture for zero-shot multilingual
+  TTS with exceptional language coverage (600+ languages) and fast inference, though
+  the core diffusion approach for TTS is not entirely new.

@@ -1,0 +1,26 @@
+title: mlx-community/Voxtral-4B-TTS-2603-mlx-4bit
+url: https://huggingface.co/mlx-community/Voxtral-4B-TTS-2603-mlx-4bit
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-02T10:23:51.905548+00:00'
+date_seen: '2026-04-02'
+metadata:
+  likes: '9'
+  downloads: '2138'
+  trending_score: '9'
+  last_modified: '2026-03-27T04:55:05.000Z'
+content_preview: "---\nlanguage:\n  - en\n  - fr\n  - es\n  - de\n  - it\n  - pt\n\
+  \  - nl\n  - ar\n  - hi\ntags:\n  - text-to-speech\n  - speech\n  - speech generation\n\
+  \  - tts\n  - mlx\nlicense: cc-by-nc-4.0\nbase_model: mistralai/Voxtral-4B-TTS-2603\n\
+  pipeline_tag: text-to-speech\n---\n\n# Voxtral-4B-TTS-2603 (MLX 4bit)\n\nMLX 4bit\
+  \ version of [mistralai/Voxtral-4B-TTS-2603](https://huggingface.co/mistralai/Voxtral-4B-TTS-2603)\
+  \ — a 4B parameter multilingual text-to-speech model with 20 voice presets across\
+  \ 9 languages.\n\n**Size:** ~2.5GB\n"
+content_length: 1621
+llm_content_sent: 1621
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: This is merely a quantized version of an existing model for deployment optimization,
+  offering no scientific novelty in emotional/expressive speech synthesis or zero-shot
+  capabilities.
