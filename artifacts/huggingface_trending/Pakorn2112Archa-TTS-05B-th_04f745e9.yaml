@@ -1,0 +1,53 @@
+title: Pakorn2112/Archa-TTS-0.5B-th
+url: https://huggingface.co/Pakorn2112/Archa-TTS-0.5B-th
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-03T10:19:09.279905+00:00'
+date_seen: '2026-04-03'
+metadata:
+  likes: '2'
+  downloads: '48'
+  trending_score: '2'
+  last_modified: '2026-04-01T06:26:09.000Z'
+content_preview: '---
+
+  license: mit
+
+  datasets:
+
+  - CMKL/Porjai-Thai-voice-dataset-central
+
+  language:
+
+  - th
+
+  base_model:
+
+  - Qwen/Qwen2.5-0.5B
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  Archa-TTS-0.5B-th
+
+  โมเดลแปลงข้อความภาษาไทยเป็นเสียงพูด (Text-to-Speech) พัฒนาบน Qwen2.5-0.5B ด้วยการ
+  fine-tune แบบ LoRA ร่วมกับ SNAC audio codec ที่ sample rate 24kHz
+
+
+  พัฒนาโดย ปรกณ์ อาชาคีรี — TU ACM SIGHPC Student Chapter | สนับสนุนโดย Thai SC
+
+
+  #GITHUB:https://github.com/YangNobody12/Archa-TTS-0.5B-th
+
+
+  โมเดลจะสร้างลำดับ audio tokens จากข้อความภาษาไ'
+content_length: 2609
+llm_content_sent: 2609
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is a straightforward fine-tuning of an existing language model (Qwen2.5)
+  for Thai TTS using standard LoRA adaptation with SNAC codec, offering no novel contributions
+  to emotional/expressive synthesis or zero-shot capabilities.

@@ -1,0 +1,70 @@
+title: pnnbao-ump/VieNeu-TTS-v2-Turbo-GGUF
+url: https://huggingface.co/pnnbao-ump/VieNeu-TTS-v2-Turbo-GGUF
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-03T10:19:11.094177+00:00'
+date_seen: '2026-04-03'
+metadata:
+  likes: '2'
+  downloads: '2442'
+  trending_score: '2'
+  last_modified: '2026-04-01T05:17:52.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  datasets:
+
+  - pnnbao-ump/vietnamese-audio-corpus
+
+  - pnnbao-ump/VieNeu-TTS-1000h
+
+  - amphion/Emilia-Dataset
+
+  - facebook/multilingual_librispeech
+
+  language:
+
+  - vi
+
+  - en
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - tts
+
+  - vietnamese
+
+  - bilingual
+
+  - gguf
+
+  - onnx
+
+  - cpu-inference
+
+  - code-switching
+
+  - on-device
+
+  ---
+
+
+  # 🦜 VieNeu-TTS v2 Turbo — GGUF
+
+
+  > **Ultra-fast Vietnamese & English TTS — runs entirely on CPU, no GPU required.**
+
+
+  <audio controls src="https://cdn-uploads.huggingface.co/production/uploa'
+content_length: 6536
+llm_content_sent: 6536
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily an engineering optimization (GGUF quantization for CPU inference)
+  of an existing TTS model with basic zero-shot voice cloning, offering no significant
+  scientific novelty in emotional/expressive synthesis or zero-shot capabilities beyond
+  standard speaker embedding approaches.

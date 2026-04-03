@@ -1,0 +1,26 @@
+title: g-group-ai-lab/gwen-tts-0.6B
+url: https://huggingface.co/g-group-ai-lab/gwen-tts-0.6B
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-03T10:18:51.423932+00:00'
+date_seen: '2026-04-03'
+metadata:
+  likes: '4'
+  downloads: '0'
+  trending_score: '4'
+  last_modified: '2026-04-03T05:38:39.000Z'
+content_preview: "---\nlibrary_name: transformers\nlicense: mit\nlanguage:\n  - vi\n\
+  \  - zh\n  - en\n  - ja\n  - ko\n  - fr\n  - de\n  - it\n  - pt\n  - ru\n  - es\n\
+  pipeline_tag: text-to-speech\ntags:\n  - tts\n  - voice-cloning\n  - vietnamese\n\
+  \  - gwen-tts\n  - qwen3-tts\n  - speech-synthesis\nbase_model: Qwen/Qwen3-TTS-12Hz-0.6B-Base\n\
+  ---\n\n# Gwen-TTS 0.6B - Natural Vietnamese Voice Cloning\n\n**Gwen-TTS** is a Vietnamese\
+  \ text-to-speech model with natural voice cloning capability.\n\n**Key highlights:**\n\
+  - Clone any voice with just a few se"
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily a fine-tuned application of existing Qwen3-TTS architecture
+  for Vietnamese voice cloning with no apparent novel technical contributions to emotional/expressive
+  synthesis or zero-shot capabilities beyond standard voice cloning.

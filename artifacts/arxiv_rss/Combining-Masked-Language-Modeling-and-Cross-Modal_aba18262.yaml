@@ -1,0 +1,34 @@
+title: Combining Masked Language Modeling and Cross-Modal Contrastive Learning for
+  Prosody-Aware TTS
+url: https://arxiv.org/abs/2604.01247
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-03T10:17:42.113583+00:00'
+date_seen: '2026-04-03'
+metadata:
+  arxiv_id: '2604.01247'
+  published: Fri, 03 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: Combining Masked Language Modeling and Cross-Modal Contrastive
+  Learning for Prosody-Aware TTS
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We investigate multi-stage pretraining for prosody modeling in diffusion-based TTS.
+  A speaker-conditioned dual-stream encoder is trained with masked language modeling
+  followed by SigLIP-style cross-modal contrastive learning using mixed-phoneme batches,
+  with an additional same-phoneme refinement stage studied separately. We evaluate
+  intrinsic text-audio retrieval and '
+content_length: 1199
+llm_content_sent: 1199
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.65
+reason: The combination of masked language modeling with cross-modal contrastive learning
+  for prosody modeling in TTS is a novel training paradigm, though the individual
+  components are established techniques.

@@ -1,0 +1,33 @@
+title: T5Gemma-TTS Technical Report
+url: https://arxiv.org/abs/2604.01760
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-03T10:17:42.133111+00:00'
+date_seen: '2026-04-03'
+metadata:
+  arxiv_id: '2604.01760'
+  published: Fri, 03 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: T5Gemma-TTS Technical Report
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Autoregressive neural codec language models have shown strong zero-shot voice cloning
+  ability, but decoder-only architectures treat input text as a prefix that competes
+  with the growing audio sequence for positional capacity, weakening text conditioning
+  over long utterances. We present T5Gemma-TTS, an encoder-decoder codec language
+  model that maintains persistent text conditioning by routing bidirectional text
+  representations throu'
+content_length: 2067
+llm_content_sent: 2067
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces Progress-Monitoring Rotary Position Embedding (PM-RoPE) for duration
+  control and applies encoder-decoder architecture to codec language models for TTS,
+  showing strong zero-shot voice cloning capabilities across multiple languages.

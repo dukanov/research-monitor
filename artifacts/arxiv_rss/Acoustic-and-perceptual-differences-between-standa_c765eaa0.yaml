@@ -1,0 +1,35 @@
+title: Acoustic and perceptual differences between standard and accented Chinese speech
+  and their voice clones
+url: https://arxiv.org/abs/2604.01562
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-03T10:17:42.113649+00:00'
+date_seen: '2026-04-03'
+metadata:
+  arxiv_id: '2604.01562'
+  published: Fri, 03 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.CL, cs.CY, cs.HC
+content_preview: 'Title: Acoustic and perceptual differences between standard and
+  accented Chinese speech and their voice clones
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Voice cloning is often evaluated in terms of overall quality, but less is known
+  about accent preservation and its perceptual consequences. We compare standard and
+  heavily accented Mandarin speech and their voice clones using a combined computational
+  and perceptual design. Embedding-based analyses show no reliable accented-standard
+  difference in original-clon'
+content_length: 1150
+llm_content_sent: 1150
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.65
+reason: Introduces the novel insight that accent preservation and speaker identity
+  preservation should be evaluated as separable dimensions in voice cloning, revealing
+  that standard embedding-based metrics may miss important perceptual differences
+  in accent fidelity.

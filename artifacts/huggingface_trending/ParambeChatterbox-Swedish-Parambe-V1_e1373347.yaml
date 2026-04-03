@@ -1,0 +1,26 @@
+title: Parambe/Chatterbox-Swedish-Parambe-V1
+url: https://huggingface.co/Parambe/Chatterbox-Swedish-Parambe-V1
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-03T10:19:11.883164+00:00'
+date_seen: '2026-04-03'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-04-02T13:28:57.000Z'
+content_preview: "---\nlicense: apache-2.0\nbase_model: resemble-ai/chatterbox-multilingual-v2\n\
+  language: sv\ntags:\n- text-to-speech\n- swedish\n- tts\n- chatterbox\n- voice-cloning\n\
+  ---\n\n# Chatterbox-Swedish-Parambe-v1\n\nThis is a high-fidelity Swedish Text-to-Speech\
+  \ (TTS) model, built by fine-tuning the **T3 (Text-to-Speech Transformer)** layer\
+  \ of the Chatterbox architecture. \n\nIt has been trained on hundreds of hours of\
+  \ high-quality Swedish speech data to achieve superior prosody, natural intonation,\
+  \ and perfect handlin"
+content_length: 2071
+llm_content_sent: 2071
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is a straightforward fine-tuning of an existing multilingual TTS model
+  (Chatterbox) for Swedish language, with no novel contributions to emotional/expressive
+  synthesis or zero-shot capabilities - it's purely a language adaptation effort.
