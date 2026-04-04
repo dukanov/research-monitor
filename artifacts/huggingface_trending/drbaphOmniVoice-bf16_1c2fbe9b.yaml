@@ -1,0 +1,132 @@
+title: drbaph/OmniVoice-bf16
+url: https://huggingface.co/drbaph/OmniVoice-bf16
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-04T10:13:29.957466+00:00'
+date_seen: '2026-04-04'
+metadata:
+  likes: '2'
+  downloads: '186'
+  trending_score: '2'
+  last_modified: '2026-04-02T20:50:23.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  base_model:
+
+  - k2-fsa/OmniVoice
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - comfyui
+
+  - omnivoice
+
+  - transformers
+
+  - bf16
+
+  language:
+
+  - "aae"
+
+  - "aal"
+
+  - "aao"
+
+  - "ab"
+
+  - "abb"
+
+  - "abn"
+
+  - "abr"
+
+  - "abs"
+
+  - "abv"
+
+  - "acm"
+
+  - "acw"
+
+  - "acx"
+
+  - "adf"
+
+  - "adx"
+
+  - "ady"
+
+  - "aeb"
+
+  - "aec"
+
+  - "af"
+
+  - "afb"
+
+  - "afo"
+
+  - "ahl"
+
+  - "ahs"
+
+  - "ajg"
+
+  - "aju"
+
+  - "ala"
+
+  - "aln"
+
+  - "alo"
+
+  - "am"
+
+  - "amu"
+
+  - "an"
+
+  - "anc"
+
+  - "ank"
+
+  - "anp"
+
+  - "anw"
+
+  - "aom"
+
+  - "apc"
+
+  - "apd"
+
+  - "arb"
+
+  - "arq"
+
+  - "ars"
+
+  - "ary"
+
+  - "arz"
+
+  - "as"
+
+  - "ast"
+
+  - "avl"
+
+  -'
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: This is merely a quantization of an existing model (OmniVoice) from FP32 to
+  BF16 with no novel contributions to emotional/expressive speech synthesis or zero-shot
+  capabilities beyond memory optimization.

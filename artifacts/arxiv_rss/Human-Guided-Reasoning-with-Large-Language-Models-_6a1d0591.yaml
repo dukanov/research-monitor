@@ -1,0 +1,34 @@
+title: Human-Guided Reasoning with Large Language Models for Vietnamese Speech Emotion
+  Recognition
+url: https://arxiv.org/abs/2604.01711
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-04T10:12:51.376889+00:00'
+date_seen: '2026-04-04'
+metadata:
+  arxiv_id: '2604.01711'
+  published: Sat, 04 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Human-Guided Reasoning with Large Language Models for Vietnamese
+  Speech Emotion Recognition
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Vietnamese Speech Emotion Recognition (SER) remains challenging due to ambiguous
+  acoustic patterns and the lack of reliable annotated data, especially in real-world
+  conditions where emotional boundaries are not clearly separable. To address this
+  problem, this paper proposes a human-machine collaborative framework that integrates
+  human knowledge into the learning process'
+content_length: 1813
+llm_content_sent: 1813
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on emotion recognition from speech rather than emotional/expressive
+  speech synthesis, and lacks zero-shot capabilities - it's trained on a specific
+  Vietnamese dataset for classification rather than generating expressive speech.
