@@ -1,0 +1,65 @@
+title: KickItLikeShika/NileTTS-XTTS
+url: https://huggingface.co/KickItLikeShika/NileTTS-XTTS
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-05T10:13:27.762068+00:00'
+date_seen: '2026-04-05'
+metadata:
+  likes: '2'
+  downloads: '208'
+  trending_score: '2'
+  last_modified: '2026-03-23T10:41:02.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - ar
+
+  library_name: coqui
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - tts
+
+  - text-to-speech
+
+  - speech-synthesis
+
+  - arabic
+
+  - egyptian-arabic
+
+  - xtts
+
+  - voice-cloning
+
+  datasets:
+
+  - KickItLikeShika/NileTTS
+
+  base_model: coqui/XTTS-v2
+
+  ---
+
+
+  # Nile-XTTS Model 🇪🇬
+
+
+  **Paper:** https://arxiv.org/abs/2602.15675
+
+
+  **Nile-XTTS** is a fine-tuned version of [XTTS v2](https://huggingface.co/coqui/XTTS-v2)
+  optimized for **Egyptian Arabic (اللهجة المصرية)** text-to-speech synthesis with
+  zero-shot '
+content_length: 3663
+llm_content_sent: 3663
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.45
+reason: This is an incremental improvement that fine-tunes existing XTTS-v2 for Egyptian
+  Arabic dialect with modest performance gains, but introduces no novel architectural
+  or methodological advances in zero-shot emotional/expressive speech synthesis.
