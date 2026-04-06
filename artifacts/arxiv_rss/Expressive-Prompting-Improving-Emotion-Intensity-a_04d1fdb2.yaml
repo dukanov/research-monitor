@@ -1,0 +1,36 @@
+title: 'Expressive Prompting: Improving Emotion Intensity and Speaker Consistency
+  in Zero-Shot TTS'
+url: https://arxiv.org/abs/2409.18512
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-06T10:28:07.564103+00:00'
+date_seen: '2026-04-06'
+metadata:
+  arxiv_id: '2409.18512'
+  published: Mon, 06 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.CL, eess.AS
+content_preview: 'Title: Expressive Prompting: Improving Emotion Intensity and Speaker
+  Consistency in Zero-Shot TTS
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advancements in speech synthesis have enabled large language model (LLM)-based
+  systems to perform zero-shot generation with controllable content, timbre, speaker
+  identity, and emotion through input prompts. As a result, these models heavily rely
+  on prompt design to guide the generation process. However, existing prompt selection
+  methods often fail to ensure that p'
+content_length: 1747
+llm_content_sent: 1747
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.6
+reason: The two-stage prompt selection strategy combining static evaluation metrics
+  (prosodic features, audio quality, text-emotion coherence) with dynamic textual
+  similarity matching represents a systematic approach to improving prompt quality
+  in zero-shot expressive TTS, though the underlying synthesis architecture appears
+  unchanged.
