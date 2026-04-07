@@ -1,0 +1,26 @@
+title: msingiai/sauti-tts
+url: https://huggingface.co/msingiai/sauti-tts
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-07T10:26:13.769632+00:00'
+date_seen: '2026-04-07'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-04-07T04:55:00.000Z'
+content_preview: "---\nlanguage:\n  - sw\npipeline_tag: text-to-speech\nlibrary_name:\
+  \ pytorch\ntags:\n  - text-to-speech\n  - swahili\n  - voice-cloning\n  - audio\n\
+  \  - f5-tts\nbase_model:\n  - SWivid/F5-TTS\ndatasets:\n  - google/WaxalNLP\nlicense:\
+  \ other\nlicense_name: derived-checkpoint-upstream-obligations\nlicense_link: \"\
+  https://huggingface.co/msingiai/sauti-tts/blob/main/THIRD_PARTY_NOTICES.md\"\n---\n\
+  \n# Sauti TTS\n\nSauti TTS is a **Swahili text-to-speech checkpoint** released by\
+  \ **MsingiAI**\nand built on top of **F5-TTS v1 Base"
+content_length: 6150
+llm_content_sent: 6150
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is a straightforward fine-tuning of existing F5-TTS on Swahili data with
+  no novel contributions to emotional/expressive synthesis or zero-shot capabilities
+  - it's purely language adaptation work.

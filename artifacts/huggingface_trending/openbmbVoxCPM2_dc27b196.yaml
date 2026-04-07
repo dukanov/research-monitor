@@ -1,0 +1,114 @@
+title: openbmb/VoxCPM2
+url: https://huggingface.co/openbmb/VoxCPM2
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-07T10:26:06.733092+00:00'
+date_seen: '2026-04-07'
+metadata:
+  likes: '142'
+  downloads: '129'
+  trending_score: '142'
+  last_modified: '2026-04-06T14:34:21.000Z'
+content_preview: '---
+
+  language:
+
+  - zh
+
+  - en
+
+  - ar
+
+  - my
+
+  - da
+
+  - nl
+
+  - fi
+
+  - fr
+
+  - de
+
+  - el
+
+  - he
+
+  - hi
+
+  - id
+
+  - it
+
+  - ja
+
+  - km
+
+  - ko
+
+  - lo
+
+  - ms
+
+  - no
+
+  - pl
+
+  - pt
+
+  - ru
+
+  - es
+
+  - sw
+
+  - sv
+
+  - tl
+
+  - th
+
+  - tr
+
+  - vi
+
+  license: apache-2.0
+
+  library_name: voxcpm
+
+  tags:
+
+  - text-to-speech
+
+  - tts
+
+  - multilingual
+
+  - voice-cloning
+
+  - voice-design
+
+  - diffusion
+
+  - audio
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  # VoxCPM2
+
+
+  **VoxCPM2** is a tokenizer-free, diffusion autoregressive Text-to-Speech model —
+  **2B parameters**, **30 languages**, **48kHz** audio output, trained on ov'
+content_length: 7480
+llm_content_sent: 7480
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces tokenizer-free diffusion autoregressive architecture for TTS with
+  novel voice design from natural language descriptions and controllable cloning capabilities,
+  representing a solid engineering advancement but building incrementally on existing
+  diffusion and autoregressive TTS approaches.

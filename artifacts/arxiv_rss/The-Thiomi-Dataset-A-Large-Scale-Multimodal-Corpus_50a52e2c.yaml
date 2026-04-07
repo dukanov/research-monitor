@@ -1,0 +1,34 @@
+title: 'The Thiomi Dataset: A Large-Scale Multimodal Corpus for Low-Resource African
+  Languages'
+url: https://arxiv.org/abs/2603.29244
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-07T10:25:36.175716+00:00'
+date_seen: '2026-04-07'
+metadata:
+  arxiv_id: '2603.29244'
+  published: Tue, 07 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.LG
+content_preview: 'Title: The Thiomi Dataset: A Large-Scale Multimodal Corpus for Low-Resource
+  African Languages
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We present the Thiomi Dataset, a large-scale multimodal corpus spanning ten African
+  languages across four language families: Swahili, Kikuyu, Kamba, Kimeru, Luo, Maasai,
+  Kipsigis, Somali (East Africa); Wolof (West Africa); and Fulani (West/Central Africa).
+  The dataset contains over 601,000 approved sentence-level text annotations and over
+  385,000 audio recordings, collected '
+content_length: 1211
+llm_content_sent: 1211
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is primarily a dataset contribution for low-resource African languages
+  focused on ASR/MT/TTS baselines, with no mention of emotional or expressive speech
+  synthesis capabilities or zero-shot approaches.

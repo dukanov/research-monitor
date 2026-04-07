@@ -1,0 +1,27 @@
+title: bosonai/higgs-audio-v2-generation-3B-base
+url: https://huggingface.co/bosonai/higgs-audio-v2-generation-3B-base
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-07T10:26:11.707051+00:00'
+date_seen: '2026-04-07'
+metadata:
+  likes: '665'
+  downloads: '592286'
+  trending_score: '2'
+  last_modified: '2026-04-04T19:47:40.000Z'
+content_preview: "---\nlicense: other\nlanguage:\n- en\n- zh\n- de\n- ko\npipeline_tag:\
+  \ text-to-speech\nlibrary_name: transformers\n---\n\n# Higgs Audio V2: Redefining\
+  \ Expressiveness in Audio Generation\n\n<div align=\"center\" style=\"display: flex;\
+  \ justify-content: center; margin-top: 10px; flex-wrap: wrap; gap: 8px;\">\n  <a\
+  \ href=\"https://boson.ai/blog/higgs-audio-v2\"><img src='https://img.shields.io/badge/\U0001F680\
+  -Launch Blogpost-228B22' style=\"margin-right: 5px;\"></a>\n  <a href=\"https://github.com/boson-ai/higgs-audio\"\
+  ><img src=\"htt"
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a unified audio tokenizer operating at 25 fps and DualFFN architecture
+  for enhanced acoustic modeling, demonstrating strong zero-shot emotional/expressive
+  capabilities with emergent behaviors like automatic prosody adaptation and multi-speaker
+  dialogue generation.

@@ -1,0 +1,30 @@
+title: 'AURA: Always-On Understanding and Real-Time Assistance via Video Streams'
+url: https://huggingface.co/papers/2604.04184
+source: huggingface_papers
+type: paper
+date_discovered: '2026-04-07T10:26:04.379143+00:00'
+date_seen: '2026-04-07'
+metadata:
+  upvotes: '35'
+  paper_id: '2604.04184'
+  published_date: '2026-04-07'
+content_preview: 'Title: AURA: Always-On Understanding and Real-Time Assistance via
+  Video Streams
+
+
+  Summary:
+
+  Video Large Language Models (VideoLLMs) have achieved strong performance on many
+  video understanding tasks, but most existing systems remain offline and are not
+  well-suited for live video streams that require continuous observation and timely
+  response. Recent streaming VideoLLMs have made progress, yet current approaches
+  often rely on decoupled trigger-response pipelines or are limited to captioning-style
+  n'
+content_length: 1302
+llm_content_sent: 1302
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on video understanding and real-time visual interaction
+  systems, which is completely unrelated to emotional/expressive speech synthesis
+  or zero-shot voice capabilities.

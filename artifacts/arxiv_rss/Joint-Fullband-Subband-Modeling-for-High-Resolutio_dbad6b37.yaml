@@ -1,0 +1,32 @@
+title: Joint Fullband-Subband Modeling for High-Resolution SingFake Detection
+url: https://arxiv.org/abs/2604.04841
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-07T10:25:36.137380+00:00'
+date_seen: '2026-04-07'
+metadata:
+  arxiv_id: '2604.04841'
+  published: Tue, 07 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, eess.AS, eess.SP
+content_preview: 'Title: Joint Fullband-Subband Modeling for High-Resolution SingFake
+  Detection
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Rapid advances in singing voice synthesis have increased unauthorized imitation
+  risks, creating an urgent need for better Singing Voice Deepfake (SingFake) Detection,
+  also known as SVDD. Unlike speech, singing contains complex pitch, wide dynamic
+  range, and timbral variations. Conventional 16 kHz-sampled detectors prove inadequate,
+  as they discard vital high-frequency information. This stud'
+content_length: 1204
+llm_content_sent: 1204
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on detecting synthetic singing voices rather than generating
+  them, which is orthogonal to emotional/expressive speech synthesis research interests.

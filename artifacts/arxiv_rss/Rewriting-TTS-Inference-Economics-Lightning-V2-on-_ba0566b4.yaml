@@ -1,0 +1,33 @@
+title: 'Rewriting TTS Inference Economics: Lightning V2 on Tenstorrent Achieves 4x
+  Lower Cost Than NVIDIA L40S'
+url: https://arxiv.org/abs/2604.03279
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-07T10:25:36.137398+00:00'
+date_seen: '2026-04-07'
+metadata:
+  arxiv_id: '2604.03279'
+  published: Tue, 07 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.DC, cs.SD
+content_preview: 'Title: Rewriting TTS Inference Economics: Lightning V2 on Tenstorrent
+  Achieves 4x Lower Cost Than NVIDIA L40S
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Text-to-Speech (TTS) models are significantly more numerically fragile than Large
+  Language Models (LLMs) due to their continuous waveform generation and perceptual
+  sensitivity to small numerical perturbations. While aggressive precision reduction
+  techniques such as BlockFloat8 (BFP8) and low-fidelity (LoFi) compute have been
+  widely adopted in language models,'
+content_length: 1599
+llm_content_sent: 1599
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is purely a hardware optimization and cost reduction paper for TTS inference
+  with no contributions to emotional/expressive speech synthesis or zero-shot capabilities.

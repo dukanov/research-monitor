@@ -1,0 +1,34 @@
+title: 'AffectSpeech: A Large-Scale Emotional Speech Dataset with Fine-Grained Textual
+  Descriptions for Speech Emotion Captioning and Synthesis'
+url: https://arxiv.org/abs/2604.04160
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-07T10:25:36.137604+00:00'
+date_seen: '2026-04-07'
+metadata:
+  arxiv_id: '2604.04160'
+  published: Tue, 07 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.SD, eess.SP
+content_preview: 'Title: AffectSpeech: A Large-Scale Emotional Speech Dataset with
+  Fine-Grained Textual Descriptions for Speech Emotion Captioning and Synthesis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Emotion is essential in spoken communication, yet most existing frameworks in speech
+  emotion modeling rely on predefined categories or low-dimensional continuous attributes,
+  which offer limited expressive capacity. Recent advances in speech emotion captioning
+  and synthesis have shown that textual descriptions provide a more fl'
+content_length: 1863
+llm_content_sent: 1863
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel multi-dimensional annotation framework combining human-LLM
+  collaboration for fine-grained emotional speech descriptions, moving beyond categorical
+  emotion labels toward more expressive textual representations that could enable
+  better zero-shot emotional speech synthesis.
