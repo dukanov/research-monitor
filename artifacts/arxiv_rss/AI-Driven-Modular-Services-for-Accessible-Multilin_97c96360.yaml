@@ -1,0 +1,35 @@
+title: 'AI-Driven Modular Services for Accessible Multilingual Education in Immersive
+  Extended Reality Settings: Integrating Speech Processing, Translation, and Sign
+  Language Rendering'
+url: https://arxiv.org/abs/2604.05591
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-08T10:26:28.582721+00:00'
+date_seen: '2026-04-08'
+metadata:
+  arxiv_id: '2604.05591'
+  published: Wed, 08 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CE, cs.AI, cs.CL, cs.CY, cs.ET
+content_preview: 'Title: AI-Driven Modular Services for Accessible Multilingual Education
+  in Immersive Extended Reality Settings: Integrating Speech Processing, Translation,
+  and Sign Language Rendering
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This work introduces a modular platform that brings together six AI services, automatic
+  speech recognition via OpenAI Whisper, multilingual translation through Meta NLLB,
+  speech synthesis using AWS Polly, emotion classification with RoBERTa, dialogue
+  summarisation via flan t5 base samsu'
+content_length: 1728
+llm_content_sent: 1728
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is primarily a systems integration paper combining existing commercial
+  APIs (AWS Polly, OpenAI Whisper) without novel contributions to emotional/expressive
+  speech synthesis or zero-shot capabilities.

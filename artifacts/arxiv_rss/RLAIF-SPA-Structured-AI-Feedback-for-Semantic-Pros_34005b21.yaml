@@ -1,0 +1,34 @@
+title: 'RLAIF-SPA: Structured AI Feedback for Semantic-Prosodic Alignment in Speech
+  Synthesis'
+url: https://arxiv.org/abs/2510.14628
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-08T10:26:28.584939+00:00'
+date_seen: '2026-04-08'
+metadata:
+  arxiv_id: '2510.14628'
+  published: Wed, 08 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI
+content_preview: 'Title: RLAIF-SPA: Structured AI Feedback for Semantic-Prosodic Alignment
+  in Speech Synthesis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in Text-To-Speech (TTS) synthesis have achieved near-human speech
+  quality in neutral speaking styles. However, most existing approaches either depend
+  on costly emotion annotations or optimize surrogate objectives that fail to adequately
+  capture perceptual emotional quality. As a result, the generated speech, while semantically
+  accurate, often lacks expressive '
+content_length: 1590
+llm_content_sent: 1590
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The novel integration of RLAIF for semantic-prosodic alignment without human
+  supervision addresses a key challenge in expressive TTS, though the core components
+  (RL for TTS, ASR feedback) are not entirely new.

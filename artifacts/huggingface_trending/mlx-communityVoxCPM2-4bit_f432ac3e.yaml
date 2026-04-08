@@ -1,0 +1,26 @@
+title: mlx-community/VoxCPM2-4bit
+url: https://huggingface.co/mlx-community/VoxCPM2-4bit
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-08T10:27:00.906428+00:00'
+date_seen: '2026-04-08'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-04-08T04:40:49.000Z'
+content_preview: "---\nlicense: apache-2.0\nbase_model: openbmb/VoxCPM2\ntags:\n \
+  \ - mlx\n  - tts\n  - text-to-speech\n  - voice-cloning\n  - voice-design\n  - multilingual\n\
+  library_name: mlx-audio\npipeline_tag: text-to-speech\nlanguage:\n  - en\n  - zh\n\
+  \  - id\n  - ja\n  - ko\n  - multilingual\n---\n\n# VoxCPM2 - 4-bit quantized\n\n\
+  MLX port of [openbmb/VoxCPM2](https://huggingface.co/openbmb/VoxCPM2) — a 2B-parameter\
+  \ multilingual TTS model with 48kHz studio-quality output, voice cloning, and voice\
+  \ design.\n\n4-bit quantized (LM layers o"
+content_length: 2194
+llm_content_sent: 2194
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is merely a 4-bit quantized port of an existing TTS model to Apple Silicon
+  hardware with no novel contributions to emotional/expressive synthesis or zero-shot
+  capabilities beyond what the original VoxCPM2 already provided.
