@@ -1,0 +1,34 @@
+title: A Novel Automatic Framework for Speaker Drift Detection in Synthesized Speech
+url: https://arxiv.org/abs/2604.06327
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-09T10:28:56.116076+00:00'
+date_seen: '2026-04-09'
+metadata:
+  arxiv_id: '2604.06327'
+  published: Thu, 09 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: A Novel Automatic Framework for Speaker Drift Detection in
+  Synthesized Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent diffusion-based text-to-speech (TTS) models achieve high naturalness and
+  expressiveness, yet often suffer from speaker drift, a subtle, gradual shift in
+  perceived speaker identity within a single utterance. This underexplored phenomenon
+  undermines the coherence of synthetic speech, especially in long-form or interactive
+  settings. We introduce the first automatic framework for '
+content_length: 1438
+llm_content_sent: 1438
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: While this addresses a quality issue in TTS systems, it focuses on speaker
+  consistency detection rather than advancing emotional/expressive synthesis or zero-shot
+  capabilities, making it tangentially relevant but not directly contributing to the
+  core research interests.

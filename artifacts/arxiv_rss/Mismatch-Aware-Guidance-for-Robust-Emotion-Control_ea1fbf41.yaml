@@ -1,0 +1,33 @@
+title: Mismatch Aware Guidance for Robust Emotion Control in Auto-Regressive TTS Models
+url: https://arxiv.org/abs/2510.13293
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-09T10:28:56.241714+00:00'
+date_seen: '2026-04-09'
+metadata:
+  arxiv_id: '2510.13293'
+  published: Thu, 09 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Mismatch Aware Guidance for Robust Emotion Control in Auto-Regressive
+  TTS Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  While Text-to-Speech (TTS) systems can achieve fine-grained control over emotional
+  expression via natural language prompts, a significant challenge emerges when the
+  desired emotion (style prompt) conflicts with the semantic content of the text.
+  This mismatch often results in unnatural-sounding speech, undermining the goal of
+  achieving fine-grained emotional control. Classifier-Fre'
+content_length: 1339
+llm_content_sent: 1339
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The paper introduces an adaptive Classifier-Free Guidance scheme that dynamically
+  adjusts based on detected style-content mismatch using LLMs/NLI models, which is
+  a novel approach to handling emotional control conflicts in autoregressive TTS systems.

@@ -1,0 +1,35 @@
+title: 'In-Context Learning in Speech Language Models: Analyzing the Role of Acoustic
+  Features, Linguistic Structure, and Induction Heads'
+url: https://arxiv.org/abs/2604.06356
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-09T10:28:56.235730+00:00'
+date_seen: '2026-04-09'
+metadata:
+  arxiv_id: '2604.06356'
+  published: Thu, 09 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI
+content_preview: 'Title: In-Context Learning in Speech Language Models: Analyzing
+  the Role of Acoustic Features, Linguistic Structure, and Induction Heads
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In-Context Learning (ICL) has been extensively studied in text-only Language Models,
+  but remains largely unexplored in the speech domain. Here, we investigate how linguistic
+  and acoustic features affect ICL in Speech Language Models. We focus on the Text-to-Speech
+  (TTS) task, which allows us to analyze ICL from two angles: (1) how a'
+content_length: 1247
+llm_content_sent: 1247
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: This work provides novel insights into in-context learning for speech synthesis
+  by systematically analyzing how acoustic features (speaking rate, pitch, intensity)
+  affect zero-shot voice mimicking capabilities and demonstrating the causal role
+  of induction heads in speech-based ICL, which hasn't been explored before in the
+  speech domain.

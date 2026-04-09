@@ -1,0 +1,32 @@
+title: How to Evaluate Speech Translation with Source-Aware Neural MT Metrics
+url: https://arxiv.org/abs/2511.03295
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-09T10:28:56.241822+00:00'
+date_seen: '2026-04-09'
+metadata:
+  arxiv_id: '2511.03295'
+  published: Thu, 09 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI
+content_preview: 'Title: How to Evaluate Speech Translation with Source-Aware Neural
+  MT Metrics
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Automatic evaluation of ST systems is typically performed by comparing translation
+  hypotheses with one or more reference translations. While effective to some extent,
+  this approach inherits the limitation of reference-based evaluation that ignores
+  valuable information from the source input. In MT, recent progress has shown that
+  neural metrics incorporating the source text achieve stronger c'
+content_length: 2091
+llm_content_sent: 2091
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This paper focuses on evaluation metrics for speech translation systems rather
+  than advancing emotional/expressive speech synthesis or zero-shot capabilities.

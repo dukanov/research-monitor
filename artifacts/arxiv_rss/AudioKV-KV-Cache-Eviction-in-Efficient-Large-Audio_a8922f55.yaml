@@ -1,0 +1,34 @@
+title: 'AudioKV: KV Cache Eviction in Efficient Large Audio Language Models'
+url: https://arxiv.org/abs/2604.06694
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-09T10:28:56.116139+00:00'
+date_seen: '2026-04-09'
+metadata:
+  arxiv_id: '2604.06694'
+  published: Thu, 09 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: AudioKV: KV Cache Eviction in Efficient Large Audio Language
+  Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large Audio-Language Models (LALMs) have set new benchmarks in speech processing,
+  yet their deployment is hindered by the memory footprint of the Key-Value (KV) cache
+  during long-context inference. While general KV cache compression techniques excel
+  in LLMs, they often fail in the audio domain by overlooking the intrinsic temporal
+  continuity of acoustic signals. To bridge this gap, we propose '
+content_length: 1601
+llm_content_sent: 1601
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on KV cache optimization for computational efficiency in
+  large audio-language models rather than addressing emotional/expressive speech synthesis
+  or zero-shot capabilities, making it tangentially relevant at best to the specified
+  research interests.
