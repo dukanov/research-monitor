@@ -1,0 +1,34 @@
+title: 'Semantic-Emotional Resonance Embedding: A Semi-Supervised Paradigm for Cross-Lingual
+  Speech Emotion Recognition'
+url: https://arxiv.org/abs/2604.07417
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-10T10:25:21.773980+00:00'
+date_seen: '2026-04-10'
+metadata:
+  arxiv_id: '2604.07417'
+  published: Fri, 10 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: Semantic-Emotional Resonance Embedding: A Semi-Supervised
+  Paradigm for Cross-Lingual Speech Emotion Recognition
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Cross-lingual Speech Emotion Recognition (CLSER) aims to identify emotional states
+  in unseen languages. However, existing methods heavily rely on the semantic synchrony
+  of complete labels and static feature stability, hindering low-resource languages
+  from reaching high-resource performance. To address this, we propose a semi-supervised
+  framework base'
+content_length: 1447
+llm_content_sent: 1447
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on emotion recognition from speech rather than emotional
+  speech synthesis, and while it mentions cross-lingual capabilities, it doesn't address
+  zero-shot synthesis which is the core research interest.

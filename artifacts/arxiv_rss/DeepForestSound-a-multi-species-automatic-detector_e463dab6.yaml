@@ -1,0 +1,34 @@
+title: 'DeepForestSound: a multi-species automatic detector for passive acoustic monitoring
+  in African tropical forests, a case study in Kibale National Park'
+url: https://arxiv.org/abs/2604.08087
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-10T10:25:21.774068+00:00'
+date_seen: '2026-04-10'
+metadata:
+  arxiv_id: '2604.08087'
+  published: Fri, 10 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.LG
+content_preview: 'Title: DeepForestSound: a multi-species automatic detector for passive
+  acoustic monitoring in African tropical forests, a case study in Kibale National
+  Park
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Passive Acoustic Monitoring (PAM) is widely used for biodiversity assessment. Its
+  application in African tropical forests is limited by scarce annotated data, reducing
+  the performance of general-purpose ecoacoustic models on underrepresented taxa.
+  In this study, we introduce DeepForestSound (DFS), a multi-species'
+content_length: 2014
+llm_content_sent: 2014
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on automatic detection of animal sounds in natural environments
+  for biodiversity monitoring, which is completely unrelated to emotional/expressive
+  speech synthesis or zero-shot speech generation capabilities.

@@ -1,0 +1,144 @@
+title: splendor1811/omnivoice-vietnamese
+url: https://huggingface.co/splendor1811/omnivoice-vietnamese
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-10T10:25:56.986518+00:00'
+date_seen: '2026-04-10'
+metadata:
+  likes: '2'
+  downloads: '285'
+  trending_score: '2'
+  last_modified: '2026-04-09T11:07:03.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  datasets:
+
+  - dolly-vn/dolly-audio-1000h-vietnamese
+
+  base_model:
+
+  - k2-fsa/OmniVoice
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - voice-cloning
+
+  - multilingual
+
+  - zero-shot
+
+  - voice-design
+
+  language:
+
+  - aae
+
+  - aal
+
+  - aao
+
+  - ab
+
+  - abb
+
+  - abn
+
+  - abr
+
+  - abs
+
+  - abv
+
+  - acm
+
+  - acw
+
+  - acx
+
+  - adf
+
+  - adx
+
+  - ady
+
+  - aeb
+
+  - aec
+
+  - af
+
+  - afb
+
+  - afo
+
+  - ahl
+
+  - ahs
+
+  - ajg
+
+  - aju
+
+  - ala
+
+  - aln
+
+  - alo
+
+  - am
+
+  - amu
+
+  - an
+
+  - anc
+
+  - ank
+
+  - anp
+
+  - anw
+
+  - aom
+
+  - apc
+
+  - apd
+
+  - arb
+
+  - arq
+
+  - ars
+
+  - ary
+
+  - arz
+
+  - as
+
+  - ast
+
+  - avl
+
+  - awo
+
+  - ayl
+
+  - ayp
+
+  - az
+
+  - ba'
+content_length: 9197
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is a straightforward fine-tuning of an existing multilingual TTS model
+  (OmniVoice) on Vietnamese data with no novel architectural contributions or methodological
+  advances in zero-shot emotional/expressive speech synthesis.

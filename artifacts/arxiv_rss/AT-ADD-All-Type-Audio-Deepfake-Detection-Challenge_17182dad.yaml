@@ -1,0 +1,33 @@
+title: 'AT-ADD: All-Type Audio Deepfake Detection Challenge Evaluation Plan'
+url: https://arxiv.org/abs/2604.08184
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-10T10:25:21.774133+00:00'
+date_seen: '2026-04-10'
+metadata:
+  arxiv_id: '2604.08184'
+  published: Fri, 10 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: AT-ADD: All-Type Audio Deepfake Detection Challenge Evaluation
+  Plan
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The rapid advancement of Audio Large Language Models (ALLMs) has enabled cost-effective,
+  high-fidelity generation and manipulation of both speech and non-speech audio, including
+  sound effects, singing voices, and music. While these capabilities foster creativity
+  and content production, they also introduce significant security and trust challenges,
+  as realistic audio deepfakes can now be genera'
+content_length: 1856
+llm_content_sent: 1856
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is a challenge evaluation plan for deepfake detection, not research on
+  emotional/expressive speech synthesis with zero-shot capabilities - it's focused
+  on the opposite problem (detecting synthetic audio rather than generating it).

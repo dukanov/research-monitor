@@ -1,0 +1,33 @@
+title: Hybrid CNN-Transformer Architecture for Arabic Speech Emotion Recognition
+url: https://arxiv.org/abs/2604.07357
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-10T10:25:21.774281+00:00'
+date_seen: '2026-04-10'
+metadata:
+  arxiv_id: '2604.07357'
+  published: Fri, 10 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.SD
+content_preview: 'Title: Hybrid CNN-Transformer Architecture for Arabic Speech Emotion
+  Recognition
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recognizing emotions from speech using machine learning has become an active research
+  area due to its importance in building human-centered applications. However, while
+  many studies have been conducted in English, German, and other European and Asian
+  languages, research in Arabic remains scarce because of the limited availability
+  of annotated datasets. In this paper, we present an Arabic'
+content_length: 1259
+llm_content_sent: 1259
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is emotion recognition (analysis) from speech, not emotional/expressive
+  speech synthesis (generation), and applies standard CNN-Transformer architectures
+  without novel zero-shot capabilities.

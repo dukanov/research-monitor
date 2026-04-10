@@ -1,0 +1,35 @@
+title: 'TASU2: Controllable CTC Simulation for Alignment and Low-Resource Adaptation
+  of Speech LLMs'
+url: https://arxiv.org/abs/2604.08384
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-10T10:25:21.838649+00:00'
+date_seen: '2026-04-10'
+metadata:
+  arxiv_id: '2604.08384'
+  published: Fri, 10 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI
+content_preview: 'Title: TASU2: Controllable CTC Simulation for Alignment and Low-Resource
+  Adaptation of Speech LLMs
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech LLM post-training increasingly relies on efficient cross-modal alignment
+  and robust low-resource adaptation, yet collecting large-scale audio-text pairs
+  remains costly. Text-only alignment methods such as TASU reduce this burden by simulating
+  CTC posteriors from transcripts, but they provide limited control over uncertainty
+  and error rate, making curriculum desig'
+content_length: 1225
+llm_content_sent: 1225
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on CTC alignment and low-resource adaptation for speech
+  LLMs rather than emotional/expressive synthesis, and offers only incremental improvements
+  to existing text-only alignment methods without addressing zero-shot emotional expression
+  capabilities.

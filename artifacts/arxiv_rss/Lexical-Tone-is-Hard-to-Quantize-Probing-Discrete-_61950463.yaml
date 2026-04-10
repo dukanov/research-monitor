@@ -1,0 +1,35 @@
+title: 'Lexical Tone is Hard to Quantize: Probing Discrete Speech Units in Mandarin
+  and Yor\`ub\''a'
+url: https://arxiv.org/abs/2604.07467
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-10T10:25:21.945531+00:00'
+date_seen: '2026-04-10'
+metadata:
+  arxiv_id: '2604.07467'
+  published: Fri, 10 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.LG
+content_preview: 'Title: Lexical Tone is Hard to Quantize: Probing Discrete Speech
+  Units in Mandarin and Yor\`ub\''a
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Discrete speech units (DSUs) are derived by quantising representations from models
+  trained using self-supervised learning (SSL). They are a popular representation
+  for a wide variety of spoken language tasks, including those where prosody matters.
+  DSUs are especially convenient for tasks where text and speech are jointly modelled,
+  such as text-to-speech and multimodal dia'
+content_length: 1609
+llm_content_sent: 1609
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: This work identifies a fundamental limitation in current discrete speech unit
+  quantization methods for suprasegmental features like tone and proposes a novel
+  two-stage clustering approach to better preserve prosodic information, which is
+  directly relevant to expressive speech synthesis.

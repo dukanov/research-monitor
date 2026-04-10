@@ -1,0 +1,34 @@
+title: 'CapTalk: Unified Voice Design for Single-Utterance and Dialogue Speech Generation'
+url: https://arxiv.org/abs/2604.08363
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-10T10:25:21.774141+00:00'
+date_seen: '2026-04-10'
+metadata:
+  arxiv_id: '2604.08363'
+  published: Fri, 10 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: CapTalk: Unified Voice Design for Single-Utterance and Dialogue
+  Speech Generation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Voice design from natural language descriptions is emerging as a new task in text-to-speech
+  multimodal generation, aiming to synthesize speech with target timbre and speaking
+  style without relying on reference audio. However, existing methods mainly focus
+  on single-utterance generation, leaving conversational voice design largely unexplored.
+  In this work, we extend voice design t'
+content_length: 1895
+llm_content_sent: 1895
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Introduces a novel unified framework that extends voice design from natural
+  language descriptions to dialogue settings with turn-level expressive control and
+  hierarchical variational conditioning to balance timbre preservation with context-adaptive
+  expression.

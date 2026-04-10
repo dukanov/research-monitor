@@ -1,0 +1,33 @@
+title: 'AfriVoices-KE: A Multilingual Speech Dataset for Kenyan Languages'
+url: https://arxiv.org/abs/2604.08448
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-10T10:25:21.947845+00:00'
+date_seen: '2026-04-10'
+metadata:
+  arxiv_id: '2604.08448'
+  published: Fri, 10 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: AfriVoices-KE: A Multilingual Speech Dataset for Kenyan Languages
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  AfriVoices-KE is a large-scale multilingual speech dataset comprising approximately
+  3,000 hours of audio across five Kenyan languages: Dholuo, Kikuyu, Kalenjin, Maasai,
+  and Somali. The dataset includes 750 hours of scripted speech and 2,250 hours of
+  spontaneous speech, collected from 4,777 native speakers across diverse regions
+  and demographics. This work addresses the critical underrepresentati'
+content_length: 1754
+llm_content_sent: 1754
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is a dataset contribution for underrepresented languages, which is valuable
+  for the community but doesn't introduce novel methods for emotional/expressive speech
+  synthesis or zero-shot capabilities - it's purely a data collection effort without
+  technical innovation in synthesis methods.

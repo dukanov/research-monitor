@@ -1,0 +1,34 @@
+title: 'YingMusic-Singer-Plus: Controllable Singing Voice Synthesis with Flexible
+  Lyric Manipulation and Annotation-free Melody Guidance'
+url: https://arxiv.org/abs/2603.24589
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-10T10:25:21.774557+00:00'
+date_seen: '2026-04-10'
+metadata:
+  arxiv_id: '2603.24589'
+  published: Fri, 10 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: YingMusic-Singer-Plus: Controllable Singing Voice Synthesis
+  with Flexible Lyric Manipulation and Annotation-free Melody Guidance
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Regenerating singing voices with altered lyrics while preserving melody consistency
+  remains challenging, as existing methods either offer limited controllability or
+  require laborious manual alignment. We propose YingMusic-Singer-Plus, a fully diffusion-based
+  model enabling melody-controllable singing voice synthesis with flexible lyr'
+content_length: 1219
+llm_content_sent: 1219
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on singing voice synthesis with lyric manipulation rather
+  than emotional/expressive speech synthesis, and while it mentions zero-shot capabilities,
+  it's primarily about melody preservation in singing rather than emotional expression
+  in speech.
