@@ -1,0 +1,66 @@
+title: acul3/OmniVoice-LiteRT
+url: https://huggingface.co/acul3/OmniVoice-LiteRT
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-11T10:13:42.945474+00:00'
+date_seen: '2026-04-11'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-04-04T15:26:45.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - multilingual
+
+  - id
+
+  - en
+
+  - zh
+
+  tags:
+
+  - tts
+
+  - text-to-speech
+
+  - voice-cloning
+
+  - on-device
+
+  - litert
+
+  - android
+
+  - diffusion
+
+  - omnivoice
+
+  base_model: k2-fsa/OmniVoice
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  # OmniVoice-LiteRT — On-Device TTS Export for Android
+
+
+  Exported and optimized weights from [k2-fsa/OmniVoice](https://huggingface.co/k2-fsa/OmniVoice)
+  for on-device inference on Android via LiteRT (formerly TFLite).
+
+
+  OmniVoice is a state-of-the-art zero-shot multilingual T'
+content_length: 5869
+llm_content_sent: 5869
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is purely an engineering optimization/deployment effort of an existing
+  model (k2-fsa/OmniVoice) for mobile devices, with no novel scientific contributions
+  to emotional/expressive speech synthesis or zero-shot capabilities.
