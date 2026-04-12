@@ -1,0 +1,55 @@
+title: bluryar/VoxCPM-GGUF
+url: https://huggingface.co/bluryar/VoxCPM-GGUF
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-12T10:17:46.449352+00:00'
+date_seen: '2026-04-12'
+metadata:
+  likes: '3'
+  downloads: '1392'
+  trending_score: '2'
+  last_modified: '2026-04-07T12:49:12.000Z'
+content_preview: '---
+
+  base_model:
+
+  - openbmb/VoxCPM1.5
+
+  - openbmb/VoxCPM-0.5B
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  # VoxCPM.cpp
+
+
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+
+
+  Standalone C++ inference project for VoxCPM models built on top of `ggml`.
+
+
+  - **VoxCPM.CPP Repo**: https://github.com/bluryar/VoxCPM.cpp
+
+  - **GGUF Weights**: https://huggingface.co/bluryar/VoxCPM-GGUF
+
+  - VoxCPM Official Repository: https://github.com/OpenBMB/VoxCPM
+
+
+  [中文文档](README_zh.md)
+
+
+  ## Status
+
+
+  This director'
+content_length: 9860
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is purely an engineering optimization project that ports existing VoxCPM
+  models to C++ with quantization for faster inference, but introduces no novel speech
+  synthesis methods or zero-shot capabilities.
