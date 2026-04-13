@@ -1,0 +1,34 @@
+title: 'PS-TTS: Phonetic Synchronization in Text-to-Speech for Achieving Natural Automated
+  Dubbing'
+url: https://arxiv.org/abs/2604.09111
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-13T10:36:30.322673+00:00'
+date_seen: '2026-04-13'
+metadata:
+  arxiv_id: '2604.09111'
+  published: Mon, 13 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI
+content_preview: 'Title: PS-TTS: Phonetic Synchronization in Text-to-Speech for Achieving
+  Natural Automated Dubbing
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recently, artificial intelligence-based dubbing technology has advanced, enabling
+  automated dubbing (AD) to convert the source speech of a video into target speech
+  in different languages. However, natural AD still faces synchronization challenges
+  such as duration and lip-synchronization (lip-sync), which are crucial for preserving
+  the viewer experience. Therefore, this p'
+content_length: 1988
+llm_content_sent: 1988
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: While the phonetic synchronization approach for dubbing is technically interesting,
+  it focuses on lip-sync constraints rather than emotional/expressive speech synthesis
+  and doesn't demonstrate zero-shot capabilities for new speakers or emotions.

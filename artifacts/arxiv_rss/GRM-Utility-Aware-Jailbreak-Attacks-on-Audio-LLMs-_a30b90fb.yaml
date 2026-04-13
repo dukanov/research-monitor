@@ -1,0 +1,32 @@
+title: 'GRM: Utility-Aware Jailbreak Attacks on Audio LLMs via Gradient-Ratio Masking'
+url: https://arxiv.org/abs/2604.09222
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-13T10:36:30.293808+00:00'
+date_seen: '2026-04-13'
+metadata:
+  arxiv_id: '2604.09222'
+  published: Mon, 13 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: GRM: Utility-Aware Jailbreak Attacks on Audio LLMs via Gradient-Ratio
+  Masking
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Audio large language models (ALLMs) enable rich speech-text interaction, but they
+  also introduce jailbreak vulnerabilities in the audio modality. Existing audio jailbreak
+  methods mainly optimize jailbreak success while overlooking utility preservation,
+  as reflected in transcription quality and question answering performance. In practice,
+  stronger attacks often come at the cost of deg'
+content_length: 1788
+llm_content_sent: 1788
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on adversarial attacks against audio language models rather
+  than advancing emotional/expressive speech synthesis or zero-shot capabilities.

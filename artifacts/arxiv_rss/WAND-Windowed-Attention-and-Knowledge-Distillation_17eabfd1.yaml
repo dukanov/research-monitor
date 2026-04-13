@@ -1,0 +1,34 @@
+title: 'WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive
+  Text-to-Speech Models'
+url: https://arxiv.org/abs/2604.08558
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-13T10:36:30.358790+00:00'
+date_seen: '2026-04-13'
+metadata:
+  arxiv_id: '2604.08558'
+  published: Mon, 13 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI
+content_preview: 'Title: WAND: Windowed Attention and Knowledge Distillation for Efficient
+  Autoregressive Text-to-Speech Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent decoder-only autoregressive text-to-speech (AR-TTS) models produce high-fidelity
+  speech, but their memory and compute costs scale quadratically with sequence length
+  due to full self-attention. In this paper, we propose WAND, Windowed Attention and
+  Knowledge Distillation, a framework that adapts pretrained AR-TTS models to operate
+  with constant computat'
+content_length: 1223
+llm_content_sent: 1223
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: This work focuses purely on computational efficiency improvements for existing
+  autoregressive TTS models without addressing emotional/expressive synthesis or zero-shot
+  speaker adaptation capabilities.

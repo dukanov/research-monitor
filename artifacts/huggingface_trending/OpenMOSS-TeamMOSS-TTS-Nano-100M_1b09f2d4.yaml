@@ -1,0 +1,26 @@
+title: OpenMOSS-Team/MOSS-TTS-Nano-100M
+url: https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Nano-100M
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-13T10:36:59.170859+00:00'
+date_seen: '2026-04-13'
+metadata:
+  likes: '42'
+  downloads: '1585'
+  trending_score: '42'
+  last_modified: '2026-04-13T09:32:58.000Z'
+content_preview: "---\nlicense: apache-2.0\ntags:\n- text-to-speech\nlanguage:\n-\
+  \ zh\n- en\n- de\n- es\n- fr\n- ja\n- it\n- he\n- ko\n- ru\n- fa\n- ar\n- pl\n-\
+  \ pt\n- cs\n- da\n- sv\n- hu\n- el\n- tr\n---\n\n# MOSS-TTS-Nano\n\n<br>\n\n<p align=\"\
+  center\">\n  <img src=\"./assets/images/OpenMOSS_Logo.png\" height=\"70\" align=\"\
+  middle\" />\n  &nbsp;&nbsp;&nbsp;&nbsp;\n  <img src=\"./assets/images/mosi-logo.png\"\
+  \ height=\"50\" align=\"middle\" />\n</p>\n\n<div align=\"center\">\n  <a href=\"\
+  https://clawhub.ai/luogao2333/moss-tts-voice\"><img src=\"https://img.shields.io/ba"
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily an engineering contribution focused on model compression
+  (0.1B parameters) and deployment efficiency rather than introducing novel approaches
+  for emotional/expressive speech synthesis or zero-shot capabilities.

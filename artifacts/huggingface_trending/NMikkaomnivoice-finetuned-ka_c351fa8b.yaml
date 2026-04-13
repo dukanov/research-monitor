@@ -1,0 +1,65 @@
+title: NMikka/omnivoice-finetuned-ka
+url: https://huggingface.co/NMikka/omnivoice-finetuned-ka
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-13T10:37:01.143210+00:00'
+date_seen: '2026-04-13'
+metadata:
+  likes: '2'
+  downloads: '47'
+  trending_score: '2'
+  last_modified: '2026-04-12T02:15:33.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - ka
+
+  - en
+
+  tags:
+
+  - text-to-speech
+
+  - tts
+
+  - voice-cloning
+
+  - georgian
+
+  - omnivoice
+
+  - multilingual
+
+  base_model: k2-fsa/OmniVoice
+
+  library_name: transformers
+
+  pipeline_tag: text-to-speech
+
+  datasets:
+
+  - google/fleurs
+
+  - NMikka/Common-Voice-Geo-Cleaned
+
+  ---
+
+
+  # OmniVoice Georgian — Fine-Tuned
+
+
+  A fine-tuned variant of [k2-fsa/OmniVoice](https://huggingface.co/k2-fsa/OmniVoice)
+  for Georgian (ქართული) text-to-speech with **zero-shot voice cloning** support.
+  Trained on an in-house G'
+content_length: 7681
+llm_content_sent: 7681
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is a straightforward fine-tuning of an existing multilingual TTS model
+  (OmniVoice) for Georgian language with no novel methodological contributions to
+  emotional/expressive synthesis or zero-shot voice cloning beyond what the base model
+  already provides.

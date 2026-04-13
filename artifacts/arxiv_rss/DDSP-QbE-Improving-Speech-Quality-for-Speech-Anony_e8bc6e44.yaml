@@ -1,0 +1,35 @@
+title: 'DDSP-QbE++: Improving Speech Quality for Speech Anonymisation for Atypical
+  Speech'
+url: https://arxiv.org/abs/2604.09246
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-13T10:36:30.293831+00:00'
+date_seen: '2026-04-13'
+metadata:
+  arxiv_id: '2604.09246'
+  published: Mon, 13 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: DDSP-QbE++: Improving Speech Quality for Speech Anonymisation
+  for Atypical Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Differentiable Digital Signal Processing (DDSP) pipelines for voice conversion rely
+  on subtractive synthesis, where a periodic excitation signal is shaped by a learned
+  spectral envelope to reconstruct the target voice. In DDSP-QbE, the excitation is
+  generated via phase accumulation, producing a sawtooth-like waveform whose abrupt
+  discontinuities introduce aliasing artefacts that '
+content_length: 1670
+llm_content_sent: 1670
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on technical signal processing improvements for speech anonymization
+  rather than emotional/expressive synthesis, and lacks zero-shot capabilities - it's
+  primarily an engineering refinement to reduce aliasing artifacts in existing DDSP
+  voice conversion.

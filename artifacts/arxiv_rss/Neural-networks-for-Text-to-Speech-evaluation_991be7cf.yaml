@@ -1,0 +1,32 @@
+title: Neural networks for Text-to-Speech evaluation
+url: https://arxiv.org/abs/2604.08562
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-13T10:36:30.293875+00:00'
+date_seen: '2026-04-13'
+metadata:
+  arxiv_id: '2604.08562'
+  published: Mon, 13 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.SD, eess.AS
+content_preview: 'Title: Neural networks for Text-to-Speech evaluation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Ensuring that Text-to-Speech (TTS) systems deliver human-perceived quality at scale
+  is a central challenge for modern speech technologies. Human subjective evaluation
+  protocols such as Mean Opinion Score (MOS) and Side-by-Side (SBS) comparisons remain
+  the de facto gold standards, yet they are expensive, slow, and sensitive to pervasive
+  assessor biases. This study addresses these barriers by formulating, and impleme'
+content_length: 1639
+llm_content_sent: 1639
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on automatic evaluation metrics for TTS systems rather than
+  advancing emotional/expressive synthesis or zero-shot capabilities, making it tangentially
+  relevant at best to the specified research interests.

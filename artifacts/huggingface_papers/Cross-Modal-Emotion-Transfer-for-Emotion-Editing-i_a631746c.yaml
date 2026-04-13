@@ -1,0 +1,29 @@
+title: Cross-Modal Emotion Transfer for Emotion Editing in Talking Face Video
+url: https://huggingface.co/papers/2604.07786
+source: huggingface_papers
+type: paper
+date_discovered: '2026-04-13T10:36:57.034766+00:00'
+date_seen: '2026-04-13'
+metadata:
+  upvotes: '2'
+  paper_id: '2604.07786'
+  published_date: '2026-04-13'
+content_preview: 'Title: Cross-Modal Emotion Transfer for Emotion Editing in Talking
+  Face Video
+
+
+  Summary:
+
+  Talking face generation has gained significant attention as a core application of
+  generative models. To enhance the expressiveness and realism of synthesized videos,
+  emotion editing in talking face video plays a crucial role. However, existing approaches
+  often limit expressive flexibility and struggle to generate extended emotions. Label-based
+  methods represent emotions with discrete categories, which fail to'
+content_length: 1813
+llm_content_sent: 1813
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on visual talking face generation rather than speech synthesis,
+  and while it mentions TTS briefly, it doesn't contribute novel methods for emotional/expressive
+  speech synthesis with zero-shot capabilities.

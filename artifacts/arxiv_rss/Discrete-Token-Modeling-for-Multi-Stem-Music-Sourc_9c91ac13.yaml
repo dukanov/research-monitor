@@ -1,0 +1,35 @@
+title: Discrete Token Modeling for Multi-Stem Music Source Separation with Language
+  Models
+url: https://arxiv.org/abs/2604.09371
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-13T10:36:30.322731+00:00'
+date_seen: '2026-04-13'
+metadata:
+  arxiv_id: '2604.09371'
+  published: Mon, 13 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Discrete Token Modeling for Multi-Stem Music Source Separation
+  with Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We propose a generative framework for multi-track music source separation (MSS)
+  that reformulates the task as conditional discrete token generation. Unlike conventional
+  approaches that directly estimate continuous signals in the time or frequency domain,
+  our method combines a Conformer-based conditional encoder, a dual-path neural audio
+  codec (HCodec), and a decoder-only langua'
+content_length: 1086
+llm_content_sent: 1086
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on music source separation using discrete tokens, which
+  is not relevant to emotional/expressive speech synthesis with zero-shot capabilities
+  as it deals with separating musical instruments rather than generating expressive
+  speech.
