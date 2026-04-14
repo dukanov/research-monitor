@@ -1,0 +1,33 @@
+title: 'Saar-Voice: A Multi-Speaker Saarbr\"ucken Dialect Speech Corpus'
+url: https://arxiv.org/abs/2604.11803
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-14T10:32:10.543822+00:00'
+date_seen: '2026-04-14'
+metadata:
+  arxiv_id: '2604.11803'
+  published: Tue, 14 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Saar-Voice: A Multi-Speaker Saarbr\"ucken Dialect Speech
+  Corpus
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Natural language processing (NLP) and speech technologies have made significant
+  progress in recent years; however, they remain largely focused on standardized language
+  varieties. Dialects, despite their cultural significance and widespread use, are
+  underrepresented in linguistic resources and computational models, resulting in
+  performance disparities. To address this gap, we introduce Saar-Voice, '
+content_length: 1312
+llm_content_sent: 1312
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: While this introduces a new dialect-specific speech corpus that could enable
+  zero-shot TTS adaptation, it's primarily a data contribution rather than a novel
+  methodological advancement in emotional/expressive synthesis.

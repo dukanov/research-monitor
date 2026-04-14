@@ -1,0 +1,52 @@
+title: dida-80b/kokoro-deutsch-hui-base
+url: https://huggingface.co/dida-80b/kokoro-deutsch-hui-base
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-14T10:32:43.929039+00:00'
+date_seen: '2026-04-14'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-04-13T06:42:43.000Z'
+content_preview: '---
+
+  language: de
+
+  license: cc0-1.0
+
+  tags:
+
+  - text-to-speech
+
+  - kokoro
+
+  - german
+
+  - styletts2
+
+  - multispeaker
+
+  - hui-corpus
+
+  ---
+
+
+  # Kokoro German — HUI Multispeaker Base (Stage 1)
+
+
+  Speaker-neutral German Stage 1 base model built on [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M),
+  trained on the [HUI Audio Corpus German](https://github.com/iisys-hof/HUI-Audio-Corpus-German)
+  (CC0, 51 speakers).
+
+
+  > **This is a base model, not a voice.** Use it as the foundation for Stage 2 fine-tuning
+  with your own s'
+content_length: 4513
+llm_content_sent: 4513
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is a straightforward application of existing Kokoro/StyleTTS2 architecture
+  to German language with standard multispeaker training - no novel approaches for
+  emotional/expressive synthesis or zero-shot capabilities are introduced.

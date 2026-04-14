@@ -1,0 +1,32 @@
+title: Efficient Training for Cross-lingual Speech Language Models
+url: https://arxiv.org/abs/2604.11096
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-14T10:32:10.355227+00:00'
+date_seen: '2026-04-14'
+metadata:
+  arxiv_id: '2604.11096'
+  published: Tue, 14 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.SD
+content_preview: 'Title: Efficient Training for Cross-lingual Speech Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Currently, large language models (LLMs) predominantly focus on the text modality.
+  To enable more natural human-AI interaction, speech LLMs are emerging, but building
+  effective end-to-end speech LLMs remains challenging due to limited data and the
+  difficulty in expanding to more languages. In this paper, we introduce Cross-lingual
+  Speech Language Model (CSLM), an efficient training method for cross-lin'
+content_length: 1392
+llm_content_sent: 1392
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on cross-lingual speech language models for general conversational
+  tasks rather than emotional/expressive speech synthesis, and lacks zero-shot capabilities
+  for emotional expression generation.

@@ -1,0 +1,32 @@
+title: Toward using Speech to Sense Student Emotion in Remote Learning Environments
+url: https://arxiv.org/abs/2604.09881
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-14T10:32:10.403665+00:00'
+date_seen: '2026-04-14'
+metadata:
+  arxiv_id: '2604.09881'
+  published: Tue, 14 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.HC
+content_preview: 'Title: Toward using Speech to Sense Student Emotion in Remote Learning
+  Environments
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  With advancements in multimodal communication technologies, remote learning environments
+  such as, distance universities are increasing. Remote learning typically happens
+  asynchronously. As a consequence, unlike face-to-face in-person classroom teaching,
+  this lacks availability of sufficient emotional cues for making learning a pleasant
+  experience. Motivated by advances made in the par'
+content_length: 1697
+llm_content_sent: 1697
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on emotion recognition from speech for educational applications,
+  not on emotional/expressive speech synthesis or zero-shot generation capabilities.

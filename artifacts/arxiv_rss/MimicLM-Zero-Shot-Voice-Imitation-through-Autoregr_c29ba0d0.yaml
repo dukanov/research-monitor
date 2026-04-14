@@ -1,0 +1,34 @@
+title: 'MimicLM: Zero-Shot Voice Imitation through Autoregressive Modeling of Pseudo-Parallel
+  Speech Corpora'
+url: https://arxiv.org/abs/2604.11552
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-14T10:32:10.354930+00:00'
+date_seen: '2026-04-14'
+metadata:
+  arxiv_id: '2604.11552'
+  published: Tue, 14 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.CL
+content_preview: 'Title: MimicLM: Zero-Shot Voice Imitation through Autoregressive
+  Modeling of Pseudo-Parallel Speech Corpora
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Voice imitation aims to transform source speech to match a reference speaker''s
+  timbre and speaking style while preserving linguistic content. A straightforward
+  approach is to train on triplets of (source, reference, target), where source and
+  target share the same content but target matches the reference''s voice characteristics,
+  yet such data is extremely scarce'
+content_length: 1771
+llm_content_sent: 1771
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The key novelty is using synthetic speech as training sources while retaining
+  real recordings as targets, combined with interleaved text-audio modeling and preference
+  alignment to break the synthetic quality ceiling in voice imitation.

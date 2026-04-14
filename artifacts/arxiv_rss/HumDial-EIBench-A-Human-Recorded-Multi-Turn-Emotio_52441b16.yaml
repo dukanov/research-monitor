@@ -1,0 +1,34 @@
+title: 'HumDial-EIBench: A Human-Recorded Multi-Turn Emotional Intelligence Benchmark
+  for Audio Language Models'
+url: https://arxiv.org/abs/2604.11594
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-14T10:32:10.355261+00:00'
+date_seen: '2026-04-14'
+metadata:
+  arxiv_id: '2604.11594'
+  published: Tue, 14 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: HumDial-EIBench: A Human-Recorded Multi-Turn Emotional Intelligence
+  Benchmark for Audio Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Evaluating the emotional intelligence (EI) of audio language models (ALMs) is critical.
+  However, existing benchmarks mostly rely on synthesized speech, are limited to single-turn
+  interactions, and depend heavily on open-ended scoring. This paper proposes HumDial-EIBench,
+  a comprehensive benchmark for evaluating ALMs'' EI. Using real-recorded human dialogues
+  f'
+content_length: 1233
+llm_content_sent: 1233
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel benchmark using real human dialogues with acoustic-semantic
+  conflict tasks to evaluate emotional intelligence in audio language models, addressing
+  key limitations of existing synthetic speech benchmarks.

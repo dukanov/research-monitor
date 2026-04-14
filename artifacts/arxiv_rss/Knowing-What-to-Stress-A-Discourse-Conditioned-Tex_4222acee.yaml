@@ -1,0 +1,33 @@
+title: 'Knowing What to Stress: A Discourse-Conditioned Text-to-Speech Benchmark'
+url: https://arxiv.org/abs/2604.10580
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-14T10:32:10.355111+00:00'
+date_seen: '2026-04-14'
+metadata:
+  arxiv_id: '2604.10580'
+  published: Tue, 14 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.SD
+content_preview: 'Title: Knowing What to Stress: A Discourse-Conditioned Text-to-Speech
+  Benchmark
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Spoken meaning often depends not only on what is said, but also on which word is
+  emphasized. The same sentence can convey correction, contrast, or clarification
+  depending on where emphasis falls. Although modern text-to-speech (TTS) systems
+  generate expressive speech, it remains unclear whether they infer contextually appropriate
+  stress from discourse alone. To address this gap, we presen'
+content_length: 1181
+llm_content_sent: 1181
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel benchmark for evaluating context-dependent stress placement
+  in TTS systems, revealing a significant gap between language model understanding
+  and actual speech synthesis realization of contextual emphasis.

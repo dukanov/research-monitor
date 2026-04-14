@@ -1,0 +1,34 @@
+title: Sign-to-Speech Prosody Transfer via Sign Reconstruction-based GAN
+url: https://arxiv.org/abs/2604.10413
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-14T10:32:10.354366+00:00'
+date_seen: '2026-04-14'
+metadata:
+  arxiv_id: '2604.10413'
+  published: Tue, 14 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: Sign-to-Speech Prosody Transfer via Sign Reconstruction-based
+  GAN
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Deep learning models have improved sign language-to-text translation and made it
+  easier for non-signers to understand signed messages. When the goal is spoken communication,
+  a naive approach is to convert signed messages into text and then synthesize speech
+  via Text-to-Speech (TTS). However, this two-stage pipeline inevitably treat text
+  as a bottleneck representation, causing the loss of rich no'
+content_length: 1714
+llm_content_sent: 1714
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Introduces a novel Sign-to-Speech Prosody Transfer task that directly captures
+  emotional/prosodic information from sign language for speech synthesis, bypassing
+  text bottlenecks and enabling cross-modal prosody transfer without requiring expensive
+  parallel annotations.

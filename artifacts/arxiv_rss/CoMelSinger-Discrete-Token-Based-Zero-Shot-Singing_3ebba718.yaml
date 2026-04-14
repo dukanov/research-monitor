@@ -1,0 +1,34 @@
+title: 'CoMelSinger: Discrete Token-Based Zero-Shot Singing Synthesis With Structured
+  Melody Control and Guidance'
+url: https://arxiv.org/abs/2509.19883
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-14T10:32:10.355267+00:00'
+date_seen: '2026-04-14'
+metadata:
+  arxiv_id: '2509.19883'
+  published: Tue, 14 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: CoMelSinger: Discrete Token-Based Zero-Shot Singing Synthesis
+  With Structured Melody Control and Guidance
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Singing Voice Synthesis (SVS) aims to generate expressive vocal performances from
+  structured musical inputs such as lyrics and pitch sequences. While recent progress
+  in discrete codec-based speech synthesis has enabled zero-shot generation via in-context
+  learning, directly extending these techniques to SVS remains non-trivial due to
+  the requirement for pre'
+content_length: 1764
+llm_content_sent: 1764
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel coarse-to-fine contrastive learning strategy to address
+  prosody leakage in zero-shot singing synthesis, enabling better disentanglement
+  of melody control from timbre prompts in discrete codec frameworks.

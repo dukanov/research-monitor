@@ -1,0 +1,33 @@
+title: 'Ti-Audio: The First Multi-Dialectal End-to-End Speech LLM for Tibetan'
+url: https://arxiv.org/abs/2604.11110
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-14T10:32:10.354891+00:00'
+date_seen: '2026-04-14'
+metadata:
+  arxiv_id: '2604.11110'
+  published: Tue, 14 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: Ti-Audio: The First Multi-Dialectal End-to-End Speech LLM
+  for Tibetan
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in Speech Large Language Models (Speech-LLMs) have made significant
+  progress, greatly enhancing multimodal interaction capabilities.However, their application
+  in low-resource and dialect-diverse environments still faces challenges. The severe
+  scarcity of Tibetan data, coupled with the phonetic differences among its major
+  dialects (\"U-Tsang, Amdo, and Kham), is a prime exampl'
+content_length: 1406
+llm_content_sent: 1406
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on multilingual/dialectal ASR and speech translation for
+  Tibetan rather than emotional or expressive speech synthesis, and lacks zero-shot
+  synthesis capabilities.

@@ -1,0 +1,34 @@
+title: Regularized Entropy Information Adaptation with Temporal-Awareness Networks
+  for Simultaneous Speech Translation
+url: https://arxiv.org/abs/2604.09916
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-14T10:32:10.403822+00:00'
+date_seen: '2026-04-14'
+metadata:
+  arxiv_id: '2604.09916'
+  published: Tue, 14 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.LG, eess.AS
+content_preview: 'Title: Regularized Entropy Information Adaptation with Temporal-Awareness
+  Networks for Simultaneous Speech Translation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Simultaneous Speech Translation (SimulST) requires balancing high translation quality
+  with low latency. Recent work introduced REINA, a method that trains a Read/Write
+  policy based on estimating the information gain of reading more audio. However,
+  we find that information-based policies often lack temporal context, leading the
+  policy to bias itself t'
+content_length: 1241
+llm_content_sent: 1241
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on simultaneous speech translation (converting speech to
+  text in another language) with timing policies, which is unrelated to emotional/expressive
+  speech synthesis that generates natural-sounding speech with emotional characteristics.

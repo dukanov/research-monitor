@@ -1,0 +1,35 @@
+title: 'Bridging What the Model Thinks and How It Speaks: Self-Aware Speech Language
+  Models for Expressive Speech Generation'
+url: https://arxiv.org/abs/2604.11424
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-14T10:32:10.541745+00:00'
+date_seen: '2026-04-14'
+metadata:
+  arxiv_id: '2604.11424'
+  published: Tue, 14 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Bridging What the Model Thinks and How It Speaks: Self-Aware
+  Speech Language Models for Expressive Speech Generation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech Language Models (SLMs) exhibit strong semantic understanding, yet their generated
+  speech often sounds flat and fails to convey expressive intent, undermining user
+  engagement. We term this mismatch the semantic understanding-acoustic realization
+  gap. We attribute this gap to two key deficiencies: (1) intent transmission failure,
+  where SLMs'
+content_length: 1704
+llm_content_sent: 1704
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Introduces a novel self-awareness framework with Intent-Aware Bridging using
+  VIB and Realization-Aware Alignment where the model acts as its own critic, addressing
+  the semantic-acoustic gap in expressive speech synthesis through principled feedback
+  mechanisms.

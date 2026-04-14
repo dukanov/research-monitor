@@ -1,0 +1,32 @@
+title: 'LaDA-Band: Language Diffusion Models for Vocal-to-Accompaniment Generation'
+url: https://arxiv.org/abs/2604.11052
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-14T10:32:10.354814+00:00'
+date_seen: '2026-04-14'
+metadata:
+  arxiv_id: '2604.11052'
+  published: Tue, 14 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: LaDA-Band: Language Diffusion Models for Vocal-to-Accompaniment
+  Generation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Vocal-to-accompaniment (V2A) generation, which aims to transform a raw vocal recording
+  into a fully arranged accompaniment, inherently requires jointly addressing an accompaniment
+  trilemma: preserving acoustic authenticity, maintaining global coherence with the
+  vocal track, and producing dynamic orchestration across a full song. Existing open-source
+  approaches typically make compromises'
+content_length: 2047
+llm_content_sent: 2047
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on vocal-to-accompaniment generation rather than emotional/expressive
+  speech synthesis, and does not address zero-shot capabilities for speech generation.
