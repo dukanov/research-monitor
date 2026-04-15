@@ -1,0 +1,34 @@
+title: 'Beyond Transcription: Unified Audio Schema for Perception-Aware AudioLLMs'
+url: https://arxiv.org/abs/2604.12506
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-15T10:31:29.585986+00:00'
+date_seen: '2026-04-15'
+metadata:
+  arxiv_id: '2604.12506'
+  published: Wed, 15 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.SD
+content_preview: 'Title: Beyond Transcription: Unified Audio Schema for Perception-Aware
+  AudioLLMs
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent Audio Large Language Models (AudioLLMs) exhibit a striking performance inversion:
+  while excelling at complex reasoning tasks, they consistently underperform on fine-grained
+  acoustic perception. We attribute this gap to a fundamental limitation of ASR-centric
+  training, which provides precise linguistic targets but implicitly teaches models
+  to suppress paralinguistic cues and acoust'
+content_length: 1470
+llm_content_sent: 1470
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a structured supervision framework that explicitly preserves paralinguistic
+  information during AudioLLM training, addressing the fundamental trade-off between
+  linguistic accuracy and expressive acoustic features that is crucial for emotional
+  speech synthesis.

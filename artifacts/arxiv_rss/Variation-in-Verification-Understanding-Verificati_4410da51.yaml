@@ -1,0 +1,34 @@
+title: 'Variation in Verification: Understanding Verification Dynamics in Large Language
+  Models'
+url: https://arxiv.org/abs/2509.17995
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-15T10:31:29.719271+00:00'
+date_seen: '2026-04-15'
+metadata:
+  arxiv_id: '2509.17995'
+  published: Wed, 15 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.LG
+content_preview: 'Title: Variation in Verification: Understanding Verification Dynamics
+  in Large Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances have shown that scaling test-time computation enables large language
+  models (LLMs) to solve increasingly complex problems across diverse domains. One
+  effective paradigm for test-time scaling (TTS) involves LLM generators producing
+  multiple solution candidates, with LLM verifiers assessing the correctness of these
+  candidates without reference answers. In this'
+content_length: 2000
+llm_content_sent: 2000
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This paper focuses on verification dynamics in large language models for reasoning
+  tasks, which is completely unrelated to emotional/expressive speech synthesis or
+  zero-shot speech generation capabilities.

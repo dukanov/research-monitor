@@ -1,0 +1,33 @@
+title: 'ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation with Flow Matching'
+url: https://arxiv.org/abs/2507.09318
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-15T10:31:29.635303+00:00'
+date_seen: '2026-04-15'
+metadata:
+  arxiv_id: '2507.09318'
+  published: Wed, 15 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.CL
+content_preview: 'Title: ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation
+  with Flow Matching
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Generating spoken dialogue is inherently more complex than monologue text-to-speech
+  (TTS), as it demands both realistic turn-taking and the maintenance of distinct
+  speaker timbres. While existing autoregressive (AR) models have made progress, they
+  often suffer from high inference latency and stability issues. To overcome these
+  limitations, we propose ZipVoice-Dialog, a non-autore'
+content_length: 1823
+llm_content_sent: 1823
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Novel application of flow matching to zero-shot dialogue generation with innovative
+  curriculum learning and speaker-turn embeddings, plus contribution of a large-scale
+  open dataset, though the core flow matching technique itself is established.

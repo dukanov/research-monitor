@@ -1,0 +1,35 @@
+title: On the Distillation Loss Functions of Speech VAE for Unified Reconstruction,
+  Understanding, and Generation
+url: https://arxiv.org/abs/2604.12383
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-15T10:31:29.585612+00:00'
+date_seen: '2026-04-15'
+metadata:
+  arxiv_id: '2604.12383'
+  published: Wed, 15 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: On the Distillation Loss Functions of Speech VAE for Unified
+  Reconstruction, Understanding, and Generation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Continuous speech representations based on Variational Autoencoders (VAEs) have
+  emerged as a promising alternative to traditional spectrogram or discrete token
+  based features for speech generation and reconstruction. Recent research has tried
+  to enrich the structural information in VAE latent representations by aligning with
+  self-supervised learning (SSL)'
+content_length: 1222
+llm_content_sent: 1222
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: The systematic exploration of different alignment approaches for VAE-SSL feature
+  distillation and the joint-marginal alignment with adaptive weighting represents
+  an incremental improvement in continuous speech representation learning, but lacks
+  clear connection to zero-shot emotional/expressive synthesis capabilities.

@@ -1,0 +1,32 @@
+title: 'VoxEffects: A Speech-Oriented Audio Effects Dataset and Benchmark'
+url: https://arxiv.org/abs/2604.12389
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-15T10:31:29.635060+00:00'
+date_seen: '2026-04-15'
+metadata:
+  arxiv_id: '2604.12389'
+  published: Wed, 15 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: VoxEffects: A Speech-Oriented Audio Effects Dataset and Benchmark
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech audio in the wild is often processed by post-production effects, but existing
+  speech datasets rarely provide precise annotations of effects and parameters, limiting
+  systematic study. We introduce VoxEffects, a speech audio effects dataset that pairs
+  produced speech with exact effect-chain supervision at multiple granularities. VoxEffects
+  supports speech-oriented audio effect identificatio'
+content_length: 1187
+llm_content_sent: 1187
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on audio effects identification and dataset creation rather
+  than emotional/expressive speech synthesis, and lacks zero-shot capabilities for
+  synthesis tasks.

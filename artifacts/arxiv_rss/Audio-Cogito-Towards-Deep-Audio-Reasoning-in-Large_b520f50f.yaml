@@ -1,0 +1,33 @@
+title: 'Audio-Cogito: Towards Deep Audio Reasoning in Large Audio Language Models'
+url: https://arxiv.org/abs/2604.12527
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-15T10:31:29.635256+00:00'
+date_seen: '2026-04-15'
+metadata:
+  arxiv_id: '2604.12527'
+  published: Wed, 15 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Audio-Cogito: Towards Deep Audio Reasoning in Large Audio
+  Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in reasoning models have driven significant progress in text and
+  multimodal domains, yet audio reasoning remains relatively limited. Only a few Large
+  Audio Language Models (LALMs) incorporate explicit Chain-of-Thought (CoT) reasoning,
+  and their capabilities are often inconsistent and insufficient for complex tasks.
+  To bridge this gap, we introduce Audio-Cogito, a fully op'
+content_length: 1194
+llm_content_sent: 1194
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While this work addresses audio reasoning in large language models, it focuses
+  on general audio understanding and Chain-of-Thought reasoning rather than emotional/expressive
+  speech synthesis or zero-shot voice generation capabilities.

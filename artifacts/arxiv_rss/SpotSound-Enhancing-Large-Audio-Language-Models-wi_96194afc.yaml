@@ -1,0 +1,34 @@
+title: 'SpotSound: Enhancing Large Audio-Language Models with Fine-Grained Temporal
+  Grounding'
+url: https://arxiv.org/abs/2604.13023
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-15T10:31:29.585845+00:00'
+date_seen: '2026-04-15'
+metadata:
+  arxiv_id: '2604.13023'
+  published: Wed, 15 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.MM
+content_preview: 'Title: SpotSound: Enhancing Large Audio-Language Models with Fine-Grained
+  Temporal Grounding
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large Audio-Language Models (ALMs) have recently demonstrated remarkable capabilities
+  in holistic audio understanding, yet they remain unreliable for temporal grounding,
+  i.e., the task of pinpointing exactly when an event occurs within long-form audio.
+  This limitation stems from two factors: training data dominated by clip-level supervision
+  lacking precise timestamps, and ben'
+content_length: 1412
+llm_content_sent: 1412
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on temporal grounding in audio understanding rather than
+  emotional/expressive speech synthesis, addressing a different problem domain with
+  no apparent zero-shot synthesis capabilities.

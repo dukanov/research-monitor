@@ -1,0 +1,33 @@
+title: 'X-VC: Zero-shot Streaming Voice Conversion in Codec Space'
+url: https://arxiv.org/abs/2604.12456
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-15T10:31:29.635220+00:00'
+date_seen: '2026-04-15'
+metadata:
+  arxiv_id: '2604.12456'
+  published: Wed, 15 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI
+content_preview: 'Title: X-VC: Zero-shot Streaming Voice Conversion in Codec Space
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Zero-shot voice conversion (VC) aims to convert a source utterance into the voice
+  of an unseen target speaker while preserving its linguistic content. Although recent
+  systems have improved conversion quality, building zero-shot VC systems for interactive
+  scenarios remains challenging because high-fidelity speaker transfer and low-latency
+  streaming inference are difficult to achieve simultaneously. In th'
+content_length: 1846
+llm_content_sent: 1846
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.65
+reason: The work introduces a novel one-step conversion approach in neural codec latent
+  space with dual-conditioning and role-assignment training strategies for streaming
+  zero-shot voice conversion, though it's primarily focused on speaker identity transfer
+  rather than emotional/expressive synthesis.

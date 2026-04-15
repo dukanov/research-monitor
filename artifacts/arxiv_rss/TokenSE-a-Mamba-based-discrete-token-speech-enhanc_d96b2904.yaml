@@ -1,0 +1,34 @@
+title: 'TokenSE: a Mamba-based discrete token speech enhancement framework for cochlear
+  implants'
+url: https://arxiv.org/abs/2604.12246
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-15T10:31:29.635019+00:00'
+date_seen: '2026-04-15'
+metadata:
+  arxiv_id: '2604.12246'
+  published: Wed, 15 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: TokenSE: a Mamba-based discrete token speech enhancement
+  framework for cochlear implants
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech enhancement (SE) is critical for improving speech intelligibility and quality
+  in real-world environments, particularly for cochlear implant (CI) users who experience
+  severe degradations in speech understanding under noisy and reverberant conditions.
+  In this study, we propose TokenSE, a discrete token-based SE framework operating
+  in the neural audio codec space, whic'
+content_length: 1290
+llm_content_sent: 1290
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on speech enhancement for cochlear implants using Mamba
+  architecture, which is unrelated to emotional/expressive speech synthesis or zero-shot
+  capabilities.

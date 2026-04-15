@@ -1,0 +1,34 @@
+title: 'CoSyncDiT: Cognitive Synchronous Diffusion Transformer for Movie Dubbing'
+url: https://arxiv.org/abs/2604.12292
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-15T10:31:29.585589+00:00'
+date_seen: '2026-04-15'
+metadata:
+  arxiv_id: '2604.12292'
+  published: Wed, 15 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.CV, cs.MM
+content_preview: 'Title: CoSyncDiT: Cognitive Synchronous Diffusion Transformer for
+  Movie Dubbing
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Movie dubbing aims to synthesize speech that preserves the vocal identity of a reference
+  audio while synchronizing with the lip movements in a target video. Existing methods
+  fail to achieve precise lip-sync and lack naturalness due to explicit alignment
+  at the duration level. While implicit alignment solutions have emerged, they remain
+  susceptible to interference from the reference audio,'
+content_length: 1511
+llm_content_sent: 1511
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel cognitive-inspired diffusion transformer architecture with
+  joint semantic-alignment regularization for movie dubbing, addressing lip-sync precision
+  through implicit alignment while maintaining vocal identity - though the core diffusion
+  approach for speech synthesis is not fundamentally new.

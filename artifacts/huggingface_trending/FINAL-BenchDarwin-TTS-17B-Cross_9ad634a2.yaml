@@ -1,0 +1,27 @@
+title: FINAL-Bench/Darwin-TTS-1.7B-Cross
+url: https://huggingface.co/FINAL-Bench/Darwin-TTS-1.7B-Cross
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-15T10:31:57.964608+00:00'
+date_seen: '2026-04-15'
+metadata:
+  likes: '10'
+  downloads: '0'
+  trending_score: '10'
+  last_modified: '2026-04-15T07:51:58.000Z'
+content_preview: "---\nlanguage:\n  - ko\n  - en\n  - ja\n  - zh\n  - de\n  - fr\n\
+  \  - ru\n  - pt\n  - es\n  - it\nlicense: apache-2.0\ntags:\n  - tts\n  - text-to-speech\n\
+  \  - darwin\n  - cross-modal\n  - ffn-blending\n  - model-merging\n  - qwen3\n \
+  \ - voice-cloning\n  - emotion\n  - vidraft\nbase_model:\n  - Qwen/Qwen3-TTS-12Hz-1.7B-Base\n\
+  \  - Qwen/Qwen3-1.7B\npipeline_tag: text-to-speech\n---\n\n# \U0001F9EC Darwin-TTS-1.7B-Cross\n\
+  \n**World's first cross-modal FFN transfer from LLM to TTS — emotion-enhanced speech\
+  \ synthesis without any training.**\n\n> Da"
+content_length: 8037
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel zero-shot cross-modal weight transfer approach that adds
+  emotional expressiveness to TTS by blending LLM FFN weights without training, though
+  the core contribution is primarily an engineering insight about compatible architectures
+  rather than a fundamental algorithmic advance.

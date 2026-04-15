@@ -1,0 +1,35 @@
+title: 'MoshiRAG: Asynchronous Knowledge Retrieval for Full-Duplex Speech Language
+  Models'
+url: https://arxiv.org/abs/2604.12928
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-15T10:31:29.635296+00:00'
+date_seen: '2026-04-15'
+metadata:
+  arxiv_id: '2604.12928'
+  published: Wed, 15 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, eess.AS
+content_preview: 'Title: MoshiRAG: Asynchronous Knowledge Retrieval for Full-Duplex
+  Speech Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech-to-speech language models have recently emerged to enhance the naturalness
+  of conversational AI. In particular, full-duplex models are distinguished by their
+  real-time interactivity, including handling of pauses, interruptions, and backchannels.
+  However, improving their factuality remains an open challenge. While scaling the
+  model size could address this gap, it would make'
+content_length: 1492
+llm_content_sent: 1492
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While this addresses speech language models, it focuses on factuality and
+  knowledge retrieval rather than emotional/expressive synthesis capabilities, and
+  the core contribution is architectural (RAG integration) rather than advancing expressive
+  speech generation.
