@@ -1,0 +1,34 @@
+title: 'From Seeing it to Experiencing it: Interactive Evaluation of Intersectional
+  Voice Bias in Human-AI Speech Interaction'
+url: https://arxiv.org/abs/2604.13067
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-16T10:32:29.366871+00:00'
+date_seen: '2026-04-16'
+metadata:
+  arxiv_id: '2604.13067'
+  published: Thu, 16 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.HC, cs.CL
+content_preview: 'Title: From Seeing it to Experiencing it: Interactive Evaluation
+  of Intersectional Voice Bias in Human-AI Speech Interaction
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  SpeechLLMs process spoken language directly from audio, but accent and vocal identity
+  cues can lead to biased behaviour. Current bias evaluations often miss how such
+  bias manifests in end-to-end speech interactions and how users experience it. We
+  distinguish quality-of-service disparities (e.g., off-topic or low-effort responses)
+  from content-l'
+content_length: 1533
+llm_content_sent: 1533
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on bias evaluation in speech interaction systems rather
+  than advancing emotional/expressive speech synthesis or zero-shot capabilities,
+  making it tangentially related but not directly relevant to the core research interests.

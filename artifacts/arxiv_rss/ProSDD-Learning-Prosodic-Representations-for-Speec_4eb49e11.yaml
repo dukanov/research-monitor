@@ -1,0 +1,35 @@
+title: 'ProSDD: Learning Prosodic Representations for Speech Deepfake Detection against
+  Expressive and Emotional Attacks'
+url: https://arxiv.org/abs/2604.13229
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-16T10:32:29.348710+00:00'
+date_seen: '2026-04-16'
+metadata:
+  arxiv_id: '2604.13229'
+  published: Thu, 16 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: ProSDD: Learning Prosodic Representations for Speech Deepfake
+  Detection against Expressive and Emotional Attacks
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech deepfake detection (SDD) systems perform well on standard benchmarks datasets
+  but often fail to generalize to expressive and emotional spoofing attacks. Many
+  methods rely on spoof-heavy training data, learning dataset-specific artifacts rather
+  than transferable cues of natural speech. In contrast, humans internalize variability
+  in real speech'
+content_length: 1210
+llm_content_sent: 1210
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: While the paper addresses emotional/expressive speech in the context of deepfake
+  detection rather than synthesis, and introduces prosodic representation learning,
+  it's primarily an incremental improvement in detection methods rather than advancing
+  synthesis capabilities or zero-shot approaches.

@@ -1,0 +1,26 @@
+title: Gigsu/vocoloco-onnx
+url: https://huggingface.co/Gigsu/vocoloco-onnx
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-16T10:33:05.379313+00:00'
+date_seen: '2026-04-16'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-04-09T05:59:21.000Z'
+content_preview: "---\nlicense: apache-2.0\ntags:\n  - text-to-speech\n  - tts\n \
+  \ - onnx\n  - voice-cloning\n  - browser\n  - webassembly\n  - webgpu\nlanguage:\n\
+  \  - en\n  - de\n  - zh\n  - ja\n  - fr\n  - es\n  - multilingual\nlibrary_name:\
+  \ onnxruntime\nbase_model: k2-fsa/OmniVoice\n---\n\n# VocoLoco — OmniVoice ONNX\
+  \ Models\n\nONNX exports of [k2-fsa/OmniVoice](https://github.com/k2-fsa/OmniVoice)\
+  \ for browser-based text-to-speech inference via ONNX Runtime Web.\n\n## Models\n\
+  \n| File | Size | Description |\n|------|------|-------------|\n| `"
+content_length: 1563
+llm_content_sent: 1563
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: This is merely an ONNX conversion of an existing model (OmniVoice) for browser
+  deployment with no novel research contributions to emotional/expressive speech synthesis
+  or zero-shot capabilities.

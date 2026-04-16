@@ -1,0 +1,34 @@
+title: 'Giving Voice to the Constitution: Low-Resource Text-to-Speech for Quechua
+  and Spanish Using a Bilingual Legal Corpus'
+url: https://arxiv.org/abs/2604.13288
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-16T10:32:29.364733+00:00'
+date_seen: '2026-04-16'
+metadata:
+  arxiv_id: '2604.13288'
+  published: Thu, 16 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.DL
+content_preview: 'Title: Giving Voice to the Constitution: Low-Resource Text-to-Speech
+  for Quechua and Spanish Using a Bilingual Legal Corpus
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We present a unified pipeline for synthesizing high-quality Quechua and Spanish
+  speech for the Peruvian Constitution using three state-of-the-art text-to-speech
+  (TTS) architectures: XTTS v2, F5-TTS, and DiFlow-TTS. Our models are trained on
+  independent Spanish and Quechua speech datasets with heterogeneous sizes and recording
+  conditions, and lev'
+content_length: 1145
+llm_content_sent: 1145
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work applies existing TTS architectures to a specific domain (legal text)
+  and language pair without introducing novel methods for emotional/expressive synthesis
+  or zero-shot capabilities.
