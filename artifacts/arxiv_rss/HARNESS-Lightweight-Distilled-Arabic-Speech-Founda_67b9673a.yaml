@@ -1,0 +1,32 @@
+title: 'HARNESS: Lightweight Distilled Arabic Speech Foundation Models'
+url: https://arxiv.org/abs/2604.14186
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-17T10:29:44.714903+00:00'
+date_seen: '2026-04-17'
+metadata:
+  arxiv_id: '2604.14186'
+  published: Fri, 17 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI, cs.CL
+content_preview: 'Title: HARNESS: Lightweight Distilled Arabic Speech Foundation Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large self-supervised speech (SSL) models achieve strong downstream performance,
+  but their size limits deployment in resource-constrained settings. We present HArnESS,
+  an Arabic-centric self-supervised speech model family trained from scratch with
+  iterative self-distillation, together with lightweight student variants that offer
+  strong accuracy-efficiency trade-offs on Automatic Speech Recognition '
+content_length: 1338
+llm_content_sent: 1338
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on Arabic ASR, dialect identification, and basic emotion
+  recognition using knowledge distillation, but lacks the zero-shot expressive synthesis
+  capabilities that are central to your research interests.

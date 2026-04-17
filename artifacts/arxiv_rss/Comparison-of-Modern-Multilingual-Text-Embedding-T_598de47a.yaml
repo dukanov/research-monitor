@@ -1,0 +1,34 @@
+title: Comparison of Modern Multilingual Text Embedding Techniques for Hate Speech
+  Detection Task
+url: https://arxiv.org/abs/2604.14907
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-17T10:29:44.782728+00:00'
+date_seen: '2026-04-17'
+metadata:
+  arxiv_id: '2604.14907'
+  published: Fri, 17 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.LG
+content_preview: 'Title: Comparison of Modern Multilingual Text Embedding Techniques
+  for Hate Speech Detection Task
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Online hate speech and abusive language pose a growing challenge for content moderation,
+  especially in multilingual settings and for low-resource languages such as Lithuanian.
+  This paper investigates to what extent modern multilingual sentence embedding models
+  can support accurate hate speech detection in Lithuanian, Russian, and English,
+  and how their performance depend'
+content_length: 1830
+llm_content_sent: 1830
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on hate speech detection using text embeddings and classification,
+  which is completely unrelated to emotional/expressive speech synthesis or zero-shot
+  speech generation capabilities.

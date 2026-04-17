@@ -1,0 +1,71 @@
+title: mlx-community/fishaudio-s2-pro-8bit-mlx
+url: https://huggingface.co/mlx-community/fishaudio-s2-pro-8bit-mlx
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-17T10:30:14.029173+00:00'
+date_seen: '2026-04-17'
+metadata:
+  likes: '2'
+  downloads: '195'
+  trending_score: '2'
+  last_modified: '2026-04-11T17:06:27.000Z'
+content_preview: '---
+
+  library_name: mlx
+
+  pipeline_tag: text-to-speech
+
+  base_model: fishaudio/s2-pro
+
+  base_model_relation: quantized
+
+  license: other
+
+  license_name: fish-audio-research-license
+
+  license_link: https://huggingface.co/fishaudio/s2-pro/blob/main/LICENSE.md
+
+  language:
+
+  - ja
+
+  - en
+
+  - zh
+
+  tags:
+
+  - mlx
+
+  - tts
+
+  - speech
+
+  - fishaudio
+
+  - fish-s2-pro
+
+  - quantized
+
+  - int8
+
+  - apple-silicon
+
+  - bundled-codec
+
+  ---
+
+
+  # Fish Audio S2 Pro — MLX 8-bit
+
+
+  This repository contains a self-contained MLX-native int8 conversion of Fish Audio
+
+  S2 Pro '
+content_length: 3586
+llm_content_sent: 3586
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: This is merely a quantized port of an existing model to MLX framework with
+  no novel contributions to emotional/expressive speech synthesis or zero-shot capabilities.

@@ -1,0 +1,26 @@
+title: reenigne314/chatterbox-indic-lora
+url: https://huggingface.co/reenigne314/chatterbox-indic-lora
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-17T10:30:13.369729+00:00'
+date_seen: '2026-04-17'
+metadata:
+  likes: '3'
+  downloads: '0'
+  trending_score: '3'
+  last_modified: '2026-04-15T03:46:15.000Z'
+content_preview: "---\nlicense: mit\nlanguage:\n  - hi\n  - te\n  - kn\n  - bn\n \
+  \ - ta\n  - ml\n  - mr\n  - gu\n  - en\nbase_model: ResembleAI/chatterbox\ntags:\n\
+  \  - tts\n  - text-to-speech\n  - lora\n  - indic\n  - indian-languages\n  - chatterbox\n\
+  \  - speech-synthesis\n  - voice-cloning\nlibrary_name: transformers\npipeline_tag:\
+  \ text-to-speech\n---\n\n# Chatterbox Indic LoRA — Indian Language TTS\n\n**LoRA\
+  \ adapters + extended tokenizer to add 8 Indian languages to [Chatterbox-Multilingual](https://github.com/resemble-ai/chatterbox)\
+  \ by Res"
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is a straightforward LoRA fine-tuning application to extend language
+  support without novel contributions to emotional/expressive synthesis or zero-shot
+  voice capabilities.

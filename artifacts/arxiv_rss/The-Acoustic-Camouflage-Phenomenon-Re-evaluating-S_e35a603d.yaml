@@ -1,0 +1,33 @@
+title: 'The Acoustic Camouflage Phenomenon: Re-evaluating Speech Features for Financial
+  Risk Prediction'
+url: https://arxiv.org/abs/2604.14619
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-17T10:29:44.687867+00:00'
+date_seen: '2026-04-17'
+metadata:
+  arxiv_id: '2604.14619'
+  published: Fri, 17 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.LG, eess.AS, q-fin.CP, q-fin.ST
+content_preview: 'Title: The Acoustic Camouflage Phenomenon: Re-evaluating Speech
+  Features for Financial Risk Prediction
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In computational paralinguistics, detecting cognitive load and deception from speech
+  signals is a heavily researched domain. Recent efforts have attempted to apply these
+  acoustic frameworks to corporate earnings calls to predict catastrophic stock market
+  volatility. In this study, we empirically investigate the limits of acoustic feature
+  extraction (pitch, jitter, a'
+content_length: 1351
+llm_content_sent: 1351
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on financial risk prediction from speech rather than emotional/expressive
+  speech synthesis, and introduces no novel synthesis techniques or zero-shot capabilities.

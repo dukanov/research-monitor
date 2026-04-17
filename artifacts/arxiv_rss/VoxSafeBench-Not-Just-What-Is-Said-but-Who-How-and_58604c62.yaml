@@ -1,0 +1,32 @@
+title: 'VoxSafeBench: Not Just What Is Said, but Who, How, and Where'
+url: https://arxiv.org/abs/2604.14548
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-17T10:29:44.687813+00:00'
+date_seen: '2026-04-17'
+metadata:
+  arxiv_id: '2604.14548'
+  published: Fri, 17 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.LG, eess.AS
+content_preview: 'Title: VoxSafeBench: Not Just What Is Said, but Who, How, and Where
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  As speech language models (SLMs) transition from personal devices into shared, multi-user
+  environments, their responses must account for far more than the words alone. Who
+  is speaking, how they sound, and where the conversation takes place can each turn
+  an otherwise benign request into one that is unsafe, unfair, or privacy-violating.
+  Existing benchmarks, however, largely focus on basic audio compreh'
+content_length: 2013
+llm_content_sent: 2013
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on safety/fairness evaluation of speech language models
+  rather than advancing emotional/expressive speech synthesis or zero-shot generation
+  capabilities.

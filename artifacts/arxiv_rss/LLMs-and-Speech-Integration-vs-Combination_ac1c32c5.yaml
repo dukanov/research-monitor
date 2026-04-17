@@ -1,0 +1,33 @@
+title: 'LLMs and Speech: Integration vs. Combination'
+url: https://arxiv.org/abs/2603.15045
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-17T10:29:44.715018+00:00'
+date_seen: '2026-04-17'
+metadata:
+  arxiv_id: '2603.15045'
+  published: Fri, 17 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: LLMs and Speech: Integration vs. Combination
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In this work, we study how to best utilize pre-trained LLMs for automatic speech
+  recognition. Specifically, we compare the tight integration of an acoustic model
+  (AM) with the LLM ("speech LLM") to the traditional way of combining AM and LLM
+  via shallow fusion. For tight integration, we provide ablations on the effect of
+  different label units, fine-tuning strategies, LLM sizes and pre-training data,
+  attention interf'
+content_length: 1164
+llm_content_sent: 1164
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This paper focuses on automatic speech recognition (ASR) using LLMs, which
+  is fundamentally different from emotional/expressive speech synthesis and lacks
+  any zero-shot synthesis capabilities.
