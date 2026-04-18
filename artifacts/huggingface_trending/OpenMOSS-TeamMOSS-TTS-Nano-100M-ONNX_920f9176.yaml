@@ -1,0 +1,25 @@
+title: OpenMOSS-Team/MOSS-TTS-Nano-100M-ONNX
+url: https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Nano-100M-ONNX
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-18T10:18:10.502694+00:00'
+date_seen: '2026-04-18'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-04-17T10:29:39.000Z'
+content_preview: "---\nlicense: apache-2.0\nlibrary_name: onnx\npipeline_tag: text-to-speech\n\
+  tags:\n  - text-to-speech\n  - audio\n  - moss-tts-family\n  - moss-tts-nano\n \
+  \ - onnx\n  - onnxruntime\n  - browser\n  - cpu\n---\n\n# MOSS-TTS-Nano-100M-ONNX\n\
+  \nThis repository provides the **ONNX exports** of [MOSS-TTS-Nano](https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Nano),\
+  \ a **0.1B multilingual tiny speech generation model** from [MOSI.AI](https://mosi.cn/#hero)\
+  \ and the [OpenMOSS team](https://www.open-moss.com/). It is designed f"
+content_length: 6095
+llm_content_sent: 6095
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is merely an ONNX deployment format conversion of an existing TTS model
+  with no mention of emotional/expressive capabilities or zero-shot features, offering
+  no scientific novelty beyond runtime optimization.
