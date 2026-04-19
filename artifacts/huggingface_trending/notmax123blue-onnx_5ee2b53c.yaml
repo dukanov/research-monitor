@@ -1,0 +1,25 @@
+title: notmax123/blue-onnx
+url: https://huggingface.co/notmax123/blue-onnx
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-19T10:17:42.438690+00:00'
+date_seen: '2026-04-19'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-04-16T17:57:10.000Z'
+content_preview: "---\nlanguage:\n  - multilingual\ntags:\n  - text-to-speech\n  -\
+  \ tts\n  - hebrew\n  - audio\n  - fast-inference\n  - onnx\nlicense: mit\ndatasets:\n\
+  \  - notmax123/RanLevi40h\n  - notmax123/SententicDataTTS\npipeline_tag: text-to-speech\n\
+  ---\n\n# Blue ONNX — Text-to-speech inference\n\nThis repository is the **ONNX model\
+  \ bundle** for **[BlueTTS](https://github.com/maxmelichov/BlueTTS)**: fast Hebrew-first\
+  \ multilingual speech synthesis with [ONNX Runtime](https://onnxruntime.ai/) and\
+  \ optional NVIDIA TensorRT engines "
+content_length: 3548
+llm_content_sent: 3548
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is merely an ONNX deployment package for existing BlueTTS models with
+  no novel contributions to emotional/expressive speech synthesis or zero-shot capabilities.

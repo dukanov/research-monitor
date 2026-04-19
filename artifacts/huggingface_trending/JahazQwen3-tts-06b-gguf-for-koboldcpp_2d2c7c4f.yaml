@@ -1,0 +1,26 @@
+title: Jahaz/Qwen3-tts-0.6b-gguf-for-koboldcpp
+url: https://huggingface.co/Jahaz/Qwen3-tts-0.6b-gguf-for-koboldcpp
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-19T10:17:43.287124+00:00'
+date_seen: '2026-04-19'
+metadata:
+  likes: '2'
+  downloads: '1070'
+  trending_score: '2'
+  last_modified: '2026-04-13T09:11:49.000Z'
+content_preview: "---\nbase_model:\n- Qwen/Qwen3-TTS-12Hz-0.6B-Base\npipeline_tag:\
+  \ text-to-speech\nlicense: apache-2.0\n---\nHi, welcome to use, \n\n1. The audio\
+  \ tokenizer gguf file in iq4xs, even i say so, only little smaller and faster than\
+  \ q8_0; \n2. This repo's qwen3-tts-0.6b-q8_0.gguf is smaller. iq4xs quant hurts\
+  \ the voice clone ablity, but maybe we don't really care that little lose.\n3. Updated\
+  \ new quanted iq4_xs tokenizer, which downcasted some fp16 tensors to q8_0.(211M)\n\
+  4. Updated iq3s tokenizer, yes, it's worki"
+content_length: 583
+llm_content_sent: 583
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is merely a quantized version of an existing TTS model for deployment
+  efficiency, with no scientific contribution to emotional/expressive speech synthesis
+  or zero-shot capabilities.
