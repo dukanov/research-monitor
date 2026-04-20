@@ -1,0 +1,35 @@
+title: 'NaijaS2ST: A Multi-Accent Benchmark for Speech-to-Speech Translation in Low-Resource
+  Nigerian Languages'
+url: https://arxiv.org/abs/2604.16287
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-20T10:37:52.504714+00:00'
+date_seen: '2026-04-20'
+metadata:
+  arxiv_id: '2604.16287'
+  published: Mon, 20 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: NaijaS2ST: A Multi-Accent Benchmark for Speech-to-Speech
+  Translation in Low-Resource Nigerian Languages
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech translation for low-resource languages remains fundamentally limited by the
+  scarcity of high-quality, diverse parallel speech data, a challenge that is especially
+  pronounced in African linguistic contexts. To address this, we introduce NaijaS2ST,
+  a parallel speech translation dataset spanning Igbo, Hausa, Yor\`ub\''a, and Nigerian
+  Pidgin paired with En'
+content_length: 1546
+llm_content_sent: 1546
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on speech-to-speech translation for low-resource languages
+  without addressing emotional/expressive synthesis or zero-shot capabilities, making
+  it largely irrelevant to the specified research interests despite being a solid
+  dataset contribution.

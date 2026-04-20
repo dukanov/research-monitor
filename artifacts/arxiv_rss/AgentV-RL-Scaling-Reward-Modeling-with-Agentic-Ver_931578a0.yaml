@@ -1,0 +1,32 @@
+title: 'AgentV-RL: Scaling Reward Modeling with Agentic Verifier'
+url: https://arxiv.org/abs/2604.16004
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-20T10:37:52.580915+00:00'
+date_seen: '2026-04-20'
+metadata:
+  arxiv_id: '2604.16004'
+  published: Mon, 20 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI
+content_preview: 'Title: AgentV-RL: Scaling Reward Modeling with Agentic Verifier
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Verifiers have been demonstrated to enhance LLM reasoning via test-time scaling
+  (TTS). Yet, they face significant challenges in complex domains. Error propagation
+  from incorrect intermediate reasoning can lead to false positives for seemingly
+  plausible solutions, while lacking external grounding makes verifiers unreliable
+  on computation or knowledge-intensive tasks. To address these challenges, we propos'
+content_length: 1442
+llm_content_sent: 1442
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This paper focuses on reward modeling for large language model reasoning verification,
+  which is completely unrelated to emotional/expressive speech synthesis or zero-shot
+  speech generation capabilities.

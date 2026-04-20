@@ -1,0 +1,33 @@
+title: 'NVBench: A Benchmark for Speech Synthesis with Non-Verbal Vocalizations'
+url: https://arxiv.org/abs/2604.16211
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-20T10:37:52.504689+00:00'
+date_seen: '2026-04-20'
+metadata:
+  arxiv_id: '2604.16211'
+  published: Mon, 20 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: NVBench: A Benchmark for Speech Synthesis with Non-Verbal
+  Vocalizations
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Non-verbal vocalizations (NVVs) like laugh, sigh, and sob are essential for human-like
+  speech, yet standardized evaluation remains limited in jointly assessing whether
+  systems can generate the intended NVVs, place them correctly, and keep them salient
+  without harming speech. We present Non-verbal Vocalization Benchmark (NVBench),
+  a bilingual (English/Chinese) benchmark that evaluates speec'
+content_length: 1221
+llm_content_sent: 1221
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces the first standardized benchmark specifically for evaluating non-verbal
+  vocalizations in speech synthesis with a novel multi-axis evaluation protocol that
+  separates NVV-specific metrics from general speech quality.

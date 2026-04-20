@@ -1,0 +1,47 @@
+title: k2-fsa/TTS_eval_models
+url: https://huggingface.co/k2-fsa/TTS_eval_models
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-20T10:38:22.591503+00:00'
+date_seen: '2026-04-20'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '1'
+  last_modified: '2026-04-18T00:40:12.000Z'
+content_preview: '---
+
+  datasets:
+
+  - k2-fsa/TTS_eval_datasets
+
+  language:
+
+  - en
+
+  - zh
+
+  license: apache-2.0
+
+  pipeline_tag: text-to-speech
+
+  library_name: transformers
+
+  ---
+
+
+  # TTS Evaluation Models
+
+
+  This repository contains models for the objective evaluation of text-to-speech (TTS)
+  models, as presented in the papers [ZipVoice: Fast and High-Quality Zero-Shot Text-to-Speech
+  with Flow Matching](https://huggingface.co/papers/2506.13053) and [ZipVoice-Dialog:
+  Non-Autoregressive Spoken Dialogue Generation with Flow Matching](https'
+content_length: 2886
+llm_content_sent: 2886
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily an evaluation toolkit repository rather than a novel research
+  contribution, offering standardized metrics for TTS assessment but no new methodological
+  advances in emotional/expressive speech synthesis or zero-shot capabilities.

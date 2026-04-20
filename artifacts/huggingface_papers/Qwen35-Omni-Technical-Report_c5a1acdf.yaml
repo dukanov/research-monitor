@@ -1,0 +1,30 @@
+title: Qwen3.5-Omni Technical Report
+url: https://huggingface.co/papers/2604.15804
+source: huggingface_papers
+type: paper
+date_discovered: '2026-04-20T10:38:19.296988+00:00'
+date_seen: '2026-04-20'
+metadata:
+  upvotes: '14'
+  paper_id: '2604.15804'
+  published_date: '2026-04-20'
+content_preview: 'Title: Qwen3.5-Omni Technical Report
+
+
+  Summary:
+
+  In this work, we present Qwen3.5-Omni, the latest advancement in the Qwen-Omni model
+  family. Representing a significant evolution over its predecessor, Qwen3.5-Omni
+  scales to hundreds of billions of parameters and supports a 256k context length.
+  By leveraging a massive dataset comprising heterogeneous text-vision pairs and over
+  100 million hours of audio-visual content, the model demonstrates robust omni-modality
+  capabilities. Qwen3.5-Omni-plus achi'
+content_length: 1938
+llm_content_sent: 1938
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces ARIA for dynamic text-speech alignment to improve conversational
+  speech stability and demonstrates multilingual emotional speech generation, though
+  the core approach appears to be scaling existing multimodal architectures rather
+  than fundamentally novel synthesis methods.

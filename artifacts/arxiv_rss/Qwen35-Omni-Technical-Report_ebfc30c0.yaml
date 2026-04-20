@@ -1,0 +1,33 @@
+title: Qwen3.5-Omni Technical Report
+url: https://arxiv.org/abs/2604.15804
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-20T10:37:52.533955+00:00'
+date_seen: '2026-04-20'
+metadata:
+  arxiv_id: '2604.15804'
+  published: Mon, 20 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, eess.AS
+content_preview: 'Title: Qwen3.5-Omni Technical Report
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In this work, we present Qwen3.5-Omni, the latest advancement in the Qwen-Omni model
+  family. Representing a significant evolution over its predecessor, Qwen3.5-Omni
+  scales to hundreds of billions of parameters and supports a 256k context length.
+  By leveraging a massive dataset comprising heterogeneous text-vision pairs and over
+  100 million hours of audio-visual content, the model demonstrates robust omni-modality
+  capabilities. Qwe'
+content_length: 2027
+llm_content_sent: 2027
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces ARIA for dynamic text-speech alignment to improve streaming speech
+  synthesis stability and prosody, plus claims multilingual emotional speech generation,
+  though lacks technical details on the emotional modeling approach.

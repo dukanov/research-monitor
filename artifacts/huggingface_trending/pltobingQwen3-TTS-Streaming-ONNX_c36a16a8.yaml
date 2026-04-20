@@ -1,0 +1,26 @@
+title: pltobing/Qwen3-TTS-Streaming-ONNX
+url: https://huggingface.co/pltobing/Qwen3-TTS-Streaming-ONNX
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-20T10:38:22.011978+00:00'
+date_seen: '2026-04-20'
+metadata:
+  likes: '2'
+  downloads: '220'
+  trending_score: '2'
+  last_modified: '2026-04-18T03:54:29.000Z'
+content_preview: "---\r\nlanguage:\r\n  - ru\r\n  - zh \r\n  - en \r\n  - de\r\n \
+  \ - es\r\n  - fr\r\n  - ja\r\n  - it\r\n  - pt\r\n  - ko\r\ntags:\r\n  - text-to-speech\r\
+  \n  - TTS\r\n  - ONNX\r\n  - qwen3-tts\r\n  - voice-clone\r\n  - streaming\r\n \
+  \ - qwen3\r\n  - rvq\r\n  - multilingual\r\npipeline_tag: text-to-speech\r\nlicense:\
+  \ apache-2.0\r\nbase_model: Qwen/Qwen3-TTS-12Hz-0.6B-Base\r\n---\r\n\r\n# Qwen3-TTS-Realtime\
+  \ ONNX Inference\r\n\r\nPure ONNX Runtime inference pipeline for [Qwen3-TTS-12Hz-0.6B-Base](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base),\
+  \ enabling"
+content_length: 9805
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily an engineering optimization (ONNX conversion for streaming)
+  of an existing model rather than introducing novel approaches for emotional/expressive
+  speech synthesis or zero-shot capabilities.

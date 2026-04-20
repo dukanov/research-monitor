@@ -1,0 +1,33 @@
+title: 'ArtifactNet: Detecting AI-Generated Music via Forensic Residual Physics'
+url: https://arxiv.org/abs/2604.16254
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-20T10:37:52.504704+00:00'
+date_seen: '2026-04-20'
+metadata:
+  arxiv_id: '2604.16254'
+  published: Mon, 20 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: ArtifactNet: Detecting AI-Generated Music via Forensic Residual
+  Physics
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We present ArtifactNet, a lightweight framework that detects AI-generated music
+  by reframing the problem as forensic physics -- extracting and analyzing the physical
+  artifacts that neural audio codecs inevitably imprint on generated audio. A bounded-mask
+  UNet (ArtifactUNet, 3.6M parameters) extracts codec residuals from magnitude spectrograms,
+  which are then decomposed via HPSS into 7-chan'
+content_length: 1611
+llm_content_sent: 1611
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on detecting AI-generated music rather than synthesizing
+  expressive speech, making it irrelevant to emotional/expressive speech synthesis
+  research despite introducing a novel forensic physics approach for audio detection.

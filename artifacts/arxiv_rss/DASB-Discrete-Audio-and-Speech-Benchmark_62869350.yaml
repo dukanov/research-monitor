@@ -1,0 +1,32 @@
+title: DASB -- Discrete Audio and Speech Benchmark
+url: https://arxiv.org/abs/2406.14294
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-20T10:37:52.504820+00:00'
+date_seen: '2026-04-20'
+metadata:
+  arxiv_id: '2406.14294'
+  published: Mon, 20 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI, eess.AS
+content_preview: 'Title: DASB -- Discrete Audio and Speech Benchmark
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Discrete audio tokens have recently gained considerable attention for their potential
+  to bridge audio and language processing, enabling multimodal language models that
+  can both generate and understand audio. However, preserving key information such
+  as phonetic content, speaker identity, and paralinguistic cues remains a major challenge.
+  Identifying the optimal tokenizer and configuration is further complicated by inc'
+content_length: 1371
+llm_content_sent: 1371
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.6
+reason: While the benchmark itself is valuable for standardizing evaluation of discrete
+  audio tokens (which are relevant to zero-shot speech synthesis), it primarily provides
+  evaluation infrastructure rather than novel methods for emotional/expressive synthesis.
