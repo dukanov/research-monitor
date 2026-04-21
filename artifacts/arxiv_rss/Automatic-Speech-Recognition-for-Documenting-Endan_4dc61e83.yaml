@@ -1,0 +1,33 @@
+title: 'Automatic Speech Recognition for Documenting Endangered Languages: Case Study
+  of Ikema Miyakoan'
+url: https://arxiv.org/abs/2603.26248
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-21T10:33:42.877375+00:00'
+date_seen: '2026-04-21'
+metadata:
+  arxiv_id: '2603.26248'
+  published: Tue, 21 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI
+content_preview: 'Title: Automatic Speech Recognition for Documenting Endangered Languages:
+  Case Study of Ikema Miyakoan
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Language endangerment poses a major challenge to linguistic diversity worldwide,
+  and technological advances have opened new avenues for documentation and revitalization.
+  Among these, automatic speech recognition (ASR) has shown increasing potential to
+  assist in the transcription of endangered language data. This study focuses on Ikema,
+  a severely endangered Ryukyuan'
+content_length: 1257
+llm_content_sent: 1257
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on standard ASR for endangered language documentation with
+  no connection to emotional/expressive speech synthesis or zero-shot capabilities.

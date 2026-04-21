@@ -1,0 +1,34 @@
+title: 'MINT-Bench: A Comprehensive Multilingual Benchmark for Instruction-Following
+  Text-to-Speech'
+url: https://arxiv.org/abs/2604.17958
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-21T10:33:42.680741+00:00'
+date_seen: '2026-04-21'
+metadata:
+  arxiv_id: '2604.17958'
+  published: Tue, 21 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: MINT-Bench: A Comprehensive Multilingual Benchmark for Instruction-Following
+  Text-to-Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Instruction-following text-to-speech (TTS) has emerged as an important capability
+  for controllable and expressive speech generation, yet its evaluation remains underdeveloped
+  due to limited benchmark coverage, weak diagnostic granularity, and insufficient
+  multilingual support. We present \textbf{MINT-Bench}, a comprehensive multilingual
+  benchmark for instruction-followi'
+content_length: 1516
+llm_content_sent: 1516
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces the first comprehensive multilingual benchmark for instruction-following
+  TTS with hierarchical evaluation protocols, addressing a significant gap in systematic
+  evaluation of controllable and expressive speech synthesis capabilities.

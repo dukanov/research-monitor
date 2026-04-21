@@ -1,0 +1,33 @@
+title: Designing Explainable Conversational Agentic Systems for Guaran\'i Speakers
+url: https://arxiv.org/abs/2603.05743
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-21T10:33:42.877019+00:00'
+date_seen: '2026-04-21'
+metadata:
+  arxiv_id: '2603.05743'
+  published: Tue, 21 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Designing Explainable Conversational Agentic Systems for
+  Guaran\''i Speakers
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Although artificial intelligence (AI) and Human-Computer Interaction (HCI) systems
+  are often presented as universal solutions, their design remains predominantly text-first,
+  underserving primarily oral languages and indigenous communities. This position
+  paper uses Guaran\''i, an official and widely spoken language of Paraguay, as a
+  case study to argue that language support in AI remains'
+content_length: 1400
+llm_content_sent: 1400
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This paper focuses on conversational AI architecture for indigenous language
+  support rather than emotional/expressive speech synthesis or zero-shot capabilities,
+  with no mention of prosodic modeling, emotion transfer, or synthesis techniques.

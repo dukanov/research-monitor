@@ -1,0 +1,34 @@
+title: 'FreezeEmpath: Efficient Training for Empathetic Spoken Chatbots with Frozen
+  LLMs'
+url: https://arxiv.org/abs/2604.18159
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-21T10:33:42.864546+00:00'
+date_seen: '2026-04-21'
+metadata:
+  arxiv_id: '2604.18159'
+  published: Tue, 21 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: FreezeEmpath: Efficient Training for Empathetic Spoken Chatbots
+  with Frozen LLMs
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Empathy is essential for fostering natural interactions in spoken dialogue systems,
+  as it enables machines to recognize the emotional tone of human speech and deliver
+  empathetic responses. Recent research has made significant progress in developing
+  empathetic spoken chatbots based on large language models (LLMs). However, several
+  challenges still exist when training such models, i'
+content_length: 1395
+llm_content_sent: 1395
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The novel contribution is training empathetic spoken chatbots by keeping LLM
+  parameters frozen while using only existing speech instruction and SER data, avoiding
+  catastrophic forgetting and the need for costly empathetic speech instruction datasets.

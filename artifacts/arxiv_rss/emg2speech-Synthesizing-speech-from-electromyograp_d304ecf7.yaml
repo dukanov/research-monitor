@@ -1,0 +1,35 @@
+title: 'emg2speech: Synthesizing speech from electromyography using self-supervised
+  speech models'
+url: https://arxiv.org/abs/2510.23969
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-21T10:33:42.681074+00:00'
+date_seen: '2026-04-21'
+metadata:
+  arxiv_id: '2510.23969'
+  published: Tue, 21 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.CL, eess.AS
+content_preview: 'Title: emg2speech: Synthesizing speech from electromyography using
+  self-supervised speech models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We present a neuromuscular speech interface that translates electromyographic (EMG)
+  signals recorded from orofacial muscles during speech articulation directly into
+  audio. We find that self-supervised speech (S3) representations are strongly linearly
+  related to the electrical power of muscle activity: a simple linear mapping predicts
+  EMG power from S3 representations with'
+content_length: 1246
+llm_content_sent: 1246
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While this presents an interesting EMG-to-speech synthesis approach, it lacks
+  the emotional/expressive capabilities and zero-shot generalization that are central
+  to your research interests, focusing instead on basic speech reconstruction from
+  neural signals.

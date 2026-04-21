@@ -1,0 +1,34 @@
+title: 'Mechanisms of Multimodal Synchronization: Insights from Decoder-Based Video-Text-to-Speech
+  Synthesis'
+url: https://arxiv.org/abs/2411.17690
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-21T10:33:42.681532+00:00'
+date_seen: '2026-04-21'
+metadata:
+  arxiv_id: '2411.17690'
+  published: Tue, 21 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.MM, cs.CV, cs.SD, eess.AS
+content_preview: 'Title: Mechanisms of Multimodal Synchronization: Insights from Decoder-Based
+  Video-Text-to-Speech Synthesis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Unified decoder-only transformers have shown promise for multimodal generation,
+  yet the mechanisms by which they synchronize modalities with heterogeneous sampling
+  rates remain underexplored. We investigate these mechanisms through video-text-to-speech
+  (VTTS) synthesis-a controlled task requiring fine-grained temporal alignment between
+  sparse text, video, and c'
+content_length: 2130
+llm_content_sent: 2130
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Novel investigation of multimodal synchronization mechanisms in unified decoder-only
+  transformers for video-text-to-speech synthesis, with systematic analysis of positional
+  encoding strategies and introduction of phoneme-level temporal alignment metrics.

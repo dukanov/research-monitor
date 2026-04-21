@@ -1,0 +1,33 @@
+title: 'Audio-DeepThinker: Progressive Reasoning-Aware Reinforcement Learning for
+  High-Quality Chain-of-Thought Emergence in Audio Language Models'
+url: https://arxiv.org/abs/2604.18187
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-21T10:33:42.680235+00:00'
+date_seen: '2026-04-21'
+metadata:
+  arxiv_id: '2604.18187'
+  published: Tue, 21 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.CL
+content_preview: 'Title: Audio-DeepThinker: Progressive Reasoning-Aware Reinforcement
+  Learning for High-Quality Chain-of-Thought Emergence in Audio Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large Audio-Language Models (LALMs) have made significant progress in audio understanding,
+  yet they primarily operate as perception-and-answer systems without explicit reasoning
+  processes. Existing methods for enhancing audio reasoning rely either on supervised
+  chain-of-thought (CoT) fine-tuning, which is limited by trainin'
+content_length: 2182
+llm_content_sent: 2182
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While this work advances audio language models through novel RL-based reasoning
+  training, it focuses on logical reasoning capabilities rather than emotional/expressive
+  speech synthesis or zero-shot voice generation.

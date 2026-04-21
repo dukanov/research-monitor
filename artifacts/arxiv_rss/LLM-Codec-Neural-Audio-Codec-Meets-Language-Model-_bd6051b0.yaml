@@ -1,0 +1,33 @@
+title: 'LLM-Codec: Neural Audio Codec Meets Language Model Objectives'
+url: https://arxiv.org/abs/2604.17852
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-21T10:33:42.680131+00:00'
+date_seen: '2026-04-21'
+metadata:
+  arxiv_id: '2604.17852'
+  published: Tue, 21 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: LLM-Codec: Neural Audio Codec Meets Language Model Objectives
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Neural audio codecs are widely used as tokenizers for spoken language models, but
+  they are optimized for waveform reconstruction rather than autoregressive prediction.
+  This mismatch injects acoustically driven uncertainty into the discrete token space
+  and increases language-model perplexity. We propose \ours, which augments codec
+  training with language-model-facing objectives while keeping both code'
+content_length: 1303
+llm_content_sent: 1303
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Novel approach to bridge the gap between neural audio codec optimization (waveform
+  reconstruction) and language model objectives (autoregressive prediction) through
+  multi-step prediction heads and semantic alignment, which could improve zero-shot
+  capabilities by better token predictability.

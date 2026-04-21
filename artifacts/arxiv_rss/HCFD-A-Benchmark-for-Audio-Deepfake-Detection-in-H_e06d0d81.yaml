@@ -1,0 +1,31 @@
+title: 'HCFD: A Benchmark for Audio Deepfake Detection in Healthcare'
+url: https://arxiv.org/abs/2604.17642
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-21T10:33:42.734271+00:00'
+date_seen: '2026-04-21'
+metadata:
+  arxiv_id: '2604.17642'
+  published: Tue, 21 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: HCFD: A Benchmark for Audio Deepfake Detection in Healthcare
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In this study, we present Healthcare Codec-Fake Detection (HCFD), a new task for
+  detecting codec-fakes under pathological speech conditions. We intentionally focus
+  on codec based synthetic speech in this work, since neural codec decoding forms
+  a core building block in modern speech generation pipelines. First, we release Healthcare
+  CodecFake, the first pathology-aware dataset containing paired real a'
+content_length: 1761
+llm_content_sent: 1761
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on detecting synthetic speech rather than generating it,
+  which is orthogonal to emotional/expressive speech synthesis research goals.

@@ -1,0 +1,34 @@
+title: 'SpeakerSleuth: Can Large Audio-Language Models Judge Speaker Consistency across
+  Multi-turn Dialogues?'
+url: https://arxiv.org/abs/2601.04029
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-21T10:33:42.874807+00:00'
+date_seen: '2026-04-21'
+metadata:
+  arxiv_id: '2601.04029'
+  published: Tue, 21 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: SpeakerSleuth: Can Large Audio-Language Models Judge Speaker
+  Consistency across Multi-turn Dialogues?
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large Audio-Language Models (LALMs) as judges have emerged as a prominent approach
+  for evaluating speech generation quality, yet their ability to assess speaker consistency
+  across multi-turn dialogues remains unexplored. We present \textbf{SpeakerSleuth},
+  a benchmark evaluating whether LALMs can reliably judge speaker consistency across
+  multi-turn dialogues th'
+content_length: 1779
+llm_content_sent: 1779
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on evaluating existing audio-language models as judges for
+  speaker consistency rather than developing new methods for emotional/expressive
+  speech synthesis or zero-shot synthesis capabilities.

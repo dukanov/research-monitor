@@ -1,0 +1,34 @@
+title: A state-space representation of the boundary integral equation for room acoustic
+  modelling
+url: https://arxiv.org/abs/2604.16970
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-21T10:33:42.680601+00:00'
+date_seen: '2026-04-21'
+metadata:
+  arxiv_id: '2604.16970'
+  published: Tue, 21 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: A state-space representation of the boundary integral equation
+  for room acoustic modelling
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We introduce a new framework for room acoustics modelling based on a state-space
+  model of the boundary integral equation representing the sound field in a room.
+  Whereas state-space models of linear time-invariant systems are traditionally constructed
+  by means of a state vector and a 4-tuple of system matrices, the state-space representation
+  introduced in this work consis'
+content_length: 1905
+llm_content_sent: 1905
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on room acoustic modeling using boundary integral equations
+  and state-space theory, which is completely unrelated to emotional/expressive speech
+  synthesis or zero-shot capabilities.

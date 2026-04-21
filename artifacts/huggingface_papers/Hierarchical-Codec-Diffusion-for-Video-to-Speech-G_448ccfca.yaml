@@ -1,0 +1,29 @@
+title: Hierarchical Codec Diffusion for Video-to-Speech Generation
+url: https://huggingface.co/papers/2604.15923
+source: huggingface_papers
+type: paper
+date_discovered: '2026-04-21T10:34:10.690744+00:00'
+date_seen: '2026-04-21'
+metadata:
+  upvotes: '2'
+  paper_id: '2604.15923'
+  published_date: '2026-04-20'
+content_preview: 'Title: Hierarchical Codec Diffusion for Video-to-Speech Generation
+
+
+  Summary:
+
+  Video-to-Speech (VTS) generation aims to synthesize speech from a silent video without
+  auditory signals. However, existing VTS methods disregard the hierarchical nature
+  of speech, which spans coarse speaker-aware semantics to fine-grained prosodic details.
+  This oversight hinders direct alignment between visual and speech features at specific
+  hierarchical levels during property matching. In this paper, leveraging the hie'
+content_length: 1688
+llm_content_sent: 1688
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a hierarchical approach to video-to-speech synthesis using RVQ
+  codec structure with separate processing blocks for coarse speaker semantics and
+  fine prosodic details, though it's primarily visual-driven rather than zero-shot
+  emotional synthesis.

@@ -1,0 +1,33 @@
+title: 'Anonymization, Not Elimination: Utility-Preserved Speech Anonymization'
+url: https://arxiv.org/abs/2604.17000
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-21T10:33:42.734251+00:00'
+date_seen: '2026-04-21'
+metadata:
+  arxiv_id: '2604.17000'
+  published: Tue, 21 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Anonymization, Not Elimination: Utility-Preserved Speech
+  Anonymization
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The growing reliance on large-scale speech data has made privacy protection a critical
+  concern. However, existing anonymization approaches often degrade data utility,
+  for example by disrupting acoustic continuity or reducing vocal diversity, which
+  compromises the value of speech data for downstream tasks such as Automatic Speech
+  Recognition (ASR), Text-to-Speech (TTS), and Speech Emotion Re'
+content_length: 1738
+llm_content_sent: 1738
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel flow-matching-based voice anonymization framework (F3-VA)
+  with three-stage design for generating diverse anonymized speakers while preserving
+  speech utility, representing a solid contribution to privacy-preserving speech synthesis.

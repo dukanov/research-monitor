@@ -1,0 +1,35 @@
+title: Leveraging Large Language Models for Sarcastic Speech Annotation in Sarcasm
+  Detection
+url: https://arxiv.org/abs/2506.00955
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-21T10:33:42.681608+00:00'
+date_seen: '2026-04-21'
+metadata:
+  arxiv_id: '2506.00955'
+  published: Tue, 21 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.SD, eess.AS
+content_preview: 'Title: Leveraging Large Language Models for Sarcastic Speech Annotation
+  in Sarcasm Detection
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Sarcasm fundamentally alters meaning through tone and context, yet detecting it
+  in speech remains a challenge due to data scarcity. In addition, existing detection
+  systems often rely on multimodal data, limiting their applicability in contexts
+  where only speech is available. To address this, we propose an annotation pipeline
+  that leverages large language models (LLMs) to gene'
+content_length: 1195
+llm_content_sent: 1195
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: While the LLM-based annotation pipeline for creating sarcastic speech datasets
+  is moderately useful, this work focuses on detection rather than synthesis and represents
+  an incremental application of existing LLM annotation techniques to speech sarcasm
+  data.

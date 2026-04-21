@@ -1,0 +1,26 @@
+title: kenpath/svara-tts-v1-openvino-int4
+url: https://huggingface.co/kenpath/svara-tts-v1-openvino-int4
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-21T10:34:15.103205+00:00'
+date_seen: '2026-04-21'
+metadata:
+  likes: '2'
+  downloads: '22'
+  trending_score: '2'
+  last_modified: '2026-04-20T07:16:57.000Z'
+content_preview: "---\nlanguage:\n  - hi\n  - bn\n  - ta\n  - te\n  - mr\n  - gu\n\
+  \  - kn\n  - ml\n  - pa\n  - en\n  - as\n  - ne\n  - bho\n  - doi\n  - sa\n  - mai\n\
+  \  - brx\ntags:\n  - text-to-speech\n  - tts\n  - indic\n  - openvino\n  - int4\n\
+  \  - quantized\n  - intel\n  - npu\n  - snac\n  - llama\nlicense: apache-2.0\nlibrary_name:\
+  \ optimum\npipeline_tag: text-to-speech\nbase_model: kenpath/svara-tts-v1\nmodel-index:\n\
+  \  - name: svara-tts-v1-openvino-int4\n    results: []\n---\n\n<div align=\"center\"\
+  >\n\n# Svara TTS v1 -- OpenVINO INT4\n\n### High-Quality "
+content_length: 7180
+llm_content_sent: 7180
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is merely a quantized optimization of an existing TTS model for Intel
+  hardware deployment, with no scientific novelty in emotional/expressive synthesis
+  or zero-shot capabilities.

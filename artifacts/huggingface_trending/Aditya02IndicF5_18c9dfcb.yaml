@@ -1,0 +1,64 @@
+title: Aditya02/IndicF5
+url: https://huggingface.co/Aditya02/IndicF5
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-21T10:34:15.002132+00:00'
+date_seen: '2026-04-21'
+metadata:
+  likes: '2'
+  downloads: '150'
+  trending_score: '2'
+  last_modified: '2026-04-19T17:25:39.000Z'
+content_preview: '---
+
+  datasets:
+
+  - ai4bharat/indicvoices_r
+
+  - ai4bharat/Rasa
+
+  language:
+
+  - as
+
+  - bn
+
+  - gu
+
+  - mr
+
+  - hi
+
+  - kn
+
+  - ml
+
+  - or
+
+  - pa
+
+  - ta
+
+  - te
+
+  pipeline_tag: text-to-speech
+
+  license: mit
+
+  ---
+
+  # **IndicF5: High-Quality Text-to-Speech for Indian Languages**
+
+
+
+  We release **IndicF5**, a **near-human polyglot** **Text-to-Speech (TTS)** model
+  trained on **1417 hours** of high-quality speech from **[Rasa](https://huggingface.co/datasets/ai4bharat/Rasa),
+  [IndicTTS](https://www.iitm.ac.in/donlab/indictts/database), [LIMMITS](ht'
+content_length: 4240
+llm_content_sent: 4240
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily a model release applying existing F5-TTS architecture to
+  Indian languages with multilingual training data, offering limited scientific novelty
+  beyond language coverage expansion.

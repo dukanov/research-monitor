@@ -1,0 +1,33 @@
+title: 'ICLAD: In-Context Learning with Comparison-Guidance for Audio Deepfake Detection'
+url: https://arxiv.org/abs/2604.16749
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-21T10:33:42.680041+00:00'
+date_seen: '2026-04-21'
+metadata:
+  arxiv_id: '2604.16749'
+  published: Tue, 21 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.CL, eess.AS
+content_preview: 'Title: ICLAD: In-Context Learning with Comparison-Guidance for Audio
+  Deepfake Detection
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Audio deepfakes pose a significant security threat, yet current state-of-the-art
+  (SOTA) detection systems do not generalize well to realistic in-the-wild deepfakes.
+  We introduce a novel \textbf{I}n-\textbf{C}ontext \textbf{L}earning paradigm with
+  comparison-guidance for \textbf{A}udio \textbf{D}eepfake detection (\textbf{ICLAD}).
+  The framework enables the use of audio language mod'
+content_length: 1260
+llm_content_sent: 1260
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on audio deepfake detection rather than speech synthesis,
+  and while it uses audio language models, it doesn't contribute to emotional/expressive
+  speech generation or zero-shot synthesis capabilities.

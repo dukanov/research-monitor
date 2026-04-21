@@ -1,0 +1,32 @@
+title: Enabling AI ASICs for Zero Knowledge Proof
+url: https://arxiv.org/abs/2604.17808
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-21T10:33:42.868335+00:00'
+date_seen: '2026-04-21'
+metadata:
+  arxiv_id: '2604.17808'
+  published: Tue, 21 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.AR, cs.CL, cs.CR, cs.DS, cs.PL
+content_preview: 'Title: Enabling AI ASICs for Zero Knowledge Proof
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Zero-knowledge proof (ZKP) provers remain costly because multi-scalar multiplication
+  (MSM) and number-theoretic transforms (NTTs) dominate runtime as they need significant
+  computation. AI ASICs such as TPUs provide massive matrix throughput and SotA energy
+  efficiency. We present MORPH, the first framework that reformulates ZKP kernels
+  to match AI-ASIC execution. We introduce Big-T complexity, a hardware-aware complexi'
+content_length: 1304
+llm_content_sent: 1304
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: This paper focuses on zero-knowledge proof acceleration using AI ASICs, which
+  is completely unrelated to emotional/expressive speech synthesis or zero-shot speech
+  capabilities.

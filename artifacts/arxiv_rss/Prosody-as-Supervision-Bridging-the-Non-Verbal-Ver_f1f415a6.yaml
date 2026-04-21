@@ -1,0 +1,34 @@
+title: 'Prosody as Supervision: Bridging the Non-Verbal--Verbal for Multilingual Speech
+  Emotion Recognition'
+url: https://arxiv.org/abs/2604.17647
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-21T10:33:42.734293+00:00'
+date_seen: '2026-04-21'
+metadata:
+  arxiv_id: '2604.17647'
+  published: Tue, 21 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Prosody as Supervision: Bridging the Non-Verbal--Verbal for
+  Multilingual Speech Emotion Recognition
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In this work, we introduce a paralinguistic supervision paradigm for low-resource
+  multilingual speech emotion recognition (LRM-SER) that leverages non-verbal vocalizations
+  to exploit prosody-centric emotion cues. Unlike conventional SER systems that rely
+  heavily on labeled verbal speech and suffer from poor cross-lingual transfer, our
+  approach reformulates LRM-S'
+content_length: 1686
+llm_content_sent: 1686
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel non-verbal-to-verbal transfer paradigm using prosodic supervision
+  from non-verbal vocalizations for multilingual emotion recognition, though the hyperbolic
+  geometry application is more incremental.
