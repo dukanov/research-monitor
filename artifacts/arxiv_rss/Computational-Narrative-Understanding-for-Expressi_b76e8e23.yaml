@@ -1,0 +1,33 @@
+title: Computational Narrative Understanding for Expressive Text-to-Speech
+url: https://arxiv.org/abs/2509.04072
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-22T10:33:26.574166+00:00'
+date_seen: '2026-04-22'
+metadata:
+  arxiv_id: '2509.04072'
+  published: Wed, 22 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.CL, cs.SD
+content_preview: 'Title: Computational Narrative Understanding for Expressive Text-to-Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in text-to-speech (TTS) have been driven by large, multi-domain
+  speech corpora, yet the expressive potential of audiobook data remains underexamined.
+  We argue that human-narrated audiobooks, particularly fictional works, contain rich
+  and diverse prosodic cues arising from the natural alternation between neutral narration
+  and expressive character dialogue. Building from this obs'
+content_length: 1373
+llm_content_sent: 1373
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel large-scale dataset (LibriQuote) that systematically extracts
+  expressive speech from audiobook character dialogue with contextual pseudo-labels,
+  providing a new resource for training expressive TTS systems, though the underlying
+  TTS architectures remain standard.

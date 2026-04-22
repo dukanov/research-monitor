@@ -1,0 +1,34 @@
+title: 'Affectron: Emotional Speech Synthesis with Affective and Contextually Aligned
+  Nonverbal Vocalizations'
+url: https://arxiv.org/abs/2603.14432
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-22T10:33:26.574149+00:00'
+date_seen: '2026-04-22'
+metadata:
+  arxiv_id: '2603.14432'
+  published: Wed, 22 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: Affectron: Emotional Speech Synthesis with Affective and
+  Contextually Aligned Nonverbal Vocalizations
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Nonverbal vocalizations (NVs), such as laughter and sighs, are central to the expression
+  of affective cues in emotional speech synthesis. However, learning diverse and contextually
+  aligned NVs remains challenging in open settings due to limited NV data and the
+  lack of explicit supervision. Motivated by this challenge, we propose Affectron
+  as a framework for af'
+content_length: 1124
+llm_content_sent: 1124
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel NV-augmented training strategy and structural masking approach
+  to generate contextually-aligned nonverbal vocalizations in emotional speech synthesis,
+  addressing a specific gap in expressive TTS systems.

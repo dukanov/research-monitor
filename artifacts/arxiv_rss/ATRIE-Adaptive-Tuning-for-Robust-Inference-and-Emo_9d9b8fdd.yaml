@@ -1,0 +1,35 @@
+title: 'ATRIE: Adaptive Tuning for Robust Inference and Emotion in Persona-Driven
+  Speech Synthesis'
+url: https://arxiv.org/abs/2604.19055
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-22T10:33:26.573692+00:00'
+date_seen: '2026-04-22'
+metadata:
+  arxiv_id: '2604.19055'
+  published: Wed, 22 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: ATRIE: Adaptive Tuning for Robust Inference and Emotion in
+  Persona-Driven Speech Synthesis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  High-fidelity character voice synthesis is a cornerstone of immersive multimedia
+  applications, particularly for interacting with anime avatars and digital humans.
+  However, existing systems struggle to maintain consistent persona traits across
+  diverse emotional contexts. To bridge this gap, we present ATRIE, a unified framework
+  utilizing a Persona-Prosody Dual-Track (P2-D'
+content_length: 1143
+llm_content_sent: 1143
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The Persona-Prosody Dual-Track architecture that disentangles timbre and prosody
+  generation while maintaining persona consistency across emotions represents a meaningful
+  architectural innovation for character-driven speech synthesis, though the core
+  concepts build incrementally on existing disentanglement approaches.

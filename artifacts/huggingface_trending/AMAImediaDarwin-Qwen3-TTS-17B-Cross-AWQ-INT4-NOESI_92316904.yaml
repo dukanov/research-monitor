@@ -1,0 +1,26 @@
+title: AMAImedia/Darwin-Qwen3-TTS-1.7B-Cross-AWQ-INT4-NOESIS
+url: https://huggingface.co/AMAImedia/Darwin-Qwen3-TTS-1.7B-Cross-AWQ-INT4-NOESIS
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-22T10:34:00.793293+00:00'
+date_seen: '2026-04-22'
+metadata:
+  likes: '2'
+  downloads: '20'
+  trending_score: '2'
+  last_modified: '2026-04-18T00:31:53.000Z'
+content_preview: "---\r\nlicense: apache-2.0\r\nlicense_link: LICENSE\r\nlanguage:\r\
+  \n- en\r\n- zh\r\n- ja\r\n- ko\r\n- de\r\n- fr\r\n- ru\r\n- ar\r\n- hi\r\n- es\r\
+  \nlibrary_name: transformers\r\ntags:\r\n- awq\r\n- int4\r\n- quantization\r\n-\
+  \ text-to-speech\r\n- tts\r\n- voice-cloning\r\n- cross-lingual\r\n- noesis\r\n\
+  - dhcf-fno\r\n- qwen3-tts\r\nbase_model: FINAL-Bench/Darwin-TTS-1.7B-Cross\r\nquantized_by:\
+  \ AMAImedia\r\npipeline_tag: text-to-speech\r\n---\r\n\r\n# Darwin-Qwen3-TTS-1.7B-Cross-AWQ-INT4-NOESIS\r\
+  \n\r\n**AWQ INT4 quantization of [FINAL-Bench/Darwin-TTS-1.7B-Cross]"
+content_length: 7282
+llm_content_sent: 7282
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily a quantization of an existing TTS model with claims of cross-lingual
+  voice cloning capabilities, but lacks technical details about the emotional/expressive
+  synthesis mechanisms and provides no evidence of zero-shot performance evaluation.

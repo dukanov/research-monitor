@@ -1,0 +1,26 @@
+title: NAMAA-Space/NAMAA-Saudi-TTS-V2
+url: https://huggingface.co/NAMAA-Space/NAMAA-Saudi-TTS-V2
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-22T10:34:01.051779+00:00'
+date_seen: '2026-04-22'
+metadata:
+  likes: '2'
+  downloads: '31'
+  trending_score: '2'
+  last_modified: '2026-04-21T09:36:27.000Z'
+content_preview: "---\nlanguage:\n  - ar\nlicense: cc-by-nc-sa-4.0\nlibrary_name:\
+  \ f5-tts\npipeline_tag: text-to-speech\ntags:\n  - text-to-speech\n  - tts\n  -\
+  \ arabic\n  - saudi-arabic\n  - najdi\n  - voice-cloning\n  - f5-tts\n  - habibi-tts\n\
+  \  - dit\n  - flow-matching\n  - fine-tuned\ndatasets:\n  - FatimahEmadEldin/History-Podcast\n\
+  \  - FatimahEmadEldin/saudi_podcast_normalized\n  - FatimahEmadEldin/saudi-numerical-tts\n\
+  \  - omarelshehy/mo5tlf_podcast\n  - omarelshehy/thamaneya_podcast\nbase_model:\
+  \ SWivid/Habibi-TTS\nbase_model_relation"
+content_length: 8525
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is a straightforward fine-tuning of an existing F5-TTS model for Najdi
+  Arabic dialect with no novel methodological contributions to emotional/expressive
+  speech synthesis or zero-shot capabilities beyond standard voice cloning.

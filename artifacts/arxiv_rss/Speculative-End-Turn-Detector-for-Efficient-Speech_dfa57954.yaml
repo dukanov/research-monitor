@@ -1,0 +1,33 @@
+title: Speculative End-Turn Detector for Efficient Speech Chatbot Assistant
+url: https://arxiv.org/abs/2503.23439
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-22T10:33:26.574160+00:00'
+date_seen: '2026-04-22'
+metadata:
+  arxiv_id: '2503.23439'
+  published: Wed, 22 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.LG, cs.SD, eess.AS
+content_preview: 'Title: Speculative End-Turn Detector for Efficient Speech Chatbot
+  Assistant
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Spoken dialogue systems powered by large language models have demonstrated remarkable
+  abilities in understanding human speech and generating appropriate spoken responses.
+  However, these systems struggle with end-turn detection (ETD) -- the ability to
+  distinguish between user turn completion and hesitation. This limitation often leads
+  to premature or delayed responses, disrupting the flow of s'
+content_length: 1531
+llm_content_sent: 1531
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While this work addresses an important problem in conversational AI, it focuses
+  on end-turn detection rather than emotional/expressive speech synthesis or zero-shot
+  capabilities, making it largely outside the scope of the specified research interests.

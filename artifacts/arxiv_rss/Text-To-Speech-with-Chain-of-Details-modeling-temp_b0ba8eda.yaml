@@ -1,0 +1,35 @@
+title: 'Text-To-Speech with Chain-of-Details: modeling temporal dynamics in speech
+  generation'
+url: https://arxiv.org/abs/2604.19330
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-22T10:33:26.634234+00:00'
+date_seen: '2026-04-22'
+metadata:
+  arxiv_id: '2604.19330'
+  published: Wed, 22 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Text-To-Speech with Chain-of-Details: modeling temporal dynamics
+  in speech generation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in Text-To-Speech (TTS) synthesis have seen the popularity of multi-stage
+  approaches that first predict semantic tokens and then generate acoustic tokens.
+  In this paper, we extend the coarse-to-fine generation paradigm to the temporal
+  domain and introduce Chain-of-Details (CoD), a novel framework that explicitly models
+  temporal coarse-to-fine dynamics in speec'
+content_length: 1406
+llm_content_sent: 1406
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: While the Chain-of-Details framework for temporal dynamics modeling is somewhat
+  novel, it focuses on general TTS architecture improvements rather than emotional/expressive
+  synthesis or zero-shot capabilities, making it only marginally relevant to the specified
+  research interests.
