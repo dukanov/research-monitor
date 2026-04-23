@@ -1,0 +1,33 @@
+title: Throat and acoustic paired speech dataset for deep learning-based speech enhancement
+url: https://arxiv.org/abs/2502.11478
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-23T10:34:45.336507+00:00'
+date_seen: '2026-04-23'
+metadata:
+  arxiv_id: '2502.11478'
+  published: Thu, 23 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.LG, eess.AS
+content_preview: 'Title: Throat and acoustic paired speech dataset for deep learning-based
+  speech enhancement
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In high-noise environments such as factories, subways, and busy streets, capturing
+  clear speech is challenging. Throat microphones can offer a solution because of
+  their inherent noise-suppression capabilities; however, the passage of sound waves
+  through skin and tissue attenuates high-frequency information, reducing speech clarity.
+  Recent deep learning approaches have shown pr'
+content_length: 1407
+llm_content_sent: 1407
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on speech enhancement from throat microphones rather than
+  emotional/expressive synthesis, and introduces only a dataset without novel zero-shot
+  synthesis methods.

@@ -1,0 +1,31 @@
+title: 'MoVE: Translating Laughter and Tears via Mixture of Vocalization Experts in
+  Speech-to-Speech Translation'
+url: https://huggingface.co/papers/2604.17435
+source: huggingface_papers
+type: paper
+date_discovered: '2026-04-23T10:35:14.025556+00:00'
+date_seen: '2026-04-23'
+metadata:
+  upvotes: '2'
+  paper_id: '2604.17435'
+  published_date: '2026-04-22'
+content_preview: 'Title: MoVE: Translating Laughter and Tears via Mixture of Vocalization
+  Experts in Speech-to-Speech Translation
+
+
+  Summary:
+
+  Recent Speech-to-Speech Translation (S2ST) systems achieve strong semantic accuracy
+  yet consistently strip away non-verbal vocalizations (NVs), such as laughter and
+  crying that convey pragmatic intent, which severely limits real-world utility. We
+  address this via three contributions. First, we propose a synthesis pipeline for
+  building scalable expressive datasets to overcome '
+content_length: 1135
+llm_content_sent: 1135
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel Mixture-of-LoRA-Experts architecture specifically designed
+  to preserve and translate non-verbal vocalizations (laughter, crying) in speech-to-speech
+  translation, addressing a significant gap in current systems that strip away emotional
+  expressions.

@@ -1,0 +1,35 @@
+title: 'SpeechParaling-Bench: A Comprehensive Benchmark for Paralinguistic-Aware Speech
+  Generation'
+url: https://arxiv.org/abs/2604.20842
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-23T10:34:45.336461+00:00'
+date_seen: '2026-04-23'
+metadata:
+  arxiv_id: '2604.20842'
+  published: Thu, 23 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.SD
+content_preview: 'Title: SpeechParaling-Bench: A Comprehensive Benchmark for Paralinguistic-Aware
+  Speech Generation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Paralinguistic cues are essential for natural human-computer interaction, yet their
+  evaluation in Large Audio-Language Models (LALMs) remains limited by coarse feature
+  coverage and the inherent subjectivity of assessment. To address these challenges,
+  we introduce SpeechParaling-Bench, a comprehensive benchmark for paralinguistic-aware
+  speech generation. It expands existi'
+content_length: 1662
+llm_content_sent: 1662
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a comprehensive benchmark with fine-grained paralinguistic features
+  (100+ vs <50 previously) and a novel pairwise comparison evaluation methodology
+  using LALM judges, though the core contribution is primarily a benchmark rather
+  than a new synthesis approach.

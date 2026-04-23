@@ -1,0 +1,34 @@
+title: 'Indic-CodecFake meets SATYAM: Towards Detecting Neural Audio Codec Synthesized
+  Speech Deepfakes in Indic Languages'
+url: https://arxiv.org/abs/2604.19949
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-23T10:34:45.349458+00:00'
+date_seen: '2026-04-23'
+metadata:
+  arxiv_id: '2604.19949'
+  published: Thu, 23 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Indic-CodecFake meets SATYAM: Towards Detecting Neural Audio
+  Codec Synthesized Speech Deepfakes in Indic Languages
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The rapid advancement of Audio Large Language Models (ALMs), driven by Neural Audio
+  Codecs (NACs), has led to the emergence of highly realistic speech deepfakes, commonly
+  referred to as CodecFakes (CFs). Consequently, CF detection has attracted increasing
+  attention from the research community. However, existing studies predominantly focus
+  on Engli'
+content_length: 2153
+llm_content_sent: 2153
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on deepfake detection rather than synthesis, and while it
+  mentions zero-shot evaluation of ALMs, it's primarily about detecting rather than
+  generating emotional/expressive speech.

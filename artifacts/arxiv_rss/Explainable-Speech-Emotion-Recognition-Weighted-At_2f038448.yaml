@@ -1,0 +1,34 @@
+title: 'Explainable Speech Emotion Recognition: Weighted Attribute Fairness to Model
+  Demographic Contributions to Social Bias'
+url: https://arxiv.org/abs/2604.19763
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-23T10:34:45.349382+00:00'
+date_seen: '2026-04-23'
+metadata:
+  arxiv_id: '2604.19763'
+  published: Thu, 23 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI, cs.CL
+content_preview: 'Title: Explainable Speech Emotion Recognition: Weighted Attribute
+  Fairness to Model Demographic Contributions to Social Bias
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech Emotion Recognition (SER) systems have growing applications in sensitive
+  domains such as mental health and education, where biased predictions can cause
+  harm. Traditional fairness metrics, such as Equalised Odds and Demographic Parity,
+  often overlook the joint dependency between demographic attributes and model predictions.
+  We propose a '
+content_length: 1208
+llm_content_sent: 1208
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This paper focuses on fairness and bias detection in speech emotion recognition
+  rather than emotional/expressive speech synthesis, and offers only incremental improvements
+  to existing fairness metrics without addressing zero-shot synthesis capabilities.

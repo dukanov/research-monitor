@@ -1,0 +1,33 @@
+title: Enhancing ASR Performance in the Medical Domain for Dravidian Languages
+url: https://arxiv.org/abs/2604.19797
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-23T10:34:45.349397+00:00'
+date_seen: '2026-04-23'
+metadata:
+  arxiv_id: '2604.19797'
+  published: Thu, 23 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI, cs.CL
+content_preview: 'Title: Enhancing ASR Performance in the Medical Domain for Dravidian
+  Languages
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Automatic Speech Recognition (ASR) for low-resource Dravidian languages like Telugu
+  and Kannada faces significant challenges in specialized medical domains due to limited
+  annotated data and morphological complexity. This work proposes a novel confidence-aware
+  training framework that integrates real and synthetic speech data through a hybrid
+  confidence mechanism combining static perceptual '
+content_length: 1669
+llm_content_sent: 1669
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on automatic speech recognition (ASR) for medical domain
+  applications, which is the opposite direction from speech synthesis and has no relevance
+  to emotional/expressive generation or zero-shot synthesis capabilities.

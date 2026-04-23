@@ -1,0 +1,34 @@
+title: 'KoALa-Bench: Evaluating Large Audio Language Models on Korean Speech Understanding
+  and Faithfulness'
+url: https://arxiv.org/abs/2604.19782
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-23T10:34:45.336396+00:00'
+date_seen: '2026-04-23'
+metadata:
+  arxiv_id: '2604.19782'
+  published: Thu, 23 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.SD, eess.AS
+content_preview: 'Title: KoALa-Bench: Evaluating Large Audio Language Models on Korean
+  Speech Understanding and Faithfulness
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in large audio language models (LALMs) have enabled multilingual
+  speech understanding. However, benchmarks for evaluating LALMs remain scarce for
+  non-English languages, with Korean being one such underexplored case. In this paper,
+  we introduce KoALa-Bench, a comprehensive benchmark for evaluating Korean speech
+  understanding and speech faithfulnes'
+content_length: 1426
+llm_content_sent: 1426
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on evaluation benchmarks for Korean speech understanding
+  rather than developing new methods for emotional/expressive speech synthesis with
+  zero-shot capabilities.

@@ -1,0 +1,98 @@
+title: ResembleAI/chatterbox
+url: https://huggingface.co/ResembleAI/chatterbox
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-23T10:35:16.840504+00:00'
+date_seen: '2026-04-23'
+metadata:
+  likes: '1558'
+  downloads: '1779692'
+  trending_score: '11'
+  last_modified: '2026-04-22T17:58:28.000Z'
+content_preview: '---
+
+  license: mit
+
+  language:
+
+  - ar
+
+  - da
+
+  - de
+
+  - el
+
+  - en
+
+  - es
+
+  - fi
+
+  - fr
+
+  - he
+
+  - hi
+
+  - it
+
+  - ja
+
+  - ko
+
+  - ms
+
+  - nl
+
+  - no
+
+  - pl
+
+  - pt
+
+  - ru
+
+  - sv
+
+  - sw
+
+  - tr
+
+  - zh
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - text-to-speech
+
+  - speech
+
+  - speech-generation
+
+  - voice-cloning
+
+  - multilingual-tts
+
+  library_name: chatterbox
+
+  ---
+
+
+  <img width="800" alt="cb-big2" src="https://github.com/user-attachments/assets/bd8c5f03-e91d-4ee5-b680-57355da204d1"
+  />
+
+
+  <h1 style="font-size: 32px">Chatterbox TTS</h1>
+
+
+  <div style="display: flex; align-items: ce'
+content_length: 5640
+llm_content_sent: 5640
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.6
+reason: Introduces emotion exaggeration control as a novel feature for zero-shot multilingual
+  TTS, though the core architecture appears to be an incremental improvement on existing
+  transformer-based approaches.

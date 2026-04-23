@@ -1,0 +1,33 @@
+title: Utterance-Level Methods for Identifying Reliable ASR-Output for Child Speech
+url: https://arxiv.org/abs/2604.19801
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-23T10:34:45.349438+00:00'
+date_seen: '2026-04-23'
+metadata:
+  arxiv_id: '2604.19801'
+  published: Thu, 23 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI, cs.CL
+content_preview: 'Title: Utterance-Level Methods for Identifying Reliable ASR-Output
+  for Child Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Automatic Speech Recognition (ASR) is increasingly used in applications involving
+  child speech, such as language learning and literacy acquisition. However, the effectiveness
+  of such applications is limited by high ASR error rates. The negative effects can
+  be mitigated by identifying in advance which ASR-outputs are reliable. This work
+  aims to develop two novel approaches for selectin'
+content_length: 1205
+llm_content_sent: 1205
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on ASR error detection for child speech rather than speech
+  synthesis, and has no connection to emotional/expressive synthesis or zero-shot
+  capabilities.

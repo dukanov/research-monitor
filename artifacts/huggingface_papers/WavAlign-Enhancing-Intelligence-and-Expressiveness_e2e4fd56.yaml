@@ -1,0 +1,31 @@
+title: 'WavAlign: Enhancing Intelligence and Expressiveness in Spoken Dialogue Models
+  via Adaptive Hybrid Post-Training'
+url: https://huggingface.co/papers/2604.14932
+source: huggingface_papers
+type: paper
+date_discovered: '2026-04-23T10:35:13.793251+00:00'
+date_seen: '2026-04-23'
+metadata:
+  upvotes: '9'
+  paper_id: '2604.14932'
+  published_date: '2026-04-23'
+content_preview: 'Title: WavAlign: Enhancing Intelligence and Expressiveness in Spoken
+  Dialogue Models via Adaptive Hybrid Post-Training
+
+
+  Summary:
+
+  End-to-end spoken dialogue models have garnered significant attention because they
+  offer a higher potential ceiling in expressiveness and perceptual ability than cascaded
+  systems. However, the intelligence and expressiveness of current open-source spoken
+  dialogue models often remain below expectations. Motivated by the success of online
+  reinforcement learning(RL) in ot'
+content_length: 1393
+llm_content_sent: 1393
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel modality-aware adaptive post-training approach that separates
+  semantic and acoustic optimization in spoken dialogue models using reinforcement
+  learning, addressing the non-trivial challenge of applying preference optimization
+  to speech generation.
