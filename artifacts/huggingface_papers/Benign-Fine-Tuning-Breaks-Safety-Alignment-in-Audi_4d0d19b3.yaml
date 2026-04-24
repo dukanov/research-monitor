@@ -1,0 +1,29 @@
+title: Benign Fine-Tuning Breaks Safety Alignment in Audio LLMs
+url: https://huggingface.co/papers/2604.16659
+source: huggingface_papers
+type: paper
+date_discovered: '2026-04-24T10:35:46.883981+00:00'
+date_seen: '2026-04-24'
+metadata:
+  upvotes: '1'
+  paper_id: '2604.16659'
+  published_date: '2026-04-23'
+content_preview: 'Title: Benign Fine-Tuning Breaks Safety Alignment in Audio LLMs
+
+
+  Summary:
+
+  Prior work shows that fine-tuning aligned models on benign data degrades safety
+  in text and vision modalities, and that proximity to harmful content in representation
+  space predicts which samples cause the most damage. However, existing analyses operate
+  within a single, undifferentiated embedding space -- leaving open whether distinct
+  input properties drive the vulnerability differently. Audio introduces a structurally
+  ric'
+content_length: 2003
+llm_content_sent: 2003
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This paper focuses on safety vulnerabilities in audio LLMs rather than emotional/expressive
+  speech synthesis, and doesn't introduce novel approaches for zero-shot emotional
+  speech generation.

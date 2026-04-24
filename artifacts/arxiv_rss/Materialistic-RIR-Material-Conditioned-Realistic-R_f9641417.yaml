@@ -1,0 +1,32 @@
+title: 'Materialistic RIR: Material Conditioned Realistic RIR Generation'
+url: https://arxiv.org/abs/2604.21119
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-24T10:35:17.565761+00:00'
+date_seen: '2026-04-24'
+metadata:
+  arxiv_id: '2604.21119'
+  published: Fri, 24 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CV, cs.AI, cs.SD
+content_preview: 'Title: Materialistic RIR: Material Conditioned Realistic RIR Generation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Rings like gold, thuds like wood! The sound we hear in a scene is shaped not only
+  by the spatial layout of the environment but also by the materials of the objects
+  and surfaces within it. For instance, a room with wooden walls will produce a different
+  acoustic experience from a room with the same spatial layout but concrete walls.
+  Accurately modeling these effects is essential for applications su'
+content_length: 1811
+llm_content_sent: 1811
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on acoustic room impulse response generation for spatial
+  audio, which is unrelated to emotional/expressive speech synthesis or zero-shot
+  voice capabilities.

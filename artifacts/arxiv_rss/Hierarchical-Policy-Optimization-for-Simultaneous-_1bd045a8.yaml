@@ -1,0 +1,34 @@
+title: Hierarchical Policy Optimization for Simultaneous Translation of Unbounded
+  Speech
+url: https://arxiv.org/abs/2604.21045
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-24T10:35:17.679870+00:00'
+date_seen: '2026-04-24'
+metadata:
+  arxiv_id: '2604.21045'
+  published: Fri, 24 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Hierarchical Policy Optimization for Simultaneous Translation
+  of Unbounded Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Simultaneous speech translation (SST) generates translations while receiving partial
+  speech input. Recent advances show that large language models (LLMs) can substantially
+  improve SST quality, but at the cost of high computational overhead. To reduce this
+  cost, prior work reformulates SST as a multi-turn dialogue task, enabling full reuse
+  of the LLM''s key-value (KV) cache and eli'
+content_length: 1396
+llm_content_sent: 1396
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on simultaneous speech translation optimization rather than
+  emotional/expressive speech synthesis, addressing a different problem domain with
+  no clear connection to zero-shot expressive capabilities.

@@ -1,0 +1,34 @@
+title: 'DiariZen Explained: A Tutorial for the Open Source State-of-the-Art Speaker
+  Diarization Pipeline'
+url: https://arxiv.org/abs/2604.21507
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-24T10:35:17.565844+00:00'
+date_seen: '2026-04-24'
+metadata:
+  arxiv_id: '2604.21507'
+  published: Fri, 24 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: DiariZen Explained: A Tutorial for the Open Source State-of-the-Art
+  Speaker Diarization Pipeline
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speaker diarization (SD) is the task of answering "who spoke when" in a multi-speaker
+  audio stream. Classically, an SD system clusters segments of speech belonging to
+  an individual speaker''s identity. Recent years have seen substantial progress in
+  SD through end-to-end neural diarization (EEND) approaches. DiariZen, a hybrid SD
+  pipeline built upon a structurally pr'
+content_length: 1908
+llm_content_sent: 1908
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is a tutorial paper explaining an existing speaker diarization system
+  with no novel contributions to emotional/expressive speech synthesis or zero-shot
+  capabilities.

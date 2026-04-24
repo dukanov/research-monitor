@@ -1,0 +1,35 @@
+title: 'Preferences of a Voice-First Nation: Large-Scale Pairwise Evaluation and Preference
+  Analysis for TTS in Indian Languages'
+url: https://arxiv.org/abs/2604.21481
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-24T10:35:17.681279+00:00'
+date_seen: '2026-04-24'
+metadata:
+  arxiv_id: '2604.21481'
+  published: Fri, 24 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Preferences of a Voice-First Nation: Large-Scale Pairwise
+  Evaluation and Preference Analysis for TTS in Indian Languages
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Crowdsourced pairwise evaluation has emerged as a scalable approach for assessing
+  foundation models. However, applying it to Text to Speech(TTS) introduces high variance
+  due to linguistic diversity and multidimensional nature of speech perception. We
+  present a controlled multidimensional pairwise evaluation framework for multilingual
+  TTS tha'
+content_length: 1241
+llm_content_sent: 1241
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: While this introduces a comprehensive multidimensional evaluation framework
+  for multilingual TTS with perceptual grounding, it's primarily an evaluation methodology
+  rather than advancing emotional/expressive synthesis capabilities or zero-shot techniques
+  themselves.

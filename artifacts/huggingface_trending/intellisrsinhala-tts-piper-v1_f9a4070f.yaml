@@ -1,0 +1,26 @@
+title: intellisr/sinhala-tts-piper-v1
+url: https://huggingface.co/intellisr/sinhala-tts-piper-v1
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-24T10:35:51.831745+00:00'
+date_seen: '2026-04-24'
+metadata:
+  likes: '4'
+  downloads: '0'
+  trending_score: '4'
+  last_modified: '2026-04-23T17:15:25.000Z'
+content_preview: "---\nlanguage:\n  - si\nlicense: gpl-3.0\nlibrary_name: piper\n\
+  pipeline_tag: text-to-speech\ntags:\n  - piper\n  - piper-tts\n  - onnx\n  - sinhala\n\
+  \  - sinhala-tts\n  - tts\n  - neural-tts\n  - espeak\n  - local-tts\n  - intellisr\n\
+  \  - access-to-success\n---\n\n# Sinhala TTS Piper Version 1\n\nSinhala neural text-to-speech\
+  \ voice in the [Piper](https://github.com/OHF-Voice/piper1-gpl) format (ONNX + JSON\
+  \ config). The checkpoint was **trained by [Intellisr](https://intellisr.com)**\
+  \ on a **custom dataset produced by Ac"
+content_length: 3673
+llm_content_sent: 3673
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is simply a standard single-speaker TTS model for Sinhala language using
+  existing Piper architecture with no emotional/expressive capabilities or zero-shot
+  learning innovations.
