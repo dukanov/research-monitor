@@ -1,0 +1,83 @@
+title: AMAImedia/Qwen3-1.7B-TTS-Cross-Darwin-NOESIS-AWQ-INT4
+url: https://huggingface.co/AMAImedia/Qwen3-1.7B-TTS-Cross-Darwin-NOESIS-AWQ-INT4
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-26T10:20:02.621402+00:00'
+date_seen: '2026-04-26'
+metadata:
+  likes: '9'
+  downloads: '20'
+  trending_score: '8'
+  last_modified: '2026-04-26T07:34:44.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  license_link: LICENSE
+
+  language:
+
+  - en
+
+  - zh
+
+  - ja
+
+  - ko
+
+  - de
+
+  - fr
+
+  - ru
+
+  - ar
+
+  - hi
+
+  - es
+
+  library_name: transformers
+
+  tags:
+
+  - awq
+
+  - int4
+
+  - quantization
+
+  - text-to-speech
+
+  - tts
+
+  - voice-cloning
+
+  - cross-lingual
+
+  - noesis
+
+  - dhcf-fno
+
+  - qwen3-tts
+
+  base_model: FINAL-Bench/Darwin-TTS-1.7B-Cross
+
+  quantized_by: AMAImedia
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  # Qwen3-1.7B-TTS-Cross-Darwin-NOESIS-AWQ-INT4
+
+  **AWQ INT4 quantization of [FINAL-Bench/Darwin-TTS-1.7B-Cross](https://huggingface.co/FINAL-Benc'
+content_length: 7071
+llm_content_sent: 7071
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is merely a quantized version of an existing TTS model with no novel
+  contributions to emotional/expressive speech synthesis or zero-shot capabilities
+  - it's purely an optimization for reduced memory usage.
