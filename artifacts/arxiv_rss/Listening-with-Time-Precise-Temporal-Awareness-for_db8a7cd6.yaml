@@ -1,0 +1,33 @@
+title: 'Listening with Time: Precise Temporal Awareness for Long-Form Audio Understanding'
+url: https://arxiv.org/abs/2604.22245
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-27T10:42:42.095257+00:00'
+date_seen: '2026-04-27'
+metadata:
+  arxiv_id: '2604.22245'
+  published: Mon, 27 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Listening with Time: Precise Temporal Awareness for Long-Form
+  Audio Understanding
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  While Large Audio Language Models (LALMs) achieve strong performance on short audio,
+  they degrade on long-form inputs. This degradation is more severe in temporal awareness
+  tasks, where temporal alignment becomes increasingly inaccurate as audio duration
+  grows. We attribute these limitations to the lack of data, benchmarks, and modeling
+  approaches tailored for long-form temporal '
+content_length: 1587
+llm_content_sent: 1587
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on temporal understanding and grounding in long-form audio
+  rather than emotional/expressive speech synthesis, with no mention of zero-shot
+  synthesis capabilities or emotional expression generation.

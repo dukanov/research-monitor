@@ -1,0 +1,35 @@
+title: 'UniSonate: A Unified Model for Speech, Music, and Sound Effect Generation
+  with Text Instructions'
+url: https://arxiv.org/abs/2604.22209
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-27T10:42:42.079974+00:00'
+date_seen: '2026-04-27'
+metadata:
+  arxiv_id: '2604.22209'
+  published: Mon, 27 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI, cs.CL, cs.SD
+content_preview: 'Title: UniSonate: A Unified Model for Speech, Music, and Sound Effect
+  Generation with Text Instructions
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Generative audio modeling has largely been fragmented into specialized tasks, text-to-speech
+  (TTS), text-to-music (TTM), and text-to-audio (TTA), each operating under heterogeneous
+  control paradigms. Unifying these modalities remains a fundamental challenge due
+  to the intrinsic dissonance between structured semantic representations (speech/music)
+  and unstructured a'
+content_length: 1728
+llm_content_sent: 1728
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a unified flow-matching framework with dynamic token injection
+  that enables cross-modal audio generation (speech, music, sound effects) from natural
+  language instructions, showing positive transfer effects between modalities - though
+  the core components (flow matching, multimodal transformers) are established techniques.

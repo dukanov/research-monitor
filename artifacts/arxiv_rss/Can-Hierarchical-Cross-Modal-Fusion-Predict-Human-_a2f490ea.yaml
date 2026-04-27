@@ -1,0 +1,34 @@
+title: Can Hierarchical Cross-Modal Fusion Predict Human Perception of AI Dubbed Content?
+url: https://arxiv.org/abs/2603.28717
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-27T10:42:42.095371+00:00'
+date_seen: '2026-04-27'
+metadata:
+  arxiv_id: '2603.28717'
+  published: Mon, 27 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Can Hierarchical Cross-Modal Fusion Predict Human Perception
+  of AI Dubbed Content?
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Evaluating AI generated dubbed content is inherently multi-dimensional, shaped by
+  synchronization, intelligibility, speaker consistency, emotional alignment, and
+  semantic context. Human Mean Opinion Scores (MOS) remain the gold standard but are
+  costly and impractical at scale. We present a hierarchical multimodal architecture
+  for perceptually meaningful dubbing evaluation, integ'
+content_length: 1379
+llm_content_sent: 1379
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: While the hierarchical cross-modal fusion for dubbing evaluation is relevant
+  to expressive speech synthesis, this work focuses on evaluation metrics rather than
+  synthesis methods and lacks zero-shot capabilities, making it an incremental contribution
+  to assessment rather than generation.

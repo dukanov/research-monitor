@@ -1,0 +1,35 @@
+title: 'MOS-Bench: Benchmarking Generalization Abilities of Subjective Speech Quality
+  Assessment Models'
+url: https://arxiv.org/abs/2411.03715
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-27T10:42:42.080034+00:00'
+date_seen: '2026-04-27'
+metadata:
+  arxiv_id: '2411.03715'
+  published: Mon, 27 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: MOS-Bench: Benchmarking Generalization Abilities of Subjective
+  Speech Quality Assessment Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In this paper, we study the task of subjective speech quality assessment (SSQA),
+  which refers to predicting the perceptual quality of speech. Owing to the development
+  of deep neural network models, SSQA has greatly advanced and has been widely applied
+  in scientific papers to evaluate speech generation systems. Nonetheless, the insufficient
+  out-of-domain (OOD) genera'
+content_length: 1280
+llm_content_sent: 1280
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: While this work addresses an important but underexplored problem of out-of-domain
+  generalization in speech quality assessment models and provides a comprehensive
+  benchmark dataset, the core contribution is primarily empirical validation of existing
+  techniques rather than introducing novel methodological approaches.

@@ -1,0 +1,44 @@
+title: demeleww/omnivoice-amharic
+url: https://huggingface.co/demeleww/omnivoice-amharic
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-27T10:43:12.516651+00:00'
+date_seen: '2026-04-27'
+metadata:
+  likes: '2'
+  downloads: '202'
+  trending_score: '2'
+  last_modified: '2026-04-24T16:38:52.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language: [am, en, zh]
+
+  tags: [text-to-speech, tts, voice-cloning, amharic, omnivoice, discrete-diffusion]
+
+  base_model: k2-fsa/OmniVoice
+
+  library_name: omnivoice
+
+  pipeline_tag: text-to-speech
+
+  datasets: [google/WaxalNLP, gheero-Leyu/leyu-amharic-addis-ababa-dialect, surafelabebe/amharic_clear_audio_tts,
+  chappM/amharic-bdu-asr]
+
+  ---
+
+
+  # OmniVoice Amharic
+
+
+  Non-autoregressive discrete diffusion TTS for Amharic, fine-tuned from [OmniVoice](https://arxiv.org/abs/2604.00688)
+  (Qwen3-0.'
+content_length: 6223
+llm_content_sent: 6223
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is a straightforward fine-tuning of an existing model (OmniVoice) for
+  Amharic language without introducing novel methods for emotional/expressive synthesis
+  or zero-shot capabilities - purely incremental language adaptation work.
