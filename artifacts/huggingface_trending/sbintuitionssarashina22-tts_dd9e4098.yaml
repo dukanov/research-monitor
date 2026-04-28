@@ -1,0 +1,51 @@
+title: sbintuitions/sarashina2.2-tts
+url: https://huggingface.co/sbintuitions/sarashina2.2-tts
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-28T10:44:34.126307+00:00'
+date_seen: '2026-04-28'
+metadata:
+  likes: '36'
+  downloads: '19'
+  trending_score: '35'
+  last_modified: '2026-04-28T04:13:44.000Z'
+content_preview: '---
+
+  language:
+
+  - ja
+
+  - en
+
+  base_model:
+
+  - sbintuitions/sarashina2.2-0.5b-instruct-v0.1
+
+  tags:
+
+  - text-to-speech
+
+  - tts
+
+  - japanese-tts
+
+  - speech-synthesis
+
+  ---
+
+
+  # sarashina2.2-tts
+
+
+  [![GitHub](https://img.shields.io/badge/GitHub-sarashina2.2--tts-blue?logo=github&logoColor=white)](https://github.com/sbintuitions/sarashina2.2-tts)
+  [![Demo](https://img.shields.io/badge/DemoPage-Listen-orange)](https://huggingface.co/sbintuitions/sarashina2.2-tts#audio-samples)
+  [![Paper](https://img.shields.io/badge/Paper-com'
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: While the model demonstrates zero-shot voice cloning and expressive style
+  transfer capabilities relevant to the research area, it appears to be primarily
+  an engineering implementation without clear scientific novelty beyond existing LLM-based
+  TTS approaches.

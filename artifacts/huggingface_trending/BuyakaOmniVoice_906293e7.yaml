@@ -1,0 +1,182 @@
+title: Buyaka/OmniVoice
+url: https://huggingface.co/Buyaka/OmniVoice
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-28T10:44:39.667914+00:00'
+date_seen: '2026-04-28'
+metadata:
+  likes: '2'
+  downloads: '14'
+  trending_score: '2'
+  last_modified: '2026-04-23T02:51:37.000Z'
+content_preview: '---
+
+  base_model:
+
+  - Qwen/Qwen3-0.6B
+
+  language:
+
+  - aae
+
+  - aal
+
+  - aao
+
+  - ab
+
+  - abb
+
+  - abn
+
+  - abr
+
+  - abs
+
+  - abv
+
+  - acm
+
+  - acw
+
+  - acx
+
+  - adf
+
+  - adx
+
+  - ady
+
+  - aeb
+
+  - aec
+
+  - af
+
+  - afb
+
+  - afo
+
+  - ahl
+
+  - ahs
+
+  - ajg
+
+  - aju
+
+  - ala
+
+  - aln
+
+  - alo
+
+  - am
+
+  - amu
+
+  - an
+
+  - anc
+
+  - ank
+
+  - anp
+
+  - anw
+
+  - aom
+
+  - apc
+
+  - apd
+
+  - arb
+
+  - arq
+
+  - ars
+
+  - ary
+
+  - arz
+
+  - as
+
+  - ast
+
+  - avl
+
+  - awo
+
+  - ayl
+
+  - ayp
+
+  - az
+
+  - ba
+
+  - bag
+
+  - bas
+
+  - bax
+
+  - bba
+
+  - bbj
+
+  - bbl
+
+  - bbu
+
+  - bce
+
+  - bci
+
+  - bcs
+
+  - bcy
+
+  - bda
+
+  - bde
+
+  - bdm
+
+  - be
+
+  - beb
+
+  - bew
+
+  - bfd
+
+  - bft
+
+  - bg
+
+  - bgp
+
+  - bhb
+
+  - bhh
+
+  - bho
+
+  - bhp
+
+  - bhr
+
+  - bjj
+
+  - b'
+content_length: 9329
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a diffusion language model-style architecture for zero-shot TTS
+  with impressive multilingual coverage (600+ languages) and voice design capabilities,
+  though the core zero-shot TTS concept is established.

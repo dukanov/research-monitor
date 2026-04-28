@@ -1,0 +1,33 @@
+title: 'Audio2Tool: Bridging Spoken Language Understanding and Function Calling'
+url: https://arxiv.org/abs/2604.22821
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-28T10:44:02.662816+00:00'
+date_seen: '2026-04-28'
+metadata:
+  arxiv_id: '2604.22821'
+  published: Tue, 28 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.LG, eess.AS
+content_preview: 'Title: Audio2Tool: Bridging Spoken Language Understanding and Function
+  Calling
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Voice assistants increasingly rely on Speech Language Models (SpeechLMs) to interpret
+  spoken queries and execute complex tasks, yet existing benchmarks lack domain breadth,
+  acoustic diversity, and compositional reasoning complexity to evaluate tool-calling
+  performance. We introduce Audio2Tool, a large-scale dataset comprising approximately
+  30,000 queries designed to assess tool-calling cap'
+content_length: 1259
+llm_content_sent: 1259
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on function calling and tool usage evaluation rather than
+  emotional/expressive speech synthesis, and while it mentions zero-shot voice cloning
+  for data generation, it doesn't advance zero-shot expressive synthesis capabilities.

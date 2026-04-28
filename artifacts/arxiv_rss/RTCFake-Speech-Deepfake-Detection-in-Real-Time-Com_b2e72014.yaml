@@ -1,0 +1,32 @@
+title: 'RTCFake: Speech Deepfake Detection in Real-Time Communication'
+url: https://arxiv.org/abs/2604.23742
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-28T10:44:02.663001+00:00'
+date_seen: '2026-04-28'
+metadata:
+  arxiv_id: '2604.23742'
+  published: Tue, 28 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: RTCFake: Speech Deepfake Detection in Real-Time Communication
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  With the rapid advancement of speech generation technologies, the threat posed by
+  speech deepfakes in real-time communication (RTC) scenarios has intensified. However,
+  existing detection studies mainly focus on offline simulations and struggle to cope
+  with the complex distortions introduced during RTC transmission, including unknown
+  speech enhancement processes (e.g., noise suppression) and codec co'
+content_length: 1711
+llm_content_sent: 1711
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on deepfake detection rather than speech synthesis, and
+  specifically addresses security/forensics applications rather than advancing expressive
+  or zero-shot synthesis capabilities.

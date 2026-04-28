@@ -1,0 +1,34 @@
+title: 'HeadRouter: Dynamic Head-Weight Routing for Task-Adaptive Audio Token Pruning
+  in Large Audio Language Models'
+url: https://arxiv.org/abs/2604.23717
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-28T10:44:02.662986+00:00'
+date_seen: '2026-04-28'
+metadata:
+  arxiv_id: '2604.23717'
+  published: Tue, 28 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.CL
+content_preview: 'Title: HeadRouter: Dynamic Head-Weight Routing for Task-Adaptive
+  Audio Token Pruning in Large Audio Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent large audio language models (LALMs) demonstrate remarkable capabilities in
+  processing extended multi-modal sequences, yet incur high inference costs. Token
+  compression is an effective method that directly reduces redundant tokens in the
+  sequence. Existing compression methods usually assume that all attention heads in
+  LALMs contribute equally to v'
+content_length: 1581
+llm_content_sent: 1581
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on computational efficiency optimization for large audio
+  language models through token pruning, which is orthogonal to emotional/expressive
+  speech synthesis and zero-shot capabilities research.

@@ -1,0 +1,33 @@
+title: Data-efficient Targeted Token-level Preference Optimization for LLM-based Text-to-Speech
+url: https://arxiv.org/abs/2510.05799
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-28T10:44:02.663868+00:00'
+date_seen: '2026-04-28'
+metadata:
+  arxiv_id: '2510.05799'
+  published: Tue, 28 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.SD
+content_preview: 'Title: Data-efficient Targeted Token-level Preference Optimization
+  for LLM-based Text-to-Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Aligning text-to-speech (TTS) system outputs with human feedback through preference
+  optimization has been shown to effectively improve the robustness and naturalness
+  of language model-based TTS models. Current approaches primarily require paired
+  desirable and undesirable samples at the utterance level. However, such pairs are
+  often limited in TTS output data, and utterance'
+content_length: 1113
+llm_content_sent: 1113
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: While this addresses TTS alignment, it focuses on pronunciation accuracy rather
+  than emotional/expressive synthesis, and doesn't demonstrate zero-shot capabilities
+  for new emotions or speakers.

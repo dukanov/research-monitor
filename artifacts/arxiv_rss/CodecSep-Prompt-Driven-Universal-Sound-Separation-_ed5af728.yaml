@@ -1,0 +1,33 @@
+title: 'CodecSep: Prompt-Driven Universal Sound Separation on Neural Audio Codec Latents'
+url: https://arxiv.org/abs/2509.11717
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-28T10:44:02.663501+00:00'
+date_seen: '2026-04-28'
+metadata:
+  arxiv_id: '2509.11717'
+  published: Tue, 28 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.LG
+content_preview: 'Title: CodecSep: Prompt-Driven Universal Sound Separation on Neural
+  Audio Codec Latents
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Text-guided sound separation enables flexible audio editing, assistive listening,
+  and open-domain source extraction, but systems such as AudioSep remain too expensive
+  for low-latency edge or codec-mediated deployment. Existing neural audio codec separators
+  are efficient, yet largely restricted to fixed stems or closed taxonomies. We introduce
+  CodecSep, a prompt-driven universal so'
+content_length: 2013
+llm_content_sent: 2013
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While this introduces codec-native sound separation which is technically novel,
+  it focuses on general audio source separation rather than emotional/expressive speech
+  synthesis, making it largely irrelevant to the specified research interests.

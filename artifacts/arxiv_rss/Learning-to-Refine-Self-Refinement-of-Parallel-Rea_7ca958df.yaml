@@ -1,0 +1,33 @@
+title: 'Learning to Refine: Self-Refinement of Parallel Reasoning in LLMs'
+url: https://arxiv.org/abs/2509.00084
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-28T10:44:02.802999+00:00'
+date_seen: '2026-04-28'
+metadata:
+  arxiv_id: '2509.00084'
+  published: Tue, 28 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.LG, cs.AI, cs.CL
+content_preview: 'Title: Learning to Refine: Self-Refinement of Parallel Reasoning
+  in LLMs
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Test-time scaling (TTS) has gained widespread attention for enhancing LLM reasoning.
+  Existing approaches such as Best-of-N and majority voting are limited as their performance
+  depends on the quality of candidate responses, making them unable to produce a correct
+  solution when all candidates are incorrect. Parallel self-refinement, generating
+  multiple candidates and synthesizing a refined answer '
+content_length: 1708
+llm_content_sent: 1708
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: This paper focuses on logical reasoning refinement in large language models
+  for mathematical problem-solving, which is completely unrelated to emotional/expressive
+  speech synthesis or zero-shot voice generation capabilities.

@@ -1,0 +1,33 @@
+title: 'OLaPh: Optimal Language Phonemizer'
+url: https://arxiv.org/abs/2509.20086
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-28T10:44:02.800322+00:00'
+date_seen: '2026-04-28'
+metadata:
+  arxiv_id: '2509.20086'
+  published: Tue, 28 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: OLaPh: Optimal Language Phonemizer
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Phonemization is a critical component in text-to-speech synthesis. Traditional approaches
+  rely on deterministic transformations and lexica, while neural methods offer potential
+  for higher generalization on out-of-vocabulary (OOV) terms. This work introduces
+  OLaPh (Optimal Language Phonemizer), a hybrid framework that integrates extensive
+  multilingual lexica with advanced NLP techniques and a statistical subword segmentation
+  f'
+content_length: 1380
+llm_content_sent: 1380
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: The work presents an incremental improvement in phonemization by combining
+  lexical and neural approaches, but doesn't directly address emotional/expressive
+  synthesis or introduce fundamentally novel techniques beyond hybrid G2P methods.

@@ -1,0 +1,84 @@
+title: ModelsLab/omnivoice-singing
+url: https://huggingface.co/ModelsLab/omnivoice-singing
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-28T10:44:39.088455+00:00'
+date_seen: '2026-04-28'
+metadata:
+  likes: '3'
+  downloads: '308'
+  trending_score: '2'
+  last_modified: '2026-04-17T13:12:21.000Z'
+content_preview: '---
+
+  language:
+
+  - en
+
+  - zh
+
+  - ja
+
+  - ko
+
+  - es
+
+  - fr
+
+  - de
+
+  - it
+
+  - ru
+
+  - hi
+
+  - gu
+
+  library_name: transformers
+
+  pipeline_tag: text-to-speech
+
+  license: apache-2.0
+
+  base_model: k2-fsa/OmniVoice
+
+  tags:
+
+  - text-to-speech
+
+  - tts
+
+  - singing
+
+  - emotion
+
+  - expressive-tts
+
+  - multilingual
+
+  - voice-cloning
+
+  - omnivoice
+
+  ---
+
+
+  # OmniVoice — Singing + Emotion Finetune
+
+
+  A finetune of [`k2-fsa/OmniVoice`](https://huggingface.co/k2-fsa/OmniVoice) that
+  adds:
+
+
+  - **`[singing]` tag** — sung speech / nursery-style melodic vocals
+
+  - **Emotion tag'
+content_length: 5304
+llm_content_sent: 5304
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: This is an incremental fine-tuning approach that adds emotional and singing
+  tags to an existing zero-shot TTS model, but introduces no novel architectural innovations
+  or methodological advances in emotional speech synthesis.
