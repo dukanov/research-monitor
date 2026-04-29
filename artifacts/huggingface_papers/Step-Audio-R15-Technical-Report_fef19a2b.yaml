@@ -1,0 +1,29 @@
+title: Step-Audio-R1.5 Technical Report
+url: https://huggingface.co/papers/2604.25719
+source: huggingface_papers
+type: paper
+date_discovered: '2026-04-29T10:40:28.366603+00:00'
+date_seen: '2026-04-29'
+metadata:
+  upvotes: '9'
+  paper_id: '2604.25719'
+  published_date: '2026-04-29'
+content_preview: 'Title: Step-Audio-R1.5 Technical Report
+
+
+  Summary:
+
+  Recent advancements in large audio language models have extended Chain-of-Thought
+  (CoT) reasoning into the auditory domain, enabling models to tackle increasingly
+  complex acoustic and spoken tasks. To elicit and sustain these extended reasoning
+  chains, the prevailing paradigm -- driven by the success of text-based reasoning
+  models -- overwhelmingly relies on Reinforcement Learning with Verified Rewards
+  (RLVR). However, as models are strictly opti'
+content_length: 1666
+llm_content_sent: 1666
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces RLHF for audio reasoning models to preserve prosodic naturalness
+  and emotional continuity, addressing the 'verifiable reward trap' that degrades
+  conversational quality in favor of objective correctness.

@@ -1,0 +1,35 @@
+title: UNet-Based Fusion and Exponential Moving Average Adaptation for Noise-Robust
+  Speaker Recognition
+url: https://arxiv.org/abs/2604.25624
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-29T10:39:59.742628+00:00'
+date_seen: '2026-04-29'
+metadata:
+  arxiv_id: '2604.25624'
+  published: Wed, 29 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: UNet-Based Fusion and Exponential Moving Average Adaptation
+  for Noise-Robust Speaker Recognition
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The joint training of speech enhancement and speaker embedding networks for speaker
+  recognition is widely adopted under noisy acoustic environments. While effective,
+  this paradigm often fails to leverage the generalization and robustness benefits
+  inherent in large-scale speech enhancement pre-training. Moreover, maintaining the
+  speaker information in the denoised s'
+content_length: 1258
+llm_content_sent: 1258
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on noise-robust speaker recognition rather than emotional/expressive
+  speech synthesis, and while it introduces a UNet-based fusion approach, it's primarily
+  an incremental improvement in speaker verification rather than advancing zero-shot
+  expressive synthesis capabilities.

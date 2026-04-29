@@ -1,0 +1,34 @@
+title: Joint Learning using Mixture-of-Expert-Based Representation for Speech Enhancement
+  and Robust Emotion Recognition
+url: https://arxiv.org/abs/2509.08470
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-29T10:39:59.742707+00:00'
+date_seen: '2026-04-29'
+metadata:
+  arxiv_id: '2509.08470'
+  published: Wed, 29 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI
+content_preview: 'Title: Joint Learning using Mixture-of-Expert-Based Representation
+  for Speech Enhancement and Robust Emotion Recognition
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech emotion recognition (SER) plays a critical role in building emotion-aware
+  speech systems, but its performance degrades significantly under noisy conditions.
+  Although speech enhancement (SE) can improve robustness, it often introduces artifacts
+  that obscure emotional cues and adds computational overhead to the pipeline. Multi-task
+  learning (M'
+content_length: 1941
+llm_content_sent: 1941
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on emotion recognition from noisy speech rather than emotional/expressive
+  speech synthesis, and lacks any zero-shot capabilities - it's essentially a multi-task
+  learning approach for denoising and classification tasks.

@@ -1,0 +1,34 @@
+title: 'Praxy Voice: Voice-Prompt Recovery + BUPS for Commercial-Class Indic TTS from
+  a Frozen Non-Indic Base at Zero Commercial-Training-Data Cost'
+url: https://arxiv.org/abs/2604.25441
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-29T10:39:59.662992+00:00'
+date_seen: '2026-04-29'
+metadata:
+  arxiv_id: '2604.25441'
+  published: Wed, 29 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.CL, eess.AS
+content_preview: 'Title: Praxy Voice: Voice-Prompt Recovery + BUPS for Commercial-Class
+  Indic TTS from a Frozen Non-Indic Base at Zero Commercial-Training-Data Cost
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Commercial TTS systems produce near-native Indic audio, but the best open-source
+  bases (Chatterbox, Indic Parler-TTS, IndicF5) trail them on measured phonological
+  dimensions, and the most widely adopted multilingual base (Chatterbox, 23 languages)
+  does not even tokenise Telugu or Tamil. We ask: what is the minimum interven'
+content_length: 2042
+llm_content_sent: 2042
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on multilingual TTS adaptation for Indic languages using
+  existing frozen models rather than emotional/expressive synthesis or zero-shot voice
+  capabilities, with only incremental technical contributions in phoneme space mapping
+  and LoRA fine-tuning.

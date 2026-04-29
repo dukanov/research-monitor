@@ -1,0 +1,33 @@
+title: Korean aegyo speech shows systematic F1 increase to signal childlike qualities
+url: https://arxiv.org/abs/2604.25133
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-29T10:39:59.663141+00:00'
+date_seen: '2026-04-29'
+metadata:
+  arxiv_id: '2604.25133'
+  published: Wed, 29 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.SD, eess.AS
+content_preview: 'Title: Korean aegyo speech shows systematic F1 increase to signal
+  childlike qualities
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Korean aegyo is a socially recognized childlike speaking style used predominantly
+  in romantic interactions among adults. This study examined vowel space modification
+  in aegyo by analyzing formant frequencies from twelve Seoul Korean speakers who
+  produced identical scripts in aegyo and non-aegyo styles. Results show that aegyo
+  speech features a significant increase in F1 values acros'
+content_length: 891
+llm_content_sent: 891
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: While the acoustic analysis of Korean aegyo speech provides useful phonetic
+  data for expressive speech synthesis, it's primarily a descriptive linguistic study
+  without novel synthesis methods or zero-shot capabilities.

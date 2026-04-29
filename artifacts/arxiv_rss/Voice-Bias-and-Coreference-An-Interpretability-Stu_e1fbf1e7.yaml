@@ -1,0 +1,35 @@
+title: 'Voice, Bias, and Coreference: An Interpretability Study of Gender in Speech
+  Translation'
+url: https://arxiv.org/abs/2511.21517
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-29T10:39:59.854427+00:00'
+date_seen: '2026-04-29'
+metadata:
+  arxiv_id: '2511.21517'
+  published: Wed, 29 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI
+content_preview: 'Title: Voice, Bias, and Coreference: An Interpretability Study of
+  Gender in Speech Translation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Unlike text, speech conveys information about the speaker, such as gender, through
+  acoustic cues like pitch. This gives rise to modality-specific bias concerns. For
+  example, in speech translation (ST), when translating from languages with notional
+  gender, such as English, into languages where gender-ambiguous terms referring to
+  the speaker are assigned grammatical gender, t'
+content_length: 1667
+llm_content_sent: 1667
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on gender bias analysis in speech translation rather than
+  emotional/expressive speech synthesis, and while it uses acoustic analysis techniques,
+  it doesn't advance zero-shot synthesis capabilities or expressive voice generation
+  methods.

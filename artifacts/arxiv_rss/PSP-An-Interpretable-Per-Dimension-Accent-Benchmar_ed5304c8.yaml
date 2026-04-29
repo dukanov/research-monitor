@@ -1,0 +1,33 @@
+title: 'PSP: An Interpretable Per-Dimension Accent Benchmark for Indic Text-to-Speech'
+url: https://arxiv.org/abs/2604.25476
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-29T10:39:59.663011+00:00'
+date_seen: '2026-04-29'
+metadata:
+  arxiv_id: '2604.25476'
+  published: Wed, 29 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.CL
+content_preview: 'Title: PSP: An Interpretable Per-Dimension Accent Benchmark for
+  Indic Text-to-Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Standard text-to-speech (TTS) evaluation measures intelligibility (WER, CER) and
+  overall naturalness (MOS, UTMOS) but does not quantify accent. A synthesiser may
+  score well on all four yet sound non-native on features that are phonemic in the
+  target language. For Indic languages, these features include retroflex articulation,
+  aspiration, vowel length, and the Tamil retroflex approxim'
+content_length: 2115
+llm_content_sent: 2115
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on accent-specific evaluation metrics for Indic TTS rather
+  than emotional/expressive synthesis or zero-shot capabilities, making it tangentially
+  relevant at best to the specified research interests.

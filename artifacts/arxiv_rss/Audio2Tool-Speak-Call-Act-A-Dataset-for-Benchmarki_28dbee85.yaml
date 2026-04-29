@@ -1,0 +1,32 @@
+title: 'Audio2Tool: Speak, Call, Act -- A Dataset for Benchmarking Speech Tool Use'
+url: https://arxiv.org/abs/2604.22821
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-29T10:39:59.663439+00:00'
+date_seen: '2026-04-29'
+metadata:
+  arxiv_id: '2604.22821'
+  published: Wed, 29 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.LG, eess.AS
+content_preview: 'Title: Audio2Tool: Speak, Call, Act -- A Dataset for Benchmarking
+  Speech Tool Use
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Voice assistants increasingly rely on Speech Language Models (SpeechLMs) to interpret
+  spoken queries and execute complex tasks, yet existing benchmarks lack domain breadth,
+  acoustic diversity, and compositional reasoning complexity to evaluate tool-calling
+  performance. We introduce Audio2Tool, a large-scale dataset comprising approximately
+  30,000 queries designed to assess tool-calling '
+content_length: 1295
+llm_content_sent: 1295
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on tool-calling capabilities and benchmarking rather than
+  advancing emotional/expressive speech synthesis or zero-shot voice generation methods.

@@ -1,0 +1,34 @@
+title: 'Unrequited Emotions: Investigating the Gaps in Motivation and Practice in
+  Speech Emotion Recognition Research'
+url: https://arxiv.org/abs/2604.25776
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-29T10:39:59.852271+00:00'
+date_seen: '2026-04-29'
+metadata:
+  arxiv_id: '2604.25776'
+  published: Wed, 29 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Unrequited Emotions: Investigating the Gaps in Motivation
+  and Practice in Speech Emotion Recognition Research
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Critical analyses of emotion recognition technology have raised ethical concerns
+  around task validity and potential downstream impacts, urging researchers to ensure
+  alignment between their stated motivations and practice. However, these discussions
+  have not adequately influenced or drawn from research on speech emotion recognition
+  (SER). We address thi'
+content_length: 1203
+llm_content_sent: 1203
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is a survey/ethics paper analyzing existing SER research practices rather
+  than introducing new technical methods for emotional/expressive speech synthesis
+  or zero-shot capabilities.

@@ -1,0 +1,33 @@
+title: 'Doing More With Less: Revisiting the Effectiveness of LLM Pruning for Test-Time
+  Scaling'
+url: https://arxiv.org/abs/2604.25098
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-29T10:39:59.853083+00:00'
+date_seen: '2026-04-29'
+metadata:
+  arxiv_id: '2604.25098'
+  published: Wed, 29 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.AI, cs.CL, cs.LG
+content_preview: 'Title: Doing More With Less: Revisiting the Effectiveness of LLM
+  Pruning for Test-Time Scaling
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  While current Large Language Models (LLMs) exhibit remarkable reasoning capabilities
+  through test-time compute scaling (TTS), their massive parameter counts and high
+  inference costs have motivated the development of pruning methods that can reduce
+  model size without sacrificing performance. However, specific to reasoning LLMs,
+  prior work has shown that structured pruning (m'
+content_length: 1566
+llm_content_sent: 1566
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on LLM pruning for reasoning tasks, which is completely
+  unrelated to emotional/expressive speech synthesis or zero-shot speech capabilities.
