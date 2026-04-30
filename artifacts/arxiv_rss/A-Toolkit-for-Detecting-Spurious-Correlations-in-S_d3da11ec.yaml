@@ -1,0 +1,32 @@
+title: A Toolkit for Detecting Spurious Correlations in Speech Datasets
+url: https://arxiv.org/abs/2604.26676
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-30T10:38:15.455103+00:00'
+date_seen: '2026-04-30'
+metadata:
+  arxiv_id: '2604.26676'
+  published: Thu, 30 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.DB
+content_preview: 'Title: A Toolkit for Detecting Spurious Correlations in Speech Datasets
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We introduce a toolkit for uncovering spurious correlations between recording characteristics
+  and target class in speech datasets. Spurious correlations may arise due to heterogeneous
+  recording conditions, a common scenario for health-related datasets. When present
+  both in the training and test data, these correlations result in an overestimation
+  of the system performance -- a dangerous situation'
+content_length: 1082
+llm_content_sent: 1082
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on dataset quality and spurious correlation detection rather
+  than advancing emotional/expressive speech synthesis or zero-shot capabilities,
+  making it tangentially relevant at best to the specified research interests.

@@ -1,0 +1,26 @@
+title: XRXRX/X-Voice
+url: https://huggingface.co/XRXRX/X-Voice
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-30T10:38:49.392683+00:00'
+date_seen: '2026-04-30'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-04-30T06:36:27.000Z'
+content_preview: "---\nlicense: cc-by-nc-4.0\npipeline_tag: text-to-speech\nlibrary_name:\
+  \ x-voice\ndatasets:\n- XRXRX/X-Voice-Dataset-Train\n---\nDownload [Speaking Rate\
+  \ Predictor](https://huggingface.co/XRXRX/X-Voice/tree/main/SpeedPredictor), [X-Voice\
+  \ Stage-1 Model](https://huggingface.co/XRXRX/X-Voice/tree/main/XVoice_Base_Stage1),\
+  \ and [X-Voice Stage-2 Model](https://huggingface.co/XRXRX/X-Voice/tree/main/XVoice_Base_Stage2),\
+  \ then place under ckpts/\n```\nckpts/\n    SpeedPredict_Multilingual/\n       \
+  \ model_28000.safete"
+content_length: 674
+llm_content_sent: 674
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: This appears to be a standard model release with minimal technical details
+  provided, offering no clear evidence of novel contributions to emotional/expressive
+  speech synthesis or zero-shot capabilities beyond existing approaches.

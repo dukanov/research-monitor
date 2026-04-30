@@ -1,0 +1,34 @@
+title: 'One Voice, Many Tongues: Cross-Lingual Voice Cloning for Scientific Speech'
+url: https://arxiv.org/abs/2604.26136
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-30T10:38:15.533309+00:00'
+date_seen: '2026-04-30'
+metadata:
+  arxiv_id: '2604.26136'
+  published: Thu, 30 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.CL
+content_preview: 'Title: One Voice, Many Tongues: Cross-Lingual Voice Cloning for
+  Scientific Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Preserving a speaker''s voice identity while generating speech in a different language
+  remains a fundamental challenge in spoken language technology, particularly in specialized
+  domains such as scientific communication. In this paper, we address this challenge
+  through our system submission to the International Conference on Spoken Language
+  Translation (IWSLT 2026), the Cross-Lingual Voic'
+content_length: 1136
+llm_content_sent: 1136
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: While cross-lingual voice cloning is relevant to expressive synthesis, this
+  appears to be primarily an engineering application using existing models (OmniVoice)
+  with standard data augmentation techniques rather than introducing novel zero-shot
+  capabilities or emotional/expressive modeling approaches.

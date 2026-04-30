@@ -1,0 +1,34 @@
+title: 'EmoTransCap: Dataset and Pipeline for Emotion Transition-Aware Speech Captioning
+  in Discourses'
+url: https://arxiv.org/abs/2604.26417
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-30T10:38:15.455181+00:00'
+date_seen: '2026-04-30'
+metadata:
+  arxiv_id: '2604.26417'
+  published: Thu, 30 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.SD
+content_preview: 'Title: EmoTransCap: Dataset and Pipeline for Emotion Transition-Aware
+  Speech Captioning in Discourses
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Emotion perception and adaptive expression are fundamental capabilities in human-agent
+  interaction. While recent advances in speech emotion captioning (SEC) have improved
+  fine-grained emotional modeling, existing systems remain limited to static, single-emotion
+  characterization within isolated sentences, neglecting dynamic emotional transitions
+  at the discourse level'
+content_length: 1878
+llm_content_sent: 1878
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Introduces discourse-level emotion transition modeling for speech captioning
+  and synthesis, moving beyond single-emotion characterization to capture dynamic
+  emotional flows across longer conversations.

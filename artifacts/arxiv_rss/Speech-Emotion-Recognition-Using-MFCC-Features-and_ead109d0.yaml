@@ -1,0 +1,34 @@
+title: Speech Emotion Recognition Using MFCC Features and LSTM-Based Deep Learning
+  Model
+url: https://arxiv.org/abs/2604.25938
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-30T10:38:15.454936+00:00'
+date_seen: '2026-04-30'
+metadata:
+  arxiv_id: '2604.25938'
+  published: Thu, 30 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI, eess.AS
+content_preview: 'Title: Speech Emotion Recognition Using MFCC Features and LSTM-Based
+  Deep Learning Model
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech Emotion Recognition (SER) is the use of machines to detect the emotional
+  state of humans based on the speech, which is gaining importance in natural human-computer
+  interaction. Speech is a very valuable source of information, as emotions modify
+  the patterns of speech; pitch, energy and even timing. Nonetheless, SER is not an
+  easy task because speakers are not constant, and'
+content_length: 2047
+llm_content_sent: 2047
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work uses standard MFCC features with basic LSTM architecture for emotion
+  recognition, which is a well-established approach from over a decade ago with no
+  novel contributions to zero-shot emotional speech synthesis.

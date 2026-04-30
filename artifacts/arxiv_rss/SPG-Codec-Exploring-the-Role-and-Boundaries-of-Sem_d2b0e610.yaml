@@ -1,0 +1,34 @@
+title: 'SPG-Codec: Exploring the Role and Boundaries of Semantic Priors in Ultra-Low-Bitrate
+  Neural Speech Coding'
+url: https://arxiv.org/abs/2604.26296
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-30T10:38:15.533329+00:00'
+date_seen: '2026-04-30'
+metadata:
+  arxiv_id: '2604.26296'
+  published: Thu, 30 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: SPG-Codec: Exploring the Role and Boundaries of Semantic
+  Priors in Ultra-Low-Bitrate Neural Speech Coding
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Conventional neural speech codecs suffer from severe intelligibility degradation
+  at ultra-low bitrates, where the bottleneck transitions from acoustic distortion
+  to semantic loss. To address this issue, this paper conducts a systematic investigation
+  into the role and fundamental limits of integrating frozen semantic priors -- specifically
+  HuBERT and Whispe'
+content_length: 1687
+llm_content_sent: 1687
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on ultra-low-bitrate speech coding for compression/transmission
+  rather than emotional/expressive synthesis, and while it mentions semantic priors,
+  it doesn't address zero-shot emotional expression generation.

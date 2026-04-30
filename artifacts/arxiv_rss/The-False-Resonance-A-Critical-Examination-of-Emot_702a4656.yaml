@@ -1,0 +1,35 @@
+title: 'The False Resonance: A Critical Examination of Emotion Embedding Similarity
+  for Speech Generation Evaluation'
+url: https://arxiv.org/abs/2604.26347
+source: arxiv_rss
+type: paper
+date_discovered: '2026-04-30T10:38:15.533372+00:00'
+date_seen: '2026-04-30'
+metadata:
+  arxiv_id: '2604.26347'
+  published: Thu, 30 Apr 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.CL
+content_preview: 'Title: The False Resonance: A Critical Examination of Emotion Embedding
+  Similarity for Speech Generation Evaluation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Objective metrics for emotional expressiveness are vital for speech generation,
+  particularly in expressive synthesis and voice conversion requiring emotional prosody
+  transfer. To quantify this, the field widely relies on emotion similarity between
+  reference and generated samples. This approach computes cosine similarity of embeddings
+  from encoders like '
+content_length: 1183
+llm_content_sent: 1183
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: This work introduces a critical evaluation methodology that challenges the
+  widely-accepted assumption that emotion embedding similarity metrics accurately
+  capture emotional expressiveness in speech synthesis, revealing fundamental limitations
+  in current zero-shot evaluation approaches.

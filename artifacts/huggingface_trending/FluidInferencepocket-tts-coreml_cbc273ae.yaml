@@ -1,0 +1,69 @@
+title: FluidInference/pocket-tts-coreml
+url: https://huggingface.co/FluidInference/pocket-tts-coreml
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-04-30T10:38:52.655071+00:00'
+date_seen: '2026-04-30'
+metadata:
+  likes: '2'
+  downloads: '1947'
+  trending_score: '1'
+  last_modified: '2026-04-28T01:00:09.000Z'
+content_preview: '---
+
+  license: cc-by-4.0
+
+  library_name: coreml
+
+  tags:
+
+  - tts
+
+  - text-to-speech
+
+  - coreml
+
+  - apple
+
+  - on-device
+
+  language:
+
+  - en
+
+  pipeline_tag: text-to-speech
+
+  base_model:
+
+  - kyutai/pocket-tts
+
+  base_model_relation: finetune
+
+  ---
+
+
+  # PocketTTS CoreML
+
+
+  CoreML conversion of [kyutai/pocket-tts](https://huggingface.co/kyutai/pocket-tts)
+  for on-device
+
+  inference on Apple platforms.
+
+
+  ## Models
+
+
+  | Model | Description | Size |
+
+  |-------|-------------|------|
+
+  | cond_step | KV cache prefill (voice + text conditioning) | ~200M'
+content_length: 1419
+llm_content_sent: 1419
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is merely a platform-specific conversion of an existing TTS model to
+  CoreML format with no scientific novelty, emotional capabilities, or zero-shot learning
+  contributions.
