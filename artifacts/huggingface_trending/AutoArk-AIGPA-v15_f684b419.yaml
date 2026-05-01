@@ -1,0 +1,26 @@
+title: AutoArk-AI/GPA-v1.5
+url: https://huggingface.co/AutoArk-AI/GPA-v1.5
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-01T10:34:34.212244+00:00'
+date_seen: '2026-05-01'
+metadata:
+  likes: '2'
+  downloads: '29'
+  trending_score: '2'
+  last_modified: '2026-04-29T10:56:37.000Z'
+content_preview: "---\nlibrary_name: transformers\ntags:\n- text-to-speech\n- automatic-speech-recognition\n\
+  - voice-conversion\n- speech\n- audio\npipeline_tag: text-to-speech\nlanguage:\n\
+  - en\n- zh\nlicense: apache-2.0\nbase_model:\n- Qwen/Qwen3-0.6B\nhomepage: https://autoark.github.io/GPA/\n\
+  repository: https://github.com/AutoArk/GPA\n---\n\n<div align=\"center\">\n  <img\
+  \ src=\"figures/GPA.png\" width=\"80%\" alt=\"GPA Logo\"/>\n\n# GPA v1.5: One Model\
+  \ for Speech Recognition, Text-to-Speech, and Voice Conversion\n\n[![ArXiv](https://img.shiel"
+content_length: 7070
+llm_content_sent: 7070
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: While the unified architecture for ASR/TTS is interesting, this appears to
+  be primarily an engineering contribution with standard autoregressive transformers
+  and lacks specific innovations in emotional/expressive synthesis or true zero-shot
+  capabilities beyond basic voice conditioning.

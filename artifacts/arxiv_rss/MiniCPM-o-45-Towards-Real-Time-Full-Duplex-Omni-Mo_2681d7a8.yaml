@@ -1,0 +1,33 @@
+title: 'MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction'
+url: https://arxiv.org/abs/2604.27393
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-01T10:33:58.282897+00:00'
+date_seen: '2026-05-01'
+metadata:
+  arxiv_id: '2604.27393'
+  published: Fri, 01 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent progress in multimodal large language models (MLLMs) has brought AI capabilities
+  from static offline data processing to real-time streaming interaction, yet they
+  still remain far from human-level multimodal interaction. The key bottlenecks are
+  no longer modality coverage or latency alone, but the interaction paradigm itself.
+  First, perception and response are still separated into altern'
+content_length: 2086
+llm_content_sent: 2086
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel full-duplex streaming framework (Omni-Flow) that enables
+  simultaneous perception and speech generation rather than turn-based interaction,
+  which is a meaningful architectural advancement for real-time expressive speech
+  synthesis applications.

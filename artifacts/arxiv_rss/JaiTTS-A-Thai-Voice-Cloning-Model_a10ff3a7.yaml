@@ -1,0 +1,33 @@
+title: 'JaiTTS: A Thai Voice Cloning Model'
+url: https://arxiv.org/abs/2604.27607
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-01T10:33:58.283483+00:00'
+date_seen: '2026-05-01'
+metadata:
+  arxiv_id: '2604.27607'
+  published: Fri, 01 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: JaiTTS: A Thai Voice Cloning Model
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We present JaiTTS-v1.0, a state-of-the-art Thai voice cloning text-to-speech model
+  built through continual training on a large Thai-centric speech corpus. The model
+  architecture is adapted from VoxCPM, a tokenizer-free autoregressive TTS model.
+  JaiTTS-v1.0 directly processes numerals and Thai-English code-switching, which is
+  very common in realistic settings, without explicit text normalization. We test
+  the models on short-du'
+content_length: 1012
+llm_content_sent: 1012
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is primarily a language-specific adaptation of existing VoxCPM architecture
+  for Thai TTS with voice cloning, but lacks focus on emotional/expressive synthesis
+  or clear zero-shot capabilities beyond basic voice cloning.

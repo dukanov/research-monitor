@@ -1,0 +1,65 @@
+title: AutoArk-AI/GPA-v1.5-onnx-runtime
+url: https://huggingface.co/AutoArk-AI/GPA-v1.5-onnx-runtime
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-01T10:34:34.396059+00:00'
+date_seen: '2026-05-01'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-04-29T10:08:43.000Z'
+content_preview: '---
+
+  tags:
+
+  - onnx
+
+  - onnxruntime
+
+  - text-to-speech
+
+  - automatic-speech-recognition
+
+  - speech
+
+  - audio
+
+  pipeline_tag: text-to-speech
+
+  language:
+
+  - en
+
+  - zh
+
+  license: apache-2.0
+
+  base_model:
+
+  - Qwen/Qwen3-0.6B
+
+  homepage: https://autoark.github.io/GPA/
+
+  repository: https://github.com/AutoArk/GPA
+
+  ---
+
+
+  <div align="center">
+
+
+  # GPA v1.5 ONNX Runtime Assets
+
+
+  [![GitHub](https://img.shields.io/badge/GitHub-AutoArk%2FGPA-blue?logo=github)](https://github.com/AutoArk/GPA)
+
+  [![Runtime Code](https://img.shields.io/badge/Runt'
+content_length: 6461
+llm_content_sent: 6461
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is just an ONNX runtime deployment package for an existing model (GPA
+  v1.5) with no scientific novelty - it's purely an engineering artifact for model
+  deployment rather than research contribution.

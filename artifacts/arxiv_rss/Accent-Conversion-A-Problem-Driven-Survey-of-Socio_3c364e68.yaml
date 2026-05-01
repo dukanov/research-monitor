@@ -1,0 +1,34 @@
+title: 'Accent Conversion: A Problem-Driven Survey of Sociolinguistic and Technical
+  Constraints'
+url: https://arxiv.org/abs/2604.27281
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-01T10:33:58.250752+00:00'
+date_seen: '2026-05-01'
+metadata:
+  arxiv_id: '2604.27281'
+  published: Fri, 01 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: Accent Conversion: A Problem-Driven Survey of Sociolinguistic
+  and Technical Constraints
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Accent conversion has rapidly progressed alongside growing interest in improving
+  global cross-cultural communication. This survey presents an overview of the evolution
+  of accent conversion methodologies, analyzing how the field has developed in response
+  to fundamental challenges related to data alignment, representation disentanglement,
+  and resource scarcity. We trace the p'
+content_length: 1287
+llm_content_sent: 1287
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is a survey paper that organizes existing knowledge in accent conversion
+  rather than introducing novel technical approaches, though it may provide useful
+  context for zero-shot expressive synthesis research.

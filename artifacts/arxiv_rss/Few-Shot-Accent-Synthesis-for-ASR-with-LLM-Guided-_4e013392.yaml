@@ -1,0 +1,33 @@
+title: Few-Shot Accent Synthesis for ASR with LLM-Guided Phoneme Editing
+url: https://arxiv.org/abs/2604.27273
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-01T10:33:58.250646+00:00'
+date_seen: '2026-05-01'
+metadata:
+  arxiv_id: '2604.27273'
+  published: Fri, 01 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: Few-Shot Accent Synthesis for ASR with LLM-Guided Phoneme
+  Editing
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Accented automatic speech recognition (ASR) often degrades due to the limited availability
+  of accented training data. Prior work has explored accent modeling in low-resource
+  settings, but existing approaches typically require minutes to hours of labeled
+  speech, which may still be impractical for truly scarce accent scenarios. We propose
+  a pipeline that adapts a text-to-speech (TTS) decoder to a '
+content_length: 1196
+llm_content_sent: 1196
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on accent synthesis for ASR improvement rather than emotional/expressive
+  speech synthesis, and while it claims few-shot capabilities, it's primarily an incremental
+  combination of existing TTS adaptation and LLM-based phoneme editing techniques.
