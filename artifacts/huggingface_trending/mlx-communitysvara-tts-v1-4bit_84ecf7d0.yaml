@@ -1,0 +1,100 @@
+title: mlx-community/svara-tts-v1-4bit
+url: https://huggingface.co/mlx-community/svara-tts-v1-4bit
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-02T10:22:43.494102+00:00'
+date_seen: '2026-05-02'
+metadata:
+  likes: '2'
+  downloads: '212'
+  trending_score: '2'
+  last_modified: '2026-04-26T07:12:27.000Z'
+content_preview: '---
+
+  base_model: kenpath/svara-tts-v1
+
+  models:
+
+  - kenpath/svara-tts-v1
+
+  - canopylabs/3b-hi-ft-research_release
+
+  - mlx-community/svara-tts-v1
+
+  - mlx-community/svara-tts-v1-8bit
+
+  license: apache-2.0
+
+  language:
+
+  - hi
+
+  - bn
+
+  - mr
+
+  - te
+
+  - kn
+
+  - bho
+
+  - mag
+
+  - hne
+
+  - mai
+
+  - as
+
+  - brx
+
+  - doi
+
+  - gu
+
+  - ml
+
+  - pa
+
+  - ta
+
+  - ne
+
+  - sa
+
+  - en
+
+  tags:
+
+  - text-to-speech
+
+  - speech-synthesis
+
+  - multilingual
+
+  - indic
+
+  - orpheus
+
+  - snac
+
+  - mlx
+
+  - mlx-audio
+
+  task_categories:
+
+  - text-to-speech
+
+  pipeline_tag: text-to-speech
+
+  pretty_name: Svara-TTS v1 (MLX, 4-bi'
+content_length: 4832
+llm_content_sent: 4832
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is merely a quantized version of an existing TTS model for deployment
+  optimization, offering no scientific novelty in emotional/expressive speech synthesis
+  or zero-shot capabilities.
