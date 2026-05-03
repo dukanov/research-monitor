@@ -1,0 +1,66 @@
+title: LH-Tech-AI/Flare-TTS-28M
+url: https://huggingface.co/LH-Tech-AI/Flare-TTS-28M
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-03T10:24:20.435773+00:00'
+date_seen: '2026-05-03'
+metadata:
+  likes: '5'
+  downloads: '22'
+  trending_score: '5'
+  last_modified: '2026-05-02T10:29:44.000Z'
+content_preview: '---
+
+  language:
+
+  - en
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - tts
+
+  - flare
+
+  - open
+
+  - open-source
+
+  - small
+
+  - speech
+
+  - text-to-speech
+
+  - tiny
+
+  - cpu
+
+  datasets:
+
+  - keithito/lj_speech
+
+  ---
+
+
+  # 🎙️ Flare-TTS 28M
+
+  Welcome to Flare-TTS 28M, an open-source text-to-speech model with 28 million parameters
+  trained on LJSpeech.
+
+
+  ## Quality and results
+
+  This model is okayish quality but it still sounds a bit robotish but you can clearly
+  understand what the model tries to say.
+
+  See this model as a proof-of-concept or a first-be'
+content_length: 1605
+llm_content_sent: 1605
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is a basic GlowTTS implementation trained on LJSpeech with no novel contributions,
+  no emotional/expressive capabilities, and no zero-shot functionality - it's simply
+  a standard single-speaker TTS model presented as a proof-of-concept.
