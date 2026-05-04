@@ -1,0 +1,30 @@
+title: 'LASE: Language-Adversarial Speaker Encoding for Indic Cross-Script Identity
+  Preservation'
+url: https://huggingface.co/papers/2605.00777
+source: huggingface_papers
+type: paper
+date_discovered: '2026-05-04T10:44:20.490740+00:00'
+date_seen: '2026-05-04'
+metadata:
+  upvotes: '1'
+  paper_id: '2605.00777'
+  published_date: '2026-05-04'
+content_preview: 'Title: LASE: Language-Adversarial Speaker Encoding for Indic Cross-Script
+  Identity Preservation
+
+
+  Summary:
+
+  A speaker encoder used in multilingual voice cloning should treat the same speaker
+  identically regardless of which script the audio was uttered in. Off-the-shelf encoders
+  do not, and the failure is accent-conditional. On a 1043-pair Western-accented voice
+  corpus across English, Hindi, Telugu, and Tamil, WavLM-base-plus-sv loses 0.082
+  absolute cosine similarity when the same voice changes scr'
+content_length: 1780
+llm_content_sent: 1780
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work addresses cross-script speaker identity preservation in multilingual
+  voice cloning but lacks any focus on emotional or expressive speech synthesis, instead
+  concentrating purely on speaker identity encoding across different writing systems.

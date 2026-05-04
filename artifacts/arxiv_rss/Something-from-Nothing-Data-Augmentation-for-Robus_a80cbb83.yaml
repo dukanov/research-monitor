@@ -1,0 +1,34 @@
+title: 'Something from Nothing: Data Augmentation for Robust Severity Level Estimation
+  of Dysarthric Speech'
+url: https://arxiv.org/abs/2603.15988
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-04T10:43:51.531112+00:00'
+date_seen: '2026-05-04'
+metadata:
+  arxiv_id: '2603.15988'
+  published: Mon, 04 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI, cs.LG
+content_preview: 'Title: Something from Nothing: Data Augmentation for Robust Severity
+  Level Estimation of Dysarthric Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Dysarthric speech quality assessment (DSQA) is critical for clinical diagnostics
+  and inclusive speech technologies. However, subjective evaluation is costly and
+  difficult to scale, and the scarcity of labeled data limits robust objective modeling.
+  To address this, we propose a three-stage framework that leverages unlabeled dysarthric
+  speech and large-scale typic'
+content_length: 1234
+llm_content_sent: 1234
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on dysarthric speech assessment rather than synthesis, and
+  while it uses contrastive learning for data augmentation, it doesn't address emotional/expressive
+  speech synthesis or zero-shot capabilities.

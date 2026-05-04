@@ -1,0 +1,34 @@
+title: 'MMAudioReverbs: Video-Guided Acoustic Modeling for Dereverberation and Room
+  Impulse Response Estimation'
+url: https://arxiv.org/abs/2605.00431
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-04T10:43:51.488271+00:00'
+date_seen: '2026-05-04'
+metadata:
+  arxiv_id: '2605.00431'
+  published: Mon, 04 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.CV, cs.LG, eess.AS
+content_preview: 'Title: MMAudioReverbs: Video-Guided Acoustic Modeling for Dereverberation
+  and Room Impulse Response Estimation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Although recent video-to-audio (V2A) models excelled at synthesizing semantically
+  plausible sounds from visual inputs, they do not explicitly model room-acoustic
+  effects such as reverberation or room impulse responses (RIRs), and thus offer limited
+  controllability over these effects. However, we hypothesize that such V2A models
+  implicitly have semantic knowl'
+content_length: 1365
+llm_content_sent: 1365
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on room acoustics and dereverberation rather than emotional/expressive
+  speech synthesis, and while it mentions zero-shot capabilities through pretrained
+  models, it doesn't address expressive speech generation.
