@@ -1,0 +1,34 @@
+title: Toward Fine-Grained Speech Inpainting Forensics:A Dataset, Method, and Metric
+  for Multi-Region Tampering Localization
+url: https://arxiv.org/abs/2605.02223
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-05T10:36:58.623452+00:00'
+date_seen: '2026-05-05'
+metadata:
+  arxiv_id: '2605.02223'
+  published: Tue, 05 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.CV
+content_preview: 'Title: Toward Fine-Grained Speech Inpainting Forensics:A Dataset,
+  Method, and Metric for Multi-Region Tampering Localization
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in voice cloning and text-to-speech synthesis have made partial
+  speech manipulation - where an adversary replaces a few words within an utterance
+  to alter its meaning while preserving the speaker''s identity - an increasingly
+  realistic threat. Existing audio deepfake detection benchmarks focus on utterance-level
+  binary classifica'
+content_length: 1966
+llm_content_sent: 1966
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on detecting and localizing tampered speech segments rather
+  than generating emotional/expressive speech, making it relevant to forensics but
+  not to synthesis research.

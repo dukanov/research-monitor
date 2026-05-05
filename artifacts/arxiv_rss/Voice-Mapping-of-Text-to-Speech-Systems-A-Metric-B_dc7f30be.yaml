@@ -1,0 +1,35 @@
+title: 'Voice Mapping of Text-to-Speech Systems: A Metric-Based Approach for Voice
+  Quality Assessment'
+url: https://arxiv.org/abs/2605.00861
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-05T10:36:58.686795+00:00'
+date_seen: '2026-05-05'
+metadata:
+  arxiv_id: '2605.00861'
+  published: Tue, 05 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI, eess.SP
+content_preview: 'Title: Voice Mapping of Text-to-Speech Systems: A Metric-Based Approach
+  for Voice Quality Assessment
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  This study investigates voice mapping as an evaluation framework for text-to-speech
+  (TTS) synthesis quality. The study analyzes six TTS models, including historical
+  and recent ones. The metrics are crest factor, spectrum balance, and cepstral peak
+  prominence (CPPs). We investigated 6 influential TTS models: Merlin, Tacotron 2,
+  Transformer TTS, FastSpeech 2, Glow-TTS, '
+content_length: 1189
+llm_content_sent: 1189
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: The paper introduces voice mapping as an evaluation framework using acoustic
+  metrics (crest factor, spectrum balance, CPPs) to assess TTS voice quality and expressiveness,
+  but this appears to be an incremental contribution applying existing acoustic measures
+  rather than a fundamentally novel approach.

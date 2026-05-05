@@ -1,0 +1,33 @@
+title: 'Balalaika: Data-Centric, Prosody-Aware Annotation Pipeline for Russian Speech'
+url: https://arxiv.org/abs/2507.13563
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-05T10:36:58.623932+00:00'
+date_seen: '2026-05-05'
+metadata:
+  arxiv_id: '2507.13563'
+  published: Tue, 05 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.SD, eess.AS
+content_preview: 'Title: Balalaika: Data-Centric, Prosody-Aware Annotation Pipeline
+  for Russian Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We introduce Balalaika, an open-source, data-centric pipeline for processing audio
+  and producing prosody-aware annotations. It combines semantic VAD for context-preserving
+  segmentation, multi-ASR ensembling with ROVER consensus decoding, while retaining
+  optional word-level timestamps, followed by automatic quality and speaker-purity
+  filtering. The text is further enriched with punctu'
+content_length: 1142
+llm_content_sent: 1142
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: While the prosody-aware annotation pipeline with stress and phoneme enrichment
+  is useful for expressive TTS, this is primarily an incremental data processing contribution
+  rather than a novel synthesis approach, and lacks zero-shot capabilities.

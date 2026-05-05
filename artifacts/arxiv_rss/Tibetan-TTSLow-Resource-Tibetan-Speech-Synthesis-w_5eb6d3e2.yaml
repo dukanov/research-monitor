@@ -1,0 +1,33 @@
+title: Tibetan-TTS:Low-Resource Tibetan Speech Synthesis with Large Model Adaptation
+url: https://arxiv.org/abs/2605.02496
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-05T10:36:58.623458+00:00'
+date_seen: '2026-05-05'
+metadata:
+  arxiv_id: '2605.02496'
+  published: Tue, 05 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.CL
+content_preview: 'Title: Tibetan-TTS:Low-Resource Tibetan Speech Synthesis with Large
+  Model Adaptation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Tibetan text-to-speech (TTS) has long been challenged by scarce speech resources,
+  significant dialectal variation, and the complex mapping between written text and
+  spoken pronunciation. To address these issues, this work presents, to the best of
+  our knowledge, the first large-model-based Tibetan TTS system in the industry, built
+  upon a large speech synthesis model developed by Xingch'
+content_length: 1490
+llm_content_sent: 1490
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on low-resource Tibetan TTS using standard cross-lingual
+  adaptation techniques without addressing emotional/expressive synthesis or zero-shot
+  capabilities for new speakers or emotions.

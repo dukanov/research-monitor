@@ -1,0 +1,33 @@
+title: 'TokenChain: A Discrete Speech Chain via Semantic Token Modeling'
+url: https://arxiv.org/abs/2510.06201
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-05T10:36:58.623977+00:00'
+date_seen: '2026-05-05'
+metadata:
+  arxiv_id: '2510.06201'
+  published: Tue, 05 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI, cs.CL, cs.LG, cs.SD
+content_preview: 'Title: TokenChain: A Discrete Speech Chain via Semantic Token Modeling
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Machine Speech Chain, simulating the human perception-production loop, proves effective
+  in jointly improving ASR and TTS. We propose TokenChain, a fully discrete speech
+  chain coupling semantic-token ASR with a two-stage TTS: an autoregressive text-to-semantic
+  model co-trained with ASR and a masked-generative semantic-to-acoustic model for
+  synthesis only. End-to-end feedback across the text interfa'
+content_length: 1139
+llm_content_sent: 1139
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: While TokenChain presents a discrete speech chain approach, it focuses on
+  ASR-TTS joint training rather than emotional/expressive synthesis or zero-shot capabilities,
+  making it only tangentially relevant with limited novelty beyond existing speech
+  chain methods.
