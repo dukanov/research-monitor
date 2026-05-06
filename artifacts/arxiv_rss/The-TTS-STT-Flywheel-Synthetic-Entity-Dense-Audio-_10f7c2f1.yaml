@@ -1,0 +1,34 @@
+title: 'The TTS-STT Flywheel: Synthetic Entity-Dense Audio Closes the Indic ASR Gap
+  Where Commercial and Open-Source Systems Fail'
+url: https://arxiv.org/abs/2605.03073
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-06T10:44:20.837362+00:00'
+date_seen: '2026-05-06'
+metadata:
+  arxiv_id: '2605.03073'
+  published: Wed, 06 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.SD
+content_preview: 'Title: The TTS-STT Flywheel: Synthetic Entity-Dense Audio Closes
+  the Indic ASR Gap Where Commercial and Open-Source Systems Fail
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Niche-domain Indic ASR -- digit strings, currency amounts, addresses, brand names,
+  English/Indic codemix -- is under-served by both open-source SOTA and commercial
+  systems. On a synthesised entity-dense Telugu test set (held-out by synthesis system),
+  vasista22/whisper-telugu-large-v2 (open SOTA) achieves Entity-Hit-Rate (EHR) 0.027
+  and Deep'
+content_length: 1932
+llm_content_sent: 1932
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on ASR (speech-to-text) improvement using synthetic data
+  for entity recognition in Indic languages, not on emotional/expressive speech synthesis
+  or zero-shot TTS capabilities.

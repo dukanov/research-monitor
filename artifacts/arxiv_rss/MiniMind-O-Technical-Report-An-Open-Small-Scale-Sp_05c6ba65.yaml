@@ -1,0 +1,33 @@
+title: 'MiniMind-O Technical Report: An Open Small-Scale Speech-Native Omni Model'
+url: https://arxiv.org/abs/2605.03937
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-06T10:44:20.837261+00:00'
+date_seen: '2026-05-06'
+metadata:
+  arxiv_id: '2605.03937'
+  published: Wed, 06 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.MM, eess.AS
+content_preview: 'Title: MiniMind-O Technical Report: An Open Small-Scale Speech-Native
+  Omni Model
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  MiniMind-O is an open 0.1B-scale omni model built on the MiniMind language model.
+  It accepts text, speech, and image inputs, and returns both text and streaming speech.
+  The release includes model code, checkpoints, and the main Parquet training datasets
+  for text-to-audio, image-to-text, and audio-to-audio training, making the complete
+  interaction loop directly inspectable. The model uses'
+content_length: 1662
+llm_content_sent: 1662
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel architecture combining middle-layer semantic bridging between
+  Thinker-Talker components with speaker control via codec prompts for zero-shot voice
+  cloning, though builds incrementally on existing multimodal frameworks.

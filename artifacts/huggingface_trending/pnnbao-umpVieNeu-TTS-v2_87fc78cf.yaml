@@ -1,0 +1,54 @@
+title: pnnbao-ump/VieNeu-TTS-v2
+url: https://huggingface.co/pnnbao-ump/VieNeu-TTS-v2
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-06T10:44:52.435561+00:00'
+date_seen: '2026-05-06'
+metadata:
+  likes: '9'
+  downloads: '15'
+  trending_score: '9'
+  last_modified: '2026-05-06T10:37:11.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  datasets:
+
+  - pnnbao-ump/VieNeu-TTS-10k-ENVI
+
+  language:
+
+  - vi
+
+  - en
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - podcast
+
+  - code-switching
+
+  - voice-cloning
+
+  ---
+
+
+  # 🦜 VieNeu-TTS
+
+
+  [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/pnnbao97/VieNeu-TTS)
+
+  [![Model](https://img.shields.io/badge/Hugging%20Face-Model-yellow)](https://huggingface.co/pnnbao-ump/VieNeu-TTS-v2)
+
+  [![Discord](https://img.shields.io/badge/Discord-Join%20Us-5865F2?logo=discord&logoColor=wh'
+content_length: 8300
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: This is primarily an engineering contribution for Vietnamese TTS with standard
+  voice cloning capabilities, but lacks novel approaches to emotional/expressive synthesis
+  or significant advances in zero-shot methodology beyond existing techniques.

@@ -1,0 +1,26 @@
+title: Serveurperso/OmniVoice-GGUF
+url: https://huggingface.co/Serveurperso/OmniVoice-GGUF
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-06T10:44:56.978853+00:00'
+date_seen: '2026-05-06'
+metadata:
+  likes: '2'
+  downloads: '1066'
+  trending_score: '2'
+  last_modified: '2026-04-30T13:39:10.000Z'
+content_preview: "---\nlicense: apache-2.0\nlibrary_name: gguf\npipeline_tag: text-to-speech\n\
+  tags:\n  - tts\n  - text-to-speech\n  - voice-cloning\n  - voice-design\n  - ggml\n\
+  \  - gguf\n  - omnivoice\n  - cpp\nlanguage:\n  - en\n  - fr\n  - de\n  - es\n \
+  \ - it\n  - pt\n  - zh\n  - ja\n  - ko\n  - ar\n  - ru\nbase_model: k2-fsa/OmniVoice\n\
+  ---\n\n# OmniVoice GGUF\n\nGGUF weights for [omnivoice.cpp](https://github.com/ServeurpersoCom/omnivoice.cpp),\n\
+  a C++17/GGML port of OmniVoice (k2-fsa/OmniVoice). Multilingual zero\nshot TTS,\
+  \ 646 languages, 24 "
+content_length: 3031
+llm_content_sent: 3031
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is purely an engineering optimization (GGUF quantization for CPU inference)
+  of an existing model with no novel contributions to emotional/expressive speech
+  synthesis or zero-shot capabilities.

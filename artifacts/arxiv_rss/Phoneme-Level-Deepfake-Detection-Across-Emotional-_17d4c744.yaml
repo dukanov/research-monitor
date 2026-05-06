@@ -1,0 +1,34 @@
+title: Phoneme-Level Deepfake Detection Across Emotional Conditions Using Self-Supervised
+  Embeddings
+url: https://arxiv.org/abs/2605.03079
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-06T10:44:20.836890+00:00'
+date_seen: '2026-05-06'
+metadata:
+  arxiv_id: '2605.03079'
+  published: Wed, 06 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.LG, eess.AS
+content_preview: 'Title: Phoneme-Level Deepfake Detection Across Emotional Conditions
+  Using Self-Supervised Embeddings
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in emotional voice conversion (EVC) have enabled the generation
+  of expressive synthetic speech, raising new concerns in audio deepfake detection.
+  Existing approaches treat speech as a homogeneous signal and largely overlook its
+  internal phonetic structure, limiting their interpretability in emotionally conditioned
+  settings. In this work, we propose a p'
+content_length: 1303
+llm_content_sent: 1303
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on deepfake detection rather than synthesis, and while it
+  analyzes emotional speech, it doesn't contribute to generating expressive speech
+  or zero-shot synthesis capabilities.
