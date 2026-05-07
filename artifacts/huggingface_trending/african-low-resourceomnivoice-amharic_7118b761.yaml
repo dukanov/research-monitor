@@ -1,0 +1,44 @@
+title: african-low-resource/omnivoice-amharic
+url: https://huggingface.co/african-low-resource/omnivoice-amharic
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-07T10:47:40.933333+00:00'
+date_seen: '2026-05-07'
+metadata:
+  likes: '4'
+  downloads: '1864'
+  trending_score: '2'
+  last_modified: '2026-05-06T18:35:30.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language: [am, en, zh]
+
+  tags: [text-to-speech, tts, voice-cloning, amharic, omnivoice, discrete-diffusion,
+  low-resource-language, african-nlp]
+
+  base_model: k2-fsa/OmniVoice
+
+  library_name: omnivoice
+
+  pipeline_tag: text-to-speech
+
+  datasets: [google/WaxalNLP, gheero-Leyu/leyu-amharic-addis-ababa-dialect, surafelabebe/amharic_clear_audio_tts,
+  chappM/amharic-bdu-asr]
+
+  ---
+
+
+  # OmniVoice Amharic — Open Voice AI for 60M Speakers
+
+
+  > **Part of [Voices For All](https://huggingface.co/afric'
+content_length: 7611
+llm_content_sent: 7611
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: This is primarily an application of existing OmniVoice architecture to Amharic
+  with zero-shot voice cloning capabilities, but offers minimal scientific novelty
+  beyond language-specific fine-tuning and dataset curation.

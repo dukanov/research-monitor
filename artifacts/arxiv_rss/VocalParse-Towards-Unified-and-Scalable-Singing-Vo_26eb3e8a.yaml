@@ -1,0 +1,34 @@
+title: 'VocalParse: Towards Unified and Scalable Singing Voice Transcription with
+  Large Audio Language Models'
+url: https://arxiv.org/abs/2605.04613
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-07T10:47:04.512932+00:00'
+date_seen: '2026-05-07'
+metadata:
+  arxiv_id: '2605.04613'
+  published: Thu, 07 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: VocalParse: Towards Unified and Scalable Singing Voice Transcription
+  with Large Audio Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  High-quality singing annotations are fundamental to modern Singing Voice Synthesis
+  (SVS) systems. However, obtaining these annotations at scale through manual labeling
+  is unrealistic due to the substantial labor and musical expertise required, making
+  automatic annotation highly necessary. Despite their utility, current automatic
+  transcription systems face sign'
+content_length: 1613
+llm_content_sent: 1613
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on singing voice transcription (converting audio to musical
+  notation) rather than synthesis, and lacks the emotional/expressive modeling or
+  zero-shot capabilities relevant to expressive speech synthesis research.

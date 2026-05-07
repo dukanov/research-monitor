@@ -1,0 +1,33 @@
+title: 'Sparse Tokens Suffice: Jailbreaking Audio Language Models via Token-Aware
+  Gradient Optimization'
+url: https://arxiv.org/abs/2605.04700
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-07T10:47:04.513163+00:00'
+date_seen: '2026-05-07'
+metadata:
+  arxiv_id: '2605.04700'
+  published: Thu, 07 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CR, cs.AI, cs.CL, cs.LG, cs.SD
+content_preview: 'Title: Sparse Tokens Suffice: Jailbreaking Audio Language Models
+  via Token-Aware Gradient Optimization
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Jailbreak attacks on audio language models (ALMs) optimize audio perturbations to
+  elicit unsafe generations, and they typically update the entire waveform densely
+  throughout optimization. In this work, we investigate the necessity of such dense
+  optimization by analyzing the structure of token-aligned gradients in ALMs. We find
+  that gradient energy is highly non-unif'
+content_length: 1497
+llm_content_sent: 1497
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on adversarial attacks against audio language models rather
+  than advancing emotional/expressive speech synthesis or zero-shot capabilities.

@@ -1,0 +1,27 @@
+title: Supertone/supertonic-3
+url: https://huggingface.co/Supertone/supertonic-3
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-07T10:47:35.594301+00:00'
+date_seen: '2026-05-07'
+metadata:
+  likes: '20'
+  downloads: '114'
+  trending_score: '20'
+  last_modified: '2026-05-06T20:35:37.000Z'
+content_preview: "---\nlicense: openrail\nlanguage:\n    - en\n    - ko\n    - ja\n\
+  \    - ar\n    - bg\n    - cs\n    - da\n    - de\n    - el\n    - es\n    - et\n\
+  \    - fi\n    - fr\n    - hi\n    - hr\n    - hu\n    - id\n    - it\n    - lt\n\
+  \    - lv\n    - nl\n    - pl\n    - pt\n    - ro\n    - ru\n    - sk\n    - sl\n\
+  \    - sv\n    - tr\n    - uk\n    - vi\npipeline_tag: text-to-speech\ntags:\n \
+  \   - text-to-speech\n    - speech-synthesis\n    - tts\n    - onnx\n    - multilingual\n\
+  \    - on-device\nlibrary_name: supertonic\n---\n\n# Supertonic 3 | Lightni"
+content_length: 5390
+llm_content_sent: 5390
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily an engineering/deployment optimization of existing TTS technology
+  with minimal scientific novelty - it's a lightweight multilingual TTS system but
+  lacks zero-shot voice cloning capabilities and introduces no new approaches for
+  emotional/expressive synthesis beyond basic expression tags.

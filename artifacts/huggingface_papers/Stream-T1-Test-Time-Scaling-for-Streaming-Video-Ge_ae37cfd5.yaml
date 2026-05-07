@@ -1,0 +1,29 @@
+title: 'Stream-T1: Test-Time Scaling for Streaming Video Generation'
+url: https://huggingface.co/papers/2605.04461
+source: huggingface_papers
+type: paper
+date_discovered: '2026-05-07T10:47:33.538386+00:00'
+date_seen: '2026-05-07'
+metadata:
+  upvotes: '86'
+  paper_id: '2605.04461'
+  published_date: '2026-05-07'
+content_preview: 'Title: Stream-T1: Test-Time Scaling for Streaming Video Generation
+
+
+  Summary:
+
+  While Test-Time Scaling (TTS) offers a promising direction to enhance video generation
+  without the surging costs of training, current test-time video generation methods
+  based on diffusion models suffer from exorbitant candidate exploration costs and
+  lack temporal guidance. To address these structural bottlenecks, we propose shifting
+  the focus to streaming video generation. We identify that its chunk-level synthesis
+  and '
+content_length: 1906
+llm_content_sent: 1906
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on streaming video generation using diffusion models, which
+  is completely unrelated to emotional/expressive speech synthesis or zero-shot speech
+  capabilities.
