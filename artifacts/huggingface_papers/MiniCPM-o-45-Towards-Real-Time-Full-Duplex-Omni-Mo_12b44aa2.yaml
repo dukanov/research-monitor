@@ -1,0 +1,28 @@
+title: 'MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction'
+url: https://huggingface.co/papers/2604.27393
+source: huggingface_papers
+type: paper
+date_discovered: '2026-05-08T10:36:25.135095+00:00'
+date_seen: '2026-05-08'
+metadata:
+  upvotes: '41'
+  paper_id: '2604.27393'
+  published_date: '2026-05-07'
+content_preview: 'Title: MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction
+
+
+  Summary:
+
+  Recent progress in multimodal large language models (MLLMs) has brought AI capabilities
+  from static offline data processing to real-time streaming interaction, yet they
+  still remain far from human-level multimodal interaction. The key bottlenecks are
+  no longer modality coverage or latency alone, but the interaction paradigm itself.
+  First, perception and response are still separated into alternating phases, preve'
+content_length: 2006
+llm_content_sent: 2006
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces Omni-Flow framework for real-time full-duplex multimodal interaction
+  that enables simultaneous perception and speech generation, which is relevant to
+  expressive speech synthesis though lacks specific focus on emotional/zero-shot capabilities.

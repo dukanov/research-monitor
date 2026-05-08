@@ -1,0 +1,51 @@
+title: Wfloat/wfloat-tts
+url: https://huggingface.co/Wfloat/wfloat-tts
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-08T10:36:28.890726+00:00'
+date_seen: '2026-05-08'
+metadata:
+  likes: '5'
+  downloads: '64'
+  trending_score: '5'
+  last_modified: '2026-05-08T05:23:55.000Z'
+content_preview: '---
+
+  license: mit
+
+  language:
+
+  - en
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  # wfloat-tts
+
+
+  `wfloat-tts` is a lightweight multi-speaker English VITS text-to-speech model with
+  speaker, emotion, and intensity control.
+
+
+  This repo includes:
+
+
+  - `model.safetensors`: inference weights
+
+  - `config.json`: model config and token mapping
+
+  - `src/wfloat_tts/`: a small Python inference helper
+
+
+  The repo is set up for standalone inference from the released model files. You do
+  not need the original training codebase to synthe'
+content_length: 4644
+llm_content_sent: 4644
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is a standard VITS-based multi-speaker TTS model with basic emotion and
+  intensity controls - it lacks zero-shot capabilities and presents no novel technical
+  contributions beyond existing emotional TTS approaches.

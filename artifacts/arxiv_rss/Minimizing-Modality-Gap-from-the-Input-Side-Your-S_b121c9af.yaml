@@ -1,0 +1,35 @@
+title: 'Minimizing Modality Gap from the Input Side: Your Speech LLM Can Be a Prosody-Aware
+  Text LLM'
+url: https://arxiv.org/abs/2605.05927
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-08T10:35:56.653630+00:00'
+date_seen: '2026-05-08'
+metadata:
+  arxiv_id: '2605.05927'
+  published: Fri, 08 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.SD, eess.AS
+content_preview: 'Title: Minimizing Modality Gap from the Input Side: Your Speech
+  LLM Can Be a Prosody-Aware Text LLM
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech large language models (SLMs) are typically built from text large language
+  model (TLM) checkpoints, yet they still suffer from a substantial modality gap.
+  Prior work has mainly attempted to reduce this gap from the output side by making
+  speech generation more text-like, but the gap remains. We argue that the key remaining
+  bottleneck lies on the input side. We pro'
+content_length: 1335
+llm_content_sent: 1335
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The paper introduces a novel approach to bridging the speech-text modality
+  gap by focusing on the input side with synchronized text tokens and prosody embeddings,
+  rather than the typical output-side modifications, which is particularly relevant
+  for prosody-aware synthesis applications.

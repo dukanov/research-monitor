@@ -1,0 +1,32 @@
+title: 'SwitchCodec: A High-Fidelity Nerual Audio Codec With Sparse Quantization'
+url: https://arxiv.org/abs/2505.24437
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-08T10:35:56.653707+00:00'
+date_seen: '2026-05-08'
+metadata:
+  arxiv_id: '2505.24437'
+  published: Fri, 08 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: SwitchCodec: A High-Fidelity Nerual Audio Codec With Sparse
+  Quantization
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Neural audio compression has emerged as a promising technology for efficiently representing
+  speech, music, and general audio. However, existing methods suffer from significant
+  performance degradation at limited bitrates, where the available embedding space
+  is sharply constrained. To address this, we propose a universal high-fidelity neural
+  audio compression algorithm featuring Residual Ex'
+content_length: 1569
+llm_content_sent: 1569
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on general audio compression efficiency rather than emotional/expressive
+  speech synthesis, and lacks zero-shot capabilities for emotional control.

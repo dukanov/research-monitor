@@ -1,0 +1,34 @@
+title: 'WavCube: Unifying Speech Representation for Understanding and Generation via
+  Semantic-Acoustic Joint Modeling'
+url: https://arxiv.org/abs/2605.06407
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-08T10:35:56.665227+00:00'
+date_seen: '2026-05-08'
+metadata:
+  arxiv_id: '2605.06407'
+  published: Fri, 08 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI, cs.CL
+content_preview: 'Title: WavCube: Unifying Speech Representation for Understanding
+  and Generation via Semantic-Acoustic Joint Modeling
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Integrating speech understanding and generation is a pivotal step toward building
+  unified speech models. However, the different representations required for these
+  two tasks currently pose significant compatibility challenges. Typically, semantics-oriented
+  features are learned from self-supervised learning (SSL), and acoustic-oriented
+  features from reco'
+content_length: 1892
+llm_content_sent: 1892
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel unified representation that bridges semantic SSL features
+  and acoustic details for both understanding and generation tasks, with demonstrated
+  zero-shot TTS capabilities, though the core concept of joint modeling is incremental.

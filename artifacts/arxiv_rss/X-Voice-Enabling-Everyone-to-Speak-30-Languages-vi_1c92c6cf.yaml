@@ -1,0 +1,35 @@
+title: 'X-Voice: Enabling Everyone to Speak 30 Languages via Zero-Shot Cross-Lingual
+  Voice Cloning'
+url: https://arxiv.org/abs/2605.05611
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-08T10:35:56.653371+00:00'
+date_seen: '2026-05-08'
+metadata:
+  arxiv_id: '2605.05611'
+  published: Fri, 08 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI, eess.AS
+content_preview: 'Title: X-Voice: Enabling Everyone to Speak 30 Languages via Zero-Shot
+  Cross-Lingual Voice Cloning
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In this paper, we present X-Voice, a 0.4B multilingual zero-shot voice cloning model
+  that clones arbitrary voices and enables everyone to speak 30 languages. X-Voice
+  is trained on a 420K-hour multilingual corpus using the International Phonetic Alphabet
+  (IPA) as a unified representation. To eliminate the reliance on prompt text without
+  complex preprocessing like forced a'
+content_length: 1581
+llm_content_sent: 1581
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel two-stage training paradigm that eliminates the need for
+  prompt text transcripts in zero-shot voice cloning by using synthesized audio-only
+  prompts, combined with architectural innovations for multilingual flow-matching
+  synthesis.
