@@ -1,0 +1,26 @@
+title: kizuna-intelligence/Irodori-TTS-500M-v2-duration-control
+url: https://huggingface.co/kizuna-intelligence/Irodori-TTS-500M-v2-duration-control
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-09T10:25:35.447424+00:00'
+date_seen: '2026-05-09'
+metadata:
+  likes: '8'
+  downloads: '0'
+  trending_score: '8'
+  last_modified: '2026-05-04T06:23:17.000Z'
+content_preview: "---\nlanguage:\n  - ja\nlicense: apache-2.0\npipeline_tag: text-to-speech\n\
+  tags:\n  - tts\n  - flow-matching\n  - japanese\n  - irodori-tts\nbase_model: Aratako/Irodori-TTS-500M-v2\n\
+  ---\n\n# Irodori-TTS-500M-v2-duration-control (テスト版)\n\n[Irodori-TTS-500M-v2](https://huggingface.co/Aratako/Irodori-TTS-500M-v2)\
+  \ をベースに、**生成duration（秒数）を指定して合成できる**ようにファインチューニングしたモデルです。\n\nduration を明示することで、特に**30秒未満の短い音声で\
+  \ RTF（real-time factor）を改善**できます（指定した長さ以上に latent を生成しないため）。\n\n> **テスト版**です。今後、より品質の高い学習版を公開予定なので少々お待ちください。\n\
+  \n## 特徴\n"
+content_length: 2655
+llm_content_sent: 2655
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is a minor incremental improvement adding duration control to an existing
+  Japanese TTS model, but offers no novel approaches to emotional/expressive synthesis
+  or zero-shot capabilities - it's primarily an engineering optimization for inference
+  speed.

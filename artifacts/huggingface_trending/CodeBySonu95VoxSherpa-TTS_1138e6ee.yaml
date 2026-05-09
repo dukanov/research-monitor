@@ -1,0 +1,91 @@
+title: CodeBySonu95/VoxSherpa-TTS
+url: https://huggingface.co/CodeBySonu95/VoxSherpa-TTS
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-09T10:25:38.549800+00:00'
+date_seen: '2026-05-09'
+metadata:
+  likes: '3'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-05-07T06:45:48.000Z'
+content_preview: '---
+
+  license: gpl-3.0
+
+  language:
+
+  - hi
+
+  - en
+
+  - ja
+
+  - zh
+
+  - fr
+
+  - es
+
+  - pt
+
+  - de
+
+  - it
+
+  - ko
+
+  - ru
+
+  - pl
+
+  tags:
+
+  - tts
+
+  - text-to-speech
+
+  - android
+
+  - offline
+
+  - kokoro
+
+  - piper
+
+  - vits
+
+  - sherpa-onnx
+
+  - hindi-tts
+
+  - neural-tts
+
+  - kokoro-82m
+
+  - on-device-ai
+
+  - codebysonu95
+
+  - voxsherpa
+
+  pipeline_tag: text-to-speech
+
+  library_name: sherpa-onnx
+
+  ---
+
+
+  # 🎙️ VoxSherpa TTS — by CodeBySonu95
+
+
+  **VoxSherpa TTS** is a professional-grade, **100% offline neural text-to-speech
+  engine for Android**. It brings studio-quality voice synthesis d'
+content_length: 4653
+llm_content_sent: 4653
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: This is primarily an Android app wrapper around existing TTS models (Kokoro-82M,
+  Piper/VITS) with basic emotion tags, offering no novel algorithmic contributions
+  to emotional/expressive speech synthesis or zero-shot capabilities.
