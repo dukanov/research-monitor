@@ -1,0 +1,73 @@
+title: cstr/qwen3-tts-1.7b-customvoice-GGUF
+url: https://huggingface.co/cstr/qwen3-tts-1.7b-customvoice-GGUF
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-10T10:30:08.975855+00:00'
+date_seen: '2026-05-10'
+metadata:
+  likes: '2'
+  downloads: '332'
+  trending_score: '2'
+  last_modified: '2026-05-01T19:30:55.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - en
+
+  - zh
+
+  - de
+
+  - fr
+
+  - it
+
+  - es
+
+  - pt
+
+  - ja
+
+  - ko
+
+  base_model:
+
+  - Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - tts
+
+  - text-to-speech
+
+  - qwen3
+
+  - qwen3-tts
+
+  - gguf
+
+  - crispasr
+
+  library_name: ggml
+
+  ---
+
+
+  # Qwen3-TTS-12Hz-1.7B-CustomVoice — GGUF (ggml-quantised)
+
+
+  GGUF / ggml conversion of [`Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice`](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice)
+  for use with **[CrispStrobe/CrispASR](https://github.com/CrispS'
+content_length: 5987
+llm_content_sent: 5987
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is merely a quantized GGUF conversion of an existing Qwen3-TTS model
+  with fixed speaker embeddings, offering no scientific novelty in emotional/expressive
+  synthesis or zero-shot voice cloning capabilities.
