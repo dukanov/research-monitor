@@ -1,0 +1,32 @@
+title: Evaluating voice anonymisation using similarity rank disclosure
+url: https://arxiv.org/abs/2605.07291
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-11T11:07:51.198569+00:00'
+date_seen: '2026-05-11'
+metadata:
+  arxiv_id: '2605.07291'
+  published: Mon, 11 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Evaluating voice anonymisation using similarity rank disclosure
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The evaluation of voice anonymisation remains challenging. Current practice relies
+  on automatic speaker verification metrics such as the equal error rate (EER). Performance
+  estimates dependent on the classifier and operating point provide an incomplete
+  or even misleading characterisation of privacy risk. We investigate the use of similarity
+  rank disclosure (SRD), an information-theoretic metric, w'
+content_length: 1179
+llm_content_sent: 1179
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This paper focuses on voice anonymization evaluation metrics rather than emotional/expressive
+  speech synthesis, and introduces no novel synthesis techniques or zero-shot capabilities
+  for expressive speech generation.

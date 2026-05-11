@@ -1,0 +1,35 @@
+title: 'S2S-Arena: Evaluating Paralinguistic Instruction Following in Speech-to-Speech
+  Models'
+url: https://arxiv.org/abs/2503.05085
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-11T11:07:51.186688+00:00'
+date_seen: '2026-05-11'
+metadata:
+  arxiv_id: '2503.05085'
+  published: Mon, 11 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.SD, eess.AS
+content_preview: 'Title: S2S-Arena: Evaluating Paralinguistic Instruction Following
+  in Speech-to-Speech Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in large language models (LLMs) have fundamentally reshaped speech-to-speech
+  (S2S) systems, enabling increasingly natural spoken interaction. However, existing
+  benchmarks still rely heavily on text-based evaluation and largely ignore paralinguistic
+  cues such as prosody, emotion, and speaker traits, which are central to expressive
+  and human-like communication. '
+content_length: 1541
+llm_content_sent: 1541
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Introduces the first comprehensive benchmark specifically designed to evaluate
+  paralinguistic instruction-following capabilities in speech-to-speech models through
+  a novel four-level complexity protocol and arena-style evaluation framework that
+  operates directly in the speech domain without text intermediates.

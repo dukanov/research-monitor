@@ -1,0 +1,30 @@
+title: 'LiVeAction: a Lightweight, Versatile, and Asymmetric Neural Codec Design for
+  Real-time Operation'
+url: https://huggingface.co/papers/2605.06628
+source: huggingface_papers
+type: paper
+date_discovered: '2026-05-11T11:08:18.517603+00:00'
+date_seen: '2026-05-11'
+metadata:
+  upvotes: '4'
+  paper_id: '2605.06628'
+  published_date: '2026-05-11'
+content_preview: 'Title: LiVeAction: a Lightweight, Versatile, and Asymmetric Neural
+  Codec Design for Real-time Operation
+
+
+  Summary:
+
+  Modern sensors generate rich, high-fidelity data, yet applications operating on
+  wearable or remote sensing devices remain constrained by bandwidth and power budgets.
+  Standardized codecs such as JPEG and MPEG achieve efficient trade-offs between bitrate
+  and perceptual quality but are designed for human perception, limiting their applicability
+  to machine-perception tasks and non-tradit'
+content_length: 1854
+llm_content_sent: 1854
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on general-purpose neural compression for sensor data and
+  machine perception tasks, with no connection to speech synthesis, emotional expression,
+  or zero-shot voice capabilities.

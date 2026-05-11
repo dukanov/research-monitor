@@ -1,0 +1,34 @@
+title: 'VITA-QinYu: Expressive Spoken Language Model for Role-Playing and Singing'
+url: https://arxiv.org/abs/2605.06765
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-11T11:07:51.219893+00:00'
+date_seen: '2026-05-11'
+metadata:
+  arxiv_id: '2605.06765'
+  published: Mon, 11 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI
+content_preview: 'Title: VITA-QinYu: Expressive Spoken Language Model for Role-Playing
+  and Singing
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Human speech conveys expressiveness beyond linguistic content, including personality,
+  mood, or performance elements, such as a comforting tone or humming a song, which
+  we formalize as role-playing and singing. We present VITA-QinYu, the first expressive
+  end-to-end (E2E) spoken language model (SLM) that goes beyond natural conversation
+  to support both role-playing and singing generation. '
+content_length: 1545
+llm_content_sent: 1545
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The hybrid speech-text paradigm with multi-codebook audio tokens for preserving
+  modality separation while enabling expressive capabilities like role-playing and
+  singing represents a meaningful architectural contribution to expressive speech
+  synthesis.

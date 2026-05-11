@@ -1,0 +1,188 @@
+title: oddadmix/lahgtna-omnivoice-v2
+url: https://huggingface.co/oddadmix/lahgtna-omnivoice-v2
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-11T11:08:22.583443+00:00'
+date_seen: '2026-05-11'
+metadata:
+  likes: '2'
+  downloads: '101'
+  trending_score: '2'
+  last_modified: '2026-05-10T03:05:28.000Z'
+content_preview: '---
+
+  language:
+
+  - aae
+
+  - aal
+
+  - aao
+
+  - ab
+
+  - abb
+
+  - abn
+
+  - abr
+
+  - abs
+
+  - abv
+
+  - acm
+
+  - acw
+
+  - acx
+
+  - adf
+
+  - adx
+
+  - ady
+
+  - aeb
+
+  - aec
+
+  - af
+
+  - afb
+
+  - afo
+
+  - ahl
+
+  - ahs
+
+  - ajg
+
+  - aju
+
+  - ala
+
+  - aln
+
+  - alo
+
+  - am
+
+  - amu
+
+  - an
+
+  - anc
+
+  - ank
+
+  - anp
+
+  - anw
+
+  - aom
+
+  - apc
+
+  - apd
+
+  - arb
+
+  - arq
+
+  - ars
+
+  - ary
+
+  - arz
+
+  - as
+
+  - ast
+
+  - avl
+
+  - awo
+
+  - ayl
+
+  - ayp
+
+  - az
+
+  - ba
+
+  - bag
+
+  - bas
+
+  - bax
+
+  - bba
+
+  - bbj
+
+  - bbl
+
+  - bbu
+
+  - bce
+
+  - bci
+
+  - bcs
+
+  - bcy
+
+  - bda
+
+  - bde
+
+  - bdm
+
+  - be
+
+  - beb
+
+  - bew
+
+  - bfd
+
+  - bft
+
+  - bg
+
+  - bgp
+
+  - bhb
+
+  - bhh
+
+  - bho
+
+  - bhp
+
+  - bhr
+
+  - bjj
+
+  - bjk
+
+  - bjn
+
+  - bjt
+
+  - bkh
+
+  - bkm
+
+  - b'
+content_length: 6190
+llm_content_sent: 6190
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: While addressing Arabic dialect TTS is important, this appears to be a straightforward
+  application of existing OmniVoice architecture without novel technical contributions
+  to expressive or zero-shot synthesis capabilities.
