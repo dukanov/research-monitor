@@ -1,0 +1,34 @@
+title: 'Mind-Paced Speaking: A Dual-Brain Approach to Real-Time Reasoning in Spoken
+  Language Models'
+url: https://arxiv.org/abs/2510.09592
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-12T10:50:54.406569+00:00'
+date_seen: '2026-05-12'
+metadata:
+  arxiv_id: '2510.09592'
+  published: Tue, 12 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Mind-Paced Speaking: A Dual-Brain Approach to Real-Time Reasoning
+  in Spoken Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Real-time Spoken Language Models (SLMs) struggle to leverage Chain-of-Thought (CoT)
+  reasoning due to the prohibitive latency of generating the entire thought process
+  sequentially. Enabling SLMs to think while speaking, similar to humans, is attracting
+  increasing attention. We present, for the first time, Mind-Paced Speaking (MPS),
+  a brain-inspired framework that enables'
+content_length: 1570
+llm_content_sent: 1570
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While this presents a novel dual-brain architecture for real-time reasoning
+  in spoken language models, it focuses on cognitive processing and reasoning capabilities
+  rather than emotional or expressive speech synthesis with zero-shot capabilities.

@@ -1,0 +1,33 @@
+title: Drum Synthesis from Expressive Drum Grids via Neural Audio Codecs
+url: https://arxiv.org/abs/2605.10281
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-12T10:50:54.185391+00:00'
+date_seen: '2026-05-12'
+metadata:
+  arxiv_id: '2605.10281'
+  published: Tue, 12 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: Drum Synthesis from Expressive Drum Grids via Neural Audio
+  Codecs
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Generating realistic drum audio directly from symbolic representations is a challenging
+  task at the intersection of music perception and machine learning. We propose a
+  system that transforms an expressive drum grid, a time-aligned MIDI representation
+  with microtiming and velocity information, into drum audio by predicting discrete
+  codes of a neural audio codec. Our approach uses a Transformer-ba'
+content_length: 1369
+llm_content_sent: 1369
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on drum synthesis from MIDI representations rather than
+  emotional/expressive speech synthesis, making it largely irrelevant to the specified
+  research interests despite some overlap in neural audio codec methodology.

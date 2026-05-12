@@ -1,0 +1,34 @@
+title: 'SDiaReward: Modeling and Benchmarking Spoken Dialogue Rewards with Modality
+  and Colloquialness'
+url: https://arxiv.org/abs/2603.14889
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-12T10:50:54.250472+00:00'
+date_seen: '2026-05-12'
+metadata:
+  arxiv_id: '2603.14889'
+  published: Tue, 12 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.CL, cs.LG
+content_preview: 'Title: SDiaReward: Modeling and Benchmarking Spoken Dialogue Rewards
+  with Modality and Colloquialness
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The rapid evolution of end-to-end spoken dialogue systems demands transcending mere
+  textual semantics to incorporate paralinguistic nuances and the spontaneous nature
+  of human conversation. However, current methods struggle with two critical gaps:
+  the modality gap, involving prosody and emotion, and the colloquialness gap, distinguishing
+  written scripts from natural '
+content_length: 1524
+llm_content_sent: 1524
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel multi-modal reward model that jointly evaluates prosodic
+  expressiveness and conversational naturalness in spoken dialogue, addressing key
+  gaps in current evaluation methods for expressive speech synthesis.

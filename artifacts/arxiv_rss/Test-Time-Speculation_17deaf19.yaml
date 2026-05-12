@@ -1,0 +1,33 @@
+title: Test-Time Speculation
+url: https://arxiv.org/abs/2605.09329
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-12T10:50:54.394559+00:00'
+date_seen: '2026-05-12'
+metadata:
+  arxiv_id: '2605.09329'
+  published: Tue, 12 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.LG
+content_preview: 'Title: Test-Time Speculation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speculative decoding accelerates LLM inference by using a fast draft model to generate
+  tokens and a more accurate target model to verify them. Its performance depends
+  on the $\textit{acceptance length}$, or number of draft tokens accepted by the target.
+  Our studies show that the acceptance length of even state-of-the-art speculators,
+  like DFlash, EAGLE-3 and PARD degrade with generation length, reaching values close
+  to 1 (i.e. no speedup)'
+content_length: 1709
+llm_content_sent: 1709
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This paper focuses on accelerating LLM inference through speculative decoding
+  optimization, which is unrelated to emotional/expressive speech synthesis or zero-shot
+  speech capabilities.

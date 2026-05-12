@@ -1,0 +1,33 @@
+title: Kinetic-Optimal Scheduling with Moment Correction for Metric-Induced Discrete
+  Flow Matching in Zero-Shot Text-to-Speech
+url: https://arxiv.org/abs/2605.09386
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-12T10:50:54.249952+00:00'
+date_seen: '2026-05-12'
+metadata:
+  arxiv_id: '2605.09386'
+  published: Tue, 12 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI, cs.LG
+content_preview: 'Title: Kinetic-Optimal Scheduling with Moment Correction for Metric-Induced
+  Discrete Flow Matching in Zero-Shot Text-to-Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Metric-induced discrete flow matching (MI-DFM) exploits token-latent geometry for
+  discrete generation, but its practical use is limited by two issues: heuristic schedulers
+  requiring hyperparameter search, and finite-step path-tracking error from its first-order
+  continuous-time Markov chain (CTMC) solver. We address both issues. First, we deri'
+content_length: 1528
+llm_content_sent: 1528
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces kinetic-optimal scheduling and moment correction for discrete flow
+  matching in TTS, addressing fundamental limitations of existing MI-DFM methods with
+  theoretically-grounded solutions rather than heuristic approaches.

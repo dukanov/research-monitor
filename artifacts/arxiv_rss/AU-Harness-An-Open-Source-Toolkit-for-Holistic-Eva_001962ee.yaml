@@ -1,0 +1,33 @@
+title: 'AU-Harness: An Open-Source Toolkit for Holistic Evaluation of Audio LLMs'
+url: https://arxiv.org/abs/2509.08031
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-12T10:50:54.185720+00:00'
+date_seen: '2026-05-12'
+metadata:
+  arxiv_id: '2509.08031'
+  published: Tue, 12 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.LG, eess.AS
+content_preview: 'Title: AU-Harness: An Open-Source Toolkit for Holistic Evaluation
+  of Audio LLMs
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large Audio Language Models (LALMs) are rapidly advancing, but evaluating them remains
+  challenging due to inefficient and non-standardized toolkits that limit fair comparison
+  and systematic assessment. Existing evaluation frameworks exhibit three critical
+  limitations: (1) slow and inefficient processing pipeline that bottlenecks large-scale
+  studies, (2) inadequate multi-turn dialogue supp'
+content_length: 1683
+llm_content_sent: 1683
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is an evaluation toolkit for audio language models rather than a speech
+  synthesis method, and focuses on general audio understanding rather than emotional/expressive
+  synthesis with zero-shot capabilities.

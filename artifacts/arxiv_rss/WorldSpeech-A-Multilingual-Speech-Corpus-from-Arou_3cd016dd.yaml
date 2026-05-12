@@ -1,0 +1,33 @@
+title: 'WorldSpeech: A Multilingual Speech Corpus from Around the World'
+url: https://arxiv.org/abs/2605.09167
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-12T10:50:54.393982+00:00'
+date_seen: '2026-05-12'
+metadata:
+  arxiv_id: '2605.09167'
+  published: Tue, 12 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.LG
+content_preview: 'Title: WorldSpeech: A Multilingual Speech Corpus from Around the
+  World
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Automatic speech recognition (ASR) performs well for high-resource languages with
+  abundant paired audio-transcript data, but its accuracy degrades sharply for most
+  languages due to limited publicly available aligned data. To this end, we introduce
+  WorldSpeech, a 24 kHz multilingual speech corpus comprising 65k hours of aligned
+  audio-transcript data across 76 languages, collected from diverse publi'
+content_length: 990
+llm_content_sent: 990
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is a dataset contribution for ASR rather than speech synthesis, and focuses
+  on multilingual coverage rather than emotional/expressive capabilities or zero-shot
+  synthesis methods.

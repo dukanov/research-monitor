@@ -1,0 +1,34 @@
+title: 'PoDAR: Power-Disentangled Audio Representation for Generative Modeling'
+url: https://arxiv.org/abs/2605.10084
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-12T10:50:54.185672+00:00'
+date_seen: '2026-05-12'
+metadata:
+  arxiv_id: '2605.10084'
+  published: Tue, 12 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI, cs.LG, cs.SD
+content_preview: 'Title: PoDAR: Power-Disentangled Audio Representation for Generative
+  Modeling
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The performance of audio latent diffusion models is primarily governed by generator
+  expressivity and the modelability of the underlying latent space. While recent research
+  has focused primarily on the former, as well as improving the reconstruction fidelity
+  of audio codecs, we demonstrate that latent modelability can be significantly improved
+  through explicit factor disentanglement. We pres'
+content_length: 1426
+llm_content_sent: 1426
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The explicit disentanglement of signal power from semantic content in latent
+  audio representations is a novel approach that could benefit expressive speech synthesis
+  by enabling better control over prosodic elements, though the work focuses more
+  on general audio generation than specifically on emotional/expressive speech.

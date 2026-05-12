@@ -1,0 +1,33 @@
+title: 'EchoFake: A Replay-Aware Dataset for Practical Speech Deepfake Detection'
+url: https://arxiv.org/abs/2510.19414
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-12T10:50:54.186067+00:00'
+date_seen: '2026-05-12'
+metadata:
+  arxiv_id: '2510.19414'
+  published: Tue, 12 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI, cs.SD
+content_preview: 'Title: EchoFake: A Replay-Aware Dataset for Practical Speech Deepfake
+  Detection
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The growing prevalence of speech deepfakes has raised serious concerns, particularly
+  in real-world scenarios such as telephone fraud and identity theft. While many anti-spoofing
+  systems have demonstrated promising performance on lab-generated synthetic speech,
+  they often fail when confronted with physical replay attacks-a common and low-cost
+  form of attack used in practical settings. Our '
+content_length: 1409
+llm_content_sent: 1409
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on deepfake detection rather than synthesis, and while it
+  mentions zero-shot TTS, it's only as a source of synthetic data for training detectors,
+  not advancing synthesis capabilities.

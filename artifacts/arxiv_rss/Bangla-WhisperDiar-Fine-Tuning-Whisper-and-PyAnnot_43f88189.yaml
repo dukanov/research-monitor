@@ -1,0 +1,35 @@
+title: 'Bangla-WhisperDiar: Fine-Tuning Whisper and PyAnnote for Bangla Long-Form
+  Speech Recognition and Speaker Diarization'
+url: https://arxiv.org/abs/2605.08214
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-12T10:50:54.184949+00:00'
+date_seen: '2026-05-12'
+metadata:
+  arxiv_id: '2605.08214'
+  published: Tue, 12 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI, eess.AS
+content_preview: 'Title: Bangla-WhisperDiar: Fine-Tuning Whisper and PyAnnote for
+  Bangla Long-Form Speech Recognition and Speaker Diarization
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Automatic Speech Recognition (ASR) and speaker diarization in Bangla remain challenging
+  due to long form recordings, diverse acoustic conditions, and significant speaker
+  variability. This work addresses these two core tasks in Bangla spoken language
+  understanding by developing robust systems for long form ASR and speaker diarization.
+  For ASR (Pr'
+content_length: 1715
+llm_content_sent: 1715
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on automatic speech recognition and speaker diarization
+  for Bangla language, which is unrelated to emotional/expressive speech synthesis
+  or zero-shot capabilities - it's purely about transcription and speaker identification
+  rather than synthesis.

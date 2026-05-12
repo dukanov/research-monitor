@@ -1,0 +1,33 @@
+title: Evaluating the Expressive Appropriateness of Speech in Rich Contexts
+url: https://arxiv.org/abs/2605.09413
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-12T10:50:54.249986+00:00'
+date_seen: '2026-05-12'
+metadata:
+  arxiv_id: '2605.09413'
+  published: Tue, 12 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Evaluating the Expressive Appropriateness of Speech in Rich
+  Contexts
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Evaluating expressive speech remains challenging, as existing methods mainly assess
+  emotional intensity and overlook whether a speech sample is expressively appropriate
+  for its contextual setting. This limitation hinders reliable evaluation of speech
+  systems used in narrative-driven and interactive applications, such as audiobooks
+  and conversational agents. We introduce CEAEval, a Context-ric'
+content_length: 1482
+llm_content_sent: 1482
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Introduces a novel evaluation framework for context-aware expressive appropriateness
+  in speech, addressing a significant gap in current evaluation methods that only
+  assess emotional intensity without considering contextual alignment.

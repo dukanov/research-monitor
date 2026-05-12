@@ -1,0 +1,62 @@
+title: FluidInference/StyleTTS-2-coreml
+url: https://huggingface.co/FluidInference/StyleTTS-2-coreml
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-12T10:51:28.647548+00:00'
+date_seen: '2026-05-12'
+metadata:
+  likes: '2'
+  downloads: '521'
+  trending_score: '2'
+  last_modified: '2026-05-09T03:41:37.000Z'
+content_preview: '---
+
+  license: other
+
+  license_name: yl4579-styletts2
+
+  license_link: https://github.com/yl4579/StyleTTS2#pre-requisites
+
+  language:
+
+  - en
+
+  library_name: coreml
+
+  tags:
+
+  - text-to-speech
+
+  - styletts2
+
+  - coreml
+
+  - apple-silicon
+
+  - libritts
+
+  - on-device
+
+  pipeline_tag: text-to-speech
+
+  inference: false
+
+  ---
+
+
+  # StyleTTS2 (LibriTTS) — CoreML
+
+
+  Apple-Silicon-optimized CoreML conversion of [yl4579/StyleTTS2](https://github.com/yl4579/StyleTTS2)
+
+  LibriTTS multi-speaker checkpoint
+
+  ([`yl4579/StyleTTS2-LibriTTS` → `Models/LibriTT'
+content_length: 8374
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: This is purely an engineering optimization (CoreML conversion) of existing
+  StyleTTS2 work with no scientific novelty in emotional/expressive synthesis or zero-shot
+  capabilities.

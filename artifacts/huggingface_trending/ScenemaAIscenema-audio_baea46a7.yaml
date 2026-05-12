@@ -1,0 +1,26 @@
+title: ScenemaAI/scenema-audio
+url: https://huggingface.co/ScenemaAI/scenema-audio
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-12T10:51:24.332199+00:00'
+date_seen: '2026-05-12'
+metadata:
+  likes: '18'
+  downloads: '0'
+  trending_score: '18'
+  last_modified: '2026-05-12T02:06:51.000Z'
+content_preview: "---\nlanguage:\n  - en\n  - de\n  - fr\n  - es\n  - it\n  - pt\n\
+  \  - ja\n  - zh\n  - ko\n  - ru\n  - ar\n  - hi\n  - sw\nlicense: other\nlicense_name:\
+  \ ltx-2-community\nlicense_link: https://github.com/Lightricks/LTX-2/blob/main/LICENSE\n\
+  tags:\n  - audio-generation\n  - diffusion\n  - text-to-audio\n  - voice-cloning\n\
+  \  - speech-generation\n  - expressive-speech\n  - voice-acting\n  - text-to-speech\n\
+  pipeline_tag: text-to-speech\nlibrary_name: scenema-audio\ninference: false\n---\n\
+  \n# Scenema Audio\n\n**Zero-shot expressive voice "
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel approach combining zero-shot voice cloning with fine-grained
+  emotional control through XML action tags and scene-aware ambient audio generation,
+  built on a large-scale audiovisual diffusion transformer.

@@ -1,0 +1,34 @@
+title: Benchmarking Audio Deepfake Detection Robustness in Real-world Communication
+  Scenarios
+url: https://arxiv.org/abs/2504.12423
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-12T10:50:54.250302+00:00'
+date_seen: '2026-05-12'
+metadata:
+  arxiv_id: '2504.12423'
+  published: Tue, 12 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, eess.SP
+content_preview: 'Title: Benchmarking Audio Deepfake Detection Robustness in Real-world
+  Communication Scenarios
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Existing Audio Deepfake Detection (ADD) systems often struggle to generalise effectively
+  due to the significantly degraded audio quality caused by audio codec compression
+  and channel transmission effects in real-world communication scenarios. To address
+  this challenge, we developed a rigorous benchmark to evaluate the performance of
+  the ADD system under such scenarios. We in'
+content_length: 1279
+llm_content_sent: 1279
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on deepfake detection rather than synthesis, and while it
+  addresses robustness in communication scenarios, it doesn't contribute to emotional/expressive
+  speech synthesis or zero-shot capabilities.
