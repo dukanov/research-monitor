@@ -1,0 +1,34 @@
+title: 'Poly-SVC: Polyphony-Aware Singing Voice Conversion with Harmonic Modeling'
+url: https://arxiv.org/abs/2605.12310
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-13T10:54:16.625638+00:00'
+date_seen: '2026-05-13'
+metadata:
+  arxiv_id: '2605.12310'
+  published: Wed, 13 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: Poly-SVC: Polyphony-Aware Singing Voice Conversion with Harmonic
+  Modeling
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Singing Voice Conversion (SVC) aims to transform a source singing voice into a target
+  singer while preserving lyrics and melody. Most existing SVC methods depend on F0
+  extractors to capture the lead melody from clean vocals. However, no existing method
+  can reliably extract clean vocals from accompanied recordings without leaving residual
+  harmonies behind. In this paper, we innovatively p'
+content_length: 1254
+llm_content_sent: 1254
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel approach to singing voice conversion that can handle polyphonic/accompanied
+  recordings with residual harmonies using CQT-based pitch extraction and CFM-based
+  diffusion, addressing a significant limitation of existing SVC methods that require
+  clean vocals.

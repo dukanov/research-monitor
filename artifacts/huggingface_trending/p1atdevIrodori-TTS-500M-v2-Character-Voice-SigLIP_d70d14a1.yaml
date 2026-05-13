@@ -1,0 +1,56 @@
+title: p1atdev/Irodori-TTS-500M-v2-Character-Voice-SigLIP
+url: https://huggingface.co/p1atdev/Irodori-TTS-500M-v2-Character-Voice-SigLIP
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-13T10:54:47.108354+00:00'
+date_seen: '2026-05-13'
+metadata:
+  likes: '6'
+  downloads: '0'
+  trending_score: '6'
+  last_modified: '2026-05-13T05:56:20.000Z'
+content_preview: '---
+
+  license: mit
+
+  language:
+
+  - ja
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - text-to-speech
+
+  - speech
+
+  - tts
+
+  - character-image
+
+  base_model:
+
+  - Aratako/Irodori-TTS-500M-v2
+
+  - timm/vit_base_patch16_siglip_512.v2_webli
+
+  ---
+
+
+  # Irodori-TTS-500M-v2-Character-Voice-SigLIP
+
+
+  [![Project Page](https://img.shields.io/badge/Project_page-orange)](https://character-voice-control.p1atdev.workers.dev/)
+
+  ![arXiv](https://img.shields.io/badge/arXiv-coming_soon-b31b1b?logo=arxiv)
+
+  [![GitHub](https://img.shields.io/badge/GitHub-Ir'
+content_length: 5836
+llm_content_sent: 5836
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel approach to zero-shot expressive speech synthesis by conditioning
+  on character images rather than reference audio, using visual features to control
+  vocal style and quality.

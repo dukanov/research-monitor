@@ -1,0 +1,32 @@
+title: Exploring Token-Space Manipulation in Latent Audio Tokenizers
+url: https://arxiv.org/abs/2605.11192
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-13T10:54:16.625566+00:00'
+date_seen: '2026-05-13'
+metadata:
+  arxiv_id: '2605.11192'
+  published: Wed, 13 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.LG
+content_preview: 'Title: Exploring Token-Space Manipulation in Latent Audio Tokenizers
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Neural audio codecs provide compact discrete representations for speech generation
+  and manipulation. However, most codecs organize tokens as frame-level sequences,
+  making it difficult to study or intervene on global factors of variation. In this
+  work, we propose the Latent Audio Tokenizer for Token-space Editing (LATTE) that
+  appends a fixed set of learnable latent tokens to the audio feature sequenc'
+content_length: 1371
+llm_content_sent: 1371
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel tokenizer architecture with global latent tokens that enables
+  unsupervised manipulation of speech attributes like speaker identity through simple
+  token swapping, which could advance zero-shot expressive synthesis capabilities.

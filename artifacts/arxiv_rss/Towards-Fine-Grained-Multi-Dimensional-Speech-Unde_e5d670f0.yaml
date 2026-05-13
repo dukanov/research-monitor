@@ -1,0 +1,34 @@
+title: 'Towards Fine-Grained Multi-Dimensional Speech Understanding: Data Pipeline,
+  Benchmark, and Model'
+url: https://arxiv.org/abs/2605.12036
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-13T10:54:16.640484+00:00'
+date_seen: '2026-05-13'
+metadata:
+  arxiv_id: '2605.12036'
+  published: Wed, 13 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Towards Fine-Grained Multi-Dimensional Speech Understanding:
+  Data Pipeline, Benchmark, and Model
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  While speech Large Language Models (LLMs) excel at conventional tasks like basic
+  speech recognition, they lack fine-grained, multi-dimensional perception. This deficiency
+  is evident in their struggle to disentangle complex features like micro-acoustic
+  cues, acoustic scenes, and paralinguistic signals. This resulting incomplete comprehension
+  of real-world speech fun'
+content_length: 1944
+llm_content_sent: 1944
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel multi-dimensional speech understanding framework with fine-grained
+  attribute modeling and a comprehensive 14-dimension benchmark, though the core concept
+  of multi-attribute speech analysis is incremental rather than groundbreaking.

@@ -1,0 +1,34 @@
+title: A Semi-Supervised Framework for Speech Confidence Detection using Whisper
+url: https://arxiv.org/abs/2605.12387
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-13T10:54:16.625690+00:00'
+date_seen: '2026-05-13'
+metadata:
+  arxiv_id: '2605.12387'
+  published: Wed, 13 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.LG
+content_preview: 'Title: A Semi-Supervised Framework for Speech Confidence Detection
+  using Whisper
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Automatic detection of speaker confidence is critical for adaptive computing but
+  remains constrained by limited labelled data and the subjectivity of paralinguistic
+  annotations. This paper proposes a semi-supervised hybrid framework that fuses deep
+  semantic embeddings from the Whisper encoder with an interpretable acoustic feature
+  vector composed of eGeMAPS descriptors and auxiliary prob'
+content_length: 1523
+llm_content_sent: 1523
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on confidence detection in speech recognition rather than
+  emotional/expressive speech synthesis, and offers only incremental improvements
+  through feature fusion and pseudo-labeling without addressing zero-shot synthesis
+  capabilities.

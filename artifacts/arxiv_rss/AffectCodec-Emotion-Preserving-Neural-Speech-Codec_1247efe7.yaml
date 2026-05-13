@@ -1,0 +1,35 @@
+title: 'AffectCodec: Emotion-Preserving Neural Speech Codec for Expressive Speech
+  Modeling'
+url: https://arxiv.org/abs/2605.11098
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-13T10:54:16.625541+00:00'
+date_seen: '2026-05-13'
+metadata:
+  arxiv_id: '2605.11098'
+  published: Wed, 13 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: AffectCodec: Emotion-Preserving Neural Speech Codec for Expressive
+  Speech Modeling
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Neural speech codecs provide discrete representations for speech language models,
+  but emotional cues are often degraded during quantization. Existing codecs mainly
+  optimize acoustic reconstruction, leaving emotion expressiveness insufficiently
+  modeled at the representation level. We propose an emotion-guided neural speech
+  codec that explicitly preserves emotional information whi'
+content_length: 1071
+llm_content_sent: 1071
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel emotion-preserving neural codec architecture that explicitly
+  models emotional information during speech quantization through emotion-semantic
+  guided latent modulation and relation-preserving distillation, addressing a key
+  limitation in current speech codecs for expressive synthesis.

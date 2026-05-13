@@ -1,0 +1,33 @@
+title: 'AuDirector: A Self-Reflective Closed-Loop Framework for Immersive Audio Storytelling'
+url: https://arxiv.org/abs/2605.11866
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-13T10:54:16.625574+00:00'
+date_seen: '2026-05-13'
+metadata:
+  arxiv_id: '2605.11866'
+  published: Wed, 13 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: AuDirector: A Self-Reflective Closed-Loop Framework for Immersive
+  Audio Storytelling
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Despite advances in text and visual generation, creating coherent long-form audio
+  narratives remains challenging. Existing frameworks often exhibit limitations such
+  as mismatched character settings with voice performance, insufficient self-correction
+  mechanisms, and limited human interactivity. To address these challenges, we propose
+  AuDirector, a self-reflective closed-loop m'
+content_length: 1509
+llm_content_sent: 1509
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel multi-agent framework with identity-aware voice adaptation
+  and closed-loop self-correction for expressive speech synthesis, though the zero-shot
+  capabilities are not explicitly demonstrated.

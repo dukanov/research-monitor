@@ -1,0 +1,33 @@
+title: Towards Fine-Grained Code-Switch Speech Translation with Semantic Space Alignment
+url: https://arxiv.org/abs/2511.10670
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-13T10:54:16.626015+00:00'
+date_seen: '2026-05-13'
+metadata:
+  arxiv_id: '2511.10670'
+  published: Wed, 13 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.SD
+content_preview: 'Title: Towards Fine-Grained Code-Switch Speech Translation with
+  Semantic Space Alignment
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Code-switching (CS) speech translation (ST) aims to translate speech that alternates
+  between multiple languages into a target language text, posing significant challenges
+  due to the complexity of semantic modeling and the scarcity of CS data. Previous
+  studies mainly rely on the models themselves to implicitly learn semantic representations
+  and resort to costly manual annotations.'
+content_length: 1652
+llm_content_sent: 1652
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on code-switching speech translation rather than emotional/expressive
+  speech synthesis, and lacks zero-shot capabilities for generating expressive speech
+  - it's primarily about translating multilingual speech to text.
