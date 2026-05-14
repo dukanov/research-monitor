@@ -1,0 +1,26 @@
+title: ResembleAI/Dramabox
+url: https://huggingface.co/ResembleAI/Dramabox
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-14T10:51:41.522930+00:00'
+date_seen: '2026-05-14'
+metadata:
+  likes: '33'
+  downloads: '18'
+  trending_score: '33'
+  last_modified: '2026-05-13T16:39:38.000Z'
+content_preview: "---\nlanguage:\n  - en\nlicense: other\nlicense_name: ltx-2-community\n\
+  license_link: https://huggingface.co/ResembleAI/Dramabox/blob/main/LICENSE\npipeline_tag:\
+  \ text-to-speech\ntags:\n  - tts\n  - voice-cloning\n  - audio-generation\n  - diffusion-transformer\n\
+  \  - flow-matching\n  - ltx-2\nlibrary_name: ltx-audio-tts\nbase_model: Lightricks/LTX-2.3\n\
+  base_model_relation: finetune\n---\n\n<p align=\"center\">\n  <a href=\"https://www.resemble.ai/learn/models/dramabox\"\
+  >\n    <img src=\"https://huggingface.co/ResembleAI/Dra"
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel prompt-driven approach where stage directions and dialogue
+  formatting directly control expressive synthesis behaviors (emotions, non-speech
+  sounds, timing) without requiring separate emotion labels or control parameters,
+  combined with optional zero-shot voice cloning.

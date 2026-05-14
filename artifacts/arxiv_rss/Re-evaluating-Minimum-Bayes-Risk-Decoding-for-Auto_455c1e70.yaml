@@ -1,0 +1,32 @@
+title: Re-evaluating Minimum Bayes Risk Decoding for Automatic Speech Recognition
+url: https://arxiv.org/abs/2510.19471
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-14T10:51:12.404223+00:00'
+date_seen: '2026-05-14'
+metadata:
+  arxiv_id: '2510.19471'
+  published: Thu, 14 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.LG, eess.AS
+content_preview: 'Title: Re-evaluating Minimum Bayes Risk Decoding for Automatic Speech
+  Recognition
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent work has shown that sample-based Minimum Bayes Risk (MBR) decoding outperforms
+  beam search in text-to-text generation tasks, such as machine translation, text
+  summarization, and image captioning. On the other hand, beam search is the current
+  practice for speech-to-text tasks such as automatic speech recognition (ASR) and
+  Speech Translation (ST). Given that MBR decoding is effecti'
+content_length: 1158
+llm_content_sent: 1158
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This paper focuses on automatic speech recognition decoding methods, which
+  is unrelated to emotional/expressive speech synthesis or zero-shot synthesis capabilities.

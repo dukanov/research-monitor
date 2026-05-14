@@ -1,0 +1,33 @@
+title: 'NAACA: Training-Free NeuroAuditory Attentive Cognitive Architecture with Oscillatory
+  Working Memory for Salience-Driven Attention Gating'
+url: https://arxiv.org/abs/2605.13651
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-14T10:51:12.389443+00:00'
+date_seen: '2026-05-14'
+metadata:
+  arxiv_id: '2605.13651'
+  published: Thu, 14 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: NAACA: Training-Free NeuroAuditory Attentive Cognitive Architecture
+  with Oscillatory Working Memory for Salience-Driven Attention Gating
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Audio provides critical situational cues, yet current Audio Language Models (ALMs)
+  face an attention bottleneck in long-form recordings where dominant background patterns
+  can dilute rare, salient events. We introduce NAACA, a training-free NeuroAuditory
+  Attentive Cognitive Architecture that reframes attention allocation as an'
+content_length: 1233
+llm_content_sent: 1233
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This paper focuses on audio event detection and attention mechanisms for audio
+  language models, not on speech synthesis or generating expressive/emotional speech
+  output.

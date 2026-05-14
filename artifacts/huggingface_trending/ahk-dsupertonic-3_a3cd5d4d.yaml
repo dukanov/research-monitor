@@ -1,0 +1,26 @@
+title: ahk-d/supertonic-3
+url: https://huggingface.co/ahk-d/supertonic-3
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-14T10:51:44.840520+00:00'
+date_seen: '2026-05-14'
+metadata:
+  likes: '2'
+  downloads: '61'
+  trending_score: '2'
+  last_modified: '2026-05-13T13:15:56.000Z'
+content_preview: "---\nlicense: openrail\nlanguage:\n    - en\n    - ko\n    - ja\n\
+  \    - ar\n    - bg\n    - cs\n    - da\n    - de\n    - el\n    - es\n    - et\n\
+  \    - fi\n    - fr\n    - hi\n    - hr\n    - hu\n    - id\n    - it\n    - lt\n\
+  \    - lv\n    - nl\n    - pl\n    - pt\n    - ro\n    - ru\n    - sk\n    - sl\n\
+  \    - sv\n    - tr\n    - uk\n    - vi\npipeline_tag: text-to-speech\ntags:\n \
+  \   - text-to-speech\n    - speech-synthesis\n    - tts\n    - onnx\n    - multilingual\n\
+  \    - on-device\nlibrary_name: supertonic\n---\n\n# Supertonic 3 | Lightni"
+content_length: 5390
+llm_content_sent: 5390
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is primarily an engineering optimization focused on multilingual coverage
+  and on-device deployment rather than emotional/expressive synthesis or zero-shot
+  capabilities, with only basic expression tags mentioned.
