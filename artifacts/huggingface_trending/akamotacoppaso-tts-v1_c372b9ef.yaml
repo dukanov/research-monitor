@@ -1,0 +1,69 @@
+title: akamotaco/ppaso-tts-v1
+url: https://huggingface.co/akamotaco/ppaso-tts-v1
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-15T10:51:17.201374+00:00'
+date_seen: '2026-05-15'
+metadata:
+  likes: '2'
+  downloads: '100'
+  trending_score: '2'
+  last_modified: '2026-05-11T14:04:20.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - ko
+
+  library_name: pytorch
+
+  tags:
+
+  - text-to-speech
+
+  - tts
+
+  - korean
+
+  - edge
+
+  - npu
+
+  - rk3576
+
+  - onnx
+
+  - rknn
+
+  - lightweight
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  # Ppaso-TTS — Korean lightweight TTS (RK3576 NPU friendly)
+
+
+  > 한국어: [README_ko.md](./README_ko.md)
+
+  >
+
+  > **Ppaso (빠소)** = short for *ppareunsori* (빠른소리, "fast voice" in Korean). Real-time
+  Korean TTS for edge NPU devices.
+
+
+  ## What it is for
+
+
+  When pairing an LLM with TTS on an edge device (e.g. NanoPi R76S) for a Korean '
+content_length: 8383
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is an engineering optimization for Korean TTS deployment on specific
+  NPU hardware with no novel synthesis methods, zero-shot capabilities, or emotional/expressive
+  features - it's purely a lightweight implementation using existing techniques.

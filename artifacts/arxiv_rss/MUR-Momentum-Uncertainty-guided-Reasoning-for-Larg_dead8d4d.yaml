@@ -1,0 +1,33 @@
+title: 'MUR: Momentum Uncertainty guided Reasoning for Large Language Models'
+url: https://arxiv.org/abs/2507.14958
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-15T10:50:43.750502+00:00'
+date_seen: '2026-05-15'
+metadata:
+  arxiv_id: '2507.14958'
+  published: Fri, 15 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: MUR: Momentum Uncertainty guided Reasoning for Large Language
+  Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large Language Models have achieved impressive performance on reasoning-intensive
+  tasks, yet optimizing their reasoning efficiency remains an open challenge. While
+  Test-Time Scaling (TTS) improves reasoning quality, it often leads to overthinking,
+  wasting tokens on redundant computations. This work investigates how to efficiently
+  and adaptively guide current model'' test-time scaling without a'
+content_length: 1424
+llm_content_sent: 1424
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This paper focuses on optimizing reasoning efficiency in large language models
+  for mathematical problem solving, which is completely unrelated to emotional/expressive
+  speech synthesis or zero-shot speech capabilities.

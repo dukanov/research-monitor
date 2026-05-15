@@ -1,0 +1,33 @@
+title: Query-Conditioned Test-Time Self-Training for Large Language Models
+url: https://arxiv.org/abs/2605.13369
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-15T10:50:43.752351+00:00'
+date_seen: '2026-05-15'
+metadata:
+  arxiv_id: '2605.13369'
+  published: Fri, 15 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.LG
+content_preview: 'Title: Query-Conditioned Test-Time Self-Training for Large Language
+  Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large language models (LLMs) are typically deployed with fixed parameters, and their
+  performance is often improved by allocating more computation at inference time.
+  While such test-time scaling can be effective, it cannot correct model misconceptions
+  or adapt the model to the specific structure of an individual query. Test-time optimization
+  addresses this limitation by enabling parameter updat'
+content_length: 1730
+llm_content_sent: 1730
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on test-time optimization for large language models in mathematical
+  and scientific reasoning tasks, which has no connection to emotional/expressive
+  speech synthesis or zero-shot speech generation capabilities.

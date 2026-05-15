@@ -1,0 +1,72 @@
+title: Sky-Kim/supertonic3-unity
+url: https://huggingface.co/Sky-Kim/supertonic3-unity
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-15T10:51:17.409880+00:00'
+date_seen: '2026-05-15'
+metadata:
+  likes: '2'
+  downloads: '32'
+  trending_score: '2'
+  last_modified: '2026-05-07T04:07:53.000Z'
+content_preview: '---
+
+  title: supertonic3-tts-unity
+
+  emoji: 🔊
+
+  colorFrom: blue
+
+  colorTo: green
+
+  sdk: static
+
+  pinned: false
+
+  license: openrail
+
+  base_model:
+
+  - Supertone/supertonic-3
+
+  short_description: Supertonic 3 Sentis demo with Unity 6
+
+  library_name: unity-sentis
+
+  tags:
+
+  - unity
+
+  - unity-sentis
+
+  - sentis
+
+  - text-to-speech
+
+  - supertonic
+
+  ---
+
+
+  # supertonic3-tts-unity
+
+
+  Unity 6 demo for Supertonic 3 text-to-speech inference.
+
+
+  References:
+
+
+  - https://github.com/supertone-inc/supertonic
+
+  - https://huggingface.co/Supertone/supertonic-3
+
+  '
+content_length: 2645
+llm_content_sent: 2645
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: This is purely an implementation/deployment demo integrating existing Supertonic
+  3 models into Unity with no novel research contributions to emotional/expressive
+  speech synthesis or zero-shot capabilities.

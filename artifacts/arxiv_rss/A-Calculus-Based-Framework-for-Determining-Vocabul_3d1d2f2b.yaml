@@ -1,0 +1,33 @@
+title: A Calculus-Based Framework for Determining Vocabulary Size in End-to-End ASR
+url: https://arxiv.org/abs/2605.14427
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-15T10:50:43.584794+00:00'
+date_seen: '2026-05-15'
+metadata:
+  arxiv_id: '2605.14427'
+  published: Fri, 15 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.SD
+content_preview: 'Title: A Calculus-Based Framework for Determining Vocabulary Size
+  in End-to-End ASR
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In hybrid automatic speech recognition (ASR) systems, the vocabulary size is unambiguous,
+  typically determined by the number of phones, bi-phones, or tri-phones present in
+  the language. In contrast, end-to-end ASR systems derive their vocabulary, often
+  referred to as tokens from the text corpus used for training. The choice and, more
+  importantly, the size of this vocabulary is a criti'
+content_length: 1819
+llm_content_sent: 1819
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This paper focuses on vocabulary size optimization for automatic speech recognition
+  (ASR) systems, which is unrelated to emotional/expressive speech synthesis or zero-shot
+  capabilities.

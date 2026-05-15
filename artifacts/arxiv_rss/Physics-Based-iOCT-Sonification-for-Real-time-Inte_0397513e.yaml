@@ -1,0 +1,34 @@
+title: Physics-Based iOCT Sonification for Real-time Interaction Awareness in Subretinal
+  Injection
+url: https://arxiv.org/abs/2605.14500
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-15T10:50:43.584336+00:00'
+date_seen: '2026-05-15'
+metadata:
+  arxiv_id: '2605.14500'
+  published: Fri, 15 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.HC, eess.IV
+content_preview: 'Title: Physics-Based iOCT Sonification for Real-time Interaction
+  Awareness in Subretinal Injection
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Subretinal injection is a delicate vitreoretinal procedure requiring precise needle
+  placement within the subretinal space while avoiding perforation of the retinal
+  pigment epithelium (RPE), a layer directly beneath the target with extremely limited
+  regenerative capacity. To enhance depth perception during cannula advancement, intraoperative
+  optical coherence tomography '
+content_length: 2050
+llm_content_sent: 2050
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on medical sonification for surgical guidance rather than
+  emotional/expressive speech synthesis, representing a completely different domain
+  with no overlap in methodology or applications.

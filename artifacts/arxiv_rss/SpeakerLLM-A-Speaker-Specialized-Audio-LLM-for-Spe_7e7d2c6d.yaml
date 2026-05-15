@@ -1,0 +1,34 @@
+title: 'SpeakerLLM: A Speaker-Specialized Audio-LLM for Speaker Understanding and
+  Verification Reasoning'
+url: https://arxiv.org/abs/2605.15044
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-15T10:50:43.584611+00:00'
+date_seen: '2026-05-15'
+metadata:
+  arxiv_id: '2605.15044'
+  published: Fri, 15 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.LG, cs.MM, eess.AS
+content_preview: 'Title: SpeakerLLM: A Speaker-Specialized Audio-LLM for Speaker Understanding
+  and Verification Reasoning
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  As audio-first agents become increasingly common in physical AI, conversational
+  robots, and screenless wearables, audio large language models (audio-LLMs) must
+  integrate speaker-specific understanding to support user authorization, personalization,
+  and context-aware interaction. This requires modeling who is speaking, how the voice
+  sounds, and how recording conditi'
+content_length: 2087
+llm_content_sent: 2087
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on speaker verification and understanding rather than emotional/expressive
+  speech synthesis, and lacks zero-shot synthesis capabilities - it's primarily about
+  analyzing existing speech rather than generating expressive speech.

@@ -1,0 +1,34 @@
+title: 'From Text to Voice: A Reproducible and Verifiable Framework for Evaluating
+  Tool Calling LLM Agents'
+url: https://arxiv.org/abs/2605.15104
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-15T10:50:43.747268+00:00'
+date_seen: '2026-05-15'
+metadata:
+  arxiv_id: '2605.15104'
+  published: Fri, 15 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: From Text to Voice: A Reproducible and Verifiable Framework
+  for Evaluating Tool Calling LLM Agents
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Voice agents increasingly require reliable tool use from speech, whereas prominent
+  tool-calling benchmarks remain text-based. We study whether verified text benchmarks
+  can be converted into controlled audio-based tool calling evaluations without re-annotating
+  the tool schema and gold labels. Our dataset-agnostic framework uses text-to-speech,
+  speaker variation, a'
+content_length: 1765
+llm_content_sent: 1765
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on tool-calling evaluation for voice agents using basic
+  TTS conversion rather than advancing emotional/expressive speech synthesis or zero-shot
+  voice capabilities.

@@ -1,0 +1,32 @@
+title: 'PROCESS-2: A Benchmark Speech Corpus for Early Cognitive Impairment Detection'
+url: https://arxiv.org/abs/2605.14888
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-15T10:50:43.584549+00:00'
+date_seen: '2026-05-15'
+metadata:
+  arxiv_id: '2605.14888'
+  published: Fri, 15 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.LG
+content_preview: 'Title: PROCESS-2: A Benchmark Speech Corpus for Early Cognitive
+  Impairment Detection
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech-based analysis offers a scalable and non-invasive approach for detecting
+  cognitive decline, yet progress has been constrained by the limited availability
+  of clinically validated datasets collected under realistic conditions. We introduce
+  PROCESS-2, a large-scale speech dataset designed to support research on automatic
+  assessment of cognitive impairment from spontaneous and tas'
+content_length: 1639
+llm_content_sent: 1639
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is a dataset contribution for cognitive impairment detection, not emotional/expressive
+  speech synthesis, and offers no novel synthesis methods or zero-shot capabilities.
