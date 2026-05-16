@@ -1,0 +1,26 @@
+title: kjanh/KhanhTTS-OmniVoice
+url: https://huggingface.co/kjanh/KhanhTTS-OmniVoice
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-16T10:30:51.535854+00:00'
+date_seen: '2026-05-16'
+metadata:
+  likes: '3'
+  downloads: '0'
+  trending_score: '3'
+  last_modified: '2026-05-16T04:32:12.000Z'
+content_preview: "---\nlicense: apache-2.0\nlanguage:\n- vi\n- en\nbase_model:\n-\
+  \ k2-fsa/OmniVoice\npipeline_tag: text-to-speech\n---\n# KhanhTTS \U0001F5E3️\U0001F525\
+  \n\n**KhanhTTS** là mô hình Text-to-Speech (TTS) dựa trên **OmniVoice**, được fine-tune\
+  \ để tổng hợp giọng nói **tiếng Việt và tiếng Anh**, hỗ trợ **voice cloning**.\n\
+  \n## \U0001F9E0 Thông tin huấn luyện\n\n- **Base model**: k2-fsa/OmniVoice  \n-\
+  \ **Dataset**: ~1500 giờ audio tiếng **Việt + Anh**\n- **Steps**: ~500.000\n- **Mục\
+  \ tiêu**:\n  - Phát âm tiếng Việt + Anh tự nhiên\n  - Voice cloning ổn đ"
+content_length: 4530
+llm_content_sent: 4530
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is a straightforward fine-tuning of an existing model (OmniVoice) for
+  Vietnamese/English with no novel technical contributions to emotional/expressive
+  synthesis or zero-shot capabilities.
