@@ -1,0 +1,58 @@
+title: sentiuminc/holler-0.6b
+url: https://huggingface.co/sentiuminc/holler-0.6b
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-17T10:33:25.562127+00:00'
+date_seen: '2026-05-17'
+metadata:
+  likes: '2'
+  downloads: '208'
+  trending_score: '2'
+  last_modified: '2026-05-15T10:37:48.000Z'
+content_preview: '---
+
+  language:
+
+  - en
+
+  license: apache-2.0
+
+  library_name: mlx
+
+  tags:
+
+  - text-to-speech
+
+  - tts
+
+  - mlx
+
+  - apple-silicon
+
+  - qwen3-tts
+
+  pipeline_tag: text-to-speech
+
+  base_model: Qwen/Qwen3-TTS-0.6B
+
+  base_model_relation: finetune
+
+  ---
+
+
+  # Holler 0.6B
+
+
+  <video src="https://huggingface.co/sentiuminc/holler-0.6b/resolve/main/holler-intro.mp4"
+  controls autoplay loop muted playsinline style="width: 100%; border-radius: 8px;"></video>
+
+
+  An open-source text-to-speech model with 6 American English voices, and a fast inference'
+content_length: 9271
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is a standard fine-tuning of an existing model (Qwen3-TTS) with pre-defined
+  voice identities, offering no novel approaches to emotional/expressive synthesis
+  or zero-shot voice capabilities.
