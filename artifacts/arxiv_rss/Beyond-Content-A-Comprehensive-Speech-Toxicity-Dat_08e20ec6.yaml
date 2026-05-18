@@ -1,0 +1,34 @@
+title: 'Beyond Content: A Comprehensive Speech Toxicity Dataset and Detection Framework
+  Incorporating Paralinguistic Cues'
+url: https://arxiv.org/abs/2605.15984
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-18T11:23:46.654497+00:00'
+date_seen: '2026-05-18'
+metadata:
+  arxiv_id: '2605.15984'
+  published: Mon, 18 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.CR
+content_preview: 'Title: Beyond Content: A Comprehensive Speech Toxicity Dataset and
+  Detection Framework Incorporating Paralinguistic Cues
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Toxic speech detection has become a crucial challenge in maintaining safe online
+  communication environments. However, existing approaches to toxic speech detection
+  often neglect the contribution of paralinguistic cues, such as emotion, intonation,
+  and speech rate, which are key to detecting speech toxicity. Moreover, current toxic
+  speech datasets a'
+content_length: 1997
+llm_content_sent: 1997
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While this work analyzes paralinguistic cues in speech, it focuses on toxicity
+  detection rather than synthesis, and doesn't contribute to zero-shot emotional/expressive
+  speech generation capabilities.

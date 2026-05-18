@@ -1,0 +1,32 @@
+title: Two-Dimensional Quantization for Geometry-Aware Audio Coding
+url: https://arxiv.org/abs/2512.01537
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-18T11:23:46.654744+00:00'
+date_seen: '2026-05-18'
+metadata:
+  arxiv_id: '2512.01537'
+  published: Mon, 18 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.IT, cs.LG, eess.SP, math.IT
+content_preview: 'Title: Two-Dimensional Quantization for Geometry-Aware Audio Coding
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent neural audio codecs have achieved impressive reconstruction quality, typically
+  relying on quantization methods such as Residual Vector Quantization (RVQ), Vector
+  Quantization (VQ) and Finite Scalar Quantization (FSQ). However, these quantization
+  techniques limit the geometric structure of the latent space, make it harder to
+  capture correlations between features leading to inefficiency in repre'
+content_length: 1554
+llm_content_sent: 1554
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on general audio codec quantization improvements without
+  addressing emotional/expressive speech synthesis or zero-shot capabilities, making
+  it only tangentially relevant as a potential underlying technology.

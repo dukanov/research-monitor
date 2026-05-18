@@ -1,0 +1,34 @@
+title: 'From Flat Language Labels to Typological Priors: Structured Language Conditioning
+  for Multilingual Speech-to-Speech Translation'
+url: https://arxiv.org/abs/2605.16026
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-18T11:23:46.682452+00:00'
+date_seen: '2026-05-18'
+metadata:
+  arxiv_id: '2605.16026'
+  published: Mon, 18 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI
+content_preview: 'Title: From Flat Language Labels to Typological Priors: Structured
+  Language Conditioning for Multilingual Speech-to-Speech Translation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Compositional speech-to-speech translation (S2ST) systems built upon speech large
+  language models (SpeechLLMs) have recently shown promising performance. However,
+  existing S2ST systems often either neglect source-language information or encode
+  it through a language-as-label paradigm, representing each source language as an
+  independent'
+content_length: 1922
+llm_content_sent: 1922
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on multilingual speech-to-speech translation using typological
+  priors for language conditioning, but does not address emotional or expressive speech
+  synthesis capabilities, nor zero-shot emotional expression transfer.

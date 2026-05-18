@@ -1,0 +1,33 @@
+title: 'JAM-Flow: Joint Audio-Motion Synthesis with Flow Matching'
+url: https://arxiv.org/abs/2506.23552
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-18T11:23:46.654851+00:00'
+date_seen: '2026-05-18'
+metadata:
+  arxiv_id: '2506.23552'
+  published: Mon, 18 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CV, cs.SD, eess.AS
+content_preview: 'Title: JAM-Flow: Joint Audio-Motion Synthesis with Flow Matching
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The intrinsic link between facial motion and speech is often overlooked in generative
+  modeling, where talking head synthesis and text-to-speech (TTS) are typically addressed
+  as separate tasks. This paper introduces JAM-Flow, a unified framework to simultaneously
+  synthesize and condition on both facial motion and speech. Our approach leverages
+  flow matching and a novel Multi-Modal Diffusion Transformer ('
+content_length: 1437
+llm_content_sent: 1437
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a unified flow matching framework that jointly synthesizes audio
+  and facial motion with cross-modal conditioning, representing a notable architectural
+  advance in multi-modal generation, though the core flow matching technique itself
+  is established.

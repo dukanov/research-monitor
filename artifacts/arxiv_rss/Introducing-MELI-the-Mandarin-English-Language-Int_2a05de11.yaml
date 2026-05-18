@@ -1,0 +1,33 @@
+title: 'Introducing MELI: the Mandarin-English Language Interview Corpus'
+url: https://arxiv.org/abs/2603.27043
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-18T11:23:46.685625+00:00'
+date_seen: '2026-05-18'
+metadata:
+  arxiv_id: '2603.27043'
+  published: Mon, 18 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Introducing MELI: the Mandarin-English Language Interview
+  Corpus
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We introduce the Mandarin-English Language Interview (MELI) Corpus, an open-source
+  resource of 29.8 hours of speech from 51 Mandarin-English bilingual speakers. MELI
+  combines matched sessions in Mandarin and English with two speaking styles: read
+  sentences and spontaneous interviews about language varieties, standardness, and
+  learning experiences. Audio was recorded at 44.1 kHz (16-bit, stereo). '
+content_length: 1334
+llm_content_sent: 1334
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is a corpus introduction paper that provides bilingual speech data but
+  offers no technical contributions to emotional/expressive synthesis methods or zero-shot
+  capabilities.
