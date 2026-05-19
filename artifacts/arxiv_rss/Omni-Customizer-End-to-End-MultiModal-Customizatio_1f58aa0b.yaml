@@ -1,0 +1,34 @@
+title: 'Omni-Customizer: End-to-End MultiModal Customization for Joint Audio-Video
+  Generation'
+url: https://arxiv.org/abs/2605.17488
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-19T11:07:21.815046+00:00'
+date_seen: '2026-05-19'
+metadata:
+  arxiv_id: '2605.17488'
+  published: Tue, 19 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CV, cs.MM, cs.SD
+content_preview: 'Title: Omni-Customizer: End-to-End MultiModal Customization for
+  Joint Audio-Video Generation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The landscape of joint audio and video generation has been fundamentally transformed
+  by the advent of powerful foundation models. Despite these strides, achieving cohesive
+  multimodal customization for the simultaneous preservation of visual identities
+  and vocal timbres across multiple interacting subjects remains largely underexplored.
+  To bridge this gap, we present Omni-Cust'
+content_length: 1859
+llm_content_sent: 1859
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces novel multimodal identity binding mechanisms (SA-MRoPE, MTP-CA)
+  for simultaneous preservation of visual and vocal identities in joint audio-video
+  generation, though the zero-shot capability aspect is not explicitly demonstrated.

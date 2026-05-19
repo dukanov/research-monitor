@@ -1,0 +1,33 @@
+title: 'Bridging the Gap: Converting Read Text to Conversational Dialogue'
+url: https://arxiv.org/abs/2605.18001
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-19T11:07:21.858868+00:00'
+date_seen: '2026-05-19'
+metadata:
+  arxiv_id: '2605.18001'
+  published: Tue, 19 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Bridging the Gap: Converting Read Text to Conversational
+  Dialogue
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In recent advancements within speech processing, converting read speech to conversational
+  speech has gained significant attention. The primary challenge in this domain is
+  maintaining naturalness and intelligibility while minimizing computational overhead
+  for real-time applications. Traditional read speech often lacks the nuanced prosodic
+  variation essential for natural conversational interaction'
+content_length: 1564
+llm_content_sent: 1564
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: While the paper addresses prosodic modification for more natural speech, it
+  appears to use standard HiFi-GAN architecture without clear zero-shot capabilities
+  or novel emotional/expressive modeling approaches.

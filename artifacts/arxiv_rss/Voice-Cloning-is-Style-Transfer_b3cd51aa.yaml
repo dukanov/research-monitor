@@ -1,0 +1,34 @@
+title: Voice ''Cloning'' is Style Transfer
+url: https://arxiv.org/abs/2605.16578
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-19T11:07:21.814285+00:00'
+date_seen: '2026-05-19'
+metadata:
+  arxiv_id: '2605.16578'
+  published: Tue, 19 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.HC, cs.LG
+content_preview: 'Title: Voice ''''Cloning'''' is Style Transfer
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Artificially generated speech is increasingly embedded in everyday life. Voice cloning
+  in particular enables applications where identity preservation is important, such
+  as completing a recording, dubbing in a new language, or preserving the voices of
+  individuals with speech loss. However, in our work, we find that despite the term,
+  voice cloning does not faithfully ''''clone'''' an individual''s voice. Instead,
+  we find that widel'
+content_length: 1324
+llm_content_sent: 1324
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: This work introduces a novel perspective by reframing voice cloning as style
+  transfer and provides systematic evidence that cloning models don't preserve identity
+  faithfully but instead apply systematic stylistic modifications, which has important
+  implications for expressive synthesis applications.

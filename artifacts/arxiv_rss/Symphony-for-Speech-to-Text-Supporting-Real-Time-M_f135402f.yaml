@@ -1,0 +1,33 @@
+title: 'Symphony for Speech-to-Text: Supporting Real-Time Medical Voice Interfaces'
+url: https://arxiv.org/abs/2605.16545
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-19T11:07:21.861482+00:00'
+date_seen: '2026-05-19'
+metadata:
+  arxiv_id: '2605.16545'
+  published: Tue, 19 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.LG, cs.AI, cs.CL
+content_preview: 'Title: Symphony for Speech-to-Text: Supporting Real-Time Medical
+  Voice Interfaces
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  After decades of use in dictation and, more recently, ambient documentation, speech
+  is emerging as a primary modality for interacting with technology and AI in healthcare.
+  Yet medical speech recognition remains difficult: systems must capture specialized
+  terminology, resolve contextual ambiguity, and render measurements, abbreviations,
+  and clinical shorthand precisely. Existing solution'
+content_length: 1723
+llm_content_sent: 1723
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on speech-to-text (ASR) for medical applications, not speech
+  synthesis, and has no connection to emotional/expressive synthesis or zero-shot
+  capabilities.

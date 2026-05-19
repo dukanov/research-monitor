@@ -1,0 +1,133 @@
+title: thelamapi/neuvoice
+url: https://huggingface.co/thelamapi/neuvoice
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-19T11:07:52.155998+00:00'
+date_seen: '2026-05-19'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-05-18T23:35:11.000Z'
+content_preview: '---
+
+  license: openrail
+
+  language:
+
+  - tr
+
+  - bg
+
+  - el
+
+  - fr
+
+  - ko
+
+  - ja
+
+  - ar
+
+  - de
+
+  - da
+
+  - cs
+
+  - es
+
+  - et
+
+  - fi
+
+  - hr
+
+  - hu
+
+  - id
+
+  - it
+
+  - lt
+
+  - lv
+
+  - nl
+
+  - pl
+
+  - pt
+
+  - ro
+
+  - ru
+
+  - sk
+
+  - sl
+
+  - sv
+
+  - uk
+
+  - vi
+
+  - na
+
+  tags:
+
+  - text
+
+  - speech
+
+  - tts
+
+  - neuvoice
+
+  - turkish
+
+  - turkey
+
+  - ai voice
+
+  - text to speech
+
+  - turkish tts
+
+  - open source ai
+
+  - huggingface model
+
+  - voice cloning
+
+  - realistic ai voice
+
+  - speech synthesis
+
+  - turkish ai
+
+  - local ai
+
+  - offline tts
+
+  - low latency tts
+
+  - multilingual tts
+
+  - transformers
+
+  - pytorch
+
+  - audio generation
+
+  - spee'
+content_length: 7391
+llm_content_sent: 7391
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: While it supports emotional tags like `<happy>` and `<laugh>` for expressive
+  synthesis across 31 languages, this appears to be a standard implementation without
+  novel zero-shot capabilities or significant architectural innovations beyond existing
+  TTS systems.

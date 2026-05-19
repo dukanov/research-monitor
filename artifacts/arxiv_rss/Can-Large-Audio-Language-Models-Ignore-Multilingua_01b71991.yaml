@@ -1,0 +1,33 @@
+title: Can Large Audio Language Models Ignore Multilingual Distractors? An Evaluation
+  of Their Selective Auditory Attention Capabilities
+url: https://arxiv.org/abs/2605.17225
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-19T11:07:21.827194+00:00'
+date_seen: '2026-05-19'
+metadata:
+  arxiv_id: '2605.17225'
+  published: Tue, 19 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Can Large Audio Language Models Ignore Multilingual Distractors?
+  An Evaluation of Their Selective Auditory Attention Capabilities
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Robust selective auditory attention under multilingual interference is critical
+  for reliable deployment of Large Audio Language Models (LALMs). We introduce MUSA,
+  a cocktail party-inspired multilingual benchmark for source-grounded spoken-language
+  understanding and reasoning. Each item pairs an English target dialogue with a semanti'
+content_length: 1252
+llm_content_sent: 1252
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on multilingual auditory attention and source separation
+  in large audio language models rather than emotional/expressive speech synthesis
+  or zero-shot voice generation capabilities.

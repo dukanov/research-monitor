@@ -1,0 +1,34 @@
+title: 'PAREDA: A Multi-Accent Speech Dataset of Natural Language Processing Research
+  Discussions'
+url: https://arxiv.org/abs/2605.17860
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-19T11:07:21.858537+00:00'
+date_seen: '2026-05-19'
+metadata:
+  arxiv_id: '2605.17860'
+  published: Tue, 19 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI
+content_preview: 'Title: PAREDA: A Multi-Accent Speech Dataset of Natural Language
+  Processing Research Discussions
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  While modern Automatic Speech Recognition (ASR) systems achieve high accuracy on
+  benchmark corpora, their performance often degrades when there is real-world variability.
+  This work focuses on variability arising due to accented, spontaneous, and domain-specific
+  speech. In particular, we introduce PAper REading DAtaset (PAREDA), a first-of-its-kind
+  multi-accent speech data'
+content_length: 1556
+llm_content_sent: 1556
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This paper introduces a new ASR dataset for multi-accent speech recognition
+  but has no relevance to emotional/expressive speech synthesis or zero-shot synthesis
+  capabilities - it's purely focused on automatic speech recognition of accented speech.

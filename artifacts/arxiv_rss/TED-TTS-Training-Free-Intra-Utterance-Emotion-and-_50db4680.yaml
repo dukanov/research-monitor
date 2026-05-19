@@ -1,0 +1,34 @@
+title: 'TED-TTS: Training-Free Intra-Utterance Emotion and Duration Control for Text-to-Speech
+  Synthesis'
+url: https://arxiv.org/abs/2601.03170
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-19T11:07:21.815239+00:00'
+date_seen: '2026-05-19'
+metadata:
+  arxiv_id: '2601.03170'
+  published: Tue, 19 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: TED-TTS: Training-Free Intra-Utterance Emotion and Duration
+  Control for Text-to-Speech Synthesis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  While controllable Text-to-Speech (TTS) has achieved notable progress, most existing
+  methods remain limited to inter-utterance-level control, making fine-grained intra-utterance
+  expression challenging due to their reliance on non-public datasets or complex multi-stage
+  training. In this paper, we propose TED-TTS, a training-free controllable framework
+  for pretrained'
+content_length: 1671
+llm_content_sent: 1671
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Novel training-free approach for fine-grained intra-utterance emotion and
+  duration control in zero-shot TTS, addressing a significant limitation of existing
+  methods that only provide inter-utterance control.

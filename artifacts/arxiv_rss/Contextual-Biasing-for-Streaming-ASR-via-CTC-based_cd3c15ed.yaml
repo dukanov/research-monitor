@@ -1,0 +1,32 @@
+title: Contextual Biasing for Streaming ASR via CTC-based Word Spotting
+url: https://arxiv.org/abs/2605.18222
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-19T11:07:21.827435+00:00'
+date_seen: '2026-05-19'
+metadata:
+  arxiv_id: '2605.18222'
+  published: Tue, 19 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Contextual Biasing for Streaming ASR via CTC-based Word Spotting
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Contextual biasing is essential to improving the recognition of rare and domain-specific
+  words in an automatic speech recognition (ASR) system. While numerous methods have
+  been proposed in recent years, most of them focus on offline settings and do not
+  explicitly address the challenges of streaming ASR. For example, CTC-based word
+  spotting (CTC-WS) have demonstrated strong performance by directly'
+content_length: 1541
+llm_content_sent: 1541
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This paper focuses on automatic speech recognition (ASR) with contextual biasing
+  for keyword detection, which is fundamentally different from emotional/expressive
+  speech synthesis and has no zero-shot synthesis capabilities.

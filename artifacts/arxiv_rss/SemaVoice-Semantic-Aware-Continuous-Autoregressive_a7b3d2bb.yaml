@@ -1,0 +1,33 @@
+title: 'SemaVoice: Semantic-Aware Continuous Autoregressive Speech Synthesis'
+url: https://arxiv.org/abs/2605.16964
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-19T11:07:21.827152+00:00'
+date_seen: '2026-05-19'
+metadata:
+  arxiv_id: '2605.16964'
+  published: Tue, 19 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: SemaVoice: Semantic-Aware Continuous Autoregressive Speech
+  Synthesis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Continuous autoregressive speech synthesis has recently emerged as a promising direction
+  for zero-shot text-to-speech (TTS). However, existing methods still suffer from
+  a fundamental mismatch between semantic-prosodic modeling and reconstruction-driven
+  continuous speech representations. This mismatch causes TTS models to focus excessively
+  on low-level acoustic textures at the expense of high-'
+content_length: 1557
+llm_content_sent: 1557
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The paper introduces a novel Speech Foundation Model guided alignment mechanism
+  to address the semantic-prosodic mismatch in continuous autoregressive TTS, which
+  is a meaningful contribution to improving zero-shot speech synthesis quality.

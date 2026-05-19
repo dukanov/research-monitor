@@ -1,0 +1,34 @@
+title: 'AASIST3: KAN-Enhanced AASIST Speech Deepfake Detection using SSL Features
+  and Additional Regularization for the ASVspoof 2024 Challenge'
+url: https://arxiv.org/abs/2408.17352
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-19T11:07:21.815157+00:00'
+date_seen: '2026-05-19'
+metadata:
+  arxiv_id: '2408.17352'
+  published: Tue, 19 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI, eess.AS
+content_preview: 'Title: AASIST3: KAN-Enhanced AASIST Speech Deepfake Detection using
+  SSL Features and Additional Regularization for the ASVspoof 2024 Challenge
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Automatic Speaker Verification (ASV) systems, which identify speakers based on their
+  voice characteristics, have numerous applications, such as user authentication in
+  financial transactions, exclusive access control in smart devices, and forensic
+  fraud detection. However, the advancement of deep learning algorithms has enabled'
+content_length: 1348
+llm_content_sent: 1348
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This paper focuses on detecting synthetic speech (deepfake detection) rather
+  than generating emotional/expressive speech with zero-shot capabilities, making
+  it fundamentally misaligned with the research interests despite involving speech
+  synthesis technology.

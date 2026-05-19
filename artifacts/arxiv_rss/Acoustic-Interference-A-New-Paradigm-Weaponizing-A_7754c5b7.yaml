@@ -1,0 +1,34 @@
+title: 'Acoustic Interference: A New Paradigm Weaponizing Acoustic Latent Semantic
+  for Universal Jailbreak against Large Audio Language Models'
+url: https://arxiv.org/abs/2605.18168
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-19T11:07:21.815151+00:00'
+date_seen: '2026-05-19'
+metadata:
+  arxiv_id: '2605.18168'
+  published: Tue, 19 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CR, cs.SD
+content_preview: 'Title: Acoustic Interference: A New Paradigm Weaponizing Acoustic
+  Latent Semantic for Universal Jailbreak against Large Audio Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The integration of audio modality into Large Audio Language Models (LALMs) significantly
+  expands their attack surface. Existing jailbreak paradigms predominantly treat audio
+  as a carrier for malicious payloads, relying on semantic optimization, acoustic
+  parameter control, or additive perturbation to embed harmful content into t'
+content_length: 1878
+llm_content_sent: 1878
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on adversarial attacks against large audio language models
+  rather than advancing emotional/expressive speech synthesis or zero-shot capabilities,
+  making it irrelevant to the specified research interests despite involving audio
+  processing.

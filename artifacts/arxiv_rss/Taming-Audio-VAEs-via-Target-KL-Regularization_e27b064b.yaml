@@ -1,0 +1,33 @@
+title: Taming Audio VAEs via Target-KL Regularization
+url: https://arxiv.org/abs/2605.17085
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-19T11:07:21.814369+00:00'
+date_seen: '2026-05-19'
+metadata:
+  arxiv_id: '2605.17085'
+  published: Tue, 19 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.LG, eess.AS
+content_preview: 'Title: Taming Audio VAEs via Target-KL Regularization
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Latent diffusion models have emerged as the dominant paradigm for many generation
+  tasks including audio generation such as text-to-audio, text-to-music and text-to-speech.
+  A key component of latent diffusion is an autoencoder (VAE) that compresses high-dimensional
+  signals into a low frame rate continuous representation that is conducive for downstream
+  prediction. Regularizing these VAEs is challenging, as there is'
+content_length: 1194
+llm_content_sent: 1194
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: While the target-KL regularization framework for controlling VAE compression
+  rates is a useful engineering contribution, it's an incremental improvement to existing
+  VAE training rather than a novel approach to emotional/expressive speech synthesis
+  or zero-shot capabilities.

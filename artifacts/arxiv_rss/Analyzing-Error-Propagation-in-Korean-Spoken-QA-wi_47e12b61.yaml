@@ -1,0 +1,33 @@
+title: Analyzing Error Propagation in Korean Spoken QA with ASR-LLM Cascades
+url: https://arxiv.org/abs/2605.17443
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-19T11:07:21.815037+00:00'
+date_seen: '2026-05-19'
+metadata:
+  arxiv_id: '2605.17443'
+  published: Tue, 19 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.SD, eess.AS
+content_preview: 'Title: Analyzing Error Propagation in Korean Spoken QA with ASR-LLM
+  Cascades
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We analyze how automatic speech recognition (ASR) errors propagate through ASR-LLM
+  cascades in Korean spoken question answering (SQA), focusing on downstream semantic
+  failures that conventional ASR metrics cannot fully capture. Our analysis shows
+  that the relative downstream degradation caused by ASR errors is consistent across
+  LLMs with different absolute performance, suggesting that cascad'
+content_length: 1132
+llm_content_sent: 1132
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work analyzes error propagation in ASR-LLM cascades for Korean QA, which
+  is tangentially related to speech processing but does not address emotional/expressive
+  speech synthesis or zero-shot synthesis capabilities.

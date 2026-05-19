@@ -1,0 +1,35 @@
+title: 'UrduSpeech: A 156-Hour Urdu Speech Corpus with 12-Dimension Paralinguistic
+  Annotations'
+url: https://arxiv.org/abs/2605.17846
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-19T11:07:21.827361+00:00'
+date_seen: '2026-05-19'
+metadata:
+  arxiv_id: '2605.17846'
+  published: Tue, 19 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: UrduSpeech: A 156-Hour Urdu Speech Corpus with 12-Dimension
+  Paralinguistic Annotations
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Despite 230 million speakers, Urdu remains critically under-resourced in speech
+  technology. We introduce UrduSpeech: a large high-fidelity Urdu corpus comprising
+  156 hours of audio with 12-dimension paralinguistic metadata, encompassing US-Std,
+  US-CS, US-EngPk. To address Right-to-Left script constraints and frequent code-switching,
+  we developed UrduSpeech, a LLM-driven pipe'
+content_length: 1259
+llm_content_sent: 1259
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: While this introduces a valuable new Urdu speech corpus with paralinguistic
+  annotations that could support expressive synthesis research, it's primarily a data
+  contribution rather than a novel methodological advancement in zero-shot emotional
+  speech synthesis.
