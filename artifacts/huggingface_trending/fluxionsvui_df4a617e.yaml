@@ -1,0 +1,27 @@
+title: fluxions/vui
+url: https://huggingface.co/fluxions/vui
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-20T11:06:00.997434+00:00'
+date_seen: '2026-05-20'
+metadata:
+  likes: '148'
+  downloads: '2082'
+  trending_score: '1'
+  last_modified: '2026-05-14T21:56:33.000Z'
+content_preview: "---\nlicense: apache-2.0\nlanguage:\n- en\npipeline_tag: text-to-speech\n\
+  library_name: vui\ntags:\n- text-to-speech\n- tts\n- speech-synthesis\n- voice-cloning\n\
+  - streaming\n- conversational\n- qwen3-tts\n---\n\n<p align=\"center\">\n  <a href=\"\
+  https://fluxions.ai\"><img src=\"https://raw.githubusercontent.com/fluxions-ai/vui/main/docs/fxlogo.png\"\
+  \ alt=\"fluxions.ai\" height=\"64\"></a>\n</p>\n\n<h1 align=\"center\">Vui — Streaming\
+  \ Conversational Voice Assistant</h1>\n\n<p align=\"center\"><em>Pronounced \"vooey\"\
+  </em> (rhymes with"
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: While this is a well-engineered conversational TTS system with voice cloning
+  capabilities, it primarily combines existing components (Qwen3 codec, standard transformer
+  architecture) without introducing novel techniques for emotional/expressive synthesis
+  or zero-shot voice adaptation.

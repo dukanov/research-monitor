@@ -1,0 +1,34 @@
+title: Optimising Neural Speech Codecs for 300bps Communication using Reinforcement
+  Learning
+url: https://arxiv.org/abs/2605.19541
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-20T11:05:30.654323+00:00'
+date_seen: '2026-05-20'
+metadata:
+  arxiv_id: '2605.19541'
+  published: Wed, 20 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: Optimising Neural Speech Codecs for 300bps Communication
+  using Reinforcement Learning
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In bandwidth-constrained communication such as satellite and underwater channels,
+  speech must often be transmitted at ultra-low bitrates where intelligibility is
+  the primary objective. At such extreme compression levels, codecs trained with acoustic
+  reconstruction losses tend to allocate bits to perceptual detail, leading to substantial
+  degradation in word error rate (WER). T'
+content_length: 1246
+llm_content_sent: 1246
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While the RL-based optimization of neural codecs is somewhat novel, this work
+  focuses on ultra-low bitrate compression for intelligibility rather than emotional/expressive
+  speech synthesis with zero-shot capabilities.

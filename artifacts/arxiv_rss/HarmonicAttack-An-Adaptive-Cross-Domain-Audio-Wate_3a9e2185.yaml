@@ -1,0 +1,33 @@
+title: 'HarmonicAttack: An Adaptive Cross-Domain Audio Watermark Removal'
+url: https://arxiv.org/abs/2511.21577
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-20T11:05:30.654852+00:00'
+date_seen: '2026-05-20'
+metadata:
+  arxiv_id: '2511.21577'
+  published: Wed, 20 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: HarmonicAttack: An Adaptive Cross-Domain Audio Watermark
+  Removal
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The availability of high-quality, AI-generated audio raises security challenges
+  such as misinformation campaigns and voice-cloning fraud. A key defense against
+  the misuse of AI-generated audio is by watermarking it, so that it can be easily
+  distinguished from genuine audio. Those seeking to misuse AI-generated audio may
+  attempt to remove audio watermarks, so studying effective watermark removal t'
+content_length: 2018
+llm_content_sent: 2018
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on audio watermark removal attacks rather than speech synthesis,
+  and offers no contributions to emotional/expressive speech generation or zero-shot
+  synthesis capabilities.

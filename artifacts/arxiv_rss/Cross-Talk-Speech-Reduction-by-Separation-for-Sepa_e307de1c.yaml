@@ -1,0 +1,32 @@
+title: Cross-Talk Speech Reduction, by Separation, for Separation
+url: https://arxiv.org/abs/2605.19695
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-20T11:05:30.654647+00:00'
+date_seen: '2026-05-20'
+metadata:
+  arxiv_id: '2605.19695'
+  published: Wed, 20 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: Cross-Talk Speech Reduction, by Separation, for Separation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In conversational speech separation and recognition tasks, close-talk microphones
+  are typically attached to each speaker during training data collection to capture
+  near-field, close-talk mixture signals, in addition to using far-field microphones
+  to record far-field mixture signals. Each such close-talk mixture exhibits a reasonably
+  high energy level for the wearer and could intuitively serve as weak s'
+content_length: 1930
+llm_content_sent: 1930
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on speech separation and recognition from conversational
+  recordings, which is fundamentally different from emotional/expressive speech synthesis
+  and has no zero-shot synthesis capabilities.

@@ -1,0 +1,35 @@
+title: Cross-modal Consistency Guidance for Robust Emotion Control in Auto-Regressive
+  TTS Models
+url: https://arxiv.org/abs/2510.13293
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-20T11:05:30.704493+00:00'
+date_seen: '2026-05-20'
+metadata:
+  arxiv_id: '2510.13293'
+  published: Wed, 20 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Cross-modal Consistency Guidance for Robust Emotion Control
+  in Auto-Regressive TTS Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  While Text-to-Speech (TTS) systems enable emotional control via natural-language
+  instructions, expressiveness, naturalness, and speech quality degrade when the target
+  emotion conflicts with the textual semantics. We propose a Cross-modal Consistency
+  Guided Classifier-Free Guidance (CCG-CFG) method with dynamic scales based on the
+  degree of inconsistency between the text e'
+content_length: 1207
+llm_content_sent: 1207
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel cross-modal consistency guidance mechanism that dynamically
+  adjusts classifier-free guidance based on text-emotion conflicts, addressing a key
+  challenge in emotion-controllable TTS where textual semantics may contradict target
+  emotions.
