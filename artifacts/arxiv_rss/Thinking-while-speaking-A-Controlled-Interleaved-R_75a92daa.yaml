@@ -1,0 +1,35 @@
+title: 'Thinking-while-speaking: A Controlled, Interleaved Reasoning Method for Real-Time
+  Speech Generation'
+url: https://arxiv.org/abs/2605.20946
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-21T11:08:24.221342+00:00'
+date_seen: '2026-05-21'
+metadata:
+  arxiv_id: '2605.20946'
+  published: Thu, 21 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Thinking-while-speaking: A Controlled, Interleaved Reasoning
+  Method for Real-Time Speech Generation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The thinking-while-speaking paradigm aims to make AI communication more human. A
+  key challenge is maintaining fluent speech while performing deep reasoning. Our
+  method, InterRS, tackles this by inserting reasoning steps only during natural speech
+  generation. This requires high-quality data where reasoning and speech are precisely
+  aligned, and the length ratio ar'
+content_length: 1206
+llm_content_sent: 1206
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While this addresses real-time speech generation, it focuses on reasoning
+  integration rather than emotional/expressive synthesis, and the core contribution
+  is timing control for cognitive processes rather than affective speech modeling
+  or zero-shot emotional adaptation.

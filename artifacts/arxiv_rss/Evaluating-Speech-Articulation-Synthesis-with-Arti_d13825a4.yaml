@@ -1,0 +1,33 @@
+title: Evaluating Speech Articulation Synthesis with Articulatory Phoneme Recognition
+url: https://arxiv.org/abs/2605.20920
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-21T11:08:24.183596+00:00'
+date_seen: '2026-05-21'
+metadata:
+  arxiv_id: '2605.20920'
+  published: Thu, 21 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.SD
+content_preview: 'Title: Evaluating Speech Articulation Synthesis with Articulatory
+  Phoneme Recognition
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in machine learning and the availability of articulatory datasets
+  allow vocal tract synthesis to be conditioned on phonetic sequences, a primary task
+  of articulatory speech synthesis. However, quality assessment needs a better definition.
+  Generally, ranking generative models is tricky due to subjectivity. However, articulatory
+  synthesis has the additional difficulty '
+content_length: 1396
+llm_content_sent: 1396
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on articulatory speech synthesis evaluation using phoneme
+  recognition, which is orthogonal to emotional/expressive synthesis and lacks zero-shot
+  capabilities - it's a narrow technical contribution to a different subfield.

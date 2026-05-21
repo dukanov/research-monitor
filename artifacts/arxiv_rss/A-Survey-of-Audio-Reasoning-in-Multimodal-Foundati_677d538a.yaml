@@ -1,0 +1,32 @@
+title: A Survey of Audio Reasoning in Multimodal Foundation Models
+url: https://arxiv.org/abs/2605.21008
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-21T11:08:24.199830+00:00'
+date_seen: '2026-05-21'
+metadata:
+  arxiv_id: '2605.21008'
+  published: Thu, 21 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: A Survey of Audio Reasoning in Multimodal Foundation Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Reasoning has become a defining capability of modern foundation models, yet its
+  development in the audio modality remains limited. Audio poses challenges that are
+  distinct from those of text and vision. It is continuous, temporally dense, and
+  contains linguistic, paralinguistic, and environmental information at multiple time
+  scales. As a result, audio reasoning models must align acoustic signals with '
+content_length: 1709
+llm_content_sent: 1709
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is a survey paper that organizes existing work rather than introducing
+  novel technical contributions, though it may provide useful categorization of audio
+  reasoning approaches relevant to expressive speech synthesis.

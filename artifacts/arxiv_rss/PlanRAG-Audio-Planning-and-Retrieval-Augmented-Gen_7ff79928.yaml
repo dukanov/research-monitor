@@ -1,0 +1,34 @@
+title: 'PlanRAG-Audio: Planning and Retrieval Augmented Generation for Long-form Audio
+  Understanding'
+url: https://arxiv.org/abs/2605.20414
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-21T11:08:24.199667+00:00'
+date_seen: '2026-05-21'
+metadata:
+  arxiv_id: '2605.20414'
+  published: Thu, 21 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: PlanRAG-Audio: Planning and Retrieval Augmented Generation
+  for Long-form Audio Understanding
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Long-form audio understanding poses significant challenges for large audio language
+  models (LALMs) due to the extreme length of audio sequences and the need to reason
+  over heterogeneous acoustic cues distributed over time, such as speech content,
+  speaker identity, emotion, and sound events. To address these challenges, we propose
+  \textbf{PlanRAG-Audio}, a planning-base'
+content_length: 1327
+llm_content_sent: 1327
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on long-form audio understanding and retrieval rather than
+  emotional/expressive speech synthesis, and does not address zero-shot synthesis
+  capabilities.

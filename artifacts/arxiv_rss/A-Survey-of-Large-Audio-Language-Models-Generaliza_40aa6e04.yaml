@@ -1,0 +1,34 @@
+title: 'A Survey of Large Audio Language Models: Generalization, Trustworthiness,
+  and Outlook'
+url: https://arxiv.org/abs/2605.20266
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-21T11:08:24.183212+00:00'
+date_seen: '2026-05-21'
+metadata:
+  arxiv_id: '2605.20266'
+  published: Thu, 21 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: A Survey of Large Audio Language Models: Generalization,
+  Trustworthiness, and Outlook
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The foundational capabilities established by Large Language Models (LLMs) have paved
+  the way for Multimodal Large Language Models (MLLMs), within which Large Audio Language
+  Models (LALMs) are essential for realizing universal auditory intelligence. Despite
+  their remarkable performance, the escalation of LALMs'' capabilities has significantly
+  outpaced the development of systemi'
+content_length: 1931
+llm_content_sent: 1931
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is a survey paper that systematically categorizes trustworthiness issues
+  in Large Audio Language Models but introduces no novel technical approaches for
+  emotional/expressive speech synthesis or zero-shot capabilities.

@@ -1,0 +1,49 @@
+title: modernjack3/Dramabox_DiT_Sulfur
+url: https://huggingface.co/modernjack3/Dramabox_DiT_Sulfur
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-21T11:08:53.737869+00:00'
+date_seen: '2026-05-21'
+metadata:
+  likes: '2'
+  downloads: '34'
+  trending_score: '2'
+  last_modified: '2026-05-20T18:09:51.000Z'
+content_preview: '---
+
+  base_model:
+
+  - ResembleAI/Dramabox
+
+  - SulphurAI/Sulphur-2-base
+
+  - Lightricks/LTX-2.3
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - diffusers
+
+  ---
+
+  After some experimentation I managed to extract the Audio DiT Layers of Sulfur and
+  get them working in Dramabox.
+
+  The result is some added Audio generation "features" - but prompting is a bit tricky
+  and I am still figuring it out :). This is VERY much a WIP.
+
+
+  Usage:
+
+  This is a drop-in replacement for the dramabox-dit-v1.safetensors file.
+
+  When using Huggingface fo'
+content_length: 1060
+llm_content_sent: 1060
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This appears to be an ad-hoc model combination/hack rather than a principled
+  research contribution, with no clear methodology, evaluation, or novel technical
+  insights into emotional/expressive speech synthesis.

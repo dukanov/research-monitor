@@ -1,0 +1,26 @@
+title: hotdogs/omnivoice-thai
+url: https://huggingface.co/hotdogs/omnivoice-thai
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-21T11:08:53.008562+00:00'
+date_seen: '2026-05-21'
+metadata:
+  likes: '3'
+  downloads: '6'
+  trending_score: '3'
+  last_modified: '2026-05-21T04:42:14.000Z'
+content_preview: "---\nlanguage:\n  - th\n  - en\ntags:\n  - omnivoice\n  - text-to-speech\n\
+  \  - thai\n  - qwen3\n  - masked-token-prediction\nlicense: apache-2.0\nbase_model:\
+  \ k2-fsa/OmniVoice\ndatasets:\n  - Thanarit/Thai-Voice-Test7\npipeline_tag: text-to-speech\n\
+  ---\n\n\n\n# OmniVoice Thai Fine-tuned · โมเดลสังเคราะห์เสียงภาษาไทย\n\n**Created\
+  \ by [UKA](https://github.com/nanofatdog)** — AI Agent, Hacker & Cyber Security\
+  \ Expert\n\nFine-tuned OmniVoice สำหรับการสังเคราะห์เสียงภาษาไทย (Thai TTS)\n\n\
+  [![Open In Colab](https://colab.research."
+content_length: 4330
+llm_content_sent: 4330
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is a straightforward fine-tuning of an existing model (OmniVoice) for
+  Thai language with no novel technical contributions to emotional/expressive synthesis
+  or zero-shot capabilities.

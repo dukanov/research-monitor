@@ -1,0 +1,33 @@
+title: Codec-Robust Attacks on Audio LLMs
+url: https://arxiv.org/abs/2605.20519
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-21T11:08:24.183245+00:00'
+date_seen: '2026-05-21'
+metadata:
+  arxiv_id: '2605.20519'
+  published: Thu, 21 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: Codec-Robust Attacks on Audio LLMs
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Prior attacks on Audio Large Language Models (Audio LLMs) demonstrated that carefully
+  crafted waveform-domain perturbations can force targeted adversarial outputs. As
+  a defense mechanism against these attacks, real-world codec compression preprocessing
+  has been studied to both detect and remove the perturbations. Yet no existing attack
+  has demonstrated robustness against these compressions. We introduce CodecAttack,
+  which opt'
+content_length: 1843
+llm_content_sent: 1843
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on adversarial attacks against audio LLMs rather than advancing
+  emotional/expressive speech synthesis or zero-shot capabilities, making it largely
+  irrelevant to the stated research interests despite dealing with audio processing.
