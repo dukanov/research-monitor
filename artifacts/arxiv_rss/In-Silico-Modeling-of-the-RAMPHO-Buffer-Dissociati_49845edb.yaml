@@ -1,0 +1,33 @@
+title: 'In Silico Modeling of the RAMPHO Buffer: Dissociating Informational and Energetic
+  Masking via Phonetic Entropy in Deep Neural Networks'
+url: https://arxiv.org/abs/2605.22465
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-22T11:04:59.233641+00:00'
+date_seen: '2026-05-22'
+metadata:
+  arxiv_id: '2605.22465'
+  published: Fri, 22 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: In Silico Modeling of the RAMPHO Buffer: Dissociating Informational
+  and Energetic Masking via Phonetic Entropy in Deep Neural Networks
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The fundamental challenge of listening in multi-talker environments is a cognitive
+  bottleneck, defined by the Ease of Language Understanding (ELU) model as a failure
+  within the RAMPHO episodic buffer. Current deep neural networks for speech enhancement
+  optimize purely for physical acoustics, failing to account for the cognitive'
+content_length: 1293
+llm_content_sent: 1293
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on cognitive modeling of speech perception in noisy environments
+  rather than speech synthesis, and has no connection to emotional/expressive generation
+  or zero-shot capabilities.

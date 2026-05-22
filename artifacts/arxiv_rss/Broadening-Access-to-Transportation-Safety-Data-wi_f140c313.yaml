@@ -1,0 +1,33 @@
+title: 'Broadening Access to Transportation Safety Data with Generative AI: A Schema-Grounded
+  Framework for Spatial Natural Language Queries'
+url: https://arxiv.org/abs/2605.21712
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-22T11:04:59.231651+00:00'
+date_seen: '2026-05-22'
+metadata:
+  arxiv_id: '2605.21712'
+  published: Fri, 22 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Broadening Access to Transportation Safety Data with Generative
+  AI: A Schema-Grounded Framework for Spatial Natural Language Queries
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Transportation safety analysis requires integrating crash records, roadway attributes,
+  and geospatial data through GIS-based workflows, but access remains uneven across
+  agencies and community stakeholders. Technical prerequisites create a gap between
+  analytical tools central to safety planning and the practitioners able to use th'
+content_length: 2157
+llm_content_sent: 2157
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: This paper focuses on transportation safety data analysis using natural language
+  interfaces and has no connection to speech synthesis, emotional expression, or audio
+  generation.

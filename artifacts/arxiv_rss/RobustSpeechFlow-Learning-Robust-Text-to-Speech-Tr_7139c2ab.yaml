@@ -1,0 +1,35 @@
+title: 'RobustSpeechFlow: Learning Robust Text-to-Speech Trajectories via Augmentation-based
+  Contrastive Flow Matching'
+url: https://arxiv.org/abs/2605.22083
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-22T11:04:59.196866+00:00'
+date_seen: '2026-05-22'
+metadata:
+  arxiv_id: '2605.22083'
+  published: Fri, 22 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.LG, eess.AS
+content_preview: 'Title: RobustSpeechFlow: Learning Robust Text-to-Speech Trajectories
+  via Augmentation-based Contrastive Flow Matching
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  While flow-matching text-to-speech (TTS) achieves strong zero-shot speaker similarity
+  and naturalness, it remains susceptible to content fidelity issues, particularly
+  skip and repeat errors from imperfect alignment. We propose RobustSpeechFlow, a
+  training strategy that improves alignment robustness by extending contrastive flow
+  matching with length-pr'
+content_length: 1194
+llm_content_sent: 1194
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.6
+reason: The paper introduces a novel training strategy using augmentation-based contrastive
+  flow matching with length-preserving latent augmentations to improve alignment robustness
+  in zero-shot TTS, which addresses a specific technical problem but represents an
+  incremental improvement rather than a fundamental breakthrough.

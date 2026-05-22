@@ -1,0 +1,26 @@
+title: CENSORED666/scenema-audio-low-vram-mode
+url: https://huggingface.co/CENSORED666/scenema-audio-low-vram-mode
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-22T11:05:28.793157+00:00'
+date_seen: '2026-05-22'
+metadata:
+  likes: '2'
+  downloads: '61'
+  trending_score: '2'
+  last_modified: '2026-05-17T16:33:00.000Z'
+content_preview: "---\nlanguage:\n  - en\n  - de\n  - fr\n  - es\n  - it\n  - pt\n\
+  \  - ja\n  - zh\n  - ko\n  - ru\n  - ar\n  - hi\n  - sw\nlicense: other\nlicense_name:\
+  \ ltx-2-community\nlicense_link: https://github.com/Lightricks/LTX-2/blob/main/LICENSE\n\
+  tags:\n  - audio-generation\n  - diffusion\n  - text-to-audio\n  - voice-cloning\n\
+  \  - speech-generation\n  - expressive-speech\n  - voice-acting\n  - text-to-speech\n\
+  \  - low-vram\n  - windows\n  - docker\npipeline_tag: text-to-speech\nlibrary_name:\
+  \ scenema-audio\ninference: false\n---\n\n# Scenema "
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is purely an engineering optimization fork that reduces VRAM requirements
+  for existing Scenema Audio models through quantization and memory management, with
+  no novel contributions to emotional/expressive speech synthesis or zero-shot capabilities.
