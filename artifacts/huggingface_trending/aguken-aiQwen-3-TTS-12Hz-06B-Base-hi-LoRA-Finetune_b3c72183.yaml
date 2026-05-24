@@ -1,0 +1,61 @@
+title: aguken-ai/Qwen-3-TTS-12Hz-0.6B-Base-hi-LoRA-Finetuned-BNB-NF4
+url: https://huggingface.co/aguken-ai/Qwen-3-TTS-12Hz-0.6B-Base-hi-LoRA-Finetuned-BNB-NF4
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-24T10:36:46.545723+00:00'
+date_seen: '2026-05-24'
+metadata:
+  likes: '5'
+  downloads: '5'
+  trending_score: '4'
+  last_modified: '2026-05-23T14:03:42.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language: hi
+
+  base_model: Qwen/Qwen3-TTS-12Hz-0.6B-Base
+
+  pipeline_tag: text-to-speech
+
+  library_name: transformers
+
+  tags:
+
+  - audio
+
+  - text-to-speech
+
+  - tts
+
+  - voice-clone
+
+  - hindi
+
+  - qwen3-tts
+
+  - lora
+
+  - bitsandbytes
+
+  - 4-bit
+
+  - nf4
+
+  ---
+
+
+  # Qwen3-TTS-12Hz-0.6B-Base · Hindi LoRA Finetune (BitsAndBytes NF4)
+
+
+  A **Hindi (`hi`)** LoRA finetune of [`Qwen/Qwen3-TTS-12Hz-0.6B-Base`](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base),
+  with the LoRA adapter merged into the base weights and the '
+content_length: 4992
+llm_content_sent: 4992
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is merely a language adaptation of an existing TTS model using standard
+  LoRA fine-tuning and quantization techniques, with no novel contributions to emotional/expressive
+  speech synthesis or zero-shot capabilities.

@@ -1,0 +1,129 @@
+title: FluidInference/supertonic-3-coreml
+url: https://huggingface.co/FluidInference/supertonic-3-coreml
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-24T10:36:48.513477+00:00'
+date_seen: '2026-05-24'
+metadata:
+  likes: '2'
+  downloads: '78'
+  trending_score: '2'
+  last_modified: '2026-05-17T16:35:25.000Z'
+content_preview: '---
+
+  license: openrail++
+
+  track_downloads: true
+
+  language:
+
+  - en
+
+  - ko
+
+  - ja
+
+  - ar
+
+  - bg
+
+  - cs
+
+  - da
+
+  - de
+
+  - el
+
+  - es
+
+  - et
+
+  - fi
+
+  - fr
+
+  - hi
+
+  - hr
+
+  - hu
+
+  - id
+
+  - it
+
+  - lt
+
+  - lv
+
+  - nl
+
+  - pl
+
+  - pt
+
+  - ro
+
+  - ru
+
+  - sk
+
+  - sl
+
+  - sv
+
+  - tr
+
+  - uk
+
+  - vi
+
+  pipeline_tag: text-to-speech
+
+  library_name: coreml
+
+  datasets: []
+
+  thumbnail: null
+
+  tags:
+
+  - text-to-speech
+
+  - speech
+
+  - audio
+
+  - tts
+
+  - coreml
+
+  - ane
+
+  - apple-silicon
+
+  - flow-matching
+
+  - diffusion
+
+  - multilingual
+
+  - supertonic
+
+  base_model:
+
+  - Supertone/supertonic-3
+
+  ---
+
+
+  # **<span style="color:#5DAF8D"> 🧃 '
+content_length: 9113
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.2
+reason: This is merely a platform conversion of an existing model (Supertone Supertonic-3)
+  to CoreML format with no novel contributions to emotional/expressive speech synthesis
+  or zero-shot capabilities.
