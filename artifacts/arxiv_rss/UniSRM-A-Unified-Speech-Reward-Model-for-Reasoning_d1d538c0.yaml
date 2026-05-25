@@ -1,0 +1,33 @@
+title: 'UniSRM: A Unified Speech Reward Model for Reasoning-Based Fine-grained Assessment'
+url: https://arxiv.org/abs/2605.23261
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-25T11:26:13.298066+00:00'
+date_seen: '2026-05-25'
+metadata:
+  arxiv_id: '2605.23261'
+  published: Mon, 25 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: UniSRM: A Unified Speech Reward Model for Reasoning-Based
+  Fine-grained Assessment
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Evaluating speech generation still relies heavily on human judgments, such as Mean
+  Opinion Score (MOS), which are expensive, subjective, and difficult to reproduce
+  at scale. While a few recent studies have begun to explore AudioLLM-based judge
+  models, existing efforts typically target only a narrow set of scenarios (e.g.,
+  utterance-level quality or single-turn dialogue) and provi'
+content_length: 1475
+llm_content_sent: 1475
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a unified reward model for multi-dimensional speech evaluation
+  with reasoning capabilities, which could advance automatic assessment of expressive
+  speech synthesis quality beyond traditional MOS scoring.

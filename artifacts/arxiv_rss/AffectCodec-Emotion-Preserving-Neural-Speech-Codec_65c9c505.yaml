@@ -1,0 +1,35 @@
+title: 'AffectCodec: Emotion-Preserving Neural Speech Codec with Block-Diagonal Residual
+  FSQ'
+url: https://arxiv.org/abs/2605.23373
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-25T11:26:13.298042+00:00'
+date_seen: '2026-05-25'
+metadata:
+  arxiv_id: '2605.23373'
+  published: Mon, 25 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: AffectCodec: Emotion-Preserving Neural Speech Codec with
+  Block-Diagonal Residual FSQ
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Neural speech codecs have become the discrete interface between raw audio and speech
+  language models, yet they remain optimized primarily for acoustic reconstruction
+  fidelity, which leaves emotion-relevant cues vulnerable to being discarded during
+  quantization, limiting the affective capacity of downstream models. We trace this
+  degradation to two mechanisms: reconstruction-dri'
+content_length: 1813
+llm_content_sent: 1813
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.8
+reason: Introduces a novel block-diagonal residual quantization architecture that
+  explicitly separates emotion and acoustic subspaces during compression, addressing
+  a fundamental limitation in neural speech codecs where emotional information is
+  lost during reconstruction-optimized quantization.

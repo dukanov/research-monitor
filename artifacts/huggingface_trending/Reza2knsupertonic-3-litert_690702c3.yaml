@@ -1,0 +1,88 @@
+title: Reza2kn/supertonic-3-litert
+url: https://huggingface.co/Reza2kn/supertonic-3-litert
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-25T11:26:48.725574+00:00'
+date_seen: '2026-05-25'
+metadata:
+  likes: '2'
+  downloads: '134'
+  trending_score: '2'
+  last_modified: '2026-05-20T02:06:18.000Z'
+content_preview: '---
+
+  license: openrail
+
+  language:
+
+  - en
+
+  - ja
+
+  - zh
+
+  - ko
+
+  - es
+
+  - fr
+
+  - de
+
+  - multilingual
+
+  library_name: ai-edge-litert
+
+  tags:
+
+  - litert
+
+  - tflite
+
+  - tensorflow-lite
+
+  - text-to-speech
+
+  - tts
+
+  - audio
+
+  - diffusion
+
+  - flow-matching
+
+  - on-device
+
+  - mobile
+
+  - android
+
+  - int4
+
+  - int8
+
+  - weight-only-quantization
+
+  - quantized
+
+  pipeline_tag: text-to-speech
+
+  base_model: Supertone/supertonic-3
+
+  base_model_relation: quantized
+
+  ---
+
+
+  # Supertonic-3 — LiteRT (.tflite, INT4) + ONNX vector_estimator
+
+
+  LiteRT / TensorFlow Lite conversion of '
+content_length: 5821
+llm_content_sent: 5821
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is purely an engineering optimization (model quantization and mobile
+  deployment) of an existing TTS model without any novel contributions to emotional/expressive
+  speech synthesis or zero-shot capabilities.

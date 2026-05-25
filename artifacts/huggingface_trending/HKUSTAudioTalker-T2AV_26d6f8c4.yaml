@@ -1,0 +1,62 @@
+title: HKUSTAudio/Talker-T2AV
+url: https://huggingface.co/HKUSTAudio/Talker-T2AV
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-25T11:26:46.386549+00:00'
+date_seen: '2026-05-25'
+metadata:
+  likes: '4'
+  downloads: '0'
+  trending_score: '4'
+  last_modified: '2026-05-25T07:25:12.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - zh
+
+  - en
+
+  tags:
+
+  - talking-head
+
+  - text-to-video
+
+  - audio-video-generation
+
+  - autoregressive
+
+  - diffusion
+
+  library_name: transformers
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  # Talker-T2AV
+
+
+  **Joint Talking Audio-Video Generation with Autoregressive Diffusion Modeling**
+
+
+  [Paper (arXiv 2604.23586)](https://arxiv.org/abs/2604.23586) ·
+
+  [Code (GitHub)](https://github.com/zhenye234/Talker-T2AV) ·
+
+  [Samples](https://talker-t2av.github.io/)
+
+
+  This repository hosts the pretrained weigh'
+content_length: 2724
+llm_content_sent: 2724
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on talking head video generation rather than emotional/expressive
+  speech synthesis, and lacks clear zero-shot capabilities for emotion/expression
+  control.

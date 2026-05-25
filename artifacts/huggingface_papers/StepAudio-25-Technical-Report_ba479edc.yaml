@@ -1,0 +1,31 @@
+title: StepAudio 2.5 Technical Report
+url: https://huggingface.co/papers/2605.23463
+source: huggingface_papers
+type: paper
+date_discovered: '2026-05-25T11:26:41.562861+00:00'
+date_seen: '2026-05-25'
+metadata:
+  upvotes: '30'
+  paper_id: '2605.23463'
+  published_date: '2026-05-25'
+content_preview: 'Title: StepAudio 2.5 Technical Report
+
+
+  Summary:
+
+  Unified audio-language modeling has emerged as a prominent trend in modern speech
+  systems, promising to bring the reasoning capabilities of large language models
+  to auditory tasks. However, existing unified foundations often struggle to match
+  the depth of specialized systems across automatic speech recognition (ASR), text-to-speech
+  synthesis (TTS), and realtime spoken interaction. Bridging this gap remains an open
+  challenge. This report presents St'
+content_length: 1943
+llm_content_sent: 1943
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The paper introduces a novel RLHF-centric approach to unify ASR, TTS, and
+  real-time interaction in a single foundation model, with the TTS branch specifically
+  achieving controllable expressive synthesis through preference-based RLHF, which
+  represents a meaningful advancement in unified audio-language modeling for speech
+  synthesis.

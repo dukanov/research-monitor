@@ -1,0 +1,34 @@
+title: 'Natural Yet Challenging to Detect: Robust In-the-Wild TTS through EMA and
+  Dual-Scoring Prompt Selection -- Submission for WildSpoof 2026 TTS Track'
+url: https://arxiv.org/abs/2605.23859
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-25T11:26:13.309503+00:00'
+date_seen: '2026-05-25'
+metadata:
+  arxiv_id: '2605.23859'
+  published: Mon, 25 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Natural Yet Challenging to Detect: Robust In-the-Wild TTS
+  through EMA and Dual-Scoring Prompt Selection -- Submission for WildSpoof 2026 TTS
+  Track
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In this technical report, we describe our submission for the WildSpoof Challenge
+  TTS Track: Text-to-Speech with In-the-Wild Data. We introduce F5-TTS-DPS, a model
+  built upon the F5-TTS architecture. Our approach integrates Exponential Moving Average
+  (EMA) into supervised fine-tuning to stabilize training and improve'
+content_length: 1471
+llm_content_sent: 1471
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is primarily an engineering submission for a challenge track that combines
+  existing techniques (EMA stabilization and LLM-based prompt filtering) without introducing
+  novel approaches for emotional/expressive synthesis or zero-shot capabilities.

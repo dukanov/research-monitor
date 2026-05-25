@@ -1,0 +1,34 @@
+title: 'CoSPlay: Cooperative Self-Play at Test-Time with Self-Generated Code and Unit
+  Test'
+url: https://arxiv.org/abs/2605.23491
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-25T11:26:13.336732+00:00'
+date_seen: '2026-05-25'
+metadata:
+  arxiv_id: '2605.23491'
+  published: Mon, 25 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.LG, cs.AI, cs.CL
+content_preview: 'Title: CoSPlay: Cooperative Self-Play at Test-Time with Self-Generated
+  Code and Unit Test
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recently, Reinforcement Learning with Verifiable Rewards (RLVR) and Test-Time Scaling
+  (TTS) have advanced LLM code generation through executable verification. Yet Ground-Truth
+  Unit Tests (GT UTs) remain a bottleneck: SOTA RLVR methods require them for costly
+  training, while existing TTS methods lose competitiveness without them. This motivates
+  GT-free TTS, where existing methods'
+content_length: 2051
+llm_content_sent: 2051
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.0
+reason: This paper focuses on code generation and unit testing for programming tasks,
+  which is completely unrelated to emotional/expressive speech synthesis or zero-shot
+  speech capabilities.

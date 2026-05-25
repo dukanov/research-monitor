@@ -1,0 +1,34 @@
+title: StepAudio 2.5 Technical Report
+url: https://arxiv.org/abs/2605.23463
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-25T11:26:13.309452+00:00'
+date_seen: '2026-05-25'
+metadata:
+  arxiv_id: '2605.23463'
+  published: Mon, 25 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: StepAudio 2.5 Technical Report
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Unified audio-language modeling has emerged as a prominent trend in modern speech
+  systems, promising to bring the reasoning capabilities of large language models
+  to auditory tasks. However, existing unified foundations often struggle to match
+  the depth of specialized systems across automatic speech recognition (ASR), text-to-speech
+  synthesis (TTS), and realtime spoken interaction. Bridging this gap remains an open
+  challenge. This'
+content_length: 2025
+llm_content_sent: 2025
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The unified audio-language foundation model with task-tailored RLHF for specializing
+  a shared backbone into distinct operational modes (ASR, TTS, realtime dialogue)
+  represents a meaningful architectural advancement, though the core concept of unified
+  multimodal models is not entirely novel.
