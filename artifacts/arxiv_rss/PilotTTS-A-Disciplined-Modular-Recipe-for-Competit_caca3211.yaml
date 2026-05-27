@@ -1,0 +1,33 @@
+title: 'PilotTTS: A Disciplined Modular Recipe for Competitive Speech Synthesis'
+url: https://arxiv.org/abs/2605.27258
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-27T11:16:50.311197+00:00'
+date_seen: '2026-05-27'
+metadata:
+  arxiv_id: '2605.27258'
+  published: Wed, 27 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: PilotTTS: A Disciplined Modular Recipe for Competitive Speech
+  Synthesis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Building state-of-the-art text-to-speech (TTS) systems typically demands millions
+  of hours of proprietary data and complex multi-stage architectures, creating substantial
+  barriers for resource-constrained research teams. In this report, we present PilotTTS,
+  a lightweight autoregressive TTS system that achieves competitive performance through
+  minimalist architecture and rigorous data engine'
+content_length: 1561
+llm_content_sent: 1561
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces Q-Former-based conditioning to decouple speaker identity from speaking
+  style via cross-sample paired training, enabling unified zero-shot voice cloning
+  and emotional synthesis with competitive results on minimal data.

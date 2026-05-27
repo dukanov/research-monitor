@@ -1,0 +1,33 @@
+title: Attribute-Based Diagnosis of LLM Alignment with Hate Speech Annotations
+url: https://arxiv.org/abs/2605.27025
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-27T11:16:50.367106+00:00'
+date_seen: '2026-05-27'
+metadata:
+  arxiv_id: '2605.27025'
+  published: Wed, 27 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.MM
+content_preview: 'Title: Attribute-Based Diagnosis of LLM Alignment with Hate Speech
+  Annotations
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Hate speech annotation is costly, subjective, and prone to annotator disagreement,
+  making large-scale dataset construction challenging. We systematically analyze how
+  well large language models (LLMs) align with human judgments across ten theoretically
+  grounded subjective attributes, such as dehumanization, violence, and sentiment,
+  evaluating both small and large variants of Llama 3.1 and Q'
+content_length: 1373
+llm_content_sent: 1373
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on hate speech detection and LLM alignment rather than emotional/expressive
+  speech synthesis, making it irrelevant to the specified research interests despite
+  some methodological novelty in attribute-based analysis.

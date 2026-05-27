@@ -1,0 +1,34 @@
+title: 'CFMDCTCodec: A Low-Bitrate Neural Speech Codec with Noise-Prior-aware Conditional
+  Flow Matching for MDCT-Spectral Enhancement'
+url: https://arxiv.org/abs/2605.26812
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-27T11:16:50.326370+00:00'
+date_seen: '2026-05-27'
+metadata:
+  arxiv_id: '2605.26812'
+  published: Wed, 27 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: CFMDCTCodec: A Low-Bitrate Neural Speech Codec with Noise-Prior-aware
+  Conditional Flow Matching for MDCT-Spectral Enhancement
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  High-quality speech coding at low bitrates is crucial for bandwidth-constrained
+  applications, yet remains challenging due to the severe loss of quality-critical
+  information in highly compressed representations. To overcome this challenge, we
+  propose CFMDCTCodec, a low-bitrate neural speech codec that operates entirely in
+  the modified di'
+content_length: 1890
+llm_content_sent: 1890
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on low-bitrate speech compression/coding rather than emotional
+  or expressive speech synthesis, and does not address zero-shot capabilities for
+  generating expressive speech.

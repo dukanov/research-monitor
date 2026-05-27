@@ -1,0 +1,34 @@
+title: 'FalAR: A Large-scale Speaker-Annotated European Portuguese Speech Corpus of
+  Parliamentary Sessions'
+url: https://arxiv.org/abs/2605.27062
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-27T11:16:50.367306+00:00'
+date_seen: '2026-05-27'
+metadata:
+  arxiv_id: '2605.27062'
+  published: Wed, 27 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.LG
+content_preview: 'Title: FalAR: A Large-scale Speaker-Annotated European Portuguese
+  Speech Corpus of Parliamentary Sessions
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  State-of-the-art performance for Automatic Speech Recognition (ASR) largely depends
+  on the availability of large-scale labeled corpora. This creates a demand for increased
+  data collection efforts, particularly for under-represented languages and dialectal
+  varieties. Due to having considerably fewer speakers (around 11 million), European
+  Portuguese (EP) is oversha'
+content_length: 1712
+llm_content_sent: 1712
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is a corpus creation paper for European Portuguese ASR with no connection
+  to emotional/expressive speech synthesis or zero-shot capabilities - it's purely
+  about data collection for standard ASR applications.

@@ -1,0 +1,30 @@
+title: 'Share More, Search Less: Collaborative Parallel Thinking for Efficient Test-Time
+  Scaling'
+url: https://huggingface.co/papers/2605.27030
+source: huggingface_papers
+type: paper
+date_discovered: '2026-05-27T11:17:17.017997+00:00'
+date_seen: '2026-05-27'
+metadata:
+  upvotes: '18'
+  paper_id: '2605.27030'
+  published_date: '2026-05-27'
+content_preview: 'Title: Share More, Search Less: Collaborative Parallel Thinking
+  for Efficient Test-Time Scaling
+
+
+  Summary:
+
+  Test-Time Scaling (TTS) enhances the reasoning capabilities of large language models
+  by allocating additional inference compute to explore the solution space. However,
+  existing parallel TTS methods typically keep branches isolated during search: intermediate
+  discoveries remain branch-private and cannot guide other branches in time. This
+  information isolation causes substantial redundant expl'
+content_length: 1478
+llm_content_sent: 1478
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on test-time scaling for large language model reasoning
+  tasks, which is completely unrelated to emotional/expressive speech synthesis or
+  zero-shot speech generation capabilities.

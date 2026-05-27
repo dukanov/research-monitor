@@ -1,0 +1,34 @@
+title: 'Semantic Gradients Interactions in SSD: A Case Study in Racial Identity and
+  Hate Speech'
+url: https://arxiv.org/abs/2605.27322
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-27T11:16:50.368486+00:00'
+date_seen: '2026-05-27'
+metadata:
+  arxiv_id: '2605.27322'
+  published: Wed, 27 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Semantic Gradients Interactions in SSD: A Case Study in Racial
+  Identity and Hate Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We introduce interaction SSD, an extension of Supervised Semantic Differential that
+  models how semantic meaning varies across moderators such as groups, traits, or
+  conditions making this variation testable and interpretable. The method estimates
+  a main semantic gradient, an interaction gradient, and conditional gradients, all
+  interpretable through standard SSD tools. We ill'
+content_length: 1121
+llm_content_sent: 1121
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on semantic analysis of hate speech annotations and does
+  not address speech synthesis, emotional expression, or zero-shot capabilities in
+  audio generation.

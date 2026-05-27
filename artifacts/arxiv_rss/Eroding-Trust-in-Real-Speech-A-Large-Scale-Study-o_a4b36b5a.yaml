@@ -1,0 +1,33 @@
+title: 'Eroding Trust in Real Speech: A Large-Scale Study of Human Audio Deepfake
+  Perception'
+url: https://arxiv.org/abs/2605.26136
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-27T11:16:50.311060+00:00'
+date_seen: '2026-05-27'
+metadata:
+  arxiv_id: '2605.26136'
+  published: Wed, 27 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: Eroding Trust in Real Speech: A Large-Scale Study of Human
+  Audio Deepfake Perception
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Audio deepfakes have improved rapidly recently, yet their effect on human trust
+  in real speech remains unstudied. We present the largest listening study on audio
+  deepfake perception to date, collecting 35,532 judgments from 1,768 participants
+  across 138 text-to-speech and voice conversion systems. Our central finding is a
+  skepticism shift: compared to a 2021 baseline, human ac'
+content_length: 1275
+llm_content_sent: 1275
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is a perceptual study on deepfake detection rather than a technical contribution
+  to emotional/expressive speech synthesis or zero-shot capabilities.

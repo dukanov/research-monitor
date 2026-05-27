@@ -1,0 +1,30 @@
+title: 'CoSPlay: Cooperative Self-Play at Test-Time with Self-Generated Code and Unit
+  Test'
+url: https://huggingface.co/papers/2605.23491
+source: huggingface_papers
+type: paper
+date_discovered: '2026-05-27T11:17:17.254843+00:00'
+date_seen: '2026-05-27'
+metadata:
+  upvotes: '5'
+  paper_id: '2605.23491'
+  published_date: '2026-05-26'
+content_preview: 'Title: CoSPlay: Cooperative Self-Play at Test-Time with Self-Generated
+  Code and Unit Test
+
+
+  Summary:
+
+  Recently, Reinforcement Learning with Verifiable Rewards (RLVR) and Test-Time Scaling
+  (TTS) have advanced LLM code generation through executable verification. Yet Ground-Truth
+  Unit Tests (GT UTs) remain a bottleneck: SOTA RLVR methods require them for costly
+  training, while existing TTS methods lose competitiveness without them. This motivates
+  GT-free TTS, where existing methods directly use self-'
+content_length: 1957
+llm_content_sent: 1957
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This paper focuses on code generation and unit testing for programming tasks,
+  which is completely unrelated to emotional/expressive speech synthesis or zero-shot
+  speech capabilities.

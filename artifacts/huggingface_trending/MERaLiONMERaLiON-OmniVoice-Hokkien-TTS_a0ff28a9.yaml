@@ -1,0 +1,26 @@
+title: MERaLiON/MERaLiON-OmniVoice-Hokkien-TTS
+url: https://huggingface.co/MERaLiON/MERaLiON-OmniVoice-Hokkien-TTS
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-27T11:17:19.951949+00:00'
+date_seen: '2026-05-27'
+metadata:
+  likes: '2'
+  downloads: '288'
+  trending_score: '2'
+  last_modified: '2026-05-24T08:38:09.000Z'
+content_preview: "---\nlicense: other\nlicense_name: meralion-public-license-v3\n\
+  license_link: https://huggingface.co/MERaLiON/MERaLiON-OmniVoice-Hokkien-TTS/blob/main/MERaLiON-Public-Licence-v3.pdf\n\
+  language:\n  - nan\n  - zh\ntags:\n  - text-to-speech\n  - tts\n  - hokkien\n  -\
+  \ southern-min\n  - singapore\n  - voice-cloning\nlibrary_name: omnivoice\npipeline_tag:\
+  \ text-to-speech\n---\n\n<h1 align=\"center\">\U0001F525 MERaLiON-TTS \U0001F525\
+  </h1>\n\n<p align=\"center\">\n  <a href=\"https://huggingface.co/MERaLiON/MERaLiON-OmniVoice-Hokkien-TTS\"\
+  >\U0001F680 MERaLiO"
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is a fine-tuned model for Hokkien TTS using existing techniques (SFT
+  + GRPO on OmniVoice) without novel approaches to emotional/expressive synthesis
+  or zero-shot capabilities beyond basic voice cloning.

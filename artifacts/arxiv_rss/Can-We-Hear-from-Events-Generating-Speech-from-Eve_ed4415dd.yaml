@@ -1,0 +1,33 @@
+title: Can We Hear from Events? Generating Speech from Event Camera
+url: https://arxiv.org/abs/2605.26672
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-27T11:16:50.311347+00:00'
+date_seen: '2026-05-27'
+metadata:
+  arxiv_id: '2605.26672'
+  published: Wed, 27 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.MM, cs.SD
+content_preview: 'Title: Can We Hear from Events? Generating Speech from Event Camera
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Traditional RGB-based speech generation faces Temporal Granularity Mismatch since
+  fixed camera exposure times inevitably blur the high-frequency articulatory transients
+  essential for rendering emotional speech. To break this ceiling, we propose EventSpeech
+  as a novel text-conditioned framework pioneering the use of neuromorphic events
+  for expressive speech generation, since these microsecond-precise '
+content_length: 1416
+llm_content_sent: 1416
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.85
+reason: This introduces a genuinely novel approach using neuromorphic event cameras
+  for expressive speech synthesis, addressing temporal granularity limitations of
+  RGB-based methods with microsecond-precise visual events that better capture articulatory
+  dynamics for emotional speech generation.

@@ -1,0 +1,35 @@
+title: 'CosyEdit2: Speech-Editing-Oriented Reinforcement Learning Unlocks Better Zero-Shot
+  TTS'
+url: https://arxiv.org/abs/2605.25930
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-27T11:16:50.311603+00:00'
+date_seen: '2026-05-27'
+metadata:
+  arxiv_id: '2605.25930'
+  published: Wed, 27 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: CosyEdit2: Speech-Editing-Oriented Reinforcement Learning
+  Unlocks Better Zero-Shot TTS
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech editing and zero-shot Text-to-Speech (TTS) share a similar generative foundation
+  conditioned on speech prompts, yet speech editing demands far stricter local acoustic
+  consistency with surrounding unedited content. While prior work has shown that Supervised
+  Fine-Tuning (SFT) enables TTS models to acquire functional editing capability, this
+  approach remains fundamentall'
+content_length: 1228
+llm_content_sent: 1228
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel two-stage post-training framework using Group Relative
+  Policy Optimization for speech editing that simultaneously improves zero-shot TTS,
+  revealing an interesting bidirectional relationship between editing and synthesis
+  tasks.

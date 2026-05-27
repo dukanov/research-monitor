@@ -1,0 +1,34 @@
+title: 'ParsVoice: A Large-Scale Multi-Speaker Persian Speech Corpus for Text-to-Speech
+  Synthesis'
+url: https://arxiv.org/abs/2510.10774
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-27T11:16:50.311467+00:00'
+date_seen: '2026-05-27'
+metadata:
+  arxiv_id: '2510.10774'
+  published: Wed, 27 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI, cs.HC, cs.LG
+content_preview: 'Title: ParsVoice: A Large-Scale Multi-Speaker Persian Speech Corpus
+  for Text-to-Speech Synthesis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Persian remains substantially underrepresented in open speech-text resources, limiting
+  progress in multi-speaker text-to-speech (TTS), speech-language modelling, and low-resource
+  speech processing. We introduce ParsVoice, the largest publicly available Persian
+  speech-text corpus tailored for training multi-speaker TTS systems, along with a
+  scalable pipeline to construct h'
+content_length: 1503
+llm_content_sent: 1503
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.4
+reason: While this contributes a valuable large-scale Persian dataset and demonstrates
+  zero-shot TTS capabilities, it primarily applies existing methods (XTTS fine-tuning)
+  rather than introducing novel approaches for emotional/expressive speech synthesis.

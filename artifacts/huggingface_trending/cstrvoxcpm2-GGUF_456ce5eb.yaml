@@ -1,0 +1,113 @@
+title: cstr/voxcpm2-GGUF
+url: https://huggingface.co/cstr/voxcpm2-GGUF
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-27T11:17:19.914277+00:00'
+date_seen: '2026-05-27'
+metadata:
+  likes: '2'
+  downloads: '434'
+  trending_score: '2'
+  last_modified: '2026-05-17T21:30:18.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - en
+
+  - zh
+
+  - ja
+
+  - ko
+
+  - de
+
+  - fr
+
+  - es
+
+  - pt
+
+  - it
+
+  - nl
+
+  - ru
+
+  - ar
+
+  - hi
+
+  - vi
+
+  - th
+
+  - id
+
+  - ms
+
+  - tl
+
+  - tr
+
+  - pl
+
+  - cs
+
+  - sv
+
+  - da
+
+  - no
+
+  - fi
+
+  - el
+
+  - he
+
+  - uk
+
+  - ro
+
+  tags:
+
+  - tts
+
+  - text-to-speech
+
+  - speech-synthesis
+
+  - gguf
+
+  - crispasr
+
+  base_model: openbmb/VoxCPM2
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  # VoxCPM2 GGUF
+
+
+  GGUF conversion of [openbmb/VoxCPM2](https://huggingface.co/openbmb/VoxCPM2) for
+  use with [CrispASR](https://github.com/CrispStrobe/CrispASR).
+
+
+  ## Model Details
+
+
+  - **Architectur'
+content_length: 3387
+llm_content_sent: 3387
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is merely a GGUF format conversion of an existing model (VoxCPM2) for
+  a specific inference engine, with no scientific novelty in emotional/expressive
+  synthesis or zero-shot capabilities.
