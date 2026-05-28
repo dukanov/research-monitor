@@ -1,0 +1,32 @@
+title: Building Community-Centred NLP Resources for Puno Quechua
+url: https://arxiv.org/abs/2605.28253
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-28T11:16:56.330919+00:00'
+date_seen: '2026-05-28'
+metadata:
+  arxiv_id: '2605.28253'
+  published: Thu, 28 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.DB, cs.HC
+content_preview: 'Title: Building Community-Centred NLP Resources for Puno Quechua
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  The preservation of under-resourced languages requires digital tools and resources
+  shaped by and for their speakers. We present the first dedicated ASR resources for
+  Puno Quechua (ISO 639-3: qxp): (1) the largest speech corpus for any single Quechua
+  variety, consisting in 66 hours of recordings for scripted and spontaneous speech
+  (including 36 hours of manually transcribed and validated data), collected'
+content_length: 894
+llm_content_sent: 894
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on automatic speech recognition (ASR) for an under-resourced
+  language rather than speech synthesis, and does not address emotional/expressive
+  capabilities or zero-shot synthesis methods.

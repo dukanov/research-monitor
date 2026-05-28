@@ -1,0 +1,33 @@
+title: Comprehensive Benchmarking of Long-Form Speech Generation in Diverse Scenarios
+url: https://arxiv.org/abs/2605.28618
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-28T11:16:56.294186+00:00'
+date_seen: '2026-05-28'
+metadata:
+  arxiv_id: '2605.28618'
+  published: Thu, 28 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Comprehensive Benchmarking of Long-Form Speech Generation
+  in Diverse Scenarios
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advances in speech generation have enabled high-fidelity synthesis, yet systematic
+  evaluation of models under long-context conditions remains largely underexplored.
+  A comprehensive evaluation benchmark for long-form speech is indispensable for two
+  reasons: 1) existing test scenarios are often confined to limited domains, creating
+  a significant gap with the diverse downstream '
+content_length: 1601
+llm_content_sent: 1601
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel comprehensive benchmark specifically designed for long-form
+  speech generation with systematic evaluation across acoustics, semantics, and expressiveness
+  dimensions, addressing a significant gap in current evaluation methodologies.

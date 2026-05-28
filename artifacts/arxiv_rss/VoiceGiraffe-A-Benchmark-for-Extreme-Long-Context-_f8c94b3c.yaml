@@ -1,0 +1,33 @@
+title: 'VoiceGiraffe: A Benchmark for Extreme Long-Context Audio-Language Understanding'
+url: https://arxiv.org/abs/2605.27976
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-28T11:16:56.274999+00:00'
+date_seen: '2026-05-28'
+metadata:
+  arxiv_id: '2605.27976'
+  published: Thu, 28 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: VoiceGiraffe: A Benchmark for Extreme Long-Context Audio-Language
+  Understanding
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  While large audio language models (LALMs) have achieved remarkable progress in audio
+  processing at the second- or minute-level scale, understanding hour-level audio
+  remains a fundamental bottleneck. Existing benchmarks predominantly rely on short
+  clips or artificially concatenated segments, failing to faithfully assess LALM capacity
+  for long-range information comprehension in real-'
+content_length: 1997
+llm_content_sent: 1997
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on audio understanding and comprehension benchmarks rather
+  than speech synthesis, and does not address emotional/expressive synthesis or zero-shot
+  generation capabilities.

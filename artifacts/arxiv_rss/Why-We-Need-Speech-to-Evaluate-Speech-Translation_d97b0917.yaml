@@ -1,0 +1,31 @@
+title: Why We Need Speech to Evaluate Speech Translation
+url: https://arxiv.org/abs/2605.28227
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-28T11:16:56.330835+00:00'
+date_seen: '2026-05-28'
+metadata:
+  arxiv_id: '2605.28227'
+  published: Thu, 28 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Why We Need Speech to Evaluate Speech Translation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech translation models are increasingly capable of preserving speech-specific
+  information (e.g., speaker gender, prosody, and emphasis), yet evaluation metrics
+  remain blind to such phenomena. We meta-evaluate both text- and speech-based quality
+  estimation metrics on two contrastive datasets targeting gender agreement and prosody,
+  and find that both fall short, even when given direct access to the speech sign'
+content_length: 1243
+llm_content_sent: 1243
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on evaluation metrics for speech translation rather than
+  synthesis, and doesn't address zero-shot emotional/expressive synthesis capabilities.

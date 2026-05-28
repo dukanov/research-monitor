@@ -1,0 +1,34 @@
+title: 'KVoiceBench, KOpenAudioBench, and KMMAU: Agent-Driven Korean Speech Benchmarks
+  for Evaluating SpeechLMs'
+url: https://arxiv.org/abs/2605.27984
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-28T11:16:56.329051+00:00'
+date_seen: '2026-05-28'
+metadata:
+  arxiv_id: '2605.27984'
+  published: Thu, 28 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI
+content_preview: 'Title: KVoiceBench, KOpenAudioBench, and KMMAU: Agent-Driven Korean
+  Speech Benchmarks for Evaluating SpeechLMs
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech language models (SpeechLMs) have achieved substantial progress by extending
+  large language models (LLMs) to the speech modality. However, SpeechLM evaluation
+  remains heavily centered on English, limiting reliable assessment of multilingual
+  speech capabilities. Straightforward benchmark transfer through ASR, translation,
+  normalization, and TTS can corr'
+content_length: 1624
+llm_content_sent: 1624
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on Korean speech benchmarking and evaluation rather than
+  advancing emotional/expressive speech synthesis or zero-shot capabilities, offering
+  only incremental contribution to benchmark methodology without novel synthesis techniques.

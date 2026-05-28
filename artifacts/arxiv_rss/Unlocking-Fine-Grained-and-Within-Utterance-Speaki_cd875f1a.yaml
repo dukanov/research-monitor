@@ -1,0 +1,35 @@
+title: Unlocking Fine-Grained and Within-Utterance Speaking Style Control in Prompt-Based
+  Text-to-Speech Models
+url: https://arxiv.org/abs/2605.27376
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-28T11:16:56.326834+00:00'
+date_seen: '2026-05-28'
+metadata:
+  arxiv_id: '2605.27376'
+  published: Thu, 28 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI
+content_preview: 'Title: Unlocking Fine-Grained and Within-Utterance Speaking Style
+  Control in Prompt-Based Text-to-Speech Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  While prompt-based text-to-speech (TTS) models enable natural language-driven speaking
+  style control, they often provide limited fine-grained control and apply a single
+  global style across an utterance. This restricts practical use cases that require
+  continuous style attribute interpolation across utterances and time-varying style
+  transitions within a singl'
+content_length: 1566
+llm_content_sent: 1566
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces novel techniques for fine-grained style control including inter-utterance
+  interpolation via embedding space direction vectors and intra-utterance transitions
+  using KV-cache swapping and sliding-window attention masking, addressing practical
+  limitations in existing prompt-based TTS models.

@@ -1,0 +1,49 @@
+title: mlx-community/supertonic-3
+url: https://huggingface.co/mlx-community/supertonic-3
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-28T11:17:26.759329+00:00'
+date_seen: '2026-05-28'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-05-26T10:37:34.000Z'
+content_preview: '---
+
+  license: openrail
+
+  base_model: Supertone/supertonic-3
+
+  library_name: mlx
+
+  tags:
+
+  - mlx
+
+  - text-to-speech
+
+  - on-device
+
+  - audio
+
+  ---
+
+
+  # Supertonic 3 MLX
+
+
+  This repository contains a community MLX conversion of [`Supertone/supertonic-3`](https://huggingface.co/Supertone/supertonic-3).
+
+
+  The original ONNX graphs are converted into JSON topology plus NPZ initializers.
+  Inference is executed with MLX arrays through the Supertonic-specific graph runtime
+  in [`ailuntx/supertonic`](https://github.com/ailuntx/su'
+content_length: 9825
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.3
+reason: This is primarily a platform conversion (ONNX to MLX) of an existing TTS model
+  with zero-shot voice cloning capabilities, offering no scientific novelty but demonstrating
+  practical deployment optimization.

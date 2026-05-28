@@ -1,0 +1,26 @@
+title: SPRINGLab/Indic-Mio
+url: https://huggingface.co/SPRINGLab/Indic-Mio
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-28T11:17:25.478869+00:00'
+date_seen: '2026-05-28'
+metadata:
+  likes: '4'
+  downloads: '99'
+  trending_score: '4'
+  last_modified: '2026-05-27T08:23:38.000Z'
+content_preview: "---\nlanguage:\n- hi\n- bn\n- mr\n- te\n- kn\n- mai\n- as\n- brx\n\
+  - doi\n- gu\n- ml\n- pa\n- ta\n- ne\n- sa\n- sat\n- sd\n- or\n- mni\n- ks\n- kok\n\
+  - ur\n- en\nbase_model: Aratako/MioTTS-0.6B\nlibrary_name: transformers\nmodel_name:\
+  \ Indic-Mio\npipeline_tag: text-to-speech\ntags:\n- speech\n- tts\n- voice\ndatasets:\n\
+  - ai4bharat/Rasa\n- mythicinfinity/libritts_r\n- ylacombe/expresso\nwidget:\n- text:\
+  \ >-\n    प्लान तो बढ़िया है, but wait... Have you checked the hotel bookings? Last\n\
+  \    minute पे रूम मिलना is next to impossible on weeke"
+content_length: 4808
+llm_content_sent: 4808
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: While this provides multilingual TTS with emotion tags and zero-shot voice
+  cloning, it appears to be primarily a fine-tuned version of existing MioTTS architecture
+  rather than introducing novel technical approaches for expressive speech synthesis.

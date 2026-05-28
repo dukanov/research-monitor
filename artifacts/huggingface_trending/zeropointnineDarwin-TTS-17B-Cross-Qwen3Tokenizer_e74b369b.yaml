@@ -1,0 +1,78 @@
+title: zeropointnine/Darwin-TTS-1.7B-Cross-Qwen3Tokenizer
+url: https://huggingface.co/zeropointnine/Darwin-TTS-1.7B-Cross-Qwen3Tokenizer
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-28T11:17:26.610531+00:00'
+date_seen: '2026-05-28'
+metadata:
+  likes: '2'
+  downloads: '36'
+  trending_score: '2'
+  last_modified: '2026-05-25T03:44:17.000Z'
+content_preview: '---
+
+  base_model:
+
+  - FINAL-Bench/Darwin-TTS-1.7B-Cross
+
+  - Qwen/Qwen3-TTS-12Hz-1.7B-Base
+
+  - Qwen/Qwen3-1.7B
+
+  language:
+
+  - ko
+
+  - en
+
+  - ja
+
+  - zh
+
+  - de
+
+  - fr
+
+  - ru
+
+  - pt
+
+  - es
+
+  - it
+
+  license: apache-2.0
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - tts
+
+  - text-to-speech
+
+  - darwin
+
+  - qwen3
+
+  - qwen3-tts
+
+  - voice-cloning
+
+  - compatibility-fix
+
+  ---
+
+
+  # Darwin-TTS-1.7B-Cross — Qwen3-TTS compatibility repack
+
+
+  This repository is a compatibility repack of [`FINAL-Bench/Darwin-TTS-1.7B-Cross`](https://huggingface.co/FINAL-Bench/Darwin-TTS-1.7'
+content_length: 7738
+llm_content_sent: 7738
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel cross-modal weight transfer approach that achieves emotional
+  speech synthesis by blending LLM FFN weights into TTS models without any training,
+  which is a creative zero-shot method for expressive synthesis.

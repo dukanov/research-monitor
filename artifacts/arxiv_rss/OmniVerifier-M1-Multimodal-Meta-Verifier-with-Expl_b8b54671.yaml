@@ -1,0 +1,33 @@
+title: 'OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured Recalibration'
+url: https://arxiv.org/abs/2605.28805
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-28T11:16:56.332831+00:00'
+date_seen: '2026-05-28'
+metadata:
+  arxiv_id: '2605.28805'
+  published: Thu, 28 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI, cs.CV, cs.LG
+content_preview: 'Title: OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured
+  Recalibration
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Visual outcomes are increasingly central to multimodal large language models, making
+  reliable and fine-grained verification essential for scaling generalist foundation
+  models. In this work, we investigate multimodal meta-verification, which leverages
+  verifier-generated rationales rather than decision-only signals, and explore how
+  to effectively incorporate meta-verification feedba'
+content_length: 1680
+llm_content_sent: 1680
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on multimodal visual verification systems and has no apparent
+  connection to speech synthesis, emotional expression, or zero-shot audio generation
+  capabilities.

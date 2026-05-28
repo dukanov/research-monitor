@@ -1,0 +1,26 @@
+title: KRAFTON/Raon-OpenTTS-1B
+url: https://huggingface.co/KRAFTON/Raon-OpenTTS-1B
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-28T11:17:26.510870+00:00'
+date_seen: '2026-05-28'
+metadata:
+  likes: '2'
+  downloads: '57'
+  trending_score: '2'
+  last_modified: '2026-05-21T06:59:21.000Z'
+content_preview: "---\nlicense: cc-by-nc-4.0\nlanguage:\n  - en\ndatasets:\n  - KRAFTON/Raon-OpenTTS-Pool\n\
+  tags:\n  - text-to-speech\n  - tts\n  - zero-shot-tts\n  - f5-tts\n  - diffusion-transformer\n\
+  \  - flow-matching\n  - voice-cloning\n  - speech-synthesis\n  - english\npipeline_tag:\
+  \ text-to-speech\n---\n\n# Raon-OpenTTS-1B\n\n<div align=\"center\">\n  <img class=\"\
+  block dark:hidden\" src=\"assets/Raon-OpenTTS-Gradient-Black.png\" alt=\"Raon-OpenTTS\"\
+  \ width=\"600\">\n  <img class=\"hidden dark:block\" src=\"assets/Raon-OpenTTS-Gradient-White.png"
+content_length: 7010
+llm_content_sent: 7010
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.5
+reason: While this is a well-executed open-source TTS model with strong zero-shot
+  capabilities, it primarily represents an incremental improvement using existing
+  F5-TTS architecture rather than introducing novel approaches for emotional/expressive
+  synthesis.

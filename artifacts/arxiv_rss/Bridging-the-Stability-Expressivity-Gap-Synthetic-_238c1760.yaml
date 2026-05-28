@@ -1,0 +1,33 @@
+title: 'Bridging the Stability-Expressivity Gap: Synthetic Data Scaling and Preference
+  Alignment for Low-Resource Spoken Language Models'
+url: https://arxiv.org/abs/2605.27383
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-28T11:16:56.326983+00:00'
+date_seen: '2026-05-28'
+metadata:
+  arxiv_id: '2605.27383'
+  published: Thu, 28 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.AI
+content_preview: 'Title: Bridging the Stability-Expressivity Gap: Synthetic Data Scaling
+  and Preference Alignment for Low-Resource Spoken Language Models
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Spoken Language Models (SLMs) have emerged as a promising paradigm for speech synthesis
+  by bypassing explicit grapheme-to-phoneme pipelines. However, their effectiveness
+  in low-resource languages remains fundamentally limited by the scarcity of transcribed
+  speech. In practice, synthetic data has become the primary strategy for scalin'
+content_length: 1499
+llm_content_sent: 1499
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.8
+reason: Introduces novel self-alignment frameworks (DGSA and TDSC) that specifically
+  address the fundamental stability-expressivity trade-off in synthetic data scaling
+  for spoken language models, enabling zero-shot voice cloning in low-resource languages.

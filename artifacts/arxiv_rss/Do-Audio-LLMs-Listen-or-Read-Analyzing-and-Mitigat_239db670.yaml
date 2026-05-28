@@ -1,0 +1,36 @@
+title: Do Audio LLMs Listen or Read? Analyzing and Mitigating Paralinguistic Failures
+  with VoxParadox
+url: https://arxiv.org/abs/2605.27772
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-28T11:16:56.274876+00:00'
+date_seen: '2026-05-28'
+metadata:
+  arxiv_id: '2605.27772'
+  published: Thu, 28 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.LG
+content_preview: 'Title: Do Audio LLMs Listen or Read? Analyzing and Mitigating Paralinguistic
+  Failures with VoxParadox
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Audio large language models (Audio LLMs) demonstrate strong performance on speech
+  understanding tasks, yet their ability to understand paralinguistic information
+  remains limited. To systematically quantify this issue, we introduce VoxParadox,
+  an adversarial benchmark with 2,000 verified examples, spanning 10 paralinguistic
+  tasks, created with controlled speech synthe'
+content_length: 1750
+llm_content_sent: 1750
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Introduces a novel adversarial benchmark (VoxParadox) that systematically
+  exposes Audio LLMs' failure to process paralinguistic cues by creating transcript-audio
+  mismatches, paired with innovative architectural solutions (PCLM) and training methods
+  (DPO) that directly address the acoustic vs. linguistic information integration
+  problem.
