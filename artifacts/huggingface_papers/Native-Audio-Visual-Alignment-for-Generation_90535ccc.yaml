@@ -1,0 +1,29 @@
+title: Native Audio-Visual Alignment for Generation
+url: https://huggingface.co/papers/2605.30073
+source: huggingface_papers
+type: paper
+date_discovered: '2026-05-29T11:10:28.391876+00:00'
+date_seen: '2026-05-29'
+metadata:
+  upvotes: '15'
+  paper_id: '2605.30073'
+  published_date: '2026-05-29'
+content_preview: 'Title: Native Audio-Visual Alignment for Generation
+
+
+  Summary:
+
+  Joint audio-video generation aims to synthesize temporally synchronized and semantically
+  coherent visual-acoustic content. However, existing open-source methods mainly rely
+  on either dual-tower designs with posterior alignment or fully unified tri-modal
+  designs that mix textual context, audio and video in one shared space. The former
+  weakens fine-grained audio-video co-evolution, while the latter couples semantic
+  conditioning with low'
+content_length: 1495
+llm_content_sent: 1495
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel native audio-visual alignment framework that decouples
+  semantic conditioning from synchronization and adds controllable speech timbre conditioning,
+  which is directly applicable to expressive speech synthesis with controllable characteristics.

@@ -1,0 +1,33 @@
+title: 'FNH-TTS: Mixture-of-Experts Duration Modeling for Robust Neural Speech Synthesis'
+url: https://arxiv.org/abs/2508.12001
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-29T11:10:00.559399+00:00'
+date_seen: '2026-05-29'
+metadata:
+  arxiv_id: '2508.12001'
+  published: Fri, 29 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: FNH-TTS: Mixture-of-Experts Duration Modeling for Robust
+  Neural Speech Synthesis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Current non-autoregressive (NAR) text-to-speech (TTS) systems still struggle to
+  model diverse and speaker-dependent duration variation. We further observe that
+  richer duration variation can increase the synthesis difficulty of existing HiFi-GAN-based
+  vocoders, leading to spectral artifacts and unstable time-frequency structures.
+  To address these issues, we propose FNH-TTS, a VITS-'
+content_length: 1413
+llm_content_sent: 1413
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on duration modeling improvements for general TTS quality
+  and robustness, but does not address emotional/expressive speech synthesis or zero-shot
+  capabilities, which are the core research interests.

@@ -1,0 +1,35 @@
+title: 'MELD: Mel-Spectrogram-Based Speech Language Modeling with Discrete Latent
+  Variables'
+url: https://arxiv.org/abs/2605.29859
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-29T11:10:00.559303+00:00'
+date_seen: '2026-05-29'
+metadata:
+  arxiv_id: '2605.29859'
+  published: Fri, 29 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.CL
+content_preview: 'Title: MELD: Mel-Spectrogram-Based Speech Language Modeling with
+  Discrete Latent Variables
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent speech language models rely on encoders that are optimized separately from
+  autoregressive models. Since these encoders are unaware of the downstream objectives,
+  the extracted representations may not be optimal for downstream tasks. To address
+  this limitation, we introduce a discrete latent variable model on mel spectrograms
+  that jointly optimizes the encoder and the spee'
+content_length: 931
+llm_content_sent: 931
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Joint optimization of encoder and speech language model on mel-spectrograms
+  with discrete latent variables is a meaningful architectural advancement that addresses
+  fundamental issues in autoregressive speech modeling, though the core concepts of
+  discrete representations and joint training are not entirely novel.

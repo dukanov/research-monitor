@@ -1,0 +1,34 @@
+title: An Extensive Analysis of the Singing Voice Conversion Challenge 2025 Evaluation
+  Results
+url: https://arxiv.org/abs/2509.15629
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-29T11:10:00.503003+00:00'
+date_seen: '2026-05-29'
+metadata:
+  arxiv_id: '2509.15629'
+  published: Fri, 29 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: An Extensive Analysis of the Singing Voice Conversion Challenge
+  2025 Evaluation Results
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We present a thorough analysis of the findings of the latest iteration of the Singing
+  Voice Conversion Challenge, a scientific event aiming to compare and understand
+  different voice conversion systems in a controlled environment. Compared to previous
+  iterations which solely focused on converting the singer identity, this year we
+  also focused on converting the singing style '
+content_length: 1802
+llm_content_sent: 1802
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is an evaluation/analysis paper of existing singing voice conversion
+  systems rather than introducing novel methods for emotional/expressive speech synthesis,
+  and focuses on singing rather than speech with no mention of zero-shot capabilities.

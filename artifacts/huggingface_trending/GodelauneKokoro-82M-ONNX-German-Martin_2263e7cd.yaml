@@ -1,0 +1,55 @@
+title: Godelaune/Kokoro-82M-ONNX-German-Martin
+url: https://huggingface.co/Godelaune/Kokoro-82M-ONNX-German-Martin
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-29T11:10:35.784377+00:00'
+date_seen: '2026-05-29'
+metadata:
+  likes: '10'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-05-22T17:55:06.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - de
+
+  base_model:
+
+  - kikiri-tts/kikiri-german-martin
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - onnx
+
+  - single-speaker
+
+  - kokoro
+
+  - text-to-speech
+
+  - german
+
+  ---
+
+
+  # 🗣️ Kokoro TTS - German Voice ''Martin'' (ONNX)
+
+
+  [Github Repository](https://github.com/Godelaune/Kokoro-82M-ONNX-German-Martin)
+
+
+  This repository provides an **ONNX exported version** with **German text normalization**
+  of the German Kokoro TTS model [kikiri-german-martin](https://huggingface.co/kikiri-tts/kikiri-ger'
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This is simply an ONNX conversion of an existing German TTS model with no
+  novel contributions to emotional/expressive speech synthesis or zero-shot capabilities.

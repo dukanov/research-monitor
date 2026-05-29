@@ -1,0 +1,32 @@
+title: 'EvA: An Evidence-First Audio Understanding Paradigm for LALMs'
+url: https://arxiv.org/abs/2603.27667
+source: arxiv_rss
+type: paper
+date_discovered: '2026-05-29T11:10:00.503272+00:00'
+date_seen: '2026-05-29'
+metadata:
+  arxiv_id: '2603.27667'
+  published: Fri, 29 May 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: EvA: An Evidence-First Audio Understanding Paradigm for LALMs
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Large Audio Language Models (LALMs) still struggle in complex acoustic scenes because
+  they often fail to preserve task-relevant acoustic evidence before reasoning begins.
+  We identify this error pattern as the evidence bottleneck: state-of-the-art systems
+  show larger deficits in acoustic evidence extraction than in downstream reasoning,
+  suggesting that upstream perception is often the limiting factor'
+content_length: 1428
+llm_content_sent: 1428
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on general audio understanding and perception rather than
+  speech synthesis, and doesn't address emotional/expressive synthesis or zero-shot
+  speech generation capabilities.

@@ -1,0 +1,30 @@
+title: 'ChildVox: A Speech, Audio, and Large Audio-Language Model Benchmark in Understanding
+  and Characterizing Sound across Childhood'
+url: https://huggingface.co/papers/2605.29257
+source: huggingface_papers
+type: paper
+date_discovered: '2026-05-29T11:10:28.392818+00:00'
+date_seen: '2026-05-29'
+metadata:
+  upvotes: '3'
+  paper_id: '2605.29257'
+  published_date: '2026-05-29'
+content_preview: 'Title: ChildVox: A Speech, Audio, and Large Audio-Language Model
+  Benchmark in Understanding and Characterizing Sound across Childhood
+
+
+  Summary:
+
+  We present ChildVox, a novel benchmark for characterizing the diverse acoustic signals
+  through which children communicate. Specifically, ChildVox follows the full developmental
+  trajectory from birth through school age, covering physiological sounds, non-linguistic
+  vocalizations, canonical syllables, and spoken language. ChildVox integrates more
+  than 20 s'
+content_length: 1212
+llm_content_sent: 1212
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is primarily a benchmark/dataset contribution for child speech analysis
+  rather than introducing novel methods for emotional/expressive speech synthesis
+  or zero-shot capabilities.
