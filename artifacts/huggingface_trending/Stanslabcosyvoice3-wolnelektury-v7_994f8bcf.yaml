@@ -1,0 +1,65 @@
+title: Stanslab/cosyvoice3-wolnelektury-v7
+url: https://huggingface.co/Stanslab/cosyvoice3-wolnelektury-v7
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-30T10:37:17.550480+00:00'
+date_seen: '2026-05-30'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-05-27T17:31:40.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  base_model:
+
+  - FunAudioLLM/Fun-CosyVoice3-0.5B-2512
+
+  pipeline_tag: text-to-speech
+
+  language:
+
+  - pl
+
+  tags:
+
+  - cosyvoice
+
+  - cosyvoice3
+
+  - text-to-speech
+
+  - polish
+
+  - lora
+
+  - adapter
+
+  - wolne-lektury
+
+  library_name: pytorch
+
+  ---
+
+
+  # CosyVoice3 WolneLektury v7 Fine-Tune
+
+
+  This repository contains an inference checkpoint for a Polish CosyVoice3 fine-tune
+  trained on audiobook-style Polish speech from Wolne Lektury data.
+
+
+  ## Important: LoRA Adapter, Not A Full Model
+
+
+  This is a **LoRA adapter/che'
+content_length: 7861
+llm_content_sent: 7861
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This is a standard LoRA fine-tune of an existing model (CosyVoice3) for Polish
+  language without any novel emotional/expressive capabilities or zero-shot innovations
+  beyond basic cross-lingual voice cloning.
