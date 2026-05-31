@@ -1,0 +1,57 @@
+title: FunAudioLLM/CosyVoice-300M
+url: https://huggingface.co/FunAudioLLM/CosyVoice-300M
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-31T10:42:42.717162+00:00'
+date_seen: '2026-05-31'
+metadata:
+  likes: '8'
+  downloads: '836'
+  trending_score: '1'
+  last_modified: '2026-05-31T03:09:57.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - zh
+
+  - en
+
+  - fr
+
+  - es
+
+  - ja
+
+  - ko
+
+  - it
+
+  - ru
+
+  - de
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  ![SVG Banners](https://svg-banners.vercel.app/api?type=origin&text1=CosyVoice🤠&text2=Text-to-Speech%20💖%20Large%20Language%20Model&width=800&height=210)
+
+
+  ## 👉🏻 CosyVoice 👈🏻
+
+
+  **Fun-CosyVoice 3.0**: [Demos](https://funaudiollm.github.io/cosyvoice3/); [Paper](https://arxiv.org/abs/2505.17589);
+  [Modelscope](https://www.modelscope.cn/models/FunAudioLLM/Fun-CosyVoice3-0.5B-2512);
+  [Huggingfa'
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a comprehensive zero-shot multilingual TTS system with instruction
+  support for emotions/prosody control and achieves strong performance across 9 languages
+  with streaming capabilities, though the core LLM-based TTS approach is incremental.

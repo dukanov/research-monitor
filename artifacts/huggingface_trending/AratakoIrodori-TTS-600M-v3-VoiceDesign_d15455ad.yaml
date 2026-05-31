@@ -1,0 +1,50 @@
+title: Aratako/Irodori-TTS-600M-v3-VoiceDesign
+url: https://huggingface.co/Aratako/Irodori-TTS-600M-v3-VoiceDesign
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-05-31T10:42:40.412995+00:00'
+date_seen: '2026-05-31'
+metadata:
+  likes: '2'
+  downloads: '0'
+  trending_score: '2'
+  last_modified: '2026-05-31T05:54:57.000Z'
+content_preview: '---
+
+  license: mit
+
+  language:
+
+  - ja
+
+  pipeline_tag: text-to-speech
+
+  tags:
+
+  - speech
+
+  - voice
+
+  - tts
+
+  base_model:
+
+  - Aratako/Irodori-TTS-500M-v2
+
+  ---
+
+
+  # Irodori-TTS-600M-v3-VoiceDesign
+
+
+  [![Code](https://img.shields.io/badge/Code-GitHub-black)](https://github.com/Aratako/Irodori-TTS)
+  [![WandB](https://img.shields.io/badge/Training%20Log-WandB-orange)](https://api.wandb.ai/links/aratako-lm/2ctrvcim)
+  [![Demo Space](https://img.shields.io/badge/Demo-HuggingFace%20Space-red)](https://huggingface.co/spaces/Aratako/'
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel multi-modal conditioning approach that simultaneously uses
+  reference audio for voice cloning and text captions for emotion/style control, enabling
+  zero-shot expressive speech synthesis with fine-grained style manipulation.
