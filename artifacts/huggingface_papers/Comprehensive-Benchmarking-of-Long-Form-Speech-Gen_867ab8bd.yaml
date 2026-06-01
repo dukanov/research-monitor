@@ -1,0 +1,29 @@
+title: Comprehensive Benchmarking of Long-Form Speech Generation in Diverse Scenarios
+url: https://huggingface.co/papers/2605.28618
+source: huggingface_papers
+type: paper
+date_discovered: '2026-06-01T12:03:35.193263+00:00'
+date_seen: '2026-06-01'
+metadata:
+  upvotes: '24'
+  paper_id: '2605.28618'
+  published_date: '2026-06-01'
+content_preview: 'Title: Comprehensive Benchmarking of Long-Form Speech Generation
+  in Diverse Scenarios
+
+
+  Summary:
+
+  Recent advances in speech generation have enabled high-fidelity synthesis, yet systematic
+  evaluation of models under long-context conditions remains largely underexplored.
+  A comprehensive evaluation benchmark for long-form speech is indispensable for two
+  reasons: 1) existing test scenarios are often confined to limited domains, creating
+  a significant gap with the diverse downstream applications; 2) ex'
+content_length: 1519
+llm_content_sent: 1519
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a comprehensive benchmark specifically for long-form speech generation
+  with systematic evaluation of expressiveness and consistency across diverse scenarios,
+  addressing a significant gap in current evaluation methodologies.

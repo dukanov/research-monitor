@@ -1,0 +1,34 @@
+title: 'Chatterbox-Flash: Prior-Calibrated Block Diffusion for Streaming Zero-Shot
+  TTS'
+url: https://arxiv.org/abs/2605.30748
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-01T12:03:06.659785+00:00'
+date_seen: '2026-06-01'
+metadata:
+  arxiv_id: '2605.30748'
+  published: Mon, 01 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI, eess.AS
+content_preview: 'Title: Chatterbox-Flash: Prior-Calibrated Block Diffusion for Streaming
+  Zero-Shot TTS
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We present Chatterbox-Flash, a zero-shot text-to-speech model obtained by fine-tuning
+  a pretrained autoregressive TTS decoder into a block-diffusion decoder, enabling
+  parallel token generation within each block while retaining block-by-block streaming.
+  We find that naively transferring mainstream block-diffusion decoding to discrete
+  speech tokens degrades quality, as a long-tail tok'
+content_length: 1356
+llm_content_sent: 1356
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces novel prior-calibrated scoring and early-decoding techniques to
+  address token distribution bias in block-diffusion TTS, enabling streaming zero-shot
+  synthesis without architectural changes.

@@ -1,0 +1,57 @@
+title: FunAudioLLM/CosyVoice-300M-Instruct
+url: https://huggingface.co/FunAudioLLM/CosyVoice-300M-Instruct
+source: huggingface_trending
+type: model_card
+date_discovered: '2026-06-01T12:03:46.610281+00:00'
+date_seen: '2026-06-01'
+metadata:
+  likes: '13'
+  downloads: '299'
+  trending_score: '1'
+  last_modified: '2026-05-31T03:10:20.000Z'
+content_preview: '---
+
+  license: apache-2.0
+
+  language:
+
+  - zh
+
+  - en
+
+  - fr
+
+  - es
+
+  - ja
+
+  - ko
+
+  - it
+
+  - ru
+
+  - de
+
+  pipeline_tag: text-to-speech
+
+  ---
+
+
+  ![SVG Banners](https://svg-banners.vercel.app/api?type=origin&text1=CosyVoice🤠&text2=Text-to-Speech%20💖%20Large%20Language%20Model&width=800&height=210)
+
+
+  ## 👉🏻 CosyVoice 👈🏻
+
+
+  **Fun-CosyVoice 3.0**: [Demos](https://funaudiollm.github.io/cosyvoice3/); [Paper](https://arxiv.org/abs/2505.17589);
+  [Modelscope](https://www.modelscope.cn/models/FunAudioLLM/Fun-CosyVoice3-0.5B-2512);
+  [Huggingfa'
+content_length: 10000
+llm_content_sent: 8000
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces instruction-following capabilities for TTS with multi-lingual zero-shot
+  synthesis and emotional control through natural language prompts, representing a
+  meaningful advancement in controllable speech synthesis.

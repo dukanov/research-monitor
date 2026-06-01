@@ -1,0 +1,32 @@
+title: 'Escaping the Linearity Trap: Manifold Detours for Black-Box Adversarial Attacks
+  on Singing Audio Deepfake Detection'
+url: https://arxiv.org/abs/2605.30366
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-01T12:03:06.659952+00:00'
+date_seen: '2026-06-01'
+metadata:
+  arxiv_id: '2605.30366'
+  published: Mon, 01 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CR, cs.SD, eess.AS
+content_preview: 'Title: Escaping the Linearity Trap: Manifold Detours for Black-Box
+  Adversarial Attacks on Singing Audio Deepfake Detection
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent Singing Voice Synthesis (SVS) advances enable highly realistic but potentially
+  malicious AI covers, making singing voice deepfake detection (SVDD) crucial. Self-Supervised
+  Learning (SSL)-based detectors achieve state-of-the-art performance by fine-tuning
+  speech SSL backbones to capture singing-specific spoof artifacts. Existing adversarial'
+content_length: 1934
+llm_content_sent: 1934
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on adversarial attacks against deepfake detection systems
+  rather than advancing emotional/expressive speech synthesis or zero-shot capabilities.

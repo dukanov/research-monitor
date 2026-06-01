@@ -1,0 +1,33 @@
+title: 'OpenSTBench: Beyond Semantic Evaluation for Speech Translation'
+url: https://arxiv.org/abs/2605.30792
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-01T12:03:06.674662+00:00'
+date_seen: '2026-06-01'
+metadata:
+  arxiv_id: '2605.30792'
+  published: Mon, 01 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI
+content_preview: 'Title: OpenSTBench: Beyond Semantic Evaluation for Speech Translation
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech translation systems increasingly span speech-to-text translation (S2TT),
+  speech-to-speech translation (S2ST), offline translation, and streaming generation,
+  producing outputs that differ in modality, speech realization, and timing behavior.
+  Existing evaluation practices assess important aspects such as translation quality,
+  speech quality, and temporal quality, but these aspects are often eva'
+content_length: 1566
+llm_content_sent: 1566
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a unified evaluation framework that jointly assesses multiple dimensions
+  including emotion and paralinguistic fidelity in speech translation systems, which
+  is valuable for expressive speech synthesis evaluation despite being primarily a
+  benchmarking contribution rather than a novel synthesis method.

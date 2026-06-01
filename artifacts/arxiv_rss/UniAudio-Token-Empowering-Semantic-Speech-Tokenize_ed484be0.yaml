@@ -1,0 +1,34 @@
+title: 'UniAudio-Token: Empowering Semantic Speech Tokenizers with General Audio Perception'
+url: https://arxiv.org/abs/2605.31521
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-01T12:03:06.660227+00:00'
+date_seen: '2026-06-01'
+metadata:
+  arxiv_id: '2605.31521'
+  published: Mon, 01 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.SD
+content_preview: 'Title: UniAudio-Token: Empowering Semantic Speech Tokenizers with
+  General Audio Perception
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Semantic speech tokenizers have become a widely used interface for Audio-LLMs, owing
+  to their compact single-codebook design and strong linguistic alignment. However,
+  their focus on linguistic abstraction induces acoustic blindness, limiting their
+  applicability beyond speech-centric tasks. We propose UniAudio-Token, a framework
+  that empowers semantic tokenizers with general aud'
+content_length: 1588
+llm_content_sent: 1588
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel framework that addresses the acoustic blindness limitation
+  of semantic speech tokenizers through structured audio decomposition (SAP) and adaptive
+  gating (SAE), enabling unified audio understanding while preserving speech synthesis
+  quality.

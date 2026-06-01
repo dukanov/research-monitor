@@ -1,0 +1,33 @@
+title: 'ImmersiveTTS: Environment-Aware Text-to-Speech with Multimodal Diffusion Transformer
+  and Domain-Specific Representation Alignment'
+url: https://arxiv.org/abs/2605.30965
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-01T12:03:06.674674+00:00'
+date_seen: '2026-06-01'
+metadata:
+  arxiv_id: '2605.30965'
+  published: Mon, 01 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.AI, cs.CL
+content_preview: 'Title: ImmersiveTTS: Environment-Aware Text-to-Speech with Multimodal
+  Diffusion Transformer and Domain-Specific Representation Alignment
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Recent advancements in text-guided audio generation have yielded promising results
+  in diverse domains, including sound effects, speech, and music. However, jointly
+  generating speech with environmental audio remains challenging due to the inherent
+  disparities in their acoustic patterns and temporal dynamics. We propose ImmersiveTTS, '
+content_length: 1350
+llm_content_sent: 1350
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel multimodal diffusion transformer approach for environment-aware
+  TTS that jointly models speech and environmental audio with cross-modal attention,
+  addressing an underexplored problem in speech synthesis.

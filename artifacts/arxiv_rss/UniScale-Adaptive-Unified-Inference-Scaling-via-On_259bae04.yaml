@@ -1,0 +1,34 @@
+title: 'UniScale: Adaptive Unified Inference Scaling via Online Joint Optimization
+  of Model Routing and Test-Time Scaling'
+url: https://arxiv.org/abs/2605.30898
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-01T12:03:06.700327+00:00'
+date_seen: '2026-06-01'
+metadata:
+  arxiv_id: '2605.30898'
+  published: Mon, 01 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.AI, cs.CL
+content_preview: 'Title: UniScale: Adaptive Unified Inference Scaling via Online Joint
+  Optimization of Model Routing and Test-Time Scaling
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  In real-world deployments of large language models (LLMs), balancing inference quality
+  and computational cost has become a central challenge. Existing approaches tackle
+  this trade-off along two largely independent dimensions: model routing, which switches
+  among models of different scales to match request complexity, and test-time scaling
+  (TTS), whi'
+content_length: 1736
+llm_content_sent: 1736
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This paper focuses on computational efficiency optimization for large language
+  models during inference, which is completely unrelated to emotional/expressive speech
+  synthesis or zero-shot speech generation capabilities.

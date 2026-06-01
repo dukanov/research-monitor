@@ -1,0 +1,33 @@
+title: 'UNISON: A Unified Sound Generation and Editing Framework via Deep LLM Fusion'
+url: https://arxiv.org/abs/2605.31530
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-01T12:03:06.660234+00:00'
+date_seen: '2026-06-01'
+metadata:
+  arxiv_id: '2605.31530'
+  published: Mon, 01 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: UNISON: A Unified Sound Generation and Editing Framework
+  via Deep LLM Fusion
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We present UNISON, a latent diffusion framework that unifies speech generation,
+  sound generation, and audio editing within a single model. A single model handles
+  text-to-audio, text-to-speech, zero-shot speaker cloning, mixed speech-and-sound
+  generation, scene-level audio editing, speech-in-scene editing, and timed temporal
+  composition, all of which share a single set of weights. Our '
+content_length: 1434
+llm_content_sent: 1434
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Introduces a novel unified architecture with layer-wise deep LLM fusion and
+  channel-wise task masking that enables zero-shot capabilities across multiple audio
+  tasks including expressive speech synthesis within a single compact model.

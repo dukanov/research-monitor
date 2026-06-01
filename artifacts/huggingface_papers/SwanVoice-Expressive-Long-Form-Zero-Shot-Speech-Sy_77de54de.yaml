@@ -1,0 +1,31 @@
+title: 'SwanVoice: Expressive Long-Form Zero-Shot Speech Synthesis for Both Monologue
+  and Dialogue'
+url: https://huggingface.co/papers/2605.30993
+source: huggingface_papers
+type: paper
+date_discovered: '2026-06-01T12:03:35.193013+00:00'
+date_seen: '2026-06-01'
+metadata:
+  upvotes: '34'
+  paper_id: '2605.30993'
+  published_date: '2026-06-01'
+content_preview: 'Title: SwanVoice: Expressive Long-Form Zero-Shot Speech Synthesis
+  for Both Monologue and Dialogue
+
+
+  Summary:
+
+  Zero-shot text-to-speech (TTS) has improved substantially for single-speaker synthesis,
+  yet expressive long-form multi-speaker dialogue remains difficult. A common workaround
+  is to synthesize each turn with a monologue TTS model and stitch the outputs together.
+  This adds inference cost and often breaks acoustic consistency, conversational coherence,
+  and affective continuity across turns. R'
+content_length: 1621
+llm_content_sent: 1621
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces a novel approach to zero-shot expressive dialogue TTS by combining
+  pause-aware text conditioning, speaker-turn conditioning in a flow-matching DiT
+  architecture, and multi-stage training from monologue to dialogue with DiffusionNFT
+  post-training for maintaining conversational coherence.

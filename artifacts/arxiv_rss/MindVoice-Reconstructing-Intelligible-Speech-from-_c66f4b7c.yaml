@@ -1,0 +1,34 @@
+title: 'MindVoice: Reconstructing Intelligible Speech from Non-invasive Neural Signals
+  with Pretrained Priors'
+url: https://arxiv.org/abs/2605.31173
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-01T12:03:06.659891+00:00'
+date_seen: '2026-06-01'
+metadata:
+  arxiv_id: '2605.31173'
+  published: Mon, 01 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: MindVoice: Reconstructing Intelligible Speech from Non-invasive
+  Neural Signals with Pretrained Priors
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Reconstructing continuous speech from non-invasive neural recordings is a fundamental
+  problem for probing human auditory perception and building safe, scalable speech
+  brain-computer interfaces. Despite recent progress, intelligible reconstruction
+  remains elusive, as non-invasive recordings are inherently noisy, spatially blurred,
+  and only partially preserve in'
+content_length: 1752
+llm_content_sent: 1752
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While the neural signal reconstruction approach is novel, this work focuses
+  on brain-computer interfaces rather than emotional/expressive speech synthesis,
+  and lacks zero-shot capabilities for emotional expression generation.

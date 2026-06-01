@@ -1,0 +1,34 @@
+title: 'Rethinking Continual Learning for Speech and Audio: A Representation-Centric
+  Taxonomy and Open Problems'
+url: https://arxiv.org/abs/2605.24863
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-01T12:03:06.660530+00:00'
+date_seen: '2026-06-01'
+metadata:
+  arxiv_id: '2605.24863'
+  published: Mon, 01 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: Rethinking Continual Learning for Speech and Audio: A Representation-Centric
+  Taxonomy and Open Problems
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech and audio systems operate in inherently non-stationary environments, yet
+  continual learning (CL) research in this domain, especially in the foundation model
+  era, remains fragmented that fail to account for the coupled, geometry-sensitive
+  nature of acoustic representations. Modern speech foundation models operate over
+  highly entangled, continuous repre'
+content_length: 1253
+llm_content_sent: 1253
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While this paper addresses continual learning in speech systems, it focuses
+  on taxonomizing existing approaches rather than developing new methods for emotional/expressive
+  speech synthesis or zero-shot capabilities.
