@@ -1,0 +1,34 @@
+title: 'VocSim: A Training-free Benchmark for Zero-shot Content Identity in Single-source
+  Audio'
+url: https://arxiv.org/abs/2512.10120
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-02T11:33:16.779971+00:00'
+date_seen: '2026-06-02'
+metadata:
+  arxiv_id: '2512.10120'
+  published: Tue, 02 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.AI
+content_preview: 'Title: VocSim: A Training-free Benchmark for Zero-shot Content Identity
+  in Single-source Audio
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  General-purpose audio representations aim to map acoustically variable instances
+  of the same event to nearby points, resolving content identity in a zero-shot setting.
+  Unlike supervised classification benchmarks that measure adaptability via parameter
+  updates, we introduce VocSim, a training-free benchmark probing the intrinsic geometric
+  alignment of frozen embeddings, with'
+content_length: 1694
+llm_content_sent: 1694
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: While this introduces a novel training-free benchmark for audio content identity,
+  it focuses on general audio representation evaluation rather than emotional/expressive
+  speech synthesis or zero-shot generation capabilities.

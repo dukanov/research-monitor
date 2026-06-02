@@ -1,0 +1,33 @@
+title: Local Diagnostics of Continuous Normalizing Flow for Out-of-Distribution Detection
+url: https://arxiv.org/abs/2606.00684
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-02T11:33:16.779375+00:00'
+date_seen: '2026-06-02'
+metadata:
+  arxiv_id: '2606.00684'
+  published: Tue, 02 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.CL, cs.SD
+content_preview: 'Title: Local Diagnostics of Continuous Normalizing Flow for Out-of-Distribution
+  Detection
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We address the problem of out-of-distribution (OOD) detection for target observations
+  embedded in a subspace of the high dimensional data space. Using continuous normalizing
+  flows (CNFs), we propose a Lagrangian sub-flow (LSF) framework designed to isolate
+  and estimate the density for the relevant components in the representation and using
+  the remaining components as context. Th'
+content_length: 1370
+llm_content_sent: 1370
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Novel application of continuous normalizing flows with geometric diagnostics
+  to address the likelihood paradox in speech synthesis, specifically for zero-shot
+  phoneme-level mispronunciation detection.

@@ -1,0 +1,35 @@
+title: 'DUET: Unified Dual-Space Emotion Control for Diffusion and Flow-Matching Driven
+  Text-to-Speech'
+url: https://arxiv.org/abs/2606.00066
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-02T11:33:16.778726+00:00'
+date_seen: '2026-06-02'
+metadata:
+  arxiv_id: '2606.00066'
+  published: Tue, 02 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, eess.AS
+content_preview: 'Title: DUET: Unified Dual-Space Emotion Control for Diffusion and
+  Flow-Matching Driven Text-to-Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Diffusion and flow-matching based text-to-speech (TTS) models excel in naturalness
+  but often lack explicit emotion control, as emotional signals remain entangled with
+  speaker identity. We discover that emotion embedding emerges as a linearly decodable
+  direction of frozen hidden states, nearly orthogonal to the direction embedding
+  speaker identity. This inspires a plu'
+content_length: 1522
+llm_content_sent: 1522
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.8
+reason: Introduces a novel plug-and-play framework that discovers emotion embeddings
+  as linearly decodable directions orthogonal to speaker identity in frozen pretrained
+  models, enabling zero-shot emotion control through unified dual-space intervention
+  without retraining.

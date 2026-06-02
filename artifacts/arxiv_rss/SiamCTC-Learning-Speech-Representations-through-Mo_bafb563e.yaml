@@ -1,0 +1,34 @@
+title: 'SiamCTC: Learning Speech Representations through Monotonic Temporal Alignment'
+url: https://arxiv.org/abs/2606.02220
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-02T11:33:16.794714+00:00'
+date_seen: '2026-06-02'
+metadata:
+  arxiv_id: '2606.02220'
+  published: Tue, 02 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: SiamCTC: Learning Speech Representations through Monotonic
+  Temporal Alignment
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Self-supervised speech representation learning has made significant progress through
+  Siamese networks, which leverage different views of the same input. However, existing
+  methods often require frame-wise alignment between these views, overlooking the
+  broader linguistic context invariance across different speaking styles. We introduce
+  SiamCTC, a framework that integrates Siamese netwo'
+content_length: 1197
+llm_content_sent: 1197
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.3
+reason: While the combination of Siamese networks with CTC for flexible temporal alignment
+  is moderately interesting, this work focuses on general speech representation learning
+  rather than emotional/expressive synthesis, and lacks zero-shot capabilities for
+  emotional expression generation.

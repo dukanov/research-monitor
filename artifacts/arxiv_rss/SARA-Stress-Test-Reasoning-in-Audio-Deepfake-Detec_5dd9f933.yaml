@@ -1,0 +1,32 @@
+title: 'SARA: Stress Test Reasoning in Audio Deepfake Detection'
+url: https://arxiv.org/abs/2601.03615
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-02T11:33:16.780353+00:00'
+date_seen: '2026-06-02'
+metadata:
+  arxiv_id: '2601.03615'
+  published: Tue, 02 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL, cs.SD, eess.AS
+content_preview: 'Title: SARA: Stress Test Reasoning in Audio Deepfake Detection
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Audio Language Models (ALMs) offer a promising shift towards explainable audio deepfake
+  detections (ADD), moving beyond \textit{black-box} classifiers by providing transparency
+  to their predictions via reasoning traces. However, such reasoning may not support
+  the model predictions, reflecting poor coherence, or, worse, may rationalize incorrect
+  predictions with plausible but misleading explanation. Moreov'
+content_length: 1787
+llm_content_sent: 1787
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This paper focuses on audio deepfake detection and adversarial robustness
+  analysis rather than emotional/expressive speech synthesis or zero-shot generation
+  capabilities.

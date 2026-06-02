@@ -1,0 +1,33 @@
+title: 'Sympatheia: Emotionally Adaptive Voice Assistant with Continuous Affect Conditioning'
+url: https://arxiv.org/abs/2606.00851
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-02T11:33:16.778839+00:00'
+date_seen: '2026-06-02'
+metadata:
+  arxiv_id: '2606.00851'
+  published: Tue, 02 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD, cs.CL, cs.HC, cs.LG, eess.AS
+content_preview: 'Title: Sympatheia: Emotionally Adaptive Voice Assistant with Continuous
+  Affect Conditioning
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Empathetic spoken dialogue systems must infer a user''s emotional state to respond
+  appropriately, yet everyday speech often carries weak, neutral, or ambiguous affective
+  cues. To address this, we introduce Sympatheia, a speech-to-speech dialogue framework
+  conditioned on affect inferred from the user''s speech and, when available, explicit
+  affect specifications provided as a cont'
+content_length: 1677
+llm_content_sent: 1677
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: The continuous valence-arousal conditioning interface for integrating multimodal
+  emotion sensing with speech synthesis is a novel contribution, though the core speech
+  synthesis techniques appear incremental.

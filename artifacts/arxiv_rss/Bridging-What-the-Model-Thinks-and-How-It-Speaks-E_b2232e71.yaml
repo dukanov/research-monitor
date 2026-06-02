@@ -1,0 +1,34 @@
+title: 'Bridging What the Model Thinks and How It Speaks: Expressive Speech Generation
+  via Self-Aware Intent-Realization Alignment'
+url: https://arxiv.org/abs/2604.11424
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-02T11:33:16.848983+00:00'
+date_seen: '2026-06-02'
+metadata:
+  arxiv_id: '2604.11424'
+  published: Tue, 02 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Bridging What the Model Thinks and How It Speaks: Expressive
+  Speech Generation via Self-Aware Intent-Realization Alignment
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Speech Language Models (SLMs) exhibit strong semantic understanding, yet often fail
+  to translate this capacity into expressive acoustic realization, producing speech
+  with flattened prosody and misaligned emotion. We identify this mismatch as the
+  semantic understanding-acoustic realization gap. Existing approaches typically rely
+  on external'
+content_length: 1665
+llm_content_sent: 1665
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.85
+reason: Introduces a novel proxy-free framework that uses self-distillation and variational
+  information bottleneck to bridge semantic understanding with expressive acoustic
+  realization, eliminating the need for external emotion labels or style annotations.

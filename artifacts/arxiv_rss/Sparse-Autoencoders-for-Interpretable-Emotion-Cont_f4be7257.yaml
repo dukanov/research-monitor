@@ -1,0 +1,33 @@
+title: Sparse Autoencoders for Interpretable Emotion Control in Text-to-Speech
+url: https://arxiv.org/abs/2606.01479
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-02T11:33:16.835982+00:00'
+date_seen: '2026-06-02'
+metadata:
+  arxiv_id: '2606.01479'
+  published: Tue, 02 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.CL
+content_preview: 'Title: Sparse Autoencoders for Interpretable Emotion Control in
+  Text-to-Speech
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Integrating large language models (LLMs) into text-to-speech (TTS) systems has improved
+  speech expressiveness, yet interpretable emotional control remains challenging.
+  Existing approaches primarily rely on external conditioning or global activation
+  steering, offering limited insight into the internal representations underlying
+  emotional control. In this work, we analyze emotion-related var'
+content_length: 1472
+llm_content_sent: 1472
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.75
+reason: Novel use of sparse autoencoders to decompose and interpretably control emotional
+  representations in LLM-based TTS, moving beyond global conditioning to feature-level
+  intervention with bidirectional emotion control.

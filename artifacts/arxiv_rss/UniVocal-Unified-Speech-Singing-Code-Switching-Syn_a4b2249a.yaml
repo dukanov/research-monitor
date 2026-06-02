@@ -1,0 +1,32 @@
+title: 'UniVocal: Unified Speech-Singing Code-Switching Synthesis'
+url: https://arxiv.org/abs/2606.01677
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-02T11:33:16.778943+00:00'
+date_seen: '2026-06-02'
+metadata:
+  arxiv_id: '2606.01677'
+  published: Tue, 02 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: cs.SD
+content_preview: 'Title: UniVocal: Unified Speech-Singing Code-Switching Synthesis
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  We propose UniVocal, a unified framework that implicitly infers vocal modes from
+  text context to pioneer Speech-Singing Code-Switching (SCS) Synthesis - a task where
+  transitions are autonomously driven by textual semantics, akin to seamless human
+  language blending. Unlike single-mode generation or systems relying on switching-control
+  tags, our proposed UniVocal implicitly infers vocal modes solely from '
+content_length: 1600
+llm_content_sent: 1600
+relevance_checked: true
+is_relevant: true
+relevance_score: 0.7
+reason: Introduces automatic speech-singing mode switching based on text context without
+  explicit control tags, which is novel for expressive synthesis, though the zero-shot
+  capability aspect isn't clearly demonstrated.

@@ -1,0 +1,32 @@
+title: Kinship Verification Using Voice
+url: https://arxiv.org/abs/2606.01704
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-02T11:33:16.794559+00:00'
+date_seen: '2026-06-02'
+metadata:
+  arxiv_id: '2606.01704'
+  published: Tue, 02 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS
+content_preview: 'Title: Kinship Verification Using Voice
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Kinship verification (KV) from voice, the task of determining whether two speakers
+  are biologically related, has received only little attention. Our work establishes
+  a foundational basis for this emerging frontier, contributing to both performance
+  evaluation and detection methodologies. First, leveraging the speech recordings
+  of the large-scale audio-visual dataset, KAN-AV, we propose a revised evaluation
+  protocol that controls'
+content_length: 1594
+llm_content_sent: 1594
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.1
+reason: This work focuses on kinship verification from voice recordings, which is
+  unrelated to emotional/expressive speech synthesis or zero-shot synthesis capabilities.

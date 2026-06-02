@@ -1,0 +1,34 @@
+title: Advancing Electrolaryngeal Speech Enhancement Through Speech-Text Representation
+  Learning
+url: https://arxiv.org/abs/2606.01905
+source: arxiv_rss
+type: paper
+date_discovered: '2026-06-02T11:33:16.779679+00:00'
+date_seen: '2026-06-02'
+metadata:
+  arxiv_id: '2606.01905'
+  published: Tue, 02 Jun 2026 00:00:00 -0400
+  authors: Unknown
+  categories: eess.AS, cs.SD
+content_preview: 'Title: Advancing Electrolaryngeal Speech Enhancement Through Speech-Text
+  Representation Learning
+
+
+  Authors: Unknown
+
+
+  Abstract:
+
+  Objective: laryngectomees depend on an electromechanical device to generate electrolaryngeal
+  (EL) speech. Compared with normal speech, EL speech suffers from severe distortion,
+  limited phonetic variation, unnatural prosody, and temporal shifts, degrading naturalness
+  and intelligibility. Although sequence-to-sequence (seq2seq) voice conversion (VC)
+  based EL-speech-to-norma'
+content_length: 2126
+llm_content_sent: 2126
+relevance_checked: true
+is_relevant: false
+relevance_score: 0.2
+reason: This work focuses on electrolaryngeal speech enhancement for medical applications
+  rather than emotional/expressive synthesis, and uses conventional speech-text representation
+  learning without zero-shot capabilities.
